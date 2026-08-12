@@ -1,0 +1,261 @@
+{
+  "archive": {
+    "path": "F:\\DOWN\\Fatal.Twelve.Incl.DLC\\Fatal.Twelve.Incl.DLC\\Fatal Twelve\\game\\tl.rpa",
+    "size": 78290069,
+    "sha256": "ad628d5aa7b0601e69fa99c13d6f67c21854ae0a290599dc478a986cfc53ac5f",
+    "header": "RPA-3.0 0000000004aa9968 42424242",
+    "format": "RPA-3.0",
+    "index_offset": 78289256,
+    "xor_key_hex": "42424242",
+    "entry_count": 35,
+    "compressed_index_sha256": "5133dcb8af40b03ae539781d56d467cc27c62cb85e545b91f9ea163496a65947",
+    "raw_index_sha256": "01d6163cad9cf3f849af99aeacd9b21441280f7a0e73b64f8f2f279868d5f3d9"
+  },
+  "entries": {
+    "tl/english/characters.rpyc": [
+      {
+        "offset": 51,
+        "length": 6088,
+        "prefix_length": 0
+      }
+    ],
+    "tl/english/gamedata.rpyc": [
+      {
+        "offset": 6156,
+        "length": 195878,
+        "prefix_length": 0
+      }
+    ],
+    "tl/english/gui/demo_last_bg.png": [
+      {
+        "offset": 202051,
+        "length": 1470573,
+        "prefix_length": 0
+      }
+    ],
+    "tl/english/movies/OP.mkv": [
+      {
+        "offset": 1672641,
+        "length": 72188214,
+        "prefix_length": 0
+      }
+    ],
+    "tl/english/scenario/001.rpyc": [
+      {
+        "offset": 73860872,
+        "length": 213912,
+        "prefix_length": 0
+      }
+    ],
+    "tl/english/scenario/002.rpyc": [
+      {
+        "offset": 74074801,
+        "length": 171758,
+        "prefix_length": 0
+      }
+    ],
+    "tl/english/scenario/003.rpyc": [
+      {
+        "offset": 74246576,
+        "length": 371982,
+        "prefix_length": 0
+      }
+    ],
+    "tl/english/scenario/004.rpyc": [
+      {
+        "offset": 74618575,
+        "length": 265978,
+        "prefix_length": 0
+      }
+    ],
+    "tl/english/scenario/005_1.rpyc": [
+      {
+        "offset": 74884570,
+        "length": 397688,
+        "prefix_length": 0
+      }
+    ],
+    "tl/english/scenario/005_2.rpyc": [
+      {
+        "offset": 75282275,
+        "length": 253506,
+        "prefix_length": 0
+      }
+    ],
+    "tl/english/scenario/006.rpyc": [
+      {
+        "offset": 75535798,
+        "length": 177480,
+        "prefix_length": 0
+      }
+    ],
+    "tl/english/scenario/007_1.rpyc": [
+      {
+        "offset": 75713295,
+        "length": 263958,
+        "prefix_length": 0
+      }
+    ],
+    "tl/english/scenario/007_2.rpyc": [
+      {
+        "offset": 75977270,
+        "length": 338578,
+        "prefix_length": 0
+      }
+    ],
+    "tl/english/scenario/008.rpyc": [
+      {
+        "offset": 76315865,
+        "length": 364484,
+        "prefix_length": 0
+      }
+    ],
+    "tl/english/scenario/009.rpyc": [
+      {
+        "offset": 76680366,
+        "length": 385444,
+        "prefix_length": 0
+      }
+    ],
+    "tl/english/scenario/010.rpyc": [
+      {
+        "offset": 77065827,
+        "length": 320340,
+        "prefix_length": 0
+      }
+    ],
+    "tl/english/scenario/011_01.rpyc": [
+      {
+        "offset": 77386184,
+        "length": 99352,
+        "prefix_length": 0
+      }
+    ],
+    "tl/english/scenario/011_01F.rpyc": [
+      {
+        "offset": 77485553,
+        "length": 51180,
+        "prefix_length": 0
+      }
+    ],
+    "tl/english/scenario/011_01G.rpyc": [
+      {
+        "offset": 77536750,
+        "length": 47440,
+        "prefix_length": 0
+      }
+    ],
+    "tl/english/scenario/011_01H.rpyc": [
+      {
+        "offset": 77584207,
+        "length": 16574,
+        "prefix_length": 0
+      }
+    ],
+    "tl/english/scenario/011_02.rpyc": [
+      {
+        "offset": 77600798,
+        "length": 35260,
+        "prefix_length": 0
+      }
+    ],
+    "tl/english/scenario/011_02GH.rpyc": [
+      {
+        "offset": 77636075,
+        "length": 77998,
+        "prefix_length": 0
+      }
+    ],
+    "tl/english/scenario/012_01F.rpyc": [
+      {
+        "offset": 77714090,
+        "length": 285772,
+        "prefix_length": 0
+      }
+    ],
+    "tl/english/scenario/012_01GH.rpyc": [
+      {
+        "offset": 77999879,
+        "length": 74486,
+        "prefix_length": 0
+      }
+    ],
+    "tl/english/scenario/012_02.rpyc": [
+      {
+        "offset": 78074382,
+        "length": 49336,
+        "prefix_length": 0
+      }
+    ],
+    "tl/english/scenario/BAD_END_01.rpyc": [
+      {
+        "offset": 78123735,
+        "length": 14184,
+        "prefix_length": 0
+      }
+    ],
+    "tl/english/scenario/BAD_END_02.rpyc": [
+      {
+        "offset": 78137936,
+        "length": 20588,
+        "prefix_length": 0
+      }
+    ],
+    "tl/english/scenario/BAD_END_03.rpyc": [
+      {
+        "offset": 78158541,
+        "length": 6368,
+        "prefix_length": 0
+      }
+    ],
+    "tl/english/scenario/BAD_END_04.rpyc": [
+      {
+        "offset": 78164926,
+        "length": 11140,
+        "prefix_length": 0
+      }
+    ],
+    "tl/english/scenario/MIHARU_END.rpyc": [
+      {
+        "offset": 78176083,
+        "length": 6654,
+        "prefix_length": 0
+      }
+    ],
+    "tl/english/scenario/NG_plus.rpyc": [
+      {
+        "offset": 78182754,
+        "length": 42376,
+        "prefix_length": 0
+      }
+    ],
+    "tl/english/scenario/TRUE_END.rpyc": [
+      {
+        "offset": 78225147,
+        "length": 31400,
+        "prefix_length": 0
+      }
+    ],
+    "tl/english/scenario/UNHAPPY_END.rpyc": [
+      {
+        "offset": 78256564,
+        "length": 23024,
+        "prefix_length": 0
+      }
+    ],
+    "tl/english/screens.rpyc": [
+      {
+        "offset": 78279605,
+        "length": 7348,
+        "prefix_length": 0
+      }
+    ],
+    "tl/english/script.rpyc": [
+      {
+        "offset": 78286970,
+        "length": 2286,
+        "prefix_length": 0
+      }
+    ]
+  }
+}

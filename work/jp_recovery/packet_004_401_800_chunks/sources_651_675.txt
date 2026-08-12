@@ -1,0 +1,25 @@
+651	L2766	narration	narrator	こんな状況になるなんて、思いもしなかった。
+652	L2768	narration	narrator	もしかしたらソーニャも、今日までの日々を同じように思い返しているのかもしれない。
+653	L2770	narration	narrator	東京タワーを見上げるソーニャの横顔は紅潮して、切なげだった。
+654	L2776	dialogue	sonya	「こうして綺麗なものを見ることができて、ソーニャはとっても幸せです」
+655	L2782	dialogue	sonya	「幸せ過ぎて、寂しいであります」
+656	L2784	narration	narrator	ソーニャの大きな瞳が、光を反射して震えていた。
+657	L2786	narration	narrator	彼女は、さらに上を向いた。それでも、ソーニャが瞳に蓄えた涙は留まらず、頬を伝ってこぼれ落ちた。
+658	L2790	dialogue	sonya	「きっとこの瞬間が、ソーニャにとって一番幸せなのであります」
+659	L2796	dialogue	sonya	「最初で、最期の……」
+660	L2800	dialogue	sonya	「ソーニャの見た、ソーニャが感じた、広い世界――」
+661	L2805	narration	narrator	一度溢れると、涙は止まらない。
+662	L2807	narration	narrator	その気持ちは、よく分かる。
+663	L2809	narration	narrator	ソーニャはもう、笑顔を保ててはいなかった。くしゃくしゃになった顔で、嗚咽をした。
+664	L2815	dialogue	sonya	「もう……おしまいなのであります……」
+665	L2821	dialogue	sonya	「うぐっ……これでっ……今日でっ……うぐっ」
+666	L2825	dialogue	sonya	「うわああああああああんっっ」
+667	L2827	narration	narrator	溢れた感情を受け止めて、私まで目頭が熱くなる。だが、必死に堪えた。それは、我慢した。
+668	L2829	narration	narrator	ソーニャを抱き締めようと手を差し出すと、海晴が私を見て首を振った。
+669	L2839	dialogue	miharu	「感情移入し過ぎてはいけないよ」
+670	L2841	narration	narrator	私にだけ聞こえる声で、そう言った。
+671	L2843	narration	narrator	だが私は止まれなかった。一緒に泣くことが許されないならせめて、ここに私がいることを伝えたかった。
+672	L2845	narration	narrator	そうしてあげないと、彼女の小さな体が崩れ落ちてしまいそうだから。
+673	L2850	dialogue	rinka	「ソーニャ……」
+674	L2856	dialogue	sonya	「うわああああんっ、オネエサマ！　パパ！　ママぁっ！」
+675	L2860	dialogue	sonya	「ソーニャは、辛いであります。今なら、分かるでありますっ」

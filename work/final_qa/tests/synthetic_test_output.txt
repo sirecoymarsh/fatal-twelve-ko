@@ -1,0 +1,13 @@
+test_duplicate_stable_id_correction_is_forbidden (__main__.SyntheticPipelineTest.test_duplicate_stable_id_correction_is_forbidden) ... ok
+test_global_menu_same_old_different_target_is_rejected (__main__.SyntheticPipelineTest.test_global_menu_same_old_different_target_is_rejected) ... ok
+test_new_ko_protected_number_loss_is_rejected (__main__.SyntheticPipelineTest.test_new_ko_protected_number_loss_is_rejected) ... ok
+test_new_ko_runtime_tag_loss_is_rejected (__main__.SyntheticPipelineTest.test_new_ko_runtime_tag_loss_is_rejected) ... ok
+test_old_ko_exact_guard_rejects_stale_review (__main__.SyntheticPipelineTest.test_old_ko_exact_guard_rejects_stale_review) ... ok
+test_optional_system_ui_master_is_collected_into_global_strings (__main__.SyntheticPipelineTest.test_optional_system_ui_master_is_collected_into_global_strings) ... ok
+test_source_statement_group_identity_is_enforced (__main__.SyntheticPipelineTest.test_source_statement_group_identity_is_enforced) ... ok
+test_successful_apply_and_render_with_global_menu_deduplication (__main__.SyntheticPipelineTest.test_successful_apply_and_render_with_global_menu_deduplication) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 2.118s
+
+OK

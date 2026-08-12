@@ -1,0 +1,347 @@
+{
+  "schema_version": "fatal-twelve-master-index-v1",
+  "manifest": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\packet_manifest.json",
+    "sha256": "9f27e6180007b845fe605035fc036656726b745928c006e6c19a217154a29fdc"
+  },
+  "summary": {
+    "expected_catalog_files": 29,
+    "actual_catalog_files": 29,
+    "expected_catalog_records": 18184,
+    "actual_catalog_records": 18184,
+    "packet_occurrences": 18185,
+    "selected_unique_records": 18184,
+    "duplicate_extra_occurrences": 1,
+    "missing_records": 0,
+    "pending_packets": 0,
+    "hard_token_failed_records": 91,
+    "hard_token_findings": 115,
+    "resolved_conflicts": 1,
+    "unresolved_conflicts": 0,
+    "structural_errors": 115,
+    "structural_pass": false,
+    "coverage_complete": true,
+    "complete": true,
+    "translation_qa_performed": false,
+    "translation_text_modified": false
+  },
+  "masters": [
+    {
+      "script_key": "001",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_001.master.json",
+      "sha256": "4fdebbdc7814689a10aa399ab98182841a69297792d724c920a3d11aead10b11",
+      "catalog_records": 844,
+      "selected_unique_records": 844,
+      "coverage_complete": true,
+      "complete": true,
+      "structural_pass": false
+    },
+    {
+      "script_key": "002",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_002.master.json",
+      "sha256": "e67a1f0695b56bca521c0ae681fc446283a84607e94a4e983dec6de692ece4c6",
+      "catalog_records": 668,
+      "selected_unique_records": 668,
+      "coverage_complete": true,
+      "complete": true,
+      "structural_pass": false
+    },
+    {
+      "script_key": "003",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_003.master.json",
+      "sha256": "efbf28251b8adae4816ddf0adeaf7a62810499d3a52a21559faf05c6d0455e11",
+      "catalog_records": 1526,
+      "selected_unique_records": 1526,
+      "coverage_complete": true,
+      "complete": true,
+      "structural_pass": false
+    },
+    {
+      "script_key": "004",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_004.master.json",
+      "sha256": "3aa02e473877c09fe4650f8c7fbfccfd17a54fee35320bb254271cc81e5b422d",
+      "catalog_records": 1067,
+      "selected_unique_records": 1067,
+      "coverage_complete": true,
+      "complete": true,
+      "structural_pass": false
+    },
+    {
+      "script_key": "005_1",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_005_1.master.json",
+      "sha256": "1612088a8ba3f209f6584f92af060933fbce5c1929c3f1160bb2a06287b0ff59",
+      "catalog_records": 1657,
+      "selected_unique_records": 1657,
+      "coverage_complete": true,
+      "complete": true,
+      "structural_pass": false
+    },
+    {
+      "script_key": "005_2",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_005_2.master.json",
+      "sha256": "9bd9b53edbed8760f230caac9df10c9395e6f736bb588267eba21aa740dbecf9",
+      "catalog_records": 1042,
+      "selected_unique_records": 1042,
+      "coverage_complete": true,
+      "complete": true,
+      "structural_pass": false
+    },
+    {
+      "script_key": "006",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_006.master.json",
+      "sha256": "aeef3280cb1a95332c172ed48ca99cdf24e99469006e8cbdf2d672fa730d55a2",
+      "catalog_records": 755,
+      "selected_unique_records": 755,
+      "coverage_complete": true,
+      "complete": true,
+      "structural_pass": true
+    },
+    {
+      "script_key": "007_1",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_007_1.master.json",
+      "sha256": "ed7665e80d7e30f1b02d2a8f59364d2589b38350183d6cee98c5e681eaad4400",
+      "catalog_records": 1063,
+      "selected_unique_records": 1063,
+      "coverage_complete": true,
+      "complete": true,
+      "structural_pass": false
+    },
+    {
+      "script_key": "007_2",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_007_2.master.json",
+      "sha256": "3b0fc00333a10d37c3775c8295ac19fb1b2355f866a8080f40ea0fc23ba3cb6d",
+      "catalog_records": 1471,
+      "selected_unique_records": 1471,
+      "coverage_complete": true,
+      "complete": true,
+      "structural_pass": true
+    },
+    {
+      "script_key": "008",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_008.master.json",
+      "sha256": "a7ec09ab4a69e908b46a3f97a6a54d6f7f57c972ef9ab5625911c3ba873f46a2",
+      "catalog_records": 1500,
+      "selected_unique_records": 1500,
+      "coverage_complete": true,
+      "complete": true,
+      "structural_pass": false
+    },
+    {
+      "script_key": "009",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_009.master.json",
+      "sha256": "de7771674e6e4a77df70194b7aff9ee7662da7993ec0ec0db476911020816911",
+      "catalog_records": 1588,
+      "selected_unique_records": 1588,
+      "coverage_complete": true,
+      "complete": true,
+      "structural_pass": true
+    },
+    {
+      "script_key": "010",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_010.master.json",
+      "sha256": "c0d0ac82b27f2a3ba9190a865d3250da9d7d74eea3092ada54c7dc3f2bc62631",
+      "catalog_records": 1337,
+      "selected_unique_records": 1337,
+      "coverage_complete": true,
+      "complete": true,
+      "structural_pass": true
+    },
+    {
+      "script_key": "011_01",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_011_01.master.json",
+      "sha256": "2fdc8632b63e73b5df4b9ad57d0d41b3684934968728c46689f96ed7a9917567",
+      "catalog_records": 408,
+      "selected_unique_records": 408,
+      "coverage_complete": true,
+      "complete": true,
+      "structural_pass": true
+    },
+    {
+      "script_key": "011_01F",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_011_01F.master.json",
+      "sha256": "99e894449ed17ec84ebed2cdc0337c1520003de6dcc395c61b40c017dd5deaf2",
+      "catalog_records": 210,
+      "selected_unique_records": 210,
+      "coverage_complete": true,
+      "complete": true,
+      "structural_pass": true
+    },
+    {
+      "script_key": "011_01G",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_011_01G.master.json",
+      "sha256": "baa9771051c79a07c5ed0b23a5dc8063b92c33a409c07c2091f282c532e883f9",
+      "catalog_records": 192,
+      "selected_unique_records": 192,
+      "coverage_complete": true,
+      "complete": true,
+      "structural_pass": true
+    },
+    {
+      "script_key": "011_01H",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_011_01H.master.json",
+      "sha256": "f7fbcf20f0b86ff137374784062bdd5d250c2d22c620d3e4814c423b4862a3dd",
+      "catalog_records": 63,
+      "selected_unique_records": 63,
+      "coverage_complete": true,
+      "complete": true,
+      "structural_pass": false
+    },
+    {
+      "script_key": "011_02",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_011_02.master.json",
+      "sha256": "6fe2cf3d00249edaae358d58018dd10a9e72bbadd25b8bb3a6c69a4a1bcd0538",
+      "catalog_records": 131,
+      "selected_unique_records": 131,
+      "coverage_complete": true,
+      "complete": true,
+      "structural_pass": false
+    },
+    {
+      "script_key": "011_02GH",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_011_02GH.master.json",
+      "sha256": "bebe77e1833c99bd283fa04ad0efcb5e0992c42914710ae356b0b42d6a5a094c",
+      "catalog_records": 325,
+      "selected_unique_records": 325,
+      "coverage_complete": true,
+      "complete": true,
+      "structural_pass": true
+    },
+    {
+      "script_key": "012_01F",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_012_01F.master.json",
+      "sha256": "03ca810fbd92741b4ddc824aad7bc3154b0dc89d78b64d7b1fcddc043d784214",
+      "catalog_records": 1190,
+      "selected_unique_records": 1190,
+      "coverage_complete": true,
+      "complete": true,
+      "structural_pass": true
+    },
+    {
+      "script_key": "012_01GH",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_012_01GH.master.json",
+      "sha256": "41e4baab3dcbfe987942d15a197cbaca061817b963af8d8a92a19b5dd60d3946",
+      "catalog_records": 313,
+      "selected_unique_records": 313,
+      "coverage_complete": true,
+      "complete": true,
+      "structural_pass": true
+    },
+    {
+      "script_key": "012_02",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_012_02.master.json",
+      "sha256": "f94a6d209e47fbfb9cecc78fdca754a0adc9928f8b50e6c3f436741403aacd4e",
+      "catalog_records": 209,
+      "selected_unique_records": 209,
+      "coverage_complete": true,
+      "complete": true,
+      "structural_pass": true
+    },
+    {
+      "script_key": "BAD_END_01",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_BAD_END_01.master.json",
+      "sha256": "b5e027eb04766570d6862fdb7b2d562c2fea8b82e7490ba90022ee2b6da4ca21",
+      "catalog_records": 58,
+      "selected_unique_records": 58,
+      "coverage_complete": true,
+      "complete": true,
+      "structural_pass": false
+    },
+    {
+      "script_key": "BAD_END_02",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_BAD_END_02.master.json",
+      "sha256": "d74f378bc5a52f8ee727d55b5a44950ab86bca80a5ef6b12d5c6b6f1beb93809",
+      "catalog_records": 80,
+      "selected_unique_records": 80,
+      "coverage_complete": true,
+      "complete": true,
+      "structural_pass": false
+    },
+    {
+      "script_key": "BAD_END_03",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_BAD_END_03.master.json",
+      "sha256": "2e002066815a41f88fcdb5c08acd329954f47545a088c7a43f378304a43c7c53",
+      "catalog_records": 21,
+      "selected_unique_records": 21,
+      "coverage_complete": true,
+      "complete": true,
+      "structural_pass": true
+    },
+    {
+      "script_key": "BAD_END_04",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_BAD_END_04.master.json",
+      "sha256": "4cfc371be6372580eddc4afad4ed7e8462597b3d9450e7d9ef761e13713ffb57",
+      "catalog_records": 43,
+      "selected_unique_records": 43,
+      "coverage_complete": true,
+      "complete": true,
+      "structural_pass": false
+    },
+    {
+      "script_key": "MIHARU_END",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_MIHARU_END.master.json",
+      "sha256": "4a92769aab61ed330586c5847f0ac24f11fc8594ba26fce49134e7b3bdc1c276",
+      "catalog_records": 26,
+      "selected_unique_records": 26,
+      "coverage_complete": true,
+      "complete": true,
+      "structural_pass": false
+    },
+    {
+      "script_key": "NG_plus",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_NG_plus.master.json",
+      "sha256": "2c137ca61b7d052065f6e50748f38dae7b6a06bdc695fe469f63c28fb30c0b50",
+      "catalog_records": 185,
+      "selected_unique_records": 185,
+      "coverage_complete": true,
+      "complete": true,
+      "structural_pass": true
+    },
+    {
+      "script_key": "TRUE_END",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_TRUE_END.master.json",
+      "sha256": "3ccf081b268f01c5c147af158855b9a1c69511a84dd43bf3d6e1724b486f35cf",
+      "catalog_records": 125,
+      "selected_unique_records": 125,
+      "coverage_complete": true,
+      "complete": true,
+      "structural_pass": false
+    },
+    {
+      "script_key": "UNHAPPY_END",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_UNHAPPY_END.master.json",
+      "sha256": "851c809d36b6efd089f2eac5e82df84c00ff225345f95c77d9c670c46e4e0a73",
+      "catalog_records": 87,
+      "selected_unique_records": 87,
+      "coverage_complete": true,
+      "complete": true,
+      "structural_pass": false
+    },
+    {
+      "script_key": "system_ui",
+      "kind": "system_ui_strings",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\system_ui.master.json",
+      "sha256": "f1b514e5da065b38883f7e3b2489999127b108d4e12728acac4d6f05359e9726",
+      "catalog_records": 739,
+      "selected_unique_records": 732,
+      "coverage_complete": true,
+      "complete": true
+    }
+  ],
+  "coverage_report": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\coverage_report.json",
+    "sha256": "3b0bfafff0a04f775e0d443a500b8cd7802111afb71fca7ff47376e79ac649e9"
+  },
+  "conflict_report": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\conflict_report.json",
+    "sha256": "f279a87828891d9b33e502093d9cebfff77b1fe05c752f15130e7d6b58203c9e"
+  },
+  "combined_summary": {
+    "scenario_masters": 29,
+    "scenario_records": 18184,
+    "system_ui_masters": 1,
+    "system_ui_records": 732,
+    "system_ui_contexts": 739,
+    "combined_masters": 30,
+    "combined_records": 18916
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "schema_version": "fatal-twelve-final-rpy-stage-v2",
+  "status": "PASS",
+  "game_executed": false,
+  "source_rpy_file_count": 32,
+  "scenario_rpy_file_count": 29,
+  "global_strings_rpy_file_count": 1,
+  "stage_file_count": 33,
+  "frozen_pipeline_result_sha256": "f463f7a0088016fe5a120a67db29e71bb6405f0cbb5616138bf452e9304f3df1",
+  "frozen_render_manifest_sha256": "ae58dba67939a80744c44520546816edfc5c88663d2a455229ddecc7f33401c2",
+  "frozen_global_strings_sha256": "10238bccafb8528011be71c7b0f2b486b042f45991b19d04571584aaa36d5cdb",
+  "reviewed_bootstrap_sha256": "2236231a92b718114f5247e146418503a98b082ce51eedcaa8d314271781cf59",
+  "reviewed_slot_sha256": "df3086751c40ddae7d201190f70f4146ee5e24909d16f2a6b80c6985db02dd4e",
+  "stage_files": [
+    {
+      "path": "game/f12_korean_bootstrap.rpy",
+      "size": 3056,
+      "sha256": "2236231a92b718114f5247e146418503a98b082ce51eedcaa8d314271781cf59"
+    },
+    {
+      "path": "game/script_version.txt",
+      "size": 14,
+      "sha256": "d052a3281338ff0c8e8e28b48ac5375085553df182ceb3f63400d946ad48e2d3"
+    },
+    {
+      "path": "game/tl/korean/f12_slot.rpy",
+      "size": 1063,
+      "sha256": "df3086751c40ddae7d201190f70f4146ee5e24909d16f2a6b80c6985db02dd4e"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_001.rpy",
+      "size": 128421,
+      "sha256": "bb32dca15d5b59c1ae519dc5695121750715d88a209d0143ac4178e0ff9e6dcf"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_002.rpy",
+      "size": 101365,
+      "sha256": "177d4a7bfbf23aa27ffaaa5baeb861c4ab5aac417f7732b166ad4560671ff71e"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_003.rpy",
+      "size": 220700,
+      "sha256": "55d8350a17d553cf43e576db20182fc4aa3461404c6c6ee058cc5dc549a6d00b"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_004.rpy",
+      "size": 161068,
+      "sha256": "69b4c10b5bc7460b62813b72f7944bdcfc13c3a3042eef1ef2648a3dca73eb32"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_005_1.rpy",
+      "size": 238907,
+      "sha256": "ba73fc9ba490c7976a1c5617753a65f0e10f308a76f3e57d992997602282a5a5"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_005_2.rpy",
+      "size": 154094,
+      "sha256": "0a858368254bcf27f76a6a05186dfc12f347065d31880a40036e30e6d4690854"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_006.rpy",
+      "size": 99515,
+      "sha256": "1b29ddebc58b288c4a73469fc895d0cf1b35b2ce545d7c3a32dfeb50a377dd21"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_007_1.rpy",
+      "size": 158695,
+      "sha256": "a62c50bc39fa91f8eb1da2186801516bb74f60f460e82667e0130b6142e44c1c"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_007_2.rpy",
+      "size": 189894,
+      "sha256": "aa83f57a9822d512afd85c39a043e3375d50c0f449b5bd14107f4b5ce5d1c1dc"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_008.rpy",
+      "size": 223957,
+      "sha256": "c88ed3f7d1ce37b2a657dca2a27530bcd84098491482419eb8eac60f1fea8344"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_009.rpy",
+      "size": 240782,
+      "sha256": "4dbdcb48f2e34a925396aceb77841d1ee62c37572145da108e0733b178b6fcb4"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_010.rpy",
+      "size": 192131,
+      "sha256": "7af9402ddbe15a2df43524a22a7cfd711347343c7ee2dccca46fa0c10fb68df0"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_011_01.rpy",
+      "size": 59499,
+      "sha256": "9541e999077aff977d53c023c81b9835fe5370ea110bb9f480b47db525b2752d"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_011_01F.rpy",
+      "size": 30391,
+      "sha256": "5d0647356714133c8f9fc5c71198df70f251191335dac2f847dd77d2831c674b"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_011_01G.rpy",
+      "size": 27427,
+      "sha256": "e302d10862c5b14a36610e98b656f8d0348e439c3023a4501c521625ab7c8e5a"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_011_01H.rpy",
+      "size": 8772,
+      "sha256": "60e061a7f98d88e5ea7bf17f438f31b58bfd7745480f298bb754d65fcbe3f002"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_011_02.rpy",
+      "size": 21715,
+      "sha256": "88dc0029824c64c2b4e2e23443de783ee109c3803e6741e215d4556c620e9e45"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_011_02GH.rpy",
+      "size": 46087,
+      "sha256": "3b8ef2b973bdbb2689ee19a94fffd7d5666707eed07914dbd6ae4f61cdb61b95"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_012_01F.rpy",
+      "size": 169937,
+      "sha256": "39e3d9af72d7a1fea46548bd464a9dbf8c862d793574f43437f82e48faa09945"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_012_01GH.rpy",
+      "size": 42123,
+      "sha256": "5c884f5b787911311902c8ac443169435e8fc77734823757adfbc185bc5a0710"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_012_02.rpy",
+      "size": 25851,
+      "sha256": "97ce090ced2bcd57e21e4ab7da841949b74b54e9b9ace35b1cdfbc182eb693e3"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_BAD_END_01.rpy",
+      "size": 6990,
+      "sha256": "64a4cca6de670261cd34a7fafb2939a5376e74a4b3d6b569a97b185a78c576c0"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_BAD_END_02.rpy",
+      "size": 11072,
+      "sha256": "26651727285f0a133ce0625e3fb122b5b93730a70859522e4352acd7c1379329"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_BAD_END_03.rpy",
+      "size": 3181,
+      "sha256": "4e16ca82bd1effbd97dd8a3c48f8700ad94d06ce91d8bf59300639ad9036dc11"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_BAD_END_04.rpy",
+      "size": 5069,
+      "sha256": "8678c1fade13f5b89d7af379aa0e5114374704a646e133c18f4f7a82f954b1f3"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_MIHARU_END.rpy",
+      "size": 2793,
+      "sha256": "544276f8c33edb32a6d1c8837f16b6c3d390dcdf15f51db9b85b8a2d1c356698"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_NG_plus.rpy",
+      "size": 24168,
+      "sha256": "78d47afe8c7d850aa8db4ba292bb4f956cb527865488116cdd5f584d7566f7a9"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_TRUE_END.rpy",
+      "size": 16572,
+      "sha256": "f1b516d9312da2c6db37efa26f7fb109482159c8c302eec40eb59737155c657a"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_UNHAPPY_END.rpy",
+      "size": 11821,
+      "sha256": "6d7828ea33a18b9124a8d4f9cc68c716cf3a842f528c9b84296cb0bfb9c895fa"
+    },
+    {
+      "path": "game/tl/korean/strings/scenario_strings.rpy",
+      "size": 429074,
+      "sha256": "10238bccafb8528011be71c7b0f2b486b042f45991b19d04571584aaa36d5cdb"
+    }
+  ]
+}

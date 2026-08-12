@@ -1,0 +1,41 @@
+{
+  "audio_driver": "dummy",
+  "baseline_unchanged": true,
+  "failed": 0,
+  "game_execution": false,
+  "manifest_sha256": "915931ef81930ba3de86843757d61ca236b3c8e6189a30029364cb01483ddf31",
+  "passed": 6,
+  "payload_file_count": 2,
+  "powershell_version": "5.1.26100.8972",
+  "profile_id": "pristine-original",
+  "schema_version": 1,
+  "status": "PASS",
+  "tests": [
+    {
+      "name": "pristine_install_idempotent_restore",
+      "status": "PASS"
+    },
+    {
+      "name": "tampered_payload_prewrite_rejection",
+      "status": "PASS"
+    },
+    {
+      "name": "tampered_baseline_prewrite_rejection",
+      "status": "PASS"
+    },
+    {
+      "name": "nth_replacement_verified_rollback",
+      "status": "PASS"
+    },
+    {
+      "name": "forced_interruption_journal_recovery",
+      "status": "PASS"
+    },
+    {
+      "name": "tampered_recovery_prewrite_rejection",
+      "status": "PASS"
+    }
+  ],
+  "zip_name": "FatalTwelve_KoreanPatch_fixture.zip",
+  "zip_sha256": "da41f618a0a95eec77efd2146416bc85e5475b29f647cb7cd36e09aeb233adf0"
+}

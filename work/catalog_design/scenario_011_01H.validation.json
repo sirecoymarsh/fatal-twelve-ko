@@ -1,0 +1,45 @@
+{
+  "schema_version": "fatal-twelve-renpy-catalog-v1",
+  "validated_at_utc": "2026-08-10T10:27:13.786503+00:00",
+  "catalog": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\catalog_design\\scenario_011_01H.catalog.jsonl",
+  "records": 63,
+  "require_translated": false,
+  "source_rebuild_performed": true,
+  "metadata_checked": true,
+  "errors": [],
+  "warnings": [],
+  "passed": true,
+  "meta_checks": {
+    "catalog_hash": {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\catalog_design\\scenario_011_01H.catalog.jsonl",
+      "size": 200785,
+      "sha256": "ac0083e6309836dc1ee2e2bd0ce4f9603603725711769528038fbc33380989da"
+    },
+    "statistics": {
+      "records": 63,
+      "lanes": {
+        "dialogue": 20,
+        "narration": 43
+      },
+      "voiced_records": 20,
+      "translation_id_records": 63,
+      "menu_key_records": 0,
+      "reference_present": 63,
+      "reference_missing": 0,
+      "speakers": {
+        "<narrator>": 43,
+        "lete": 1,
+        "mao": 14,
+        "rinka": 5
+      },
+      "labels": {
+        "f011_01H": 63
+      },
+      "protected_token_kinds": {
+        "number": 3
+      },
+      "japanese_codepoints_in_source_text": 1566,
+      "untranslated": 63
+    }
+  }
+}

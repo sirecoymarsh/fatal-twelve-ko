@@ -1,0 +1,10 @@
+{
+  "schema_version": "fatal-twelve-untranslated-records-v1",
+  "catalog": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\catalog_design\\scenario_001.catalog.jsonl",
+    "size": 2856472,
+    "sha256": "8b980c599493d1cd0355b525238a3867540fdac293246fed51dee0b5aa3196b3"
+  },
+  "definition": "No nonempty exact-source draft_ko in aligned part001-part003, aligned recovery 151-350, aligned sequence351 bridge, aligned part004-part009, aligned tail 657-844, or aligned missing-menu packet.",
+  "records": []
+}

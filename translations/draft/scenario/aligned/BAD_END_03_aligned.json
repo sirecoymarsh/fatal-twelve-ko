@@ -1,0 +1,1715 @@
+{
+  "packet_id": "scenario_BAD_END_03_source_only",
+  "source_language": "Japanese",
+  "target_language": "Korean",
+  "entry_count": 21,
+  "translation_id_alignment": "complete: source_file+source_line+speaker+exact Japanese source -> AST catalog; no sequence zip",
+  "status": "first_draft_unreviewed",
+  "qa_policy": "No translation QA until the complete first draft is finished; review once afterward.",
+  "english_text_in_translator_packet": false,
+  "entries": [
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_a0b11b5d",
+      "sequence": 1,
+      "translation_id": "fBAD_03_a0b11b5d",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/BAD_END_03.rpy",
+      "source_line": 28,
+      "speaker": "narrator",
+      "source_jp": "誰もいなくなったその場所で、女神パルカは微笑んでいた。",
+      "draft_ko": "아무도 남지 않은 그곳에서, 여신 파르카는 미소 짓고 있었다.",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 1,
+      "source_packet_stable_id": "scenario/BAD_END_03.rpy::L26",
+      "catalog_command_index": 1,
+      "catalog_stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_a0b11b5d",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "fBAD_03_a0b11b5d",
+          "renpy_digest": "a0b11b5d",
+          "source_group_sha256": "f600b2e39cd8f2019e8f945a91e2d56f2af96d6ffb0d4f45891c27888b1eafcb",
+          "source_text_sha256": "fa486ed2a91931f69e37052ea63441424760a69e96908d38c9311f78ec8dde13",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source_file+speaker+exact Japanese source unique fallback; packet line corrected",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/BAD_END_03.rpy",
+          "source_line": 28,
+          "speaker": "narrator",
+          "source_text_exact_match": true,
+          "source_text_sha256": "fa486ed2a91931f69e37052ea63441424760a69e96908d38c9311f78ec8dde13",
+          "catalog_command_index": 1,
+          "catalog_stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_a0b11b5d",
+          "source_packet_source_line": 26,
+          "catalog_source_line": 28,
+          "source_line_exact_match": false,
+          "source_line_delta": 2
+        }
+      },
+      "source_text_sha256": "fa486ed2a91931f69e37052ea63441424760a69e96908d38c9311f78ec8dde13",
+      "source_group_sha256": "f600b2e39cd8f2019e8f945a91e2d56f2af96d6ffb0d4f45891c27888b1eafcb",
+      "renpy_digest": "a0b11b5d",
+      "catalog_lane": "narration",
+      "catalog_voice_call": null,
+      "source_statement_code": "\"誰もいなくなったその場所で、女神パルカは微笑んでいた。\"",
+      "source_group_code": [
+        "\"誰もいなくなったその場所で、女神パルカは微笑んでいた。\""
+      ],
+      "protected_tokens": [],
+      "source_packet_source_line": 26
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_3afefde5",
+      "sequence": 2,
+      "translation_id": "fBAD_03_3afefde5",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/BAD_END_03.rpy",
+      "source_line": 33,
+      "speaker": "parca",
+      "source_jp": "「意外な結末――というべきなのでしょうか」",
+      "draft_ko": "「뜻밖의 결말――이라고 해야 할까요」",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 2,
+      "source_packet_stable_id": "scenario/BAD_END_03.rpy::L31",
+      "catalog_command_index": 2,
+      "catalog_stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_3afefde5",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "fBAD_03_3afefde5",
+          "renpy_digest": "3afefde5",
+          "source_group_sha256": "239f182f16dda1ec1dbe68cb13d0681df19239b6a3a40b64eda010c53eae50d1",
+          "source_text_sha256": "0296c01c6c8b275c9b94004aeb509314e1c846cf9f9063baf858128cac273fc2",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source_file+speaker+exact Japanese source unique fallback; packet line corrected",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/BAD_END_03.rpy",
+          "source_line": 33,
+          "speaker": "parca",
+          "source_text_exact_match": true,
+          "source_text_sha256": "0296c01c6c8b275c9b94004aeb509314e1c846cf9f9063baf858128cac273fc2",
+          "catalog_command_index": 2,
+          "catalog_stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_3afefde5",
+          "source_packet_source_line": 31,
+          "catalog_source_line": 33,
+          "source_line_exact_match": false,
+          "source_line_delta": 2
+        }
+      },
+      "source_text_sha256": "0296c01c6c8b275c9b94004aeb509314e1c846cf9f9063baf858128cac273fc2",
+      "source_group_sha256": "239f182f16dda1ec1dbe68cb13d0681df19239b6a3a40b64eda010c53eae50d1",
+      "renpy_digest": "3afefde5",
+      "catalog_lane": "dialogue",
+      "catalog_voice_call": {
+        "statement": "voice get_voice_filename(\"dia\", 516)",
+        "line": 32,
+        "function": "get_voice_filename",
+        "tag": "dia",
+        "start_count": 516,
+        "resolution": {
+          "mode": "explicit_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": "sounds/voice/dia_00516.ogg"
+        }
+      },
+      "source_statement_code": "parca \"「意外な結末――というべきなのでしょうか」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"dia\", 516)",
+        "parca \"「意外な結末――というべきなのでしょうか」\""
+      ],
+      "protected_tokens": [],
+      "source_packet_source_line": 31
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_91dcd28e",
+      "sequence": 3,
+      "translation_id": "fBAD_03_91dcd28e",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/BAD_END_03.rpy",
+      "source_line": 38,
+      "speaker": "parca",
+      "source_jp": "「Ⅰ番サマはもう少し長く、生きてくださると思っていましたのに。だって――」",
+      "draft_ko": "「Ⅰ번 님께서는 조금 더 오래 살아 주실 줄 알았는데요. 왜냐하면――」",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 3,
+      "source_packet_stable_id": "scenario/BAD_END_03.rpy::L36",
+      "catalog_command_index": 3,
+      "catalog_stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_91dcd28e",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "fBAD_03_91dcd28e",
+          "renpy_digest": "91dcd28e",
+          "source_group_sha256": "25c7851b431b3103796d8da6f01a41f280afe4dfb3e6e4cef9fefaee09cfc897",
+          "source_text_sha256": "6c4a8377916582c71d443507bbc4df73a47a7d9f6db622b7fef76c82814ecc33",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source_file+speaker+exact Japanese source unique fallback; packet line corrected",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/BAD_END_03.rpy",
+          "source_line": 38,
+          "speaker": "parca",
+          "source_text_exact_match": true,
+          "source_text_sha256": "6c4a8377916582c71d443507bbc4df73a47a7d9f6db622b7fef76c82814ecc33",
+          "catalog_command_index": 3,
+          "catalog_stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_91dcd28e",
+          "source_packet_source_line": 36,
+          "catalog_source_line": 38,
+          "source_line_exact_match": false,
+          "source_line_delta": 2
+        }
+      },
+      "source_text_sha256": "6c4a8377916582c71d443507bbc4df73a47a7d9f6db622b7fef76c82814ecc33",
+      "source_group_sha256": "25c7851b431b3103796d8da6f01a41f280afe4dfb3e6e4cef9fefaee09cfc897",
+      "renpy_digest": "91dcd28e",
+      "catalog_lane": "dialogue",
+      "catalog_voice_call": {
+        "statement": "voice get_voice_filename(\"dia\")",
+        "line": 37,
+        "function": "get_voice_filename",
+        "tag": "dia",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "source_statement_code": "parca \"「Ⅰ番サマはもう少し長く、生きてくださると思っていましたのに。だって――」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"dia\")",
+        "parca \"「Ⅰ番サマはもう少し長く、生きてくださると思っていましたのに。だって――」\""
+      ],
+      "protected_tokens": [
+        {
+          "kind": "number",
+          "value": "Ⅰ",
+          "start": 1,
+          "end": 2,
+          "severity": "hard"
+        }
+      ],
+      "source_packet_source_line": 36
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_ea189acf",
+      "sequence": 4,
+      "translation_id": "fBAD_03_ea189acf",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/BAD_END_03.rpy",
+      "source_line": 43,
+      "speaker": "parca",
+      "source_jp": "「おや、誰が聞いているか分かりませんものね。これ以上はこの場所でも、お話ししない方がよろしいでしょうかしら」",
+      "draft_ko": "「이런, 누가 듣고 있을지 모르겠군요. 더 이상은 이곳에서도 이야기하지 않는 편이 좋으려나요」",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 4,
+      "source_packet_stable_id": "scenario/BAD_END_03.rpy::L41",
+      "catalog_command_index": 4,
+      "catalog_stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_ea189acf",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "fBAD_03_ea189acf",
+          "renpy_digest": "ea189acf",
+          "source_group_sha256": "e4fe2ffd81ef69216148119bf818fc333c5957f4c6f9dac2df99173742441c2d",
+          "source_text_sha256": "4253e6ea92ffd6103943c9ac3326323ada14da2abc6c1275cdedff1e2b773df8",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source_file+speaker+exact Japanese source unique fallback; packet line corrected",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/BAD_END_03.rpy",
+          "source_line": 43,
+          "speaker": "parca",
+          "source_text_exact_match": true,
+          "source_text_sha256": "4253e6ea92ffd6103943c9ac3326323ada14da2abc6c1275cdedff1e2b773df8",
+          "catalog_command_index": 4,
+          "catalog_stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_ea189acf",
+          "source_packet_source_line": 41,
+          "catalog_source_line": 43,
+          "source_line_exact_match": false,
+          "source_line_delta": 2
+        }
+      },
+      "source_text_sha256": "4253e6ea92ffd6103943c9ac3326323ada14da2abc6c1275cdedff1e2b773df8",
+      "source_group_sha256": "e4fe2ffd81ef69216148119bf818fc333c5957f4c6f9dac2df99173742441c2d",
+      "renpy_digest": "ea189acf",
+      "catalog_lane": "dialogue",
+      "catalog_voice_call": {
+        "statement": "voice get_voice_filename(\"dia\")",
+        "line": 42,
+        "function": "get_voice_filename",
+        "tag": "dia",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "source_statement_code": "parca \"「おや、誰が聞いているか分かりませんものね。これ以上はこの場所でも、お話ししない方がよろしいでしょうかしら」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"dia\")",
+        "parca \"「おや、誰が聞いているか分かりませんものね。これ以上はこの場所でも、お話ししない方がよろしいでしょうかしら」\""
+      ],
+      "protected_tokens": [],
+      "source_packet_source_line": 41
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_889eb861",
+      "sequence": 5,
+      "translation_id": "fBAD_03_889eb861",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/BAD_END_03.rpy",
+      "source_line": 45,
+      "speaker": "narrator",
+      "source_jp": "スケール・ジョーンズは獅子舞凛火を指名した。",
+      "draft_ko": "스케일 존스는 시시마이 린카를 지명했다.",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 5,
+      "source_packet_stable_id": "scenario/BAD_END_03.rpy::L43",
+      "catalog_command_index": 5,
+      "catalog_stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_889eb861",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "fBAD_03_889eb861",
+          "renpy_digest": "889eb861",
+          "source_group_sha256": "302fb797546a45d4da705db06c5582f2d166704ac7cd602ad4499c5cdb404eab",
+          "source_text_sha256": "2715803f50fa1f5c6b0eca3a14fff8040f5e75f6c4a78f01f591ba4329cc54fd",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source_file+speaker+exact Japanese source unique fallback; packet line corrected",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/BAD_END_03.rpy",
+          "source_line": 45,
+          "speaker": "narrator",
+          "source_text_exact_match": true,
+          "source_text_sha256": "2715803f50fa1f5c6b0eca3a14fff8040f5e75f6c4a78f01f591ba4329cc54fd",
+          "catalog_command_index": 5,
+          "catalog_stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_889eb861",
+          "source_packet_source_line": 43,
+          "catalog_source_line": 45,
+          "source_line_exact_match": false,
+          "source_line_delta": 2
+        }
+      },
+      "source_text_sha256": "2715803f50fa1f5c6b0eca3a14fff8040f5e75f6c4a78f01f591ba4329cc54fd",
+      "source_group_sha256": "302fb797546a45d4da705db06c5582f2d166704ac7cd602ad4499c5cdb404eab",
+      "renpy_digest": "889eb861",
+      "catalog_lane": "narration",
+      "catalog_voice_call": null,
+      "source_statement_code": "\"スケール・ジョーンズは獅子舞凛火を指名した。\"",
+      "source_group_code": [
+        "\"スケール・ジョーンズは獅子舞凛火を指名した。\""
+      ],
+      "protected_tokens": [],
+      "source_packet_source_line": 43
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_5a919bbd",
+      "sequence": 6,
+      "translation_id": "fBAD_03_5a919bbd",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/BAD_END_03.rpy",
+      "source_line": 47,
+      "speaker": "narrator",
+      "source_jp": "同時に、アラン・スコーピオンはスケール・ジョーンズを指名した。",
+      "draft_ko": "동시에 아란 스코피온은 스케일 존스를 지명했다.",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 6,
+      "source_packet_stable_id": "scenario/BAD_END_03.rpy::L45",
+      "catalog_command_index": 6,
+      "catalog_stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_5a919bbd",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "fBAD_03_5a919bbd",
+          "renpy_digest": "5a919bbd",
+          "source_group_sha256": "5af720c3a04b32ac2f75d64710db025176f2d949efef097db3a074ac4f29a9cd",
+          "source_text_sha256": "756d53625880a951a686f8488bc055918c9922572066e0bf7d19d606b675f26a",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source_file+speaker+exact Japanese source unique fallback; packet line corrected",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/BAD_END_03.rpy",
+          "source_line": 47,
+          "speaker": "narrator",
+          "source_text_exact_match": true,
+          "source_text_sha256": "756d53625880a951a686f8488bc055918c9922572066e0bf7d19d606b675f26a",
+          "catalog_command_index": 6,
+          "catalog_stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_5a919bbd",
+          "source_packet_source_line": 45,
+          "catalog_source_line": 47,
+          "source_line_exact_match": false,
+          "source_line_delta": 2
+        }
+      },
+      "source_text_sha256": "756d53625880a951a686f8488bc055918c9922572066e0bf7d19d606b675f26a",
+      "source_group_sha256": "5af720c3a04b32ac2f75d64710db025176f2d949efef097db3a074ac4f29a9cd",
+      "renpy_digest": "5a919bbd",
+      "catalog_lane": "narration",
+      "catalog_voice_call": null,
+      "source_statement_code": "\"同時に、アラン・スコーピオンはスケール・ジョーンズを指名した。\"",
+      "source_group_code": [
+        "\"同時に、アラン・スコーピオンはスケール・ジョーンズを指名した。\""
+      ],
+      "protected_tokens": [],
+      "source_packet_source_line": 45
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_c78962a8",
+      "sequence": 7,
+      "translation_id": "fBAD_03_c78962a8",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/BAD_END_03.rpy",
+      "source_line": 49,
+      "speaker": "narrator",
+      "source_jp": "その時点で、獅子舞凛火は人質にとられていた祖母が助からないのだと直感した。",
+      "draft_ko": "그 시점에서 시시마이 린카는 인질로 붙잡힌 할머니가 살아남지 못하리라고 직감했다.",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 7,
+      "source_packet_stable_id": "scenario/BAD_END_03.rpy::L47",
+      "catalog_command_index": 7,
+      "catalog_stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_c78962a8",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "fBAD_03_c78962a8",
+          "renpy_digest": "c78962a8",
+          "source_group_sha256": "674d83a04953bab5551874d919e6127e38621acd79b39d88b190e2443d8b4406",
+          "source_text_sha256": "a03db707acd680a9a36a984b89391f2ef283ac5f27f4d35fa1fbf180716fce0e",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source_file+speaker+exact Japanese source unique fallback; packet line corrected",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/BAD_END_03.rpy",
+          "source_line": 49,
+          "speaker": "narrator",
+          "source_text_exact_match": true,
+          "source_text_sha256": "a03db707acd680a9a36a984b89391f2ef283ac5f27f4d35fa1fbf180716fce0e",
+          "catalog_command_index": 7,
+          "catalog_stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_c78962a8",
+          "source_packet_source_line": 47,
+          "catalog_source_line": 49,
+          "source_line_exact_match": false,
+          "source_line_delta": 2
+        }
+      },
+      "source_text_sha256": "a03db707acd680a9a36a984b89391f2ef283ac5f27f4d35fa1fbf180716fce0e",
+      "source_group_sha256": "674d83a04953bab5551874d919e6127e38621acd79b39d88b190e2443d8b4406",
+      "renpy_digest": "c78962a8",
+      "catalog_lane": "narration",
+      "catalog_voice_call": null,
+      "source_statement_code": "\"その時点で、獅子舞凛火は人質にとられていた祖母が助からないのだと直感した。\"",
+      "source_group_code": [
+        "\"その時点で、獅子舞凛火は人質にとられていた祖母が助からないのだと直感した。\""
+      ],
+      "protected_tokens": [],
+      "source_packet_source_line": 47
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_6773414b",
+      "sequence": 8,
+      "translation_id": "fBAD_03_6773414b",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/BAD_END_03.rpy",
+      "source_line": 54,
+      "speaker": "parca",
+      "source_jp": "「けれどⅠ番サマのあのお顔は、とても印象的でございました」",
+      "draft_ko": "「하지만 Ⅰ번 님의 그 표정은 아주 인상적이었답니다」",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 8,
+      "source_packet_stable_id": "scenario/BAD_END_03.rpy::L52",
+      "catalog_command_index": 8,
+      "catalog_stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_6773414b",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "fBAD_03_6773414b",
+          "renpy_digest": "6773414b",
+          "source_group_sha256": "938cfb018fabb0d8c2d1132cfc26a4a5133373251192cdd649f4793ba7a25611",
+          "source_text_sha256": "6a9ff333fa4f330c06443dc396e0d45bcd248930aaecbed39914ea96b851cea6",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source_file+speaker+exact Japanese source unique fallback; packet line corrected",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/BAD_END_03.rpy",
+          "source_line": 54,
+          "speaker": "parca",
+          "source_text_exact_match": true,
+          "source_text_sha256": "6a9ff333fa4f330c06443dc396e0d45bcd248930aaecbed39914ea96b851cea6",
+          "catalog_command_index": 8,
+          "catalog_stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_6773414b",
+          "source_packet_source_line": 52,
+          "catalog_source_line": 54,
+          "source_line_exact_match": false,
+          "source_line_delta": 2
+        }
+      },
+      "source_text_sha256": "6a9ff333fa4f330c06443dc396e0d45bcd248930aaecbed39914ea96b851cea6",
+      "source_group_sha256": "938cfb018fabb0d8c2d1132cfc26a4a5133373251192cdd649f4793ba7a25611",
+      "renpy_digest": "6773414b",
+      "catalog_lane": "dialogue",
+      "catalog_voice_call": {
+        "statement": "voice get_voice_filename(\"dia\")",
+        "line": 53,
+        "function": "get_voice_filename",
+        "tag": "dia",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "source_statement_code": "parca \"「けれどⅠ番サマのあのお顔は、とても印象的でございました」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"dia\")",
+        "parca \"「けれどⅠ番サマのあのお顔は、とても印象的でございました」\""
+      ],
+      "protected_tokens": [
+        {
+          "kind": "number",
+          "value": "Ⅰ",
+          "start": 4,
+          "end": 5,
+          "severity": "hard"
+        }
+      ],
+      "source_packet_source_line": 52
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_39940ccf",
+      "sequence": 9,
+      "translation_id": "fBAD_03_39940ccf",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/BAD_END_03.rpy",
+      "source_line": 56,
+      "speaker": "narrator",
+      "source_jp": "祖母の死と自分の死を確信した瞬間の、絶望という言葉では表現しきれない表情。",
+      "draft_ko": "할머니의 죽음과 자신의 죽음을 확신한 순간 지은, 절망이라는 말만으로는 다 표현할 수 없는 표정.",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 9,
+      "source_packet_stable_id": "scenario/BAD_END_03.rpy::L54",
+      "catalog_command_index": 9,
+      "catalog_stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_39940ccf",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "fBAD_03_39940ccf",
+          "renpy_digest": "39940ccf",
+          "source_group_sha256": "5f86ba4f55260bb6c72b1d4ebac117440025b073117d4bf37545f438cddc7036",
+          "source_text_sha256": "0d79b1eee3b8caa63fa825fe3a5513962332b4ebed86ed8ab168df539954fd40",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source_file+speaker+exact Japanese source unique fallback; packet line corrected",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/BAD_END_03.rpy",
+          "source_line": 56,
+          "speaker": "narrator",
+          "source_text_exact_match": true,
+          "source_text_sha256": "0d79b1eee3b8caa63fa825fe3a5513962332b4ebed86ed8ab168df539954fd40",
+          "catalog_command_index": 9,
+          "catalog_stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_39940ccf",
+          "source_packet_source_line": 54,
+          "catalog_source_line": 56,
+          "source_line_exact_match": false,
+          "source_line_delta": 2
+        }
+      },
+      "source_text_sha256": "0d79b1eee3b8caa63fa825fe3a5513962332b4ebed86ed8ab168df539954fd40",
+      "source_group_sha256": "5f86ba4f55260bb6c72b1d4ebac117440025b073117d4bf37545f438cddc7036",
+      "renpy_digest": "39940ccf",
+      "catalog_lane": "narration",
+      "catalog_voice_call": null,
+      "source_statement_code": "\"祖母の死と自分の死を確信した瞬間の、絶望という言葉では表現しきれない表情。\"",
+      "source_group_code": [
+        "\"祖母の死と自分の死を確信した瞬間の、絶望という言葉では表現しきれない表情。\""
+      ],
+      "protected_tokens": [],
+      "source_packet_source_line": 54
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_ce567a10",
+      "sequence": 10,
+      "translation_id": "fBAD_03_ce567a10",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/BAD_END_03.rpy",
+      "source_line": 58,
+      "speaker": "narrator",
+      "source_jp": "パルカはその顔を見て、一体どんな気持ちを湧き立たせていたのか。",
+      "draft_ko": "파르카는 그 얼굴을 보며 대체 어떤 감정이 치밀어 올랐던 걸까.",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 10,
+      "source_packet_stable_id": "scenario/BAD_END_03.rpy::L56",
+      "catalog_command_index": 10,
+      "catalog_stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_ce567a10",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "fBAD_03_ce567a10",
+          "renpy_digest": "ce567a10",
+          "source_group_sha256": "c01fc21df3e4c9f9ae11af8cb5b1e821f1e089eff0970bf3a1b023c4106f698a",
+          "source_text_sha256": "daccba9324862f000fe7af52d96f65b1efc3e796d14559e7be7c0277f24aafa2",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source_file+speaker+exact Japanese source unique fallback; packet line corrected",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/BAD_END_03.rpy",
+          "source_line": 58,
+          "speaker": "narrator",
+          "source_text_exact_match": true,
+          "source_text_sha256": "daccba9324862f000fe7af52d96f65b1efc3e796d14559e7be7c0277f24aafa2",
+          "catalog_command_index": 10,
+          "catalog_stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_ce567a10",
+          "source_packet_source_line": 56,
+          "catalog_source_line": 58,
+          "source_line_exact_match": false,
+          "source_line_delta": 2
+        }
+      },
+      "source_text_sha256": "daccba9324862f000fe7af52d96f65b1efc3e796d14559e7be7c0277f24aafa2",
+      "source_group_sha256": "c01fc21df3e4c9f9ae11af8cb5b1e821f1e089eff0970bf3a1b023c4106f698a",
+      "renpy_digest": "ce567a10",
+      "catalog_lane": "narration",
+      "catalog_voice_call": null,
+      "source_statement_code": "\"パルカはその顔を見て、一体どんな気持ちを湧き立たせていたのか。\"",
+      "source_group_code": [
+        "\"パルカはその顔を見て、一体どんな気持ちを湧き立たせていたのか。\""
+      ],
+      "protected_tokens": [],
+      "source_packet_source_line": 56
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_f45547c8",
+      "sequence": 11,
+      "translation_id": "fBAD_03_f45547c8",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/BAD_END_03.rpy",
+      "source_line": 60,
+      "speaker": "narrator",
+      "source_jp": "きっとパルカですら、その気持ちの正体を知ることはない。",
+      "draft_ko": "아마 파르카 자신조차 그 감정의 정체를 알지 못하리라.",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 11,
+      "source_packet_stable_id": "scenario/BAD_END_03.rpy::L58",
+      "catalog_command_index": 11,
+      "catalog_stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_f45547c8",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "fBAD_03_f45547c8",
+          "renpy_digest": "f45547c8",
+          "source_group_sha256": "def1d756ac65d7b03ec2b27ec6f0dbc4fe250f2001a6994474df7d953fd3fb14",
+          "source_text_sha256": "c6125a56d09f45ed790f970e68fbe090c41a09437adb51b05cff8df8123418ea",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source_file+speaker+exact Japanese source unique fallback; packet line corrected",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/BAD_END_03.rpy",
+          "source_line": 60,
+          "speaker": "narrator",
+          "source_text_exact_match": true,
+          "source_text_sha256": "c6125a56d09f45ed790f970e68fbe090c41a09437adb51b05cff8df8123418ea",
+          "catalog_command_index": 11,
+          "catalog_stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_f45547c8",
+          "source_packet_source_line": 58,
+          "catalog_source_line": 60,
+          "source_line_exact_match": false,
+          "source_line_delta": 2
+        }
+      },
+      "source_text_sha256": "c6125a56d09f45ed790f970e68fbe090c41a09437adb51b05cff8df8123418ea",
+      "source_group_sha256": "def1d756ac65d7b03ec2b27ec6f0dbc4fe250f2001a6994474df7d953fd3fb14",
+      "renpy_digest": "f45547c8",
+      "catalog_lane": "narration",
+      "catalog_voice_call": null,
+      "source_statement_code": "\"きっとパルカですら、その気持ちの正体を知ることはない。\"",
+      "source_group_code": [
+        "\"きっとパルカですら、その気持ちの正体を知ることはない。\""
+      ],
+      "protected_tokens": [],
+      "source_packet_source_line": 58
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_aae37439",
+      "sequence": 12,
+      "translation_id": "fBAD_03_aae37439",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/BAD_END_03.rpy",
+      "source_line": 65,
+      "speaker": "parca",
+      "source_jp": "「さて、残る参加者はⅡ番サマ、Ⅲ番サマ、Ⅻ番サマ」",
+      "draft_ko": "「자, 남은 참가자는 Ⅱ번 님, Ⅲ번 님, Ⅻ번 님」",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 12,
+      "source_packet_stable_id": "scenario/BAD_END_03.rpy::L63",
+      "catalog_command_index": 12,
+      "catalog_stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_aae37439",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "fBAD_03_aae37439",
+          "renpy_digest": "aae37439",
+          "source_group_sha256": "55bf564edeacb11b55d533a43128f1578a3a57226704710e0c826812fd2aea8b",
+          "source_text_sha256": "1298c3923062c8588a4fe0372c6cbb52f456886d459b35e8bfdeffcb7ec47f39",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source_file+speaker+exact Japanese source unique fallback; packet line corrected",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/BAD_END_03.rpy",
+          "source_line": 65,
+          "speaker": "parca",
+          "source_text_exact_match": true,
+          "source_text_sha256": "1298c3923062c8588a4fe0372c6cbb52f456886d459b35e8bfdeffcb7ec47f39",
+          "catalog_command_index": 12,
+          "catalog_stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_aae37439",
+          "source_packet_source_line": 63,
+          "catalog_source_line": 65,
+          "source_line_exact_match": false,
+          "source_line_delta": 2
+        }
+      },
+      "source_text_sha256": "1298c3923062c8588a4fe0372c6cbb52f456886d459b35e8bfdeffcb7ec47f39",
+      "source_group_sha256": "55bf564edeacb11b55d533a43128f1578a3a57226704710e0c826812fd2aea8b",
+      "renpy_digest": "aae37439",
+      "catalog_lane": "dialogue",
+      "catalog_voice_call": {
+        "statement": "voice get_voice_filename(\"dia\")",
+        "line": 64,
+        "function": "get_voice_filename",
+        "tag": "dia",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "source_statement_code": "parca \"「さて、残る参加者はⅡ番サマ、Ⅲ番サマ、Ⅻ番サマ」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"dia\")",
+        "parca \"「さて、残る参加者はⅡ番サマ、Ⅲ番サマ、Ⅻ番サマ」\""
+      ],
+      "protected_tokens": [
+        {
+          "kind": "number",
+          "value": "Ⅱ",
+          "start": 10,
+          "end": 11,
+          "severity": "hard"
+        },
+        {
+          "kind": "number",
+          "value": "Ⅲ",
+          "start": 15,
+          "end": 16,
+          "severity": "hard"
+        },
+        {
+          "kind": "number",
+          "value": "Ⅻ",
+          "start": 20,
+          "end": 21,
+          "severity": "hard"
+        }
+      ],
+      "source_packet_source_line": 63
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_8e7d8238",
+      "sequence": 13,
+      "translation_id": "fBAD_03_8e7d8238",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/BAD_END_03.rpy",
+      "source_line": 67,
+      "speaker": "narrator",
+      "source_jp": "彼女は微笑みながら、淡々と残った参加者を挙げる。",
+      "draft_ko": "그녀는 미소 지은 채 담담하게 남은 참가자들을 열거한다.",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 13,
+      "source_packet_stable_id": "scenario/BAD_END_03.rpy::L65",
+      "catalog_command_index": 13,
+      "catalog_stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_8e7d8238",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "fBAD_03_8e7d8238",
+          "renpy_digest": "8e7d8238",
+          "source_group_sha256": "63093119bc0601905f98ccbff24592b24c614a41f59283758fb7188eee306996",
+          "source_text_sha256": "f72af9e579c45d56ca0722ae589f010a976e17323f5845d8b9bebab1cb6c2e7e",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source_file+speaker+exact Japanese source unique fallback; packet line corrected",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/BAD_END_03.rpy",
+          "source_line": 67,
+          "speaker": "narrator",
+          "source_text_exact_match": true,
+          "source_text_sha256": "f72af9e579c45d56ca0722ae589f010a976e17323f5845d8b9bebab1cb6c2e7e",
+          "catalog_command_index": 13,
+          "catalog_stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_8e7d8238",
+          "source_packet_source_line": 65,
+          "catalog_source_line": 67,
+          "source_line_exact_match": false,
+          "source_line_delta": 2
+        }
+      },
+      "source_text_sha256": "f72af9e579c45d56ca0722ae589f010a976e17323f5845d8b9bebab1cb6c2e7e",
+      "source_group_sha256": "63093119bc0601905f98ccbff24592b24c614a41f59283758fb7188eee306996",
+      "renpy_digest": "8e7d8238",
+      "catalog_lane": "narration",
+      "catalog_voice_call": null,
+      "source_statement_code": "\"彼女は微笑みながら、淡々と残った参加者を挙げる。\"",
+      "source_group_code": [
+        "\"彼女は微笑みながら、淡々と残った参加者を挙げる。\""
+      ],
+      "protected_tokens": [],
+      "source_packet_source_line": 65
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_3c671e6b",
+      "sequence": 14,
+      "translation_id": "fBAD_03_3c671e6b",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/BAD_END_03.rpy",
+      "source_line": 72,
+      "speaker": "parca",
+      "source_jp": "「一体どなたが脱落し、どなたが生き残るのでしょうか」",
+      "draft_ko": "「과연 어느 분이 탈락하고, 어느 분이 살아남으실까요」",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 14,
+      "source_packet_stable_id": "scenario/BAD_END_03.rpy::L70",
+      "catalog_command_index": 14,
+      "catalog_stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_3c671e6b",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "fBAD_03_3c671e6b",
+          "renpy_digest": "3c671e6b",
+          "source_group_sha256": "fa52b22fd77a47fca477b52d24c2bd02bd0291c1ceaf4cf3ae094578686e9d82",
+          "source_text_sha256": "763ba6894ca3f2dd75688d930675ddc2cb1e591838180e9d89b0ee8d9e7fbe61",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source_file+speaker+exact Japanese source unique fallback; packet line corrected",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/BAD_END_03.rpy",
+          "source_line": 72,
+          "speaker": "parca",
+          "source_text_exact_match": true,
+          "source_text_sha256": "763ba6894ca3f2dd75688d930675ddc2cb1e591838180e9d89b0ee8d9e7fbe61",
+          "catalog_command_index": 14,
+          "catalog_stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_3c671e6b",
+          "source_packet_source_line": 70,
+          "catalog_source_line": 72,
+          "source_line_exact_match": false,
+          "source_line_delta": 2
+        }
+      },
+      "source_text_sha256": "763ba6894ca3f2dd75688d930675ddc2cb1e591838180e9d89b0ee8d9e7fbe61",
+      "source_group_sha256": "fa52b22fd77a47fca477b52d24c2bd02bd0291c1ceaf4cf3ae094578686e9d82",
+      "renpy_digest": "3c671e6b",
+      "catalog_lane": "dialogue",
+      "catalog_voice_call": {
+        "statement": "voice get_voice_filename(\"dia\")",
+        "line": 71,
+        "function": "get_voice_filename",
+        "tag": "dia",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "source_statement_code": "parca \"「一体どなたが脱落し、どなたが生き残るのでしょうか」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"dia\")",
+        "parca \"「一体どなたが脱落し、どなたが生き残るのでしょうか」\""
+      ],
+      "protected_tokens": [],
+      "source_packet_source_line": 70
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_c26b058c",
+      "sequence": 15,
+      "translation_id": "fBAD_03_c26b058c",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/BAD_END_03.rpy",
+      "source_line": 77,
+      "speaker": "parca",
+      "source_jp": "「どなたがワタクシの器になるのか、未だ予想がつきません」",
+      "draft_ko": "「어느 분이 저의 그릇이 될지, 아직은 예상할 수 없답니다」",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 15,
+      "source_packet_stable_id": "scenario/BAD_END_03.rpy::L75",
+      "catalog_command_index": 15,
+      "catalog_stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_c26b058c",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "fBAD_03_c26b058c",
+          "renpy_digest": "c26b058c",
+          "source_group_sha256": "9e4ab286433c25112dabdad1b0077c758c35afea3f10f50f190307dfe5439022",
+          "source_text_sha256": "216eda65c8c13dbb612af7f10b9ff5ff9f6a8a9835038450e65a9f62537ea122",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source_file+speaker+exact Japanese source unique fallback; packet line corrected",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/BAD_END_03.rpy",
+          "source_line": 77,
+          "speaker": "parca",
+          "source_text_exact_match": true,
+          "source_text_sha256": "216eda65c8c13dbb612af7f10b9ff5ff9f6a8a9835038450e65a9f62537ea122",
+          "catalog_command_index": 15,
+          "catalog_stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_c26b058c",
+          "source_packet_source_line": 75,
+          "catalog_source_line": 77,
+          "source_line_exact_match": false,
+          "source_line_delta": 2
+        }
+      },
+      "source_text_sha256": "216eda65c8c13dbb612af7f10b9ff5ff9f6a8a9835038450e65a9f62537ea122",
+      "source_group_sha256": "9e4ab286433c25112dabdad1b0077c758c35afea3f10f50f190307dfe5439022",
+      "renpy_digest": "c26b058c",
+      "catalog_lane": "dialogue",
+      "catalog_voice_call": {
+        "statement": "voice get_voice_filename(\"dia\")",
+        "line": 76,
+        "function": "get_voice_filename",
+        "tag": "dia",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "source_statement_code": "parca \"「どなたがワタクシの器になるのか、未だ予想がつきません」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"dia\")",
+        "parca \"「どなたがワタクシの器になるのか、未だ予想がつきません」\""
+      ],
+      "protected_tokens": [],
+      "source_packet_source_line": 75
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_c842d147",
+      "sequence": 16,
+      "translation_id": "fBAD_03_c842d147",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/BAD_END_03.rpy",
+      "source_line": 82,
+      "speaker": "parca",
+      "source_jp": "「こうなってしまえば、もはやどなたサマでも同じですけれども」",
+      "draft_ko": "「이렇게 되어 버렸으니, 이제 어느 분이든 마찬가지이긴 하지만요」",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 16,
+      "source_packet_stable_id": "scenario/BAD_END_03.rpy::L80",
+      "catalog_command_index": 16,
+      "catalog_stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_c842d147",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "fBAD_03_c842d147",
+          "renpy_digest": "c842d147",
+          "source_group_sha256": "708bfca220e74a0d871831abdedb07b3432602621d7e6472cc085bcfc28407b9",
+          "source_text_sha256": "26365161c963c4d9b0fa33e5ca133f47d23c66f897d36be1e465067c470714dd",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source_file+speaker+exact Japanese source unique fallback; packet line corrected",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/BAD_END_03.rpy",
+          "source_line": 82,
+          "speaker": "parca",
+          "source_text_exact_match": true,
+          "source_text_sha256": "26365161c963c4d9b0fa33e5ca133f47d23c66f897d36be1e465067c470714dd",
+          "catalog_command_index": 16,
+          "catalog_stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_c842d147",
+          "source_packet_source_line": 80,
+          "catalog_source_line": 82,
+          "source_line_exact_match": false,
+          "source_line_delta": 2
+        }
+      },
+      "source_text_sha256": "26365161c963c4d9b0fa33e5ca133f47d23c66f897d36be1e465067c470714dd",
+      "source_group_sha256": "708bfca220e74a0d871831abdedb07b3432602621d7e6472cc085bcfc28407b9",
+      "renpy_digest": "c842d147",
+      "catalog_lane": "dialogue",
+      "catalog_voice_call": {
+        "statement": "voice get_voice_filename(\"dia\")",
+        "line": 81,
+        "function": "get_voice_filename",
+        "tag": "dia",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "source_statement_code": "parca \"「こうなってしまえば、もはやどなたサマでも同じですけれども」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"dia\")",
+        "parca \"「こうなってしまえば、もはやどなたサマでも同じですけれども」\""
+      ],
+      "protected_tokens": [],
+      "source_packet_source_line": 80
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_288206d4",
+      "sequence": 17,
+      "translation_id": "fBAD_03_288206d4",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/BAD_END_03.rpy",
+      "source_line": 87,
+      "speaker": "parca",
+      "source_jp": "「……あら？」",
+      "draft_ko": "「……어머?」",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 17,
+      "source_packet_stable_id": "scenario/BAD_END_03.rpy::L85",
+      "catalog_command_index": 17,
+      "catalog_stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_288206d4",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "fBAD_03_288206d4",
+          "renpy_digest": "288206d4",
+          "source_group_sha256": "1a4eb48bf0aa0c346da2cea530a7e954134826f0c27f3c670a578d1a165c6098",
+          "source_text_sha256": "8462eb3c7c5c4ca9c5d63ebe3da03fe4b0c53b8102224c4486b81a656d87f234",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source_file+speaker+exact Japanese source unique fallback; packet line corrected",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/BAD_END_03.rpy",
+          "source_line": 87,
+          "speaker": "parca",
+          "source_text_exact_match": true,
+          "source_text_sha256": "8462eb3c7c5c4ca9c5d63ebe3da03fe4b0c53b8102224c4486b81a656d87f234",
+          "catalog_command_index": 17,
+          "catalog_stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_288206d4",
+          "source_packet_source_line": 85,
+          "catalog_source_line": 87,
+          "source_line_exact_match": false,
+          "source_line_delta": 2
+        }
+      },
+      "source_text_sha256": "8462eb3c7c5c4ca9c5d63ebe3da03fe4b0c53b8102224c4486b81a656d87f234",
+      "source_group_sha256": "1a4eb48bf0aa0c346da2cea530a7e954134826f0c27f3c670a578d1a165c6098",
+      "renpy_digest": "288206d4",
+      "catalog_lane": "dialogue",
+      "catalog_voice_call": {
+        "statement": "voice get_voice_filename(\"dia\")",
+        "line": 86,
+        "function": "get_voice_filename",
+        "tag": "dia",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "source_statement_code": "parca \"「……あら？」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"dia\")",
+        "parca \"「……あら？」\""
+      ],
+      "protected_tokens": [],
+      "source_packet_source_line": 85
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_f3e7b686",
+      "sequence": 18,
+      "translation_id": "fBAD_03_f3e7b686",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/BAD_END_03.rpy",
+      "source_line": 89,
+      "speaker": "narrator",
+      "source_jp": "パルカは首を傾げて、口にする。",
+      "draft_ko": "파르카는 고개를 갸웃하며 입을 열었다.",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 18,
+      "source_packet_stable_id": "scenario/BAD_END_03.rpy::L87",
+      "catalog_command_index": 18,
+      "catalog_stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_f3e7b686",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "fBAD_03_f3e7b686",
+          "renpy_digest": "f3e7b686",
+          "source_group_sha256": "069bbced296c8586f0eab7f80f037419e19cb2c822813df91bbb533912a4c25a",
+          "source_text_sha256": "95134f7574b52846abf1b976e684f160a66e2126d69e5bda08b133d1d900429f",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source_file+speaker+exact Japanese source unique fallback; packet line corrected",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/BAD_END_03.rpy",
+          "source_line": 89,
+          "speaker": "narrator",
+          "source_text_exact_match": true,
+          "source_text_sha256": "95134f7574b52846abf1b976e684f160a66e2126d69e5bda08b133d1d900429f",
+          "catalog_command_index": 18,
+          "catalog_stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_f3e7b686",
+          "source_packet_source_line": 87,
+          "catalog_source_line": 89,
+          "source_line_exact_match": false,
+          "source_line_delta": 2
+        }
+      },
+      "source_text_sha256": "95134f7574b52846abf1b976e684f160a66e2126d69e5bda08b133d1d900429f",
+      "source_group_sha256": "069bbced296c8586f0eab7f80f037419e19cb2c822813df91bbb533912a4c25a",
+      "renpy_digest": "f3e7b686",
+      "catalog_lane": "narration",
+      "catalog_voice_call": null,
+      "source_statement_code": "\"パルカは首を傾げて、口にする。\"",
+      "source_group_code": [
+        "\"パルカは首を傾げて、口にする。\""
+      ],
+      "protected_tokens": [],
+      "source_packet_source_line": 87
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_3758af7d",
+      "sequence": 19,
+      "translation_id": "fBAD_03_3758af7d",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/BAD_END_03.rpy",
+      "source_line": 94,
+      "speaker": "parca",
+      "source_jp": "「それは、どうしてでしたっけ？」",
+      "draft_ko": "「그건, 왜였던가요?」",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 19,
+      "source_packet_stable_id": "scenario/BAD_END_03.rpy::L92",
+      "catalog_command_index": 19,
+      "catalog_stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_3758af7d",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "fBAD_03_3758af7d",
+          "renpy_digest": "3758af7d",
+          "source_group_sha256": "c3ebf95a544ab557dc762545b311c18b241bae8c5cf17aaa74d51e5c70691021",
+          "source_text_sha256": "7954af3e6ca6722deea2dc9c852d10922482e798e4c52f1cd6419bf5b024b2e4",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source_file+speaker+exact Japanese source unique fallback; packet line corrected",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/BAD_END_03.rpy",
+          "source_line": 94,
+          "speaker": "parca",
+          "source_text_exact_match": true,
+          "source_text_sha256": "7954af3e6ca6722deea2dc9c852d10922482e798e4c52f1cd6419bf5b024b2e4",
+          "catalog_command_index": 19,
+          "catalog_stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_3758af7d",
+          "source_packet_source_line": 92,
+          "catalog_source_line": 94,
+          "source_line_exact_match": false,
+          "source_line_delta": 2
+        }
+      },
+      "source_text_sha256": "7954af3e6ca6722deea2dc9c852d10922482e798e4c52f1cd6419bf5b024b2e4",
+      "source_group_sha256": "c3ebf95a544ab557dc762545b311c18b241bae8c5cf17aaa74d51e5c70691021",
+      "renpy_digest": "3758af7d",
+      "catalog_lane": "dialogue",
+      "catalog_voice_call": {
+        "statement": "voice get_voice_filename(\"dia\")",
+        "line": 93,
+        "function": "get_voice_filename",
+        "tag": "dia",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "source_statement_code": "parca \"「それは、どうしてでしたっけ？」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"dia\")",
+        "parca \"「それは、どうしてでしたっけ？」\""
+      ],
+      "protected_tokens": [],
+      "source_packet_source_line": 92
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_5053eeef",
+      "sequence": 20,
+      "translation_id": "fBAD_03_5053eeef",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/BAD_END_03.rpy",
+      "source_line": 96,
+      "speaker": "narrator",
+      "source_jp": "こぼれた疑問に、返事は決して返ってこない。",
+      "draft_ko": "흘러나온 의문에 답이 돌아오는 일은 결코 없다.",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 20,
+      "source_packet_stable_id": "scenario/BAD_END_03.rpy::L94",
+      "catalog_command_index": 20,
+      "catalog_stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_5053eeef",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "fBAD_03_5053eeef",
+          "renpy_digest": "5053eeef",
+          "source_group_sha256": "94b79ea575a371288e80a79184c65efa2062a80c0f34e0ad536cfb6e010a8c56",
+          "source_text_sha256": "de5cae906379b4d67656594121170eb5eb0319cdbc912e06bde71f43dff2c8d6",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source_file+speaker+exact Japanese source unique fallback; packet line corrected",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/BAD_END_03.rpy",
+          "source_line": 96,
+          "speaker": "narrator",
+          "source_text_exact_match": true,
+          "source_text_sha256": "de5cae906379b4d67656594121170eb5eb0319cdbc912e06bde71f43dff2c8d6",
+          "catalog_command_index": 20,
+          "catalog_stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_5053eeef",
+          "source_packet_source_line": 94,
+          "catalog_source_line": 96,
+          "source_line_exact_match": false,
+          "source_line_delta": 2
+        }
+      },
+      "source_text_sha256": "de5cae906379b4d67656594121170eb5eb0319cdbc912e06bde71f43dff2c8d6",
+      "source_group_sha256": "94b79ea575a371288e80a79184c65efa2062a80c0f34e0ad536cfb6e010a8c56",
+      "renpy_digest": "5053eeef",
+      "catalog_lane": "narration",
+      "catalog_voice_call": null,
+      "source_statement_code": "\"こぼれた疑問に、返事は決して返ってこない。\"",
+      "source_group_code": [
+        "\"こぼれた疑問に、返事は決して返ってこない。\""
+      ],
+      "protected_tokens": [],
+      "source_packet_source_line": 94
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_50731705",
+      "sequence": 21,
+      "translation_id": "fBAD_03_50731705",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/BAD_END_03.rpy",
+      "source_line": 98,
+      "speaker": "narrator",
+      "source_jp": "パルカは再び、≪女神の選定≫の管理者へと戻るのであった。",
+      "draft_ko": "파르카는 다시 ≪여신의 선정≫의 관리자로 돌아가는 것이었다.",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 21,
+      "source_packet_stable_id": "scenario/BAD_END_03.rpy::L96",
+      "catalog_command_index": 21,
+      "catalog_stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_50731705",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "fBAD_03_50731705",
+          "renpy_digest": "50731705",
+          "source_group_sha256": "ab7199118be84ed196ae844ba9fab184faa500f5f407a1cafcccf46f066401ff",
+          "source_text_sha256": "c20311666bfe8344ecb32c7a3e1d7be05cf39e8ec0ae0747b0fcf37547625d68",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source_file+speaker+exact Japanese source unique fallback; packet line corrected",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/BAD_END_03.rpy",
+          "source_line": 98,
+          "speaker": "narrator",
+          "source_text_exact_match": true,
+          "source_text_sha256": "c20311666bfe8344ecb32c7a3e1d7be05cf39e8ec0ae0747b0fcf37547625d68",
+          "catalog_command_index": 21,
+          "catalog_stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_50731705",
+          "source_packet_source_line": 96,
+          "catalog_source_line": 98,
+          "source_line_exact_match": false,
+          "source_line_delta": 2
+        }
+      },
+      "source_text_sha256": "c20311666bfe8344ecb32c7a3e1d7be05cf39e8ec0ae0747b0fcf37547625d68",
+      "source_group_sha256": "ab7199118be84ed196ae844ba9fab184faa500f5f407a1cafcccf46f066401ff",
+      "renpy_digest": "50731705",
+      "catalog_lane": "narration",
+      "catalog_voice_call": null,
+      "source_statement_code": "\"パルカは再び、≪女神の選定≫の管理者へと戻るのであった。\"",
+      "source_group_code": [
+        "\"パルカは再び、≪女神の選定≫の管理者へと戻るのであった。\""
+      ],
+      "protected_tokens": [],
+      "source_packet_source_line": 96
+    }
+  ],
+  "schema_version": "fatal-twelve-aligned-draft-v1",
+  "alignment_status": "complete_exact_source_join",
+  "alignment_catalog": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\catalog_design\\scenario_BAD_END_03.catalog.jsonl",
+    "size": 68958,
+    "sha256": "39295dfc437439ce00926f1583a6c773d0f917d709b118c7f301fa3bbd7d4e7c",
+    "schema_version": "fatal-twelve-renpy-catalog-v1"
+  },
+  "sequence_semantics": "AST catalog command_index including Ren'Py menu strings",
+  "source_packet_sequence_semantics": "translator work order excluding menu choice lines; preserved separately",
+  "alignment_summary": {
+    "entries": 21,
+    "source_packet_sequence_start": 1,
+    "source_packet_sequence_end": 21,
+    "catalog_sequence_start": 1,
+    "catalog_sequence_end": 21,
+    "translation_ids": 21,
+    "menu_keys": 0,
+    "reference_missing": 0,
+    "sequence_changed": 0,
+    "translation_text_modified": false
+  },
+  "complete_catalog_coverage": {
+    "catalog_records": 21,
+    "matched_exact_source_records": 21,
+    "missing_records": 0,
+    "extra_records": 0
+  },
+  "source_line_alignment": {
+    "exact_line_matches": 0,
+    "corrected_from_unique_exact_source": 21,
+    "corrections": [
+      {
+        "source_packet_ordinal": 1,
+        "source_packet_source_line": 26,
+        "catalog_source_line": 28,
+        "delta": 2,
+        "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_a0b11b5d"
+      },
+      {
+        "source_packet_ordinal": 2,
+        "source_packet_source_line": 31,
+        "catalog_source_line": 33,
+        "delta": 2,
+        "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_3afefde5"
+      },
+      {
+        "source_packet_ordinal": 3,
+        "source_packet_source_line": 36,
+        "catalog_source_line": 38,
+        "delta": 2,
+        "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_91dcd28e"
+      },
+      {
+        "source_packet_ordinal": 4,
+        "source_packet_source_line": 41,
+        "catalog_source_line": 43,
+        "delta": 2,
+        "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_ea189acf"
+      },
+      {
+        "source_packet_ordinal": 5,
+        "source_packet_source_line": 43,
+        "catalog_source_line": 45,
+        "delta": 2,
+        "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_889eb861"
+      },
+      {
+        "source_packet_ordinal": 6,
+        "source_packet_source_line": 45,
+        "catalog_source_line": 47,
+        "delta": 2,
+        "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_5a919bbd"
+      },
+      {
+        "source_packet_ordinal": 7,
+        "source_packet_source_line": 47,
+        "catalog_source_line": 49,
+        "delta": 2,
+        "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_c78962a8"
+      },
+      {
+        "source_packet_ordinal": 8,
+        "source_packet_source_line": 52,
+        "catalog_source_line": 54,
+        "delta": 2,
+        "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_6773414b"
+      },
+      {
+        "source_packet_ordinal": 9,
+        "source_packet_source_line": 54,
+        "catalog_source_line": 56,
+        "delta": 2,
+        "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_39940ccf"
+      },
+      {
+        "source_packet_ordinal": 10,
+        "source_packet_source_line": 56,
+        "catalog_source_line": 58,
+        "delta": 2,
+        "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_ce567a10"
+      },
+      {
+        "source_packet_ordinal": 11,
+        "source_packet_source_line": 58,
+        "catalog_source_line": 60,
+        "delta": 2,
+        "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_f45547c8"
+      },
+      {
+        "source_packet_ordinal": 12,
+        "source_packet_source_line": 63,
+        "catalog_source_line": 65,
+        "delta": 2,
+        "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_aae37439"
+      },
+      {
+        "source_packet_ordinal": 13,
+        "source_packet_source_line": 65,
+        "catalog_source_line": 67,
+        "delta": 2,
+        "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_8e7d8238"
+      },
+      {
+        "source_packet_ordinal": 14,
+        "source_packet_source_line": 70,
+        "catalog_source_line": 72,
+        "delta": 2,
+        "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_3c671e6b"
+      },
+      {
+        "source_packet_ordinal": 15,
+        "source_packet_source_line": 75,
+        "catalog_source_line": 77,
+        "delta": 2,
+        "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_c26b058c"
+      },
+      {
+        "source_packet_ordinal": 16,
+        "source_packet_source_line": 80,
+        "catalog_source_line": 82,
+        "delta": 2,
+        "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_c842d147"
+      },
+      {
+        "source_packet_ordinal": 17,
+        "source_packet_source_line": 85,
+        "catalog_source_line": 87,
+        "delta": 2,
+        "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_288206d4"
+      },
+      {
+        "source_packet_ordinal": 18,
+        "source_packet_source_line": 87,
+        "catalog_source_line": 89,
+        "delta": 2,
+        "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_f3e7b686"
+      },
+      {
+        "source_packet_ordinal": 19,
+        "source_packet_source_line": 92,
+        "catalog_source_line": 94,
+        "delta": 2,
+        "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_3758af7d"
+      },
+      {
+        "source_packet_ordinal": 20,
+        "source_packet_source_line": 94,
+        "catalog_source_line": 96,
+        "delta": 2,
+        "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_5053eeef"
+      },
+      {
+        "source_packet_ordinal": 21,
+        "source_packet_source_line": 96,
+        "catalog_source_line": 98,
+        "delta": 2,
+        "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_50731705"
+      }
+    ]
+  }
+}

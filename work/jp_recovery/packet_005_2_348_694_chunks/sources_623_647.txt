@@ -1,0 +1,25 @@
+623	L2593	narration	narrator	ユウの声は、徐々に切迫さを増していった。
+624	L2595	narration	narrator	反比例するように、茂継はただ淡々と話す。
+625	L2600	dialogue	ushizuka	「お前にユウという名前を与えたのは、わしの過ちじゃったかもしれん」
+626	L2605	dialogue	ushizuka	「記憶喪失じゃからか知らんが……まさか、その名前でかぁどが作られるとは思わんかった」
+627	L2610	dialogue	ushizuka	「お前は≪自身のかぁど≫を忘れていることが強みじゃったが、それを一つ奪ってしまったからのう」
+628	L2615	dialogue	yuu	「そんなことない！　おじいちゃんが名前をつけてくれて、ボクは嬉しかった。だって……自分の名前も分からなかったんだもん！」
+629	L2620	dialogue	ushizuka	「ほっほ、それは嬉しいわい。ならば、わしの願いは一つじゃ」
+630	L2625	dialogue	ushizuka	「無理に生きろなどとは言わん。ただ、誰かに何かを与える喜びだけは知って欲しいんじゃ」
+631	L2627	narration	narrator	彼がユウに名前を与えたように。
+632	L2629	narration	narrator	彼がユウに居場所を与えたように。
+633	L2634	dialogue	ushizuka	「わしも、ユウに大切なものをもらって死ねる」
+634	L2639	dialogue	yuu	「ボクがおじいちゃんに何かを……あげた？」
+635	L2644	dialogue	ushizuka	「……そうじゃ」
+636	L2649	dialogue	yuu	「駄目だ！　やっぱりボクには分からないよ。何も……分からない」
+637	L2654	dialogue	ushizuka	「じゃったら、徐々に分かるようになればいいんじゃ。その時には、その喜びもちゃんと理解できるじゃろう」
+638	L2656	narration	narrator	朗らかな声で言うと、茂継はユウの頭をしわくちゃな手で撫でた。
+639	L2658	narration	narrator	何も答えは出ていない。
+640	L2660	narration	narrator	ユウ自身は、一つも納得していない。
+641	L2662	narration	narrator	ともすれば、茂継の詭弁に丸め込まれたような状態だ。
+642	L2664	narration	narrator	だけれども、ユウはようやく理解することができた。
+643	L2666	narration	narrator	牛塚茂継――おじいちゃんは本当に、間もなく死んでしまうのだと。
+644	L2668	narration	narrator	それだけは、何があっても止められないのだと。
+645	L2686	narration	narrator	一連のやり取りを、私は聞いてしまっていた。
+646	L2688	narration	narrator	盗み聞きする気がなかったという言い訳は使えない。
+647	L2690	narration	narrator	彼らの会話の全てをしっかり聞いたわけではないが、どうしても、聞き逃せないことがあったのだ。

@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "status": "provisional_first_draft_unreviewed",
+  "source_authority": "Japanese only",
+  "english_reference_used": false,
+  "qa": "deferred_until_full_first_draft",
+  "style_guide_sha256": "b2b87352fdfd9b25af688152b0ce8a7460ffeb88fc06ae6e45f1c5df2ae83891",
+  "notes": [
+    "These spellings are frozen for first-draft consistency only.",
+    "Readings and terminology will be reviewed once, after the complete first draft."
+  ],
+  "proper_names": [
+    {"source_jp": "凛火", "draft_ko": "린카", "kind": "given_name"},
+    {"source_jp": "獅子舞凛火", "draft_ko": "시시마이 린카", "kind": "full_name"},
+    {"source_jp": "海晴", "draft_ko": "미하루", "kind": "given_name"},
+    {"source_jp": "未島海晴", "draft_ko": "미시마 미하루", "kind": "full_name"},
+    {"source_jp": "直未", "draft_ko": "나오미", "kind": "given_name"},
+    {"source_jp": "日辻直未", "draft_ko": "히츠지 나오미", "kind": "full_name"},
+    {"source_jp": "真央", "draft_ko": "마오", "kind": "given_name"},
+    {"source_jp": "小熊真央", "draft_ko": "코구마 마오", "kind": "full_name"},
+    {"source_jp": "ダイアナ", "draft_ko": "다이아나", "kind": "character_name"},
+    {"source_jp": "パルカ", "draft_ko": "파르카", "kind": "character_name"},
+    {"source_jp": "アラン", "draft_ko": "아란", "kind": "character_name"},
+    {"source_jp": "アラン・スコーピオン", "draft_ko": "아란 스코피온", "kind": "full_name"},
+    {"source_jp": "オデット", "draft_ko": "오데트", "kind": "character_name"},
+    {"source_jp": "フェデリーコ", "draft_ko": "페데리코", "kind": "character_name"},
+    {"source_jp": "ユウ", "draft_ko": "유우", "kind": "character_name"},
+    {"source_jp": "ソーニャ", "draft_ko": "소냐", "kind": "character_name"},
+    {"source_jp": "桂子", "draft_ko": "게이코", "kind": "character_name"},
+    {"source_jp": "スケール", "draft_ko": "스케일", "kind": "character_name"},
+    {"source_jp": "スケール・ジョーンズ", "draft_ko": "스케일 존스", "kind": "full_name"},
+    {"source_jp": "茂継", "draft_ko": "시게쓰구", "kind": "character_name"},
+    {"source_jp": "チャン", "draft_ko": "장", "kind": "character_name"},
+    {"source_jp": "昌鎬", "draft_ko": "창호", "kind": "character_name"},
+    {"source_jp": "レテ", "draft_ko": "레테", "kind": "character_name"},
+    {"source_jp": "リンダ", "draft_ko": "린다", "kind": "character_name"}
+  ],
+  "nicknames": [
+    {"source_jp": "りーたん", "draft_ko": "리땅"},
+    {"source_jp": "みはるん", "draft_ko": "미하룽"},
+    {"source_jp": "なおりん", "draft_ko": "나오링"}
+  ],
+  "world_terms": [
+    {"source_jp": "女神の選定", "draft_ko": "여신의 선정"},
+    {"source_jp": "運命の終着点", "draft_ko": "운명의 종착점"},
+    {"source_jp": "スターダストキングダム", "draft_ko": "스타더스트 킹덤"},
+    {"source_jp": "フロート", "draft_ko": "플로트"},
+    {"source_jp": "ハンドドリップ", "draft_ko": "핸드 드립"}
+  ],
+  "identity_mask_rules": [
+    {"source_jp": "？？？", "draft_ko": "???", "rule": "Do not reveal identity early."},
+    {"source_jp": "Ⅰの少女", "draft_ko": "Ⅰ번 소녀", "rule": "Preserve Roman numeral."},
+    {"source_jp": "聞き慣れた声", "draft_ko": "익숙한 목소리", "rule": "Translate role label only."}
+  ]
+}

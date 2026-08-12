@@ -1,0 +1,118 @@
+{
+  "schema_version": "fatal-twelve-ko-structure-check-v1",
+  "subject": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\patch_architecture\\draft_007_2_001_350.json",
+  "validation_scope": "structure_only",
+  "translation_qa_performed": false,
+  "translation_qa": "deferred_until_full_first_draft",
+  "passed": true,
+  "summary": {
+    "catalog_total_records": 1471,
+    "draft_entries": 350,
+    "command_index_start": 1,
+    "command_index_end": 350,
+    "first_source_line": 27,
+    "last_source_line": 1302,
+    "translate_blocks": 350,
+    "voice_lines": 136,
+    "menu_entries": 0,
+    "unique_translation_ids": 350
+  },
+  "hashes": {
+    "japanese_source_sha256": "bdb7da6ce44cceec924d67f70288ef6f6410f6169b2782b086b35246b3d91377",
+    "catalog_sha256": "08345a226272a267ec7a2754b0106744fc04b8a25327db2b2868f47c2fc4d598",
+    "catalog_meta_sha256": "c78c9aa9cfb4793cb78e67a115d7e0db712b6790d14b4775ce313ef6fddb021b",
+    "catalog_validation_sha256": "a6dca5e1c4782dc90e6291d4a13744152f20eea895675d8888770fc94bdecee5",
+    "draft_json_sha256": "6e4fa22f0915f5f18b5de6759ad123ee09df06644b2fcc769c9844c26c085404",
+    "draft_rpy_sha256": "71840bdd938005b1dbd74d3fced85f5844d88fb49fad3df65c25b61890445108"
+  },
+  "checks": {
+    "catalog_total_records": {
+      "passed": true,
+      "detail": {
+        "expected": 1471,
+        "actual": 1471
+      }
+    },
+    "catalog_full_sequence": {
+      "passed": true
+    },
+    "draft_catalog_range": {
+      "passed": true
+    },
+    "packet_entry_count": {
+      "passed": true,
+      "detail": {
+        "packet": 350,
+        "entries": 350
+      }
+    },
+    "packet_range": {
+      "passed": true
+    },
+    "packet_identity": {
+      "passed": true
+    },
+    "packet_provenance_flags": {
+      "passed": true
+    },
+    "exact_catalog_identity": {
+      "passed": true,
+      "detail": {
+        "mismatches": [],
+        "mismatch_count": 0
+      }
+    },
+    "entry_flags_and_nonempty_drafts": {
+      "passed": true,
+      "detail": {
+        "bad_commands": []
+      }
+    },
+    "protected_token_multisets": {
+      "passed": true,
+      "detail": {
+        "mismatch_count": 0,
+        "mismatches": []
+      }
+    },
+    "rpy_translate_block_count": {
+      "passed": true,
+      "detail": {
+        "expected": 350,
+        "actual": 350
+      }
+    },
+    "rpy_translate_id_order": {
+      "passed": true,
+      "detail": {
+        "unique": 350,
+        "expected_unique": 350
+      }
+    },
+    "rpy_strings_lane_absent": {
+      "passed": true
+    },
+    "rpy_control_voice_display_tail_preservation": {
+      "passed": true,
+      "detail": {
+        "mismatch_count": 0,
+        "mismatches": []
+      }
+    },
+    "voice_count": {
+      "passed": true,
+      "detail": {
+        "expected": 136,
+        "actual": 136
+      }
+    },
+    "catalog_source_rebuild_validation": {
+      "passed": true,
+      "detail": {
+        "records": 1471,
+        "errors": 0,
+        "warnings": 0
+      }
+    }
+  }
+}

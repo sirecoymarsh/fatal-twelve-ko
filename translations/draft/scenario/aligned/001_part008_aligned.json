@@ -1,0 +1,3343 @@
+{
+  "packet_id": "scenario_001_part008_source_only",
+  "source_language": "Japanese",
+  "target_language": "Korean",
+  "entry_count": 50,
+  "translation_id_alignment": "complete: source_file+source_line+speaker+exact Japanese source -> AST catalog; no sequence zip",
+  "status": "first_draft_unreviewed",
+  "qa_policy": "No translation QA until the complete first draft is finished; review once afterward.",
+  "english_text_in_translator_packet": false,
+  "entries": [
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_8a256958",
+      "sequence": 555,
+      "translation_id": "f001_s2_end_8a256958",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2464,
+      "speaker": "naomi",
+      "source_jp": "「パレードは興味ありますけど……。わたしは、みなさんにお任せします……」",
+      "draft_ko": "“퍼레이드에는 관심 있지만요……. 저는 여러분께 맡길게요……”",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 551,
+      "source_packet_stable_id": "scenario/001.rpy::L2464",
+      "catalog_command_index": 555,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_8a256958",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s2_end_8a256958",
+          "renpy_digest": "8a256958",
+          "source_group_sha256": "ab4571c46aaed11adf9c16d98256332e77f02edc9320a152512ef93219d29319",
+          "source_text_sha256": "f158cef595ced3523f23b05558c8f9f575438f75f8273b9411b36bec7f3a8310",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2464,
+          "speaker": "naomi",
+          "source_text_exact_match": true,
+          "source_text_sha256": "f158cef595ced3523f23b05558c8f9f575438f75f8273b9411b36bec7f3a8310",
+          "catalog_command_index": 555,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_8a256958"
+        }
+      },
+      "source_text_sha256": "f158cef595ced3523f23b05558c8f9f575438f75f8273b9411b36bec7f3a8310",
+      "source_group_sha256": "ab4571c46aaed11adf9c16d98256332e77f02edc9320a152512ef93219d29319",
+      "renpy_digest": "8a256958",
+      "catalog_lane": "dialogue",
+      "catalog_voice_call": {
+        "statement": "voice get_voice_filename(\"nom\")",
+        "line": 2463,
+        "function": "get_voice_filename",
+        "tag": "nom",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "source_statement_code": "naomi \"「パレードは興味ありますけど……。わたしは、みなさんにお任せします……」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"nom\")",
+        "naomi \"「パレードは興味ありますけど……。わたしは、みなさんにお任せします……」\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_d7761159",
+      "sequence": 556,
+      "translation_id": "f001_s2_end_d7761159",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2466,
+      "speaker": "narrator",
+      "source_jp": "直未はどうやら考えるのを放棄しているらしい。",
+      "draft_ko": "나오미는 아무래도 생각하기를 포기한 모양이다.",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 552,
+      "source_packet_stable_id": "scenario/001.rpy::L2466",
+      "catalog_command_index": 556,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_d7761159",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s2_end_d7761159",
+          "renpy_digest": "d7761159",
+          "source_group_sha256": "53efb91d4656fcc0a0a9ff6fb2a36fd1e963e3fbd7c2e9e1b24ac93257cdc50b",
+          "source_text_sha256": "123b53b5191337ce2d90e133cadd7ff046f76dc23bf8626dd244c2164d3062e1",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2466,
+          "speaker": "narrator",
+          "source_text_exact_match": true,
+          "source_text_sha256": "123b53b5191337ce2d90e133cadd7ff046f76dc23bf8626dd244c2164d3062e1",
+          "catalog_command_index": 556,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_d7761159"
+        }
+      },
+      "source_text_sha256": "123b53b5191337ce2d90e133cadd7ff046f76dc23bf8626dd244c2164d3062e1",
+      "source_group_sha256": "53efb91d4656fcc0a0a9ff6fb2a36fd1e963e3fbd7c2e9e1b24ac93257cdc50b",
+      "renpy_digest": "d7761159",
+      "catalog_lane": "narration",
+      "catalog_voice_call": null,
+      "source_statement_code": "\"直未はどうやら考えるのを放棄しているらしい。\"",
+      "source_group_code": [
+        "\"直未はどうやら考えるのを放棄しているらしい。\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_9b5aafda",
+      "sequence": 557,
+      "translation_id": "f001_s2_end_9b5aafda",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2468,
+      "speaker": "narrator",
+      "source_jp": "後輩だから仕方がないというか、この中で意見を言うのも難しいだろう。",
+      "draft_ko": "후배이니 어쩔 수 없다고 해야 하나, 이들 사이에서 의견을 내기도 어렵겠지.",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 553,
+      "source_packet_stable_id": "scenario/001.rpy::L2468",
+      "catalog_command_index": 557,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_9b5aafda",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s2_end_9b5aafda",
+          "renpy_digest": "9b5aafda",
+          "source_group_sha256": "a1e7317b24a1dca055cf5df3966aed524878834d102b7141df19dc7d677afbd7",
+          "source_text_sha256": "673ba412e4a6c48f2bc398371fb2ac71cd16d789df32d5454260145b5705c73f",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2468,
+          "speaker": "narrator",
+          "source_text_exact_match": true,
+          "source_text_sha256": "673ba412e4a6c48f2bc398371fb2ac71cd16d789df32d5454260145b5705c73f",
+          "catalog_command_index": 557,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_9b5aafda"
+        }
+      },
+      "source_text_sha256": "673ba412e4a6c48f2bc398371fb2ac71cd16d789df32d5454260145b5705c73f",
+      "source_group_sha256": "a1e7317b24a1dca055cf5df3966aed524878834d102b7141df19dc7d677afbd7",
+      "renpy_digest": "9b5aafda",
+      "catalog_lane": "narration",
+      "catalog_voice_call": null,
+      "source_statement_code": "\"後輩だから仕方がないというか、この中で意見を言うのも難しいだろう。\"",
+      "source_group_code": [
+        "\"後輩だから仕方がないというか、この中で意見を言うのも難しいだろう。\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_f1ab687f",
+      "sequence": 558,
+      "translation_id": "f001_s2_end_f1ab687f",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2473,
+      "speaker": "rinka",
+      "source_jp": "「ここからだと、あ、ブリリアントタワーっていうのが近いみたい。フリーフォール系のアトラクションだ」",
+      "draft_ko": "“여기서는, 아, 브릴리언트 타워라는 게 가까운 모양이야. 프리폴 계열 놀이기구네.”",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 554,
+      "source_packet_stable_id": "scenario/001.rpy::L2473",
+      "catalog_command_index": 558,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_f1ab687f",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s2_end_f1ab687f",
+          "renpy_digest": "f1ab687f",
+          "source_group_sha256": "3a592cdcb1647c74ca5790ce94c7098fcd9098cf702d943f86fd443b0128a08b",
+          "source_text_sha256": "446d3d6f1e31f1ba99df0dfb2ac1a44eaa8c1ec9e8785a5d9dcf5c9debca6ac6",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2473,
+          "speaker": "rinka",
+          "source_text_exact_match": true,
+          "source_text_sha256": "446d3d6f1e31f1ba99df0dfb2ac1a44eaa8c1ec9e8785a5d9dcf5c9debca6ac6",
+          "catalog_command_index": 558,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_f1ab687f"
+        }
+      },
+      "source_text_sha256": "446d3d6f1e31f1ba99df0dfb2ac1a44eaa8c1ec9e8785a5d9dcf5c9debca6ac6",
+      "source_group_sha256": "3a592cdcb1647c74ca5790ce94c7098fcd9098cf702d943f86fd443b0128a08b",
+      "renpy_digest": "f1ab687f",
+      "catalog_lane": "dialogue",
+      "catalog_voice_call": {
+        "statement": "voice get_voice_filename(\"rnk\")",
+        "line": 2472,
+        "function": "get_voice_filename",
+        "tag": "rnk",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "source_statement_code": "rinka \"「ここからだと、あ、ブリリアントタワーっていうのが近いみたい。フリーフォール系のアトラクションだ」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"rnk\")",
+        "rinka \"「ここからだと、あ、ブリリアントタワーっていうのが近いみたい。フリーフォール系のアトラクションだ」\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_49629e55",
+      "sequence": 559,
+      "translation_id": "f001_s2_end_49629e55",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2478,
+      "speaker": "mao",
+      "source_jp": "「さんざん並んだのに、また並ぶの～？」",
+      "draft_ko": "“실컷 줄 섰는데 또 줄 서는 거야~?”",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 555,
+      "source_packet_stable_id": "scenario/001.rpy::L2478",
+      "catalog_command_index": 559,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_49629e55",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s2_end_49629e55",
+          "renpy_digest": "49629e55",
+          "source_group_sha256": "1c0e5d4bf99dde96f77beb90bf2cce1e3814db528635433e913cb2d188c988dd",
+          "source_text_sha256": "eae86e3b401240cf3cfd01a1b1e5282bfd509d2251161a47499dc2068c35fd75",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2478,
+          "speaker": "mao",
+          "source_text_exact_match": true,
+          "source_text_sha256": "eae86e3b401240cf3cfd01a1b1e5282bfd509d2251161a47499dc2068c35fd75",
+          "catalog_command_index": 559,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_49629e55"
+        }
+      },
+      "source_text_sha256": "eae86e3b401240cf3cfd01a1b1e5282bfd509d2251161a47499dc2068c35fd75",
+      "source_group_sha256": "1c0e5d4bf99dde96f77beb90bf2cce1e3814db528635433e913cb2d188c988dd",
+      "renpy_digest": "49629e55",
+      "catalog_lane": "dialogue",
+      "catalog_voice_call": {
+        "statement": "voice get_voice_filename(\"mao\")",
+        "line": 2477,
+        "function": "get_voice_filename",
+        "tag": "mao",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "source_statement_code": "mao \"「さんざん並んだのに、また並ぶの～？」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"mao\")",
+        "mao \"「さんざん並んだのに、また並ぶの～？」\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_e9529cb1",
+      "sequence": 560,
+      "translation_id": "f001_s2_end_e9529cb1",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2483,
+      "speaker": "naomi",
+      "source_jp": "「あ、枚数は限られているみたいですけど、列をパスして入れる優先チケットがあるらしいです」",
+      "draft_ko": "“아, 수량은 한정된 모양이지만 줄을 건너뛰고 입장할 수 있는 우선권이 있대요.”",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 556,
+      "source_packet_stable_id": "scenario/001.rpy::L2483",
+      "catalog_command_index": 560,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_e9529cb1",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s2_end_e9529cb1",
+          "renpy_digest": "e9529cb1",
+          "source_group_sha256": "79e7176df75e05806b3ae09854d0f923efe521fddc05626ec0f7c43fa6eed5f9",
+          "source_text_sha256": "69d4d5e85af801efc675586cd61f647d6392f7ad29cee6c10734f5af7426a7b4",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2483,
+          "speaker": "naomi",
+          "source_text_exact_match": true,
+          "source_text_sha256": "69d4d5e85af801efc675586cd61f647d6392f7ad29cee6c10734f5af7426a7b4",
+          "catalog_command_index": 560,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_e9529cb1"
+        }
+      },
+      "source_text_sha256": "69d4d5e85af801efc675586cd61f647d6392f7ad29cee6c10734f5af7426a7b4",
+      "source_group_sha256": "79e7176df75e05806b3ae09854d0f923efe521fddc05626ec0f7c43fa6eed5f9",
+      "renpy_digest": "e9529cb1",
+      "catalog_lane": "dialogue",
+      "catalog_voice_call": {
+        "statement": "voice get_voice_filename(\"nom\")",
+        "line": 2482,
+        "function": "get_voice_filename",
+        "tag": "nom",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "source_statement_code": "naomi \"「あ、枚数は限られているみたいですけど、列をパスして入れる優先チケットがあるらしいです」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"nom\")",
+        "naomi \"「あ、枚数は限られているみたいですけど、列をパスして入れる優先チケットがあるらしいです」\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_77b543a2",
+      "sequence": 561,
+      "translation_id": "f001_s2_end_77b543a2",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2488,
+      "speaker": "miharu",
+      "source_jp": "「ぼくも並んでいる間に調べていたよ。今の混雑具合だと使えるのは一時間後くらいからのようだけれど、取っておいた方がいいんじゃないかな？」",
+      "draft_ko": "“나도 줄 서 있는 동안 알아봤어. 지금 혼잡한 정도라면 한 시간쯤 뒤부터 쓸 수 있는 모양인데, 미리 받아 두는 게 낫지 않을까?”",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 557,
+      "source_packet_stable_id": "scenario/001.rpy::L2488",
+      "catalog_command_index": 561,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_77b543a2",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s2_end_77b543a2",
+          "renpy_digest": "77b543a2",
+          "source_group_sha256": "7f7bcda135c399b47147b83050cbc23c9195a4fdafc9fc8b5b536181c912005d",
+          "source_text_sha256": "07552e894ef67dd161129baaf207f23ceec1d221f7de0df0c0fe6b6560ccc93b",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2488,
+          "speaker": "miharu",
+          "source_text_exact_match": true,
+          "source_text_sha256": "07552e894ef67dd161129baaf207f23ceec1d221f7de0df0c0fe6b6560ccc93b",
+          "catalog_command_index": 561,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_77b543a2"
+        }
+      },
+      "source_text_sha256": "07552e894ef67dd161129baaf207f23ceec1d221f7de0df0c0fe6b6560ccc93b",
+      "source_group_sha256": "7f7bcda135c399b47147b83050cbc23c9195a4fdafc9fc8b5b536181c912005d",
+      "renpy_digest": "77b543a2",
+      "catalog_lane": "dialogue",
+      "catalog_voice_call": {
+        "statement": "voice get_voice_filename(\"mhr\")",
+        "line": 2487,
+        "function": "get_voice_filename",
+        "tag": "mhr",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "source_statement_code": "miharu \"「ぼくも並んでいる間に調べていたよ。今の混雑具合だと使えるのは一時間後くらいからのようだけれど、取っておいた方がいいんじゃないかな？」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"mhr\")",
+        "miharu \"「ぼくも並んでいる間に調べていたよ。今の混雑具合だと使えるのは一時間後くらいからのようだけれど、取っておいた方がいいんじゃないかな？」\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_a4eaca3f",
+      "sequence": 562,
+      "translation_id": "f001_s2_end_a4eaca3f",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2493,
+      "speaker": "rinka",
+      "source_jp": "「うん。なら、まずはチケットを取ろう。待っている間に、お店を見よう？　パレードは午後のもあるから、いくつかアトラクションに乗ってから考えよう」",
+      "draft_ko": "“응. 그럼 우선 표부터 받자. 기다리는 동안 가게를 둘러볼까? 퍼레이드는 오후에도 있으니까 놀이기구 몇 개 타고 나서 생각하자.”",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 558,
+      "source_packet_stable_id": "scenario/001.rpy::L2493",
+      "catalog_command_index": 562,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_a4eaca3f",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s2_end_a4eaca3f",
+          "renpy_digest": "a4eaca3f",
+          "source_group_sha256": "ecbea7d2ea21d4e65d03b6b1602dca749f4ff8eac691c2e0eebd99117ad63673",
+          "source_text_sha256": "b539a76182daa45f990a6a5f17c2143c2f98bd0b9eba06d468a10bf7671b5ed8",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2493,
+          "speaker": "rinka",
+          "source_text_exact_match": true,
+          "source_text_sha256": "b539a76182daa45f990a6a5f17c2143c2f98bd0b9eba06d468a10bf7671b5ed8",
+          "catalog_command_index": 562,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_a4eaca3f"
+        }
+      },
+      "source_text_sha256": "b539a76182daa45f990a6a5f17c2143c2f98bd0b9eba06d468a10bf7671b5ed8",
+      "source_group_sha256": "ecbea7d2ea21d4e65d03b6b1602dca749f4ff8eac691c2e0eebd99117ad63673",
+      "renpy_digest": "a4eaca3f",
+      "catalog_lane": "dialogue",
+      "catalog_voice_call": {
+        "statement": "voice get_voice_filename(\"rnk\")",
+        "line": 2492,
+        "function": "get_voice_filename",
+        "tag": "rnk",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "source_statement_code": "rinka \"「うん。なら、まずはチケットを取ろう。待っている間に、お店を見よう？　パレードは午後のもあるから、いくつかアトラクションに乗ってから考えよう」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"rnk\")",
+        "rinka \"「うん。なら、まずはチケットを取ろう。待っている間に、お店を見よう？　パレードは午後のもあるから、いくつかアトラクションに乗ってから考えよう」\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_0f3218af",
+      "sequence": 563,
+      "translation_id": "f001_s2_end_0f3218af",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2498,
+      "speaker": "mao",
+      "source_jp": "「お～。りーたんいいリーダーだねぇ」",
+      "draft_ko": "“오~. 리땅, 좋은 리더네.”",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 559,
+      "source_packet_stable_id": "scenario/001.rpy::L2498",
+      "catalog_command_index": 563,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_0f3218af",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s2_end_0f3218af",
+          "renpy_digest": "0f3218af",
+          "source_group_sha256": "5ca18456d06a419865fe6b779606c8d4913ab84d873abbb585054b676b548a3a",
+          "source_text_sha256": "942a82538ea212fc8dc217c29d628e5e72d503b555371152ef903d1c9f4cbc6b",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2498,
+          "speaker": "mao",
+          "source_text_exact_match": true,
+          "source_text_sha256": "942a82538ea212fc8dc217c29d628e5e72d503b555371152ef903d1c9f4cbc6b",
+          "catalog_command_index": 563,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_0f3218af"
+        }
+      },
+      "source_text_sha256": "942a82538ea212fc8dc217c29d628e5e72d503b555371152ef903d1c9f4cbc6b",
+      "source_group_sha256": "5ca18456d06a419865fe6b779606c8d4913ab84d873abbb585054b676b548a3a",
+      "renpy_digest": "0f3218af",
+      "catalog_lane": "dialogue",
+      "catalog_voice_call": {
+        "statement": "voice get_voice_filename(\"mao\")",
+        "line": 2497,
+        "function": "get_voice_filename",
+        "tag": "mao",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "source_statement_code": "mao \"「お～。りーたんいいリーダーだねぇ」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"mao\")",
+        "mao \"「お～。りーたんいいリーダーだねぇ」\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_c04875d0",
+      "sequence": 564,
+      "translation_id": "f001_s2_end_c04875d0",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2503,
+      "speaker": "miharu",
+      "source_jp": "「ぼくも賛成だ。凛火の言う通りにしよう」",
+      "draft_ko": "“나도 찬성이야. 린카 말대로 하자.”",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 560,
+      "source_packet_stable_id": "scenario/001.rpy::L2503",
+      "catalog_command_index": 564,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_c04875d0",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s2_end_c04875d0",
+          "renpy_digest": "c04875d0",
+          "source_group_sha256": "ab65fe846bc45e72888bacd4c058655d2abb833441e8f8caca436687c2142022",
+          "source_text_sha256": "b999ab2c8079192a1dea43def6282967829d3dce6ca76a2ec5da17f3672ff41c",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2503,
+          "speaker": "miharu",
+          "source_text_exact_match": true,
+          "source_text_sha256": "b999ab2c8079192a1dea43def6282967829d3dce6ca76a2ec5da17f3672ff41c",
+          "catalog_command_index": 564,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_c04875d0"
+        }
+      },
+      "source_text_sha256": "b999ab2c8079192a1dea43def6282967829d3dce6ca76a2ec5da17f3672ff41c",
+      "source_group_sha256": "ab65fe846bc45e72888bacd4c058655d2abb833441e8f8caca436687c2142022",
+      "renpy_digest": "c04875d0",
+      "catalog_lane": "dialogue",
+      "catalog_voice_call": {
+        "statement": "voice get_voice_filename(\"mhr\")",
+        "line": 2502,
+        "function": "get_voice_filename",
+        "tag": "mhr",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "source_statement_code": "miharu \"「ぼくも賛成だ。凛火の言う通りにしよう」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"mhr\")",
+        "miharu \"「ぼくも賛成だ。凛火の言う通りにしよう」\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_73adbc7c",
+      "sequence": 565,
+      "translation_id": "f001_s2_end_73adbc7c",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2508,
+      "speaker": "naomi",
+      "source_jp": "「わたしは……みなさんにお任せします」",
+      "draft_ko": "“저는…… 여러분께 맡길게요.”",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 561,
+      "source_packet_stable_id": "scenario/001.rpy::L2508",
+      "catalog_command_index": 565,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_73adbc7c",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s2_end_73adbc7c",
+          "renpy_digest": "73adbc7c",
+          "source_group_sha256": "7ad0684c391a4ef4e0171338c8f4fc398ee8ad63f3aee4ece7d71c52b6bd890f",
+          "source_text_sha256": "5471fb261b94dbb4c740f3e8470163dc89a72584a927f8c3ef2a660f8e3af32d",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2508,
+          "speaker": "naomi",
+          "source_text_exact_match": true,
+          "source_text_sha256": "5471fb261b94dbb4c740f3e8470163dc89a72584a927f8c3ef2a660f8e3af32d",
+          "catalog_command_index": 565,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_73adbc7c"
+        }
+      },
+      "source_text_sha256": "5471fb261b94dbb4c740f3e8470163dc89a72584a927f8c3ef2a660f8e3af32d",
+      "source_group_sha256": "7ad0684c391a4ef4e0171338c8f4fc398ee8ad63f3aee4ece7d71c52b6bd890f",
+      "renpy_digest": "73adbc7c",
+      "catalog_lane": "dialogue",
+      "catalog_voice_call": {
+        "statement": "voice get_voice_filename(\"nom\")",
+        "line": 2507,
+        "function": "get_voice_filename",
+        "tag": "nom",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "source_statement_code": "naomi \"「わたしは……みなさんにお任せします」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"nom\")",
+        "naomi \"「わたしは……みなさんにお任せします」\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_3ccfce43",
+      "sequence": 566,
+      "translation_id": "f001_s2_end_3ccfce43",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2510,
+      "speaker": "narrator",
+      "source_jp": "話もまとまったところで、私たちは優先チケットの発券機へと向かった。",
+      "draft_ko": "이야기가 정리되자 우리는 우선권 발권기로 향했다.",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 562,
+      "source_packet_stable_id": "scenario/001.rpy::L2510",
+      "catalog_command_index": 566,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_3ccfce43",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s2_end_3ccfce43",
+          "renpy_digest": "3ccfce43",
+          "source_group_sha256": "7be9fa9e67a248c4711881a0f93d2d4bed30bae2fc570bba0341d1299016012d",
+          "source_text_sha256": "33bbb6563ea914cfd4fbc615f7ea9b634e09e7306f163013f6b225aad005e958",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2510,
+          "speaker": "narrator",
+          "source_text_exact_match": true,
+          "source_text_sha256": "33bbb6563ea914cfd4fbc615f7ea9b634e09e7306f163013f6b225aad005e958",
+          "catalog_command_index": 566,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_3ccfce43"
+        }
+      },
+      "source_text_sha256": "33bbb6563ea914cfd4fbc615f7ea9b634e09e7306f163013f6b225aad005e958",
+      "source_group_sha256": "7be9fa9e67a248c4711881a0f93d2d4bed30bae2fc570bba0341d1299016012d",
+      "renpy_digest": "3ccfce43",
+      "catalog_lane": "narration",
+      "catalog_voice_call": null,
+      "source_statement_code": "\"話もまとまったところで、私たちは優先チケットの発券機へと向かった。\"",
+      "source_group_code": [
+        "\"話もまとまったところで、私たちは優先チケットの発券機へと向かった。\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_285a38bc",
+      "sequence": 567,
+      "translation_id": "f001_s2_end_285a38bc",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2512,
+      "speaker": "narrator",
+      "source_jp": "今日は楽しい一日になると思うと、気分が高揚していった。",
+      "draft_ko": "오늘은 즐거운 하루가 되리라 생각하니 마음이 들떴다.",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 563,
+      "source_packet_stable_id": "scenario/001.rpy::L2512",
+      "catalog_command_index": 567,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_285a38bc",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s2_end_285a38bc",
+          "renpy_digest": "285a38bc",
+          "source_group_sha256": "2cb902a5c6252b26eecead17fc78a0d9b4dcfe3960d3f28c72a18967d399f138",
+          "source_text_sha256": "e3ec646e348b0b4895ba181f6981be42b2739d65b510dc588cc79059bd9ff33f",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2512,
+          "speaker": "narrator",
+          "source_text_exact_match": true,
+          "source_text_sha256": "e3ec646e348b0b4895ba181f6981be42b2739d65b510dc588cc79059bd9ff33f",
+          "catalog_command_index": 567,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_285a38bc"
+        }
+      },
+      "source_text_sha256": "e3ec646e348b0b4895ba181f6981be42b2739d65b510dc588cc79059bd9ff33f",
+      "source_group_sha256": "2cb902a5c6252b26eecead17fc78a0d9b4dcfe3960d3f28c72a18967d399f138",
+      "renpy_digest": "285a38bc",
+      "catalog_lane": "narration",
+      "catalog_voice_call": null,
+      "source_statement_code": "\"今日は楽しい一日になると思うと、気分が高揚していった。\"",
+      "source_group_code": [
+        "\"今日は楽しい一日になると思うと、気分が高揚していった。\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_23dadf8e",
+      "sequence": 568,
+      "translation_id": "f001_s2_end_23dadf8e",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2525,
+      "speaker": "narrator",
+      "source_jp": "閉園も近くなり、空はすっかり真っ暗。園内のイルミネーションは煌々と輝いていた。真央と直未は買い忘れたお土産があると言って、一旦別行動になっていた。",
+      "draft_ko": "폐장 시간도 가까워져 하늘은 완전히 어두워졌다. 공원 안 조명은 눈부시게 빛났다. 마오와 나오미는 사지 못한 기념품이 있다며 잠시 따로 움직이고 있었다.",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 564,
+      "source_packet_stable_id": "scenario/001.rpy::L2525",
+      "catalog_command_index": 568,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_23dadf8e",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s2_end_23dadf8e",
+          "renpy_digest": "23dadf8e",
+          "source_group_sha256": "4a6e9f3846c2ae8a77f64e139a1a74f228d35069d305b814ae3d4e459a560411",
+          "source_text_sha256": "ab419de6943885a53b5e30408f2b90c3c26dd512ead457cbccc19701de4ee122",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2525,
+          "speaker": "narrator",
+          "source_text_exact_match": true,
+          "source_text_sha256": "ab419de6943885a53b5e30408f2b90c3c26dd512ead457cbccc19701de4ee122",
+          "catalog_command_index": 568,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_23dadf8e"
+        }
+      },
+      "source_text_sha256": "ab419de6943885a53b5e30408f2b90c3c26dd512ead457cbccc19701de4ee122",
+      "source_group_sha256": "4a6e9f3846c2ae8a77f64e139a1a74f228d35069d305b814ae3d4e459a560411",
+      "renpy_digest": "23dadf8e",
+      "catalog_lane": "narration",
+      "catalog_voice_call": null,
+      "source_statement_code": "\"閉園も近くなり、空はすっかり真っ暗。園内のイルミネーションは煌々と輝いていた。真央と直未は買い忘れたお土産があると言って、一旦別行動になっていた。\"",
+      "source_group_code": [
+        "\"閉園も近くなり、空はすっかり真っ暗。園内のイルミネーションは煌々と輝いていた。真央と直未は買い忘れたお土産があると言って、一旦別行動になっていた。\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_ed94d9a0",
+      "sequence": 569,
+      "translation_id": "f001_s2_end_ed94d9a0",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2531,
+      "speaker": "narrator",
+      "source_jp": "私たちは入り口近くのベンチに座り、休んでいた。",
+      "draft_ko": "우리는 입구 근처 벤치에 앉아 쉬고 있었다.",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 565,
+      "source_packet_stable_id": "scenario/001.rpy::L2531",
+      "catalog_command_index": 569,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_ed94d9a0",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s2_end_ed94d9a0",
+          "renpy_digest": "ed94d9a0",
+          "source_group_sha256": "da39e52ce2a64f9e779a4560d140c7c86f5d7173d2b12682067da9754d075d3a",
+          "source_text_sha256": "b23a2875afdc7ee0c9823c7f5a342f9729b8e7234707be177cae4914e8887d75",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2531,
+          "speaker": "narrator",
+          "source_text_exact_match": true,
+          "source_text_sha256": "b23a2875afdc7ee0c9823c7f5a342f9729b8e7234707be177cae4914e8887d75",
+          "catalog_command_index": 569,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_ed94d9a0"
+        }
+      },
+      "source_text_sha256": "b23a2875afdc7ee0c9823c7f5a342f9729b8e7234707be177cae4914e8887d75",
+      "source_group_sha256": "da39e52ce2a64f9e779a4560d140c7c86f5d7173d2b12682067da9754d075d3a",
+      "renpy_digest": "ed94d9a0",
+      "catalog_lane": "narration",
+      "catalog_voice_call": null,
+      "source_statement_code": "\"私たちは入り口近くのベンチに座り、休んでいた。\"",
+      "source_group_code": [
+        "\"私たちは入り口近くのベンチに座り、休んでいた。\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_ca6ea909",
+      "sequence": 570,
+      "translation_id": "f001_s2_end_ca6ea909",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2539,
+      "speaker": "rinka",
+      "source_jp": "「――って、よく見たらカップルだらけ……。どうする？　移動する？」",
+      "draft_ko": "“――그런데 자세히 보니 커플뿐이네……. 어떡할래? 옮길까?”",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 566,
+      "source_packet_stable_id": "scenario/001.rpy::L2539",
+      "catalog_command_index": 570,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_ca6ea909",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s2_end_ca6ea909",
+          "renpy_digest": "ca6ea909",
+          "source_group_sha256": "6c6eca2e6dec73c8f8df697f036d4d1e4fa82dd55493e904412a4c552adf8e09",
+          "source_text_sha256": "d76a87e133e93aca36a97279f44f2767abdf20ddfbee40a7dd6d258578f7ca62",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2539,
+          "speaker": "rinka",
+          "source_text_exact_match": true,
+          "source_text_sha256": "d76a87e133e93aca36a97279f44f2767abdf20ddfbee40a7dd6d258578f7ca62",
+          "catalog_command_index": 570,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_ca6ea909"
+        }
+      },
+      "source_text_sha256": "d76a87e133e93aca36a97279f44f2767abdf20ddfbee40a7dd6d258578f7ca62",
+      "source_group_sha256": "6c6eca2e6dec73c8f8df697f036d4d1e4fa82dd55493e904412a4c552adf8e09",
+      "renpy_digest": "ca6ea909",
+      "catalog_lane": "dialogue",
+      "catalog_voice_call": {
+        "statement": "voice get_voice_filename(\"rnk\")",
+        "line": 2538,
+        "function": "get_voice_filename",
+        "tag": "rnk",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "source_statement_code": "rinka \"「――って、よく見たらカップルだらけ……。どうする？　移動する？」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"rnk\")",
+        "rinka \"「――って、よく見たらカップルだらけ……。どうする？　移動する？」\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_5cd00d5f",
+      "sequence": 571,
+      "translation_id": "f001_s2_end_5cd00d5f",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2541,
+      "speaker": "narrator",
+      "source_jp": "休日の夜のパークなのだから、カップルが多くても当たり前だ。",
+      "draft_ko": "휴일 밤의 테마파크니 커플이 많아도 당연하다.",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 567,
+      "source_packet_stable_id": "scenario/001.rpy::L2541",
+      "catalog_command_index": 571,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_5cd00d5f",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s2_end_5cd00d5f",
+          "renpy_digest": "5cd00d5f",
+          "source_group_sha256": "18e247cb75fba71b2da829ef8c6a400f21ff4f5748f338a70a7c9791d102b2f2",
+          "source_text_sha256": "720c15df046e9423e102104588672601c0d6a0091fe488e750f38bbe3db2f4dd",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2541,
+          "speaker": "narrator",
+          "source_text_exact_match": true,
+          "source_text_sha256": "720c15df046e9423e102104588672601c0d6a0091fe488e750f38bbe3db2f4dd",
+          "catalog_command_index": 571,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_5cd00d5f"
+        }
+      },
+      "source_text_sha256": "720c15df046e9423e102104588672601c0d6a0091fe488e750f38bbe3db2f4dd",
+      "source_group_sha256": "18e247cb75fba71b2da829ef8c6a400f21ff4f5748f338a70a7c9791d102b2f2",
+      "renpy_digest": "5cd00d5f",
+      "catalog_lane": "narration",
+      "catalog_voice_call": null,
+      "source_statement_code": "\"休日の夜のパークなのだから、カップルが多くても当たり前だ。\"",
+      "source_group_code": [
+        "\"休日の夜のパークなのだから、カップルが多くても当たり前だ。\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_874ab4bf",
+      "sequence": 572,
+      "translation_id": "f001_s2_end_874ab4bf",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2543,
+      "speaker": "narrator",
+      "source_jp": "とはいえ、テーマパークに来て浮かれているのだろうが、手を握ったり抱き合ったりと人前にもかかわらず平気でイチャイチャしている中にいるのは気まずい。",
+      "draft_ko": "그렇다고는 해도 테마파크에 와서 들뜬 거겠지만, 손을 잡거나 껴안는 등 사람들 앞인데도 아무렇지 않게 애정 행각을 벌이는 틈에 있으니 어색했다.",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 568,
+      "source_packet_stable_id": "scenario/001.rpy::L2543",
+      "catalog_command_index": 572,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_874ab4bf",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s2_end_874ab4bf",
+          "renpy_digest": "874ab4bf",
+          "source_group_sha256": "b8e17b92eab2772bcc4607dc1d3bc1b9f2a7d596434b62b03710e451c59f8a28",
+          "source_text_sha256": "76fc9ecc6f0e14ee04df71dff9036fbb48225baeae7b381e6d54ae3c482785a7",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2543,
+          "speaker": "narrator",
+          "source_text_exact_match": true,
+          "source_text_sha256": "76fc9ecc6f0e14ee04df71dff9036fbb48225baeae7b381e6d54ae3c482785a7",
+          "catalog_command_index": 572,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_874ab4bf"
+        }
+      },
+      "source_text_sha256": "76fc9ecc6f0e14ee04df71dff9036fbb48225baeae7b381e6d54ae3c482785a7",
+      "source_group_sha256": "b8e17b92eab2772bcc4607dc1d3bc1b9f2a7d596434b62b03710e451c59f8a28",
+      "renpy_digest": "874ab4bf",
+      "catalog_lane": "narration",
+      "catalog_voice_call": null,
+      "source_statement_code": "\"とはいえ、テーマパークに来て浮かれているのだろうが、手を握ったり抱き合ったりと人前にもかかわらず平気でイチャイチャしている中にいるのは気まずい。\"",
+      "source_group_code": [
+        "\"とはいえ、テーマパークに来て浮かれているのだろうが、手を握ったり抱き合ったりと人前にもかかわらず平気でイチャイチャしている中にいるのは気まずい。\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_342b1d64",
+      "sequence": 573,
+      "translation_id": "f001_s2_end_342b1d64",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2545,
+      "speaker": "narrator",
+      "source_jp": "だが、海晴は立ち上がろうとした私の上着の裾をつかんで止めた。",
+      "draft_ko": "하지만 미하루는 일어나려는 내 겉옷 자락을 붙잡아 막았다.",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 569,
+      "source_packet_stable_id": "scenario/001.rpy::L2545",
+      "catalog_command_index": 573,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_342b1d64",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s2_end_342b1d64",
+          "renpy_digest": "342b1d64",
+          "source_group_sha256": "ab2cb30b6d500f993c659ff728d72a9d4214734313ae55dcf393f68277c3b781",
+          "source_text_sha256": "fae2acb1c74fe7468c686feb0d3479dd77017ce6ed773d069610c7e977b2a9d1",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2545,
+          "speaker": "narrator",
+          "source_text_exact_match": true,
+          "source_text_sha256": "fae2acb1c74fe7468c686feb0d3479dd77017ce6ed773d069610c7e977b2a9d1",
+          "catalog_command_index": 573,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_342b1d64"
+        }
+      },
+      "source_text_sha256": "fae2acb1c74fe7468c686feb0d3479dd77017ce6ed773d069610c7e977b2a9d1",
+      "source_group_sha256": "ab2cb30b6d500f993c659ff728d72a9d4214734313ae55dcf393f68277c3b781",
+      "renpy_digest": "342b1d64",
+      "catalog_lane": "narration",
+      "catalog_voice_call": null,
+      "source_statement_code": "\"だが、海晴は立ち上がろうとした私の上着の裾をつかんで止めた。\"",
+      "source_group_code": [
+        "\"だが、海晴は立ち上がろうとした私の上着の裾をつかんで止めた。\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::menu::003:spoken_prompt:01:2012275126270fff",
+      "sequence": 574,
+      "translation_id": null,
+      "translation_id_status": "aligned_source_menu_reference_missing",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2557,
+      "speaker": "miharu",
+      "source_jp": "「いいよ。このままで、もうしばらく」",
+      "draft_ko": "“괜찮아. 이대로 조금만 더.”",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 570,
+      "source_packet_stable_id": "scenario/001.rpy::L2557",
+      "catalog_command_index": 574,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::menu::003:spoken_prompt:01:2012275126270fff",
+      "menu_key": "003:spoken_prompt:01:2012275126270fff",
+      "id_origin": "renpy-string-key",
+      "alignment": {
+        "method": "source-menu-identity-no-reference",
+        "confidence": "unmatched-reference",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": null,
+          "renpy_digest": null,
+          "source_group_sha256": "a0d6f8a5084486f508c1e727541b7630cff0952023809989c0dcafd6d54b5965",
+          "source_text_sha256": "2012275126270ffffe7757175335ad179a242e7071fece4725b1621a5e735925",
+          "reference_key_present": false
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2557,
+          "speaker": "miharu",
+          "source_text_exact_match": true,
+          "source_text_sha256": "2012275126270ffffe7757175335ad179a242e7071fece4725b1621a5e735925",
+          "catalog_command_index": 574,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::menu::003:spoken_prompt:01:2012275126270fff"
+        }
+      },
+      "source_text_sha256": "2012275126270ffffe7757175335ad179a242e7071fece4725b1621a5e735925",
+      "source_group_sha256": "a0d6f8a5084486f508c1e727541b7630cff0952023809989c0dcafd6d54b5965",
+      "renpy_digest": null,
+      "catalog_lane": "dialogue_choice_prompt",
+      "catalog_voice_call": {
+        "statement": "voice get_voice_filename(\"mhr\")",
+        "line": 2555,
+        "function": "get_voice_filename",
+        "tag": "mhr",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "source_statement_code": "miharu \"「いいよ。このままで、もうしばらく」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"mhr\")",
+        "miharu \"「いいよ。このままで、もうしばらく」\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_1_241860de",
+      "sequence": 577,
+      "translation_id": "f001_s3_1_241860de",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2576,
+      "speaker": "rinka",
+      "source_jp": "「ち、ちょっと！　恥ずかしいから……離して」",
+      "draft_ko": "“자, 잠깐! 부끄러우니까…… 놔 줘.”",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 571,
+      "source_packet_stable_id": "scenario/001.rpy::L2576",
+      "catalog_command_index": 577,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_1_241860de",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s3_1_241860de",
+          "renpy_digest": "241860de",
+          "source_group_sha256": "1b6783f1c0ef7496879abe16972bc7fdb16159600538784ee479b06e87a5fad8",
+          "source_text_sha256": "34173453f1fd00afbb84fe21c01b1abcf570de72a3a45e3e3a854bacbb722b7d",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2576,
+          "speaker": "rinka",
+          "source_text_exact_match": true,
+          "source_text_sha256": "34173453f1fd00afbb84fe21c01b1abcf570de72a3a45e3e3a854bacbb722b7d",
+          "catalog_command_index": 577,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_1_241860de"
+        }
+      },
+      "source_text_sha256": "34173453f1fd00afbb84fe21c01b1abcf570de72a3a45e3e3a854bacbb722b7d",
+      "source_group_sha256": "1b6783f1c0ef7496879abe16972bc7fdb16159600538784ee479b06e87a5fad8",
+      "renpy_digest": "241860de",
+      "catalog_lane": "dialogue",
+      "catalog_voice_call": {
+        "statement": "voice get_voice_filename(\"rnk\", 116)",
+        "line": 2575,
+        "function": "get_voice_filename",
+        "tag": "rnk",
+        "start_count": 116,
+        "resolution": {
+          "mode": "explicit_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": "sounds/voice/rnk_00116.ogg"
+        }
+      },
+      "source_statement_code": "rinka \"「ち、ちょっと！　恥ずかしいから……離して」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"rnk\", 116)",
+        "rinka \"「ち、ちょっと！　恥ずかしいから……離して」\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_1_38c68ff5",
+      "sequence": 578,
+      "translation_id": "f001_s3_1_38c68ff5",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2581,
+      "speaker": "miharu",
+      "source_jp": "「なら、またぼくの隣に座ってもらえないかな？　それまで……離せないよ」",
+      "draft_ko": "“그럼 다시 내 옆에 앉아 주지 않을래? 그때까지는…… 놓을 수 없어.”",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 572,
+      "source_packet_stable_id": "scenario/001.rpy::L2581",
+      "catalog_command_index": 578,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_1_38c68ff5",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s3_1_38c68ff5",
+          "renpy_digest": "38c68ff5",
+          "source_group_sha256": "e49862cab7f40574d0e2a96807f381a2006d0d7f42328a6ea7ba594bd0b7173c",
+          "source_text_sha256": "eff4baf310911f5e4b0a81cafaa7086ccccc565637a866858dd0bd9d1af514d8",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2581,
+          "speaker": "miharu",
+          "source_text_exact_match": true,
+          "source_text_sha256": "eff4baf310911f5e4b0a81cafaa7086ccccc565637a866858dd0bd9d1af514d8",
+          "catalog_command_index": 578,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_1_38c68ff5"
+        }
+      },
+      "source_text_sha256": "eff4baf310911f5e4b0a81cafaa7086ccccc565637a866858dd0bd9d1af514d8",
+      "source_group_sha256": "e49862cab7f40574d0e2a96807f381a2006d0d7f42328a6ea7ba594bd0b7173c",
+      "renpy_digest": "38c68ff5",
+      "catalog_lane": "dialogue",
+      "catalog_voice_call": {
+        "statement": "voice get_voice_filename(\"mhr\", 14)",
+        "line": 2580,
+        "function": "get_voice_filename",
+        "tag": "mhr",
+        "start_count": 14,
+        "resolution": {
+          "mode": "explicit_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": "sounds/voice/mhr_00014.ogg"
+        }
+      },
+      "source_statement_code": "miharu \"「なら、またぼくの隣に座ってもらえないかな？　それまで……離せないよ」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"mhr\", 14)",
+        "miharu \"「なら、またぼくの隣に座ってもらえないかな？　それまで……離せないよ」\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_2_23642ae0",
+      "sequence": 579,
+      "translation_id": "f001_s3_2_23642ae0",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2591,
+      "speaker": "rinka",
+      "source_jp": "「……うん。わ、分かった」",
+      "draft_ko": "“……응. 아, 알았어.”",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 573,
+      "source_packet_stable_id": "scenario/001.rpy::L2591",
+      "catalog_command_index": 579,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_2_23642ae0",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s3_2_23642ae0",
+          "renpy_digest": "23642ae0",
+          "source_group_sha256": "e348fc4a7507ecdf445249126d69fc45ae3f09fe44cd852ac497762b203b201d",
+          "source_text_sha256": "d962792c51c080b208b2c42c3dbe38c6c63858988ff793631368a37a5e221ff5",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2591,
+          "speaker": "rinka",
+          "source_text_exact_match": true,
+          "source_text_sha256": "d962792c51c080b208b2c42c3dbe38c6c63858988ff793631368a37a5e221ff5",
+          "catalog_command_index": 579,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_2_23642ae0"
+        }
+      },
+      "source_text_sha256": "d962792c51c080b208b2c42c3dbe38c6c63858988ff793631368a37a5e221ff5",
+      "source_group_sha256": "e348fc4a7507ecdf445249126d69fc45ae3f09fe44cd852ac497762b203b201d",
+      "renpy_digest": "23642ae0",
+      "catalog_lane": "dialogue",
+      "catalog_voice_call": {
+        "statement": "voice get_voice_filename(\"rnk\", 117)",
+        "line": 2590,
+        "function": "get_voice_filename",
+        "tag": "rnk",
+        "start_count": 117,
+        "resolution": {
+          "mode": "explicit_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": "sounds/voice/rnk_00117.ogg"
+        }
+      },
+      "source_statement_code": "rinka \"「……うん。わ、分かった」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"rnk\", 117)",
+        "rinka \"「……うん。わ、分かった」\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_2_c4a33014",
+      "sequence": 580,
+      "translation_id": "f001_s3_2_c4a33014",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2596,
+      "speaker": "miharu",
+      "source_jp": "「嬉しいな。凛火が素直に頷いてくれるのは珍しいからね」",
+      "draft_ko": "“기쁘네. 린카가 순순히 고개를 끄덕이는 건 드문 일이니까.”",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 574,
+      "source_packet_stable_id": "scenario/001.rpy::L2596",
+      "catalog_command_index": 580,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_2_c4a33014",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s3_2_c4a33014",
+          "renpy_digest": "c4a33014",
+          "source_group_sha256": "05607372dd4abbaa79f3a758c647dd1dbca5bf58132f65685c1643c05860d32b",
+          "source_text_sha256": "81170c99b2e737edfb9d4f3b76a07182dc652f18e531cceb456e0379d8214438",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2596,
+          "speaker": "miharu",
+          "source_text_exact_match": true,
+          "source_text_sha256": "81170c99b2e737edfb9d4f3b76a07182dc652f18e531cceb456e0379d8214438",
+          "catalog_command_index": 580,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_2_c4a33014"
+        }
+      },
+      "source_text_sha256": "81170c99b2e737edfb9d4f3b76a07182dc652f18e531cceb456e0379d8214438",
+      "source_group_sha256": "05607372dd4abbaa79f3a758c647dd1dbca5bf58132f65685c1643c05860d32b",
+      "renpy_digest": "c4a33014",
+      "catalog_lane": "dialogue",
+      "catalog_voice_call": {
+        "statement": "voice get_voice_filename(\"mhr\", 15)",
+        "line": 2595,
+        "function": "get_voice_filename",
+        "tag": "mhr",
+        "start_count": 15,
+        "resolution": {
+          "mode": "explicit_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": "sounds/voice/mhr_00015.ogg"
+        }
+      },
+      "source_statement_code": "miharu \"「嬉しいな。凛火が素直に頷いてくれるのは珍しいからね」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"mhr\", 15)",
+        "miharu \"「嬉しいな。凛火が素直に頷いてくれるのは珍しいからね」\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_4fd4ae80",
+      "sequence": 581,
+      "translation_id": "f001_s3_end_4fd4ae80",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2607,
+      "speaker": "narrator",
+      "source_jp": "海晴は珍しく恥ずかしそうな顔を浮かべていた。",
+      "draft_ko": "미하루는 드물게 부끄러운 표정을 지었다.",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 575,
+      "source_packet_stable_id": "scenario/001.rpy::L2607",
+      "catalog_command_index": 581,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_4fd4ae80",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s3_end_4fd4ae80",
+          "renpy_digest": "4fd4ae80",
+          "source_group_sha256": "00154577876c70cbe1279e31eea89fb592eb670bcbe63ae81b5ec424e8851675",
+          "source_text_sha256": "c5adf628ea1d342fcf0a1ec3c9210edee1c2df74f3cf5033a2cc3e5e94c40a81",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2607,
+          "speaker": "narrator",
+          "source_text_exact_match": true,
+          "source_text_sha256": "c5adf628ea1d342fcf0a1ec3c9210edee1c2df74f3cf5033a2cc3e5e94c40a81",
+          "catalog_command_index": 581,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_4fd4ae80"
+        }
+      },
+      "source_text_sha256": "c5adf628ea1d342fcf0a1ec3c9210edee1c2df74f3cf5033a2cc3e5e94c40a81",
+      "source_group_sha256": "00154577876c70cbe1279e31eea89fb592eb670bcbe63ae81b5ec424e8851675",
+      "renpy_digest": "4fd4ae80",
+      "catalog_lane": "narration",
+      "catalog_voice_call": null,
+      "source_statement_code": "\"海晴は珍しく恥ずかしそうな顔を浮かべていた。\"",
+      "source_group_code": [
+        "\"海晴は珍しく恥ずかしそうな顔を浮かべていた。\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_198507a5",
+      "sequence": 582,
+      "translation_id": "f001_s3_end_198507a5",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2609,
+      "speaker": "narrator",
+      "source_jp": "いつもははきはきと喋るのに、どこかもどかしそうな様子だ。",
+      "draft_ko": "평소에는 또박또박 말하는데 어딘가 답답해 보였다.",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 576,
+      "source_packet_stable_id": "scenario/001.rpy::L2609",
+      "catalog_command_index": 582,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_198507a5",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s3_end_198507a5",
+          "renpy_digest": "198507a5",
+          "source_group_sha256": "c49a66550f45eb9c1af1ecfd92ab33df018fb268813f3497b5e64e61ee2bb6d5",
+          "source_text_sha256": "6ad174ff5a962075ee7b5387c7e4fb85ed0c015888c7e741d5f8f6cdc840620b",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2609,
+          "speaker": "narrator",
+          "source_text_exact_match": true,
+          "source_text_sha256": "6ad174ff5a962075ee7b5387c7e4fb85ed0c015888c7e741d5f8f6cdc840620b",
+          "catalog_command_index": 582,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_198507a5"
+        }
+      },
+      "source_text_sha256": "6ad174ff5a962075ee7b5387c7e4fb85ed0c015888c7e741d5f8f6cdc840620b",
+      "source_group_sha256": "c49a66550f45eb9c1af1ecfd92ab33df018fb268813f3497b5e64e61ee2bb6d5",
+      "renpy_digest": "198507a5",
+      "catalog_lane": "narration",
+      "catalog_voice_call": null,
+      "source_statement_code": "\"いつもははきはきと喋るのに、どこかもどかしそうな様子だ。\"",
+      "source_group_code": [
+        "\"いつもははきはきと喋るのに、どこかもどかしそうな様子だ。\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_ad374521",
+      "sequence": 583,
+      "translation_id": "f001_s3_end_ad374521",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2613,
+      "speaker": "narrator",
+      "source_jp": "辺りには次第に夜のパレードを見に来たお客さんで混み始めた。人の集まり方を見るに、偶然にも、このベンチはいい場所のようだ。",
+      "draft_ko": "주변은 점차 야간 퍼레이드를 보러 온 손님들로 붐비기 시작했다. 사람들이 모이는 걸 보니 우연히도 이 벤치는 좋은 자리인 모양이다.",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 577,
+      "source_packet_stable_id": "scenario/001.rpy::L2613",
+      "catalog_command_index": 583,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_ad374521",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s3_end_ad374521",
+          "renpy_digest": "ad374521",
+          "source_group_sha256": "1e5b6aa52920fd07bd356d13fc057f874a49adcbbd292be15023401592bc6653",
+          "source_text_sha256": "6d61c19e616a003bfc042ec4b0f00f2b4fefeda6e6a50753ecd62a27f9732949",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2613,
+          "speaker": "narrator",
+          "source_text_exact_match": true,
+          "source_text_sha256": "6d61c19e616a003bfc042ec4b0f00f2b4fefeda6e6a50753ecd62a27f9732949",
+          "catalog_command_index": 583,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_ad374521"
+        }
+      },
+      "source_text_sha256": "6d61c19e616a003bfc042ec4b0f00f2b4fefeda6e6a50753ecd62a27f9732949",
+      "source_group_sha256": "1e5b6aa52920fd07bd356d13fc057f874a49adcbbd292be15023401592bc6653",
+      "renpy_digest": "ad374521",
+      "catalog_lane": "narration",
+      "catalog_voice_call": null,
+      "source_statement_code": "\"辺りには次第に夜のパレードを見に来たお客さんで混み始めた。人の集まり方を見るに、偶然にも、このベンチはいい場所のようだ。\"",
+      "source_group_code": [
+        "\"辺りには次第に夜のパレードを見に来たお客さんで混み始めた。人の集まり方を見るに、偶然にも、このベンチはいい場所のようだ。\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_9b6ac563",
+      "sequence": 584,
+      "translation_id": "f001_s3_end_9b6ac563",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2615,
+      "speaker": "narrator",
+      "source_jp": "これ以上に混んでしまうと真央たちとの合流は難しそうだったので、移動しようと思っていた。",
+      "draft_ko": "이보다 더 붐비면 마오 일행과 합류하기 어려울 듯해서 자리를 옮기려 했다.",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 578,
+      "source_packet_stable_id": "scenario/001.rpy::L2615",
+      "catalog_command_index": 584,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_9b6ac563",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s3_end_9b6ac563",
+          "renpy_digest": "9b6ac563",
+          "source_group_sha256": "7f776e5b609d44182b8f1af1ba7099e9ae936c6d8431f5bbf07e22e3ef5b6b98",
+          "source_text_sha256": "933ecb3918609409a42c638ea59955edd588c9f7abf42b2c97be2fd53eae8a66",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2615,
+          "speaker": "narrator",
+          "source_text_exact_match": true,
+          "source_text_sha256": "933ecb3918609409a42c638ea59955edd588c9f7abf42b2c97be2fd53eae8a66",
+          "catalog_command_index": 584,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_9b6ac563"
+        }
+      },
+      "source_text_sha256": "933ecb3918609409a42c638ea59955edd588c9f7abf42b2c97be2fd53eae8a66",
+      "source_group_sha256": "7f776e5b609d44182b8f1af1ba7099e9ae936c6d8431f5bbf07e22e3ef5b6b98",
+      "renpy_digest": "9b6ac563",
+      "catalog_lane": "narration",
+      "catalog_voice_call": null,
+      "source_statement_code": "\"これ以上に混んでしまうと真央たちとの合流は難しそうだったので、移動しようと思っていた。\"",
+      "source_group_code": [
+        "\"これ以上に混んでしまうと真央たちとの合流は難しそうだったので、移動しようと思っていた。\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_e1cc8039",
+      "sequence": 585,
+      "translation_id": "f001_s3_end_e1cc8039",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2619,
+      "speaker": "narrator",
+      "source_jp": "しかし海晴はずっと私の袖を握ったままで、私は提案することができなかった。",
+      "draft_ko": "하지만 미하루는 계속 내 소매를 잡고 있었고, 나는 제안하지 못했다.",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 579,
+      "source_packet_stable_id": "scenario/001.rpy::L2619",
+      "catalog_command_index": 585,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_e1cc8039",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s3_end_e1cc8039",
+          "renpy_digest": "e1cc8039",
+          "source_group_sha256": "e0353d57126a83e79ff4f27d2c64916940ebe680e7dfeb3f805401a7e519a0a5",
+          "source_text_sha256": "342031fa1e2821ef6dabfa78820c307970e7008559483756c5ea6643870b0202",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2619,
+          "speaker": "narrator",
+          "source_text_exact_match": true,
+          "source_text_sha256": "342031fa1e2821ef6dabfa78820c307970e7008559483756c5ea6643870b0202",
+          "catalog_command_index": 585,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_e1cc8039"
+        }
+      },
+      "source_text_sha256": "342031fa1e2821ef6dabfa78820c307970e7008559483756c5ea6643870b0202",
+      "source_group_sha256": "e0353d57126a83e79ff4f27d2c64916940ebe680e7dfeb3f805401a7e519a0a5",
+      "renpy_digest": "e1cc8039",
+      "catalog_lane": "narration",
+      "catalog_voice_call": null,
+      "source_statement_code": "\"しかし海晴はずっと私の袖を握ったままで、私は提案することができなかった。\"",
+      "source_group_code": [
+        "\"しかし海晴はずっと私の袖を握ったままで、私は提案することができなかった。\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_ffd9247a",
+      "sequence": 586,
+      "translation_id": "f001_s3_end_ffd9247a",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2621,
+      "speaker": "narrator",
+      "source_jp": "沈黙が続いた。",
+      "draft_ko": "침묵이 이어졌다.",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 580,
+      "source_packet_stable_id": "scenario/001.rpy::L2621",
+      "catalog_command_index": 586,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_ffd9247a",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s3_end_ffd9247a",
+          "renpy_digest": "ffd9247a",
+          "source_group_sha256": "b196ee1928775fd05274125937b4396b4268dfa1d2e7203a5dadff5edd1d3107",
+          "source_text_sha256": "1788f8a10e42332428ec2db73ba806515b6174412d238ba0f191f3661db8c722",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2621,
+          "speaker": "narrator",
+          "source_text_exact_match": true,
+          "source_text_sha256": "1788f8a10e42332428ec2db73ba806515b6174412d238ba0f191f3661db8c722",
+          "catalog_command_index": 586,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_ffd9247a"
+        }
+      },
+      "source_text_sha256": "1788f8a10e42332428ec2db73ba806515b6174412d238ba0f191f3661db8c722",
+      "source_group_sha256": "b196ee1928775fd05274125937b4396b4268dfa1d2e7203a5dadff5edd1d3107",
+      "renpy_digest": "ffd9247a",
+      "catalog_lane": "narration",
+      "catalog_voice_call": null,
+      "source_statement_code": "\"沈黙が続いた。\"",
+      "source_group_code": [
+        "\"沈黙が続いた。\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_6b639df3",
+      "sequence": 587,
+      "translation_id": "f001_s3_end_6b639df3",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2623,
+      "speaker": "narrator",
+      "source_jp": "海晴といると、会話は途切れる方が少ない。",
+      "draft_ko": "미하루와 함께 있으면 대화가 끊기는 일이 드물다.",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 581,
+      "source_packet_stable_id": "scenario/001.rpy::L2623",
+      "catalog_command_index": 587,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_6b639df3",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s3_end_6b639df3",
+          "renpy_digest": "6b639df3",
+          "source_group_sha256": "126a0a28fc89ed5e26f1090076e1a9a424596a04d7938ebe59c2bd034868988b",
+          "source_text_sha256": "73fc9a2fbb85c4403605bea1d025d80baabae6455c8e4e36385c5d36b0baa09c",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2623,
+          "speaker": "narrator",
+          "source_text_exact_match": true,
+          "source_text_sha256": "73fc9a2fbb85c4403605bea1d025d80baabae6455c8e4e36385c5d36b0baa09c",
+          "catalog_command_index": 587,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_6b639df3"
+        }
+      },
+      "source_text_sha256": "73fc9a2fbb85c4403605bea1d025d80baabae6455c8e4e36385c5d36b0baa09c",
+      "source_group_sha256": "126a0a28fc89ed5e26f1090076e1a9a424596a04d7938ebe59c2bd034868988b",
+      "renpy_digest": "6b639df3",
+      "catalog_lane": "narration",
+      "catalog_voice_call": null,
+      "source_statement_code": "\"海晴といると、会話は途切れる方が少ない。\"",
+      "source_group_code": [
+        "\"海晴といると、会話は途切れる方が少ない。\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_c13c1317",
+      "sequence": 588,
+      "translation_id": "f001_s3_end_c13c1317",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2625,
+      "speaker": "narrator",
+      "source_jp": "私たち以外と接する時の海晴は世間話をあまりしないから勘違いされているが、海晴はユーモア好きで、どうでもいいことでも楽しそうに喋る。",
+      "draft_ko": "우리 말고 다른 사람을 대할 때의 미하루는 잡담을 별로 하지 않아 오해받지만, 사실 유머를 좋아하고 아무래도 좋은 일도 즐겁게 이야기한다.",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 582,
+      "source_packet_stable_id": "scenario/001.rpy::L2625",
+      "catalog_command_index": 588,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_c13c1317",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s3_end_c13c1317",
+          "renpy_digest": "c13c1317",
+          "source_group_sha256": "6c24e62bdd3f4de3d33c9e9fc6157ff040a7ea063197a85d31ec4c89b4db6cb7",
+          "source_text_sha256": "7e2c304e37e2d0400f437d54b34124903e1bbdff5a6125bc2389df97aada07ca",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2625,
+          "speaker": "narrator",
+          "source_text_exact_match": true,
+          "source_text_sha256": "7e2c304e37e2d0400f437d54b34124903e1bbdff5a6125bc2389df97aada07ca",
+          "catalog_command_index": 588,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_c13c1317"
+        }
+      },
+      "source_text_sha256": "7e2c304e37e2d0400f437d54b34124903e1bbdff5a6125bc2389df97aada07ca",
+      "source_group_sha256": "6c24e62bdd3f4de3d33c9e9fc6157ff040a7ea063197a85d31ec4c89b4db6cb7",
+      "renpy_digest": "c13c1317",
+      "catalog_lane": "narration",
+      "catalog_voice_call": null,
+      "source_statement_code": "\"私たち以外と接する時の海晴は世間話をあまりしないから勘違いされているが、海晴はユーモア好きで、どうでもいいことでも楽しそうに喋る。\"",
+      "source_group_code": [
+        "\"私たち以外と接する時の海晴は世間話をあまりしないから勘違いされているが、海晴はユーモア好きで、どうでもいいことでも楽しそうに喋る。\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_40426c98",
+      "sequence": 589,
+      "translation_id": "f001_s3_end_40426c98",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2627,
+      "speaker": "narrator",
+      "source_jp": "けれども、今はお互い何も言わなかった。海晴の恥ずかしげで、だがどこか真剣な表情が私を話させなかった。",
+      "draft_ko": "하지만 지금은 서로 아무 말도 하지 않았다. 부끄러워하면서도 어딘가 진지한 미하루의 표정 때문에 나는 말을 꺼낼 수 없었다.",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 583,
+      "source_packet_stable_id": "scenario/001.rpy::L2627",
+      "catalog_command_index": 589,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_40426c98",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s3_end_40426c98",
+          "renpy_digest": "40426c98",
+          "source_group_sha256": "a40f4b65c104c3e08c95c42e7f5cb0c2a98d6f6a3628410a1c5dd1c10c8b2017",
+          "source_text_sha256": "281da4257864a3619cb1c2fc503afd5efc77266303ee4ebf9b34454c40746006",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2627,
+          "speaker": "narrator",
+          "source_text_exact_match": true,
+          "source_text_sha256": "281da4257864a3619cb1c2fc503afd5efc77266303ee4ebf9b34454c40746006",
+          "catalog_command_index": 589,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_40426c98"
+        }
+      },
+      "source_text_sha256": "281da4257864a3619cb1c2fc503afd5efc77266303ee4ebf9b34454c40746006",
+      "source_group_sha256": "a40f4b65c104c3e08c95c42e7f5cb0c2a98d6f6a3628410a1c5dd1c10c8b2017",
+      "renpy_digest": "40426c98",
+      "catalog_lane": "narration",
+      "catalog_voice_call": null,
+      "source_statement_code": "\"けれども、今はお互い何も言わなかった。海晴の恥ずかしげで、だがどこか真剣な表情が私を話させなかった。\"",
+      "source_group_code": [
+        "\"けれども、今はお互い何も言わなかった。海晴の恥ずかしげで、だがどこか真剣な表情が私を話させなかった。\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_f9661989",
+      "sequence": 590,
+      "translation_id": "f001_s3_end_f9661989",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2629,
+      "speaker": "narrator",
+      "source_jp": "そうこうしているうちに、ベンチの周りにはパレードの通行の邪魔にならないようにバリケードが張られてしまった。同時に列の整理も行われる。",
+      "draft_ko": "그러는 사이 벤치 주변에는 퍼레이드 진행을 방해하지 않도록 바리케이드가 설치됐다. 동시에 줄 정리도 이루어졌다.",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 584,
+      "source_packet_stable_id": "scenario/001.rpy::L2629",
+      "catalog_command_index": 590,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_f9661989",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s3_end_f9661989",
+          "renpy_digest": "f9661989",
+          "source_group_sha256": "ae650843f56ad95259609df70ec124bd589739b231f0586396db52daf56c5e31",
+          "source_text_sha256": "8a904aafdfd383d5ca7013397926c27abf0c3215dda31247c53476d2e5ed85a2",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2629,
+          "speaker": "narrator",
+          "source_text_exact_match": true,
+          "source_text_sha256": "8a904aafdfd383d5ca7013397926c27abf0c3215dda31247c53476d2e5ed85a2",
+          "catalog_command_index": 590,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_f9661989"
+        }
+      },
+      "source_text_sha256": "8a904aafdfd383d5ca7013397926c27abf0c3215dda31247c53476d2e5ed85a2",
+      "source_group_sha256": "ae650843f56ad95259609df70ec124bd589739b231f0586396db52daf56c5e31",
+      "renpy_digest": "f9661989",
+      "catalog_lane": "narration",
+      "catalog_voice_call": null,
+      "source_statement_code": "\"そうこうしているうちに、ベンチの周りにはパレードの通行の邪魔にならないようにバリケードが張られてしまった。同時に列の整理も行われる。\"",
+      "source_group_code": [
+        "\"そうこうしているうちに、ベンチの周りにはパレードの通行の邪魔にならないようにバリケードが張られてしまった。同時に列の整理も行われる。\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_5f72146a",
+      "sequence": 591,
+      "translation_id": "f001_s3_end_5f72146a",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2631,
+      "speaker": "narrator",
+      "source_jp": "私たちはそのままでいればよかったが、ざわざわと賑わう観客の渦の中で、二人だけが静寂というのが恥ずかしかった。",
+      "draft_ko": "우리는 그대로 있으면 됐지만, 웅성거리며 들뜬 관객의 소용돌이 속에서 우리 둘만 조용하다는 게 부끄러웠다.",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 585,
+      "source_packet_stable_id": "scenario/001.rpy::L2631",
+      "catalog_command_index": 591,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_5f72146a",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s3_end_5f72146a",
+          "renpy_digest": "5f72146a",
+          "source_group_sha256": "873044e7a4b2c63865f75dd3ebfa8c5534b75718befb1097d13c05e096fa9606",
+          "source_text_sha256": "585dce9be3970e12a1bb5f07918a75dc541857eb167bd5b2018f2774632e456b",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2631,
+          "speaker": "narrator",
+          "source_text_exact_match": true,
+          "source_text_sha256": "585dce9be3970e12a1bb5f07918a75dc541857eb167bd5b2018f2774632e456b",
+          "catalog_command_index": 591,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_5f72146a"
+        }
+      },
+      "source_text_sha256": "585dce9be3970e12a1bb5f07918a75dc541857eb167bd5b2018f2774632e456b",
+      "source_group_sha256": "873044e7a4b2c63865f75dd3ebfa8c5534b75718befb1097d13c05e096fa9606",
+      "renpy_digest": "5f72146a",
+      "catalog_lane": "narration",
+      "catalog_voice_call": null,
+      "source_statement_code": "\"私たちはそのままでいればよかったが、ざわざわと賑わう観客の渦の中で、二人だけが静寂というのが恥ずかしかった。\"",
+      "source_group_code": [
+        "\"私たちはそのままでいればよかったが、ざわざわと賑わう観客の渦の中で、二人だけが静寂というのが恥ずかしかった。\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_f2150554",
+      "sequence": 592,
+      "translation_id": "f001_s3_end_f2150554",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2640,
+      "speaker": "rinka_miharu",
+      "source_jp": "「あのっ……」\n「ねぇ……」",
+      "draft_ko": "“저기……”\n“있잖아……”",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 586,
+      "source_packet_stable_id": "scenario/001.rpy::L2640",
+      "catalog_command_index": 592,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_f2150554",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s3_end_f2150554",
+          "renpy_digest": "f2150554",
+          "source_group_sha256": "aca501d8ed321c2e5a8cc716c2a8cec8b26be5194a98cc3c492ca8b6f8731e99",
+          "source_text_sha256": "2957add3f24ad6694fcd16420b03f31d6d9fc415d54611e68f728b3316413509",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2640,
+          "speaker": "rinka_miharu",
+          "source_text_exact_match": true,
+          "source_text_sha256": "2957add3f24ad6694fcd16420b03f31d6d9fc415d54611e68f728b3316413509",
+          "catalog_command_index": 592,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_f2150554"
+        }
+      },
+      "source_text_sha256": "2957add3f24ad6694fcd16420b03f31d6d9fc415d54611e68f728b3316413509",
+      "source_group_sha256": "aca501d8ed321c2e5a8cc716c2a8cec8b26be5194a98cc3c492ca8b6f8731e99",
+      "renpy_digest": "f2150554",
+      "catalog_lane": "dialogue",
+      "catalog_voice_call": {
+        "statement": "voice get_voice_filename(\"rnk_mhr\")",
+        "line": 2639,
+        "function": "get_voice_filename",
+        "tag": "rnk_mhr",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "source_statement_code": "rinka_miharu \"「あのっ……」\\n「ねぇ……」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"rnk_mhr\")",
+        "rinka_miharu \"「あのっ……」\\n「ねぇ……」\""
+      ],
+      "protected_tokens": [
+        {
+          "kind": "literal_escape",
+          "value": "\\n",
+          "start": 8,
+          "end": 10,
+          "severity": "hard",
+          "coordinate_space": "source_literal"
+        }
+      ]
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_81c6cd0c",
+      "sequence": 593,
+      "translation_id": "f001_s3_end_81c6cd0c",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2648,
+      "speaker": "narrator",
+      "source_jp": "同じことを考えていたのだろう。二人同時に声を出し、ぶつかった。",
+      "draft_ko": "같은 생각을 했던 거겠지. 둘은 동시에 입을 열어 말이 겹쳤다.",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 587,
+      "source_packet_stable_id": "scenario/001.rpy::L2648",
+      "catalog_command_index": 593,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_81c6cd0c",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s3_end_81c6cd0c",
+          "renpy_digest": "81c6cd0c",
+          "source_group_sha256": "69088f87dc7e066324721ea28fd73eb744bc22516dac0f1e38a7ffc870ce6f8f",
+          "source_text_sha256": "cbead2701395ab0df22d5b55cd636e31938c71cb8954dc0ccff81dd61745f251",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2648,
+          "speaker": "narrator",
+          "source_text_exact_match": true,
+          "source_text_sha256": "cbead2701395ab0df22d5b55cd636e31938c71cb8954dc0ccff81dd61745f251",
+          "catalog_command_index": 593,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_81c6cd0c"
+        }
+      },
+      "source_text_sha256": "cbead2701395ab0df22d5b55cd636e31938c71cb8954dc0ccff81dd61745f251",
+      "source_group_sha256": "69088f87dc7e066324721ea28fd73eb744bc22516dac0f1e38a7ffc870ce6f8f",
+      "renpy_digest": "81c6cd0c",
+      "catalog_lane": "narration",
+      "catalog_voice_call": null,
+      "source_statement_code": "\"同じことを考えていたのだろう。二人同時に声を出し、ぶつかった。\"",
+      "source_group_code": [
+        "\"同じことを考えていたのだろう。二人同時に声を出し、ぶつかった。\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_29773a52",
+      "sequence": 594,
+      "translation_id": "f001_s3_end_29773a52",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2653,
+      "speaker": "rinka",
+      "source_jp": "「何？」",
+      "draft_ko": "“뭐?”",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 588,
+      "source_packet_stable_id": "scenario/001.rpy::L2653",
+      "catalog_command_index": 594,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_29773a52",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s3_end_29773a52",
+          "renpy_digest": "29773a52",
+          "source_group_sha256": "00279945125aedffaa0206502c23367d45be5ad1b36fe9e3a8a24ba35f7ef548",
+          "source_text_sha256": "9012f6708dce394c658afcc8b6396f26620943402c9ae0f6a78f33beddb35c57",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2653,
+          "speaker": "rinka",
+          "source_text_exact_match": true,
+          "source_text_sha256": "9012f6708dce394c658afcc8b6396f26620943402c9ae0f6a78f33beddb35c57",
+          "catalog_command_index": 594,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_29773a52"
+        }
+      },
+      "source_text_sha256": "9012f6708dce394c658afcc8b6396f26620943402c9ae0f6a78f33beddb35c57",
+      "source_group_sha256": "00279945125aedffaa0206502c23367d45be5ad1b36fe9e3a8a24ba35f7ef548",
+      "renpy_digest": "29773a52",
+      "catalog_lane": "dialogue",
+      "catalog_voice_call": {
+        "statement": "voice get_voice_filename(\"rnk\", 119)",
+        "line": 2652,
+        "function": "get_voice_filename",
+        "tag": "rnk",
+        "start_count": 119,
+        "resolution": {
+          "mode": "explicit_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": "sounds/voice/rnk_00119.ogg"
+        }
+      },
+      "source_statement_code": "rinka \"「何？」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"rnk\", 119)",
+        "rinka \"「何？」\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_fe904e68",
+      "sequence": 595,
+      "translation_id": "f001_s3_end_fe904e68",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2659,
+      "speaker": "miharu",
+      "source_jp": "「ううん。凛火の話から聞きたいな」",
+      "draft_ko": "“아니. 린카 이야기부터 듣고 싶어.”",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 589,
+      "source_packet_stable_id": "scenario/001.rpy::L2659",
+      "catalog_command_index": 595,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_fe904e68",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s3_end_fe904e68",
+          "renpy_digest": "fe904e68",
+          "source_group_sha256": "8b7d3f42bc57ee54260f849eb9938472ec519a7acbe3153cf7bc0ecabfeac216",
+          "source_text_sha256": "342df99f917f8ae2a22cb60c63bb7c3bcd0a26345142e808df1e763a367616a1",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2659,
+          "speaker": "miharu",
+          "source_text_exact_match": true,
+          "source_text_sha256": "342df99f917f8ae2a22cb60c63bb7c3bcd0a26345142e808df1e763a367616a1",
+          "catalog_command_index": 595,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_fe904e68"
+        }
+      },
+      "source_text_sha256": "342df99f917f8ae2a22cb60c63bb7c3bcd0a26345142e808df1e763a367616a1",
+      "source_group_sha256": "8b7d3f42bc57ee54260f849eb9938472ec519a7acbe3153cf7bc0ecabfeac216",
+      "renpy_digest": "fe904e68",
+      "catalog_lane": "dialogue",
+      "catalog_voice_call": {
+        "statement": "voice get_voice_filename(\"mhr\", 17)",
+        "line": 2658,
+        "function": "get_voice_filename",
+        "tag": "mhr",
+        "start_count": 17,
+        "resolution": {
+          "mode": "explicit_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": "sounds/voice/mhr_00017.ogg"
+        }
+      },
+      "source_statement_code": "miharu \"「ううん。凛火の話から聞きたいな」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"mhr\", 17)",
+        "miharu \"「ううん。凛火の話から聞きたいな」\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_07b3874f",
+      "sequence": 596,
+      "translation_id": "f001_s3_end_07b3874f",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2663,
+      "speaker": "rinka",
+      "source_jp": "「今日、楽しかったねって、それだけ」",
+      "draft_ko": "“오늘 즐거웠다고, 그게 다야.”",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 590,
+      "source_packet_stable_id": "scenario/001.rpy::L2663",
+      "catalog_command_index": 596,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_07b3874f",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s3_end_07b3874f",
+          "renpy_digest": "07b3874f",
+          "source_group_sha256": "716c0d4a5da59d3f1e09411565054d5b4e5d676d30affbb834d7ae751ff35d01",
+          "source_text_sha256": "d93ded97815639ddf6321a82077f5fe36a0d315b88da7dc361e2a845c393690c",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2663,
+          "speaker": "rinka",
+          "source_text_exact_match": true,
+          "source_text_sha256": "d93ded97815639ddf6321a82077f5fe36a0d315b88da7dc361e2a845c393690c",
+          "catalog_command_index": 596,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_07b3874f"
+        }
+      },
+      "source_text_sha256": "d93ded97815639ddf6321a82077f5fe36a0d315b88da7dc361e2a845c393690c",
+      "source_group_sha256": "716c0d4a5da59d3f1e09411565054d5b4e5d676d30affbb834d7ae751ff35d01",
+      "renpy_digest": "07b3874f",
+      "catalog_lane": "dialogue",
+      "catalog_voice_call": {
+        "statement": "voice get_voice_filename(\"rnk\")",
+        "line": 2662,
+        "function": "get_voice_filename",
+        "tag": "rnk",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "source_statement_code": "rinka \"「今日、楽しかったねって、それだけ」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"rnk\")",
+        "rinka \"「今日、楽しかったねって、それだけ」\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_e59f6cbf",
+      "sequence": 597,
+      "translation_id": "f001_s3_end_e59f6cbf",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2669,
+      "speaker": "miharu",
+      "source_jp": "「とても楽しかった」",
+      "draft_ko": "“정말 즐거웠어.”",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 591,
+      "source_packet_stable_id": "scenario/001.rpy::L2669",
+      "catalog_command_index": 597,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_e59f6cbf",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s3_end_e59f6cbf",
+          "renpy_digest": "e59f6cbf",
+          "source_group_sha256": "821d7f773d4dcb7083bfe22098093df5a58989ef0d8d5426a6aa3cc44715b757",
+          "source_text_sha256": "645c7273f16fb4e58e77cc231caafeb77bb1e3811ed740d68175a88519d92cdc",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2669,
+          "speaker": "miharu",
+          "source_text_exact_match": true,
+          "source_text_sha256": "645c7273f16fb4e58e77cc231caafeb77bb1e3811ed740d68175a88519d92cdc",
+          "catalog_command_index": 597,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_e59f6cbf"
+        }
+      },
+      "source_text_sha256": "645c7273f16fb4e58e77cc231caafeb77bb1e3811ed740d68175a88519d92cdc",
+      "source_group_sha256": "821d7f773d4dcb7083bfe22098093df5a58989ef0d8d5426a6aa3cc44715b757",
+      "renpy_digest": "e59f6cbf",
+      "catalog_lane": "dialogue",
+      "catalog_voice_call": {
+        "statement": "voice get_voice_filename(\"mhr\")",
+        "line": 2668,
+        "function": "get_voice_filename",
+        "tag": "mhr",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "source_statement_code": "miharu \"「とても楽しかった」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"mhr\")",
+        "miharu \"「とても楽しかった」\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_ae90e370",
+      "sequence": 598,
+      "translation_id": "f001_s3_end_ae90e370",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2673,
+      "speaker": "rinka",
+      "source_jp": "「せっかくだから、このままパレード見ちゃおっか。真央にはチャット送っておくよ」",
+      "draft_ko": "“모처럼이니 이대로 퍼레이드까지 볼까. 마오한테는 채팅 보내 둘게.”",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 592,
+      "source_packet_stable_id": "scenario/001.rpy::L2673",
+      "catalog_command_index": 598,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_ae90e370",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s3_end_ae90e370",
+          "renpy_digest": "ae90e370",
+          "source_group_sha256": "b86484997817863a852adbf61cf3ffae2c2aa4ffa37cd8d867ec308a44640b47",
+          "source_text_sha256": "92dec7aec33f3578705c0738b956250fb2f3b3bde382c19b02f806584ab5789f",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2673,
+          "speaker": "rinka",
+          "source_text_exact_match": true,
+          "source_text_sha256": "92dec7aec33f3578705c0738b956250fb2f3b3bde382c19b02f806584ab5789f",
+          "catalog_command_index": 598,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_ae90e370"
+        }
+      },
+      "source_text_sha256": "92dec7aec33f3578705c0738b956250fb2f3b3bde382c19b02f806584ab5789f",
+      "source_group_sha256": "b86484997817863a852adbf61cf3ffae2c2aa4ffa37cd8d867ec308a44640b47",
+      "renpy_digest": "ae90e370",
+      "catalog_lane": "dialogue",
+      "catalog_voice_call": {
+        "statement": "voice get_voice_filename(\"rnk\")",
+        "line": 2672,
+        "function": "get_voice_filename",
+        "tag": "rnk",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "source_statement_code": "rinka \"「せっかくだから、このままパレード見ちゃおっか。真央にはチャット送っておくよ」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"rnk\")",
+        "rinka \"「せっかくだから、このままパレード見ちゃおっか。真央にはチャット送っておくよ」\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_21455b2e",
+      "sequence": 599,
+      "translation_id": "f001_s3_end_21455b2e",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2677,
+      "speaker": "miharu",
+      "source_jp": "「そうしてくれると嬉しい。ぼくは遊園地に来るのも初めてだし、夜にパレードを見るのも初めてなんだ。だから興味があるんだよ」",
+      "draft_ko": "“그렇게 해 주면 기쁠 것 같아. 난 놀이공원에 온 것도 처음이고, 밤에 퍼레이드를 보는 것도 처음이거든. 그래서 관심이 있어.”",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 593,
+      "source_packet_stable_id": "scenario/001.rpy::L2677",
+      "catalog_command_index": 599,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_21455b2e",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s3_end_21455b2e",
+          "renpy_digest": "21455b2e",
+          "source_group_sha256": "9c3ecb5c4570114492538a22676bc4229440060d2995a001ae4055ac153aaac6",
+          "source_text_sha256": "3d338eacb8a2652c7060304c549fa421edfc06547a7537cec8681663231a092c",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2677,
+          "speaker": "miharu",
+          "source_text_exact_match": true,
+          "source_text_sha256": "3d338eacb8a2652c7060304c549fa421edfc06547a7537cec8681663231a092c",
+          "catalog_command_index": 599,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_21455b2e"
+        }
+      },
+      "source_text_sha256": "3d338eacb8a2652c7060304c549fa421edfc06547a7537cec8681663231a092c",
+      "source_group_sha256": "9c3ecb5c4570114492538a22676bc4229440060d2995a001ae4055ac153aaac6",
+      "renpy_digest": "21455b2e",
+      "catalog_lane": "dialogue",
+      "catalog_voice_call": {
+        "statement": "voice get_voice_filename(\"mhr\")",
+        "line": 2676,
+        "function": "get_voice_filename",
+        "tag": "mhr",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "source_statement_code": "miharu \"「そうしてくれると嬉しい。ぼくは遊園地に来るのも初めてだし、夜にパレードを見るのも初めてなんだ。だから興味があるんだよ」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"mhr\")",
+        "miharu \"「そうしてくれると嬉しい。ぼくは遊園地に来るのも初めてだし、夜にパレードを見るのも初めてなんだ。だから興味があるんだよ」\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_6440c37a",
+      "sequence": 600,
+      "translation_id": "f001_s3_end_6440c37a",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2683,
+      "speaker": "miharu",
+      "source_jp": "「あまり家族で外出を……それも夜に遊びに行くなんてなかったからね」",
+      "draft_ko": "“가족과 함께 외출하는 일이 별로…… 그것도 밤에 놀러 나간 적은 없었으니까.”",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 594,
+      "source_packet_stable_id": "scenario/001.rpy::L2683",
+      "catalog_command_index": 600,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_6440c37a",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s3_end_6440c37a",
+          "renpy_digest": "6440c37a",
+          "source_group_sha256": "3d2b17c9ef4f4e43277a28ab6a6f3b20b171f1c8052f550b531445654bdadea9",
+          "source_text_sha256": "747dfafdf8509ef6bc4a040eab70036fd4d67960a6470bc9be9c1338ec0f4b68",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2683,
+          "speaker": "miharu",
+          "source_text_exact_match": true,
+          "source_text_sha256": "747dfafdf8509ef6bc4a040eab70036fd4d67960a6470bc9be9c1338ec0f4b68",
+          "catalog_command_index": 600,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_6440c37a"
+        }
+      },
+      "source_text_sha256": "747dfafdf8509ef6bc4a040eab70036fd4d67960a6470bc9be9c1338ec0f4b68",
+      "source_group_sha256": "3d2b17c9ef4f4e43277a28ab6a6f3b20b171f1c8052f550b531445654bdadea9",
+      "renpy_digest": "6440c37a",
+      "catalog_lane": "dialogue",
+      "catalog_voice_call": {
+        "statement": "voice get_voice_filename(\"mhr\")",
+        "line": 2682,
+        "function": "get_voice_filename",
+        "tag": "mhr",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "source_statement_code": "miharu \"「あまり家族で外出を……それも夜に遊びに行くなんてなかったからね」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"mhr\")",
+        "miharu \"「あまり家族で外出を……それも夜に遊びに行くなんてなかったからね」\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_4aaba10f",
+      "sequence": 601,
+      "translation_id": "f001_s3_end_4aaba10f",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2687,
+      "speaker": "rinka",
+      "source_jp": "「そうなの？」",
+      "draft_ko": "“그랬어?”",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 595,
+      "source_packet_stable_id": "scenario/001.rpy::L2687",
+      "catalog_command_index": 601,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_4aaba10f",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s3_end_4aaba10f",
+          "renpy_digest": "4aaba10f",
+          "source_group_sha256": "41f04c460fa7c6fdfaceb4c3da266ba429140a86fa0a36743465ce68b3738466",
+          "source_text_sha256": "82f5745e0b6164c0013e8138d386a2a6d3c530b74f8337c33cd48a654738d62d",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2687,
+          "speaker": "rinka",
+          "source_text_exact_match": true,
+          "source_text_sha256": "82f5745e0b6164c0013e8138d386a2a6d3c530b74f8337c33cd48a654738d62d",
+          "catalog_command_index": 601,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_4aaba10f"
+        }
+      },
+      "source_text_sha256": "82f5745e0b6164c0013e8138d386a2a6d3c530b74f8337c33cd48a654738d62d",
+      "source_group_sha256": "41f04c460fa7c6fdfaceb4c3da266ba429140a86fa0a36743465ce68b3738466",
+      "renpy_digest": "4aaba10f",
+      "catalog_lane": "dialogue",
+      "catalog_voice_call": {
+        "statement": "voice get_voice_filename(\"rnk\")",
+        "line": 2686,
+        "function": "get_voice_filename",
+        "tag": "rnk",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "source_statement_code": "rinka \"「そうなの？」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"rnk\")",
+        "rinka \"「そうなの？」\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_ed046c5c",
+      "sequence": 602,
+      "translation_id": "f001_s3_end_ed046c5c",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2691,
+      "speaker": "narrator",
+      "source_jp": "聞き返したが、海晴は微笑してそれ以上何も言わなかった。",
+      "draft_ko": "되물었지만 미하루는 미소만 짓고 더는 아무 말도 하지 않았다.",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 596,
+      "source_packet_stable_id": "scenario/001.rpy::L2691",
+      "catalog_command_index": 602,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_ed046c5c",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s3_end_ed046c5c",
+          "renpy_digest": "ed046c5c",
+          "source_group_sha256": "646213732c31cc6ccdd5b1dabee22d3b6078c1d3c33675079f6ca372ea65c551",
+          "source_text_sha256": "335a0260d23a743d15ac1c6cfbcd09208b8fb6ef0ccd8f592e00478bfa474e3f",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2691,
+          "speaker": "narrator",
+          "source_text_exact_match": true,
+          "source_text_sha256": "335a0260d23a743d15ac1c6cfbcd09208b8fb6ef0ccd8f592e00478bfa474e3f",
+          "catalog_command_index": 602,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_ed046c5c"
+        }
+      },
+      "source_text_sha256": "335a0260d23a743d15ac1c6cfbcd09208b8fb6ef0ccd8f592e00478bfa474e3f",
+      "source_group_sha256": "646213732c31cc6ccdd5b1dabee22d3b6078c1d3c33675079f6ca372ea65c551",
+      "renpy_digest": "ed046c5c",
+      "catalog_lane": "narration",
+      "catalog_voice_call": null,
+      "source_statement_code": "\"聞き返したが、海晴は微笑してそれ以上何も言わなかった。\"",
+      "source_group_code": [
+        "\"聞き返したが、海晴は微笑してそれ以上何も言わなかった。\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_93717f78",
+      "sequence": 603,
+      "translation_id": "f001_s3_end_93717f78",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2693,
+      "speaker": "narrator",
+      "source_jp": "海晴はまた、不自然な沈黙を作った。だが、その表情は寂しげなものから不安げなものに変わり、今度は決意の表情に変わる。",
+      "draft_ko": "미하루는 다시 어색한 침묵을 만들었다. 하지만 그 표정은 쓸쓸함에서 불안으로, 이번에는 결심한 표정으로 바뀌었다.",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 597,
+      "source_packet_stable_id": "scenario/001.rpy::L2693",
+      "catalog_command_index": 603,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_93717f78",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s3_end_93717f78",
+          "renpy_digest": "93717f78",
+          "source_group_sha256": "dce5697ae2a1fd3dbc7cbaee4981c29c6a0d4ac7e13dd25bc75f352155a7de29",
+          "source_text_sha256": "d62d73c429c91554d5bc164d24f3369f3eca6a055110f94f2ee1c3dfdb821917",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2693,
+          "speaker": "narrator",
+          "source_text_exact_match": true,
+          "source_text_sha256": "d62d73c429c91554d5bc164d24f3369f3eca6a055110f94f2ee1c3dfdb821917",
+          "catalog_command_index": 603,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_93717f78"
+        }
+      },
+      "source_text_sha256": "d62d73c429c91554d5bc164d24f3369f3eca6a055110f94f2ee1c3dfdb821917",
+      "source_group_sha256": "dce5697ae2a1fd3dbc7cbaee4981c29c6a0d4ac7e13dd25bc75f352155a7de29",
+      "renpy_digest": "93717f78",
+      "catalog_lane": "narration",
+      "catalog_voice_call": null,
+      "source_statement_code": "\"海晴はまた、不自然な沈黙を作った。だが、その表情は寂しげなものから不安げなものに変わり、今度は決意の表情に変わる。\"",
+      "source_group_code": [
+        "\"海晴はまた、不自然な沈黙を作った。だが、その表情は寂しげなものから不安げなものに変わり、今度は決意の表情に変わる。\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_e08b7862",
+      "sequence": 604,
+      "translation_id": "f001_s3_end_e08b7862",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2699,
+      "speaker": "miharu",
+      "source_jp": "「あのね、ぼくが言いたかったのは」",
+      "draft_ko": "“저기, 내가 하려던 말은……”",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 598,
+      "source_packet_stable_id": "scenario/001.rpy::L2699",
+      "catalog_command_index": 604,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_e08b7862",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s3_end_e08b7862",
+          "renpy_digest": "e08b7862",
+          "source_group_sha256": "fd100a78da1b557abd698ca03384e2bcae569b9ff2eed62af0eee46fb0bafe33",
+          "source_text_sha256": "de66b9af9d2f564a6acc6125b673b40ed460dd64b0dfd3737a468d678e709117",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2699,
+          "speaker": "miharu",
+          "source_text_exact_match": true,
+          "source_text_sha256": "de66b9af9d2f564a6acc6125b673b40ed460dd64b0dfd3737a468d678e709117",
+          "catalog_command_index": 604,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_e08b7862"
+        }
+      },
+      "source_text_sha256": "de66b9af9d2f564a6acc6125b673b40ed460dd64b0dfd3737a468d678e709117",
+      "source_group_sha256": "fd100a78da1b557abd698ca03384e2bcae569b9ff2eed62af0eee46fb0bafe33",
+      "renpy_digest": "e08b7862",
+      "catalog_lane": "dialogue",
+      "catalog_voice_call": {
+        "statement": "voice get_voice_filename(\"mhr\")",
+        "line": 2698,
+        "function": "get_voice_filename",
+        "tag": "mhr",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "source_statement_code": "miharu \"「あのね、ぼくが言いたかったのは」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"mhr\")",
+        "miharu \"「あのね、ぼくが言いたかったのは」\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_c4573b7a",
+      "sequence": 605,
+      "translation_id": "f001_s3_end_c4573b7a",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2701,
+      "speaker": "narrator",
+      "source_jp": "その時、わーっと歓声が上がる。",
+      "draft_ko": "그때 와아 하는 환호성이 터졌다.",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 599,
+      "source_packet_stable_id": "scenario/001.rpy::L2701",
+      "catalog_command_index": 605,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_c4573b7a",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s3_end_c4573b7a",
+          "renpy_digest": "c4573b7a",
+          "source_group_sha256": "6847f457ca59386793990a1068f191e88b2980c1a26703415dd8f300c0ac7737",
+          "source_text_sha256": "e78d80d508458c549869657c00715f0bb2e2f2247ff45c85259158baf3c90a17",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2701,
+          "speaker": "narrator",
+          "source_text_exact_match": true,
+          "source_text_sha256": "e78d80d508458c549869657c00715f0bb2e2f2247ff45c85259158baf3c90a17",
+          "catalog_command_index": 605,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_c4573b7a"
+        }
+      },
+      "source_text_sha256": "e78d80d508458c549869657c00715f0bb2e2f2247ff45c85259158baf3c90a17",
+      "source_group_sha256": "6847f457ca59386793990a1068f191e88b2980c1a26703415dd8f300c0ac7737",
+      "renpy_digest": "c4573b7a",
+      "catalog_lane": "narration",
+      "catalog_voice_call": null,
+      "source_statement_code": "\"その時、わーっと歓声が上がる。\"",
+      "source_group_code": [
+        "\"その時、わーっと歓声が上がる。\""
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_b70901fc",
+      "sequence": 606,
+      "translation_id": "f001_s3_end_b70901fc",
+      "translation_id_status": "aligned_exact_ast_hash",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2703,
+      "speaker": "narrator",
+      "source_jp": "パークのイルミネーションが一斉に消えたのだ。同時に、楽しげな音楽も流れ始めた。",
+      "draft_ko": "공원 안 조명이 일제히 꺼진 것이다. 동시에 경쾌한 음악도 흐르기 시작했다.",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 600,
+      "source_packet_stable_id": "scenario/001.rpy::L2703",
+      "catalog_command_index": 606,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_b70901fc",
+      "menu_key": null,
+      "id_origin": "renpy-6.99-recomputed",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s3_end_b70901fc",
+          "renpy_digest": "b70901fc",
+          "source_group_sha256": "92fb629b7dfaa44a5368fed9dcaae482fcbeb6dc633eafda0a3b914ef54b468c",
+          "source_text_sha256": "8ae5265f86f2bf3cfc027ec02330b30365a90d0bc3cb353b6644eaf00c4f1e6c",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2703,
+          "speaker": "narrator",
+          "source_text_exact_match": true,
+          "source_text_sha256": "8ae5265f86f2bf3cfc027ec02330b30365a90d0bc3cb353b6644eaf00c4f1e6c",
+          "catalog_command_index": 606,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s3_end_b70901fc"
+        }
+      },
+      "source_text_sha256": "8ae5265f86f2bf3cfc027ec02330b30365a90d0bc3cb353b6644eaf00c4f1e6c",
+      "source_group_sha256": "92fb629b7dfaa44a5368fed9dcaae482fcbeb6dc633eafda0a3b914ef54b468c",
+      "renpy_digest": "b70901fc",
+      "catalog_lane": "narration",
+      "catalog_voice_call": null,
+      "source_statement_code": "\"パークのイルミネーションが一斉に消えたのだ。同時に、楽しげな音楽も流れ始めた。\"",
+      "source_group_code": [
+        "\"パークのイルミネーションが一斉に消えたのだ。同時に、楽しげな音楽も流れ始めた。\""
+      ],
+      "protected_tokens": []
+    }
+  ],
+  "schema_version": "fatal-twelve-aligned-draft-v1",
+  "alignment_status": "complete_exact_source_join",
+  "alignment_catalog": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\catalog_design\\scenario_001.catalog.jsonl",
+    "size": 2856472,
+    "sha256": "8b980c599493d1cd0355b525238a3867540fdac293246fed51dee0b5aa3196b3",
+    "schema_version": "fatal-twelve-renpy-catalog-v1"
+  },
+  "sequence_semantics": "AST catalog command_index including Ren'Py menu strings",
+  "source_packet_sequence_semantics": "translator work order excluding menu choice lines; preserved separately",
+  "alignment_summary": {
+    "entries": 50,
+    "source_packet_sequence_start": 551,
+    "source_packet_sequence_end": 600,
+    "catalog_sequence_start": 555,
+    "catalog_sequence_end": 606,
+    "translation_ids": 49,
+    "menu_keys": 1,
+    "reference_missing": 1,
+    "sequence_changed": 50,
+    "translation_text_modified": false
+  }
+}

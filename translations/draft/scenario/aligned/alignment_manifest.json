@@ -1,0 +1,457 @@
+{
+  "schema_version": "fatal-twelve-alignment-manifest-v1",
+  "created_at_utc": "2026-08-10T10:00:54.881409+00:00",
+  "catalog": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\catalog_design\\scenario_001.catalog.jsonl",
+    "size": 2856472,
+    "sha256": "8b980c599493d1cd0355b525238a3867540fdac293246fed51dee0b5aa3196b3"
+  },
+  "join": {
+    "keys": [
+      "source_file",
+      "source_line",
+      "speaker"
+    ],
+    "additional_assertion": "source_jp exact equality",
+    "sequence_zip_used": false,
+    "English_prose_used": false
+  },
+  "allowed_entry_changes": [
+    "alignment",
+    "id_origin",
+    "sequence",
+    "stable_id",
+    "translation_id",
+    "translation_id_status"
+  ],
+  "allowed_entry_additions": [
+    "catalog_command_index",
+    "catalog_lane",
+    "catalog_stable_id",
+    "catalog_voice_call",
+    "menu_key",
+    "protected_tokens",
+    "renpy_digest",
+    "source_group_code",
+    "source_group_sha256",
+    "source_packet_sequence",
+    "source_packet_stable_id",
+    "source_statement_code",
+    "source_text_sha256"
+  ],
+  "files": [
+    {
+      "kind": "jp_recovery_json_and_rpy",
+      "input_json": {
+        "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\draft_001_151_350.json",
+        "size": 136954,
+        "sha256": "1784a1ee1098418cf9c88a045c33f120baf0da7ec84cd5cb96828d166aa202ca"
+      },
+      "input_rpy": {
+        "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\draft_001_151_350.rpy",
+        "size": 30353,
+        "sha256": "60d1809540d502bbbf1c9407163dd8cc7e2c14ef2ca56558d548b87f011458b2"
+      },
+      "output_json": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\draft_001_151_350_aligned.json",
+        "size": 623670,
+        "sha256": "7e3d349e63038c28e66b5d77ec89f0e1b2dbd48978a58835c0246a91a61009fb"
+      },
+      "output_rpy": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\draft_001_151_350_aligned.rpy",
+        "size": 31558,
+        "sha256": "88bab5f2e5cd1770dbd22490696ff12ba8304a2b397de8b901fdd87052034671"
+      },
+      "entries": 200,
+      "source_packet_sequence": [
+        151,
+        350
+      ],
+      "catalog_sequence": [
+        151,
+        352
+      ],
+      "draft_ko_sha256_before": "6f7ef3af177a94d7979b22135063ce913d4823b89ffbca88f8cae7e9eea794ec",
+      "draft_ko_sha256_after": "6f7ef3af177a94d7979b22135063ce913d4823b89ffbca88f8cae7e9eea794ec",
+      "source_jp_sha256_before": "a4218bec659a6c37255957fa2d1c0de4c0389e071243cfc34e51db20dfb8a2ab",
+      "source_jp_sha256_after": "a4218bec659a6c37255957fa2d1c0de4c0389e071243cfc34e51db20dfb8a2ab",
+      "structural_comparison": {
+        "entries": 200,
+        "existing_translation_id_match": 156,
+        "existing_translation_id_mismatch": 44,
+        "existing_nonnull_id_corrected_to_menu_key": 1,
+        "catalog_sequence_differs_from_packet_sequence": 42
+      },
+      "rendered_rpy": {
+        "translate_blocks": 199,
+        "strings_entries": 1,
+        "unique_translate_ids": 199
+      },
+      "translation_text_modified": false
+    },
+    {
+      "kind": "sequence351_bridge",
+      "input": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\001_sequence351_bridge.json",
+        "size": 1013,
+        "sha256": "fc86b995514bb03f9efbe0a15381e244a98b373c5222f222b0fe8db3d9180fce"
+      },
+      "output": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_sequence351_bridge_aligned.json",
+        "size": 4078,
+        "sha256": "f09950a6d826ceceec07198c56849dbc4cdb89a9058673e73f00caa350781c72"
+      },
+      "entries": 1,
+      "source_packet_sequence": [
+        351,
+        351
+      ],
+      "catalog_sequence": [
+        351,
+        351
+      ],
+      "draft_ko_sha256_before": "3e6cb6bb9f72822a6af4e7d586e3ae2acd1d6eadbcfdd47f444d5fa4ac00daec",
+      "draft_ko_sha256_after": "3e6cb6bb9f72822a6af4e7d586e3ae2acd1d6eadbcfdd47f444d5fa4ac00daec",
+      "source_jp_sha256_before": "41d067e2947278c9564a48d324a4f7199bab07d6cf422f6d8d8a68c4b0431c18",
+      "source_jp_sha256_after": "41d067e2947278c9564a48d324a4f7199bab07d6cf422f6d8d8a68c4b0431c18",
+      "translation_text_modified": false
+    },
+    {
+      "kind": "scenario001_tail_json_and_rpy",
+      "input_json": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\translation_001_after_2922.json",
+        "size": 277632,
+        "sha256": "13945af37d10a446f5690e79d808cd657396fa674234583dc2fe6caf3447aa9b"
+      },
+      "input_rpy": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\translation_001_after_2922.rpy",
+        "size": 67392,
+        "sha256": "c81e423e709eeb14a558034e8bd6630be18706d4fa68879cdf133cd9de9134f7"
+      },
+      "output_json": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\translation_001_after_2922_aligned.json",
+        "size": 620361,
+        "sha256": "fb5c82599e1c9037bef576ed92e166a8a5eb6b2800273f78109218c163fd9706"
+      },
+      "output_rpy": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\translation_001_after_2922_aligned.rpy",
+        "size": 67392,
+        "sha256": "c81e423e709eeb14a558034e8bd6630be18706d4fa68879cdf133cd9de9134f7"
+      },
+      "entries": 188,
+      "source_packet_sequence": [
+        657,
+        844
+      ],
+      "catalog_sequence": [
+        657,
+        844
+      ],
+      "draft_ko_sha256_before": "0f1cab12d96f8c482bdd6294432434254f14b30f89f648d665267ea360ad46e9",
+      "draft_ko_sha256_after": "0f1cab12d96f8c482bdd6294432434254f14b30f89f648d665267ea360ad46e9",
+      "source_jp_sha256_before": "a0d687bcbb98f2b922761c6ee94c86f9c25a87262a8b027167e08ddc1f86c3a0",
+      "source_jp_sha256_after": "a0d687bcbb98f2b922761c6ee94c86f9c25a87262a8b027167e08ddc1f86c3a0",
+      "structural_comparison": {
+        "entries": 188,
+        "existing_translation_id_mismatch": 0,
+        "existing_command_index_mismatch": 0,
+        "existing_stable_id_mismatch": 0
+      },
+      "rpy_bytes_preserved": true,
+      "translation_text_modified": false
+    },
+    {
+      "kind": "scenario001_missing_menus_json_and_rpy",
+      "input_json": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\001_missing_menus.json",
+        "size": 4471,
+        "sha256": "d14d8e30bfd17cca8ded8c05c50e21e267342a81393d3945ba4ef5b5d8f380f0"
+      },
+      "input_rpy": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\001_missing_menus.rpy",
+        "size": 517,
+        "sha256": "731dea855fbbf964fcd3e808ef2751e0895451fed799373e5c33b1a6762a1385"
+      },
+      "output_json": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_missing_menus_aligned.json",
+        "size": 17615,
+        "sha256": "67d1b9ed78f4e1eabe5989c4532d4fb37e5296011d23f022dbca2b1bff84f89c"
+      },
+      "output_rpy": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_missing_menus_aligned.rpy",
+        "size": 517,
+        "sha256": "731dea855fbbf964fcd3e808ef2751e0895451fed799373e5c33b1a6762a1385"
+      },
+      "entries": 6,
+      "source_packet_sequence": [
+        309,
+        576
+      ],
+      "catalog_sequence": [
+        309,
+        576
+      ],
+      "draft_ko_sha256_before": "2faabf4c150022dce46f4e3c01635f56f8b71ae880c26a4b1f399cd34dfb3517",
+      "draft_ko_sha256_after": "2faabf4c150022dce46f4e3c01635f56f8b71ae880c26a4b1f399cd34dfb3517",
+      "source_jp_sha256_before": "04b9509aca8819102e801100f01092250cb0b4e1f6a9f85cd72271a060aa4452",
+      "source_jp_sha256_after": "04b9509aca8819102e801100f01092250cb0b4e1f6a9f85cd72271a060aa4452",
+      "structural_comparison": {
+        "entries": 6,
+        "existing_stable_id_mismatch": 0,
+        "existing_menu_key_mismatch": 0,
+        "existing_sequence_mismatch": 0,
+        "unexpected_translation_id": 0
+      },
+      "rpy_bytes_preserved": true,
+      "translation_text_modified": false
+    },
+    {
+      "kind": "initial_packet_realign",
+      "input": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\001_part001.json",
+        "size": 32378,
+        "sha256": "92a3a8b30908827b1697f26ddd2fa131357b48fb5007f4ed16696984fcc0687c"
+      },
+      "output": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part001_aligned.json",
+        "size": 153540,
+        "sha256": "4dbdfa43ae676e95c91ce9017d461637af4a7ddfc216d6da33d509f6cbdf582e"
+      },
+      "entries": 50,
+      "source_packet_sequence": [
+        1,
+        50
+      ],
+      "catalog_sequence": [
+        1,
+        50
+      ],
+      "existing_translation_id_mismatches_corrected": 0,
+      "draft_ko_sha256_before": "a046f78c74521a30e58370de902ee37f6f938117e7708d2490297aebb18a9a59",
+      "draft_ko_sha256_after": "a046f78c74521a30e58370de902ee37f6f938117e7708d2490297aebb18a9a59",
+      "source_jp_sha256_before": "7264dc1bf00a83d9f9759db334f81f654247adcd03bf013faeb3dcf9d4874702",
+      "source_jp_sha256_after": "7264dc1bf00a83d9f9759db334f81f654247adcd03bf013faeb3dcf9d4874702",
+      "translation_text_modified": false
+    },
+    {
+      "kind": "initial_packet_realign",
+      "input": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\001_part002.json",
+        "size": 32927,
+        "sha256": "053e407e387adcb9b6f4fbddadf558f96ec4d54c2aeee4be0d6e941e8fa8ad84"
+      },
+      "output": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part002_aligned.json",
+        "size": 153325,
+        "sha256": "417112dcb00d4ca276ad53a800216a144f0c6b2492b309900f6c9aaae6a225a3"
+      },
+      "entries": 50,
+      "source_packet_sequence": [
+        51,
+        100
+      ],
+      "catalog_sequence": [
+        51,
+        100
+      ],
+      "existing_translation_id_mismatches_corrected": 2,
+      "draft_ko_sha256_before": "2ca32f8acdffcecd12d150ff6f45e9f5a30a72c4eaf0435c7507c35b66a54a50",
+      "draft_ko_sha256_after": "2ca32f8acdffcecd12d150ff6f45e9f5a30a72c4eaf0435c7507c35b66a54a50",
+      "source_jp_sha256_before": "43d10c9a6f8431b65daa4df8ac185aabee771ba0ad9ed5274ce7c62c870442cd",
+      "source_jp_sha256_after": "43d10c9a6f8431b65daa4df8ac185aabee771ba0ad9ed5274ce7c62c870442cd",
+      "translation_text_modified": false
+    },
+    {
+      "kind": "initial_packet_realign",
+      "input": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\001_part003.json",
+        "size": 30170,
+        "sha256": "d7a4b780f9ce99aeb3c7551a2e30659c60f351edd98d8822a8ca9126b2e0f8c9"
+      },
+      "output": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part003_aligned.json",
+        "size": 147855,
+        "sha256": "7ddda907125cdd70d9ce65d1cf8ccf02ca52ec22a6fd2386c5534faf1bd063fe"
+      },
+      "entries": 50,
+      "source_packet_sequence": [
+        101,
+        150
+      ],
+      "catalog_sequence": [
+        101,
+        150
+      ],
+      "existing_translation_id_mismatches_corrected": 0,
+      "draft_ko_sha256_before": "c3015e66d1d1cfc819b79f4fc5b99d7c3b6d1062f81f6437df047bfbb8ddd2bd",
+      "draft_ko_sha256_after": "c3015e66d1d1cfc819b79f4fc5b99d7c3b6d1062f81f6437df047bfbb8ddd2bd",
+      "source_jp_sha256_before": "e3a5b35ace38f9adfece64a9300e0858ea25fbf436720090b21820011fe42d08",
+      "source_jp_sha256_after": "e3a5b35ace38f9adfece64a9300e0858ea25fbf436720090b21820011fe42d08",
+      "translation_text_modified": false
+    },
+    {
+      "kind": "source_only_packet",
+      "input": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\001_part004_source_only.json",
+        "size": 36637,
+        "sha256": "a42a73ccdde2d8cf20a955ad6be021313e13e81eeff48acd2fdc8334afb363b3"
+      },
+      "output": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part004_aligned.json",
+        "size": 158616,
+        "sha256": "9e367a39e944c3089e2a771b27ecdd749adef54e618080b65da9fb77542c8ea9"
+      },
+      "entries": 50,
+      "source_packet_sequence": [
+        351,
+        400
+      ],
+      "catalog_sequence": [
+        353,
+        402
+      ],
+      "draft_ko_sha256_before": "6b4de340d2b2beedfc9b70f622d33409258d30405bc4d7356a7149b8d868fdb4",
+      "draft_ko_sha256_after": "6b4de340d2b2beedfc9b70f622d33409258d30405bc4d7356a7149b8d868fdb4",
+      "source_jp_sha256_before": "ce9e20fd1d0edf41aab376977444908281c70c16bdaa98125808fe05e8c43944",
+      "source_jp_sha256_after": "ce9e20fd1d0edf41aab376977444908281c70c16bdaa98125808fe05e8c43944",
+      "translation_text_modified": false
+    },
+    {
+      "kind": "source_only_packet",
+      "input": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\001_part005_source_only.json",
+        "size": 34071,
+        "sha256": "47b64fa085abe189364123e106a9a09dc4195213474016ed211a8a4b1cb41b91"
+      },
+      "output": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part005_aligned.json",
+        "size": 155675,
+        "sha256": "b32496d2f7e6b154d43b3516a9f870fea636f9a852a6331c521f86895ce1fb15"
+      },
+      "entries": 50,
+      "source_packet_sequence": [
+        401,
+        450
+      ],
+      "catalog_sequence": [
+        403,
+        452
+      ],
+      "draft_ko_sha256_before": "e70781888b440c4503e67b50088e0185c73319ed4cf43e9b9003ce3bbf0c6933",
+      "draft_ko_sha256_after": "e70781888b440c4503e67b50088e0185c73319ed4cf43e9b9003ce3bbf0c6933",
+      "source_jp_sha256_before": "a994a1fda5e39cfbf8cc9945e46e6fc8122bc596d8cec1e1ceabf35130f3c7bb",
+      "source_jp_sha256_after": "a994a1fda5e39cfbf8cc9945e46e6fc8122bc596d8cec1e1ceabf35130f3c7bb",
+      "translation_text_modified": false
+    },
+    {
+      "kind": "source_only_packet",
+      "input": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\001_part006_source_only.json",
+        "size": 34603,
+        "sha256": "c8e1700f4b375eeea38203fb228d1b92bc23ea3f8593da1e78755c27fd26e2f2"
+      },
+      "output": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part006_aligned.json",
+        "size": 154772,
+        "sha256": "7421d3af5467078b273826f1e7316256d64ee98b6c9f55b783193f70cff08ba6"
+      },
+      "entries": 50,
+      "source_packet_sequence": [
+        451,
+        500
+      ],
+      "catalog_sequence": [
+        453,
+        502
+      ],
+      "draft_ko_sha256_before": "dc0f422593955419d1ef2b26d2104c10dcce1d61d28f810d3f58452a9439cb27",
+      "draft_ko_sha256_after": "dc0f422593955419d1ef2b26d2104c10dcce1d61d28f810d3f58452a9439cb27",
+      "source_jp_sha256_before": "85b65797640f9da28acf12de8e360c38f082be8afbc40bbb161eda979742ec9e",
+      "source_jp_sha256_after": "85b65797640f9da28acf12de8e360c38f082be8afbc40bbb161eda979742ec9e",
+      "translation_text_modified": false
+    },
+    {
+      "kind": "source_only_packet",
+      "input": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\001_part007_source_only.json",
+        "size": 34122,
+        "sha256": "4262d14b8843cfb740ebd4aee1dcfd1cbdabb05d617e1724c344c1488ee9fa97"
+      },
+      "output": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part007_aligned.json",
+        "size": 151005,
+        "sha256": "992974e49e421795e69bb35fbc819dbf9ed28726b48d4d08e78e923881fd682f"
+      },
+      "entries": 50,
+      "source_packet_sequence": [
+        501,
+        550
+      ],
+      "catalog_sequence": [
+        503,
+        554
+      ],
+      "draft_ko_sha256_before": "0edec4cfe209375a951870701e0b50bcf889914db171cbdd7c8bc36c58b4835d",
+      "draft_ko_sha256_after": "0edec4cfe209375a951870701e0b50bcf889914db171cbdd7c8bc36c58b4835d",
+      "source_jp_sha256_before": "5e68318d4afdd80184e9e42c3890b4cb4b2dbd5a9da381d4dad95eac84532ebf",
+      "source_jp_sha256_after": "5e68318d4afdd80184e9e42c3890b4cb4b2dbd5a9da381d4dad95eac84532ebf",
+      "translation_text_modified": false
+    },
+    {
+      "kind": "source_only_packet",
+      "input": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\001_part008_source_only.json",
+        "size": 34658,
+        "sha256": "c3a88b02586e6cc6b501da22a45e9adf56be69ad3d134d259637be0dc72182b1"
+      },
+      "output": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part008_aligned.json",
+        "size": 156291,
+        "sha256": "a6f046e6291fef214ecb2962e06bb4ef390cecec67acc9d1743ffd24cc3e23a4"
+      },
+      "entries": 50,
+      "source_packet_sequence": [
+        551,
+        600
+      ],
+      "catalog_sequence": [
+        555,
+        606
+      ],
+      "draft_ko_sha256_before": "a6966ffedf1a50b1664aaf8395a21fdffa6c2b196870bc09e90df5727664f2e4",
+      "draft_ko_sha256_after": "a6966ffedf1a50b1664aaf8395a21fdffa6c2b196870bc09e90df5727664f2e4",
+      "source_jp_sha256_before": "155177f1fcc87d1e07bcbbb24898c1832f523947172f0d985b4d49c915df798e",
+      "source_jp_sha256_after": "155177f1fcc87d1e07bcbbb24898c1832f523947172f0d985b4d49c915df798e",
+      "translation_text_modified": false
+    },
+    {
+      "kind": "source_only_packet",
+      "input": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\001_part009_source_only.json",
+        "size": 32684,
+        "sha256": "f6c979d6dacf385e42646c0db1b90779d52186078ddb7e8fa4d688c27aaadd72"
+      },
+      "output": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part009_aligned.json",
+        "size": 148128,
+        "sha256": "18c3e366cd163ffea49035ba82182b4b7be9f82ac5600be686357ebbd014c261"
+      },
+      "entries": 50,
+      "source_packet_sequence": [
+        601,
+        650
+      ],
+      "catalog_sequence": [
+        607,
+        656
+      ],
+      "draft_ko_sha256_before": "6e9bd35eb6694018e1b8fc1e6c51346e7eca171e13ab2e9d277b4e4507f1212b",
+      "draft_ko_sha256_after": "6e9bd35eb6694018e1b8fc1e6c51346e7eca171e13ab2e9d277b4e4507f1212b",
+      "source_jp_sha256_before": "1c92785c77b1f3dfd34f8dbb8d8c5de2a4cdfca8b8cc9e0c18ffc7e02b52e087",
+      "source_jp_sha256_after": "1c92785c77b1f3dfd34f8dbb8d8c5de2a4cdfca8b8cc9e0c18ffc7e02b52e087",
+      "translation_text_modified": false
+    }
+  ],
+  "total_entries": 845,
+  "translation_text_modified": false
+}

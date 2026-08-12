@@ -1,0 +1,135 @@
+{
+  "schema_version": "fatal-twelve-renpy-catalog-v1",
+  "generated_at_utc": "2026-08-10T09:52:50.812822+00:00",
+  "policy": {
+    "semantic_source_language": "ja",
+    "target_language": "ko",
+    "reference_language": "english",
+    "reference_usage": "translation identifiers and missingness only",
+    "reference_prose_parsed": false,
+    "reference_prose_stored": false,
+    "live_game_modified": false
+  },
+  "inputs": {
+    "source_rpy": {
+      "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\work\\extracted\\scenario\\scenario\\002.rpy",
+      "size": 106763,
+      "sha256": "03ab53e5185b6fbefb6be3eeb43452a1dc5e5632674d3a870402fb02117ebf36",
+      "encoding": "utf-8",
+      "replacement_characters": 0,
+      "japanese_codepoints": 19670
+    },
+    "characters_rpy": {
+      "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\work\\extracted\\system\\characters.rpy",
+      "size": 5975,
+      "sha256": "8e1e99a2bcac76e743086a15211cf32d888a621b3c0de0278f598a8bf5e76f37",
+      "encoding": "utf-8",
+      "replacement_characters": 0,
+      "japanese_codepoints": 280,
+      "character_definitions": 73
+    },
+    "reference_rpy_index_only": {
+      "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\work\\extracted\\tl\\tl\\english\\scenario\\002.rpy",
+      "size": 104527,
+      "sha256": "810efe8b629ea35daff930722046bc86a78f693170b11dfcffb3f9312e8432fb",
+      "encoding": "utf-8",
+      "replacement_characters": 0,
+      "japanese_codepoints": 42
+    },
+    "source_rpyc": null,
+    "reference_rpyc": null,
+    "source_archive": null,
+    "reference_archive": null
+  },
+  "stable_id": {
+    "translation_blocks": "scenario.rpa::<script>::tid::<renpy_translation_id>",
+    "menu_strings": "scenario.rpa::<script>::menu::<menu ordinal>:<role>:<direct item ordinal>:<source sha256 prefix>",
+    "renpy_id_algorithm": "md5(concat(AST.get_code UTF-8 + CRLF))[:8], prefixed by label with dots replaced by underscores, duplicate suffix _N"
+  },
+  "reference_index": {
+    "translation_ids": 667,
+    "old_string_keys": 3,
+    "duplicate_translation_ids": [],
+    "duplicate_old_strings_sha256": []
+  },
+  "statistics": {
+    "records": 668,
+    "lanes": {
+      "choice_prompt": 1,
+      "dialogue": 262,
+      "narration": 403,
+      "narrative_choice": 2
+    },
+    "voiced_records": 262,
+    "translation_id_records": 665,
+    "menu_key_records": 3,
+    "reference_present": 668,
+    "reference_missing": 0,
+    "speakers": {
+      "<narrator>": 406,
+      "chanho": 15,
+      "federico": 60,
+      "mao": 14,
+      "miharu": 32,
+      "naomi": 5,
+      "odette": 84,
+      "odette_num": 2,
+      "parca": 6,
+      "rinka": 44
+    },
+    "labels": {
+      "f002": 570,
+      "f002.s1_1": 8,
+      "f002.s1_2": 8,
+      "f002.s1_end": 4,
+      "sentei2": 78
+    },
+    "protected_token_kinds": {
+      "number": 58,
+      "renpy_text_tag": 16
+    },
+    "japanese_codepoints_in_source_text": 19670,
+    "untranslated": 668
+  },
+  "diagnostics": {
+    "non_display_quoted_commands": [
+      {
+        "line": 453,
+        "code": "play se \"set_glass_down_on_table\""
+      },
+      {
+        "line": 827,
+        "code": "play se \"bell02\""
+      },
+      {
+        "line": 1689,
+        "code": "play se \"bell02\""
+      },
+      {
+        "line": 2107,
+        "code": "play se \"punch01\""
+      },
+      {
+        "line": 2111,
+        "code": "play se \"crash01\""
+      },
+      {
+        "line": 2156,
+        "code": "play se \"floor_hit\""
+      }
+    ],
+    "orphan_voice_calls": [],
+    "reference_orphan_translation_ids": [
+      "f002_1124b608",
+      "f002_cbf16500"
+    ],
+    "source_translation_ids_missing_reference": [],
+    "reference_orphan_old_key_hashes": [],
+    "source_old_keys_missing_reference_stable_ids": []
+  },
+  "catalog": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\catalog_design\\scenario_002.catalog.jsonl",
+    "size": 2233516,
+    "sha256": "832387bcbf5b8b08abe8ae75873b6d0dc2b4c537c9a1ec4e152dcf55b6251f47"
+  }
+}

@@ -1,0 +1,25 @@
+401	L1691	dialogue	rinka	「ごめん、大声出した」
+402	L1696	dialogue	miharu	「ううん、ぼくが悪かった。話題を変えよう。丁度、君に聞きたかったことがあるのだけれど」
+403	L1707	dialogue	miharu	「日辻さんとは、最近会っていないのかい？」
+404	L1709	narration	narrator	何気ない日常会話だったけれど、海晴の表情は真剣だった。
+405	L1714	dialogue	rinka	「もう、コーヒーの淹れ方はばっちりだから。直未の方も本格的に文化祭の準備で忙しくなるしね」
+406	L1719	dialogue	miharu	「……何か、あったね？」
+407	L1721	narration	narrator	海晴には、直未と協力していることは黙っていた。
+408	L1723	narration	narrator	どちらにも余計な負担をかけたくないからだ。
+409	L1725	narration	narrator	だから今の言葉に、私はどう答えればいいか分からなくなってしまった。
+410	L1727	narration	narrator	戸惑う私をよそに、海晴は続けた。
+411	L1732	dialogue	miharu	「日辻さんは一般人だ。ぼくが凛火に協力するというのとはわけが違うよ」
+412	L1737	dialogue	miharu	「危険なことは分かっているから、君は日辻さんを遠ざけたのだろう？　それが正解だ」
+413	L1742	dialogue	miharu	「どうしてそれを知っているか――というのは聞かないで欲しいよ。ぼくは少なくとも人間関係において、凛火ほど察しが悪くないからね」
+414	L1747	dialogue	miharu	「君に会いに行く日辻さんの目はそうだな……先週から随分と変わっていた。使命感に満ちていた、と言うべきかもしれないね」
+415	L1752	dialogue	rinka	「……そうだね。海晴に隠しても仕方がなかった」
+416	L1757	dialogue	miharu	「君がぼくや真央を気遣ってくれたことはよく分かっている。気にしなくていい」
+417	L1762	dialogue	rinka	「ありがと」
+418	L1767	dialogue	rinka	「うん、でも海晴の言う通り、直未に調べものとか手伝ってもらうのはやめたよ。これからは一人で――頑張るから」
+419	L1772	dialogue	miharu	「ぼくに頼ってくれても……いいのにな」
+420	L1777	dialogue	rinka	「え？」
+421	L1782	dialogue	miharu	「ちょっと待って」
+422	L1787	narration	narrator	海晴は屋上の入り口に目を向けると、声のトーンを落として言った。
+423	L1792	dialogue	miharu	「誰かがこっちを見てる。物音がした」
+424	L1797	dialogue	rinka	「生徒じゃないの？」
+425	L1802	dialogue	miharu	「だったら問題ないよ。でも、そうじゃなかったら？」

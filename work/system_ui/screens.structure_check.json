@@ -1,0 +1,184 @@
+{
+  "source_file": "system/screens.rpy",
+  "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+  "catalog_records": 87,
+  "emitted_rpy_entries": 87,
+  "authoritative_old_key_target": 77,
+  "authoritative_old_key_covered": 77,
+  "extraction": {
+    "source_translate_call_occurrences": 65,
+    "source_translate_call_unique": 64,
+    "authoritative_old_occurrences": 77,
+    "authoritative_old_unique": 77,
+    "union_translation_keys": 83,
+    "direct_display_literals": 4,
+    "dynamic_display_consumer_count": 20,
+    "dynamic_display_consumers": [
+      {
+        "line": 26,
+        "statement": "text who id \"who\"",
+        "runtime_text_provider": "scenario_character_name",
+        "translation_ownership": "external_string_store_or_runtime"
+      },
+      {
+        "line": 28,
+        "statement": "text what id \"what\"",
+        "runtime_text_provider": "scenario_dialogue",
+        "translation_ownership": "external_string_store_or_runtime"
+      },
+      {
+        "line": 84,
+        "statement": "text caption style \"choice_text\"",
+        "runtime_text_provider": "scenario_menu_caption",
+        "translation_ownership": "external_string_store_or_runtime"
+      },
+      {
+        "line": 435,
+        "statement": "text file_save_name style_suffix \"slot_infotext\"",
+        "runtime_text_provider": "save_metadata_name",
+        "translation_ownership": "external_string_store_or_runtime"
+      },
+      {
+        "line": 440,
+        "statement": "text FileTime(i, format=_(\"%Y/%m/%d - %H:%M\"), empty=u'') style_suffix \"slot_infotext\"",
+        "runtime_text_provider": "renpy_save_timestamp",
+        "translation_ownership": "external_string_store_or_runtime"
+      },
+      {
+        "line": 863,
+        "statement": "text message_text",
+        "runtime_text_provider": "system_confirmation_message",
+        "translation_ownership": "external_string_store_or_runtime"
+      },
+      {
+        "line": 969,
+        "statement": "text tp.value at game_menu_tooltip_appear:",
+        "runtime_text_provider": "screen_tooltip_value",
+        "translation_ownership": "external_string_store_or_runtime"
+      },
+      {
+        "line": 976,
+        "statement": "text save_name style_suffix \"chaptername_text\"",
+        "runtime_text_provider": "scenario_or_gamedata_save_name",
+        "translation_ownership": "external_string_store_or_runtime"
+      },
+      {
+        "line": 984,
+        "statement": "text \"[gameinfo_date]\" style_suffix \"date_text\"",
+        "runtime_text_provider": "gamedata_date",
+        "translation_ownership": "external_string_store_or_runtime"
+      },
+      {
+        "line": 989,
+        "statement": "use info_panel(_(\"BGM\"), get_current_bgm_title(), \"gui/right_click_content_music.png\", (0.05, 0.35), game_menu_info_appear)",
+        "runtime_text_provider": "gamedata_bgm_title",
+        "translation_ownership": "external_string_store_or_runtime"
+      },
+      {
+        "line": 997,
+        "statement": "use info_panel(_(\"Location\"), get_location_name(), \"gui/right_click_content_location.png\", (0.1, 0.50), game_menu_info_appear(0.1))",
+        "runtime_text_provider": "gamedata_location_name",
+        "translation_ownership": "external_string_store_or_runtime"
+      },
+      {
+        "line": 1005,
+        "statement": "use info_panel(_(\"Tip\"), get_location_tip(), \"gui/right_click_content_tips.png\", (0.2, 0.65), game_menu_info_appear(0.2))",
+        "runtime_text_provider": "gamedata_location_tip",
+        "translation_ownership": "external_string_store_or_runtime"
+      },
+      {
+        "line": 1238,
+        "statement": "text cards[obj][\"title\"][\"chara\"] style \"cardbook_button_text\"",
+        "runtime_text_provider": "gamedata_card_character_title",
+        "translation_ownership": "external_string_store_or_runtime"
+      },
+      {
+        "line": 1240,
+        "statement": "text cards[obj][\"title\"][\"type\"] style \"cardbook_button_text\"",
+        "runtime_text_provider": "gamedata_card_type_title",
+        "translation_ownership": "external_string_store_or_runtime"
+      },
+      {
+        "line": 1264,
+        "statement": "text current_card[\"desc\"]:",
+        "runtime_text_provider": "gamedata_card_description",
+        "translation_ownership": "external_string_store_or_runtime"
+      },
+      {
+        "line": 1334,
+        "statement": "label plot_titles[current_chapter] style \"chapter_name_label\" align (0.05, 0.06)",
+        "runtime_text_provider": "gamedata_plot_title",
+        "translation_ownership": "external_string_store_or_runtime"
+      },
+      {
+        "line": 1360,
+        "statement": "text plot_labels[k]",
+        "runtime_text_provider": "gamedata_plot_label",
+        "translation_ownership": "external_string_store_or_runtime"
+      },
+      {
+        "line": 1391,
+        "statement": "text plots[current_chapter + \"-\" + obj]",
+        "runtime_text_provider": "gamedata_plot_text",
+        "translation_ownership": "external_string_store_or_runtime"
+      },
+      {
+        "line": 1467,
+        "statement": "text message",
+        "runtime_text_provider": "renpy_notification_message",
+        "translation_ownership": "external_string_store_or_runtime"
+      },
+      {
+        "line": 1495,
+        "statement": "text \"[gameinfo_date]\"",
+        "runtime_text_provider": "gamedata_date",
+        "translation_ownership": "external_string_store_or_runtime"
+      }
+    ]
+  },
+  "missing_base_source_line_count": 19,
+  "missing_base_source_line_stable_ids": [
+    "sysui_ef14d5898f6430538fc7",
+    "sysui_8052a67c760c5fa7b83d",
+    "sysui_657d58d414cd710ea41e",
+    "sysui_943b7069cd447c5c8549",
+    "sysui_2feeae2f2592dd23e909",
+    "sysui_d8c3d317fc97359c75e6",
+    "sysui_a341040c641a5327ebc9",
+    "sysui_5e015b0f883bb0b20991",
+    "sysui_0c0fcef1ab47d6d2495c",
+    "sysui_d4b29b973a2f5b870d14",
+    "sysui_73e69ef4fd41e2e47581",
+    "sysui_2d2177b78c3584f18171",
+    "sysui_650462773f05697f2608",
+    "sysui_ac3973fa4632972ea068",
+    "sysui_87eb69161b8db185c2d5",
+    "sysui_82fb6f09d67baa79f553",
+    "sysui_95d8c7e4e206ac738dfb",
+    "sysui_d0a9460a73ff758b2dd1",
+    "sysui_a27605eb1aea5e1b1ddd"
+  ],
+  "missing_exact_locator_count": 0,
+  "missing_exact_locator_stable_ids": [],
+  "protected_token_failure_count": 0,
+  "protected_token_failure_stable_ids": [],
+  "checks": {
+    "record_count_matches": true,
+    "authoritative_old_key_coverage_matches": true,
+    "authoritative_old_key_unique": true,
+    "emitted_lookup_keys_unique": true,
+    "protected_tokens_preserved": true,
+    "status_uniform": true,
+    "qa_uniform": true,
+    "english_reference_used_false": true,
+    "source_authority_japanese_only": true,
+    "exact_locator_present": true
+  },
+  "result": "PASS",
+  "translation_quality_review_performed": false,
+  "status": "first_draft_unreviewed",
+  "qa": "deferred_until_full_first_draft",
+  "source_authority": "Japanese only",
+  "english_reference_used": false,
+  "official_membership_handling": "Only old keys were mechanically retained; official new prose was skipped."
+}

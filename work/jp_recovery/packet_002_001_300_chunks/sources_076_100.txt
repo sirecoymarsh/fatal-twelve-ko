@@ -1,0 +1,25 @@
+076	L0287	narration	narrator	そこまで聞いて、私は肩の力を抜いた。
+077	L0289	narration	narrator	これは、パークでの話だ。
+078	L0291	narration	narrator	それならそれで、昨日は大しておかしなことはなかったと思うけれど。
+079	L0293	narration	narrator	しかし真央の表情はどこか真剣だった。
+080	L0298	dialogue	mao	「うちさ、みはるんが悩んでるって知ってるんだよね」
+081	L0303	dialogue	rinka	「……何に？」
+082	L0308	dialogue	mao	「さあ？」
+083	L0310	narration	narrator	一変して真央はとぼけた顔に変わる。
+084	L0315	dialogue	rinka	「ええっ？　教えてくれないの？」
+085	L0317	narration	narrator	真央が真剣な表情をするのは珍しいので、身構えていたというのに。
+086	L0322	dialogue	mao	「教えてもいいんだけどさ、みはるんの悩みって、りーたんにしか解決できないからね～」
+087	L0327	dialogue	rinka	「私にしか？」
+088	L0332	dialogue	mao	「んじゃ、また明日～」
+089	L0337	dialogue	rinka	「ええっ、ち、ちょっと！」
+090	L0341	narration	narrator	私の制止も聞かず、真央は教室を去っていった。
+091	L0343	narration	narrator	部活をやっていない真央だが、放課後はさっさと帰ることが多い。
+092	L0345	narration	narrator	ヒマだから、とうちに来ることは実はそう多くない。何をやっているのかは「色々ね～」とはぐらかして教えてくれない。
+093	L0350	dialogue	rinka	「海晴……」
+094	L0352	narration	narrator	海晴の悩みとは、一体なんなのだろうか。
+095	L0354	narration	narrator	昨日のパークで何か言いたげだった海晴の姿を思い出した。
+096	L0356	narration	narrator	直後に見た選定の夢。無関係だとは考えにくいと今更ながらに思った。
+097	L0358	narration	narrator	そういえば、バイトには行くみたいと真央は言っていた。なるほどそういうことかと、私は納得していた。
+098	L0360	narration	narrator	真央はなんだかんだ、親切だ。
+099	L0365	dialogue	rinka	「でも、海晴のバイト先はなぁ……」
+100	L0367	narration	narrator	心の中で、思わずそう呟いていた。

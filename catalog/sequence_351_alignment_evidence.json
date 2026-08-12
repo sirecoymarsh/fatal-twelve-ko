@@ -1,0 +1,535 @@
+{
+  "schema_version": "fatal-twelve-alignment-evidence-v1",
+  "sequence_zip_used": false,
+  "method": "RenPy 6.99 AST get_code digest + label prefix; menu strings excluded from Say-ID sequence",
+  "first_menu_boundary": [
+    {
+      "command_index": 306,
+      "source_line": 1347,
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_2ff370ac",
+      "translation_id": "f001_2ff370ac",
+      "menu_key": null,
+      "speaker_code": null,
+      "source_text_ja": "気にしても仕方ないと眠ろうとしたところで、私は机の上に分厚い本が置かれているのを見つけた。",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_2ff370ac",
+          "renpy_digest": "2ff370ac",
+          "source_group_sha256": "07526c726e60f2f7cfdf7839ef2212e5502d57d4ab89eddc6b0a25792c627665",
+          "source_text_sha256": "d6b3aabbe901170119995b87a39a267b1f0289965334494299afc598761dc2cc",
+          "reference_key_present": true
+        }
+      }
+    },
+    {
+      "command_index": 307,
+      "source_line": 1349,
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_d46cd5be",
+      "translation_id": "f001_d46cd5be",
+      "menu_key": null,
+      "speaker_code": null,
+      "source_text_ja": "赤茶色で金の装飾がついた立派な本だった。装飾の模様は……歯車だろうか。",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_d46cd5be",
+          "renpy_digest": "d46cd5be",
+          "source_group_sha256": "4e09af6767837694dd20afb07dae4b3ba2e1b7c7eaf6dea09cb3243569ea3831",
+          "source_text_sha256": "d76657519c83af98be98d8fc0e2a7d10ab44f439a59e4f19e71d2ae645507eaf",
+          "reference_key_present": true
+        }
+      }
+    },
+    {
+      "command_index": 308,
+      "source_line": 1356,
+      "stable_id": "scenario.rpa::scenario/001.rpy::menu::001:prompt:01:60728369d6ce7861",
+      "translation_id": null,
+      "menu_key": "001:prompt:01:60728369d6ce7861",
+      "speaker_code": null,
+      "source_text_ja": "こういう本はおばあちゃんが好きそうだが、私の机に持ってきた覚えはない。",
+      "alignment": {
+        "method": "renpy-string-old-key-exact-match",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": null,
+          "renpy_digest": null,
+          "source_group_sha256": "51f8a835b0dc0c25c9fb072b5ad8d86a6d059d9de5c33be67a28af1bea1bc750",
+          "source_text_sha256": "60728369d6ce786145736d0ebe7942ea77bbbf943a5c6d54dac7390323bb96db",
+          "reference_key_present": true
+        }
+      }
+    },
+    {
+      "command_index": 309,
+      "source_line": 1357,
+      "stable_id": "scenario.rpa::scenario/001.rpy::menu::001:choice:02:1ae9c2adab467609",
+      "translation_id": null,
+      "menu_key": "001:choice:02:1ae9c2adab467609",
+      "speaker_code": null,
+      "source_text_ja": "開いてみよう",
+      "alignment": {
+        "method": "renpy-string-old-key-exact-match",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": null,
+          "renpy_digest": null,
+          "source_group_sha256": "e03278a3883659c109474b7104bdc272b216f747f9a7bf0875b06f638ef31e06",
+          "source_text_sha256": "1ae9c2adab467609a0ada9a72f83d27147ab89d49a4e172960dec9f65e2f846f",
+          "reference_key_present": true
+        }
+      }
+    },
+    {
+      "command_index": 310,
+      "source_line": 1364,
+      "stable_id": "scenario.rpa::scenario/001.rpy::menu::001:choice:03:21bbbb7d7d4c99e7",
+      "translation_id": null,
+      "menu_key": "001:choice:03:21bbbb7d7d4c99e7",
+      "speaker_code": null,
+      "source_text_ja": "触らないでおこう",
+      "alignment": {
+        "method": "renpy-string-old-key-exact-match",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": null,
+          "renpy_digest": null,
+          "source_group_sha256": "a022ecba70395b6558f335c9e3e6563ff4584b07aabccee28c043873e8778b79",
+          "source_text_sha256": "21bbbb7d7d4c99e78cf372c1aba853fb6bfab1c4b3d8d001cc524afc96a1a785",
+          "reference_key_present": true
+        }
+      }
+    },
+    {
+      "command_index": 311,
+      "source_line": 1374,
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s1_1_02387991",
+      "translation_id": "f001_s1_1_02387991",
+      "menu_key": null,
+      "speaker_code": null,
+      "source_text_ja": "汚さないように慎重に開いてみることにした。",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s1_1_02387991",
+          "renpy_digest": "02387991",
+          "source_group_sha256": "3e4f449aead038819c6b7638c47d75ecb632888d58385654d3016be233aed9d4",
+          "source_text_sha256": "91824f464a2dfe5f21f5e715b344b0add3d51df37df0e17486b4730da528539f",
+          "reference_key_present": true
+        }
+      }
+    },
+    {
+      "command_index": 312,
+      "source_line": 1379,
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s1_1_639b4ee6",
+      "translation_id": "f001_s1_1_639b4ee6",
+      "menu_key": null,
+      "speaker_code": "rinka",
+      "source_text_ja": "「なに、これ」",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s1_1_639b4ee6",
+          "renpy_digest": "639b4ee6",
+          "source_group_sha256": "8d781881a6aa0f10c00e8412242c8b76a2b3e77865f5db5a74c8ab957ed15090",
+          "source_text_sha256": "eb1cf786e236719f9ca23a09f5aa191925ab52985e03a5955a2389b0c219247d",
+          "reference_key_present": true
+        }
+      }
+    }
+  ],
+  "sequence_351_window": [
+    {
+      "command_index": 345,
+      "source_line": 1561,
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s1_end_95c02f98",
+      "translation_id": "f001_s1_end_95c02f98",
+      "menu_key": null,
+      "speaker_code": "linda_unk1",
+      "source_text_ja": "「――――！　――――！」",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s1_end_95c02f98",
+          "renpy_digest": "95c02f98",
+          "source_group_sha256": "be823b97674460bcab2848cb407e094faa5b6edb98a12080ea5ad91661e8563b",
+          "source_text_sha256": "c75dfa3b2b316dca764d29781cd3c32beb8053e46a15fdc504d459ca109e0b9d",
+          "reference_key_present": true
+        }
+      }
+    },
+    {
+      "command_index": 346,
+      "source_line": 1563,
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s1_end_6933bfaa",
+      "translation_id": "f001_s1_end_6933bfaa",
+      "menu_key": null,
+      "speaker_code": null,
+      "source_text_ja": "何かを叫ぶ声が聞こえた。",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s1_end_6933bfaa",
+          "renpy_digest": "6933bfaa",
+          "source_group_sha256": "973062474e839de81900f515d81c6a11766b3de755e2a0bdb5687007fe88fee6",
+          "source_text_sha256": "b1406a1a46f24dc71385d7cfa7edb215ad823c04634241d3d114875718604ee5",
+          "reference_key_present": true
+        }
+      }
+    },
+    {
+      "command_index": 347,
+      "source_line": 1565,
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s1_end_239968ed",
+      "translation_id": "f001_s1_end_239968ed",
+      "menu_key": null,
+      "speaker_code": null,
+      "source_text_ja": "しきりに何かを叫んでいる。",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s1_end_239968ed",
+          "renpy_digest": "239968ed",
+          "source_group_sha256": "73cdab01cf33f6968a5ceee44a5dbbd1329313bb3ba1a4427132bbac93d3b546",
+          "source_text_sha256": "1f2baf7537aa3e26244be5cee2490da5bd2a50fb9b337306eb1af22a022606e5",
+          "reference_key_present": true
+        }
+      }
+    },
+    {
+      "command_index": 348,
+      "source_line": 1567,
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s1_end_94f1f465",
+      "translation_id": "f001_s1_end_94f1f465",
+      "menu_key": null,
+      "speaker_code": null,
+      "source_text_ja": "炎は広がっていき、叫び声は空気の震える音にかき消される。",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s1_end_94f1f465",
+          "renpy_digest": "94f1f465",
+          "source_group_sha256": "22a90a5e22640450ff53050079a96fb6118c536d035233798a0935c555185b59",
+          "source_text_sha256": "2fcc8c8cb6f8bca1534ffff34cb401c057d4a6c79adf167587887d074b1fe048",
+          "reference_key_present": true
+        }
+      }
+    },
+    {
+      "command_index": 349,
+      "source_line": 1569,
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s1_end_6d6025e2",
+      "translation_id": "f001_s1_end_6d6025e2",
+      "menu_key": null,
+      "speaker_code": null,
+      "source_text_ja": "声が全く聞こえなくなる頃、私の意識も消えていった。",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s1_end_6d6025e2",
+          "renpy_digest": "6d6025e2",
+          "source_group_sha256": "9da52b2da9958d91d74f07ed5457eee5ba60b398996f1e550bf28362f81e1ca8",
+          "source_text_sha256": "7aac44cb9d94d0422908560e5424278056f3d7d565d20de77e4def5405f775ff",
+          "reference_key_present": true
+        }
+      }
+    },
+    {
+      "command_index": 350,
+      "source_line": 1602,
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s1_end_1db4df46",
+      "translation_id": "f001_s1_end_1db4df46",
+      "menu_key": null,
+      "speaker_code": "rinka",
+      "source_text_ja": "「うわあぁっ！」",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s1_end_1db4df46",
+          "renpy_digest": "1db4df46",
+          "source_group_sha256": "0b5834cd8a131c544873378d1609b7046191000ee6c8c66ea0bd6d6772f9797c",
+          "source_text_sha256": "3cd6727f92f4cff4bf18ff7676ced737ec4b3c0d02ab3a6b9eda678e557b6ee3",
+          "reference_key_present": true
+        }
+      }
+    },
+    {
+      "command_index": 351,
+      "source_line": 1604,
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s1_end_4f5fe164",
+      "translation_id": "f001_s1_end_4f5fe164",
+      "menu_key": null,
+      "speaker_code": null,
+      "source_text_ja": "思わず、声を上げていた。",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s1_end_4f5fe164",
+          "renpy_digest": "4f5fe164",
+          "source_group_sha256": "44a123a970ac83e89fab4c6ba5df258d7cbfbfbaef4ebd2387e77ed575d29ee6",
+          "source_text_sha256": "f1933974745934ffd19190d0ea1295ef4534b08e70776688b793fb0a72543a07",
+          "reference_key_present": true
+        }
+      }
+    },
+    {
+      "command_index": 352,
+      "source_line": 1606,
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s1_end_6972cae2",
+      "translation_id": "f001_s1_end_6972cae2",
+      "menu_key": null,
+      "speaker_code": null,
+      "source_text_ja": "怖ろしい夢を見ていたのだ。自分が火事に遭い、そのまま死んでしまう夢だ。",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s1_end_6972cae2",
+          "renpy_digest": "6972cae2",
+          "source_group_sha256": "e323c146b8ff2af31dc1a09fd146f7766cd38d4bebf17dfbf876e25e7537ab5a",
+          "source_text_sha256": "cd2e7382bcfbb20c237b73f68842e8d78178bfb28bad32a6ead434abe7f51b87",
+          "reference_key_present": true
+        }
+      }
+    },
+    {
+      "command_index": 353,
+      "source_line": 1611,
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s1_end_83c28cd0",
+      "translation_id": "f001_s1_end_83c28cd0",
+      "menu_key": null,
+      "speaker_code": "rinka",
+      "source_text_ja": "「はぁっ、はぁっ」",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s1_end_83c28cd0",
+          "renpy_digest": "83c28cd0",
+          "source_group_sha256": "4f8196c1ea552cf898cf554a94d62ad5d4a9e03d68c841de70c03ca6f584159d",
+          "source_text_sha256": "0aff2a1234eb3b34b126f77d45ac5f34f15099e3c0bfb4cfc0d65042140b7a6a",
+          "reference_key_present": true
+        }
+      }
+    },
+    {
+      "command_index": 354,
+      "source_line": 1613,
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s1_end_9bfe1b5d",
+      "translation_id": "f001_s1_end_9bfe1b5d",
+      "menu_key": null,
+      "speaker_code": null,
+      "source_text_ja": "まだ息苦しく、汗もかいていた。",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s1_end_9bfe1b5d",
+          "renpy_digest": "9bfe1b5d",
+          "source_group_sha256": "ebc28c4d28b2adb255718e7a2bc2dc7ec504138dcec1b63834478c94e3db6add",
+          "source_text_sha256": "8de02c674e0a40a4d99a7f673bf2089a48963c58e0f08a0abf99ec720659e2a0",
+          "reference_key_present": true
+        }
+      }
+    },
+    {
+      "command_index": 355,
+      "source_line": 1615,
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s1_end_526b24cc",
+      "translation_id": "f001_s1_end_526b24cc",
+      "menu_key": null,
+      "speaker_code": null,
+      "source_text_ja": "一体どうしてそんな夢を――と疑問に思ったところで、私は自分のお腹に黒い物体が乗っかっているのを見つけた。",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s1_end_526b24cc",
+          "renpy_digest": "526b24cc",
+          "source_group_sha256": "9caafa86ceb43e86a64eeabd89ee212cbc76b1570c73dcbc5ffab43377b3f13d",
+          "source_text_sha256": "d454b12dbfbd2cfbf72aee4bd3534dceb62a88cf03aed96fac75b5d8cca2a58f",
+          "reference_key_present": true
+        }
+      }
+    },
+    {
+      "command_index": 356,
+      "source_line": 1620,
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s1_end_e486451b",
+      "translation_id": "f001_s1_end_e486451b",
+      "menu_key": null,
+      "speaker_code": "rinka",
+      "source_text_ja": "「あんたか……」",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s1_end_e486451b",
+          "renpy_digest": "e486451b",
+          "source_group_sha256": "9bf38e5085838222057763d0f407ffbd6572fea2b774c2cb5c953dde07a92da4",
+          "source_text_sha256": "03f282c4e4a9157ff69d4a854317955a193c53f4a48f6b5239fa27978013f980",
+          "reference_key_present": true
+        }
+      }
+    },
+    {
+      "command_index": 357,
+      "source_line": 1626,
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s1_end_d114a989",
+      "translation_id": "f001_s1_end_d114a989",
+      "menu_key": null,
+      "speaker_code": "lete",
+      "source_text_ja": "「にゃーお」",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s1_end_d114a989",
+          "renpy_digest": "d114a989",
+          "source_group_sha256": "1250f28c2b50a49060581f949f83070335ccede24ee6e475b993490b3fc703d3",
+          "source_text_sha256": "3b9693510fa43f7389ec6ca5f9a1ca6062cfb3cb64dd5ff8cb43764582c1a6d1",
+          "reference_key_present": true
+        }
+      }
+    },
+    {
+      "command_index": 358,
+      "source_line": 1628,
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s1_end_1eb073da",
+      "translation_id": "f001_s1_end_1eb073da",
+      "menu_key": null,
+      "speaker_code": null,
+      "source_text_ja": "猫のレテだ。おばあちゃんが買ってきたのか、もともと野良猫だったのが住み着いたのか分からないが、喫茶ライオン館に住み着いている黒猫だ。",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s1_end_1eb073da",
+          "renpy_digest": "1eb073da",
+          "source_group_sha256": "4f56275eb666d35bf30a0c6066f6ed441a085c35ed7170bd15f35cb49a40bc05",
+          "source_text_sha256": "7f6e83b55b625699ab20c9abd15be584f4b233e403f744333447d435dfe62201",
+          "reference_key_present": true
+        }
+      }
+    },
+    {
+      "command_index": 359,
+      "source_line": 1630,
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s1_end_b2bdf49b",
+      "translation_id": "f001_s1_end_b2bdf49b",
+      "menu_key": null,
+      "speaker_code": null,
+      "source_text_ja": "私が物心ついた時から一緒で、もうかなりの高齢のはずにもかかわらず元気だ。",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s1_end_b2bdf49b",
+          "renpy_digest": "b2bdf49b",
+          "source_group_sha256": "8089d3261f0ade0403733f5c57598c80c7bc2295bc6c447ae4a44d52139df295",
+          "source_text_sha256": "d2591a799d1d7f1dfe2ce4437dbb8ef53d8338b0193f3277d52dd7645b6e4e91",
+          "reference_key_present": true
+        }
+      }
+    },
+    {
+      "command_index": 360,
+      "source_line": 1632,
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s1_end_b5ecb64a",
+      "translation_id": "f001_s1_end_b5ecb64a",
+      "menu_key": null,
+      "speaker_code": null,
+      "source_text_ja": "この猫が布団越しに私のお腹の上に乗っていたせいで、息苦しかったようだ。悪い夢を見たのはそのせいだろう。",
+      "alignment": {
+        "method": "renpy-6.99-ast-code-digest",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": "f001_s1_end_b5ecb64a",
+          "renpy_digest": "b5ecb64a",
+          "source_group_sha256": "1bca662559363d146c1f371b09752b489c78403ac8094e6a796ec5ed1f022f73",
+          "source_text_sha256": "ade69bd8e0aae9a57fb00b3c0e0f42c1b4295e620f5f7141b7f2bd18a3d6dca5",
+          "reference_key_present": true
+        }
+      }
+    }
+  ],
+  "coverage": {
+    "catalog_records": 844,
+    "hash_computed_translation_ids": 835,
+    "computed_ids_missing_official_reference": 0,
+    "official_reference_orphan_ids": [
+      "f001_3304efe9",
+      "f001_612a0fbe",
+      "f001_f743c599",
+      "f001_s2_end_b72d366c",
+      "sentei1_6e418c6d",
+      "sentei1_9a5632ed",
+      "sentei1_9d549eaa",
+      "sentei1_a8c47341",
+      "sentei1_bb37f71d"
+    ],
+    "menu_records": 9,
+    "menu_records_missing_reference": [
+      "scenario.rpa::scenario/001.rpy::menu::003:spoken_prompt:01:2012275126270fff"
+    ]
+  }
+}

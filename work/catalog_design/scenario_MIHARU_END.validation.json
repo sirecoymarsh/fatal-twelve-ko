@@ -1,0 +1,43 @@
+{
+  "schema_version": "fatal-twelve-renpy-catalog-v1",
+  "validated_at_utc": "2026-08-10T09:57:25.374599+00:00",
+  "catalog": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\catalog_design\\scenario_MIHARU_END.catalog.jsonl",
+  "records": 26,
+  "require_translated": false,
+  "source_rebuild_performed": true,
+  "metadata_checked": true,
+  "errors": [],
+  "warnings": [],
+  "passed": true,
+  "meta_checks": {
+    "catalog_hash": {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\catalog_design\\scenario_MIHARU_END.catalog.jsonl",
+      "size": 74462,
+      "sha256": "18462dbb996f7bf58c2e28044e8d1f5118b90e1183f2bbc0e05627d0c6b720a6"
+    },
+    "statistics": {
+      "records": 26,
+      "lanes": {
+        "dialogue": 3,
+        "narration": 23
+      },
+      "voiced_records": 3,
+      "translation_id_records": 26,
+      "menu_key_records": 0,
+      "reference_present": 26,
+      "reference_missing": 0,
+      "speakers": {
+        "<narrator>": 23,
+        "rinka": 3
+      },
+      "labels": {
+        "fMIHARU": 26
+      },
+      "protected_token_kinds": {
+        "number": 1
+      },
+      "japanese_codepoints_in_source_text": 426,
+      "untranslated": 26
+    }
+  }
+}

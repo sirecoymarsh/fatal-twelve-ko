@@ -1,0 +1,15 @@
+1176	L4716	narration	narrator	それは――彼女を救いたいということだった。
+1177	L4718	narration	narrator	実を言うと、方法に心当たりがあった。
+1178	L4720	narration	narrator	女神は言っていた。
+1179	L4722	narration	narrator	ダイアナは自分を見捨てたリンダと母親を恨んではいないと。
+1180	L4724	narration	narrator	人間として、そんなことあり得るのだろうか。
+1181	L4726	narration	narrator	宙に舞う灰の欠片ほども、自分を見捨てた相手に負の感情を抱かないことなど、あり得るのだろうか。
+1182	L4728	narration	narrator	切り離されたのはパルカの方ではなく、ダイアナの方だったのだ。
+1183	L4730	narration	narrator	すくすくと育っていった負の感情。
+1184	L4732	narration	narrator	その原点が、死に際にかすかに生まれた妬みと恨みと憎しみ。
+1185	L4734	narration	narrator	だったら、どうすれば当時の完全な再現にならないかなんて、簡単だ。
+1186	L4738	dialogue	rinka	「大丈夫。大丈夫だよ」
+1187	L4740	narration	narrator	ずっと――一緒にいてあげればいい。
+1188	L4742	narration	narrator	私はうずくまってうめき声を上げ続ける彼女を抱きしめたまま、願った。
+1189	L4746	dialogue	rinka	「どうかもう、この子を救ってあげてください」
+1190	L4748	narration	narrator	――と。

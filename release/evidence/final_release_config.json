@@ -1,0 +1,519 @@
+{
+  "game": {
+    "anchors": [
+      {
+        "accepted": [
+          {
+            "id": "trusted-original",
+            "sha256": "987b9a1d43e46b8665a0cc4c6280459ef3d13c365fba8ba0b55a88e9f03f43bd",
+            "size": 386048
+          }
+        ],
+        "path": "fatal.exe"
+      },
+      {
+        "accepted": [
+          {
+            "id": "trusted-original",
+            "sha256": "ea39387ae13432a79ffe4601af7b50478d063432ce3b7bc4013c92e09f036d22",
+            "size": 5102486
+          }
+        ],
+        "path": "game/scenario.rpa"
+      },
+      {
+        "accepted": [
+          {
+            "id": "trusted-original",
+            "sha256": "a298b88f12c98435b015a647b51f5a35987ea4d714b5bf92e90972f3fcf6b648",
+            "size": 199203732
+          }
+        ],
+        "path": "game/system.rpa"
+      },
+      {
+        "accepted": [
+          {
+            "id": "trusted-original",
+            "sha256": "ad628d5aa7b0601e69fa99c13d6f67c21854ae0a290599dc478a986cfc53ac5f",
+            "size": 78290069
+          }
+        ],
+        "path": "game/tl.rpa"
+      },
+      {
+        "accepted": [
+          {
+            "id": "trusted-original",
+            "sha256": "5ba31f69d3646990d42e7044d97bf4cfb07bc105619b4f220fdcf1ad374d1d2f",
+            "size": 924
+          }
+        ],
+        "path": "game/localize.rpyc"
+      }
+    ],
+    "display_name": "Fatal Twelve",
+    "process_executable_relative_path": "fatal.exe"
+  },
+  "patch_id": "fatal-twelve-ko",
+  "payload_allowlist": [
+    {
+      "path": "game/f12_korean_bootstrap.rpyc",
+      "pre_states": [
+        {
+          "id": "absent",
+          "kind": "absent"
+        }
+      ],
+      "role": "compiled Korean localization"
+    },
+    {
+      "path": "game/tl/korean/f12_slot.rpyc",
+      "pre_states": [
+        {
+          "id": "absent",
+          "kind": "absent"
+        }
+      ],
+      "role": "compiled Korean localization"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_001.rpyc",
+      "pre_states": [
+        {
+          "id": "absent",
+          "kind": "absent"
+        }
+      ],
+      "role": "compiled Korean localization"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_002.rpyc",
+      "pre_states": [
+        {
+          "id": "absent",
+          "kind": "absent"
+        }
+      ],
+      "role": "compiled Korean localization"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_003.rpyc",
+      "pre_states": [
+        {
+          "id": "absent",
+          "kind": "absent"
+        }
+      ],
+      "role": "compiled Korean localization"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_004.rpyc",
+      "pre_states": [
+        {
+          "id": "absent",
+          "kind": "absent"
+        }
+      ],
+      "role": "compiled Korean localization"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_005_1.rpyc",
+      "pre_states": [
+        {
+          "id": "absent",
+          "kind": "absent"
+        }
+      ],
+      "role": "compiled Korean localization"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_005_2.rpyc",
+      "pre_states": [
+        {
+          "id": "absent",
+          "kind": "absent"
+        }
+      ],
+      "role": "compiled Korean localization"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_006.rpyc",
+      "pre_states": [
+        {
+          "id": "absent",
+          "kind": "absent"
+        }
+      ],
+      "role": "compiled Korean localization"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_007_1.rpyc",
+      "pre_states": [
+        {
+          "id": "absent",
+          "kind": "absent"
+        }
+      ],
+      "role": "compiled Korean localization"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_007_2.rpyc",
+      "pre_states": [
+        {
+          "id": "absent",
+          "kind": "absent"
+        }
+      ],
+      "role": "compiled Korean localization"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_008.rpyc",
+      "pre_states": [
+        {
+          "id": "absent",
+          "kind": "absent"
+        }
+      ],
+      "role": "compiled Korean localization"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_009.rpyc",
+      "pre_states": [
+        {
+          "id": "absent",
+          "kind": "absent"
+        }
+      ],
+      "role": "compiled Korean localization"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_010.rpyc",
+      "pre_states": [
+        {
+          "id": "absent",
+          "kind": "absent"
+        }
+      ],
+      "role": "compiled Korean localization"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_011_01.rpyc",
+      "pre_states": [
+        {
+          "id": "absent",
+          "kind": "absent"
+        }
+      ],
+      "role": "compiled Korean localization"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_011_01F.rpyc",
+      "pre_states": [
+        {
+          "id": "absent",
+          "kind": "absent"
+        }
+      ],
+      "role": "compiled Korean localization"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_011_01G.rpyc",
+      "pre_states": [
+        {
+          "id": "absent",
+          "kind": "absent"
+        }
+      ],
+      "role": "compiled Korean localization"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_011_01H.rpyc",
+      "pre_states": [
+        {
+          "id": "absent",
+          "kind": "absent"
+        }
+      ],
+      "role": "compiled Korean localization"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_011_02.rpyc",
+      "pre_states": [
+        {
+          "id": "absent",
+          "kind": "absent"
+        }
+      ],
+      "role": "compiled Korean localization"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_011_02GH.rpyc",
+      "pre_states": [
+        {
+          "id": "absent",
+          "kind": "absent"
+        }
+      ],
+      "role": "compiled Korean localization"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_012_01F.rpyc",
+      "pre_states": [
+        {
+          "id": "absent",
+          "kind": "absent"
+        }
+      ],
+      "role": "compiled Korean localization"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_012_01GH.rpyc",
+      "pre_states": [
+        {
+          "id": "absent",
+          "kind": "absent"
+        }
+      ],
+      "role": "compiled Korean localization"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_012_02.rpyc",
+      "pre_states": [
+        {
+          "id": "absent",
+          "kind": "absent"
+        }
+      ],
+      "role": "compiled Korean localization"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_BAD_END_01.rpyc",
+      "pre_states": [
+        {
+          "id": "absent",
+          "kind": "absent"
+        }
+      ],
+      "role": "compiled Korean localization"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_BAD_END_02.rpyc",
+      "pre_states": [
+        {
+          "id": "absent",
+          "kind": "absent"
+        }
+      ],
+      "role": "compiled Korean localization"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_BAD_END_03.rpyc",
+      "pre_states": [
+        {
+          "id": "absent",
+          "kind": "absent"
+        }
+      ],
+      "role": "compiled Korean localization"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_BAD_END_04.rpyc",
+      "pre_states": [
+        {
+          "id": "absent",
+          "kind": "absent"
+        }
+      ],
+      "role": "compiled Korean localization"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_MIHARU_END.rpyc",
+      "pre_states": [
+        {
+          "id": "absent",
+          "kind": "absent"
+        }
+      ],
+      "role": "compiled Korean localization"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_NG_plus.rpyc",
+      "pre_states": [
+        {
+          "id": "absent",
+          "kind": "absent"
+        }
+      ],
+      "role": "compiled Korean localization"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_TRUE_END.rpyc",
+      "pre_states": [
+        {
+          "id": "absent",
+          "kind": "absent"
+        }
+      ],
+      "role": "compiled Korean localization"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_UNHAPPY_END.rpyc",
+      "pre_states": [
+        {
+          "id": "absent",
+          "kind": "absent"
+        }
+      ],
+      "role": "compiled Korean localization"
+    },
+    {
+      "path": "game/tl/korean/strings/scenario_strings.rpyc",
+      "pre_states": [
+        {
+          "id": "absent",
+          "kind": "absent"
+        }
+      ],
+      "role": "compiled Korean localization"
+    }
+  ],
+  "release_root_name": "FatalTwelve_KoreanPatch_1.0.0",
+  "release_version": "1.0.0",
+  "supported_prestate_profiles": [
+    {
+      "description": "Every additive Korean .rpyc target is absent in the trusted original game.",
+      "id": "trusted-pristine",
+      "states": [
+        {
+          "path": "game/f12_korean_bootstrap.rpyc",
+          "state_id": "absent"
+        },
+        {
+          "path": "game/tl/korean/f12_slot.rpyc",
+          "state_id": "absent"
+        },
+        {
+          "path": "game/tl/korean/scenario/scenario_001.rpyc",
+          "state_id": "absent"
+        },
+        {
+          "path": "game/tl/korean/scenario/scenario_002.rpyc",
+          "state_id": "absent"
+        },
+        {
+          "path": "game/tl/korean/scenario/scenario_003.rpyc",
+          "state_id": "absent"
+        },
+        {
+          "path": "game/tl/korean/scenario/scenario_004.rpyc",
+          "state_id": "absent"
+        },
+        {
+          "path": "game/tl/korean/scenario/scenario_005_1.rpyc",
+          "state_id": "absent"
+        },
+        {
+          "path": "game/tl/korean/scenario/scenario_005_2.rpyc",
+          "state_id": "absent"
+        },
+        {
+          "path": "game/tl/korean/scenario/scenario_006.rpyc",
+          "state_id": "absent"
+        },
+        {
+          "path": "game/tl/korean/scenario/scenario_007_1.rpyc",
+          "state_id": "absent"
+        },
+        {
+          "path": "game/tl/korean/scenario/scenario_007_2.rpyc",
+          "state_id": "absent"
+        },
+        {
+          "path": "game/tl/korean/scenario/scenario_008.rpyc",
+          "state_id": "absent"
+        },
+        {
+          "path": "game/tl/korean/scenario/scenario_009.rpyc",
+          "state_id": "absent"
+        },
+        {
+          "path": "game/tl/korean/scenario/scenario_010.rpyc",
+          "state_id": "absent"
+        },
+        {
+          "path": "game/tl/korean/scenario/scenario_011_01.rpyc",
+          "state_id": "absent"
+        },
+        {
+          "path": "game/tl/korean/scenario/scenario_011_01F.rpyc",
+          "state_id": "absent"
+        },
+        {
+          "path": "game/tl/korean/scenario/scenario_011_01G.rpyc",
+          "state_id": "absent"
+        },
+        {
+          "path": "game/tl/korean/scenario/scenario_011_01H.rpyc",
+          "state_id": "absent"
+        },
+        {
+          "path": "game/tl/korean/scenario/scenario_011_02.rpyc",
+          "state_id": "absent"
+        },
+        {
+          "path": "game/tl/korean/scenario/scenario_011_02GH.rpyc",
+          "state_id": "absent"
+        },
+        {
+          "path": "game/tl/korean/scenario/scenario_012_01F.rpyc",
+          "state_id": "absent"
+        },
+        {
+          "path": "game/tl/korean/scenario/scenario_012_01GH.rpyc",
+          "state_id": "absent"
+        },
+        {
+          "path": "game/tl/korean/scenario/scenario_012_02.rpyc",
+          "state_id": "absent"
+        },
+        {
+          "path": "game/tl/korean/scenario/scenario_BAD_END_01.rpyc",
+          "state_id": "absent"
+        },
+        {
+          "path": "game/tl/korean/scenario/scenario_BAD_END_02.rpyc",
+          "state_id": "absent"
+        },
+        {
+          "path": "game/tl/korean/scenario/scenario_BAD_END_03.rpyc",
+          "state_id": "absent"
+        },
+        {
+          "path": "game/tl/korean/scenario/scenario_BAD_END_04.rpyc",
+          "state_id": "absent"
+        },
+        {
+          "path": "game/tl/korean/scenario/scenario_MIHARU_END.rpyc",
+          "state_id": "absent"
+        },
+        {
+          "path": "game/tl/korean/scenario/scenario_NG_plus.rpyc",
+          "state_id": "absent"
+        },
+        {
+          "path": "game/tl/korean/scenario/scenario_TRUE_END.rpyc",
+          "state_id": "absent"
+        },
+        {
+          "path": "game/tl/korean/scenario/scenario_UNHAPPY_END.rpyc",
+          "state_id": "absent"
+        },
+        {
+          "path": "game/tl/korean/strings/scenario_strings.rpyc",
+          "state_id": "absent"
+        }
+      ]
+    }
+  ]
+}

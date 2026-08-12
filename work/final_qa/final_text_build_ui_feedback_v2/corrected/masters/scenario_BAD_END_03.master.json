@@ -1,0 +1,1138 @@
+{
+  "schema_version": "fatal-twelve-master-draft-v1",
+  "script_key": "BAD_END_03",
+  "source_file": "scenario/BAD_END_03.rpy",
+  "catalog": {
+    "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_BAD_END_03.catalog.jsonl",
+    "sha256": "39295dfc437439ce00926f1583a6c773d0f917d709b118c7f301fa3bbd7d4e7c",
+    "records": 21
+  },
+  "translation_text_policy": "immutable; copied verbatim from explicitly listed packets",
+  "catalog_metadata_policy": "authoritative",
+  "validation_scope": "structural only; no translation review or correction",
+  "source_authority": "Japanese only",
+  "english_reference_used": false,
+  "external_translation_api_used": false,
+  "structural_pass": true,
+  "coverage_complete": true,
+  "complete": true,
+  "coverage": {
+    "catalog_records": 21,
+    "packet_occurrences": 21,
+    "selected_unique_records": 21,
+    "duplicate_extra_occurrences": 0,
+    "missing_records": 0,
+    "missing_sequences": [],
+    "missing_stable_ids": [],
+    "pending_explained_missing_records": 0,
+    "unexplained_missing_records": 0,
+    "translation_ids": 21,
+    "menu_keys": 0,
+    "hard_token_failed_records": 0
+  },
+  "ready_packets": [
+    {
+      "packet_id": "BAD_END_03_full",
+      "manifest_status": "ready",
+      "effective_status": "ready",
+      "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_03_aligned.json",
+      "sha256": "7f6df9542796e31895ba422a55f0b2638ce2557afbeab69cddfe80061a0f6060",
+      "schema": "fatal-twelve-aligned-draft-v1:entries",
+      "occurrences": 21,
+      "expected_occurrences": 21
+    }
+  ],
+  "pending_packets": [],
+  "resolved_conflict_stable_ids": [],
+  "entries": [
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_a0b11b5d",
+      "sequence": 1,
+      "command_index": 1,
+      "source_file": "scenario/BAD_END_03.rpy",
+      "source_line": 28,
+      "source_label": "fBAD_03",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "誰もいなくなったその場所で、女神パルカは微笑んでいた。",
+      "source_text_sha256": "fa486ed2a91931f69e37052ea63441424760a69e96908d38c9311f78ec8dde13",
+      "source_group_sha256": "f600b2e39cd8f2019e8f945a91e2d56f2af96d6ffb0d4f45891c27888b1eafcb",
+      "source_statement_code": "\"誰もいなくなったその場所で、女神パルカは微笑んでいた。\"",
+      "source_group_code": [
+        "\"誰もいなくなったその場所で、女神パルカは微笑んでいた。\""
+      ],
+      "translation_id": "fBAD_03_a0b11b5d",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "아무도 남지 않은 그곳에서, 여신 파르카는 미소 짓고 있었다.",
+      "draft_ko_sha256": "8c236b8577ed0b4bab2317c8d3dba59aa3ca1ccf24e221630d3764bdc5403361",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_03_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_03_aligned.json",
+        "packet_sha256": "7f6df9542796e31895ba422a55f0b2638ce2557afbeab69cddfe80061a0f6060",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 0,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_3afefde5",
+      "sequence": 2,
+      "command_index": 2,
+      "source_file": "scenario/BAD_END_03.rpy",
+      "source_line": 33,
+      "source_label": "fBAD_03",
+      "lane": "dialogue",
+      "speaker": "parca",
+      "source_jp": "「意外な結末――というべきなのでしょうか」",
+      "source_text_sha256": "0296c01c6c8b275c9b94004aeb509314e1c846cf9f9063baf858128cac273fc2",
+      "source_group_sha256": "239f182f16dda1ec1dbe68cb13d0681df19239b6a3a40b64eda010c53eae50d1",
+      "source_statement_code": "parca \"「意外な結末――というべきなのでしょうか」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"dia\", 516)",
+        "parca \"「意外な結末――というべきなのでしょうか」\""
+      ],
+      "translation_id": "fBAD_03_3afefde5",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"dia\", 516)",
+        "line": 32,
+        "function": "get_voice_filename",
+        "tag": "dia",
+        "start_count": 516,
+        "resolution": {
+          "mode": "explicit_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": "sounds/voice/dia_00516.ogg"
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「뜻밖의 결말――이라고 해야 할까요」",
+      "draft_ko_sha256": "1d1f33f7689e5db90138ad3294de7e13a89cf750a8bb2962b603a79fc4458136",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_03_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_03_aligned.json",
+        "packet_sha256": "7f6df9542796e31895ba422a55f0b2638ce2557afbeab69cddfe80061a0f6060",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 1,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_91dcd28e",
+      "sequence": 3,
+      "command_index": 3,
+      "source_file": "scenario/BAD_END_03.rpy",
+      "source_line": 38,
+      "source_label": "fBAD_03",
+      "lane": "dialogue",
+      "speaker": "parca",
+      "source_jp": "「Ⅰ番サマはもう少し長く、生きてくださると思っていましたのに。だって――」",
+      "source_text_sha256": "6c4a8377916582c71d443507bbc4df73a47a7d9f6db622b7fef76c82814ecc33",
+      "source_group_sha256": "25c7851b431b3103796d8da6f01a41f280afe4dfb3e6e4cef9fefaee09cfc897",
+      "source_statement_code": "parca \"「Ⅰ番サマはもう少し長く、生きてくださると思っていましたのに。だって――」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"dia\")",
+        "parca \"「Ⅰ番サマはもう少し長く、生きてくださると思っていましたのに。だって――」\""
+      ],
+      "translation_id": "fBAD_03_91dcd28e",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"dia\")",
+        "line": 37,
+        "function": "get_voice_filename",
+        "tag": "dia",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [
+        {
+          "kind": "number",
+          "value": "Ⅰ",
+          "start": 1,
+          "end": 2,
+          "severity": "hard"
+        }
+      ],
+      "draft_ko": "「Ⅰ번 님께서는 조금 더 오래 살아 주실 줄 알았는데요. 왜냐하면――」",
+      "draft_ko_sha256": "de3337158325912e42350477ab9ab9463ac4eb38ac73aa617d207563cc711b68",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_03_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_03_aligned.json",
+        "packet_sha256": "7f6df9542796e31895ba422a55f0b2638ce2557afbeab69cddfe80061a0f6060",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 2,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_ea189acf",
+      "sequence": 4,
+      "command_index": 4,
+      "source_file": "scenario/BAD_END_03.rpy",
+      "source_line": 43,
+      "source_label": "fBAD_03",
+      "lane": "dialogue",
+      "speaker": "parca",
+      "source_jp": "「おや、誰が聞いているか分かりませんものね。これ以上はこの場所でも、お話ししない方がよろしいでしょうかしら」",
+      "source_text_sha256": "4253e6ea92ffd6103943c9ac3326323ada14da2abc6c1275cdedff1e2b773df8",
+      "source_group_sha256": "e4fe2ffd81ef69216148119bf818fc333c5957f4c6f9dac2df99173742441c2d",
+      "source_statement_code": "parca \"「おや、誰が聞いているか分かりませんものね。これ以上はこの場所でも、お話ししない方がよろしいでしょうかしら」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"dia\")",
+        "parca \"「おや、誰が聞いているか分かりませんものね。これ以上はこの場所でも、お話ししない方がよろしいでしょうかしら」\""
+      ],
+      "translation_id": "fBAD_03_ea189acf",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"dia\")",
+        "line": 42,
+        "function": "get_voice_filename",
+        "tag": "dia",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「이런, 누가 듣고 있을지 모르겠군요. 더 이상은 이곳에서도 이야기하지 않는 편이 좋으려나요」",
+      "draft_ko_sha256": "7a17c86cf7a63ceee12a9014cfaa9b80c4b8f9a179d3b3321151600123f12792",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_03_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_03_aligned.json",
+        "packet_sha256": "7f6df9542796e31895ba422a55f0b2638ce2557afbeab69cddfe80061a0f6060",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 3,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_889eb861",
+      "sequence": 5,
+      "command_index": 5,
+      "source_file": "scenario/BAD_END_03.rpy",
+      "source_line": 45,
+      "source_label": "fBAD_03",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "スケール・ジョーンズは獅子舞凛火を指名した。",
+      "source_text_sha256": "2715803f50fa1f5c6b0eca3a14fff8040f5e75f6c4a78f01f591ba4329cc54fd",
+      "source_group_sha256": "302fb797546a45d4da705db06c5582f2d166704ac7cd602ad4499c5cdb404eab",
+      "source_statement_code": "\"スケール・ジョーンズは獅子舞凛火を指名した。\"",
+      "source_group_code": [
+        "\"スケール・ジョーンズは獅子舞凛火を指名した。\""
+      ],
+      "translation_id": "fBAD_03_889eb861",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "스케일 존스는 시시마이 린카를 지명했다.",
+      "draft_ko_sha256": "5c40ea98abec8a972db65d1b621db6372b9ea36306bce0f3414d13e5ffc01553",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_03_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_03_aligned.json",
+        "packet_sha256": "7f6df9542796e31895ba422a55f0b2638ce2557afbeab69cddfe80061a0f6060",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 4,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_5a919bbd",
+      "sequence": 6,
+      "command_index": 6,
+      "source_file": "scenario/BAD_END_03.rpy",
+      "source_line": 47,
+      "source_label": "fBAD_03",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "同時に、アラン・スコーピオンはスケール・ジョーンズを指名した。",
+      "source_text_sha256": "756d53625880a951a686f8488bc055918c9922572066e0bf7d19d606b675f26a",
+      "source_group_sha256": "5af720c3a04b32ac2f75d64710db025176f2d949efef097db3a074ac4f29a9cd",
+      "source_statement_code": "\"同時に、アラン・スコーピオンはスケール・ジョーンズを指名した。\"",
+      "source_group_code": [
+        "\"同時に、アラン・スコーピオンはスケール・ジョーンズを指名した。\""
+      ],
+      "translation_id": "fBAD_03_5a919bbd",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "동시에 아란 스코피온은 스케일 존스를 지명했다.",
+      "draft_ko_sha256": "37f1c6d9ca0ce420b8a34b6877cb6e29d0043eb921281bf480b90df5252d528b",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_03_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_03_aligned.json",
+        "packet_sha256": "7f6df9542796e31895ba422a55f0b2638ce2557afbeab69cddfe80061a0f6060",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 5,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_c78962a8",
+      "sequence": 7,
+      "command_index": 7,
+      "source_file": "scenario/BAD_END_03.rpy",
+      "source_line": 49,
+      "source_label": "fBAD_03",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "その時点で、獅子舞凛火は人質にとられていた祖母が助からないのだと直感した。",
+      "source_text_sha256": "a03db707acd680a9a36a984b89391f2ef283ac5f27f4d35fa1fbf180716fce0e",
+      "source_group_sha256": "674d83a04953bab5551874d919e6127e38621acd79b39d88b190e2443d8b4406",
+      "source_statement_code": "\"その時点で、獅子舞凛火は人質にとられていた祖母が助からないのだと直感した。\"",
+      "source_group_code": [
+        "\"その時点で、獅子舞凛火は人質にとられていた祖母が助からないのだと直感した。\""
+      ],
+      "translation_id": "fBAD_03_c78962a8",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "그 시점에서 시시마이 린카는 인질로 붙잡힌 할머니가 살아남지 못하리라고 직감했다.",
+      "draft_ko_sha256": "2bf44a6d1dbe7610953034b9b2fb3fbab1a456efa7c1e919d1f9df9cee4a4a90",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_03_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_03_aligned.json",
+        "packet_sha256": "7f6df9542796e31895ba422a55f0b2638ce2557afbeab69cddfe80061a0f6060",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 6,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_6773414b",
+      "sequence": 8,
+      "command_index": 8,
+      "source_file": "scenario/BAD_END_03.rpy",
+      "source_line": 54,
+      "source_label": "fBAD_03",
+      "lane": "dialogue",
+      "speaker": "parca",
+      "source_jp": "「けれどⅠ番サマのあのお顔は、とても印象的でございました」",
+      "source_text_sha256": "6a9ff333fa4f330c06443dc396e0d45bcd248930aaecbed39914ea96b851cea6",
+      "source_group_sha256": "938cfb018fabb0d8c2d1132cfc26a4a5133373251192cdd649f4793ba7a25611",
+      "source_statement_code": "parca \"「けれどⅠ番サマのあのお顔は、とても印象的でございました」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"dia\")",
+        "parca \"「けれどⅠ番サマのあのお顔は、とても印象的でございました」\""
+      ],
+      "translation_id": "fBAD_03_6773414b",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"dia\")",
+        "line": 53,
+        "function": "get_voice_filename",
+        "tag": "dia",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [
+        {
+          "kind": "number",
+          "value": "Ⅰ",
+          "start": 4,
+          "end": 5,
+          "severity": "hard"
+        }
+      ],
+      "draft_ko": "「하지만 Ⅰ번 님의 그 표정은 아주 인상적이었답니다」",
+      "draft_ko_sha256": "56586b909a264641557bbef532331510df2260634d4290107acdc4063a9466d1",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_03_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_03_aligned.json",
+        "packet_sha256": "7f6df9542796e31895ba422a55f0b2638ce2557afbeab69cddfe80061a0f6060",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 7,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_39940ccf",
+      "sequence": 9,
+      "command_index": 9,
+      "source_file": "scenario/BAD_END_03.rpy",
+      "source_line": 56,
+      "source_label": "fBAD_03",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "祖母の死と自分の死を確信した瞬間の、絶望という言葉では表現しきれない表情。",
+      "source_text_sha256": "0d79b1eee3b8caa63fa825fe3a5513962332b4ebed86ed8ab168df539954fd40",
+      "source_group_sha256": "5f86ba4f55260bb6c72b1d4ebac117440025b073117d4bf37545f438cddc7036",
+      "source_statement_code": "\"祖母の死と自分の死を確信した瞬間の、絶望という言葉では表現しきれない表情。\"",
+      "source_group_code": [
+        "\"祖母の死と自分の死を確信した瞬間の、絶望という言葉では表現しきれない表情。\""
+      ],
+      "translation_id": "fBAD_03_39940ccf",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "할머니의 죽음과 자신의 죽음을 확신한 순간 지은, 절망이라는 말만으로는 다 표현할 수 없는 표정.",
+      "draft_ko_sha256": "f579a174bdd4b948a899def1a15fbecb9a64af72d4baaac246b6a6b12c32d0a6",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_03_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_03_aligned.json",
+        "packet_sha256": "7f6df9542796e31895ba422a55f0b2638ce2557afbeab69cddfe80061a0f6060",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 8,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_ce567a10",
+      "sequence": 10,
+      "command_index": 10,
+      "source_file": "scenario/BAD_END_03.rpy",
+      "source_line": 58,
+      "source_label": "fBAD_03",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "パルカはその顔を見て、一体どんな気持ちを湧き立たせていたのか。",
+      "source_text_sha256": "daccba9324862f000fe7af52d96f65b1efc3e796d14559e7be7c0277f24aafa2",
+      "source_group_sha256": "c01fc21df3e4c9f9ae11af8cb5b1e821f1e089eff0970bf3a1b023c4106f698a",
+      "source_statement_code": "\"パルカはその顔を見て、一体どんな気持ちを湧き立たせていたのか。\"",
+      "source_group_code": [
+        "\"パルカはその顔を見て、一体どんな気持ちを湧き立たせていたのか。\""
+      ],
+      "translation_id": "fBAD_03_ce567a10",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "파르카는 그 얼굴을 보며 대체 어떤 감정이 치밀어 올랐던 걸까.",
+      "draft_ko_sha256": "5c96a8307aaa82140d69a651edaf794bc2609c11d4d451d8ee972a143436fb12",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_03_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_03_aligned.json",
+        "packet_sha256": "7f6df9542796e31895ba422a55f0b2638ce2557afbeab69cddfe80061a0f6060",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 9,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_f45547c8",
+      "sequence": 11,
+      "command_index": 11,
+      "source_file": "scenario/BAD_END_03.rpy",
+      "source_line": 60,
+      "source_label": "fBAD_03",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "きっとパルカですら、その気持ちの正体を知ることはない。",
+      "source_text_sha256": "c6125a56d09f45ed790f970e68fbe090c41a09437adb51b05cff8df8123418ea",
+      "source_group_sha256": "def1d756ac65d7b03ec2b27ec6f0dbc4fe250f2001a6994474df7d953fd3fb14",
+      "source_statement_code": "\"きっとパルカですら、その気持ちの正体を知ることはない。\"",
+      "source_group_code": [
+        "\"きっとパルカですら、その気持ちの正体を知ることはない。\""
+      ],
+      "translation_id": "fBAD_03_f45547c8",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "아마 파르카 자신조차 그 감정의 정체를 알지 못하리라.",
+      "draft_ko_sha256": "482d170b3528654d42c9794626f3624ef56ef1303e51ca75f9d60af84f48cf04",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_03_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_03_aligned.json",
+        "packet_sha256": "7f6df9542796e31895ba422a55f0b2638ce2557afbeab69cddfe80061a0f6060",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 10,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_aae37439",
+      "sequence": 12,
+      "command_index": 12,
+      "source_file": "scenario/BAD_END_03.rpy",
+      "source_line": 65,
+      "source_label": "fBAD_03",
+      "lane": "dialogue",
+      "speaker": "parca",
+      "source_jp": "「さて、残る参加者はⅡ番サマ、Ⅲ番サマ、Ⅻ番サマ」",
+      "source_text_sha256": "1298c3923062c8588a4fe0372c6cbb52f456886d459b35e8bfdeffcb7ec47f39",
+      "source_group_sha256": "55bf564edeacb11b55d533a43128f1578a3a57226704710e0c826812fd2aea8b",
+      "source_statement_code": "parca \"「さて、残る参加者はⅡ番サマ、Ⅲ番サマ、Ⅻ番サマ」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"dia\")",
+        "parca \"「さて、残る参加者はⅡ番サマ、Ⅲ番サマ、Ⅻ番サマ」\""
+      ],
+      "translation_id": "fBAD_03_aae37439",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"dia\")",
+        "line": 64,
+        "function": "get_voice_filename",
+        "tag": "dia",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [
+        {
+          "kind": "number",
+          "value": "Ⅱ",
+          "start": 10,
+          "end": 11,
+          "severity": "hard"
+        },
+        {
+          "kind": "number",
+          "value": "Ⅲ",
+          "start": 15,
+          "end": 16,
+          "severity": "hard"
+        },
+        {
+          "kind": "number",
+          "value": "Ⅻ",
+          "start": 20,
+          "end": 21,
+          "severity": "hard"
+        }
+      ],
+      "draft_ko": "「자, 남은 참가자는 Ⅱ번 님, Ⅲ번 님, Ⅻ번 님」",
+      "draft_ko_sha256": "58e66025688f34da64e85376d4d02c7ee3b8144c4974698a132aad80ab0ccf68",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_03_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_03_aligned.json",
+        "packet_sha256": "7f6df9542796e31895ba422a55f0b2638ce2557afbeab69cddfe80061a0f6060",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 11,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_8e7d8238",
+      "sequence": 13,
+      "command_index": 13,
+      "source_file": "scenario/BAD_END_03.rpy",
+      "source_line": 67,
+      "source_label": "fBAD_03",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "彼女は微笑みながら、淡々と残った参加者を挙げる。",
+      "source_text_sha256": "f72af9e579c45d56ca0722ae589f010a976e17323f5845d8b9bebab1cb6c2e7e",
+      "source_group_sha256": "63093119bc0601905f98ccbff24592b24c614a41f59283758fb7188eee306996",
+      "source_statement_code": "\"彼女は微笑みながら、淡々と残った参加者を挙げる。\"",
+      "source_group_code": [
+        "\"彼女は微笑みながら、淡々と残った参加者を挙げる。\""
+      ],
+      "translation_id": "fBAD_03_8e7d8238",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "그녀는 미소 지은 채 담담하게 남은 참가자들을 열거한다.",
+      "draft_ko_sha256": "bceb059bfc3d676d1b46baf64b2453ee49d3486de1f8e1c19b110bb53c1c0ac3",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_03_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_03_aligned.json",
+        "packet_sha256": "7f6df9542796e31895ba422a55f0b2638ce2557afbeab69cddfe80061a0f6060",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 12,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_3c671e6b",
+      "sequence": 14,
+      "command_index": 14,
+      "source_file": "scenario/BAD_END_03.rpy",
+      "source_line": 72,
+      "source_label": "fBAD_03",
+      "lane": "dialogue",
+      "speaker": "parca",
+      "source_jp": "「一体どなたが脱落し、どなたが生き残るのでしょうか」",
+      "source_text_sha256": "763ba6894ca3f2dd75688d930675ddc2cb1e591838180e9d89b0ee8d9e7fbe61",
+      "source_group_sha256": "fa52b22fd77a47fca477b52d24c2bd02bd0291c1ceaf4cf3ae094578686e9d82",
+      "source_statement_code": "parca \"「一体どなたが脱落し、どなたが生き残るのでしょうか」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"dia\")",
+        "parca \"「一体どなたが脱落し、どなたが生き残るのでしょうか」\""
+      ],
+      "translation_id": "fBAD_03_3c671e6b",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"dia\")",
+        "line": 71,
+        "function": "get_voice_filename",
+        "tag": "dia",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「과연 어느 분이 탈락하고, 어느 분이 살아남으실까요」",
+      "draft_ko_sha256": "473b87957afa8911bd751402a74e90fd8ad638717b4f63849243f55ccc9cb934",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_03_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_03_aligned.json",
+        "packet_sha256": "7f6df9542796e31895ba422a55f0b2638ce2557afbeab69cddfe80061a0f6060",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 13,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_c26b058c",
+      "sequence": 15,
+      "command_index": 15,
+      "source_file": "scenario/BAD_END_03.rpy",
+      "source_line": 77,
+      "source_label": "fBAD_03",
+      "lane": "dialogue",
+      "speaker": "parca",
+      "source_jp": "「どなたがワタクシの器になるのか、未だ予想がつきません」",
+      "source_text_sha256": "216eda65c8c13dbb612af7f10b9ff5ff9f6a8a9835038450e65a9f62537ea122",
+      "source_group_sha256": "9e4ab286433c25112dabdad1b0077c758c35afea3f10f50f190307dfe5439022",
+      "source_statement_code": "parca \"「どなたがワタクシの器になるのか、未だ予想がつきません」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"dia\")",
+        "parca \"「どなたがワタクシの器になるのか、未だ予想がつきません」\""
+      ],
+      "translation_id": "fBAD_03_c26b058c",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"dia\")",
+        "line": 76,
+        "function": "get_voice_filename",
+        "tag": "dia",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「어느 분이 저의 그릇이 될지, 아직은 예상할 수 없답니다」",
+      "draft_ko_sha256": "39436194ee55342b4e0ea611f61d5e8c4cce36837a949b5d8fe07c5c1e971940",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_03_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_03_aligned.json",
+        "packet_sha256": "7f6df9542796e31895ba422a55f0b2638ce2557afbeab69cddfe80061a0f6060",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 14,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_c842d147",
+      "sequence": 16,
+      "command_index": 16,
+      "source_file": "scenario/BAD_END_03.rpy",
+      "source_line": 82,
+      "source_label": "fBAD_03",
+      "lane": "dialogue",
+      "speaker": "parca",
+      "source_jp": "「こうなってしまえば、もはやどなたサマでも同じですけれども」",
+      "source_text_sha256": "26365161c963c4d9b0fa33e5ca133f47d23c66f897d36be1e465067c470714dd",
+      "source_group_sha256": "708bfca220e74a0d871831abdedb07b3432602621d7e6472cc085bcfc28407b9",
+      "source_statement_code": "parca \"「こうなってしまえば、もはやどなたサマでも同じですけれども」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"dia\")",
+        "parca \"「こうなってしまえば、もはやどなたサマでも同じですけれども」\""
+      ],
+      "translation_id": "fBAD_03_c842d147",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"dia\")",
+        "line": 81,
+        "function": "get_voice_filename",
+        "tag": "dia",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「이렇게 되어 버렸으니, 이제 어느 분이든 마찬가지이긴 하지만요」",
+      "draft_ko_sha256": "72d876d5d7bb35635f88aa4fddb458fef48999a28e3b5f55ce0ae83e3a307a5c",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_03_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_03_aligned.json",
+        "packet_sha256": "7f6df9542796e31895ba422a55f0b2638ce2557afbeab69cddfe80061a0f6060",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 15,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_288206d4",
+      "sequence": 17,
+      "command_index": 17,
+      "source_file": "scenario/BAD_END_03.rpy",
+      "source_line": 87,
+      "source_label": "fBAD_03",
+      "lane": "dialogue",
+      "speaker": "parca",
+      "source_jp": "「……あら？」",
+      "source_text_sha256": "8462eb3c7c5c4ca9c5d63ebe3da03fe4b0c53b8102224c4486b81a656d87f234",
+      "source_group_sha256": "1a4eb48bf0aa0c346da2cea530a7e954134826f0c27f3c670a578d1a165c6098",
+      "source_statement_code": "parca \"「……あら？」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"dia\")",
+        "parca \"「……あら？」\""
+      ],
+      "translation_id": "fBAD_03_288206d4",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"dia\")",
+        "line": 86,
+        "function": "get_voice_filename",
+        "tag": "dia",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「……어머?」",
+      "draft_ko_sha256": "629285962077133e6738bff717dbf3106e6cc735aaa5b02851e4c9797bcdcea8",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_03_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_03_aligned.json",
+        "packet_sha256": "7f6df9542796e31895ba422a55f0b2638ce2557afbeab69cddfe80061a0f6060",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 16,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_f3e7b686",
+      "sequence": 18,
+      "command_index": 18,
+      "source_file": "scenario/BAD_END_03.rpy",
+      "source_line": 89,
+      "source_label": "fBAD_03",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "パルカは首を傾げて、口にする。",
+      "source_text_sha256": "95134f7574b52846abf1b976e684f160a66e2126d69e5bda08b133d1d900429f",
+      "source_group_sha256": "069bbced296c8586f0eab7f80f037419e19cb2c822813df91bbb533912a4c25a",
+      "source_statement_code": "\"パルカは首を傾げて、口にする。\"",
+      "source_group_code": [
+        "\"パルカは首を傾げて、口にする。\""
+      ],
+      "translation_id": "fBAD_03_f3e7b686",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "파르카는 고개를 갸웃하며 입을 열었다.",
+      "draft_ko_sha256": "d75a3f5c57ce6b32a935b5768809f81d9cb70d017e6831e1f663aae456eec033",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_03_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_03_aligned.json",
+        "packet_sha256": "7f6df9542796e31895ba422a55f0b2638ce2557afbeab69cddfe80061a0f6060",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 17,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_3758af7d",
+      "sequence": 19,
+      "command_index": 19,
+      "source_file": "scenario/BAD_END_03.rpy",
+      "source_line": 94,
+      "source_label": "fBAD_03",
+      "lane": "dialogue",
+      "speaker": "parca",
+      "source_jp": "「それは、どうしてでしたっけ？」",
+      "source_text_sha256": "7954af3e6ca6722deea2dc9c852d10922482e798e4c52f1cd6419bf5b024b2e4",
+      "source_group_sha256": "c3ebf95a544ab557dc762545b311c18b241bae8c5cf17aaa74d51e5c70691021",
+      "source_statement_code": "parca \"「それは、どうしてでしたっけ？」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"dia\")",
+        "parca \"「それは、どうしてでしたっけ？」\""
+      ],
+      "translation_id": "fBAD_03_3758af7d",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"dia\")",
+        "line": 93,
+        "function": "get_voice_filename",
+        "tag": "dia",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「그건, 왜였던가요?」",
+      "draft_ko_sha256": "49de55a97459e71885e1643b18f14d5c128d16fe3880460136d4e50d5f6a0622",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_03_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_03_aligned.json",
+        "packet_sha256": "7f6df9542796e31895ba422a55f0b2638ce2557afbeab69cddfe80061a0f6060",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 18,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_5053eeef",
+      "sequence": 20,
+      "command_index": 20,
+      "source_file": "scenario/BAD_END_03.rpy",
+      "source_line": 96,
+      "source_label": "fBAD_03",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "こぼれた疑問に、返事は決して返ってこない。",
+      "source_text_sha256": "de5cae906379b4d67656594121170eb5eb0319cdbc912e06bde71f43dff2c8d6",
+      "source_group_sha256": "94b79ea575a371288e80a79184c65efa2062a80c0f34e0ad536cfb6e010a8c56",
+      "source_statement_code": "\"こぼれた疑問に、返事は決して返ってこない。\"",
+      "source_group_code": [
+        "\"こぼれた疑問に、返事は決して返ってこない。\""
+      ],
+      "translation_id": "fBAD_03_5053eeef",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "흘러나온 의문에 답이 돌아오는 일은 결코 없다.",
+      "draft_ko_sha256": "8503ddc1d6b5372d7ae84baf90c9c5ed0d3612c33b199d9a56e43cb757ce90f5",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_03_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_03_aligned.json",
+        "packet_sha256": "7f6df9542796e31895ba422a55f0b2638ce2557afbeab69cddfe80061a0f6060",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 19,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_03.rpy::tid::fBAD_03_50731705",
+      "sequence": 21,
+      "command_index": 21,
+      "source_file": "scenario/BAD_END_03.rpy",
+      "source_line": 98,
+      "source_label": "fBAD_03",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "パルカは再び、≪女神の選定≫の管理者へと戻るのであった。",
+      "source_text_sha256": "c20311666bfe8344ecb32c7a3e1d7be05cf39e8ec0ae0747b0fcf37547625d68",
+      "source_group_sha256": "ab7199118be84ed196ae844ba9fab184faa500f5f407a1cafcccf46f066401ff",
+      "source_statement_code": "\"パルカは再び、≪女神の選定≫の管理者へと戻るのであった。\"",
+      "source_group_code": [
+        "\"パルカは再び、≪女神の選定≫の管理者へと戻るのであった。\""
+      ],
+      "translation_id": "fBAD_03_50731705",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "파르카는 다시 ≪여신의 선정≫의 관리자로 돌아가는 것이었다.",
+      "draft_ko_sha256": "2bfc840b2111beabdf434e6d9a60dbf7be383f35b58f91c5da994929d25ff520",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_03_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_03_aligned.json",
+        "packet_sha256": "7f6df9542796e31895ba422a55f0b2638ce2557afbeab69cddfe80061a0f6060",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 20,
+        "translation_text_copied_verbatim": true
+      }
+    }
+  ],
+  "runtime_and_protected_token_validation_pass": true,
+  "correction_application": {
+    "base_master_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_BAD_END_03.master.json",
+    "base_master_sha256": "2e002066815a41f88fcdb5c08acd329954f47545a088c7a43f378304a43c7c53",
+    "applied_corrections": 0,
+    "remaining_runtime_or_protected_token_failed_records": 0,
+    "translation_text_changed_only_by_explicit_jsonl": true
+  }
+}

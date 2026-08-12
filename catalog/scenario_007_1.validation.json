@@ -1,0 +1,60 @@
+{
+  "schema_version": "fatal-twelve-renpy-catalog-v1",
+  "validated_at_utc": "2026-08-10T11:03:12.393874+00:00",
+  "catalog": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_007_1.catalog.jsonl",
+  "records": 1063,
+  "require_translated": false,
+  "source_rebuild_performed": true,
+  "metadata_checked": true,
+  "errors": [],
+  "warnings": [],
+  "passed": true,
+  "meta_checks": {
+    "catalog_hash": {
+      "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_007_1.catalog.jsonl",
+      "size": 3605615,
+      "sha256": "cffcbe4180aa6633e0725ffb829f7c96870cf39375134435e59439ed293c6ae5"
+    },
+    "statistics": {
+      "records": 1063,
+      "lanes": {
+        "choice_prompt": 1,
+        "dialogue": 466,
+        "narration": 594,
+        "narrative_choice": 2
+      },
+      "voiced_records": 466,
+      "translation_id_records": 1060,
+      "menu_key_records": 3,
+      "reference_present": 0,
+      "reference_missing": 1063,
+      "speakers": {
+        "<narrator>": 597,
+        "federico": 47,
+        "federico_num": 2,
+        "mao": 38,
+        "miharu": 77,
+        "odette": 113,
+        "odette_num": 13,
+        "rinka": 53,
+        "scale": 86,
+        "scale_num": 36,
+        "scale_unk1": 1
+      },
+      "labels": {
+        "f007_1": 1024,
+        "f007_1.s1_1": 1,
+        "f007_1.s1_2": 1,
+        "f007_1.s1_end_A": 22,
+        "f007_1.s1_end_B": 12,
+        "f007_1.s1_start": 3
+      },
+      "protected_token_kinds": {
+        "number": 78,
+        "renpy_text_tag": 12
+      },
+      "japanese_codepoints_in_source_text": 29497,
+      "untranslated": 1063
+    }
+  }
+}

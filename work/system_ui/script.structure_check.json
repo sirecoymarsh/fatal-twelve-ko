@@ -1,0 +1,40 @@
+{
+  "source_file": "system/script.rpy",
+  "source_sha256": "ab3c66bf241c8fe4151b3245b435d8cb9f29ee81b6164d49f9141bdb25ffa150",
+  "catalog_records": 22,
+  "emitted_rpy_entries": 21,
+  "authoritative_old_key_target": 13,
+  "authoritative_old_key_covered": 13,
+  "extraction": {
+    "authoritative_old_occurrences": 13,
+    "authoritative_old_unique": 13,
+    "base_none_japanese_entries": 8,
+    "direct_display_literals": 1,
+    "cross_source_duplicate_entries_not_emitted": 1
+  },
+  "missing_base_source_line_count": 0,
+  "missing_base_source_line_stable_ids": [],
+  "missing_exact_locator_count": 0,
+  "missing_exact_locator_stable_ids": [],
+  "protected_token_failure_count": 0,
+  "protected_token_failure_stable_ids": [],
+  "checks": {
+    "record_count_matches": true,
+    "authoritative_old_key_coverage_matches": true,
+    "authoritative_old_key_unique": true,
+    "emitted_lookup_keys_unique": true,
+    "protected_tokens_preserved": true,
+    "status_uniform": true,
+    "qa_uniform": true,
+    "english_reference_used_false": true,
+    "source_authority_japanese_only": true,
+    "exact_locator_present": true
+  },
+  "result": "PASS",
+  "translation_quality_review_performed": false,
+  "status": "first_draft_unreviewed",
+  "qa": "deferred_until_full_first_draft",
+  "source_authority": "Japanese only",
+  "english_reference_used": false,
+  "official_membership_handling": "Only old keys were mechanically retained; official new prose was skipped."
+}

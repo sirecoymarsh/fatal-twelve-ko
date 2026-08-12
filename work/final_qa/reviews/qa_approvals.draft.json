@@ -1,0 +1,127 @@
+{
+  "schema_version": "fatal-twelve-record-bound-qa-approvals-v1",
+  "blanket_approvals": false,
+  "records": 10,
+  "entries": [
+    {
+      "scope": "scenario",
+      "script": "001",
+      "sequence": 374,
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s1_end_3f7863e1",
+      "rule_id": "GLOSSARY_MISMATCH",
+      "source_sha256": "56ddb198089652908b39194c2023daa6ee877af7a56cbba597869e66ffadfa2e",
+      "target_sha256": "bd5a4878b0dc661ad24c903ac029a4f864a9fa4d129eb28951f228e3640873b0",
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Immutable JP source says Rinka, but adjacent JP context proves the intended subject is Miharu; preserve contextually correct Korean Miharu as a narrow source anomaly."
+    },
+    {
+      "scope": "scenario",
+      "script": "002",
+      "sequence": 202,
+      "stable_id": "scenario.rpa::scenario/002.rpy::tid::f002_5ba6ff96",
+      "rule_id": "GLOSSARY_MISMATCH",
+      "source_sha256": "d8a2a911a3aaca4e898b8e301a88935988b84766d6cdd1997eefede325fa98a8",
+      "target_sha256": "368d19bdf058acab78ce5a258f66d3905f07a59149c1b2a8ab97b84e8e91733e",
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Rinka is the addressee and Korean naturally uses direct second-person ?; referent is preserved."
+    },
+    {
+      "scope": "scenario",
+      "script": "004",
+      "sequence": 53,
+      "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_26d57359",
+      "rule_id": "RESIDUAL_HANJA",
+      "source_sha256": "24e01e0ca734f4e5ba7fb39bbce3eeb8129afc718f28b202800cf2541f260cb3",
+      "target_sha256": "2505c16e16825ecbe1e48444b0f8fc1e9b2a6d1b4e0753b6b3ca46c09addac35",
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "? is intentionally shown while explaining the kanji used in Keiko?s name."
+    },
+    {
+      "scope": "scenario",
+      "script": "004",
+      "sequence": 57,
+      "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_ee6737b0",
+      "rule_id": "RESIDUAL_HANJA",
+      "source_sha256": "aaa63f5d4d84301eccf451f0a8ce426a23cd70c827fa786a793fef7314ae0b88",
+      "target_sha256": "fcbd4fe542418c50df1ae370f87427c6508b03d9f9a0f207bed0c2bff7838797",
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "?/?? are intentionally shown while explaining the kanji used in Haruki?s name."
+    },
+    {
+      "scope": "scenario",
+      "script": "004",
+      "sequence": 529,
+      "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s2_end_d2d3ac84",
+      "rule_id": "GLOSSARY_MISMATCH",
+      "source_sha256": "024d99a7191a3479cf96a29bd257abb3361fdc70e2e179a4583a0917c614076e",
+      "target_sha256": "aa53468a0c042378f7468414fb01a0efec57c44a114ed00722d8fe9749a91f41",
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Sonya and companions are directly addressed as ??; referents are preserved."
+    },
+    {
+      "scope": "scenario",
+      "script": "007_1",
+      "sequence": 269,
+      "stable_id": "scenario.rpa::scenario/007_1.rpy::tid::f007_1_a2f320a9",
+      "rule_id": "TARGET_QUOTE_UNBALANCED",
+      "source_sha256": "5234491f07a1753d4a804df7f02895b47e2e7d97fbe66247c940a8bbf6888a25",
+      "target_sha256": "232433b0bbfb85390c5310f69fd54eb0c7cb454a874d4ce12572b8f7e571c40e",
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "The immutable Japanese source itself leaves this quote open across the scripted utterance; target preserves the exact source quote structure."
+    },
+    {
+      "scope": "scenario",
+      "script": "007_2",
+      "sequence": 61,
+      "stable_id": "scenario.rpa::scenario/007_2.rpy::tid::f007_2_b28c38e7",
+      "rule_id": "NO_HANGUL",
+      "source_sha256": "3b0d050e4e989eed97a3ea46301a4e27b6187bc745218ac8c3c32b5b267dbc58",
+      "target_sha256": "c0185ac0ca5c1c11839c2778f9233530a75c0f325115ea4fe49d9d146aa129b2",
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "A voiceless gasp rendered only as punctuation preserves the Japanese utterance without residual Japanese."
+    },
+    {
+      "scope": "scenario",
+      "script": "011_02",
+      "sequence": 124,
+      "stable_id": "scenario.rpa::scenario/011_02.rpy::tid::sentei11_0f96b932",
+      "rule_id": "TARGET_QUOTE_UNBALANCED",
+      "source_sha256": "8161142e074476f817b16b76126346de58fde2127724d7376e4c896182e22385",
+      "target_sha256": "2b3b6f40202d387a9fa43ffb707b886cec10af602c82d60a9e1fd833f88f2c6f",
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "The immutable Japanese source itself leaves this quote open; target preserves the exact source quote structure."
+    },
+    {
+      "scope": "system_ui",
+      "script": "system_ui",
+      "sequence": 49,
+      "stable_id": "system-ui::3456a48299cee975d9b500fc",
+      "rule_id": "INTERPOLATION_REORDER",
+      "source_sha256": "3456a48299cee975d9b500fcd681b69440263688b66e9f9ee2bb57ef6900c5f2",
+      "target_sha256": "a5548a6891a95367b001b41892da9b3780eaf952ab99e6e01717e08e797e50c4",
+      "status": "approved",
+      "reviewer": "A",
+      "reason": "Named interpolation order is changed only to form natural Korean; the exact token multiset is preserved."
+    },
+    {
+      "scope": "system_ui",
+      "script": "system_ui",
+      "sequence": 272,
+      "stable_id": "system-ui::b175bcc2a09ed2b21f77613f",
+      "rule_id": "JP_QUOTE_STYLE",
+      "source_sha256": "b175bcc2a09ed2b21f77613f63d691ccb2863f306f1b3db31f03168a28d26721",
+      "target_sha256": "3b6a262ce6884222d98e28e0cdbd740db4d1115e6cf96a5910c6815567241acc",
+      "status": "approved",
+      "reviewer": "A",
+      "reason": "The immutable Japanese UI source lacks a closing quote; the reviewed Korean target repairs that source anomaly while preserving all other structure."
+    }
+  ]
+}

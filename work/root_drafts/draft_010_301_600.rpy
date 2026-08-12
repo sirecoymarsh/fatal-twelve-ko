@@ -1,0 +1,1589 @@
+# Fatal Twelve Korean aligned draft: scenario/010.rpy
+# Japanese source identity and RenPy 6.99 AST IDs; no English prose used.
+# draft_ko is copied value-for-value from source-only JSON; QA deferred.
+
+translate korean f010_13cf7475:
+
+    "나는 카드 북을 곁에 두고 일기를 읽기로 했다."
+
+
+translate korean f010_94052265:
+
+    "카드 북이 일정 범위 안에 있으면 선정 참가자인 우리는 언어의 장벽을 넘을 수 있다."
+
+
+translate korean f010_d0867252:
+
+    voice get_voice_filename("rnk")
+    rinka "「하지만 글씨가 희미해진 탓인지…… 잘 머리에 들어오지 않네」"
+
+
+translate korean f010_bdbf7364:
+
+    "２페이지를 읽는 데 30분 정도 걸리고 말았다."
+
+
+translate korean f010_b8a38614:
+
+    "인쇄된 활자와는 다른 모양이라 일본어로 된 흐릿한 인쇄물을 읽는 감각과 비슷하다."
+
+
+translate korean f010_8b1a6459:
+
+    "글이 자꾸 끊겨서 문장이 제대로 머리에 들어오지 않는다."
+
+
+translate korean f010_8e65a768:
+
+    "내용은 이른바 평범한 일기로, 오늘 무엇을 먹었다거나 누구와 이야기했다거나 하는 시시한 일이 적혀 있다."
+
+
+translate korean f010_777be6ac:
+
+    "다만 내 예상은 맞았고 1910년 무렵, 100년도 더 전의 일기라 지금과 다른 문화를 읽는 일은 나름대로 재미있다."
+
+
+translate korean f010_e1b3f95b:
+
+    "하지만 이걸 전부 읽으려면 상당한 시간이 걸릴 것 같다. 애초에 평범한 일기라면 ≪여신의 선정≫과는 아무 관계도 없겠지."
+
+
+translate korean f010_ac9656bc:
+
+    "훌훌 넘겨 보고 얻을 정보가 없을 것 같으면 이 시대에 비슷한 일기장이 팔리지 않았는지 확인하는 편이 더 유용할지도 모른다."
+
+
+translate korean f010_9546a158:
+
+    voice get_voice_filename("rnk")
+    rinka "「아직 판단하기에는 이른……가」"
+
+
+translate korean f010_633386c1:
+
+    "일단 오늘은 １페이지만 더 읽고 자기로 했다. 내일 몇 페이지 더 읽어 본 뒤 이 일기를 얼마나 읽을지 판단할 생각이다."
+
+
+translate korean f010_7d4e232b:
+
+    "그렇게 생각하자마자 흥미로운 내용이 적혀 있었다."
+
+
+translate korean f010_fa207944:
+
+    "――『그러고 보니 이 일기장은 동생 다이아나가 내 생일 선물로 직접 만들어 준 거야』"
+
+
+translate korean f010_eeecf78d:
+
+    "직접 만든 일기장. 이 책의 장식에서 느낀 비뚤어진 부분은 착각이 아니었다. 낡아서 장정이 엉성하다고만 생각했다."
+
+
+translate korean f010_7fdf054d:
+
+    "그렇다면 카드 북과 어떤 관계인지 신경 쓰인다."
+
+
+translate korean f010_96226eb8:
+
+    "이 일기장은 세상에 한 권뿐일 것이다. 당시에는 인터넷도 없으니 만드는 법이 공개되어 모두가 따라 했던 물건도 아니겠지."
+
+
+translate korean f010_dd0ca023:
+
+    "나는 10분 전의 내 생각을 곧바로 부정하게 되었다."
+
+
+translate korean f010_315c9d02:
+
+    voice get_voice_filename("rnk")
+    rinka "「이 일기에는 뭔가――있어」"
+
+
+translate korean f010_7566ee25:
+
+    "그런 직감이 들었다."
+
+
+translate korean f010_9a585e8e:
+
+    "이만큼 수수께끼가 주어지면 누구라도 그렇게 생각할 것이다."
+
+
+translate korean f010_d4b69065:
+
+    "오늘은 공부할 생각이었지만 그럴 수 없을 것 같다."
+
+
+translate korean f010_a3f176ca:
+
+    "나는 장기전이 되리라 예감하고 집중해서 책을 읽으려고 １층으로 내려가기로 했다."
+
+
+translate korean f010_d671ef2e:
+
+    "미하루는 약 ２주 만에 바 ≪MILK CROWN≫을 찾았다."
+
+
+translate korean f010_d8aa3c7b:
+
+    "고등학생이 단골로 드나드는 것도 이상한 일이지만 미하루는 이제 이 가게에 완전히 익숙해졌다."
+
+
+translate korean f010_4768aba2:
+
+    voice get_voice_filename("fed")
+    federico "「어떻게든 해결했어」"
+
+
+translate korean f010_2ef07eae:
+
+    "페데리코는 이미 가게에 와 술을 주문해 두었다."
+
+
+translate korean f010_2ed76992:
+
+    "얇고 아름다운 잔에는 맑은 호박색 액체가 가게 안의 빛을 어지럽게 반사하고 있었다."
+
+
+translate korean f010_be2a784f:
+
+    voice get_voice_filename("fed")
+    federico "「가게에서 가장 비싼 위스키야. 이걸 주문하겠다고 약속하고 출입 금지를 풀어 달라고 했지. 역시 맛있군. 당신도 마실래? 이 술이라면 마스터도 눈감아 줄 텐데?」"
+
+
+translate korean f010_c1a5ff58:
+
+    voice get_voice_filename("mhr")
+    miharu "「하아. 그러니까 나는 술을 안 마셔. 네게는 아쉽겠지만 우유를 다시 한 잔 받아도 될까?」"
+
+
+translate korean f010_2a94fad4:
+
+    "페데리코는 아쉬운 표정을 짓더니 결국 가게 마스터와 그 위스키로 건배했다."
+
+
+translate korean f010_a81d5ce2:
+
+    "한 번은 출입 금지로 만든 손님인데도 마스터는 전혀 신경 쓰지 않는 얼굴이어서 미하루는 속물적인 사람이라며 어이없어했다."
+
+
+translate korean f010_e8c49fda:
+
+    voice get_voice_filename("fed")
+    federico "「자, 여기서부터는 우리 둘만의 시간이야」"
+
+
+translate korean f010_6cfd71f5:
+
+    voice get_voice_filename("mhr")
+    miharu "「오해를 부를 만한 표현은 그만둬. 두드러기가 날 것 같아」"
+
+
+translate korean f010_7c04358d:
+
+    "그러고 보니 술을 마실 때의 페데리코는 미하루가 알던 모습과 같았다."
+
+
+translate korean f010_8603d97a:
+
+    "그 사실에 묘한 안도감을 느꼈다."
+
+
+translate korean f010_e6250658:
+
+    voice get_voice_filename("fed")
+    federico "「쳇…… 뭐, 됐어. 알란의 ≪사인≫을 알려 주는 데 문제가 ２개 있다고 했지. 우선 그걸 말해 줘」"
+
+
+translate korean f010_c7668df8:
+
+    voice get_voice_filename("mhr")
+    miharu "「……그래. １번째는 내가 알란 스콜피온의 ≪사인≫을 카드에 적힌 정보로만 안다는 거야」"
+
+
+translate korean f010_313b2c19:
+
+    "즉 뒷받침할 정보까지는 모른다고 미하루는 덧붙였다."
+
+
+translate korean f010_4f29f7fa:
+
+    "그 정보만 알려 줘서는 페데리코에게 카드가 생겨나지 않는다는 뜻이다."
+
+
+translate korean f010_1e5b1e3e:
+
+    voice get_voice_filename("fed")
+    federico "「상관없어. 미리 말해 두자면 나는 이제 인도로 갈 생각이야. 무슨 수를 써서라도 그 녀석의 정보를 모으겠어」"
+
+
+translate korean f010_370b9111:
+
+    voice get_voice_filename("fed")
+    federico "「스케일에게 들은 정보는 어디까지나 종이 위의 정보야. 그 녀석의 가족도 만나 보고 ≪사인≫과 ≪미련≫에 관한 자세한 내용을 찾겠어」"
+
+
+translate korean f010_a99a0cef:
+
+    voice get_voice_filename("fed")
+    federico "「카드 정보라도 알고 있으면 훨씬 편해지니까」"
+
+
+translate korean f010_42cfcab4:
+
+    voice get_voice_filename("mhr")
+    miharu "「제정신이야?」"
+
+
+translate korean f010_1c645f63:
+
+    voice get_voice_filename("fed")
+    federico "「그래. 그 고릴라 여자라면 막다른 길에 몰렸을 때 망설이지 않고 그 정도는 해내겠지. 물론 애초에 그 녀석이 그렇게 막다른 길에 몰릴 상황이 상상되지 않지만」"
+
+
+translate korean f010_19305db8:
+
+    "그리고 그는 미하루에게 ２번째 문제를 말하라고 재촉했다."
+
+
+translate korean f010_bb13458e:
+
+    "미하루가 말하기 전 그는 잔을 한 번 비우고 같은 것을 한 잔 더 받았다."
+
+
+translate korean f010_f7d2311d:
+
+    voice get_voice_filename("mhr")
+    miharu "「네가 정보를 모으지 않아도 알란 스콜피온은 탈락할 거야. 아마 그는――린카에게 패배할 생각이야」"
+
+
+translate korean f010_57910c88:
+
+    "일요일 시점에 미하루는 린카에게 스케일 존스가 린카의 할머니를 건드렸다는 것과 그 상황에서 알란이 할머니를 구했다는 이야기를 들었다."
+
+
+translate korean f010_05c52d38:
+
+    "미하루는 지금까지 알란이 한 이야기를 종합해 그가 린카에게 집착한다는 사실을 알고 있다."
+
+
+translate korean f010_8cdebb7b:
+
+    "동시에 그의 행동이 ≪여신의 선정≫의 승자가 되려는 행동으로는 보이지 않는다는 사실도."
+
+
+translate korean f010_56f762e6:
+
+    voice get_voice_filename("fed")
+    federico "「그렇군. 하지만 그건 문제가 안 돼. 내 목적은 그 재수 없는 자식을 내 손으로 탈락시키는 거니까」"
+
+
+translate korean f010_8c949503:
+
+    voice get_voice_filename("mhr")
+    miharu "「오기라는 건가? 나는 알란 스콜피온을 무시하고 린카나 나를 노리는 편이 좋다고 생각해」"
+
+
+translate korean f010_a1d2a369:
+
+    voice get_voice_filename("fed")
+    federico "「카캇, 미안하군. 당신 몸에는 관심이 있지만 이제 너희에게는 관심 없어」"
+
+
+translate korean f010_419a224d:
+
+    "미하루는 크게 웃으며 단언한 그에게서 한 여성의 그림자를 보았다."
+
+
+translate korean f010_1a9181d3:
+
+    "그리고 미하루는 저녁에 페데리코에게서 느낀 위화감의 정체를 알았다."
+
+
+translate korean f010_09ed84c0:
+
+    voice get_voice_filename("mhr")
+    miharu "「어느 쪽이든 네게 알란의 ≪사인≫을 알려 줘도 우리에게 손해는 없겠지. 게다가 약속을 어기기는 꺼림칙하니까」"
+
+
+translate korean f010_9cb09eab:
+
+    voice get_voice_filename("mhr")
+    miharu "「그의 ≪사인≫은 ≪독살≫이야. 자세한 건 모르지만 유명한 젊은 사장 알란 스콜피온이라면 짐작이 가. 네가 이 정보를 카드로 만드는 것도 머지않은 미래겠지」"
+
+
+translate korean f010_be9c0423:
+
+    voice get_voice_filename("fed")
+    federico "「……고맙다. 자, 나는 내일 아침 첫 비행기로 인도로 간다. 그때까지 잡담이나 나눠 줘」"
+
+
+translate korean f010_f533085a:
+
+    voice get_voice_filename("mhr")
+    miharu "「거절하겠어. 고등학생을 뭐라고 생각하는 거야?」"
+
+
+translate korean f010_c86abdf7:
+
+    "미하루는 한숨 돌린 뒤 말을 이었다."
+
+
+translate korean f010_f20480ad:
+
+    voice get_voice_filename("mhr")
+    miharu "「하지만 오늘은 목이 마르군. 우유를 한 잔 더 마시는 동안 정도는 네 이야기를 들어 주지」"
+
+
+translate korean f010_37767024:
+
+    "왜 이런 말을 했는지 미하루는 그 이유를 분명히 알고 있었다."
+
+
+translate korean f010_db34aee8:
+
+    "예감이 들었기 때문이다."
+
+
+translate korean f010_e99b2775:
+
+    "페데리코 카르미나티를 만나는 것은 분명 이번이 마지막이라고――."
+
+
+translate korean f010_6e17d3f3:
+
+    "이날은 돌아가서 샤워도 하지 않고 잠들었고 미하루가 페데리코의 ≪미련≫ 카드를 얻은 것은 １일 뒤."
+
+
+translate korean f010_065dfa27:
+
+    "화요일 밤 욕조에서 어젯밤 일을 돌아보던 때였다."
+
+
+translate korean f010_3103c82b:
+
+    "전체의 ６분의１ 정도를 읽었을 때 나는 졸음이 한계에 이르렀다."
+
+
+translate korean f010_258ba195:
+
+    "원래 책을 읽는 속도가 느린 편이고 오래된 책이라 글씨를 읽기 어려워 거의 두 배나 시간이 걸렸다."
+
+
+translate korean f010_4552bee5:
+
+    voice get_voice_filename("rnk")
+    rinka "「――일기네」"
+
+
+translate korean f010_43f97aa3:
+
+    "그것이 여기까지 읽은 소감이었다. 지금으로서는 아직 평범한 일기의 범위를 벗어나지 않는다."
+
+
+translate korean f010_dca5938c:
+
+    "남의 생활을 훔쳐보는 것 같아 죄책감과 부끄러움이 함께 들었다."
+
+
+translate korean f010_3227b8d5:
+
+    "할머니의 할머니 이름은 린다인 모양이다. 린이라는 소리가 들어가서 조금 친근하게 느껴진다."
+
+
+translate korean f010_2cacbf4b:
+
+    "린다 씨의 아버지는 영국 출신 시계 기술자였다고 한다."
+
+
+translate korean f010_7c488827:
+
+    "린다 씨가 태어나기 전 그녀의 부모님은 일본으로 이주했다."
+
+
+translate korean f010_6d1259cf:
+
+    "시계 기술을 지도하려고 일본에 초청받았을 때 이 나라가 마음에 들었고, 그 기업에서 정식 기술 고문 의뢰를 받은 것을 계기로 아내와 함께 일본에서 살기로 했다고 한다."
+
+
+translate korean f010_2b69f18f:
+
+    "일본에 온 직후 린다 씨가 태어났고 그 １년 뒤에는 동생 다이아나 씨가 태어났다고 한다."
+
+
+translate korean f010_020313fd:
+
+    "할머니의 할머니의 동생이라면 이제 할머니도 잘 기억하지 못하겠지."
+
+
+translate korean f010_4e698468:
+
+    "카드 북에 좋은 인상이 없어 별로 신경 쓰지 않았지만 다시 보니 이 책의 장정은 멋지다."
+
+
+translate korean f010_1baf7036:
+
+    "이렇게 멋진 수제 일기장을 선물할 정도라면 다이아나 씨는 좋은 동생이었겠지."
+
+
+translate korean f010_1c091ab3:
+
+    "린다 씨의 일기를 봐도 무척 사이좋은 자매였다는 사실을 알 수 있다."
+
+
+translate korean f010_ff59f5b8:
+
+    "나는 형제자매가 없어서 조금 부럽기도 했다."
+
+
+translate korean f010_881c0308:
+
+    "미하루도 나오미도 외동이고 내 주변에서 형제자매가 있는 사람은 남동생이 있는 마오 정도인가."
+
+
+translate korean f010_29f816bc:
+
+    "자, 그럼."
+
+
+translate korean f010_03fb2eaf:
+
+    "나는 시계를 보고 일기를 덮었다. 세게 덮으면 망가질 것 같아서 조심스럽게."
+
+
+translate korean f010_82bc59e3:
+
+    voice get_voice_filename("rnk")
+    rinka "「이건 이번 주 내내 걸리겠네」"
+
+
+translate korean f010_14fc8ddd:
+
+    "나머지는 내일 읽기로 하고 내 방으로 돌아가기로 했다."
+
+
+translate korean f010_1a66147a:
+
+    voice get_voice_filename("fed")
+    federico "「쳇, 나답지 않게 상쾌한 기분이군. 그렇게 마셨는데 숙취도 없어」"
+
+
+translate korean f010_922b71c5:
+
+    voice get_voice_filename("fed")
+    federico "「하지만 미하루는 정말 １잔만 마시고 가 버렸군. 그 녀석을 좋아하는 남자가 나 말고 또 나타나면 고생 깨나 하겠어」"
+
+
+translate korean f010_3cb56100:
+
+    "거의 손님이 없는 객차에서 그는 그렇게 악담을 늘어놓았다."
+
+
+translate korean f010_966e5e50:
+
+    "공항으로 향하려고 전철을 탄 것이다."
+
+
+translate korean f010_4d59b603:
+
+    "맑은 하늘을 바라보며 페데리코는 자신의 인생을 떠올렸다."
+
+
+translate korean f010_61cfd129:
+
+    "이탈리아 남부에서 태어난 한 남자의 인생은 패배로 가득했다."
+
+
+translate korean f010_539ca90e:
+
+    "어릴 때 그는 괴롭힘을 당했다."
+
+
+translate korean f010_d0252728:
+
+    "지금처럼 몸이 말랐고 지금과 달리 키도 작았던 그는 저항조차 할 수 없었다."
+
+
+translate korean f010_c9e4f46c:
+
+    "주먹을 휘두르려 하면 맞았고 말대꾸하려 하면 수적인 폭력에 졌다."
+
+
+translate korean f010_251b798a:
+
+    "그는 어린 나이에 괴롭힘에 패배했다는 실감을 강요받았다."
+
+
+translate korean f010_d307cd5d:
+
+    "거의 같은 시기에 원래 사이가 나빴던 부모님은 이혼을 결정했다."
+
+
+translate korean f010_f74417b2:
+
+    "페데리코는 어머니를 따라가고 싶었다."
+
+
+translate korean f010_4b4e5aa7:
+
+    "깊은 이유는 없다. 어린 그는 그저 어머니를 더 좋아했을 뿐이다."
+
+
+translate korean f010_af380f89:
+
+    "하지만 그는 여기서도 패배했다."
+
+
+translate korean f010_2aed17cc:
+
+    "이혼을 결정한 계기는 어머니의 불륜이었고 정확히는 페데리코 본인에게 원인이 있던 게 아니지만 그에게는 패배의 기억으로 자리 잡았다."
+
+
+translate korean f010_55c72dbc:
+
+    "어머니는 상대 남자와 동거하고 재혼하기로 했다."
+
+
+translate korean f010_b38cf92b:
+
+    "약혼반지는 페데리코에게 맡긴 것이 아니라 쓰레기통에서 흘러나온 것을 주운 물건이었다."
+
+
+translate korean f010_4d4e0291:
+
+    "언젠가 다시 만나고 싶다는 ≪미련≫ 때문에 그 약혼반지를 언제나 몸에 지니게 되었다."
+
+
+translate korean f010_2eeeb2d8:
+
+    "그것이 어머니의 사랑을 얻지 못했다는 패배의 상징임을 페데리코 스스로 이해하는 데 20년 넘게 걸렸지만."
+
+
+translate korean f010_8bb653db:
+
+    voice get_voice_filename("fed")
+    federico "「소중한 반지인 줄 알았는데 버리고 나니 별다른 감상도 들지 않는군」"
+
+
+translate korean f010_f4d2835c:
+
+    voice get_voice_filename("fed")
+    federico "「엄마가 쓰레기통에 버렸을 때도 이런 기분이었을지도 모르겠네. 한 사람만 바라보지 못하는 마음, 지금은 아주 잘 알지만」"
+
+
+translate korean f010_8c2693ce:
+
+    "참고로 첫 여자 친구는 고등학교에 들어갈 무렵 생겼다."
+
+
+translate korean f010_0530ab14:
+
+    "하고 싶은 말을 분명히 하는 여자아이로 그를 힘차게 이끄는 성격이라 잘 지내는 듯했지만 전학 때문에 자연스럽게 관계가 끊겼다."
+
+
+translate korean f010_0ca3de9d:
+
+    "이 사건을 패배로 셀지는 제쳐 두고 고등학교에 들어가자 괴롭힘은 없어졌지만 그의 패배는 더욱 늘었다."
+
+
+translate korean f010_af2869d3:
+
+    "클럽에서 하던 축구에서는 아무리 노력해도 반드시 자신보다 뛰어난 사람이 있었고 그들에게 패배할 수밖에 없었다."
+
+
+translate korean f010_f1dda09e:
+
+    "책상에 나란히 앉아 하는 공부에서는 가끔 열심히 공부해 봐도 １등을 하지 못해 패배할 수밖에 없었다."
+
+
+translate korean f010_c06723c7:
+
+    "어린 시절의 경험으로 패배가 몸에 밴 페데리코는 자각하지 못한 채 진심을 다하지 못하는 아이가 되었다."
+
+
+translate korean f010_c7692c9e:
+
+    "그의 패배는 무자각 속에서 악순환을 이어 갔다."
+
+
+translate korean f010_a9d3b1a1:
+
+    "페데리코는 대학에 가지 않았다. 이 무렵 대학 입시에서 패배하기를 두려워했지만 페데리코는 스스로 그 사실을 인정하지 않았다."
+
+
+translate korean f010_d3278ec3:
+
+    "대신 그는 사업을 시작했다."
+
+
+translate korean f010_b45a0d89:
+
+    "비슷한 시기에 페데리코의 아버지가 죽어 제법 큰 유산이 들어왔고 그것이 밑천이었다."
+
+
+translate korean f010_89c100eb:
+
+    "현금만 있으면 누구나 할 수 있는 간단한 사업이다."
+
+
+translate korean f010_b4b4a77a:
+
+    "사회적으로 막다른 곳에 몰린 사람에게 돈을 빌려주고 높은 이자를 붙여 회수할 뿐."
+
+
+translate korean f010_11eecc00:
+
+    "경찰에게 매달릴 수 없는 다중 채무자와 범죄자, 누구도 상대하지 않는 쓰레기들이 그의 사업 파트너."
+
+
+translate korean f010_51907a6b:
+
+    "자신보다 계속 패배한 사람을 손님으로 고른 것이다."
+
+
+translate korean f010_1a622792:
+
+    "갚지 않는 상대에게는 다른 사채업자에게 빚을 지게 하거나 돈이 될 만한 물건을 회수하고, 아니면 화풀이로 폭력을 휘둘러 해결했다."
+
+
+translate korean f010_9b69757e:
+
+    "페데리코의 사업은 이익 면에서 어느 정도 성공했지만 돈으로 해결할 수 없는 큰 문제와 맞닥뜨렸다."
+
+
+translate korean f010_9e9ef4fa:
+
+    "마피아의 구역에서 이 사업을 성공시켜 버린 것이다."
+
+
+translate korean f010_38f8a84d:
+
+    "페데리코는 마피아의 눈에 띄게 된다."
+
+
+translate korean f010_56efa59a:
+
+    "그렇게 되자 아침 토스트에 버터를 바르는 것처럼 간단히 목숨을 노리는 자들이 생겼다."
+
+
+translate korean f010_9afee714:
+
+    voice get_voice_filename("fed")
+    federico "「카캇, 지금 생각하면 그 고릴라 여자가 훨씬 무서웠어…… 물리적으로 말이지」"
+
+
+translate korean f010_f581e51b:
+
+    "페데리코는 자신이 세운 첫 ≪사업≫도 결과적으로 패배로 끝낸다."
+
+
+translate korean f010_37d2d401:
+
+    "그가 살 수 있는 방법은 １개였다."
+
+
+translate korean f010_ebe71798:
+
+    "사업으로 얻은 이익을 마피아 간부에게 바치고 자신도 마피아의 일원이 되는 것이었다."
+
+
+translate korean f010_38a03413:
+
+    "그는 말단이었지만 제법 유능해서 조직에 큰 이익을 가져다주었다."
+
+
+translate korean f010_8c3174d6:
+
+    "금융뿐만 아니라 땅 투기업자 같은 일도 맡으며 사회적 지위와 맞바꾸어 돈을 얻었다."
+
+
+translate korean f010_51385636:
+
+    "하지만 한편으로 페데리코는 자신이 번 돈을 높은 비율로 윗선에 빼앗기는 데 질렸다."
+
+
+translate korean f010_8fc4085c:
+
+    "그는 조직의 돈을 들고 달아나 스위스 은행으로 옮겼다."
+
+
+translate korean f010_a816515c:
+
+    "그리고 어느 해운업자를 눈여겨봤다. 거래한 적이 있는 해운업자다."
+
+
+translate korean f010_b28ba8e0:
+
+    "물론 정상적인 해운업자일 리 없다. 무기와 떳떳하게 팔 수 없는 장물도 거래하는 불법 업자."
+
+
+translate korean f010_8b70e29f:
+
+    "무국적선이라고 내세우지만 실상은 프랑스 여성이 지휘하는 독립 용병 집단 같은 자들이었다."
+
+
+translate korean f010_65020ed4:
+
+    voice get_voice_filename("fed")
+    federico "「지금 생각하면 나 같은 걸 잘도 태워 줬군」"
+
+
+translate korean f010_ecfbba32:
+
+    "선장을 맡은 프랑스 여성――오데트 마랑송에게 사정을 이야기하고 그는 해외 도피를 결심했다."
+
+
+translate korean f010_bb0ce172:
+
+    "마피아의 실체는 가족 경영 기업. 피가 이어지지 않은 페데리코는 아무리 노력해도 정상에 오를 수 없겠지."
+
+
+translate korean f010_058598c3:
+
+    "하지만 그래도 조직원에게는 피의 맹세와 규율이 있다. 그만둬도 기다리는 것은 감옥이고 애초에 살아서 마피아를 나가는 것은 불가능하다."
+
+
+translate korean f010_0cef9ced:
+
+    "페데리코는 다시 패배자가 되기를 두려워해 도망쳤다."
+
+
+translate korean f010_38c1b546:
+
+    "그리고 항해 도중 해적의 습격을 받아 오데트와 함께 죽는다――그것이 그의 운명."
+
+
+translate korean f010_f797cc41:
+
+    voice get_voice_filename("fed")
+    federico "「죽고 나서도 패배만 하다니 꼴 좋군」"
+
+
+translate korean f010_b4c95ab4:
+
+    "그렇게 과거를 떠올린 그는 환승역에 도착할 때까지 잠들기로 했다."
+
+
+translate korean f010_5611f257:
+
+    "일요일 아침 일본으로 돌아갈 때까지 알란의 정보를 찾겠다는 굳은 결의를 가슴에 품고."
+
+
+translate korean f010_ca25dd2b:
+
+    "그는 스스로 알아차리지 못했다."
+
+
+translate korean f010_1fef3d37:
+
+    "패배자의 인생인 동시에――그는 결코 꺾이지 않았고 마음 깊은 곳까지 타인에게 흡수되지 않은 채 언제나 더 거대한 것에 맞서 왔다는 사실을."
+
+
+translate korean f010_a953b312:
+
+    "페데리코 카르미나티는 진정한 패배자가 아니라는 사실을."
+
+
+translate korean f010_da427d1f:
+
+    "오늘 방과 후에는 제대로 가게 문을 열었다."
+
+
+translate korean f010_5ba2c90a:
+
+    "할머니 방 정리도 끝냈기에 상쾌한 기분이다."
+
+
+translate korean f010_7ff1efc5:
+
+    "폐점 후 모든 정리까지 마친 다음 나는 다시 일기장을 １층으로 가져왔다."
+
+
+translate korean f010_20810ba5:
+
+    "탁자 위에 일기장을 놓고 조심스러운 손길로 펼친다."
+
+
+translate korean f010_99e704f2:
+
+    "린다 씨와 다이아나 씨의 일상에 나는 더 깊이 빠져들었다."
+
+
+translate korean f010_241aa025:
+
+    "이날 알란은 호텔에 묵고 있었다."
+
+
+translate korean f010_fc12bcfe:
+
+    "알란은 요코하마 창고에서 숙식할 때와 이렇게 호텔에서 지내는 날을 불규칙하게 바꾸었다."
+
+
+translate korean f010_3536ddec:
+
+    "그에게 편안함은 문제가 아니다."
+
+
+translate korean f010_d0b6c5b4:
+
+    "스마트폰과 컴퓨터를 충전할 장소가 필요했던 것이다."
+
+
+translate korean f010_0dac33f0:
+
+    "그래도 푹신한 침대에서 자는 날은 그에게 잠깐이나마 안식을 주었다."
+
+
+translate korean f010_d073ff0f:
+
+    voice get_voice_filename("aln")
+    alan "「……오늘은 가지 않았군」"
+
+
+translate korean f010_52c1ee84:
+
+    "어제는 시시마이 린카를 만나기로 결심했지만 운 나쁘게 가게가 닫혀 있었다."
+
+
+translate korean f010_e26d0d51:
+
+    "하지만 알란은 아무래도 이날 찾아갈 마음이 들지 않았다."
+
+
+translate korean f010_10678b1c:
+
+    "때를 놓치면 잘 풀리지 않는 일도 있다."
+
+
+translate korean f010_1c757569:
+
+    "평소의 알란이라면 전혀 신경 쓰지 않겠지만 이제 시시마이 린카의 일이 되면 냉정함을 잃게 되었다."
+
+
+translate korean f010_714b7f9e:
+
+    voice get_voice_filename("aln")
+    alan "「아마 다음이 마지막――」"
+
+
+translate korean f010_fcdd0fb6:
+
+    "침대에 누워 말하다가 그는 자신이 처음으로 탈락시킨 상대를 떠올렸다."
+
+
+translate korean f010_e06e7100:
+
+    voice get_voice_filename("cha")
+    chan "「드디어 만났네!」"
+
+
+translate korean f010_1cda1652:
+
+    "≪인과의 시간≫――５월３일에서 ３일이 지난 일요일."
+
+
+translate korean f010_98c847d6:
+
+    "알란은 한 여성에게 불려 나갔다."
+
+
+translate korean f010_89631c96:
+
+    "알란은 꿈속에서 여신에게 ≪여신의 선정≫을 들었지만 １번째 선정――즉 다른 참가자와의 만남이 끝난 뒤 일본으로 갈 생각이었다."
+
+
+translate korean f010_58024512:
+
+    "그런 그가 일본으로 갈 일정을 앞당긴 것은 눈앞의 여성 장 장이 불렀기 때문이다."
+
+
+translate korean f010_4ab5ff10:
+
+    "보석 회사 사장인 그는 모르는 상대에게 약속을 잡자는 연락도 자주 받는다."
+
+
+translate korean f010_eb35e755:
+
+    "평소라면 무시했겠지만 전화 너머에서 나온 ≪여신의 선정≫이라는 말에 반응하지 않을 수 없었다."
+
+
+translate korean f010_811fd0f3:
+
+    "아직 반신반의하던 그였지만 이때 적어도 자신과 비슷한 상황에 놓인 사람이 있다는 사실은 알았다."
+
+
+translate korean f010_f743fb09:
+
+    voice get_voice_filename("cha")
+    chan "「와 줘서 기뻐요, 미스터 알란」"
+
+
+translate korean f010_4db21970:
+
+    "장은 알란과 몇 미터 떨어진 곳에 서서 자신감 넘치는 목소리로 말한다."
+
+
+translate korean f010_9cec715f:
+
+    "영락없는 여행객 차림인 그녀는 움직이기 편해 보이는 옷을 입었다. 몸단장도 단정한 아주 평범한 20대 초반 여성…… 그는 그녀에게 그런 인상을 받았다."
+
+
+translate korean f010_55d2d8d0:
+
+    voice get_voice_filename("aln")
+    alan "「왜 나를 알고 있지? 아니, 내가 선정 참가자라는 사실을 어떻게 알지?」"
+
+
+translate korean f010_08fc1fe5:
+
+    voice get_voice_filename("cha")
+    chan "「당신 이름이 유명하다는 정도는 본인도 알잖아요?」"
+
+
+translate korean f010_3ace5e2f:
+
+    voice get_voice_filename("cha")
+    chan "「２번째 질문에는…… 그래! 대답해 주지! 내 초기 카드 중 １장이 당신의 ≪이름≫이야. 당신처럼 이상한 이름은 흔치 않으니까」"
+
+
+translate korean f010_6c964856:
+
+    voice get_voice_filename("cha")
+    chan "「하지만 당신은 예전부터 알고 있었어. 윌리엄 류라는 남자를 알아?」"
+
+
+translate korean f010_c638c8e8:
+
+    voice get_voice_filename("aln")
+    alan "「……모르는군」"
+
+
+translate korean f010_727c4f91:
+
+    voice get_voice_filename("cha")
+    chan "「그럴 줄 알았어!」"
+
+
+translate korean f010_e8054a3d:
+
+    voice get_voice_filename("cha")
+    chan "「윌리엄――빌은 당신 회사와도 거래하는 광고 회사의 영업 담당이야」"
+
+
+translate korean f010_71509eed:
+
+    voice get_voice_filename("cha")
+    chan "「당신과도 만난 적이 있다고 했는데…… 아무래도 사장님은 하찮은 하청업자 같은 건 기억하지 않는 모양이네」"
+
+
+translate korean f010_3f85904e:
+
+    "알란은 이 시점에서 까다롭다기보다 귀찮다고 느꼈다."
+
+
+translate korean f010_5e264830:
+
+    "이런 유형의 여성은 질색이었다. 자꾸 상관없는 쪽으로 화제가 옮겨 가서 도무지 이야기가 진전되지 않는다."
+
+
+translate korean f010_0b388c84:
+
+    "그녀가 영업 사원이었다면 이 시점에서 알란은 자리를 떴을 것이다."
+
+
+translate korean f010_eddfd77b:
+
+    voice get_voice_filename("cha")
+    chan "「나는 그 빌의 약혼녀야!」"
+
+
+translate korean f010_f77dd382:
+
+    voice get_voice_filename("aln")
+    alan "「……용건을 빨리 말해 주겠나, 장 부인」"
+
+
+translate korean f010_0577174f:
+
+    voice get_voice_filename("cha")
+    chan "「어라…… 어라? 내 이름을 당신이 어떻게 알아? 나, 이름 말 안 했지?」"
+
+
+translate korean f010_1498da9c:
+
+    voice get_voice_filename("aln")
+    alan "「일부러 내 회사에 전화했잖아? 가명을 쓴 모양이지만 적어도 발신 번호를 숨기고 전화했어야지」"
+
+
+translate korean f010_e3d45c06:
+
+    voice get_voice_filename("cha")
+    chan "「……네?」"
+
+
+translate korean f010_c700b01d:
+
+    "알란은 그렇게 말하고 카드 １장을 꺼냈다."
+
+
+translate korean f010_3d8cb4a0:
+
+    "그것은 장도 본 적 있는, 자신도 가진 것과 같은 디자인의 카드."
+
+
+translate korean f010_a7c10354:
+
+    "앞면에는 ≪Ⅵ·이름――장 장≫이라고 적혀 있다. 그 번호의 의미를 장은 아직 이해하지 못했지만 자기 이름이 적혀 있다는 것은 한눈에 알 수 있었다."
+
+
+translate korean f010_4093be1f:
+
+    voice get_voice_filename("aln")
+    alan "「새 카드가 태어나는 순간을 나는 이미 목격했다」"
+
+
+translate korean f010_2dc42cba:
+
+    voice get_voice_filename("cha")
+    chan "「자, 잠깐! 그런 건 반칙 아니야!? 개인정보 같은 건 어떻게 되는 거야!」"
+
+
+translate korean f010_3719f4e4:
+
+    "당황한 장에게 알란은 아무 말도 하지 않는다."
+
+
+translate korean f010_89ef611c:
+
+    "진지하게 상대해도 자신에게 이득이 없다는 것을 그는 이미 알고 있었다."
+
+
+translate korean f010_908bccb4:
+
+    voice get_voice_filename("cha")
+    chan "「하, 하지만 이름이잖아. 나 같은 건 흔한 이름이고 어차피 금방 들킬 거야」"
+
+
+translate korean f010_69c993b0:
+
+    voice get_voice_filename("cha")
+    chan "「그보다……」"
+
+
+translate korean f010_e17711a7:
+
+    voice get_voice_filename("aln")
+    alan "「장 장. 네 ≪사인≫은 ≪추락사≫로군?」"
+
+
+translate korean f010_dd351ec3:
+
+    voice get_voice_filename("cha")
+    chan "「뭐…… 으으으, 거짓말! 당신이 어떻게 알아!」"
+
+
+translate korean f010_f32b8dff:
+
+    "원리는 간단했다."
+
+
+translate korean f010_a1e6bef7:
+
+    "알란의 초기 카드 가운데 ≪Ⅵ·사인·추락사≫라는 것이 있었다."
+
+
+translate korean f010_36590800:
+
+    "운명의 대회랑에서 얼굴을 마주하지도 않았으니 이것만으로는 대체 누구의 카드인지 짐작조차 할 수 없다."
+
+
+translate korean f010_b3ff39be:
+
+    "하지만 장의 ≪이름≫ 카드가 만들어졌을 때 알란은 참가자마다 번호가 배정되어 있다는 사실을 알아차렸다."
+
+
+translate korean f010_c13f1586:
+
+    "≪자신의 카드≫에 ≪Ⅻ≫라는 번호가 붙은 시점에서 예상은 했지만 이제 확신으로 바뀌었다."
+
+
+translate korean f010_51ece1e7:
+
+    "그리고 ≪Ⅵ≫이 장이라는 사실을 알면 그녀의 ≪사인≫과 이어진다."
+
+
+translate korean f010_7ba90c2f:
+
+    voice get_voice_filename("cha")
+    chan "「나 혹시 중요한 말을 해 버렸던 거야?」"
+
+
+translate korean f010_f233eae8:
+
+    "눈앞의 여자가 위기감조차 제대로 느끼지 않는 모습에 알란은 짜증까지 느꼈다."
+
+
+translate korean f010_19081a03:
+
+    voice get_voice_filename("aln")
+    alan "「……이름을 가볍게 여긴다면 그 생각은 고치는 편이 좋다. 다만 내세에서 말이지」"
+
+
+translate korean f010_54bf4c84:
+
+    "알란은 이미 무교였지만 무심코 그 말을 썼다. 어릴 때 가족에게 그런 개념이 있다고 들은 적이 있었다."
+
+
+translate korean f010_e9e05a2a:
+
+    voice get_voice_filename("cha")
+    chan "「하, 하아? 무, 뭐야! 당신은 아직 내 ≪미련≫을 모를 텐데, 게다가……」"
+
+
+translate korean f010_c4784e72:
+
+    voice get_voice_filename("aln")
+    alan "「혼전 여행인지 단순한 여행인지는 모르지만 너는 윌리엄과 등산을 즐겼다. 등산이라고 해도 본격적인 것은 아니고 거의 소풍이었지」"
+
+
+translate korean f010_aa3a3bd2:
+
+    voice get_voice_filename("aln")
+    alan "「하지만 너희는 호기심을 이기지 못하고 경로를 벗어나 절벽 쪽으로 향했다. 그쪽 경치가 더 좋다고 생각한 모양이군」"
+
+
+translate korean f010_40895587:
+
+    voice get_voice_filename("cha")
+    chan "「뭐? 뭐야? 당신이 어떻게 알아! 설마…… 스토커?」"
+
+
+translate korean f010_1b1bc059:
+
+    voice get_voice_filename("cha")
+    chan "「싫어, 싫어! 당신 얼굴은 나쁘지 않지만 음침해 보여서 무리야! 애초에 나는 빌만 바라보니까!」"
+
+
+translate korean f010_a042229e:
+
+    voice get_voice_filename("aln")
+    alan "「아마 이 추락사라는 것은 그때 발을 헛디뎠기 때문이겠지. 굳이 출입 금지 장소에 들어가 그런 결말이라니…… 어리석다고밖에는 할 수 없군」"
+
+
+translate korean f010_6f6230cd:
+
+    voice get_voice_filename("cha")
+    chan "「시끄러워! 아니, 그보다 왜 나를 그렇게 잘 아는지 빨리 말해!」"
+
+
+translate korean f010_1e87e805:
+
+    voice get_voice_filename("aln")
+    alan "「짐작 가는 게 없는 건가, 당황해서 놓치고 있는 건가」"
+
+
+translate korean f010_e5091977:
+
+    "알란은 장의 이름을 안 시점에서 그녀의 정보를 철저히 조사했다."
+
+
+translate korean f010_b96d7984:
+
+    "≪여신의 선정≫이 실제로 존재하는지 완전히 믿지는 못했지만 빛 속에서 카드가 만들어지는 현상과 언어의 장벽을 간단히 넘는 카드 북의 존재를 인정하면 적어도 절반은 믿어야 했다."
+
+
+translate korean f010_b6485e7e:
+
+    "상대를 알아 두면 어떤 협상을 할 때도 유리해진다. 알란은 그렇게 생각했다."
+
+
+translate korean f010_039a3c90:
+
+    "그래서 장을 철저히 조사했다. 입 밖에 내지는 않지만 당연히 약혼자 윌리엄도."
+
+
+translate korean f010_a68bab6f:
+
+    "물론 조금 전 알란이 말한 정보는 도중까지 장 자신이 SNS에 올린 내용이었다."
+
+
+translate korean f010_6992f034:
+
+    "추락한 일 자체는 눈앞의 그녀를 보면 ≪없었던 일≫이 되었다고 알 수 있지만 지금까지의 정보로 여행 중의 호기심이 사인으로 이어졌다고 추측하는 것은 어렵지 않다."
+
+
+translate korean f010_5247ff1c:
+
+    voice get_voice_filename("cha")
+    chan "「좋아…… 이제 장난은 끝내지」"
+
+
+translate korean f010_316f7b27:
+
+    "장은 이마의 땀을 닦고 품속에서 식칼을 꺼냈다."
+
+
+translate korean f010_1b4f6fa2:
+
+    "이른바 규토로 칼날 길이는 20센티미터 정도. 그녀가 무엇에 쓰려는지는 명백했다."
+
+
+translate korean f010_bbbab6d7:
+
+    voice get_voice_filename("cha")
+    chan "「나는 살아남고 싶어…… 빌과의 신혼 생활이 기다리고 있으니까!」"
+
+
+translate korean f010_f3f8e602:
+
+    "장은 칼날을 위로 향해 들고 알란에게 돌진했다."
+
+
+translate korean f010_2bcbbf6e:
+
+    "두 사람의 거리는 ５미터도 되지 않아 여성의 걸음으로도 순식간에 알란에게 도달한다."
+
+
+translate korean f010_f43591d4:
+
+    "게다가 장은 어릴 때부터 테니스 선수였고 다리 힘에는 자신이 있었다."
+
+
+translate korean f010_606403f4:
+
+    "그녀는 자신의 갑작스러운 행동에 부잣집 도련님인 알란이 대응할 리 없다고――그렇게 생각했다."
+
+
+translate korean f010_aa53d723:
+
+    voice get_voice_filename("aln")
+    alan "「≪여신의 선정≫ 참가자는 죽지 않는다고 여신에게 듣지 못했나?」"
+
+
+translate korean f010_a265ee4b:
+
+    "알란은 몸을 틀어 식칼을 피하고 장의 손목을 비틀어 칼을 빼앗았다."
+
+
+translate korean f010_2bf7e4cb:
+
+    "그리고 한 손으로 장의 팔을 꺾어 제압하면서 칼끝을 목에 겨눈다."
+
+
+translate korean f010_0b621b1c:
+
+    voice get_voice_filename("cha")
+    chan "「뭐? 어라? 왜 이런 상황이지? 자, 잠깐 기다리자」"
+
+
+translate korean f010_7b1ae650:
+
+    voice get_voice_filename("aln")
+    alan "「믿지 않았다는 건가. 물론 이 점은 나도 시험하지 않았으니 믿지는 않아」"
+
+
+translate korean f010_7db55a1f:
+
+    voice get_voice_filename("cha")
+    chan "「나, 나 지금 위험하지 않아? 이 상황 위험하지 않아?」"
+
+
+translate korean f010_70756b13:
+
+    voice get_voice_filename("cha")
+    chan "「있잖아, 그걸로 목의 혈관을 베면 나…… 죽어. 당신, 살인자가 된다고」"
+
+
+translate korean f010_0dca46d8:
+
+    voice get_voice_filename("aln")
+    alan "「――흥」"
+
+
+translate korean f010_30d9b307:
+
+    "조금 전 자신을 찌르려 한 일은 모른 척하고 무슨 말을 하는 건가, 하고 알란은 생각했다."
+
+
+translate korean f010_cc176ee3:
+
+    "하지만 장에게 무슨 말을 해도 소용없다는 것은 이미 분명했다."
+
+
+translate korean f010_fdd50414:
+
+    voice get_voice_filename("aln")
+    alan "「시험해 볼까?」"
+
+
+translate korean f010_5be066ba:
+
+    voice get_voice_filename("cha")
+    chan "「싫어, 싫다고」"
+
+
+translate korean f010_43622d7f:
+
+    voice get_voice_filename("cha")
+    chan "「살려 줘, 살려 줘어어!」"
+
+
+translate korean f010_ccd8ba57:
+
+    "이 뒤는 비참하다고밖에는 할 수 없었다."
+
+
+translate korean f010_50486551:
+
+    "장의 목소리에 맞추듯 숨어 있던 윌리엄이 튀어나온 것이다."
+
+
+translate korean f010_ff417499:
+
+    "알란에게 달려들었지만 알란은 장을 방패 삼아 막았다."
+
+
+translate korean f010_5b178e4a:
+
+    "식칼은 방해가 되기에 내던지고, 장을 눈앞에 두고 멈춘 윌리엄을 향해 장의 등을 밀었다."
+
+
+translate korean f010_e4b363f3:
+
+    "윌리엄 위에 장이 올라탄 모양새가 되었고 알란은 두 사람을 내려다보았다."
+
+
+translate korean f010_439b92d7:
+
+    voice get_voice_filename("aln")
+    alan "「미스터 윌리엄. 오늘 밤은 마지막 시간을 보내도록 해라」"
+
+
+translate korean f010_a6b78f86:
+
+    "알란은 차가운 목소리로 그렇게 말하고 카드 １장을 장에게 보여 주었다."
+
+
+translate korean f010_b22c2a28:
+
+    "――Ⅵ·미련·신혼 생활."
+
+
+translate korean f010_71ae29ce:
+
+    voice get_voice_filename("cha")
+    chan "「아아…… 아…… 내, 미, 미련……」"
+
+
+translate korean f010_9f82d68c:
+
+    voice get_voice_filename("aln")
+    alan "「12명 가운데 네가 가장 어리석은 참가자겠군」"
+
+
+translate korean f010_dc34bf71:
+
+    "냉혹한 눈은 이제 장에게 흥미를 잃었다."
+
+
+translate korean f010_7a2dfba9:
+
+    "알란은 일부러 바닥에서 식칼을 주워 두 사람에게 돌려주었다."
+
+
+translate korean f010_11dd1d5a:
+
+    "일본에 막 온 알란이 이런 것을 가지고 있다가 경찰 불심검문이라도 받으면 불리해지기 때문이다."
+
+
+translate korean f010_db4d90dc:
+
+    "장도 윌리엄도 이것을 기회라고 생각하지 못했다."
+
+
+translate korean f010_4efba00e:
+
+    "설령 그들에게 권총이 있어도 이 남자를 이길 수 없다. 본능에 공포로 새겨지고 말았다."
+
+
+translate korean f010_54007c0f:
+
+    "이 두 사람이 이후 어떻게 지냈는지 알란은 조금도 관심을 두지 않았다."
+
+
+translate korean f010_64b3d845:
+
+    voice get_voice_filename("aln")
+    alan "「이 창고는…… 쓸 만하군」"
+
+
+translate korean f010_f4701473:
+
+    "이미 쓰지 않는 곳이고 사람도 드나들지 않는다."
+
+
+translate korean f010_0ad41264:
+
+    "도심에서 너무 가깝지도 멀지도 않은 적당한 거리."
+
+
+translate korean f010_08c8a987:
+
+    "며칠 지켜보고 문제가 없으면 그는 이곳을 거점으로 삼기로 했다."
+
+
+translate korean f010_61eabaa4:
+
+    voice get_voice_filename("aln")
+    alan "「지금이라면 그 필사적인 마음만은 이해 못 할 것도…… 없나」"
+
+
+translate korean f010_c2f90a66:
+
+    "천장을 올려다보며 알란은 그렇게 중얼거렸다."
+
+
+translate korean f010_0443288d:
+
+    "２시간 정도 지나고 읽은 분량은 어제와 마찬가지로 전체의 ５분의１쯤이었다."
+
+
+translate korean f010_dbd7af78:
+
+    "메이지 말기 소녀의 일기는 무척 귀중하고 재미있기도 하지만, 소설과 달리 절정을 만들며 쓴 것이 아니라 싫증이 나는 점은 부정할 수 없다."
+
+
+translate korean f010_6ca8c0ec:
+
+    "≪여신의 선정≫과는 무관하지만 흥미로운 기록이 있었다."
+
+
+translate korean f010_c9c612ef:
+
+    voice get_voice_filename("rnk")
+    rinka "「린다 씨 일행도 검은 고양이를 키웠구나」"
+
+
+translate korean f010_683563ec:
+
+    "자기 멋대로인 고양이로 린다 씨보다 다이아나 씨를 더 잘 따랐던 모양이다."
+
+
+translate korean f010_de87b41a:
+
+    "원할 때 나타나고 원할 때 사라진다…… 같은 검은 고양이니 어쩌면 레테의 조상일지도 모른다."
+
+
+translate korean f010_93f15cb0:
+
+    "이름은 레오인 모양이다. 이름까지 레테와 비슷하다."
+
+
+translate korean f010_ef079603:
+
+    "일기에는 깨진 유리를 밟아 오른쪽 앞발 발바닥에 상처가 남았다는 일화가 적혀 있었다."
+
+
+translate korean f010_942f6b05_1:
+
+    voice get_voice_filename("cat")
+    lete "「냥?」"
+
+
+translate korean f010_b434146b:
+
+    "마음속으로 이야기해서인지 우연히 레테가 지나갔다."
+
+
+translate korean f010_dc6f88ee:
+
+    voice get_voice_filename("rnk")
+    rinka "「너도 유리 조심해. 사실 밟은 적이 있다거나 하지는 않지?」"
+
+
+translate korean f010_2456768c:
+
+    voice get_voice_filename("cat")
+    lete "「냐아」"
+
+
+translate korean f010_dd13e850:
+
+    "내가 다가가려 하자 불길한 예감을 느꼈는지 레테는 종종걸음으로 달려 어딘가로 사라졌다."
+
+
+translate korean f010_3145c625:
+
+    "저렇게 건강하다면 걱정할 필요는 없겠지."
+
+
+translate korean f010_cd219f63:
+
+    "나는 일기장을 조심스럽게 덮고 내 방으로 돌아가기로 했다."
+
+
+translate korean f010_9379f95e:
+
+    "잠잘 준비를 마치고 누운 나는 이제 어떻게 해야 할지 생각했다."
+
+
+translate korean f010_46a037d9:
+
+    "문제를 정리하자. 큰 문제는 ３개다."
+
+
+translate korean f010_3106ff6e:
+
+    "어떻게 해야 미하루와 나 둘 다 살아남을 방법을 찾을 수 있을까."
+
+
+translate korean f010_735116cb:
+
+    "이것이 가장 중요하고 아직 출구가 전혀 보이지 않는다. 하지만 ≪여신의 선정≫을 파헤친다는 방향은 틀리지 않았을 것이다."
+
+
+translate korean f010_50acf44e:
+
+    "적어도 린다 씨의 일기장을 다 읽을 때까지는 진전이 없다고 단언할 수 없다."
+
+
+translate korean f010_0ee4365f:
+
+    "다음은 알란 씨의 정보를 어떻게 모을 것인가."
+
+
+translate korean f010_868952b7:
+
+    "이 일은 내게 마음이 무거운 문제였다. 그의 진의를 전혀 모르기 때문이다."
+
+
+translate korean f010_63226dd1:
+
+    "알란 씨가 나를 적대하지 않는다는 건 안다. 하지만 그렇다고 탈락해도 좋다고 생각하지는 않을 것이다."
+
+
+translate korean f010_5c60a662:
+
+    "그러니 필요한 것은――대화하는 일."
+
+
+translate korean f010_7fc5e9d2:
+
+    "연락할 방법은 없지만 머지않아 그쪽에서 다시 접촉해 오리라는 예감이 들었다."
+
+
+translate korean f010_7a4e40eb:
+
+    "마지막 문제는 페데리코 씨의 정보를 어떻게 모을 것인가다. ≪이름≫과 ≪사인≫은 알지만 ≪미련≫에 관한 정보는 아직 없다."
+
+
+translate korean f010_8eb7ccca:
+
+    "그와는 직접 만난 적도 없고 실마리도 없다."
+
+
+translate korean f010_ad1b6227:
+
+    voice get_voice_filename("rnk")
+    rinka "「……어라」"

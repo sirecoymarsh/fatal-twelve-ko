@@ -1,0 +1,66 @@
+{
+  "schema_version": "fatal-twelve-renpy-catalog-v1",
+  "validated_at_utc": "2026-08-10T10:07:49.255776+00:00",
+  "catalog": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\catalog_design\\scenario_003.catalog.jsonl",
+  "records": 1526,
+  "require_translated": false,
+  "source_rebuild_performed": true,
+  "metadata_checked": true,
+  "errors": [],
+  "warnings": [],
+  "passed": true,
+  "meta_checks": {
+    "catalog_hash": {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\catalog_design\\scenario_003.catalog.jsonl",
+      "size": 5054467,
+      "sha256": "32d4d9a432f041be0b67646f3af4c29247165d100e5fb1a3b371a8bb0cf0e4c5"
+    },
+    "statistics": {
+      "records": 1526,
+      "lanes": {
+        "dialogue": 630,
+        "dialogue_choice_prompt": 1,
+        "narration": 893,
+        "spoken_choice": 2
+      },
+      "voiced_records": 633,
+      "translation_id_records": 1523,
+      "menu_key_records": 3,
+      "reference_present": 1525,
+      "reference_missing": 1,
+      "speakers": {
+        "<narrator>": 895,
+        "alan": 14,
+        "alan_num": 27,
+        "alan_unk2": 2,
+        "chanho": 7,
+        "federico": 15,
+        "keiko": 108,
+        "keiko_num": 8,
+        "keiko_unk1": 1,
+        "keiko_unk2": 1,
+        "mao": 21,
+        "miharu": 16,
+        "miharu_num": 1,
+        "naomi": 149,
+        "odette": 25,
+        "parca": 14,
+        "rinka": 221,
+        "rinka_num": 1
+      },
+      "labels": {
+        "f003": 240,
+        "f003.s1_1": 10,
+        "f003.s1_2": 3,
+        "f003.s1_end": 1161,
+        "sentei3": 112
+      },
+      "protected_token_kinds": {
+        "number": 101,
+        "renpy_text_tag": 20
+      },
+      "japanese_codepoints_in_source_text": 38221,
+      "untranslated": 1526
+    }
+  }
+}

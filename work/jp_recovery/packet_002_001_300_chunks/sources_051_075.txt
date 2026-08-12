@@ -1,0 +1,25 @@
+051	L0181	narration	narrator	ここにいる私は、本当は死んでいるはずの私――なのだろうか。
+052	L0186	dialogue	mao	「元気ないぞ～、りーたん！　疲れちゃった？」
+053	L0191	dialogue	rinka	「そうかも。結構歩いてたし」
+054	L0196	dialogue	mao	「うちも昨日は疲れてすぐ寝ちゃったよ～。だから今朝はちょー早起きだったのだよ……」
+055	L0201	dialogue	rinka	「だから月曜日なのに遅刻しなかったんだね」
+056	L0206	dialogue	mao	「まるでうちが月曜日はいつも遅刻してるみたいな言い方だねぇ。違わないけど」
+057	L0212	narration	narrator	真央と話していて、私は少し元気が出てきた。
+058	L0214	narration	narrator	夢が事実であれ、今の私にやれることは分からない。だったら、普通に過ごす方がいいのかもしれない。
+059	L0216	narration	narrator	少なくとも、海晴とちゃんと話すまでは――。
+060	L0218	narration	narrator	だが私の気持ちの裏をかいたかのように、この日、始業時間になっても海晴は登校してこなかった。
+061	L0233	narration	narrator	放課後になっても、結局海晴は来なかった。
+062	L0235	narration	narrator	チャットを送ってはみたが、既読すらつかなかった。
+063	L0237	narration	narrator	あの夢のこともあり心配に思っていた。しかし、その心配は真央が私の席の方まで来てすぐに解決した。
+064	L0242	dialogue	mao	「みはるん、今日体調不良だったんだってさ～。もう良くなったから、バイトには行くみたいだけど」
+065	L0247	dialogue	rinka	「え？　返事来たの？」
+066	L0252	dialogue	mao	「おうっ。ソッコー来たよ？」
+067	L0257	dialogue	rinka	「私の方、既読にすらならないんだけど……」
+068	L0262	dialogue	mao	「ああー、いや、なんでだろうねぇ。気付かなかったんじゃないかな？」
+069	L0264	narration	narrator	とぼける真央に、私は不服そうな顔を作って見せた。
+070	L0266	narration	narrator	真央は目を逸らしたが、私はじっと見ていた。視線が泳いでいたが、すぐに私と目が合った。
+071	L0271	dialogue	mao	「二人の間にさ、昨日、何かあった？」
+072	L0276	dialogue	rinka	「えっ……？　昨日……？」
+073	L0278	narration	narrator	真央から言われた私は、つい聞き返してしまった。
+074	L0280	narration	narrator	まさか、真央はすでに海晴から何かを聞いている――？
+075	L0285	dialogue	mao	「パレードの時、二人きりだったよね？」

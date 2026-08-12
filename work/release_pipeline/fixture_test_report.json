@@ -1,0 +1,87 @@
+{
+  "deterministic_build": {
+    "byte_identical": true,
+    "second_build_sha256": "da41f618a0a95eec77efd2146416bc85e5475b29f647cb7cd36e09aeb233adf0",
+    "zip_sha256": "da41f618a0a95eec77efd2146416bc85e5475b29f647cb7cd36e09aeb233adf0"
+  },
+  "failed": 0,
+  "game_execution": false,
+  "passed": 14,
+  "powershell": "powershell.exe",
+  "powershell_version": "5.1.26100.8972",
+  "schema_version": 1,
+  "status": "PASS",
+  "synthetic_only": true,
+  "tests": [
+    {
+      "name": "pristine_install_restore_and_idempotency",
+      "seconds": 4.188,
+      "status": "PASS"
+    },
+    {
+      "name": "additive_absent_install_restore",
+      "seconds": 2.015,
+      "status": "PASS"
+    },
+    {
+      "name": "explicit_supported_mixed_state",
+      "seconds": 2.016,
+      "status": "PASS"
+    },
+    {
+      "name": "tampered_payload_prewrite_rejection",
+      "seconds": 0.656,
+      "status": "PASS"
+    },
+    {
+      "name": "tampered_game_baseline_prewrite_rejection",
+      "seconds": 0.922,
+      "status": "PASS"
+    },
+    {
+      "name": "tampered_trusted_anchor_prewrite_rejection",
+      "seconds": 0.891,
+      "status": "PASS"
+    },
+    {
+      "name": "unsupported_mixture_prewrite_rejection",
+      "seconds": 0.906,
+      "status": "PASS"
+    },
+    {
+      "name": "unexpected_package_file_prewrite_rejection",
+      "seconds": 0.687,
+      "status": "PASS"
+    },
+    {
+      "name": "tampered_backup_prewrite_rejection",
+      "seconds": 1.907,
+      "status": "PASS"
+    },
+    {
+      "name": "tampered_state_path_prewrite_rejection",
+      "seconds": 1.968,
+      "status": "PASS"
+    },
+    {
+      "name": "nth_replacement_failure_verified_rollback",
+      "seconds": 1.188,
+      "status": "PASS"
+    },
+    {
+      "name": "forced_interruption_journal_recovery",
+      "seconds": 3.469,
+      "status": "PASS"
+    },
+    {
+      "name": "unicode_spaces_windows_powershell_5_1",
+      "seconds": 2.234,
+      "status": "PASS"
+    },
+    {
+      "name": "canonical_process_path_same_name_and_exact_target",
+      "seconds": 3.578,
+      "status": "PASS"
+    }
+  ]
+}

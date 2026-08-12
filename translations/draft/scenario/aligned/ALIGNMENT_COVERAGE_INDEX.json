@@ -1,0 +1,119 @@
+{
+  "schema_version": "fatal-twelve-aligned-coverage-index-v1",
+  "generated_at_utc": "2026-08-10T10:06:01.942549+00:00",
+  "scope": "Only scripts with aligned Japanese-source draft packets; not whole-game completeness.",
+  "scripts": [
+    {
+      "script": "scenario/001.rpy",
+      "catalog_records": 844,
+      "matched_exact_source_records": 844,
+      "coverage_percent": 100.0,
+      "untranslated_records": 0,
+      "duplicate_draft_source_records": 1,
+      "translation_text_modified": false,
+      "translation_QA_performed": false,
+      "manifest": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\alignment_manifest.json",
+        "size": 19513,
+        "sha256": "f8442c81f7edc9c60e4850e2470336fdc39bef87bc0516479a4b9ca4aa8df2af"
+      }
+    },
+    {
+      "script": "scenario/BAD_END_01.rpy",
+      "catalog_records": 58,
+      "matched_exact_source_records": 58,
+      "coverage_percent": 100.0,
+      "untranslated_records": 0,
+      "duplicate_draft_source_records": 0,
+      "translation_text_modified": false,
+      "translation_QA_performed": false,
+      "coverage_report": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_01_aligned.coverage.json",
+        "size": 2127,
+        "sha256": "a32fc433caa50321cf0d57c9f8d84b0b9e76efa345d256081538a30bec82c68f"
+      }
+    },
+    {
+      "script": "scenario/BAD_END_02.rpy",
+      "catalog_records": 80,
+      "matched_exact_source_records": 80,
+      "coverage_percent": 100.0,
+      "untranslated_records": 0,
+      "duplicate_draft_source_records": 0,
+      "translation_text_modified": false,
+      "translation_QA_performed": false,
+      "coverage_report": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.coverage.json",
+        "size": 2128,
+        "sha256": "6c2a1dba8273acf6a17727bc22065fd0c00098d19b8d887ba88c296c03aac127"
+      }
+    },
+    {
+      "script": "scenario/BAD_END_03.rpy",
+      "catalog_records": 21,
+      "matched_exact_source_records": 21,
+      "coverage_percent": 100.0,
+      "untranslated_records": 0,
+      "duplicate_draft_source_records": 0,
+      "translation_text_modified": false,
+      "translation_QA_performed": false,
+      "coverage_report": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_03_aligned.coverage.json",
+        "size": 2146,
+        "sha256": "bed99a61f7c8f69818bdf6bc6bc06262e1a5a771cd3b588b01a9da53c4340a5c"
+      }
+    },
+    {
+      "script": "scenario/BAD_END_04.rpy",
+      "catalog_records": 43,
+      "matched_exact_source_records": 43,
+      "coverage_percent": 100.0,
+      "untranslated_records": 0,
+      "duplicate_draft_source_records": 0,
+      "translation_text_modified": false,
+      "translation_QA_performed": false,
+      "coverage_report": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_04_aligned.coverage.json",
+        "size": 2127,
+        "sha256": "ade9d345f823a036c931756ec10bc123cb8178b5959e281ed59ae8256574646a"
+      }
+    },
+    {
+      "script": "scenario/MIHARU_END.rpy",
+      "catalog_records": 26,
+      "matched_exact_source_records": 26,
+      "coverage_percent": 100.0,
+      "untranslated_records": 0,
+      "duplicate_draft_source_records": 0,
+      "translation_text_modified": false,
+      "translation_QA_performed": false,
+      "coverage_report": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\MIHARU_END_aligned.coverage.json",
+        "size": 2125,
+        "sha256": "a939fd89682b51b452bb672d9f529dd78f8b3d1ad30381351dc74e6cc94a1edb"
+      }
+    },
+    {
+      "script": "scenario/UNHAPPY_END.rpy",
+      "catalog_records": 87,
+      "matched_exact_source_records": 87,
+      "coverage_percent": 100.0,
+      "untranslated_records": 0,
+      "duplicate_draft_source_records": 0,
+      "translation_text_modified": false,
+      "translation_QA_performed": false,
+      "coverage_report": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.coverage.json",
+        "size": 2132,
+        "sha256": "31c3d3917660473217506cfa7642f64c6fee366b1740e824348654019a22f354"
+      }
+    }
+  ],
+  "totals": {
+    "scripts": 7,
+    "catalog_records": 1159,
+    "matched_exact_source_records": 1159,
+    "untranslated_records": 0,
+    "translation_QA_performed": false
+  }
+}

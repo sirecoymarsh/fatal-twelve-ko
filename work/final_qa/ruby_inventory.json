@@ -1,0 +1,1436 @@
+{
+  "schema_version": 1,
+  "record_count": 42,
+  "records": [
+    {
+      "script": "scenario_001",
+      "sequence": 9,
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_8024772c",
+      "source_jp": "私の名前は、{rb}獅子舞{/rb}{rt}ししまい{/rt}{rb}凛火{/rb}{rt}りんか{/rt}。",
+      "draft_ko": "내 이름은 시시마이 린카.",
+      "source_pairs": [
+        [
+          "獅子舞",
+          "ししまい"
+        ],
+        [
+          "凛火",
+          "りんか"
+        ]
+      ],
+      "target_pairs": [],
+      "source_errors": [],
+      "target_errors": [],
+      "source_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt",
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ],
+      "target_skeleton": []
+    },
+    {
+      "script": "scenario_001",
+      "sequence": 10,
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_bc643489",
+      "source_jp": "都内でそこそこ有名な女子校、私立{rb}飴茶{/rb}{rt}あめちゃ{/rt}女子大学付属高校の２年生だ。",
+      "draft_ko": "도쿄에서 제법 유명한 여학교, 사립 아메차 여자대학 부속 고등학교 2학년이다.",
+      "source_pairs": [
+        [
+          "飴茶",
+          "あめちゃ"
+        ]
+      ],
+      "target_pairs": [],
+      "source_errors": [],
+      "target_errors": [],
+      "source_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ],
+      "target_skeleton": []
+    },
+    {
+      "script": "scenario_001",
+      "sequence": 23,
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_619b8ef6",
+      "source_jp": "改札口を抜けた先にあるアナログ時計に目を遣って、私は{rb}直未{/rb}{rt}なおみ{/rt}に話しかけた。",
+      "draft_ko": "개찰구를 빠져나온 곳에 있는 아날로그 시계로 눈을 돌리며, 나는 나오미에게 말을 걸었다.",
+      "source_pairs": [
+        [
+          "直未",
+          "なおみ"
+        ]
+      ],
+      "target_pairs": [],
+      "source_errors": [],
+      "target_errors": [],
+      "source_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ],
+      "target_skeleton": []
+    },
+    {
+      "script": "scenario_001",
+      "sequence": 27,
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_94682d80",
+      "source_jp": "はにかみながら答えたのは、一つ年下の{rb}日辻{/rb}{rt}ひつじ{/rt}{rb}直未{/rb}{rt}なおみ{/rt}だ。",
+      "draft_ko": "수줍게 웃으며 대답한 사람은 한 살 아래인 히츠지 나오미다.",
+      "source_pairs": [
+        [
+          "日辻",
+          "ひつじ"
+        ],
+        [
+          "直未",
+          "なおみ"
+        ]
+      ],
+      "target_pairs": [],
+      "source_errors": [],
+      "target_errors": [],
+      "source_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt",
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ],
+      "target_skeleton": []
+    },
+    {
+      "script": "scenario_001",
+      "sequence": 103,
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_10e1937e",
+      "source_jp": "「あー、確かに{rb}海晴{/rb}{rt}みはる{/rt}か{rb}真央{/rb}{rt}まお{/rt}と話してるかもね」",
+      "draft_ko": "“아, 확실히 미하루나 마오랑 얘기했을지도 모르겠네.”",
+      "source_pairs": [
+        [
+          "海晴",
+          "みはる"
+        ],
+        [
+          "真央",
+          "まお"
+        ]
+      ],
+      "target_pairs": [],
+      "source_errors": [],
+      "target_errors": [],
+      "source_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt",
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ],
+      "target_skeleton": []
+    },
+    {
+      "script": "scenario_001",
+      "sequence": 109,
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_c1b0c312",
+      "source_jp": "私たちが乗り込んだのは、{rb}王塚{/rb}{rt}おうつか{/rt}駅。",
+      "draft_ko": "우리가 전철에 올라탄 곳은 오우츠카역.",
+      "source_pairs": [
+        [
+          "王塚",
+          "おうつか"
+        ]
+      ],
+      "target_pairs": [],
+      "source_errors": [],
+      "target_errors": [],
+      "source_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ],
+      "target_skeleton": []
+    },
+    {
+      "script": "scenario_001",
+      "sequence": 177,
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_57d238c9",
+      "source_jp": "私を起こしたのはクラスメイトの{rb}小熊{/rb}{rt}おぐま{/rt}{rb}真央{/rb}{rt}まお{/rt}だ。いつも通り、派手な色の髪を両結びにし、巻いている。",
+      "draft_ko": "나를 깨운 것은 같은 반 친구 오구마 마오다. 여느 때처럼 화려한 색의 머리를 양 갈래로 묶고 곱슬곱슬 말아 놓았다.",
+      "source_pairs": [
+        [
+          "小熊",
+          "おぐま"
+        ],
+        [
+          "真央",
+          "まお"
+        ]
+      ],
+      "target_pairs": [],
+      "source_errors": [],
+      "target_errors": [],
+      "source_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt",
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ],
+      "target_skeleton": []
+    },
+    {
+      "script": "scenario_001",
+      "sequence": 221,
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_ac7093e8",
+      "source_jp": "ちなみにこの避けられ組には、今は恐らくバイト中の同級生、{rb}未島{/rb}{rt}みしま{/rt}海晴も含まれている。",
+      "draft_ko": "참고로 이 기피당하는 조에는 지금은 아마 아르바이트 중일 동급생, 미시마 미하루도 포함되어 있다.",
+      "source_pairs": [
+        [
+          "未島",
+          "みしま"
+        ]
+      ],
+      "target_pairs": [],
+      "source_errors": [],
+      "target_errors": [],
+      "source_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ],
+      "target_skeleton": []
+    },
+    {
+      "script": "scenario_002",
+      "sequence": 296,
+      "stable_id": "scenario.rpa::scenario/002.rpy::tid::f002_639ebc90",
+      "source_jp": "「{rb}魯{/rb}{rt}Ro{/rt} {rb}昌鎬{/rb}{rt}Chanho{/rt}――そいつの名前だ。調べ直してみたらまあ、ピンピンしてるみたいだぜ」",
+      "draft_ko": "「{rb}루{/rb}{rt}Ro{/rt} {rb}창호{/rb}{rt}Chanho{/rt}――그 녀석의 이름이야. 다시 조사해 보니 뭐, 아주 멀쩡하게 지내는 모양이더군」",
+      "source_pairs": [
+        [
+          "魯",
+          "Ro"
+        ],
+        [
+          "昌鎬",
+          "Chanho"
+        ]
+      ],
+      "target_pairs": [
+        [
+          "루",
+          "Ro"
+        ],
+        [
+          "창호",
+          "Chanho"
+        ]
+      ],
+      "source_errors": [],
+      "target_errors": [],
+      "source_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt",
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ],
+      "target_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt",
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ]
+    },
+    {
+      "script": "scenario_002",
+      "sequence": 400,
+      "stable_id": "scenario.rpa::scenario/002.rpy::tid::f002_8b0a53c2",
+      "source_jp": "辛いのもいい。{rb}豆板醤{/rb}{rt}トウバンジャン{/rt}と{rb}甜面醤{/rb}{rt}テンメンジャン{/rt}でつけた辛さは、酸味と甘みのバランスがよくコクがある。",
+      "draft_ko": "매운맛도 좋다. {rb}두반장{/rb}{rt}토우반장{/rt}과 {rb}첨면장{/rb}{rt}텐멘장{/rt}으로 낸 매운맛은 신맛과 단맛의 균형이 좋고 깊은 맛이 난다.",
+      "source_pairs": [
+        [
+          "豆板醤",
+          "トウバンジャン"
+        ],
+        [
+          "甜面醤",
+          "テンメンジャン"
+        ]
+      ],
+      "target_pairs": [
+        [
+          "두반장",
+          "토우반장"
+        ],
+        [
+          "첨면장",
+          "텐멘장"
+        ]
+      ],
+      "source_errors": [],
+      "target_errors": [],
+      "source_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt",
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ],
+      "target_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt",
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ]
+    },
+    {
+      "script": "scenario_003",
+      "sequence": 64,
+      "stable_id": "scenario.rpa::scenario/003.rpy::tid::f003_277b8849",
+      "source_jp": "「{rb}魯{/rb}{rt}ロ{/rt}{rb}昌鎬{/rb}{rt}チャンホ{/rt}」",
+      "draft_ko": "「{rb}루{/rb}{rt}로{/rt}{rb}창호{/rb}{rt}찬호{/rt}」",
+      "source_pairs": [
+        [
+          "魯",
+          "ロ"
+        ],
+        [
+          "昌鎬",
+          "チャンホ"
+        ]
+      ],
+      "target_pairs": [
+        [
+          "루",
+          "로"
+        ],
+        [
+          "창호",
+          "찬호"
+        ]
+      ],
+      "source_errors": [],
+      "target_errors": [],
+      "source_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt",
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ],
+      "target_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt",
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ]
+    },
+    {
+      "script": "scenario_003",
+      "sequence": 643,
+      "stable_id": "scenario.rpa::scenario/003.rpy::tid::f003_s1_end_ee908451",
+      "source_jp": "{rb}瓶淵{/rb}{rt}かめぶち{/rt}{rb}桂子{/rb}{rt}けいこ{/rt}さん。",
+      "draft_ko": "{rb}카메부치{/rb}{rt}카메부치{/rt}{rb}게이코{/rb}{rt}게이코{/rt} 씨.",
+      "source_pairs": [
+        [
+          "瓶淵",
+          "かめぶち"
+        ],
+        [
+          "桂子",
+          "けいこ"
+        ]
+      ],
+      "target_pairs": [
+        [
+          "카메부치",
+          "카메부치"
+        ],
+        [
+          "게이코",
+          "게이코"
+        ]
+      ],
+      "source_errors": [],
+      "target_errors": [],
+      "source_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt",
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ],
+      "target_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt",
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ]
+    },
+    {
+      "script": "scenario_003",
+      "sequence": 1179,
+      "stable_id": "scenario.rpa::scenario/003.rpy::tid::f003_s1_end_76611cc7",
+      "source_jp": "ベッドには名前が書いてある。ここからでは赤ちゃんの顔は分からないが、≪{rb}春樹{/rb}{rt}はるき{/rt}≫という名前からして男の子だろう。",
+      "draft_ko": "침대에는 이름이 적혀 있다. 여기서는 아기의 얼굴이 보이지 않지만, ≪{rb}하루키{/rb}{rt}하루키{/rt}≫라는 이름으로 보아 남자아이일 것이다.",
+      "source_pairs": [
+        [
+          "春樹",
+          "はるき"
+        ]
+      ],
+      "target_pairs": [
+        [
+          "하루키",
+          "하루키"
+        ]
+      ],
+      "source_errors": [],
+      "target_errors": [],
+      "source_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ],
+      "target_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ]
+    },
+    {
+      "script": "scenario_005_1",
+      "sequence": 23,
+      "stable_id": "scenario.rpa::scenario/005_1.rpy::tid::f005_1_00e78c3f",
+      "source_jp": "{rb}蛇鉈{/rb}{rt}へびなた{/rt}海晴。",
+      "draft_ko": "{rb}헤비나타{/rb}{rt}헤비나타{/rt} 미하루.",
+      "source_pairs": [
+        [
+          "蛇鉈",
+          "へびなた"
+        ]
+      ],
+      "target_pairs": [
+        [
+          "헤비나타",
+          "헤비나타"
+        ]
+      ],
+      "source_errors": [],
+      "target_errors": [],
+      "source_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ],
+      "target_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ]
+    },
+    {
+      "script": "scenario_005_1",
+      "sequence": 234,
+      "stable_id": "scenario.rpa::scenario/005_1.rpy::tid::f005_1_58972a45",
+      "source_jp": "この家の住人の苗字は、{rb}牛塚{/rb}{rt}うしづか{/rt}というらしい。",
+      "draft_ko": "이 집 주민의 성은 {rb}우시즈카{/rb}{rt}우시즈카{/rt}라는 모양이다.",
+      "source_pairs": [
+        [
+          "牛塚",
+          "うしづか"
+        ]
+      ],
+      "target_pairs": [
+        [
+          "우시즈카",
+          "우시즈카"
+        ]
+      ],
+      "source_errors": [],
+      "target_errors": [],
+      "source_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ],
+      "target_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ]
+    },
+    {
+      "script": "scenario_005_1",
+      "sequence": 433,
+      "stable_id": "scenario.rpa::scenario/005_1.rpy::tid::f005_1_s1_end_af9b112a",
+      "source_jp": "「牛塚{rb}茂継{/rb}{rt}しげつぐ{/rt}……さん」",
+      "draft_ko": "「우시즈카{rb}시게츠구{/rb}{rt}시게츠구{/rt}…… 씨」",
+      "source_pairs": [
+        [
+          "茂継",
+          "しげつぐ"
+        ]
+      ],
+      "target_pairs": [
+        [
+          "시게츠구",
+          "시게츠구"
+        ]
+      ],
+      "source_errors": [],
+      "target_errors": [],
+      "source_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ],
+      "target_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ]
+    },
+    {
+      "script": "scenario_007_1",
+      "sequence": 329,
+      "stable_id": "scenario.rpa::scenario/007_1.rpy::tid::f007_1_164b1280",
+      "source_jp": "「下手な動きをしようもんなら、{rb}自分{/rb}{rt}てめー{/rt}の首も噛み付かれるってことは分かってるだろ」",
+      "draft_ko": "「어설픈 움직임을 보이면 {rb}자기{/rb}{rt}네놈{/rt} 목도 물어뜯길 거라는 건 알고 있겠지」",
+      "source_pairs": [
+        [
+          "自分",
+          "てめー"
+        ]
+      ],
+      "target_pairs": [
+        [
+          "자기",
+          "네놈"
+        ]
+      ],
+      "source_errors": [],
+      "target_errors": [],
+      "source_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ],
+      "target_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ]
+    },
+    {
+      "script": "scenario_007_1",
+      "sequence": 365,
+      "stable_id": "scenario.rpa::scenario/007_1.rpy::tid::f007_1_02b55f51",
+      "source_jp": "「バカヤロー。ま、この嬢ちゃんが{rb}美味{/rb}{rt}うま{/rt}そうだってのには同感だが……まあいい」",
+      "draft_ko": "「멍청아. 뭐, 나도 이 아가씨가 {rb}맛있어{/rb}{rt}먹음직스러워{/rt} 보인다는 데는 동감이지만…… 됐다.」",
+      "source_pairs": [
+        [
+          "美味",
+          "うま"
+        ]
+      ],
+      "target_pairs": [
+        [
+          "맛있어",
+          "먹음직스러워"
+        ]
+      ],
+      "source_errors": [],
+      "target_errors": [],
+      "source_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ],
+      "target_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ]
+    },
+    {
+      "script": "scenario_007_1",
+      "sequence": 791,
+      "stable_id": "scenario.rpa::scenario/007_1.rpy::tid::f007_1_629c0b06",
+      "source_jp": "「これから{rb}未来{/rb}{rt}さき{/rt}を生きるのは、うちらなんだよ？」",
+      "draft_ko": "「앞으로 {rb}미래{/rb}{rt}앞날{/rt}를 살아가는 건 우리야.」",
+      "source_pairs": [
+        [
+          "未来",
+          "さき"
+        ]
+      ],
+      "target_pairs": [
+        [
+          "미래",
+          "앞날"
+        ]
+      ],
+      "source_errors": [],
+      "target_errors": [],
+      "source_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ],
+      "target_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ]
+    },
+    {
+      "script": "scenario_007_2",
+      "sequence": 177,
+      "stable_id": "scenario.rpa::scenario/007_2.rpy::tid::f007_2_2da9fa4d",
+      "source_jp": "私も≪女神の選定≫に関わらなければ、世界に{rb}蔓延{/rb}{rt}はびこ{/rt}る理不尽に対して意識を向けることはなかっただろう。",
+      "draft_ko": "나도 ≪여신의 선정≫에 관여하지 않았다면 세계에 {rb}만연한{/rb}{rt}널리 퍼진{/rt} 부조리에 의식을 돌리지 않았으리라.",
+      "source_pairs": [
+        [
+          "蔓延",
+          "はびこ"
+        ]
+      ],
+      "target_pairs": [
+        [
+          "만연한",
+          "널리 퍼진"
+        ]
+      ],
+      "source_errors": [],
+      "target_errors": [],
+      "source_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ],
+      "target_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ]
+    },
+    {
+      "script": "scenario_007_2",
+      "sequence": 279,
+      "stable_id": "scenario.rpa::scenario/007_2.rpy::tid::f007_2_b8318127",
+      "source_jp": "「分かってるよ。てめーは馬鹿ではないが、そこまで賢{rt}さか{/rt}しくもねぇ。海晴ってのとはそこが違うわな」",
+      "draft_ko": "「알아. 네놈은 바보는 아니지만 그렇게까지 영리{rt}영악{/rt}하지도 않아. 미하루라는 녀석과는 그게 다르군」",
+      "source_pairs": [
+        [
+          "賢",
+          "さか"
+        ]
+      ],
+      "target_pairs": [
+        [
+          "영리",
+          "영악"
+        ]
+      ],
+      "source_errors": [],
+      "target_errors": [],
+      "source_skeleton": [
+        "rt",
+        "/rt"
+      ],
+      "target_skeleton": [
+        "rt",
+        "/rt"
+      ]
+    },
+    {
+      "script": "scenario_007_2",
+      "sequence": 735,
+      "stable_id": "scenario.rpa::scenario/007_2.rpy::tid::f007_2_d1942892",
+      "source_jp": "「――明日の朝、今度こそ{rb}運命に{/rb}{rt}きみと{/rt}決着を」",
+      "draft_ko": "「――내일 아침, 이번에야말로 {rb}운명과{/rb}{rt}너와{/rt} 결판을」",
+      "source_pairs": [
+        [
+          "運命に",
+          "きみと"
+        ]
+      ],
+      "target_pairs": [
+        [
+          "운명과",
+          "너와"
+        ]
+      ],
+      "source_errors": [],
+      "target_errors": [],
+      "source_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ],
+      "target_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ]
+    },
+    {
+      "script": "scenario_008",
+      "sequence": 765,
+      "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_79b17a99",
+      "source_jp": "「けれど、君は突然にぼくの前に現れた。後輩という立場を利用して、{rb}庇護欲{/rb}{rt}ひごよく{/rt}をかき立てて、凛火の興味を引いた」",
+      "draft_ko": "「하지만 넌 갑자기 내 앞에 나타났어. 후배라는 입장을 이용해 {rb}보호 본능{/rb}{rt}보호본능{/rt}을 자극하고 린카의 관심을 끌었지.」",
+      "source_pairs": [
+        [
+          "庇護欲",
+          "ひごよく"
+        ]
+      ],
+      "target_pairs": [
+        [
+          "보호 본능",
+          "보호본능"
+        ]
+      ],
+      "source_errors": [],
+      "target_errors": [],
+      "source_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ],
+      "target_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ]
+    },
+    {
+      "script": "scenario_008",
+      "sequence": 1379,
+      "stable_id": "scenario.rpa::scenario/008.rpy::tid::sentei8_1e3118d7",
+      "source_jp": "「ほとんど変わらないんだな……{rb}下層{/rb}{rt}した{/rt}と」",
+      "draft_ko": "「거의 똑같구나…… {rb}아래층{/rb}{rt}아래{/rt}이랑」",
+      "source_pairs": [
+        [
+          "下層",
+          "した"
+        ]
+      ],
+      "target_pairs": [
+        [
+          "아래층",
+          "아래"
+        ]
+      ],
+      "source_errors": [],
+      "target_errors": [],
+      "source_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ],
+      "target_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ]
+    },
+    {
+      "script": "scenario_009",
+      "sequence": 970,
+      "stable_id": "scenario.rpa::scenario/009.rpy::tid::f009_s1_end_2_64696e6c",
+      "source_jp": "自分の中で答えを出すと、爽快感と{rb}寂寥{/rb}{rt}せきりょう{/rt}感が同時に吹き荒んだ。",
+      "draft_ko": "내 안에서 답을 내리자 상쾌함과 {rb}적요{/rb}{rt}쓸쓸함{/rt}가 동시에 몰아쳤다.",
+      "source_pairs": [
+        [
+          "寂寥",
+          "せきりょう"
+        ]
+      ],
+      "target_pairs": [
+        [
+          "적요",
+          "쓸쓸함"
+        ]
+      ],
+      "source_errors": [],
+      "target_errors": [],
+      "source_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ],
+      "target_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ]
+    },
+    {
+      "script": "scenario_009",
+      "sequence": 1424,
+      "stable_id": "scenario.rpa::scenario/009.rpy::tid::sentei9_61f51ff8",
+      "source_jp": "「どうしてだっ！　結局あんたの{rb}祖母{/rb}{rt}ばあさん{/rt}は無事だったじゃないか！　なのにどうして！」",
+      "draft_ko": "「왜야! 결국 네 {rb}할머니{/rb}{rt}할멈{/rt}는 무사했잖아! 그런데 왜!」",
+      "source_pairs": [
+        [
+          "祖母",
+          "ばあさん"
+        ]
+      ],
+      "target_pairs": [
+        [
+          "할머니",
+          "할멈"
+        ]
+      ],
+      "source_errors": [],
+      "target_errors": [],
+      "source_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ],
+      "target_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ]
+    },
+    {
+      "script": "scenario_009",
+      "sequence": 1585,
+      "stable_id": "scenario.rpa::scenario/009.rpy::tid::sentei9_dfe11c46",
+      "source_jp": "「もっとも、ワタクシの≪器≫になれるのはたった一人。皆サマも余計なことを考える暇{rt}いとま{/rt}がございましたら、自分が残ることを最優先にお考えくださいませ」",
+      "draft_ko": "「다만 제 ≪그릇≫이 될 수 있는 건 단 한 명. 여러분도 쓸데없는 생각을 할 틈{rt}겨를{/rt}이 있다면 자신이 남는 일을 최우선으로 생각해 주세요.」",
+      "source_pairs": [
+        [
+          "暇",
+          "いとま"
+        ]
+      ],
+      "target_pairs": [
+        [
+          "틈",
+          "겨를"
+        ]
+      ],
+      "source_errors": [],
+      "target_errors": [],
+      "source_skeleton": [
+        "rt",
+        "/rt"
+      ],
+      "target_skeleton": [
+        "rt",
+        "/rt"
+      ]
+    },
+    {
+      "script": "scenario_010",
+      "sequence": 802,
+      "stable_id": "scenario.rpa::scenario/010.rpy::tid::f010_2184103d",
+      "source_jp": "「人の心を動かすことができる――信用できる{rb}人間{/rb}{rt}とも{/rt}を作ることができる。自分の瞳の力を疑うのであれば、目の前にいる僕を証拠にすればいい」",
+      "draft_ko": "「사람의 마음을 움직일 수 있어――믿을 수 있는 {rb}사람{/rb}{rt}벗{/rt}을 만들 수 있지. 자신의 눈동자에 담긴 힘이 의심스럽다면 눈앞의 나를 증거로 삼으면 돼.」",
+      "source_pairs": [
+        [
+          "人間",
+          "とも"
+        ]
+      ],
+      "target_pairs": [
+        [
+          "사람",
+          "벗"
+        ]
+      ],
+      "source_errors": [],
+      "target_errors": [],
+      "source_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ],
+      "target_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ]
+    },
+    {
+      "script": "scenario_010",
+      "sequence": 1313,
+      "stable_id": "scenario.rpa::scenario/010.rpy::tid::sentei10_5b144877",
+      "source_jp": "「{rb}下層{/rb}{rt}した{/rt}では、お友達がお待ちですわよ」",
+      "draft_ko": "「{rb}아래층{/rb}{rt}아래{/rt}에서 친구분이 기다리고 계시답니다」",
+      "source_pairs": [
+        [
+          "下層",
+          "した"
+        ]
+      ],
+      "target_pairs": [
+        [
+          "아래층",
+          "아래"
+        ]
+      ],
+      "source_errors": [],
+      "target_errors": [],
+      "source_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ],
+      "target_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ]
+    },
+    {
+      "script": "scenario_011_02",
+      "sequence": 42,
+      "stable_id": "scenario.rpa::scenario/011_02.rpy::tid::sentei11_2b1695ab",
+      "source_jp": "「次回の選定が、此度の≪女神の選定≫最後の刻{rt}とき{/rt}」",
+      "draft_ko": "「다음 선정이 이번 ≪여신의 선정≫의 마지막 순간{rt}때{/rt}」",
+      "source_pairs": [
+        [
+          "刻",
+          "とき"
+        ]
+      ],
+      "target_pairs": [
+        [
+          "순간",
+          "때"
+        ]
+      ],
+      "source_errors": [],
+      "target_errors": [],
+      "source_skeleton": [
+        "rt",
+        "/rt"
+      ],
+      "target_skeleton": [
+        "rt",
+        "/rt"
+      ]
+    },
+    {
+      "script": "scenario_011_02GH",
+      "sequence": 151,
+      "stable_id": "scenario.rpa::scenario/011_02GH.rpy::tid::f011_02GH_cee4352b",
+      "source_jp": "「貴女サマを、Ⅰ番サマを、獅子舞凛火サマを、ワタクシの≪器≫にできる{rb}瞬間{/rb}{rt}とき{/rt}が！」",
+      "draft_ko": "「당신을, Ⅰ번 님을, 시시마이 린카 님을 제 ≪그릇≫으로 만들 {rb}순간{/rb}{rt}때{/rt}가!」",
+      "source_pairs": [
+        [
+          "瞬間",
+          "とき"
+        ]
+      ],
+      "target_pairs": [
+        [
+          "순간",
+          "때"
+        ]
+      ],
+      "source_errors": [],
+      "target_errors": [],
+      "source_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ],
+      "target_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ]
+    },
+    {
+      "script": "scenario_011_02GH",
+      "sequence": 199,
+      "stable_id": "scenario.rpa::scenario/011_02GH.rpy::tid::f011_02GH_cdb11643",
+      "source_jp": "「私たちは、何{rt}・{/rt}をさせられてたの？」",
+      "draft_ko": "「우리는 대체 무엇{rt}・{/rt}을 강요당한 거야?」",
+      "source_pairs": [
+        [
+          "何",
+          "・"
+        ]
+      ],
+      "target_pairs": [
+        [
+          "무엇",
+          "・"
+        ]
+      ],
+      "source_errors": [],
+      "target_errors": [],
+      "source_skeleton": [
+        "rt",
+        "/rt"
+      ],
+      "target_skeleton": [
+        "rt",
+        "/rt"
+      ]
+    },
+    {
+      "script": "scenario_011_02GH",
+      "sequence": 212,
+      "stable_id": "scenario.rpa::scenario/011_02GH.rpy::tid::f011_02GH_895a876f",
+      "source_jp": "「世界からあぶれてしまった想いという欠片は、この≪運命の大広間≫に{rb}概念{/rb}{rt}ゆめ{/rt}となって収容される――ゆえに、皆サマは≪運命の奴隷≫」",
+      "draft_ko": "「세계에서 흘러넘친 마음이라는 조각은 이 ≪운명의 대회랑≫에 {rb}개념{/rb}{rt}꿈{/rt}이 되어 수용됩니다――그러므로 여러분은 ≪운명의 노예≫」",
+      "source_pairs": [
+        [
+          "概念",
+          "ゆめ"
+        ]
+      ],
+      "target_pairs": [
+        [
+          "개념",
+          "꿈"
+        ]
+      ],
+      "source_errors": [],
+      "target_errors": [],
+      "source_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ],
+      "target_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ]
+    },
+    {
+      "script": "scenario_011_02GH",
+      "sequence": 290,
+      "stable_id": "scenario.rpa::scenario/011_02GH.rpy::tid::f011_02GH_5040dc3f",
+      "source_jp": "「だから貴女サマの{rb}肉体{/rb}{rt}からだ{/rt}も{rb}精神{/rb}{rt}こころ{/rt}も、ワタクシと{rb}同質{/rb}{rt}おなじ{/rt}。他の皆サマでは不可能だった真の奇蹟をこれから見せてあげましょう」",
+      "draft_ko": "「그러니 당신의 {rb}육체{/rb}{rt}몸{/rt}도 {rb}정신{/rb}{rt}마음{/rt}도 저와 {rb}동질{/rb}{rt}같음{/rt}입니다. 다른 여러분에게는 불가능했던 진정한 기적을 이제 보여 드리지요」",
+      "source_pairs": [
+        [
+          "肉体",
+          "からだ"
+        ],
+        [
+          "精神",
+          "こころ"
+        ],
+        [
+          "同質",
+          "おなじ"
+        ]
+      ],
+      "target_pairs": [
+        [
+          "육체",
+          "몸"
+        ],
+        [
+          "정신",
+          "마음"
+        ],
+        [
+          "동질",
+          "같음"
+        ]
+      ],
+      "source_errors": [],
+      "target_errors": [],
+      "source_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt",
+        "rb",
+        "/rb",
+        "rt",
+        "/rt",
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ],
+      "target_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt",
+        "rb",
+        "/rb",
+        "rt",
+        "/rt",
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ]
+    },
+    {
+      "script": "scenario_011_02GH",
+      "sequence": 315,
+      "stable_id": "scenario.rpa::scenario/011_02GH.rpy::tid::f011_02GH_70b5c51b",
+      "source_jp": "「もっとも貴女サマは、何も{rb}目撃す{/rb}{rt}み{/rt}ることはできませんけれど」",
+      "draft_ko": "「물론 당신은 아무것도 {rb}목격하{/rb}{rt}보{/rt}실 수는 없겠지만요」",
+      "source_pairs": [
+        [
+          "目撃す",
+          "み"
+        ]
+      ],
+      "target_pairs": [
+        [
+          "목격하",
+          "보"
+        ]
+      ],
+      "source_errors": [],
+      "target_errors": [],
+      "source_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ],
+      "target_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ]
+    },
+    {
+      "script": "scenario_012_01F",
+      "sequence": 89,
+      "stable_id": "scenario.rpa::scenario/012_01F.rpy::tid::f012_01F_2b954ce7",
+      "source_jp": "それで、あなたは結局何{rt}・{/rt}なの？",
+      "draft_ko": "그래서 넌 대체 뭐{rt}·{/rt}야?",
+      "source_pairs": [
+        [
+          "結局何",
+          "・"
+        ]
+      ],
+      "target_pairs": [
+        [
+          "뭐",
+          "·"
+        ]
+      ],
+      "source_errors": [],
+      "target_errors": [],
+      "source_skeleton": [
+        "rt",
+        "/rt"
+      ],
+      "target_skeleton": [
+        "rt",
+        "/rt"
+      ]
+    },
+    {
+      "script": "scenario_012_01F",
+      "sequence": 202,
+      "stable_id": "scenario.rpa::scenario/012_01F.rpy::tid::f012_01F_35b6cc84",
+      "source_jp": "「君が最初から全てを知っていたら、この{rb}現在{/rb}{rt}いま{/rt}は訪れていない。もっとも私が与えたのはきっかけだけ。{rb}現在{/rb}{rt}いま{/rt}に到達できたのは、君の力さ」",
+      "draft_ko": "「네가 처음부터 모든 것을 알고 있었다면 이 {rb}현재{/rb}{rt}지금{/rt}는 찾아오지 않았을 거다. 물론 내가 준 것은 계기뿐이야. {rb}현재{/rb}{rt}지금{/rt}에 도달할 수 있었던 것은 네 힘이다」",
+      "source_pairs": [
+        [
+          "現在",
+          "いま"
+        ],
+        [
+          "現在",
+          "いま"
+        ]
+      ],
+      "target_pairs": [
+        [
+          "현재",
+          "지금"
+        ],
+        [
+          "현재",
+          "지금"
+        ]
+      ],
+      "source_errors": [],
+      "target_errors": [],
+      "source_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt",
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ],
+      "target_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt",
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ]
+    },
+    {
+      "script": "scenario_012_01F",
+      "sequence": 898,
+      "stable_id": "scenario.rpa::scenario/012_01F.rpy::tid::sentei12_b6d03fbe",
+      "source_jp": "「貴女サマは……？　一体どうして、ワタクシの{rb}≪運命の大広間≫{/rb}{rt}ばしょ{/rt}に……？」",
+      "draft_ko": "「당신은……? 도대체 어떻게 제 {rb}≪운명의 대회랑≫{/rb}{rt}장소{/rt}에……?」",
+      "source_pairs": [
+        [
+          "≪運命の大広間≫",
+          "ばしょ"
+        ]
+      ],
+      "target_pairs": [
+        [
+          "≪운명의 대회랑≫",
+          "장소"
+        ]
+      ],
+      "source_errors": [],
+      "target_errors": [],
+      "source_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ],
+      "target_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ]
+    },
+    {
+      "script": "scenario_012_01F",
+      "sequence": 955,
+      "stable_id": "scenario.rpa::scenario/012_01F.rpy::tid::sentei12_e6727136",
+      "source_jp": "「≪運命の大広間≫は、人の{rb}想いの欠片{/rb}{rt}ユメ{/rt}をエネルギーとして蓄積しているのです」",
+      "draft_ko": "「≪운명의 대광장≫은 사람의 {rb}마음의 조각{/rb}{rt}꿈{/rt}을 에너지로 축적하고 있습니다.」",
+      "source_pairs": [
+        [
+          "想いの欠片",
+          "ユメ"
+        ]
+      ],
+      "target_pairs": [
+        [
+          "마음의 조각",
+          "꿈"
+        ]
+      ],
+      "source_errors": [],
+      "target_errors": [],
+      "source_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ],
+      "target_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ]
+    },
+    {
+      "script": "scenario_012_01GH",
+      "sequence": 265,
+      "stable_id": "scenario.rpa::scenario/012_01GH.rpy::tid::f012_01GH_s1_end_bba9279d",
+      "source_jp": "「女神は≪{rb}想い{/rb}{rt}ユメ{/rt}の欠片≫と表現していたけれど、紛れもなく人智を超えたエネルギーと言われるもの」",
+      "draft_ko": "「여신은 ≪{rb}마음{/rb}{rt}꿈{/rt}의 조각≫이라고 표현했지만, 틀림없이 인지를 초월한 에너지라 불리는 것이지」",
+      "source_pairs": [
+        [
+          "想い",
+          "ユメ"
+        ]
+      ],
+      "target_pairs": [
+        [
+          "마음",
+          "꿈"
+        ]
+      ],
+      "source_errors": [],
+      "target_errors": [],
+      "source_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ],
+      "target_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ]
+    },
+    {
+      "script": "scenario_012_02",
+      "sequence": 78,
+      "stable_id": "scenario.rpa::scenario/012_02.rpy::tid::f012_02_46135696",
+      "source_jp": "「それぞれが人格を持たない、ただの{rb}想い{/rb}{rt}ユメ{/rt}なのです。けれども」",
+      "draft_ko": "「각자 인격을 지니지 않은 그저 단순한 {rb}마음{/rb}{rt}꿈{/rt}입니다. 하지만」",
+      "source_pairs": [
+        [
+          "想い",
+          "ユメ"
+        ]
+      ],
+      "target_pairs": [
+        [
+          "마음",
+          "꿈"
+        ]
+      ],
+      "source_errors": [],
+      "target_errors": [],
+      "source_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ],
+      "target_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ]
+    },
+    {
+      "script": "scenario_012_02",
+      "sequence": 138,
+      "stable_id": "scenario.rpa::scenario/012_02.rpy::tid::f012_02_3c9a0bdc",
+      "source_jp": "それは私にとって、初めて触れる{rb}真実{/rb}{rt}ほんとう{/rt}の死だった。",
+      "draft_ko": "그것은 내게 처음 닿은 {rb}진실{/rb}{rt}진짜{/rt}의 죽음이었다.",
+      "source_pairs": [
+        [
+          "真実",
+          "ほんとう"
+        ]
+      ],
+      "target_pairs": [
+        [
+          "진실",
+          "진짜"
+        ]
+      ],
+      "source_errors": [],
+      "target_errors": [],
+      "source_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ],
+      "target_skeleton": [
+        "rb",
+        "/rb",
+        "rt",
+        "/rt"
+      ]
+    }
+  ]
+}

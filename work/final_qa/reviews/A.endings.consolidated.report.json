@@ -1,0 +1,49 @@
+{
+  "schema_version": "fatal-twelve-ending-review-v1",
+  "source_authority": "Japanese only",
+  "english_reference_used": false,
+  "external_translation_api_used": false,
+  "scripts": {
+    "BAD_END_01": 58,
+    "BAD_END_02": 80,
+    "BAD_END_03": 21,
+    "BAD_END_04": 43,
+    "MIHARU_END": 26,
+    "TRUE_END": 125,
+    "UNHAPPY_END": 87
+  },
+  "exhaustive_checked": 440,
+  "manual_corrections": 26,
+  "corrections_by_script": {
+    "BAD_END_01": 2,
+    "BAD_END_02": 7,
+    "BAD_END_04": 2,
+    "TRUE_END": 6,
+    "UNHAPPY_END": 9
+  },
+  "unchanged_approved": 414,
+  "stable_id_unique": 26,
+  "checks": {
+    "changed": 26,
+    "encoding": 26,
+    "fullwidth_clear": 26,
+    "tag_exact": 26,
+    "roman_exact": 26,
+    "quote_exact": 26,
+    "newline_exact": 26,
+    "numbers_exact": 26,
+    "residual_kana_clear": 26
+  },
+  "post_correction_audit_issues": 0,
+  "failures": [],
+  "master_sha256": {
+    "BAD_END_01": "b5e027eb04766570d6862fdb7b2d562c2fea8b82e7490ba90022ee2b6da4ca21",
+    "BAD_END_02": "d74f378bc5a52f8ee727d55b5a44950ab86bca80a5ef6b12d5c6b6f1beb93809",
+    "BAD_END_03": "2e002066815a41f88fcdb5c08acd329954f47545a088c7a43f378304a43c7c53",
+    "BAD_END_04": "4cfc371be6372580eddc4afad4ed7e8462597b3d9450e7d9ef761e13713ffb57",
+    "MIHARU_END": "4a92769aab61ed330586c5847f0ac24f11fc8594ba26fce49134e7b3bdc1c276",
+    "TRUE_END": "3ccf081b268f01c5c147af158855b9a1c69511a84dd43bf3d6e1724b486f35cf",
+    "UNHAPPY_END": "851c809d36b6efd089f2eac5e82df84c00ff225345f95c77d9c670c46e4e0a73"
+  },
+  "output_sha256": "b52101dd7b0847bd776114b05893df5c103f4bc39b9377a2e52787ced6caeedc"
+}

@@ -1,0 +1,25 @@
+1001	L4083	dialogue	parca	「いいのですか？　運命の女神パルカが、皆サマに仮初の希望を与えて苦しめたことに間違いはありません。これまでに、何度も何度も何度も何度も」
+1002	L4088	dialogue	rinka	「知らないよ。でも、あなたはただ生きたかっただけ。私と、何も変わらない」
+1003	L4090	narration	narrator	だって、私がずっと願い続けてきたのは。
+1004	L4092	narration	narrator	生き続けたいという、当たり前の望みだけなのだから。
+1005	L4097	dialogue	parca	「ワタクシを救って欲しいとは、レオもよく言ったものです」
+1006	L4102	dialogue	parca	「なるほど。まさか貴女サマが最後にそんなことを言ってくださるとは思いませんでした」
+1007	L4107	dialogue	parca	「ワタクシ、少し泣きそうでございます」
+1008	L4112	dialogue	rinka	「……嘘つき。涙を流してから言えよ」
+1009	L4117	dialogue	parca	「あら、口の悪い本性が出ましたわね。悪いのは目つきだけにしてくださいな」
+1010	L4121	narration	narrator	光は、私たちごと運命の大広間全体を包み込んだ。
+1011	L4123	narration	narrator	きっとこれで、よかった。
+1012	L4125	narration	narrator	誰かを救うなんて大げさなことはできないけれど、ただ相手を知って、本気でぶつかること。
+1013	L4127	narration	narrator	私にできるのは、それだけだ。
+1014	L4131	dialogue	parca	「ありがとうございました」
+1015	L4133	narration	narrator	反対に、私が救われていた。
+1016	L4135	narration	narrator	あなたと決別を選んだ、私が。
+1017	L4149	narration	narrator	私は再び、炎の記憶を目にしていた。
+1018	L4151	narration	narrator	それはもう何度も見た記憶。
+1019	L4153	narration	narrator	皮肉にも、私の原風景なのだ。
+1020	L4160	dialogue	rinka	「……ダイアナ……パルカ……」
+1021	L4162	narration	narrator	そう呟いても、彼女たちはもういない。
+1022	L4164	narration	narrator	本来の運命――遥か昔の死――へと戻っていったのだろう。
+1023	L4166	narration	narrator	彼女たちは現実世界の住人ではないので、これまでの行動はなかったことにはならないのだろう。
+1024	L4168	narration	narrator	これまでのパルカの行動が≪なかったことになる≫という可能性も考慮したけれど、さすがにないとは予想していた。どうやら、その予想は当たっていたようだ。
+1025	L4170	narration	narrator	もし予想が当たっていれば、≪女神の選定≫自体がなかったことになっている。

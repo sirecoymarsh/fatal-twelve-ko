@@ -1,0 +1,25 @@
+051	L0214	dialogue	naomi	「あははは……すみません……」
+052	L0219	dialogue	rinka	「もう、大丈夫？」
+053	L0221	narration	narrator	直未は体勢を整えてから、はにかんだ。
+054	L0226	dialogue	rinka	「どう？　文化祭の準備は進んでる？」
+055	L0231	dialogue	naomi	「そこそこ……って感じです。まだ内装の飾りつけとかをどうするか、全然決まってなくて……」
+056	L0236	dialogue	naomi	「あ、でも、コーヒーはばっちりですよ！　最優先でみんなに教えています」
+057	L0241	dialogue	rinka	「……よかった。元気そうで。文化祭はもう来週だから……あっという間だね」
+058	L0243	narration	narrator	私のクラスは、今どうなっているのだろうか。
+059	L0245	narration	narrator	当日何かしらの手伝いくらいはするかもしれないが、状況は全然聞いていないので分からなかった。
+060	L0250	dialogue	naomi	「先輩は……その……」
+061	L0252	narration	narrator	直未が言いかけたところで、後ろから「やあ」と声をかけられた。
+062	L0257	dialogue	miharu	「おはよう凛火……と日辻さん」
+063	L0259	narration	narrator	どうやら、海晴も丁度登校してきたところらしい。
+064	L0261	narration	narrator	髪の毛をさらりと風になびかせていた。
+065	L0263	narration	narrator	昨晩、夢の世界で言ったことなどなかったかのように、海晴は普段通りに声をかけてきた。
+066	L0265	narration	narrator	直未もいるので、私も普通でいるようにした。
+067	L0270	dialogue	naomi	「未島先輩……。あ、じゃあそろそろわたし、行きますね。チャイム鳴りそうですし」
+068	L0277	dialogue	rinka	「あ、私たちも……」
+069	L0279	narration	narrator	私の言葉を待たずに、直未は校舎の方へと歩いて行った。
+070	L0284	dialogue	miharu	「……ぼくはやはり、避けられているみたいだね」
+071	L0286	narration	narrator	答えにくいことを、海晴の方から言われてしまった。
+072	L0288	narration	narrator	私がどう答えようか考えていると、海晴が先に言葉を続けた。
+073	L0293	dialogue	miharu	「まあ、仕方ない。元々原因を作ったのはぼくの方だってことは、分かっているよ」
+074	L0298	dialogue	rinka	「え！　直未と何かあったの？」
+075	L0303	dialogue	miharu	「くすっ。大丈夫。大したことではないよ。さあ、ぼくたちも教室へ行こう。遅刻ぎりぎり」

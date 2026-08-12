@@ -1,0 +1,401 @@
+{
+  "packet_id": "scenario_001_missing_menus",
+  "source_language": "Japanese",
+  "target_language": "Korean",
+  "entry_count": 6,
+  "translation_id_alignment": "complete: source_file+source_line+speaker+exact Japanese source -> AST catalog; no sequence zip",
+  "status": "first_draft_unreviewed",
+  "qa_policy": "No translation QA until the complete first draft is finished; review once afterward.",
+  "english_text_in_translator_packet": false,
+  "entries": [
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::menu::001:choice:02:1ae9c2adab467609",
+      "sequence": 309,
+      "translation_id": null,
+      "menu_key": "001:choice:02:1ae9c2adab467609",
+      "translation_id_status": "aligned_exact_menu_old_key",
+      "source_file": "scenario/001.rpy",
+      "source_line": 1357,
+      "speaker": "narrator",
+      "lane": "narrative_choice",
+      "source_jp": "開いてみよう",
+      "draft_ko": "열어 보자",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 309,
+      "source_packet_stable_id": "scenario.rpa::scenario/001.rpy::menu::001:choice:02:1ae9c2adab467609",
+      "catalog_command_index": 309,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::menu::001:choice:02:1ae9c2adab467609",
+      "id_origin": "renpy-string-key",
+      "alignment": {
+        "method": "renpy-string-old-key-exact-match",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": null,
+          "renpy_digest": null,
+          "source_group_sha256": "e03278a3883659c109474b7104bdc272b216f747f9a7bf0875b06f638ef31e06",
+          "source_text_sha256": "1ae9c2adab467609a0ada9a72f83d27147ab89d49a4e172960dec9f65e2f846f",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 1357,
+          "speaker": "narrator",
+          "source_text_exact_match": true,
+          "source_text_sha256": "1ae9c2adab467609a0ada9a72f83d27147ab89d49a4e172960dec9f65e2f846f",
+          "catalog_command_index": 309,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::menu::001:choice:02:1ae9c2adab467609"
+        }
+      },
+      "source_text_sha256": "1ae9c2adab467609a0ada9a72f83d27147ab89d49a4e172960dec9f65e2f846f",
+      "source_group_sha256": "e03278a3883659c109474b7104bdc272b216f747f9a7bf0875b06f638ef31e06",
+      "renpy_digest": null,
+      "catalog_lane": "narrative_choice",
+      "catalog_voice_call": null,
+      "source_statement_code": "\"開いてみよう\":",
+      "source_group_code": [
+        "\"開いてみよう\":"
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::menu::001:choice:03:21bbbb7d7d4c99e7",
+      "sequence": 310,
+      "translation_id": null,
+      "menu_key": "001:choice:03:21bbbb7d7d4c99e7",
+      "translation_id_status": "aligned_exact_menu_old_key",
+      "source_file": "scenario/001.rpy",
+      "source_line": 1364,
+      "speaker": "narrator",
+      "lane": "narrative_choice",
+      "source_jp": "触らないでおこう",
+      "draft_ko": "건드리지 말자",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 310,
+      "source_packet_stable_id": "scenario.rpa::scenario/001.rpy::menu::001:choice:03:21bbbb7d7d4c99e7",
+      "catalog_command_index": 310,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::menu::001:choice:03:21bbbb7d7d4c99e7",
+      "id_origin": "renpy-string-key",
+      "alignment": {
+        "method": "renpy-string-old-key-exact-match",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": null,
+          "renpy_digest": null,
+          "source_group_sha256": "a022ecba70395b6558f335c9e3e6563ff4584b07aabccee28c043873e8778b79",
+          "source_text_sha256": "21bbbb7d7d4c99e78cf372c1aba853fb6bfab1c4b3d8d001cc524afc96a1a785",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 1364,
+          "speaker": "narrator",
+          "source_text_exact_match": true,
+          "source_text_sha256": "21bbbb7d7d4c99e78cf372c1aba853fb6bfab1c4b3d8d001cc524afc96a1a785",
+          "catalog_command_index": 310,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::menu::001:choice:03:21bbbb7d7d4c99e7"
+        }
+      },
+      "source_text_sha256": "21bbbb7d7d4c99e78cf372c1aba853fb6bfab1c4b3d8d001cc524afc96a1a785",
+      "source_group_sha256": "a022ecba70395b6558f335c9e3e6563ff4584b07aabccee28c043873e8778b79",
+      "renpy_digest": null,
+      "catalog_lane": "narrative_choice",
+      "catalog_voice_call": null,
+      "source_statement_code": "\"触らないでおこう\":",
+      "source_group_code": [
+        "\"触らないでおこう\":"
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::menu::002:choice:02:9c2d943d7000cde8",
+      "sequence": 506,
+      "translation_id": null,
+      "menu_key": "002:choice:02:9c2d943d7000cde8",
+      "translation_id_status": "aligned_exact_menu_old_key",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2232,
+      "speaker": "narrator",
+      "lane": "narrative_choice",
+      "source_jp": "売っちゃおう。",
+      "draft_ko": "팔아 버리자.",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 506,
+      "source_packet_stable_id": "scenario.rpa::scenario/001.rpy::menu::002:choice:02:9c2d943d7000cde8",
+      "catalog_command_index": 506,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::menu::002:choice:02:9c2d943d7000cde8",
+      "id_origin": "renpy-string-key",
+      "alignment": {
+        "method": "renpy-string-old-key-exact-match",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": null,
+          "renpy_digest": null,
+          "source_group_sha256": "64cdea621352ca9bcd52fc363ab2d8dbb75c26e14df4ac27e00639fbc8495a3b",
+          "source_text_sha256": "9c2d943d7000cde868a3d4c6d63531b68631cb97d1cd26b9e11252a06c2a649a",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2232,
+          "speaker": "narrator",
+          "source_text_exact_match": true,
+          "source_text_sha256": "9c2d943d7000cde868a3d4c6d63531b68631cb97d1cd26b9e11252a06c2a649a",
+          "catalog_command_index": 506,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::menu::002:choice:02:9c2d943d7000cde8"
+        }
+      },
+      "source_text_sha256": "9c2d943d7000cde868a3d4c6d63531b68631cb97d1cd26b9e11252a06c2a649a",
+      "source_group_sha256": "64cdea621352ca9bcd52fc363ab2d8dbb75c26e14df4ac27e00639fbc8495a3b",
+      "renpy_digest": null,
+      "catalog_lane": "narrative_choice",
+      "catalog_voice_call": null,
+      "source_statement_code": "\"売っちゃおう。\":",
+      "source_group_code": [
+        "\"売っちゃおう。\":"
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::menu::002:choice:03:913571c57537a6b2",
+      "sequence": 507,
+      "translation_id": null,
+      "menu_key": "002:choice:03:913571c57537a6b2",
+      "translation_id_status": "aligned_exact_menu_old_key",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2237,
+      "speaker": "narrator",
+      "lane": "narrative_choice",
+      "source_jp": "中を見てみよう。",
+      "draft_ko": "안을 살펴보자.",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 507,
+      "source_packet_stable_id": "scenario.rpa::scenario/001.rpy::menu::002:choice:03:913571c57537a6b2",
+      "catalog_command_index": 507,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::menu::002:choice:03:913571c57537a6b2",
+      "id_origin": "renpy-string-key",
+      "alignment": {
+        "method": "renpy-string-old-key-exact-match",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": null,
+          "renpy_digest": null,
+          "source_group_sha256": "417b9e54a46b39ad39eaa9dc5fa9d0b8c102ed28c60476f06da882fe47ea242d",
+          "source_text_sha256": "913571c57537a6b231fcd50851c6ae3a9e682270a33333e054158f4adbf53876",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2237,
+          "speaker": "narrator",
+          "source_text_exact_match": true,
+          "source_text_sha256": "913571c57537a6b231fcd50851c6ae3a9e682270a33333e054158f4adbf53876",
+          "catalog_command_index": 507,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::menu::002:choice:03:913571c57537a6b2"
+        }
+      },
+      "source_text_sha256": "913571c57537a6b231fcd50851c6ae3a9e682270a33333e054158f4adbf53876",
+      "source_group_sha256": "417b9e54a46b39ad39eaa9dc5fa9d0b8c102ed28c60476f06da882fe47ea242d",
+      "renpy_digest": null,
+      "catalog_lane": "narrative_choice",
+      "catalog_voice_call": null,
+      "source_statement_code": "\"中を見てみよう。\":",
+      "source_group_code": [
+        "\"中を見てみよう。\":"
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::menu::003:choice:02:42467f7e172d0ee1",
+      "sequence": 575,
+      "translation_id": null,
+      "menu_key": "003:choice:02:42467f7e172d0ee1",
+      "translation_id_status": "aligned_exact_menu_old_key",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2558,
+      "speaker": "narrator",
+      "lane": "spoken_choice",
+      "source_jp": "「恥ずかしいから……離して」",
+      "draft_ko": "「부끄러우니까…… 놓아 줘」",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 575,
+      "source_packet_stable_id": "scenario.rpa::scenario/001.rpy::menu::003:choice:02:42467f7e172d0ee1",
+      "catalog_command_index": 575,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::menu::003:choice:02:42467f7e172d0ee1",
+      "id_origin": "renpy-string-key",
+      "alignment": {
+        "method": "renpy-string-old-key-exact-match",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": null,
+          "renpy_digest": null,
+          "source_group_sha256": "bed4ca8a213e4e0ebe2dec492857437cbc5c6ed7bce611a18d351e6ab1b1d369",
+          "source_text_sha256": "42467f7e172d0ee135d12522aa7b035918235fe15d289447a3eab753c63ee665",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2558,
+          "speaker": "narrator",
+          "source_text_exact_match": true,
+          "source_text_sha256": "42467f7e172d0ee135d12522aa7b035918235fe15d289447a3eab753c63ee665",
+          "catalog_command_index": 575,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::menu::003:choice:02:42467f7e172d0ee1"
+        }
+      },
+      "source_text_sha256": "42467f7e172d0ee135d12522aa7b035918235fe15d289447a3eab753c63ee665",
+      "source_group_sha256": "bed4ca8a213e4e0ebe2dec492857437cbc5c6ed7bce611a18d351e6ab1b1d369",
+      "renpy_digest": null,
+      "catalog_lane": "spoken_choice",
+      "catalog_voice_call": null,
+      "source_statement_code": "\"「恥ずかしいから……離して」\":",
+      "source_group_code": [
+        "\"「恥ずかしいから……離して」\":"
+      ],
+      "protected_tokens": []
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::menu::003:choice:03:dec59999ff9ca458",
+      "sequence": 576,
+      "translation_id": null,
+      "menu_key": "003:choice:03:dec59999ff9ca458",
+      "translation_id_status": "aligned_exact_menu_old_key",
+      "source_file": "scenario/001.rpy",
+      "source_line": 2563,
+      "speaker": "narrator",
+      "lane": "spoken_choice",
+      "source_jp": "「わ、分かった」",
+      "draft_ko": "「아, 알겠어」",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_packet_sequence": 576,
+      "source_packet_stable_id": "scenario.rpa::scenario/001.rpy::menu::003:choice:03:dec59999ff9ca458",
+      "catalog_command_index": 576,
+      "catalog_stable_id": "scenario.rpa::scenario/001.rpy::menu::003:choice:03:dec59999ff9ca458",
+      "id_origin": "renpy-string-key",
+      "alignment": {
+        "method": "renpy-string-old-key-exact-match",
+        "confidence": "exact",
+        "sequence_alignment_used": false,
+        "reference_prose_used": false,
+        "evidence": {
+          "computed_translation_id": null,
+          "renpy_digest": null,
+          "source_group_sha256": "6e02637962b84d630183994936e4d6021071f7e20e2d71a9f200a0c5523045b1",
+          "source_text_sha256": "dec59999ff9ca458dc5663360abe55674ba7e9a1965334c4a0388e6c1b32fbae",
+          "reference_key_present": true
+        },
+        "join_evidence": {
+          "method": "source identity join; no sequence zip",
+          "keys": [
+            "source_file",
+            "source_line",
+            "speaker"
+          ],
+          "source_file": "scenario/001.rpy",
+          "source_line": 2563,
+          "speaker": "narrator",
+          "source_text_exact_match": true,
+          "source_text_sha256": "dec59999ff9ca458dc5663360abe55674ba7e9a1965334c4a0388e6c1b32fbae",
+          "catalog_command_index": 576,
+          "catalog_stable_id": "scenario.rpa::scenario/001.rpy::menu::003:choice:03:dec59999ff9ca458"
+        }
+      },
+      "source_text_sha256": "dec59999ff9ca458dc5663360abe55674ba7e9a1965334c4a0388e6c1b32fbae",
+      "source_group_sha256": "6e02637962b84d630183994936e4d6021071f7e20e2d71a9f200a0c5523045b1",
+      "renpy_digest": null,
+      "catalog_lane": "spoken_choice",
+      "catalog_voice_call": null,
+      "source_statement_code": "\"「わ、分かった」\":",
+      "source_group_code": [
+        "\"「わ、分かった」\":"
+      ],
+      "protected_tokens": []
+    }
+  ],
+  "schema_version": "fatal-twelve-aligned-draft-v1",
+  "alignment_status": "complete_exact_source_join",
+  "alignment_catalog": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\catalog_design\\scenario_001.catalog.jsonl",
+    "size": 2856472,
+    "sha256": "8b980c599493d1cd0355b525238a3867540fdac293246fed51dee0b5aa3196b3",
+    "schema_version": "fatal-twelve-renpy-catalog-v1"
+  },
+  "sequence_semantics": "AST catalog command_index including Ren'Py menu strings",
+  "source_packet_sequence_semantics": "translator work order excluding menu choice lines; preserved separately",
+  "alignment_summary": {
+    "entries": 6,
+    "source_packet_sequence_start": 309,
+    "source_packet_sequence_end": 576,
+    "catalog_sequence_start": 309,
+    "catalog_sequence_end": 576,
+    "translation_ids": 0,
+    "menu_keys": 6,
+    "reference_missing": 0,
+    "sequence_changed": 0,
+    "translation_text_modified": false
+  },
+  "menu_structural_comparison": {
+    "entries": 6,
+    "existing_stable_id_mismatch": 0,
+    "existing_menu_key_mismatch": 0,
+    "existing_sequence_mismatch": 0,
+    "unexpected_translation_id": 0
+  }
+}

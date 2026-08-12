@@ -1,0 +1,71 @@
+{
+  "schema_version": "fatal-twelve-renpy-catalog-v1",
+  "validated_at_utc": "2026-08-10T11:33:05.574416+00:00",
+  "catalog": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_009.catalog.jsonl",
+  "records": 1588,
+  "require_translated": false,
+  "source_rebuild_performed": true,
+  "metadata_checked": true,
+  "errors": [],
+  "warnings": [],
+  "passed": true,
+  "meta_checks": {
+    "catalog_hash": {
+      "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_009.catalog.jsonl",
+      "size": 5382658,
+      "sha256": "acba3c94ebbf88c9d06790bd5ae9902901cabe2dfaafe97437da53b73641b20e"
+    },
+    "statistics": {
+      "records": 1588,
+      "lanes": {
+        "choice_prompt": 2,
+        "dialogue": 599,
+        "dialogue_choice_prompt": 1,
+        "narration": 980,
+        "narrative_choice": 6
+      },
+      "voiced_records": 600,
+      "translation_id_records": 1579,
+      "menu_key_records": 9,
+      "reference_present": 0,
+      "reference_missing": 1588,
+      "speakers": {
+        "<narrator>": 988,
+        "alan": 61,
+        "alan_scale": 2,
+        "alan_unk4": 1,
+        "federico": 50,
+        "lete": 1,
+        "mao": 18,
+        "miharu": 79,
+        "naomi": 62,
+        "parca": 40,
+        "rinka": 162,
+        "scale": 123,
+        "scale_unk3": 1
+      },
+      "labels": {
+        "f009": 485,
+        "f009.root_E": 109,
+        "f009.route_D": 5,
+        "f009.s1_1": 6,
+        "f009.s1_2": 9,
+        "f009.s1_end_1": 196,
+        "f009.s1_end_2": 458,
+        "f009.s2_1": 2,
+        "f009.s2_2": 4,
+        "f009.s2_end": 10,
+        "f009.s3_1": 6,
+        "f009.s3_2": 10,
+        "f009.s3_end": 45,
+        "sentei9": 243
+      },
+      "protected_token_kinds": {
+        "number": 129,
+        "renpy_text_tag": 10
+      },
+      "japanese_codepoints_in_source_text": 45244,
+      "untranslated": 1588
+    }
+  }
+}

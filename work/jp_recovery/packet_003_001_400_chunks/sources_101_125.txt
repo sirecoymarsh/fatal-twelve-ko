@@ -1,0 +1,25 @@
+101	L0418	narration	narrator	最期に、魯は幼い頃に亡くした犬のことを想い出していた。
+102	L0432	narration	narrator	フラッシュバックが終わる頃、対面に魯の姿は消えていた。
+103	L0434	narration	narrator	オデットが投げたカードも消滅していて、部屋は元の薄暗い大広間へと戻っていた。
+104	L0436	narration	narrator	オデットは、天から差し込む光が僅かに太くなったような印象を受けていた。
+105	L0444	dialogue	odette	「なるほどな。脱落させた方にも死を体感させるとは、お前の根性は腐ってるみたいだ」
+106	L0449	dialogue	parca	「くすっ」
+107	L0451	narration	narrator	パルカは何も答えず、微笑を浮かべるだけだった。
+108	L0453	narration	narrator	その手元には、３枚のカードがあった。オデットは、それが魯の元々持っていたカードであると理解した。
+109	L0458	dialogue	parca	「≪Ⅴ・氏名≫≪Ⅺ・氏名≫≪Ⅺ・死因≫貴女はどのカードを選びますか？」
+110	L0460	narration	narrator	パルカが訊ねた直後、オデットの乗った床は再び動き出す。
+111	L0465	dialogue	parca	「下へ戻るまでに、考えておいてくださいね」
+112	L0472	dialogue	odette	「選択肢ねーじゃねーか、それ」
+113	L0474	narration	narrator	オデットは不満そうに呟いた。想像がついていたことではあるが、当たってしまうと嫌な内容だ。
+114	L0476	narration	narrator	こうして、オデットは運命の大広間の下層へと戻っていった。
+115	L0493	dialogue	federico	「なるほど……な」
+116	L0495	narration	narrator	オデットの話を、想像しながら聞いていた。
+117	L0497	narration	narrator	脱落させた相手の死の瞬間を共有する。してしまう。
+118	L0502	dialogue	federico	「嫌な気分だぜ。パルカってのは、あんな顔してひどい奴だ」
+119	L0507	dialogue	odette	「そうか？　中々にスリルがあったけどよ」
+120	L0509	narration	narrator	オデットの言葉を聞いて、オレはわざと聞こえるようにため息をついた。
+121	L0511	narration	narrator	そんなことを気にも留めていない様子で、続ける。
+122	L0516	dialogue	odette	「んなことより、日本入りするぜ」
+123	L0521	dialogue	federico	「結局行かなきゃいけないから、早い方がいいってことだな。オレもそう思っていた」
+124	L0526	dialogue	federico	「それに――あんたが取得したカードの主はどうやら日本人だったな。相当なジジイだったと思うが」
+125	L0531	dialogue	odette	「そういうことだ。よし、食ったら出るぞ」

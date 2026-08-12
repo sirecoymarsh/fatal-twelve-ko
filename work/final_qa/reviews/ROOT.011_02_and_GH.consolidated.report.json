@@ -1,0 +1,132 @@
+{
+  "schema_version": "fatal-twelve-root-011-02-and-gh-consolidated-v1",
+  "generated_at_utc": "2026-08-11T05:32:45.033903+00:00",
+  "reviewer": "ROOT",
+  "scripts": [
+    "011_02",
+    "011_02GH"
+  ],
+  "source_authority": "Japanese source_jp only",
+  "english_reference_used": false,
+  "external_translation_api_used": false,
+  "game_executed": false,
+  "master_modified": false,
+  "exhaustive_checked": 456,
+  "coverage": {
+    "011_02": 131,
+    "011_02GH": 325
+  },
+  "inputs": [
+    {
+      "path": "reviews\\ROOT.corrections.jsonl",
+      "sha256": "38a93ebc0e5bbf23e7eaffa913c6b3ade2842fcb60ff273f6a6b0799cf277b68",
+      "selected_records": 10,
+      "role": "seed"
+    },
+    {
+      "path": "reviews\\ROOT.manual.011_02_and_GH.corrections.jsonl",
+      "sha256": "cfa030cb5ee8e96eb4ef96d1d7b1492ccd8f2005ec77b1a40a20e12745ffe217",
+      "selected_records": 48,
+      "role": "manual_final"
+    }
+  ],
+  "corrections": {
+    "seed_rows": 10,
+    "manual_rows": 48,
+    "overlap_count": 4,
+    "overlap_resolution": [
+      {
+        "script": "011_02GH",
+        "sequence": 41,
+        "stable_id": "scenario.rpa::scenario/011_02GH.rpy::tid::f011_02GH_965a5dba",
+        "old_ko": "지금까지 지명할 때와 달리 나는 빠른 말로 ３가지 정보를 입에 담았다.",
+        "seed_new_ko": "지금까지 지명할 때와 달리 나는 빠른 말로 3가지 정보를 입에 담았다.",
+        "manual_final_new_ko": "지금까지 지명할 때와 달리 나는 3가지 정보를 빠르게 말했다.",
+        "resolution": "manual final wins and already includes seed typography"
+      },
+      {
+        "script": "011_02GH",
+        "sequence": 86,
+        "stable_id": "scenario.rpa::scenario/011_02GH.rpy::tid::f011_02GH_ce80a050",
+        "old_ko": "「너와 특별한 관계가 된 ３일. 이별이 가깝다고 생각하니 무척 밀도 높은 시간이었어」",
+        "seed_new_ko": "「너와 특별한 관계가 된 3일. 이별이 가깝다고 생각하니 무척 밀도 높은 시간이었어」",
+        "manual_final_new_ko": "「너와 특별한 관계로 지낸 3일. 이별이 머지않았다고 생각하니, 그 시간은 무척 짙고 충만했어」",
+        "resolution": "manual final wins and already includes seed typography"
+      },
+      {
+        "script": "011_02GH",
+        "sequence": 91,
+        "stable_id": "scenario.rpa::scenario/011_02GH.rpy::tid::f011_02GH_7e9b72a2",
+        "old_ko": "「괜찮아, 린카. 선정이 시작된 뒤 약 ３개월을 살아온 내 기억은 너한테만 남아. 린카만 아는 내가 있어. 그것을 상상하는 것만으로도 무척 행복해」",
+        "seed_new_ko": "「괜찮아, 린카. 선정이 시작된 뒤 약 3개월을 살아온 내 기억은 너한테만 남아. 린카만 아는 내가 있어. 그것을 상상하는 것만으로도 무척 행복해」",
+        "manual_final_new_ko": "「괜찮아, 린카. 선정이 시작된 뒤 약 3개월 동안 살아온 나에 대한 기억은 너한테만 남아. 린카만 아는 내가 있어. 그것을 상상하는 것만으로도 무척 행복해」",
+        "resolution": "manual final wins and already includes seed typography"
+      },
+      {
+        "script": "011_02GH",
+        "sequence": 93,
+        "stable_id": "scenario.rpa::scenario/011_02GH.rpy::tid::f011_02GH_f7320cfc",
+        "old_ko": "３장의 카드는 멈추지 않고 운명의 대회랑 중심에서 정지했다.",
+        "seed_new_ko": "3장의 카드는 멈추지 않고 운명의 대회랑 중심에서 정지했다.",
+        "manual_final_new_ko": "3장의 카드는 한 번도 멈추지 않고 움직여 운명의 대회랑 중심에서 멈췄다.",
+        "resolution": "manual final wins and already includes seed typography"
+      }
+    ],
+    "output_rows": 54,
+    "per_script": {
+      "011_02": 11,
+      "011_02GH": 43
+    }
+  },
+  "record_rule_approvals_deferred_to_global_manifest": [
+    {
+      "script": "011_02",
+      "sequence": 124,
+      "rule_id": "TARGET_QUOTE_UNBALANCED"
+    }
+  ],
+  "validation": {
+    "rows": 54,
+    "stable_id_unique": true,
+    "script_sequence_unique": true,
+    "exact_old_guard_pass": true,
+    "failures": [],
+    "post_correction_audit_issue_count": 1,
+    "post_correction_unapproved_issue_count": 0,
+    "post_correction_approved_issues": [
+      {
+        "script": "011_02",
+        "sequence": 124,
+        "stable_id": "scenario.rpa::scenario/011_02.rpy::tid::sentei11_0f96b932",
+        "source_line": 540,
+        "speaker": "parca",
+        "severity": "error",
+        "policy_severity": "HARD",
+        "rule_id": "TARGET_QUOTE_UNBALANCED",
+        "category": "target_quote_unbalanced",
+        "status": "open",
+        "message": "한국어 target 낫표 불균형",
+        "evidence": [
+          "unclosed quote(s): 「"
+        ],
+        "normalized_evidence": [
+          "unclosed quote(s): 「"
+        ],
+        "source_sha256": "8161142e074476f817b16b76126346de58fde2127724d7376e4c896182e22385",
+        "target_sha256": "2b3b6f40202d387a9fa43ffb707b886cec10af602c82d60a9e1fd833f88f2c6f",
+        "source_jp": "「それでは、今宵の脱落者はなし。これをもって、選定を終了といたしましょう",
+        "draft_ko": "「그럼 오늘 밤의 탈락자는 없음. 이것으로 선정을 마치도록 하지요",
+        "finding_id": "29fae08ed70f10a7abe2ccb31226e00a67a64bc7ab7fe8fe146659a49d51f447"
+      }
+    ]
+  },
+  "ruby_map": {
+    "path": "ruby_map.approved.json",
+    "sha256": "e2f9c68d1768cce159c5c986f3c5e4328bbbeadb42a7dfc0a2d3b41a76a22d31"
+  },
+  "output": {
+    "path": "reviews\\ROOT.011_02_and_GH.consolidated.corrections.jsonl",
+    "sha256": "8e58413efd577236d4cdb41f9587863afcb8301275019004fb335d263fa631a5"
+  },
+  "verdict": "PASS"
+}

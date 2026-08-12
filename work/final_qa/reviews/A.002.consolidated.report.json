@@ -1,0 +1,28 @@
+{
+  "schema_version": "fatal-twelve-review-consolidated-v1",
+  "reviewer": "A",
+  "script": "002",
+  "source_authority": "Japanese only",
+  "english_reference_used": false,
+  "external_translation_api_used": false,
+  "exhaustive_checked": 668,
+  "manual_corrections": 29,
+  "automatic_width_corrections": 17,
+  "manual_auto_overlap_sequences": [],
+  "output_unique_corrections": 46,
+  "checks": {
+    "old_guard": 46,
+    "changed": 46,
+    "encoding": 46,
+    "width": 46,
+    "tags": 46,
+    "roman": 46,
+    "quotes": 46,
+    "newline": 46,
+    "numbers": 46,
+    "kana": 46
+  },
+  "failures": [],
+  "master_sha256": "e67a1f0695b56bca521c0ae681fc446283a84607e94a4e983dec6de692ece4c6",
+  "output_sha256": "e3cd57857df535608aabece52aab21c9ad5bc113ee8da866301d2775cfc0895c"
+}

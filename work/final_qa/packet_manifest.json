@@ -1,0 +1,216 @@
+{
+  "schema_version": "fatal-twelve-master-packet-manifest-v1",
+  "description": "Explicit exact-catalog to first-draft packet map. Translation prose is immutable input.",
+  "variables": {
+    "WORK_ROOT": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc",
+    "PROJECT_ROOT": "P:\\AI\\Codex\\projects\\fatal-twelve-ko"
+  },
+  "catalog_expectations": {
+    "file_count": 29,
+    "record_count": 18184
+  },
+  "policies": {
+    "translation_text": "immutable",
+    "catalog_metadata": "authoritative",
+    "unlisted_duplicate": "error",
+    "pending_packet": "report_missing_without_guessing",
+    "structural_only": true
+  },
+  "conflict_policies": [
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s1_end_4f5fe164",
+      "policy": "select_exact_packet_and_preserve_all_candidates",
+      "selected_packet": "${PROJECT_ROOT}\\translations\\draft\\scenario\\aligned\\001_sequence351_bridge_aligned.json",
+      "selected_draft_ko_sha256": "e7065a3171496a423d50ac7516622b8bf0152585fa29f432c75653f6159b161b",
+      "reason": "Explicit bridge packet selection; translation review remains deferred."
+    }
+  ],
+  "scripts": [
+    {
+      "script_key": "001",
+      "source_file": "scenario/001.rpy",
+      "catalog": "${PROJECT_ROOT}\\catalog\\scenario_001.catalog.jsonl",
+      "expected_records": 844,
+      "packets": [
+        {"id": "001_part001", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\aligned\\001_part001_aligned.json", "status": "ready", "expected_occurrences": 50, "expected_command_index": [1, 50]},
+        {"id": "001_part002", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\aligned\\001_part002_aligned.json", "status": "ready", "expected_occurrences": 50, "expected_command_index": [51, 100]},
+        {"id": "001_part003", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\aligned\\001_part003_aligned.json", "status": "ready", "expected_occurrences": 50, "expected_command_index": [101, 150]},
+        {"id": "001_recovery_151_350", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\aligned\\draft_001_151_350_aligned.json", "status": "ready", "expected_occurrences": 200, "expected_command_index": [151, 352], "allow_command_gaps": true},
+        {"id": "001_sequence351_bridge", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\aligned\\001_sequence351_bridge_aligned.json", "status": "ready", "expected_occurrences": 1, "expected_command_index": [351, 351]},
+        {"id": "001_part004", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\aligned\\001_part004_aligned.json", "status": "ready", "expected_occurrences": 50, "expected_command_index": [353, 402]},
+        {"id": "001_part005", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\aligned\\001_part005_aligned.json", "status": "ready", "expected_occurrences": 50, "expected_command_index": [403, 452]},
+        {"id": "001_part006", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\aligned\\001_part006_aligned.json", "status": "ready", "expected_occurrences": 50, "expected_command_index": [453, 502]},
+        {"id": "001_part007", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\aligned\\001_part007_aligned.json", "status": "ready", "expected_occurrences": 50, "expected_command_index": [503, 554], "allow_command_gaps": true},
+        {"id": "001_part008", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\aligned\\001_part008_aligned.json", "status": "ready", "expected_occurrences": 50, "expected_command_index": [555, 606], "allow_command_gaps": true},
+        {"id": "001_part009", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\aligned\\001_part009_aligned.json", "status": "ready", "expected_occurrences": 50, "expected_command_index": [607, 656]},
+        {"id": "001_after_2922", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\aligned\\translation_001_after_2922_aligned.json", "status": "ready", "expected_occurrences": 188, "expected_command_index": [657, 844]},
+        {"id": "001_missing_menus", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\aligned\\001_missing_menus_aligned.json", "status": "ready", "expected_occurrences": 6, "expected_sequences": [309, 310, 506, 507, 575, 576]}
+      ]
+    },
+    {
+      "script_key": "002", "source_file": "scenario/002.rpy", "catalog": "${PROJECT_ROOT}\\catalog\\scenario_002.catalog.jsonl", "expected_records": 668,
+      "packets": [
+        {"id": "002_001_300", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\agent_packets\\draft_002_001_300.json", "status": "ready", "expected_occurrences": 300, "expected_command_index": [1, 300]},
+        {"id": "002_301_end", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\agent_packets\\draft_002_301_end.json", "status": "ready", "expected_occurrences": 368, "expected_command_index": [301, 668]}
+      ]
+    },
+    {
+      "script_key": "003", "source_file": "scenario/003.rpy", "catalog": "${PROJECT_ROOT}\\catalog\\scenario_003.catalog.jsonl", "expected_records": 1526,
+      "packets": [
+        {"id": "003_001_400", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\agent_packets\\draft_003_001_400.json", "status": "ready", "expected_occurrences": 400, "expected_command_index": [1, 400]},
+        {"id": "003_401_1150", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\agent_packets\\draft_003_401_1150.json", "status": "ready", "expected_occurrences": 750, "expected_command_index": [401, 1150]},
+        {"id": "003_1151_end", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\agent_packets\\draft_003_1151_end.json", "status": "ready", "expected_occurrences": 376, "expected_command_index": [1151, 1526]}
+      ]
+    },
+    {
+      "script_key": "004", "source_file": "scenario/004.rpy", "catalog": "${PROJECT_ROOT}\\catalog\\scenario_004.catalog.jsonl", "expected_records": 1067,
+      "packets": [
+        {"id": "004_001_400", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\agent_packets\\draft_004_001_400.json", "status": "ready", "expected_occurrences": 400, "expected_command_index": [1, 400]},
+        {"id": "004_401_800", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\agent_packets\\draft_004_401_800.json", "status": "ready", "expected_occurrences": 400, "expected_command_index": [401, 800]},
+        {"id": "004_801_end", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\agent_packets\\draft_004_801_end.json", "status": "ready", "expected_occurrences": 267, "expected_command_index": [801, 1067]}
+      ]
+    },
+    {
+      "script_key": "005_1", "source_file": "scenario/005_1.rpy", "catalog": "${PROJECT_ROOT}\\catalog\\scenario_005_1.catalog.jsonl", "expected_records": 1657,
+      "packets": [
+        {"id": "005_1_001_550", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\agent_packets\\draft_005_1_001_550.json", "status": "ready", "expected_occurrences": 550, "expected_command_index": [1, 550]},
+        {"id": "005_1_551_1100", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\agent_packets\\draft_005_1_551_1100.json", "status": "ready", "expected_occurrences": 550, "expected_command_index": [551, 1100]},
+        {"id": "005_1_1101_end", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\agent_packets\\draft_005_1_1101_end.json", "status": "ready", "expected_occurrences": 557, "expected_command_index": [1101, 1657]}
+      ]
+    },
+    {
+      "script_key": "005_2", "source_file": "scenario/005_2.rpy", "catalog": "${PROJECT_ROOT}\\catalog\\scenario_005_2.catalog.jsonl", "expected_records": 1042,
+      "packets": [
+        {"id": "005_2_001_347", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\agent_packets\\draft_005_2_001_347.json", "status": "ready", "expected_occurrences": 347, "expected_command_index": [1, 347]},
+        {"id": "005_2_348_694", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\agent_packets\\draft_005_2_348_694.json", "status": "ready", "expected_occurrences": 347, "expected_command_index": [348, 694]},
+        {"id": "005_2_695_end", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\agent_packets\\draft_005_2_695_end.json", "status": "ready", "expected_occurrences": 348, "expected_command_index": [695, 1042]}
+      ]
+    },
+    {
+      "script_key": "006", "source_file": "scenario/006.rpy", "catalog": "${PROJECT_ROOT}\\catalog\\scenario_006.catalog.jsonl", "expected_records": 755,
+      "packets": [
+        {"id": "006_001_252", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\agent_packets\\draft_006_001_252.json", "status": "ready", "expected_occurrences": 252, "expected_command_index": [1, 252]},
+        {"id": "006_253_503", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\agent_packets\\draft_006_253_503.json", "status": "ready", "expected_occurrences": 251, "expected_command_index": [253, 503]},
+        {"id": "006_504_end", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\agent_packets\\draft_006_504_end.json", "status": "ready", "expected_occurrences": 252, "expected_command_index": [504, 755]}
+      ]
+    },
+    {
+      "script_key": "007_1", "source_file": "scenario/007_1.rpy", "catalog": "${PROJECT_ROOT}\\catalog\\scenario_007_1.catalog.jsonl", "expected_records": 1063,
+      "packets": [
+        {"id": "007_1_001_350", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\agent_packets\\draft_007_1_001_350.json", "status": "ready", "expected_occurrences": 350, "expected_command_index": [1, 350]},
+        {"id": "007_1_351_706", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\agent_packets\\draft_007_1_351_706.json", "status": "ready", "expected_occurrences": 356, "expected_command_index": [351, 706]},
+        {"id": "007_1_707_end", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\agent_packets\\draft_007_1_707_end.json", "status": "ready", "expected_occurrences": 357, "expected_command_index": [707, 1063]}
+      ]
+    },
+    {
+      "script_key": "007_2", "source_file": "scenario/007_2.rpy", "catalog": "${PROJECT_ROOT}\\catalog\\scenario_007_2.catalog.jsonl", "expected_records": 1471,
+      "packets": [
+        {"id": "007_2_001_350", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\agent_packets\\draft_007_2_001_350.json", "status": "ready", "expected_occurrences": 350, "expected_command_index": [1, 350]},
+        {"id": "007_2_351_800", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\agent_packets\\draft_007_2_351_800.json", "status": "ready", "expected_occurrences": 450, "expected_command_index": [351, 800]},
+        {"id": "007_2_801_1150", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\agent_packets\\draft_007_2_801_1150.json", "status": "ready", "expected_occurrences": 350, "expected_command_index": [801, 1150]},
+        {"id": "007_2_1151_end", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\agent_packets\\draft_007_2_1151_end.json", "status": "ready", "expected_occurrences": 321, "expected_command_index": [1151, 1471]}
+      ]
+    },
+    {
+      "script_key": "008", "source_file": "scenario/008.rpy", "catalog": "${PROJECT_ROOT}\\catalog\\scenario_008.catalog.jsonl", "expected_records": 1500,
+      "packets": [
+        {"id": "008_001_400", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\agent_packets\\draft_008_001_400.json", "status": "ready", "expected_occurrences": 400, "expected_command_index": [1, 400]},
+        {"id": "008_401_800", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\agent_packets\\draft_008_401_800.json", "status": "ready", "expected_occurrences": 400, "expected_command_index": [401, 800]},
+        {"id": "008_801_1150", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\agent_packets\\draft_008_801_1150.json", "status": "ready", "expected_occurrences": 350, "expected_command_index": [801, 1150]},
+        {"id": "008_1151_end", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\agent_packets\\draft_008_1151_end.json", "status": "ready", "expected_occurrences": 350, "expected_command_index": [1151, 1500]}
+      ]
+    },
+    {
+      "script_key": "009", "source_file": "scenario/009.rpy", "catalog": "${PROJECT_ROOT}\\catalog\\scenario_009.catalog.jsonl", "expected_records": 1588,
+      "packets": [
+        {"id": "009_001_400", "path": "${WORK_ROOT}\\work\\catalog_design\\draft_009_001_400.json", "status": "ready", "expected_occurrences": 400, "expected_command_index": [1, 400]},
+        {"id": "009_401_800", "path": "${WORK_ROOT}\\work\\catalog_design\\draft_009_401_800.json", "status": "ready", "expected_occurrences": 400, "expected_command_index": [401, 800]},
+        {"id": "009_801_1200", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\agent_packets\\draft_009_801_1200.json", "status": "ready", "placeholder_origin": true, "expected_occurrences": 400, "expected_command_index": [801, 1200]},
+        {"id": "009_1201_end", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\agent_packets\\draft_009_1201_1588.json", "status": "ready", "placeholder_origin": true, "expected_occurrences": 388, "expected_command_index": [1201, 1588]}
+      ]
+    },
+    {
+      "script_key": "010", "source_file": "scenario/010.rpy", "catalog": "${PROJECT_ROOT}\\catalog\\scenario_010.catalog.jsonl", "expected_records": 1337,
+      "packets": [
+        {"id": "010_001_300", "path": "${WORK_ROOT}\\work\\root_drafts\\draft_010_001_300.json", "status": "ready", "expected_occurrences": 300, "expected_command_index": [1, 300]},
+        {"id": "010_301_600", "path": "${WORK_ROOT}\\work\\root_drafts\\draft_010_301_600.json", "status": "ready", "expected_occurrences": 300, "expected_command_index": [301, 600]},
+        {"id": "010_601_900", "path": "${WORK_ROOT}\\work\\catalog_design\\draft_010_601_900.json", "status": "ready", "expected_occurrences": 300, "expected_command_index": [601, 900]},
+        {"id": "010_901_1100", "path": "${WORK_ROOT}\\work\\root_drafts\\draft_010_901_1100.json", "status": "ready", "expected_occurrences": 200, "expected_command_index": [901, 1100]},
+        {"id": "010_1101_end", "path": "${WORK_ROOT}\\work\\root_drafts\\draft_010_1101_end.json", "status": "ready", "expected_occurrences": 237, "expected_command_index": [1101, 1337]}
+      ]
+    },
+    {
+      "script_key": "011_01", "source_file": "scenario/011_01.rpy", "catalog": "${PROJECT_ROOT}\\catalog\\scenario_011_01.catalog.jsonl", "expected_records": 408,
+      "packets": [{"id": "011_01_full", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\011_01_exact_first_draft.json", "status": "ready", "expected_occurrences": 408, "expected_command_index": [1, 408]}]
+    },
+    {
+      "script_key": "011_01F", "source_file": "scenario/011_01F.rpy", "catalog": "${PROJECT_ROOT}\\catalog\\scenario_011_01F.catalog.jsonl", "expected_records": 210,
+      "packets": [{"id": "011_01F_full", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\011_01F_exact_first_draft.json", "status": "ready", "expected_occurrences": 210, "expected_command_index": [1, 210]}]
+    },
+    {
+      "script_key": "011_01G", "source_file": "scenario/011_01G.rpy", "catalog": "${PROJECT_ROOT}\\catalog\\scenario_011_01G.catalog.jsonl", "expected_records": 192,
+      "packets": [{"id": "011_01G_full", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\011_01G_exact_first_draft.json", "status": "ready", "expected_occurrences": 192, "expected_command_index": [1, 192]}]
+    },
+    {
+      "script_key": "011_01H", "source_file": "scenario/011_01H.rpy", "catalog": "${PROJECT_ROOT}\\catalog\\scenario_011_01H.catalog.jsonl", "expected_records": 63,
+      "packets": [{"id": "011_01H_full", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\aligned\\011_01H_aligned.json", "status": "ready", "expected_occurrences": 63, "expected_command_index": [1, 63]}]
+    },
+    {
+      "script_key": "011_02", "source_file": "scenario/011_02.rpy", "catalog": "${PROJECT_ROOT}\\catalog\\scenario_011_02.catalog.jsonl", "expected_records": 131,
+      "packets": [{"id": "011_02_full", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\aligned\\011_02_aligned.json", "status": "ready", "expected_occurrences": 131, "expected_command_index": [1, 131]}]
+    },
+    {
+      "script_key": "011_02GH", "source_file": "scenario/011_02GH.rpy", "catalog": "${PROJECT_ROOT}\\catalog\\scenario_011_02GH.catalog.jsonl", "expected_records": 325,
+      "packets": [{"id": "011_02GH_full", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\011_02GH_exact_first_draft.json", "status": "ready", "expected_occurrences": 325, "expected_command_index": [1, 325]}]
+    },
+    {
+      "script_key": "012_01F", "source_file": "scenario/012_01F.rpy", "catalog": "${PROJECT_ROOT}\\catalog\\scenario_012_01F.catalog.jsonl", "expected_records": 1190,
+      "packets": [
+        {"id": "012_01F_001_300", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\agent_packets\\draft_012_01F_001_300.json", "status": "ready", "expected_occurrences": 300, "expected_command_index": [1, 300]},
+        {"id": "012_01F_301_600", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\agent_packets\\draft_012_01F_301_600.json", "status": "ready", "expected_occurrences": 300, "expected_command_index": [301, 600]},
+        {"id": "012_01F_601_900", "path": "${WORK_ROOT}\\work\\patch_architecture\\draft_012_01F_601_900.json", "status": "ready", "expected_occurrences": 300, "expected_command_index": [601, 900]},
+        {"id": "012_01F_901_end", "path": "${WORK_ROOT}\\work\\jp_recovery\\draft_012_01F_901_1190.json", "status": "ready", "expected_occurrences": 290, "expected_command_index": [901, 1190]}
+      ]
+    },
+    {
+      "script_key": "012_01GH", "source_file": "scenario/012_01GH.rpy", "catalog": "${PROJECT_ROOT}\\catalog\\scenario_012_01GH.catalog.jsonl", "expected_records": 313,
+      "packets": [{"id": "012_01GH_full", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\012_01GH_exact_first_draft.json", "status": "ready", "expected_occurrences": 313, "expected_command_index": [1, 313]}]
+    },
+    {
+      "script_key": "012_02", "source_file": "scenario/012_02.rpy", "catalog": "${PROJECT_ROOT}\\catalog\\scenario_012_02.catalog.jsonl", "expected_records": 209,
+      "packets": [{"id": "012_02_full", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\012_02_exact_first_draft.json", "status": "ready", "expected_occurrences": 209, "expected_command_index": [1, 209]}]
+    },
+    {
+      "script_key": "BAD_END_01", "source_file": "scenario/BAD_END_01.rpy", "catalog": "${PROJECT_ROOT}\\catalog\\scenario_BAD_END_01.catalog.jsonl", "expected_records": 58,
+      "packets": [{"id": "BAD_END_01_full", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\aligned\\BAD_END_01_aligned.json", "status": "ready", "expected_occurrences": 58, "expected_command_index": [1, 58]}]
+    },
+    {
+      "script_key": "BAD_END_02", "source_file": "scenario/BAD_END_02.rpy", "catalog": "${PROJECT_ROOT}\\catalog\\scenario_BAD_END_02.catalog.jsonl", "expected_records": 80,
+      "packets": [{"id": "BAD_END_02_full", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json", "status": "ready", "expected_occurrences": 80, "expected_command_index": [1, 80]}]
+    },
+    {
+      "script_key": "BAD_END_03", "source_file": "scenario/BAD_END_03.rpy", "catalog": "${PROJECT_ROOT}\\catalog\\scenario_BAD_END_03.catalog.jsonl", "expected_records": 21,
+      "packets": [{"id": "BAD_END_03_full", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\aligned\\BAD_END_03_aligned.json", "status": "ready", "expected_occurrences": 21, "expected_command_index": [1, 21]}]
+    },
+    {
+      "script_key": "BAD_END_04", "source_file": "scenario/BAD_END_04.rpy", "catalog": "${PROJECT_ROOT}\\catalog\\scenario_BAD_END_04.catalog.jsonl", "expected_records": 43,
+      "packets": [{"id": "BAD_END_04_full", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\aligned\\BAD_END_04_aligned.json", "status": "ready", "expected_occurrences": 43, "expected_command_index": [1, 43]}]
+    },
+    {
+      "script_key": "MIHARU_END", "source_file": "scenario/MIHARU_END.rpy", "catalog": "${PROJECT_ROOT}\\catalog\\scenario_MIHARU_END.catalog.jsonl", "expected_records": 26,
+      "packets": [{"id": "MIHARU_END_full", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\aligned\\MIHARU_END_aligned.json", "status": "ready", "expected_occurrences": 26, "expected_command_index": [1, 26]}]
+    },
+    {
+      "script_key": "NG_plus", "source_file": "scenario/NG_plus.rpy", "catalog": "${PROJECT_ROOT}\\catalog\\scenario_NG_plus.catalog.jsonl", "expected_records": 185,
+      "packets": [{"id": "NG_plus_full", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\NG_plus_exact_first_draft.json", "status": "ready", "expected_occurrences": 185, "expected_command_index": [1, 185]}]
+    },
+    {
+      "script_key": "TRUE_END", "source_file": "scenario/TRUE_END.rpy", "catalog": "${PROJECT_ROOT}\\catalog\\scenario_TRUE_END.catalog.jsonl", "expected_records": 125,
+      "packets": [{"id": "TRUE_END_full", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\aligned\\TRUE_END_aligned.json", "status": "ready", "expected_occurrences": 125, "expected_command_index": [1, 125]}]
+    },
+    {
+      "script_key": "UNHAPPY_END", "source_file": "scenario/UNHAPPY_END.rpy", "catalog": "${PROJECT_ROOT}\\catalog\\scenario_UNHAPPY_END.catalog.jsonl", "expected_records": 87,
+      "packets": [{"id": "UNHAPPY_END_full", "path": "${PROJECT_ROOT}\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json", "status": "ready", "expected_occurrences": 87, "expected_command_index": [1, 87]}]
+    }
+  ]
+}

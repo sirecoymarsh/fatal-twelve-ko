@@ -1,0 +1,217 @@
+{
+  "source": "scenario.rpa::scenario/001.rpyc",
+  "english_translation_data_used": false,
+  "encoding": "UTF-8",
+  "entries": [
+    {
+      "number": 1,
+      "line": 32,
+      "speaker": null,
+      "text": "一つの結果に到達するまでの過程を、人は物語や人生と呼ぶ。",
+      "text_utf8_hex_prefix": "e4b880e381a4e381aee7b590e69e9ce381abe588b0e98194"
+    },
+    {
+      "number": 2,
+      "line": 34,
+      "speaker": null,
+      "text": "様々な出会いがあり、別れがあり、事件があり、選択があり、そして未来の可能性の中を進み、一つの結果へ到達する。",
+      "text_utf8_hex_prefix": "e6a798e38085e381aae587bae4bc9ae38184e3818ce38182"
+    },
+    {
+      "number": 3,
+      "line": 36,
+      "speaker": null,
+      "text": "この世界というのは――運命というのは、そういう風にできている。",
+      "text_utf8_hex_prefix": "e38193e381aee4b896e7958ce381a8e38184e38186e381ae"
+    },
+    {
+      "number": 4,
+      "line": 38,
+      "speaker": null,
+      "text": "運命は変わらないから運命なんだ。どんなに理不尽でも。",
+      "text_utf8_hex_prefix": "e9818be591bde381afe5a489e3828fe38289e381aae38184"
+    },
+    {
+      "number": 5,
+      "line": 40,
+      "speaker": null,
+      "text": "これまで生きてきた私の人生の中で起きたこと、その全ては何かの過程の結果なのだ。",
+      "text_utf8_hex_prefix": "e38193e3828ce381bee381a7e7949fe3818de381a6e3818d"
+    },
+    {
+      "number": 6,
+      "line": 42,
+      "speaker": null,
+      "text": "その途中で失われた可能性のことなんて、私は考えたことがなかった。",
+      "text_utf8_hex_prefix": "e3819de381aee98094e4b8ade381a7e5a4b1e3828fe3828c"
+    },
+    {
+      "number": 7,
+      "line": 44,
+      "speaker": null,
+      "text": "たら、れば、かもしれないに思いを馳せるほど、壮絶な人生ではなかったのだ。",
+      "text_utf8_hex_prefix": "e3819fe38289e38081e3828ce381b0e38081e3818be38282"
+    },
+    {
+      "number": 8,
+      "line": 46,
+      "speaker": null,
+      "text": "物語は、人生は、たった一つだと思い込んでいた。",
+      "text_utf8_hex_prefix": "e789a9e8aa9ee381afe38081e4babae7949fe381afe38081"
+    },
+    {
+      "number": 9,
+      "line": 58,
+      "speaker": null,
+      "text": "私の名前は、{rb}獅子舞{/rb}{rt}ししまい{/rt}{rb}凛火{/rb}{rt}りんか{/rt}。",
+      "text_utf8_hex_prefix": "e7a781e381aee5908de5898de381afe380817b72627de78d"
+    },
+    {
+      "number": 10,
+      "line": 60,
+      "speaker": null,
+      "text": "都内でそこそこ有名な女子校、私立{rb}飴茶{/rb}{rt}あめちゃ{/rt}女子大学付属高校の２年生だ。",
+      "text_utf8_hex_prefix": "e983bde58685e381a7e3819de38193e3819de38193e69c89"
+    },
+    {
+      "number": 11,
+      "line": 62,
+      "speaker": null,
+      "text": "トップ高に入った優等生からほとんど学校に来ない問題児まで色々な人がいた中学時代とは打って変わり、ここでは大人しいお嬢様ばかりだ。",
+      "text_utf8_hex_prefix": "e38388e38383e38397e9ab98e381abe585a5e381a3e3819f"
+    },
+    {
+      "number": 12,
+      "line": 64,
+      "speaker": null,
+      "text": "そんな中、私は周囲から不良のレッテルを貼られていた。",
+      "text_utf8_hex_prefix": "e3819de38293e381aae4b8ade38081e7a781e381afe591a8"
+    },
+    {
+      "number": 13,
+      "line": 66,
+      "speaker": null,
+      "text": "理由のひとつが――そしてそれがもっとも大きいのだけど――黒に金色のメッシュが入った髪にあった。",
+      "text_utf8_hex_prefix": "e79086e794b1e381aee381b2e381a8e381a4e3818ce28095"
+    },
+    {
+      "number": 14,
+      "line": 68,
+      "speaker": null,
+      "text": "地毛なのだから校則や偏見でとやかく言われることもないのだけれど、どうやら小学校からずっと女子校のお嬢様たちにはアバンギャルドに過ぎるらしい。",
+      "text_utf8_hex_prefix": "e59cb0e6af9be381aae381aee381a0e3818be38289e6a0a1"
+    },
+    {
+      "number": 15,
+      "line": 70,
+      "speaker": null,
+      "text": "服装や容姿に関する校則が緩いからこそ私は飴茶を選んだのに、実態は暗黙のルールだか伝統だかが染みついているから校則の規定がないというだけであった。",
+      "text_utf8_hex_prefix": "e69c8de8a385e38284e5aeb9e5a7bfe381abe996a2e38199"
+    },
+    {
+      "number": 16,
+      "line": 72,
+      "speaker": null,
+      "text": "入学したての頃こそ校則違反ではないのに見た目だけで不良扱いされることに腹を立てたが、３ヵ月も経たずに気にならなくなった。",
+      "text_utf8_hex_prefix": "e585a5e5ada6e38197e3819fe381a6e381aee9a083e38193"
+    },
+    {
+      "number": 17,
+      "line": 74,
+      "speaker": null,
+      "text": "私には私の世界があるように、彼女たちには彼女たちの世界があることが分かったからだ。",
+      "text_utf8_hex_prefix": "e7a781e381abe381afe7a781e381aee4b896e7958ce3818c"
+    },
+    {
+      "number": 18,
+      "line": 76,
+      "speaker": null,
+      "text": "私が彼女たちの価値観を理解できないように、彼女たちもまた私の価値観を理解することはない。",
+      "text_utf8_hex_prefix": "e7a781e3818ce5bdbce5a5b3e3819fe381a1e381aee4bea1"
+    },
+    {
+      "number": 19,
+      "line": 78,
+      "speaker": null,
+      "text": "実のところ、これまでの私はそんな風に理解できるものだけを理解して生きていくのだと割り切っていた。",
+      "text_utf8_hex_prefix": "e5ae9fe381aee381a8e38193e3828de38081e38193e3828c"
+    },
+    {
+      "number": 20,
+      "line": 80,
+      "speaker": null,
+      "text": "だが、ある時を境に運命の歯車が大きく動き出すことになった。",
+      "text_utf8_hex_prefix": "e381a0e3818ce38081e38182e3828be69982e38292e5a283"
+    },
+    {
+      "number": 21,
+      "line": 82,
+      "speaker": null,
+      "text": "それは、ゴールデンウィーク直前のある日からだった――。",
+      "text_utf8_hex_prefix": "e3819de3828ce381afe38081e382b4e383bce383abe38387"
+    },
+    {
+      "number": 22,
+      "line": 112,
+      "speaker": "rinka",
+      "text": "「見て。駅の時計止まっちゃってる……故障かな？」",
+      "text_utf8_hex_prefix": "e3808ce8a68be381a6e38082e9a785e381aee69982e8a888"
+    },
+    {
+      "number": 23,
+      "line": 114,
+      "speaker": null,
+      "text": "改札口を抜けた先にあるアナログ時計に目を遣って、私は{rb}直未{/rb}{rt}なおみ{/rt}に話しかけた。",
+      "text_utf8_hex_prefix": "e694b9e69cade58fa3e38292e68a9ce38191e3819fe58588"
+    },
+    {
+      "number": 24,
+      "line": 120,
+      "speaker": "naomi",
+      "text": "「本当だ……凛火先輩、よく気付きましたね！　駅の時計が止まってるなんて珍しいのに」",
+      "text_utf8_hex_prefix": "e3808ce69cace5bd93e381a0e280a6e280a6e5879be781ab"
+    },
+    {
+      "number": 25,
+      "line": 125,
+      "speaker": "rinka",
+      "text": "「だよね。あ、ごめん、直未の話、遮っちゃったよね？　何の話だっけ？」",
+      "text_utf8_hex_prefix": "e3808ce381a0e38288e381ade38082e38182e38081e38194"
+    },
+    {
+      "number": 26,
+      "line": 130,
+      "speaker": "naomi",
+      "text": "「えっと、あれですよ、あれ。あの……はははー、わたしも忘れちゃいました」",
+      "text_utf8_hex_prefix": "e3808ce38188e381a3e381a8e38081e38182e3828ce381a7"
+    },
+    {
+      "number": 27,
+      "line": 147,
+      "speaker": null,
+      "text": "はにかみながら答えたのは、一つ年下の{rb}日辻{/rb}{rt}ひつじ{/rt}{rb}直未{/rb}{rt}なおみ{/rt}だ。",
+      "text_utf8_hex_prefix": "e381afe381abe3818be381bfe381aae3818ce38289e7ad94"
+    },
+    {
+      "number": 28,
+      "line": 149,
+      "speaker": null,
+      "text": "後輩といっても部活や委員会で知り合ったわけではなく、ちょっとした偶然で私たちは先輩後輩の関係になった。",
+      "text_utf8_hex_prefix": "e5be8ce8bca9e381a8e38184e381a3e381a6e38282e983a8"
+    },
+    {
+      "number": 29,
+      "line": 151,
+      "speaker": null,
+      "text": "私は上下関係とか気にしないから、友達って感じだけど。",
+      "text_utf8_hex_prefix": "e7a781e381afe4b88ae4b88be996a2e4bf82e381a8e3818b"
+    },
+    {
+      "number": 30,
+      "line": 153,
+      "speaker": null,
+      "text": "直未と私は、二人でうちへ向かう途中であった。いつものように駅の改札を抜け、ホームへと向かっている。",
+      "text_utf8_hex_prefix": "e79bb4e69caae381a8e7a781e381afe38081e4ba8ce4baba"
+    }
+  ]
+}

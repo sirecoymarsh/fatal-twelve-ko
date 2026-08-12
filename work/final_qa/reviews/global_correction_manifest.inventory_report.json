@@ -1,0 +1,2075 @@
+{
+  "schema_version": "fatal-twelve-global-correction-inventory-report-v1",
+  "generated_at_utc": "2026-08-11T05:41:14.969193+00:00",
+  "manifest": {
+    "path": "reviews\\global_correction_manifest.draft.json",
+    "sha256": "19c19ac14ce3cb88f071763015516e566000075b4b09f97dad1f05934cfa1d93",
+    "status": "draft_do_not_apply"
+  },
+  "summary": {
+    "scenario_count": 29,
+    "master_records": 18184,
+    "candidate_correction_files": 41,
+    "selected_distinct_files": 16,
+    "selected_raw_records": 2430,
+    "selected_unique_stable_ids": 2430,
+    "resolved_final_unique_corrections": 2430,
+    "raw_duplicate_or_conflict_rows": 0,
+    "exact_duplicates": 0,
+    "new_text_conflicts": 0,
+    "historical_component_conflicts_materialized": 4,
+    "resolved_conflicts": 0,
+    "unresolved_conflicts": 0,
+    "old_guard_failures_in_selected_rows": 0,
+    "apply_ready_scenarios": 29,
+    "needs_consolidation_scenarios": 0
+  },
+  "coverage": {
+    "claimed_checked_records": 18184,
+    "formally_verified_records": 18184,
+    "provisional_records": 0,
+    "formally_verified_scenarios": 29,
+    "provisional_scenarios": 0
+  },
+  "needs_consolidation": [],
+  "conflicts_preserving_old_new_and_source": [],
+  "materialized_component_conflicts_preserving_old_new_and_source": {
+    "source_report": {
+      "path": "reviews\\ROOT.011_02_and_GH.consolidated.report.json",
+      "sha256": "dfae4504e2d6c0605bc9be579d88df7a42dab3ea7c1d794d3dab7d54925e7627"
+    },
+    "records": [
+      {
+        "script": "011_02GH",
+        "sequence": 41,
+        "stable_id": "scenario.rpa::scenario/011_02GH.rpy::tid::f011_02GH_965a5dba",
+        "old_ko": "지금까지 지명할 때와 달리 나는 빠른 말로 ３가지 정보를 입에 담았다.",
+        "seed_new_ko": "지금까지 지명할 때와 달리 나는 빠른 말로 3가지 정보를 입에 담았다.",
+        "manual_final_new_ko": "지금까지 지명할 때와 달리 나는 3가지 정보를 빠르게 말했다.",
+        "resolution": "manual final wins and already includes seed typography"
+      },
+      {
+        "script": "011_02GH",
+        "sequence": 86,
+        "stable_id": "scenario.rpa::scenario/011_02GH.rpy::tid::f011_02GH_ce80a050",
+        "old_ko": "「너와 특별한 관계가 된 ３일. 이별이 가깝다고 생각하니 무척 밀도 높은 시간이었어」",
+        "seed_new_ko": "「너와 특별한 관계가 된 3일. 이별이 가깝다고 생각하니 무척 밀도 높은 시간이었어」",
+        "manual_final_new_ko": "「너와 특별한 관계로 지낸 3일. 이별이 머지않았다고 생각하니, 그 시간은 무척 짙고 충만했어」",
+        "resolution": "manual final wins and already includes seed typography"
+      },
+      {
+        "script": "011_02GH",
+        "sequence": 91,
+        "stable_id": "scenario.rpa::scenario/011_02GH.rpy::tid::f011_02GH_7e9b72a2",
+        "old_ko": "「괜찮아, 린카. 선정이 시작된 뒤 약 ３개월을 살아온 내 기억은 너한테만 남아. 린카만 아는 내가 있어. 그것을 상상하는 것만으로도 무척 행복해」",
+        "seed_new_ko": "「괜찮아, 린카. 선정이 시작된 뒤 약 3개월을 살아온 내 기억은 너한테만 남아. 린카만 아는 내가 있어. 그것을 상상하는 것만으로도 무척 행복해」",
+        "manual_final_new_ko": "「괜찮아, 린카. 선정이 시작된 뒤 약 3개월 동안 살아온 나에 대한 기억은 너한테만 남아. 린카만 아는 내가 있어. 그것을 상상하는 것만으로도 무척 행복해」",
+        "resolution": "manual final wins and already includes seed typography"
+      },
+      {
+        "script": "011_02GH",
+        "sequence": 93,
+        "stable_id": "scenario.rpa::scenario/011_02GH.rpy::tid::f011_02GH_f7320cfc",
+        "old_ko": "３장의 카드는 멈추지 않고 운명의 대회랑 중심에서 정지했다.",
+        "seed_new_ko": "3장의 카드는 멈추지 않고 운명의 대회랑 중심에서 정지했다.",
+        "manual_final_new_ko": "3장의 카드는 한 번도 멈추지 않고 움직여 운명의 대회랑 중심에서 멈췄다.",
+        "resolution": "manual final wins and already includes seed typography"
+      }
+    ]
+  },
+  "candidate_file_inventory": [
+    {
+      "path": "reviews\\A.001.consolidated.corrections.jsonl",
+      "sha256": "b3f00f01f1c05bd51650b974f48375f8c679ac02e0dc15d0bb930c27637ab7e5",
+      "format": "jsonl",
+      "records": 299,
+      "scripts": {
+        "001": 299
+      },
+      "stable_id_present": 299,
+      "stable_id_unique": 299,
+      "internal_duplicate_stable_id_count": 0,
+      "internal_duplicate_script_sequence_count": 0,
+      "old_guard_checked": 299,
+      "old_guard_failure_count": 0,
+      "old_guard_failures": [],
+      "stable_id_identity_failure_count": 0,
+      "stable_id_identity_failures": [],
+      "selected_for_scenarios": [
+        "001"
+      ],
+      "disposition": "selected_or_selected_component"
+    },
+    {
+      "path": "reviews\\A.002.consolidated.corrections.jsonl",
+      "sha256": "e3cd57857df535608aabece52aab21c9ad5bc113ee8da866301d2775cfc0895c",
+      "format": "jsonl",
+      "records": 46,
+      "scripts": {
+        "002": 46
+      },
+      "stable_id_present": 46,
+      "stable_id_unique": 46,
+      "internal_duplicate_stable_id_count": 0,
+      "internal_duplicate_script_sequence_count": 0,
+      "old_guard_checked": 46,
+      "old_guard_failure_count": 0,
+      "old_guard_failures": [],
+      "stable_id_identity_failure_count": 0,
+      "stable_id_identity_failures": [],
+      "selected_for_scenarios": [
+        "002"
+      ],
+      "disposition": "selected_or_selected_component"
+    },
+    {
+      "path": "reviews\\A.003_004.consolidated.corrections.jsonl",
+      "sha256": "09b0c8cfb9c4f68bec2b610b3eb8c5fef95ad795154ba5add686444b89d4465c",
+      "format": "jsonl",
+      "records": 195,
+      "scripts": {
+        "003": 142,
+        "004": 53
+      },
+      "stable_id_present": 195,
+      "stable_id_unique": 195,
+      "internal_duplicate_stable_id_count": 0,
+      "internal_duplicate_script_sequence_count": 0,
+      "old_guard_checked": 195,
+      "old_guard_failure_count": 0,
+      "old_guard_failures": [],
+      "stable_id_identity_failure_count": 0,
+      "stable_id_identity_failures": [],
+      "selected_for_scenarios": [
+        "003",
+        "004"
+      ],
+      "disposition": "selected_or_selected_component"
+    },
+    {
+      "path": "reviews\\A.endings.consolidated.corrections.jsonl",
+      "sha256": "b52101dd7b0847bd776114b05893df5c103f4bc39b9377a2e52787ced6caeedc",
+      "format": "jsonl",
+      "records": 26,
+      "scripts": {
+        "BAD_END_01": 2,
+        "BAD_END_02": 7,
+        "BAD_END_04": 2,
+        "TRUE_END": 6,
+        "UNHAPPY_END": 9
+      },
+      "stable_id_present": 26,
+      "stable_id_unique": 26,
+      "internal_duplicate_stable_id_count": 0,
+      "internal_duplicate_script_sequence_count": 0,
+      "old_guard_checked": 26,
+      "old_guard_failure_count": 0,
+      "old_guard_failures": [],
+      "stable_id_identity_failure_count": 0,
+      "stable_id_identity_failures": [],
+      "selected_for_scenarios": [
+        "BAD_END_01",
+        "BAD_END_02",
+        "BAD_END_03",
+        "BAD_END_04",
+        "MIHARU_END",
+        "TRUE_END",
+        "UNHAPPY_END"
+      ],
+      "disposition": "selected_or_selected_component"
+    },
+    {
+      "path": "reviews\\A.manual.001_0170_0338.json",
+      "sha256": "f9a1596a641037c64354737ebb8bd10a8487613c1dd0bf210654f0df3267f9b1",
+      "format": "json",
+      "records": 16,
+      "scripts": {
+        "001": 16
+      },
+      "stable_id_present": 0,
+      "stable_id_unique": 0,
+      "internal_duplicate_stable_id_count": 0,
+      "internal_duplicate_script_sequence_count": 0,
+      "old_guard_checked": 0,
+      "old_guard_failure_count": 0,
+      "old_guard_failures": [],
+      "stable_id_identity_failure_count": 0,
+      "stable_id_identity_failures": [],
+      "selected_for_scenarios": [],
+      "disposition": "superseded_or_intermediate_not_selected"
+    },
+    {
+      "path": "reviews\\A.manual.001_0508_end.corrections.jsonl",
+      "sha256": "86dc2c0a0a510ba05fa63734c4a4f401bb18827ca065d67b44e1d04fcf42211e",
+      "format": "jsonl",
+      "records": 113,
+      "scripts": {
+        "001": 113
+      },
+      "stable_id_present": 113,
+      "stable_id_unique": 113,
+      "internal_duplicate_stable_id_count": 0,
+      "internal_duplicate_script_sequence_count": 0,
+      "old_guard_checked": 113,
+      "old_guard_failure_count": 0,
+      "old_guard_failures": [],
+      "stable_id_identity_failure_count": 0,
+      "stable_id_identity_failures": [],
+      "selected_for_scenarios": [],
+      "disposition": "superseded_or_intermediate_not_selected"
+    },
+    {
+      "path": "reviews\\A.manual.system_ui.corrections.jsonl",
+      "sha256": "2684738e52aefec6681652d778a61f8b6a84e1a2137c13862e7583651badedd2",
+      "format": "jsonl",
+      "records": 166,
+      "scripts": {
+        "system_ui": 166
+      },
+      "stable_id_present": 166,
+      "stable_id_unique": 166,
+      "internal_duplicate_stable_id_count": 0,
+      "internal_duplicate_script_sequence_count": 0,
+      "old_guard_checked": 0,
+      "old_guard_failure_count": 166,
+      "old_guard_failures": [
+        {
+          "script": "system_ui",
+          "sequence": 14,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 33,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 52,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 110,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 147,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 163,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 199,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 246,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 247,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 248,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 249,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 250,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 251,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 252,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 253,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 254,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 255,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 256,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 257,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 258,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 259,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 260,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 261,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 262,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 263,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 264,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 265,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 266,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 267,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 268,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 269,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 270,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 271,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 272,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 273,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 274,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 275,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 276,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 277,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 278,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 279,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 280,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 281,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 282,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 283,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 284,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 285,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 286,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 287,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 288,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 289,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 290,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 291,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 292,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 293,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 294,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 295,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 296,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 297,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 298,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 299,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 300,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 301,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 302,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 303,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 304,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 305,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 306,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 307,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 308,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 309,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 310,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 311,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 312,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 313,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 314,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 315,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 316,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 317,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 318,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 319,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 320,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 321,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 322,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 323,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 324,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 325,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 326,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 327,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 328,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 329,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 330,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 331,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 332,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 333,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 334,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 335,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 336,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 337,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 338,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 339,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 340,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 341,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 342,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 343,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 344,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 345,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 346,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 347,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 348,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 349,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 350,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 351,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 352,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 353,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 354,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 358,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 366,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 375,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 409,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 418,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 428,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 435,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 442,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 515,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 537,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 562,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 567,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 594,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 651,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 656,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 688,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 692,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 699,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 700,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 701,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 702,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 703,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 704,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 705,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 706,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 707,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 708,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 709,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 710,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 711,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 712,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 713,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 714,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 715,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 716,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 717,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 718,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 719,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 720,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 721,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 722,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 723,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 724,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 725,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 726,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 727,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 728,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 729,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 730,
+          "reason": "no master join"
+        },
+        {
+          "script": "system_ui",
+          "sequence": 731,
+          "reason": "no master join"
+        }
+      ],
+      "stable_id_identity_failure_count": 0,
+      "stable_id_identity_failures": [],
+      "selected_for_scenarios": [],
+      "disposition": "selected_non_scenario_companion"
+    },
+    {
+      "path": "reviews\\A.manual_decisions.json",
+      "sha256": "9d5eec471d31aa2cc8a5ad5101e93bb89b1e20fa21863e0cb8a3a7b834e1f93f",
+      "format": "json",
+      "records": 15,
+      "scripts": {
+        "001": 15
+      },
+      "stable_id_present": 0,
+      "stable_id_unique": 0,
+      "internal_duplicate_stable_id_count": 0,
+      "internal_duplicate_script_sequence_count": 0,
+      "old_guard_checked": 0,
+      "old_guard_failure_count": 0,
+      "old_guard_failures": [],
+      "stable_id_identity_failure_count": 0,
+      "stable_id_identity_failures": [],
+      "selected_for_scenarios": [],
+      "disposition": "superseded_or_intermediate_not_selected"
+    },
+    {
+      "path": "reviews\\A.resume.corrections.jsonl",
+      "sha256": "eeda2930451c6de85dbce1b6946f9ff519fd1559582e9635d8fd782ec1912cc9",
+      "format": "jsonl",
+      "records": 18,
+      "scripts": {
+        "001": 18
+      },
+      "stable_id_present": 18,
+      "stable_id_unique": 18,
+      "internal_duplicate_stable_id_count": 0,
+      "internal_duplicate_script_sequence_count": 0,
+      "old_guard_checked": 18,
+      "old_guard_failure_count": 0,
+      "old_guard_failures": [],
+      "stable_id_identity_failure_count": 0,
+      "stable_id_identity_failures": [],
+      "selected_for_scenarios": [],
+      "disposition": "superseded_or_intermediate_not_selected"
+    },
+    {
+      "path": "reviews\\B.005_1_005_2_006.consolidated.corrections.jsonl",
+      "sha256": "2afff9a3f4dd22a9e3ee6ccadb3e5a20303a74c38622043511b1f69054a495c2",
+      "format": "jsonl",
+      "records": 320,
+      "scripts": {
+        "005_1": 165,
+        "005_2": 88,
+        "006": 67
+      },
+      "stable_id_present": 320,
+      "stable_id_unique": 320,
+      "internal_duplicate_stable_id_count": 0,
+      "internal_duplicate_script_sequence_count": 0,
+      "old_guard_checked": 320,
+      "old_guard_failure_count": 0,
+      "old_guard_failures": [],
+      "stable_id_identity_failure_count": 0,
+      "stable_id_identity_failures": [],
+      "selected_for_scenarios": [
+        "005_1",
+        "005_2",
+        "006"
+      ],
+      "disposition": "selected_or_selected_component"
+    },
+    {
+      "path": "reviews\\B.correction_seeds.jsonl",
+      "sha256": "da5a98ef2eacf92aaa12b540d60c34dcbff2f02554cc8d6feede10983a2fa828",
+      "format": "jsonl",
+      "records": 24,
+      "scripts": {
+        "005_1": 24
+      },
+      "stable_id_present": 0,
+      "stable_id_unique": 0,
+      "internal_duplicate_stable_id_count": 0,
+      "internal_duplicate_script_sequence_count": 0,
+      "old_guard_checked": 0,
+      "old_guard_failure_count": 0,
+      "old_guard_failures": [],
+      "stable_id_identity_failure_count": 0,
+      "stable_id_identity_failures": [],
+      "selected_for_scenarios": [],
+      "disposition": "superseded_or_intermediate_not_selected"
+    },
+    {
+      "path": "reviews\\B.resume.corrections.jsonl",
+      "sha256": "aaa16febf7ed8a13aba881c67f0f65f4f3079a5918b200fead21405a818bc8ed",
+      "format": "jsonl",
+      "records": 12,
+      "scripts": {
+        "005_1": 12
+      },
+      "stable_id_present": 12,
+      "stable_id_unique": 12,
+      "internal_duplicate_stable_id_count": 0,
+      "internal_duplicate_script_sequence_count": 0,
+      "old_guard_checked": 12,
+      "old_guard_failure_count": 0,
+      "old_guard_failures": [],
+      "stable_id_identity_failure_count": 0,
+      "stable_id_identity_failures": [],
+      "selected_for_scenarios": [],
+      "disposition": "superseded_or_intermediate_not_selected"
+    },
+    {
+      "path": "reviews\\C.007_1_007_2.consolidated.corrections.jsonl",
+      "sha256": "1301660b246fb614d438193dd5c56995520460022c257f7144121414c31834fe",
+      "format": "jsonl",
+      "records": 297,
+      "scripts": {
+        "007_1": 153,
+        "007_2": 144
+      },
+      "stable_id_present": 297,
+      "stable_id_unique": 297,
+      "internal_duplicate_stable_id_count": 0,
+      "internal_duplicate_script_sequence_count": 0,
+      "old_guard_checked": 297,
+      "old_guard_failure_count": 0,
+      "old_guard_failures": [],
+      "stable_id_identity_failure_count": 0,
+      "stable_id_identity_failures": [],
+      "selected_for_scenarios": [
+        "007_1",
+        "007_2"
+      ],
+      "disposition": "selected_or_selected_component"
+    },
+    {
+      "path": "reviews\\C.008.consolidated.corrections.jsonl",
+      "sha256": "73f771a5bb9a9153d8894a0de30e2831b98db06705a03690a0227204126837f6",
+      "format": "jsonl",
+      "records": 219,
+      "scripts": {
+        "008": 219
+      },
+      "stable_id_present": 219,
+      "stable_id_unique": 219,
+      "internal_duplicate_stable_id_count": 0,
+      "internal_duplicate_script_sequence_count": 0,
+      "old_guard_checked": 219,
+      "old_guard_failure_count": 0,
+      "old_guard_failures": [],
+      "stable_id_identity_failure_count": 0,
+      "stable_id_identity_failures": [],
+      "selected_for_scenarios": [
+        "008"
+      ],
+      "disposition": "selected_or_selected_component"
+    },
+    {
+      "path": "reviews\\C.011_01.consolidated.corrections.jsonl",
+      "sha256": "41154cd46037523d74e65b610d881d16d111fc2f2c58a8a359a2213a1520c398",
+      "format": "jsonl",
+      "records": 37,
+      "scripts": {
+        "011_01": 37
+      },
+      "stable_id_present": 37,
+      "stable_id_unique": 37,
+      "internal_duplicate_stable_id_count": 0,
+      "internal_duplicate_script_sequence_count": 0,
+      "old_guard_checked": 37,
+      "old_guard_failure_count": 0,
+      "old_guard_failures": [],
+      "stable_id_identity_failure_count": 0,
+      "stable_id_identity_failures": [],
+      "selected_for_scenarios": [
+        "011_01"
+      ],
+      "disposition": "selected_or_selected_component"
+    },
+    {
+      "path": "reviews\\C.011_01FGH.consolidated.corrections.jsonl",
+      "sha256": "79b27a0630cdcc7aaa88b4498dc49125b5042eb8bbd58811dd6073a4dd7b51bb",
+      "format": "jsonl",
+      "records": 59,
+      "scripts": {
+        "011_01F": 23,
+        "011_01G": 26,
+        "011_01H": 10
+      },
+      "stable_id_present": 59,
+      "stable_id_unique": 59,
+      "internal_duplicate_stable_id_count": 0,
+      "internal_duplicate_script_sequence_count": 0,
+      "old_guard_checked": 59,
+      "old_guard_failure_count": 0,
+      "old_guard_failures": [],
+      "stable_id_identity_failure_count": 0,
+      "stable_id_identity_failures": [],
+      "selected_for_scenarios": [
+        "011_01F",
+        "011_01G",
+        "011_01H"
+      ],
+      "disposition": "selected_or_selected_component"
+    },
+    {
+      "path": "reviews\\C.decisions.tsv",
+      "sha256": "ac823c031b87953515c57fa7c976724f87e3fb2d2a5a08bf2fdc5fe754348a96",
+      "format": "tsv",
+      "records": 269,
+      "scripts": {
+        "007_1": 154,
+        "007_2": 115
+      },
+      "stable_id_present": 0,
+      "stable_id_unique": 0,
+      "internal_duplicate_stable_id_count": 0,
+      "internal_duplicate_script_sequence_count": 0,
+      "old_guard_checked": 0,
+      "old_guard_failure_count": 0,
+      "old_guard_failures": [],
+      "stable_id_identity_failure_count": 0,
+      "stable_id_identity_failures": [],
+      "selected_for_scenarios": [],
+      "disposition": "superseded_or_intermediate_not_selected"
+    },
+    {
+      "path": "reviews\\C.manual.008_0189_0450.corrections.jsonl",
+      "sha256": "05060d4014e32b535c33c0dacef96a6b24541c4ce74297f129e7c05cba5952aa",
+      "format": "jsonl",
+      "records": 26,
+      "scripts": {
+        "008": 26
+      },
+      "stable_id_present": 26,
+      "stable_id_unique": 26,
+      "internal_duplicate_stable_id_count": 0,
+      "internal_duplicate_script_sequence_count": 0,
+      "old_guard_checked": 26,
+      "old_guard_failure_count": 0,
+      "old_guard_failures": [],
+      "stable_id_identity_failure_count": 0,
+      "stable_id_identity_failures": [],
+      "selected_for_scenarios": [],
+      "disposition": "superseded_or_intermediate_not_selected"
+    },
+    {
+      "path": "reviews\\C.manual.008_0451_0600.corrections.jsonl",
+      "sha256": "22c895226a0728932c6a7aeebd7c3dae20c5dff38457242545e887db46d5da3a",
+      "format": "jsonl",
+      "records": 31,
+      "scripts": {
+        "008": 31
+      },
+      "stable_id_present": 31,
+      "stable_id_unique": 31,
+      "internal_duplicate_stable_id_count": 0,
+      "internal_duplicate_script_sequence_count": 0,
+      "old_guard_checked": 31,
+      "old_guard_failure_count": 0,
+      "old_guard_failures": [],
+      "stable_id_identity_failure_count": 0,
+      "stable_id_identity_failures": [],
+      "selected_for_scenarios": [],
+      "disposition": "superseded_or_intermediate_not_selected"
+    },
+    {
+      "path": "reviews\\C.manual.008_0601_0750.corrections.jsonl",
+      "sha256": "7cd963cffb3fa9f41791ee893abe00714a9982849cc3463720b0c9f83e3a4243",
+      "format": "jsonl",
+      "records": 20,
+      "scripts": {
+        "008": 20
+      },
+      "stable_id_present": 20,
+      "stable_id_unique": 20,
+      "internal_duplicate_stable_id_count": 0,
+      "internal_duplicate_script_sequence_count": 0,
+      "old_guard_checked": 20,
+      "old_guard_failure_count": 0,
+      "old_guard_failures": [],
+      "stable_id_identity_failure_count": 0,
+      "stable_id_identity_failures": [],
+      "selected_for_scenarios": [],
+      "disposition": "superseded_or_intermediate_not_selected"
+    },
+    {
+      "path": "reviews\\C.manual.008_0751_0900.corrections.jsonl",
+      "sha256": "b591db8471ca84df1cb1b7caaa2d4ad27684b53ee23ff3d9e550708d23e2df4d",
+      "format": "jsonl",
+      "records": 23,
+      "scripts": {
+        "008": 23
+      },
+      "stable_id_present": 23,
+      "stable_id_unique": 23,
+      "internal_duplicate_stable_id_count": 0,
+      "internal_duplicate_script_sequence_count": 0,
+      "old_guard_checked": 23,
+      "old_guard_failure_count": 0,
+      "old_guard_failures": [],
+      "stable_id_identity_failure_count": 0,
+      "stable_id_identity_failures": [],
+      "selected_for_scenarios": [],
+      "disposition": "superseded_or_intermediate_not_selected"
+    },
+    {
+      "path": "reviews\\C.manual.008_0901_1050.corrections.jsonl",
+      "sha256": "72d3aebe19de1bc2ed822bf8d1ed61c32b7b0d3c0ead899220862016c31535db",
+      "format": "jsonl",
+      "records": 20,
+      "scripts": {
+        "008": 20
+      },
+      "stable_id_present": 20,
+      "stable_id_unique": 20,
+      "internal_duplicate_stable_id_count": 0,
+      "internal_duplicate_script_sequence_count": 0,
+      "old_guard_checked": 20,
+      "old_guard_failure_count": 0,
+      "old_guard_failures": [],
+      "stable_id_identity_failure_count": 0,
+      "stable_id_identity_failures": [],
+      "selected_for_scenarios": [],
+      "disposition": "superseded_or_intermediate_not_selected"
+    },
+    {
+      "path": "reviews\\C.manual.008_1051_1200.corrections.jsonl",
+      "sha256": "e19cc7efe8846984f8b85e7bdbd21e2d2a8bae3821d7df42e81463f0eb0421e5",
+      "format": "jsonl",
+      "records": 25,
+      "scripts": {
+        "008": 25
+      },
+      "stable_id_present": 25,
+      "stable_id_unique": 25,
+      "internal_duplicate_stable_id_count": 0,
+      "internal_duplicate_script_sequence_count": 0,
+      "old_guard_checked": 25,
+      "old_guard_failure_count": 0,
+      "old_guard_failures": [],
+      "stable_id_identity_failure_count": 0,
+      "stable_id_identity_failures": [],
+      "selected_for_scenarios": [],
+      "disposition": "superseded_or_intermediate_not_selected"
+    },
+    {
+      "path": "reviews\\C.manual.008_1201_1350.corrections.jsonl",
+      "sha256": "9c79f6477927f8890046cc8ca06a4ed554f5692e73ac43a22ffb9b1d4f1157b7",
+      "format": "jsonl",
+      "records": 31,
+      "scripts": {
+        "008": 31
+      },
+      "stable_id_present": 31,
+      "stable_id_unique": 31,
+      "internal_duplicate_stable_id_count": 0,
+      "internal_duplicate_script_sequence_count": 0,
+      "old_guard_checked": 31,
+      "old_guard_failure_count": 0,
+      "old_guard_failures": [],
+      "stable_id_identity_failure_count": 0,
+      "stable_id_identity_failures": [],
+      "selected_for_scenarios": [],
+      "disposition": "superseded_or_intermediate_not_selected"
+    },
+    {
+      "path": "reviews\\C.manual.008_1351_1500.corrections.jsonl",
+      "sha256": "fc34a9fb43420641eb4e55d2b628b008078737cd6f4deb18ac16bbca2f84c122",
+      "format": "jsonl",
+      "records": 28,
+      "scripts": {
+        "008": 28
+      },
+      "stable_id_present": 28,
+      "stable_id_unique": 28,
+      "internal_duplicate_stable_id_count": 0,
+      "internal_duplicate_script_sequence_count": 0,
+      "old_guard_checked": 28,
+      "old_guard_failure_count": 0,
+      "old_guard_failures": [],
+      "stable_id_identity_failure_count": 0,
+      "stable_id_identity_failures": [],
+      "selected_for_scenarios": [],
+      "disposition": "superseded_or_intermediate_not_selected"
+    },
+    {
+      "path": "reviews\\C.NG_plus.consolidated.corrections.jsonl",
+      "sha256": "2972745b27800a86236d5b6c5469531089045f40b0ada1a37accb2334b94ed9f",
+      "format": "jsonl",
+      "records": 28,
+      "scripts": {
+        "NG_plus": 28
+      },
+      "stable_id_present": 28,
+      "stable_id_unique": 28,
+      "internal_duplicate_stable_id_count": 0,
+      "internal_duplicate_script_sequence_count": 0,
+      "old_guard_checked": 28,
+      "old_guard_failure_count": 0,
+      "old_guard_failures": [],
+      "stable_id_identity_failure_count": 0,
+      "stable_id_identity_failures": [],
+      "selected_for_scenarios": [
+        "NG_plus"
+      ],
+      "disposition": "selected_or_selected_component"
+    },
+    {
+      "path": "reviews\\C.resume.corrections.jsonl",
+      "sha256": "1021c8ba9d9a92d4dd1a65f82ebe855e8010ee4199f0cb7b77b836ff4883da99",
+      "format": "jsonl",
+      "records": 15,
+      "scripts": {
+        "008": 15
+      },
+      "stable_id_present": 15,
+      "stable_id_unique": 15,
+      "internal_duplicate_stable_id_count": 0,
+      "internal_duplicate_script_sequence_count": 0,
+      "old_guard_checked": 15,
+      "old_guard_failure_count": 0,
+      "old_guard_failures": [],
+      "stable_id_identity_failure_count": 0,
+      "stable_id_identity_failures": [],
+      "selected_for_scenarios": [],
+      "disposition": "superseded_or_intermediate_not_selected"
+    },
+    {
+      "path": "reviews\\ROOT.009.consolidated.corrections.jsonl",
+      "sha256": "b5d284c41aced8509dd2ce78caaafa7c6f8697abc3183be68c02cf7883de4fb4",
+      "format": "jsonl",
+      "records": 219,
+      "scripts": {
+        "009": 219
+      },
+      "stable_id_present": 219,
+      "stable_id_unique": 219,
+      "internal_duplicate_stable_id_count": 0,
+      "internal_duplicate_script_sequence_count": 0,
+      "old_guard_checked": 219,
+      "old_guard_failure_count": 0,
+      "old_guard_failures": [],
+      "stable_id_identity_failure_count": 0,
+      "stable_id_identity_failures": [],
+      "selected_for_scenarios": [
+        "009"
+      ],
+      "disposition": "selected_or_selected_component"
+    },
+    {
+      "path": "reviews\\ROOT.010.consolidated.corrections.jsonl",
+      "sha256": "6cf6fbef246f87a9b94a15560edced4e07aadf614880967e23d7a056ce145735",
+      "format": "jsonl",
+      "records": 409,
+      "scripts": {
+        "010": 409
+      },
+      "stable_id_present": 409,
+      "stable_id_unique": 409,
+      "internal_duplicate_stable_id_count": 0,
+      "internal_duplicate_script_sequence_count": 0,
+      "old_guard_checked": 409,
+      "old_guard_failure_count": 0,
+      "old_guard_failures": [],
+      "stable_id_identity_failure_count": 0,
+      "stable_id_identity_failures": [],
+      "selected_for_scenarios": [
+        "010"
+      ],
+      "disposition": "selected_or_selected_component"
+    },
+    {
+      "path": "reviews\\ROOT.011_02_and_GH.consolidated.corrections.jsonl",
+      "sha256": "8e58413efd577236d4cdb41f9587863afcb8301275019004fb335d263fa631a5",
+      "format": "jsonl",
+      "records": 54,
+      "scripts": {
+        "011_02": 11,
+        "011_02GH": 43
+      },
+      "stable_id_present": 54,
+      "stable_id_unique": 54,
+      "internal_duplicate_stable_id_count": 0,
+      "internal_duplicate_script_sequence_count": 0,
+      "old_guard_checked": 54,
+      "old_guard_failure_count": 0,
+      "old_guard_failures": [],
+      "stable_id_identity_failure_count": 0,
+      "stable_id_identity_failures": [],
+      "selected_for_scenarios": [
+        "011_02",
+        "011_02GH"
+      ],
+      "disposition": "selected_or_selected_component"
+    },
+    {
+      "path": "reviews\\ROOT.012_01F.consolidated.corrections.jsonl",
+      "sha256": "2fa4183bb1da6825c907534bc78a172c216ad6af9c349ed4c89850032468760c",
+      "format": "jsonl",
+      "records": 153,
+      "scripts": {
+        "012_01F": 153
+      },
+      "stable_id_present": 153,
+      "stable_id_unique": 153,
+      "internal_duplicate_stable_id_count": 0,
+      "internal_duplicate_script_sequence_count": 0,
+      "old_guard_checked": 153,
+      "old_guard_failure_count": 0,
+      "old_guard_failures": [],
+      "stable_id_identity_failure_count": 0,
+      "stable_id_identity_failures": [],
+      "selected_for_scenarios": [
+        "012_01F"
+      ],
+      "disposition": "selected_or_selected_component"
+    },
+    {
+      "path": "reviews\\ROOT.012_01GH.consolidated.corrections.jsonl",
+      "sha256": "fcbec6f68ed36808f550a72dceb2453e4c43dffd1d499e7c61c4149c31e152f0",
+      "format": "jsonl",
+      "records": 46,
+      "scripts": {
+        "012_01GH": 46
+      },
+      "stable_id_present": 46,
+      "stable_id_unique": 46,
+      "internal_duplicate_stable_id_count": 0,
+      "internal_duplicate_script_sequence_count": 0,
+      "old_guard_checked": 46,
+      "old_guard_failure_count": 0,
+      "old_guard_failures": [],
+      "stable_id_identity_failure_count": 0,
+      "stable_id_identity_failures": [],
+      "selected_for_scenarios": [
+        "012_01GH"
+      ],
+      "disposition": "selected_or_selected_component"
+    },
+    {
+      "path": "reviews\\ROOT.012_02.consolidated.corrections.jsonl",
+      "sha256": "57ed361e4586a81f5658594a9167e8aa3db501c9bf011f0ca23d5c0efca34b1a",
+      "format": "jsonl",
+      "records": 23,
+      "scripts": {
+        "012_02": 23
+      },
+      "stable_id_present": 23,
+      "stable_id_unique": 23,
+      "internal_duplicate_stable_id_count": 0,
+      "internal_duplicate_script_sequence_count": 0,
+      "old_guard_checked": 23,
+      "old_guard_failure_count": 0,
+      "old_guard_failures": [],
+      "stable_id_identity_failure_count": 0,
+      "stable_id_identity_failures": [],
+      "selected_for_scenarios": [
+        "012_02"
+      ],
+      "disposition": "selected_or_selected_component"
+    },
+    {
+      "path": "reviews\\ROOT.corrections.jsonl",
+      "sha256": "38a93ebc0e5bbf23e7eaffa913c6b3ade2842fcb60ff273f6a6b0799cf277b68",
+      "format": "jsonl",
+      "records": 280,
+      "scripts": {
+        "009": 42,
+        "010": 146,
+        "011_02GH": 10,
+        "012_01F": 66,
+        "012_01GH": 13,
+        "012_02": 3
+      },
+      "stable_id_present": 280,
+      "stable_id_unique": 280,
+      "internal_duplicate_stable_id_count": 0,
+      "internal_duplicate_script_sequence_count": 0,
+      "old_guard_checked": 280,
+      "old_guard_failure_count": 0,
+      "old_guard_failures": [],
+      "stable_id_identity_failure_count": 0,
+      "stable_id_identity_failures": [],
+      "selected_for_scenarios": [],
+      "disposition": "superseded_or_intermediate_not_selected"
+    },
+    {
+      "path": "reviews\\ROOT.manual.009_001_0884.corrections.jsonl",
+      "sha256": "d65b39ac2c10c50e22d8637be1865027bdbd541ef70f3ac31dff82d7d38b6b98",
+      "format": "jsonl",
+      "records": 60,
+      "scripts": {
+        "009": 60
+      },
+      "stable_id_present": 60,
+      "stable_id_unique": 60,
+      "internal_duplicate_stable_id_count": 0,
+      "internal_duplicate_script_sequence_count": 0,
+      "old_guard_checked": 60,
+      "old_guard_failure_count": 0,
+      "old_guard_failures": [],
+      "stable_id_identity_failure_count": 0,
+      "stable_id_identity_failures": [],
+      "selected_for_scenarios": [],
+      "disposition": "superseded_or_intermediate_not_selected"
+    },
+    {
+      "path": "reviews\\ROOT.manual.009_0885_1588.corrections.jsonl",
+      "sha256": "19f385b51635932e72a39854658a2035fac529946b7b7e42d57e37a1ac95f7c7",
+      "format": "jsonl",
+      "records": 142,
+      "scripts": {
+        "009": 142
+      },
+      "stable_id_present": 142,
+      "stable_id_unique": 142,
+      "internal_duplicate_stable_id_count": 0,
+      "internal_duplicate_script_sequence_count": 0,
+      "old_guard_checked": 142,
+      "old_guard_failure_count": 0,
+      "old_guard_failures": [],
+      "stable_id_identity_failure_count": 0,
+      "stable_id_identity_failures": [],
+      "selected_for_scenarios": [],
+      "disposition": "superseded_or_intermediate_not_selected"
+    },
+    {
+      "path": "reviews\\ROOT.manual.010_001_0480.corrections.jsonl",
+      "sha256": "2b218aee1797ed3b242485db97541b6b9214473f34dd919bb2b3e2c7050c1f11",
+      "format": "jsonl",
+      "records": 68,
+      "scripts": {
+        "010": 68
+      },
+      "stable_id_present": 68,
+      "stable_id_unique": 68,
+      "internal_duplicate_stable_id_count": 0,
+      "internal_duplicate_script_sequence_count": 0,
+      "old_guard_checked": 68,
+      "old_guard_failure_count": 0,
+      "old_guard_failures": [],
+      "stable_id_identity_failure_count": 0,
+      "stable_id_identity_failures": [],
+      "selected_for_scenarios": [],
+      "disposition": "superseded_invalid_question_mark_damage"
+    },
+    {
+      "path": "reviews\\ROOT.manual.010_001_0480.rebuilt.corrections.jsonl",
+      "sha256": "453f7ac7af3ae6b18203d0f3569447d574facee766e29dba10dd1ae0073a0522",
+      "format": "jsonl",
+      "records": 68,
+      "scripts": {
+        "010": 68
+      },
+      "stable_id_present": 68,
+      "stable_id_unique": 68,
+      "internal_duplicate_stable_id_count": 0,
+      "internal_duplicate_script_sequence_count": 0,
+      "old_guard_checked": 68,
+      "old_guard_failure_count": 0,
+      "old_guard_failures": [],
+      "stable_id_identity_failure_count": 0,
+      "stable_id_identity_failures": [],
+      "selected_for_scenarios": [],
+      "disposition": "superseded_or_intermediate_not_selected"
+    },
+    {
+      "path": "reviews\\ROOT.manual.010_0481_0960.corrections.jsonl",
+      "sha256": "2c160f5e18a9d8cf7e8818f3507ce7f262bb038b23ba27c9ea5cf2590b2063f2",
+      "format": "jsonl",
+      "records": 135,
+      "scripts": {
+        "010": 135
+      },
+      "stable_id_present": 135,
+      "stable_id_unique": 135,
+      "internal_duplicate_stable_id_count": 0,
+      "internal_duplicate_script_sequence_count": 0,
+      "old_guard_checked": 135,
+      "old_guard_failure_count": 0,
+      "old_guard_failures": [],
+      "stable_id_identity_failure_count": 0,
+      "stable_id_identity_failures": [],
+      "selected_for_scenarios": [],
+      "disposition": "superseded_or_intermediate_not_selected"
+    },
+    {
+      "path": "reviews\\ROOT.manual.010_0961_1337.corrections.jsonl",
+      "sha256": "11c0ea15e74f23f36f51b39439c5f76b7aa362991471c02daa207b67c411ac3a",
+      "format": "jsonl",
+      "records": 87,
+      "scripts": {
+        "010": 87
+      },
+      "stable_id_present": 87,
+      "stable_id_unique": 87,
+      "internal_duplicate_stable_id_count": 0,
+      "internal_duplicate_script_sequence_count": 0,
+      "old_guard_checked": 87,
+      "old_guard_failure_count": 0,
+      "old_guard_failures": [],
+      "stable_id_identity_failure_count": 0,
+      "stable_id_identity_failures": [],
+      "selected_for_scenarios": [],
+      "disposition": "superseded_or_intermediate_not_selected"
+    },
+    {
+      "path": "reviews\\ROOT.manual.011_02_and_GH.corrections.jsonl",
+      "sha256": "cfa030cb5ee8e96eb4ef96d1d7b1492ccd8f2005ec77b1a40a20e12745ffe217",
+      "format": "jsonl",
+      "records": 48,
+      "scripts": {
+        "011_02": 11,
+        "011_02GH": 37
+      },
+      "stable_id_present": 48,
+      "stable_id_unique": 48,
+      "internal_duplicate_stable_id_count": 0,
+      "internal_duplicate_script_sequence_count": 0,
+      "old_guard_checked": 48,
+      "old_guard_failure_count": 0,
+      "old_guard_failures": [],
+      "stable_id_identity_failure_count": 0,
+      "stable_id_identity_failures": [],
+      "selected_for_scenarios": [],
+      "disposition": "superseded_or_intermediate_not_selected"
+    }
+  ],
+  "selected_input_immutability": {
+    "sha256_before": {
+      "A.001.consolidated.corrections.jsonl": "b3f00f01f1c05bd51650b974f48375f8c679ac02e0dc15d0bb930c27637ab7e5",
+      "A.002.consolidated.corrections.jsonl": "e3cd57857df535608aabece52aab21c9ad5bc113ee8da866301d2775cfc0895c",
+      "A.003_004.consolidated.corrections.jsonl": "09b0c8cfb9c4f68bec2b610b3eb8c5fef95ad795154ba5add686444b89d4465c",
+      "A.endings.consolidated.corrections.jsonl": "b52101dd7b0847bd776114b05893df5c103f4bc39b9377a2e52787ced6caeedc",
+      "B.005_1_005_2_006.consolidated.corrections.jsonl": "2afff9a3f4dd22a9e3ee6ccadb3e5a20303a74c38622043511b1f69054a495c2",
+      "C.007_1_007_2.consolidated.corrections.jsonl": "1301660b246fb614d438193dd5c56995520460022c257f7144121414c31834fe",
+      "C.008.consolidated.corrections.jsonl": "73f771a5bb9a9153d8894a0de30e2831b98db06705a03690a0227204126837f6",
+      "C.011_01.consolidated.corrections.jsonl": "41154cd46037523d74e65b610d881d16d111fc2f2c58a8a359a2213a1520c398",
+      "C.011_01FGH.consolidated.corrections.jsonl": "79b27a0630cdcc7aaa88b4498dc49125b5042eb8bbd58811dd6073a4dd7b51bb",
+      "C.NG_plus.consolidated.corrections.jsonl": "2972745b27800a86236d5b6c5469531089045f40b0ada1a37accb2334b94ed9f",
+      "ROOT.009.consolidated.corrections.jsonl": "b5d284c41aced8509dd2ce78caaafa7c6f8697abc3183be68c02cf7883de4fb4",
+      "ROOT.010.consolidated.corrections.jsonl": "6cf6fbef246f87a9b94a15560edced4e07aadf614880967e23d7a056ce145735",
+      "ROOT.011_02_and_GH.consolidated.corrections.jsonl": "8e58413efd577236d4cdb41f9587863afcb8301275019004fb335d263fa631a5",
+      "ROOT.012_01F.consolidated.corrections.jsonl": "2fa4183bb1da6825c907534bc78a172c216ad6af9c349ed4c89850032468760c",
+      "ROOT.012_01GH.consolidated.corrections.jsonl": "fcbec6f68ed36808f550a72dceb2453e4c43dffd1d499e7c61c4149c31e152f0",
+      "ROOT.012_02.consolidated.corrections.jsonl": "57ed361e4586a81f5658594a9167e8aa3db501c9bf011f0ca23d5c0efca34b1a"
+    },
+    "sha256_after": {
+      "A.001.consolidated.corrections.jsonl": "b3f00f01f1c05bd51650b974f48375f8c679ac02e0dc15d0bb930c27637ab7e5",
+      "A.002.consolidated.corrections.jsonl": "e3cd57857df535608aabece52aab21c9ad5bc113ee8da866301d2775cfc0895c",
+      "A.003_004.consolidated.corrections.jsonl": "09b0c8cfb9c4f68bec2b610b3eb8c5fef95ad795154ba5add686444b89d4465c",
+      "A.endings.consolidated.corrections.jsonl": "b52101dd7b0847bd776114b05893df5c103f4bc39b9377a2e52787ced6caeedc",
+      "B.005_1_005_2_006.consolidated.corrections.jsonl": "2afff9a3f4dd22a9e3ee6ccadb3e5a20303a74c38622043511b1f69054a495c2",
+      "C.007_1_007_2.consolidated.corrections.jsonl": "1301660b246fb614d438193dd5c56995520460022c257f7144121414c31834fe",
+      "C.008.consolidated.corrections.jsonl": "73f771a5bb9a9153d8894a0de30e2831b98db06705a03690a0227204126837f6",
+      "C.011_01.consolidated.corrections.jsonl": "41154cd46037523d74e65b610d881d16d111fc2f2c58a8a359a2213a1520c398",
+      "C.011_01FGH.consolidated.corrections.jsonl": "79b27a0630cdcc7aaa88b4498dc49125b5042eb8bbd58811dd6073a4dd7b51bb",
+      "C.NG_plus.consolidated.corrections.jsonl": "2972745b27800a86236d5b6c5469531089045f40b0ada1a37accb2334b94ed9f",
+      "ROOT.009.consolidated.corrections.jsonl": "b5d284c41aced8509dd2ce78caaafa7c6f8697abc3183be68c02cf7883de4fb4",
+      "ROOT.010.consolidated.corrections.jsonl": "6cf6fbef246f87a9b94a15560edced4e07aadf614880967e23d7a056ce145735",
+      "ROOT.011_02_and_GH.consolidated.corrections.jsonl": "8e58413efd577236d4cdb41f9587863afcb8301275019004fb335d263fa631a5",
+      "ROOT.012_01F.consolidated.corrections.jsonl": "2fa4183bb1da6825c907534bc78a172c216ad6af9c349ed4c89850032468760c",
+      "ROOT.012_01GH.consolidated.corrections.jsonl": "fcbec6f68ed36808f550a72dceb2453e4c43dffd1d499e7c61c4149c31e152f0",
+      "ROOT.012_02.consolidated.corrections.jsonl": "57ed361e4586a81f5658594a9167e8aa3db501c9bf011f0ca23d5c0efca34b1a"
+    },
+    "pass": true
+  },
+  "master_inventory": {
+    "001": {
+      "path": "output\\masters\\scenario_001.master.json",
+      "sha256": "4fdebbdc7814689a10aa399ab98182841a69297792d724c920a3d11aead10b11",
+      "records": 844,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "002": {
+      "path": "output\\masters\\scenario_002.master.json",
+      "sha256": "e67a1f0695b56bca521c0ae681fc446283a84607e94a4e983dec6de692ece4c6",
+      "records": 668,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "003": {
+      "path": "output\\masters\\scenario_003.master.json",
+      "sha256": "efbf28251b8adae4816ddf0adeaf7a62810499d3a52a21559faf05c6d0455e11",
+      "records": 1526,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "004": {
+      "path": "output\\masters\\scenario_004.master.json",
+      "sha256": "3aa02e473877c09fe4650f8c7fbfccfd17a54fee35320bb254271cc81e5b422d",
+      "records": 1067,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "005_1": {
+      "path": "output\\masters\\scenario_005_1.master.json",
+      "sha256": "1612088a8ba3f209f6584f92af060933fbce5c1929c3f1160bb2a06287b0ff59",
+      "records": 1657,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "005_2": {
+      "path": "output\\masters\\scenario_005_2.master.json",
+      "sha256": "9bd9b53edbed8760f230caac9df10c9395e6f736bb588267eba21aa740dbecf9",
+      "records": 1042,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "006": {
+      "path": "output\\masters\\scenario_006.master.json",
+      "sha256": "aeef3280cb1a95332c172ed48ca99cdf24e99469006e8cbdf2d672fa730d55a2",
+      "records": 755,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "007_1": {
+      "path": "output\\masters\\scenario_007_1.master.json",
+      "sha256": "ed7665e80d7e30f1b02d2a8f59364d2589b38350183d6cee98c5e681eaad4400",
+      "records": 1063,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "007_2": {
+      "path": "output\\masters\\scenario_007_2.master.json",
+      "sha256": "3b0fc00333a10d37c3775c8295ac19fb1b2355f866a8080f40ea0fc23ba3cb6d",
+      "records": 1471,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "008": {
+      "path": "output\\masters\\scenario_008.master.json",
+      "sha256": "a7ec09ab4a69e908b46a3f97a6a54d6f7f57c972ef9ab5625911c3ba873f46a2",
+      "records": 1500,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "009": {
+      "path": "output\\masters\\scenario_009.master.json",
+      "sha256": "de7771674e6e4a77df70194b7aff9ee7662da7993ec0ec0db476911020816911",
+      "records": 1588,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "010": {
+      "path": "output\\masters\\scenario_010.master.json",
+      "sha256": "c0d0ac82b27f2a3ba9190a865d3250da9d7d74eea3092ada54c7dc3f2bc62631",
+      "records": 1337,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "011_01": {
+      "path": "output\\masters\\scenario_011_01.master.json",
+      "sha256": "2fdc8632b63e73b5df4b9ad57d0d41b3684934968728c46689f96ed7a9917567",
+      "records": 408,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "011_01F": {
+      "path": "output\\masters\\scenario_011_01F.master.json",
+      "sha256": "99e894449ed17ec84ebed2cdc0337c1520003de6dcc395c61b40c017dd5deaf2",
+      "records": 210,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "011_01G": {
+      "path": "output\\masters\\scenario_011_01G.master.json",
+      "sha256": "baa9771051c79a07c5ed0b23a5dc8063b92c33a409c07c2091f282c532e883f9",
+      "records": 192,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "011_01H": {
+      "path": "output\\masters\\scenario_011_01H.master.json",
+      "sha256": "f7fbcf20f0b86ff137374784062bdd5d250c2d22c620d3e4814c423b4862a3dd",
+      "records": 63,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "011_02": {
+      "path": "output\\masters\\scenario_011_02.master.json",
+      "sha256": "6fe2cf3d00249edaae358d58018dd10a9e72bbadd25b8bb3a6c69a4a1bcd0538",
+      "records": 131,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "011_02GH": {
+      "path": "output\\masters\\scenario_011_02GH.master.json",
+      "sha256": "bebe77e1833c99bd283fa04ad0efcb5e0992c42914710ae356b0b42d6a5a094c",
+      "records": 325,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "012_01F": {
+      "path": "output\\masters\\scenario_012_01F.master.json",
+      "sha256": "03ca810fbd92741b4ddc824aad7bc3154b0dc89d78b64d7b1fcddc043d784214",
+      "records": 1190,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "012_01GH": {
+      "path": "output\\masters\\scenario_012_01GH.master.json",
+      "sha256": "41e4baab3dcbfe987942d15a197cbaca061817b963af8d8a92a19b5dd60d3946",
+      "records": 313,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "012_02": {
+      "path": "output\\masters\\scenario_012_02.master.json",
+      "sha256": "f94a6d209e47fbfb9cecc78fdca754a0adc9928f8b50e6c3f436741403aacd4e",
+      "records": 209,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "BAD_END_01": {
+      "path": "output\\masters\\scenario_BAD_END_01.master.json",
+      "sha256": "b5e027eb04766570d6862fdb7b2d562c2fea8b82e7490ba90022ee2b6da4ca21",
+      "records": 58,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "BAD_END_02": {
+      "path": "output\\masters\\scenario_BAD_END_02.master.json",
+      "sha256": "d74f378bc5a52f8ee727d55b5a44950ab86bca80a5ef6b12d5c6b6f1beb93809",
+      "records": 80,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "BAD_END_03": {
+      "path": "output\\masters\\scenario_BAD_END_03.master.json",
+      "sha256": "2e002066815a41f88fcdb5c08acd329954f47545a088c7a43f378304a43c7c53",
+      "records": 21,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "BAD_END_04": {
+      "path": "output\\masters\\scenario_BAD_END_04.master.json",
+      "sha256": "4cfc371be6372580eddc4afad4ed7e8462597b3d9450e7d9ef761e13713ffb57",
+      "records": 43,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "MIHARU_END": {
+      "path": "output\\masters\\scenario_MIHARU_END.master.json",
+      "sha256": "4a92769aab61ed330586c5847f0ac24f11fc8594ba26fce49134e7b3bdc1c276",
+      "records": 26,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "NG_plus": {
+      "path": "output\\masters\\scenario_NG_plus.master.json",
+      "sha256": "2c137ca61b7d052065f6e50748f38dae7b6a06bdc695fe469f63c28fb30c0b50",
+      "records": 185,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "TRUE_END": {
+      "path": "output\\masters\\scenario_TRUE_END.master.json",
+      "sha256": "3ccf081b268f01c5c147af158855b9a1c69511a84dd43bf3d6e1724b486f35cf",
+      "records": 125,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "UNHAPPY_END": {
+      "path": "output\\masters\\scenario_UNHAPPY_END.master.json",
+      "sha256": "851c809d36b6efd089f2eac5e82df84c00ff225345f95c77d9c670c46e4e0a73",
+      "records": 87,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    }
+  },
+  "actions_not_performed": [
+    "master apply",
+    "corrected master generation",
+    "RPY render",
+    "game execution"
+  ]
+}

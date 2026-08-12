@@ -1,0 +1,90 @@
+{
+  "schema_version": 2,
+  "status": "PASS",
+  "scope": "synthetic qualification plus UI-feedback-v2 frozen source, full-tree-bound isolated compile, deterministic package, final ZIP fixture, and Defender scans",
+  "powershell_version": "5.1.26100.8972",
+  "source_files": [
+    {
+      "path": "build_release.py",
+      "size": 23118,
+      "sha256": "790d66c89648d84d0ea99b5e00a27ccb2b078f1f3e15a2bb1eb5b05b1e671a61"
+    },
+    {
+      "path": "make_final_release_config.py",
+      "size": 5663,
+      "sha256": "259c645c1054cc6aeb3cfe190fa804db5d963c7e40edb761b3ee99d828df6b18"
+    },
+    {
+      "path": "assemble_final_stage.py",
+      "size": 7649,
+      "sha256": "285820cd600c3b195e5c14d117923ef6a15dc53294627f351d5de0f58d70ac87"
+    },
+    {
+      "path": "prepare_isolated_engine.py",
+      "size": 10751,
+      "sha256": "6c547ff9ea4724b9cd65a99497a0aa2c9a2fb0ddd71f446f11238af20874ca1a"
+    },
+    {
+      "path": "compile_isolated_payload.py",
+      "size": 24224,
+      "sha256": "eb12b37f47db60541f60dad383040c952184bf863aa0d05472b5747fe1119048"
+    },
+    {
+      "path": "prepare_compiled_payload.ps1",
+      "size": 1758,
+      "sha256": "4db3f37d4248a978b5ec5066248980b2c158005e28d567e947cc118bf3f84162"
+    },
+    {
+      "path": "audit_live_against_original_zip.py",
+      "size": 10898,
+      "sha256": "09ccc5c46a8c7d034265ae34853855d4c9f4fd967906841635eddf34c5d62fbb"
+    },
+    {
+      "path": "templates/PatchCore.psm1",
+      "size": 54425,
+      "sha256": "ba0ef60c3ff87d28d740ab347af57548d398ec75508ca50525fe39176220c606"
+    },
+    {
+      "path": "templates/Install-KoreanPatch.ps1",
+      "size": 2596,
+      "sha256": "4889f949b1fc60ae574b2acdbe0f9ca3849420fd7c217a091b03abc6a6545914"
+    },
+    {
+      "path": "templates/Restore-KoreanPatch.ps1",
+      "size": 2410,
+      "sha256": "40a6a9a3b247eef4d4b58ccec2d556167914cee1cbcb8c77fa738506d471582b"
+    },
+    {
+      "path": "templates/README_KO.txt",
+      "size": 1201,
+      "sha256": "768b892968b95d35f6170e6b19c23d46b2225226a113e056e0456ddbb0758ca1"
+    },
+    {
+      "path": "tests/run_fixture_matrix.py",
+      "size": 25072,
+      "sha256": "fcc3930a8ba0d4c3b752b36c11204952700556b8ab64c74f3885d1670e4c95e5"
+    },
+    {
+      "path": "tests/run_final_package_fixture.py",
+      "size": 17922,
+      "sha256": "b896cd1f1d0f1a693100ad162c51e02d89d00ea636975626b5b59164706cbd9a"
+    },
+    {
+      "path": "release_config.template.json",
+      "size": 2235,
+      "sha256": "393361a03c11fdedfbfa954247894dc262a15a7cc4942de9475964dd3f782edf"
+    },
+    {
+      "path": "INTEGRATION.md",
+      "size": 4165,
+      "sha256": "803674dcb7d17b6073845e45a5516b100d5327029e364ba17a712621354de6c4"
+    }
+  ],
+  "synthetic_fixture_passed": 14,
+  "synthetic_fixture_failed": 0,
+  "final_fixture_passed": 6,
+  "final_fixture_failed": 0,
+  "final_zip_sha256": "dae1890ffdad3010c16e4079fbd02424145b1e55ca8f76e475a1c45cdbdbb872",
+  "final_evidence_path": "final_build_v2/final_release_evidence.json",
+  "final_evidence_sha256": "7bc9b782486d02870df93e8bf658e2501795dac642c9cd907b28b2210ffcbedf"
+}

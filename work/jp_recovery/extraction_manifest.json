@@ -1,0 +1,524 @@
+{
+  "format": "fatal-twelve-rpa-readonly-extraction-v1",
+  "source_open_mode": "rb",
+  "archives": [
+    {
+      "archive": "F:\\DOWN\\Fatal.Twelve.Incl.DLC\\Fatal.Twelve.Incl.DLC\\Fatal Twelve\\game\\scenario.rpa",
+      "archive_size": 5102486,
+      "archive_sha256": "ea39387ae13432a79ffe4601af7b50478d063432ce3b7bc4013c92e09f036d22",
+      "header": "RPA-3.0 00000000004dd91f 42424242",
+      "index_offset": 5101855,
+      "xor_key_hex": "42424242",
+      "index_entry_count": 29,
+      "extracted_count": 29,
+      "entries": [
+        {
+          "archive_path": "scenario/001.rpyc",
+          "output_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\raw\\scenario\\001.rpyc",
+          "size": 258411,
+          "sha256": "35218998032fd91e3ba60ed801cf6675526542e0f5ae348a0364c346699bce61",
+          "spans": [
+            {
+              "offset": 51,
+              "length": 258411,
+              "prefix_length": 0
+            }
+          ]
+        },
+        {
+          "archive_path": "scenario/002.rpyc",
+          "output_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\raw\\scenario\\002.rpyc",
+          "size": 207530,
+          "sha256": "4524a2203ea9d5be044971c9223a3015d6e7c7bd96a53695080428be81cbb854",
+          "spans": [
+            {
+              "offset": 258479,
+              "length": 207530,
+              "prefix_length": 0
+            }
+          ]
+        },
+        {
+          "archive_path": "scenario/003.rpyc",
+          "output_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\raw\\scenario\\003.rpyc",
+          "size": 429782,
+          "sha256": "6f5bd036777014a6acdb8b9270dcd4735d44f2783e3ee0b7db8c1fde5163099d",
+          "spans": [
+            {
+              "offset": 466026,
+              "length": 429782,
+              "prefix_length": 0
+            }
+          ]
+        },
+        {
+          "archive_path": "scenario/004.rpyc",
+          "output_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\raw\\scenario\\004.rpyc",
+          "size": 323496,
+          "sha256": "27df043e66efba8dd0d8d0a58590607d3b63932bfddae8304d993f08b59e9713",
+          "spans": [
+            {
+              "offset": 895825,
+              "length": 323496,
+              "prefix_length": 0
+            }
+          ]
+        },
+        {
+          "archive_path": "scenario/005_1.rpyc",
+          "output_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\raw\\scenario\\005_1.rpyc",
+          "size": 445833,
+          "sha256": "de4c32284da9f12376690cbc41bf343bef7c1b194778420b33a716074ae508a5",
+          "spans": [
+            {
+              "offset": 1219338,
+              "length": 445833,
+              "prefix_length": 0
+            }
+          ]
+        },
+        {
+          "archive_path": "scenario/005_2.rpyc",
+          "output_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\raw\\scenario\\005_2.rpyc",
+          "size": 311602,
+          "sha256": "45ffbec13d3313029db08555a8d8c41cc2b02d19a68eb6372e57c6009fdbab70",
+          "spans": [
+            {
+              "offset": 1665188,
+              "length": 311602,
+              "prefix_length": 0
+            }
+          ]
+        },
+        {
+          "archive_path": "scenario/006.rpyc",
+          "output_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\raw\\scenario\\006.rpyc",
+          "size": 208631,
+          "sha256": "fda3718d9a79807a4609f064d964e868166c321b306668e12e17130a7f80d2f2",
+          "spans": [
+            {
+              "offset": 1976807,
+              "length": 208631,
+              "prefix_length": 0
+            }
+          ]
+        },
+        {
+          "archive_path": "scenario/007_1.rpyc",
+          "output_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\raw\\scenario\\007_1.rpyc",
+          "size": 300835,
+          "sha256": "ca188f71c233fd9415d55da79397ad255c6ca08494ca73ce7f1d16988bedd7fd",
+          "spans": [
+            {
+              "offset": 2185455,
+              "length": 300835,
+              "prefix_length": 0
+            }
+          ]
+        },
+        {
+          "archive_path": "scenario/007_2.rpyc",
+          "output_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\raw\\scenario\\007_2.rpyc",
+          "size": 363441,
+          "sha256": "c8c82b4c0e1d6d984f7aaf476c7253c9e28a81aa2095c9d0b45e3790bd35d341",
+          "spans": [
+            {
+              "offset": 2486307,
+              "length": 363441,
+              "prefix_length": 0
+            }
+          ]
+        },
+        {
+          "archive_path": "scenario/008.rpyc",
+          "output_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\raw\\scenario\\008.rpyc",
+          "size": 426081,
+          "sha256": "cc9a55caed52dfb2d513a7434a6507ac3c03d990dc24e993d966b7bb787c2539",
+          "spans": [
+            {
+              "offset": 2849765,
+              "length": 426081,
+              "prefix_length": 0
+            }
+          ]
+        },
+        {
+          "archive_path": "scenario/009.rpyc",
+          "output_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\raw\\scenario\\009.rpyc",
+          "size": 434929,
+          "sha256": "0715c6e41b0bd9e4e1f2fc9fb6526edaeae220d52365978199c8981159083ec6",
+          "spans": [
+            {
+              "offset": 3275863,
+              "length": 434929,
+              "prefix_length": 0
+            }
+          ]
+        },
+        {
+          "archive_path": "scenario/010.rpyc",
+          "output_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\raw\\scenario\\010.rpyc",
+          "size": 372876,
+          "sha256": "37d70472666ec04290538314f1a8593a1398aa1eb26b95d243ac13896d032df3",
+          "spans": [
+            {
+              "offset": 3710809,
+              "length": 372876,
+              "prefix_length": 0
+            }
+          ]
+        },
+        {
+          "archive_path": "scenario/011_01.rpyc",
+          "output_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\raw\\scenario\\011_01.rpyc",
+          "size": 111561,
+          "sha256": "aec08f5fee991d9ebb85e8848acfb631dc4db619b3cef4d47e941f4c0eafe5c7",
+          "spans": [
+            {
+              "offset": 4083702,
+              "length": 111561,
+              "prefix_length": 0
+            }
+          ]
+        },
+        {
+          "archive_path": "scenario/011_01F.rpyc",
+          "output_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\raw\\scenario\\011_01F.rpyc",
+          "size": 56521,
+          "sha256": "4c7c2e81f5d80cbc10a08edc6e7133bf484b0c242d1737877a8962f150c6e0e7",
+          "spans": [
+            {
+              "offset": 4195280,
+              "length": 56521,
+              "prefix_length": 0
+            }
+          ]
+        },
+        {
+          "archive_path": "scenario/011_01G.rpyc",
+          "output_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\raw\\scenario\\011_01G.rpyc",
+          "size": 57024,
+          "sha256": "fc68b770bde4a20def314aa876fa171d3dbdd751179e2be1839ae989fc067466",
+          "spans": [
+            {
+              "offset": 4251818,
+              "length": 57024,
+              "prefix_length": 0
+            }
+          ]
+        },
+        {
+          "archive_path": "scenario/011_01H.rpyc",
+          "output_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\raw\\scenario\\011_01H.rpyc",
+          "size": 16984,
+          "sha256": "be8f23e94434abe341d24ca9596899f07b85dd5a38add5a4d2f1bdf1c9d57993",
+          "spans": [
+            {
+              "offset": 4308859,
+              "length": 16984,
+              "prefix_length": 0
+            }
+          ]
+        },
+        {
+          "archive_path": "scenario/011_02.rpyc",
+          "output_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\raw\\scenario\\011_02.rpyc",
+          "size": 45634,
+          "sha256": "878486c701ebfcf8b4249ef428d498a5a0e7eaaed9768e02214a2b5f5a85c123",
+          "spans": [
+            {
+              "offset": 4325860,
+              "length": 45634,
+              "prefix_length": 0
+            }
+          ]
+        },
+        {
+          "archive_path": "scenario/011_02GH.rpyc",
+          "output_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\raw\\scenario\\011_02GH.rpyc",
+          "size": 85092,
+          "sha256": "1e71995e90038af9259fc4134d8194cc812471835f5a7135164b2a35de14ab17",
+          "spans": [
+            {
+              "offset": 4371511,
+              "length": 85092,
+              "prefix_length": 0
+            }
+          ]
+        },
+        {
+          "archive_path": "scenario/012_01F.rpyc",
+          "output_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\raw\\scenario\\012_01F.rpyc",
+          "size": 334566,
+          "sha256": "53807fc91c7b625e95a20034751a4b8afe6120602cdc0baac58f86399c2db32b",
+          "spans": [
+            {
+              "offset": 4456620,
+              "length": 334566,
+              "prefix_length": 0
+            }
+          ]
+        },
+        {
+          "archive_path": "scenario/012_01GH.rpyc",
+          "output_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\raw\\scenario\\012_01GH.rpyc",
+          "size": 81493,
+          "sha256": "fa5fea372eab4ce4926f62a1d698d17e1a2b740e30f393bac4efea321cdcd907",
+          "spans": [
+            {
+              "offset": 4791203,
+              "length": 81493,
+              "prefix_length": 0
+            }
+          ]
+        },
+        {
+          "archive_path": "scenario/012_02.rpyc",
+          "output_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\raw\\scenario\\012_02.rpyc",
+          "size": 46282,
+          "sha256": "fec07a034a10f7f554b9d94ddf17bccff5aff3e354a8299961f30e8ae85b5135",
+          "spans": [
+            {
+              "offset": 4872713,
+              "length": 46282,
+              "prefix_length": 0
+            }
+          ]
+        },
+        {
+          "archive_path": "scenario/BAD_END_01.rpyc",
+          "output_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\raw\\scenario\\BAD_END_01.rpyc",
+          "size": 17784,
+          "sha256": "f7b0a68087e3b7e3609909dd08a474bab966227123ebf2d60e52b1226e94c6e9",
+          "spans": [
+            {
+              "offset": 4919012,
+              "length": 17784,
+              "prefix_length": 0
+            }
+          ]
+        },
+        {
+          "archive_path": "scenario/BAD_END_02.rpyc",
+          "output_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\raw\\scenario\\BAD_END_02.rpyc",
+          "size": 24390,
+          "sha256": "6c44e7b08a080dcae6f4a2ca65fd1c0fe35c27d85c9b6c2545003a5d199b969f",
+          "spans": [
+            {
+              "offset": 4936813,
+              "length": 24390,
+              "prefix_length": 0
+            }
+          ]
+        },
+        {
+          "archive_path": "scenario/BAD_END_03.rpyc",
+          "output_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\raw\\scenario\\BAD_END_03.rpyc",
+          "size": 10326,
+          "sha256": "111cfd1bf8d9e6d32064dce5cd4efa4d2695d3abdaa11f3ee6c22f74b06cd410",
+          "spans": [
+            {
+              "offset": 4961220,
+              "length": 10326,
+              "prefix_length": 0
+            }
+          ]
+        },
+        {
+          "archive_path": "scenario/BAD_END_04.rpyc",
+          "output_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\raw\\scenario\\BAD_END_04.rpyc",
+          "size": 14500,
+          "sha256": "0379895711cc61e82bedcf3572058b1c38e4a9090db154ac0cca9243bdbfd841",
+          "spans": [
+            {
+              "offset": 4971563,
+              "length": 14500,
+              "prefix_length": 0
+            }
+          ]
+        },
+        {
+          "archive_path": "scenario/MIHARU_END.rpyc",
+          "output_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\raw\\scenario\\MIHARU_END.rpyc",
+          "size": 7979,
+          "sha256": "de8d52374f80a05a321a02d296c0411bb5b2950bdc17fe1859b0ce74f5ab56c7",
+          "spans": [
+            {
+              "offset": 4986080,
+              "length": 7979,
+              "prefix_length": 0
+            }
+          ]
+        },
+        {
+          "archive_path": "scenario/NG_plus.rpyc",
+          "output_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\raw\\scenario\\NG_plus.rpyc",
+          "size": 42904,
+          "sha256": "5d80c0ed5d22c7a9edcc90b33cd91c80296575578dcdd32acd5772910040fec8",
+          "spans": [
+            {
+              "offset": 4994076,
+              "length": 42904,
+              "prefix_length": 0
+            }
+          ]
+        },
+        {
+          "archive_path": "scenario/TRUE_END.rpyc",
+          "output_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\raw\\scenario\\TRUE_END.rpyc",
+          "size": 34866,
+          "sha256": "b2142606a76fd79cafc8f907389b6793360ea277b1efcd459ec43eed46e22239",
+          "spans": [
+            {
+              "offset": 5036997,
+              "length": 34866,
+              "prefix_length": 0
+            }
+          ]
+        },
+        {
+          "archive_path": "scenario/UNHAPPY_END.rpyc",
+          "output_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\raw\\scenario\\UNHAPPY_END.rpyc",
+          "size": 29975,
+          "sha256": "699c06be3ae8e383e34f3b7301c10528cb52d8331c9b4334aa037dd282ccefd9",
+          "spans": [
+            {
+              "offset": 5071880,
+              "length": 29975,
+              "prefix_length": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "archive": "F:\\DOWN\\Fatal.Twelve.Incl.DLC\\Fatal.Twelve.Incl.DLC\\Fatal Twelve\\game\\system.rpa",
+      "archive_size": 199203732,
+      "archive_sha256": "a298b88f12c98435b015a647b51f5a35987ea4d714b5bf92e90972f3fcf6b648",
+      "header": "RPA-3.0 000000000bdf839b 42424242",
+      "index_offset": 199197595,
+      "xor_key_hex": "42424242",
+      "index_entry_count": 292,
+      "extracted_count": 9,
+      "entries": [
+        {
+          "archive_path": "characters.rpyc",
+          "output_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\raw\\characters.rpyc",
+          "size": 12712,
+          "sha256": "3b46e41c44762962d9c3ac31782b7b1f681773c120237153257cab95f904aae6",
+          "spans": [
+            {
+              "offset": 51,
+              "length": 12712,
+              "prefix_length": 0
+            }
+          ]
+        },
+        {
+          "archive_path": "gamedata.rpyc",
+          "output_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\raw\\gamedata.rpyc",
+          "size": 82236,
+          "sha256": "524797c6d7c0ac8a61786f6f28ba444403f63c2e58070771efff38007401f382",
+          "spans": [
+            {
+              "offset": 12780,
+              "length": 82236,
+              "prefix_length": 0
+            }
+          ]
+        },
+        {
+          "archive_path": "gui.rpyc",
+          "output_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\raw\\gui.rpyc",
+          "size": 3400,
+          "sha256": "54010c454cb26a201775ad363bbdc86beb98e1b9716d889ce427b8d59f659fb5",
+          "spans": [
+            {
+              "offset": 198980405,
+              "length": 3400,
+              "prefix_length": 0
+            }
+          ]
+        },
+        {
+          "archive_path": "images.rpyc",
+          "output_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\raw\\images.rpyc",
+          "size": 53214,
+          "sha256": "5bcc62dabc7e53e3e18003533e2214d809f2b7adaab4a78836f03b24bd5d888f",
+          "spans": [
+            {
+              "offset": 198983822,
+              "length": 53214,
+              "prefix_length": 0
+            }
+          ]
+        },
+        {
+          "archive_path": "options.rpyc",
+          "output_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\raw\\options.rpyc",
+          "size": 5350,
+          "sha256": "11c370a268ef21de270c4cff2dc20760b1b5856e89f8a77e195219ed5087490a",
+          "spans": [
+            {
+              "offset": 199037053,
+              "length": 5350,
+              "prefix_length": 0
+            }
+          ]
+        },
+        {
+          "archive_path": "screens.rpyc",
+          "output_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\raw\\screens.rpyc",
+          "size": 84502,
+          "sha256": "9c84d4eb92cb3421cba5dc374244528508fcf17e519b7f39d1fbb570d50beb39",
+          "spans": [
+            {
+              "offset": 199042420,
+              "length": 84502,
+              "prefix_length": 0
+            }
+          ]
+        },
+        {
+          "archive_path": "script.rpyc",
+          "output_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\raw\\script.rpyc",
+          "size": 43598,
+          "sha256": "843892a89f48e74883b3eb164688d35069ea18aa27bdbc1d1c3c99da0ec3f655",
+          "spans": [
+            {
+              "offset": 199126939,
+              "length": 43598,
+              "prefix_length": 0
+            }
+          ]
+        },
+        {
+          "archive_path": "transforms.rpyc",
+          "output_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\raw\\transforms.rpyc",
+          "size": 16108,
+          "sha256": "da712b18997bcdbd9d279320f2c1c25ec54c00190685d98a285b1c6c2d71a7f1",
+          "spans": [
+            {
+              "offset": 199170554,
+              "length": 16108,
+              "prefix_length": 0
+            }
+          ]
+        },
+        {
+          "archive_path": "transitions.rpyc",
+          "output_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\raw\\transitions.rpyc",
+          "size": 10916,
+          "sha256": "8f1a97b30586d6cab9d4c3f3ced1ae8e146ccc65131611e409ab3e8f9597d857",
+          "spans": [
+            {
+              "offset": 199186679,
+              "length": 10916,
+              "prefix_length": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

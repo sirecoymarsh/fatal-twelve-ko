@@ -1,0 +1,71 @@
+{
+    "schema_version":  "fatal-twelve-visible-user-review-session-v2-recovered",
+    "status":  "USER_REVIEW_IN_PROGRESS",
+    "evidence_generated_at_utc":  "2026-08-11T07:03:19.7432482Z",
+    "recovery_reason":  "root fatal.exe architecture-selector stub exited after spawning GUI child; original v1 launcher stopped before evidence write",
+    "recovered_from_live_gui_child":  true,
+    "review_root":  "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\runtime_review",
+    "original_install_modified":  false,
+    "launcher_used_sha256":  "6dc8b05e977a40834cee851f0c15be88765837bdf119cc745e7397acd5293410",
+    "corrected_launcher_path":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\technical_qa\\launch_visible_user_review.ps1",
+    "corrected_launcher_sha256":  "816ae6e54c27e8a2a5b1c9f74ca4a6f7ee1de7829106cdfc417b44ce2d520713",
+    "launcher_stub_path":  "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\runtime_review\\fatal.exe",
+    "launcher_stub_sha256":  "987b9a1d43e46b8665a0cc4c6280459ef3d13c365fba8ba0b55a88e9f03f43bd",
+    "observed_runtime_parent_pid":  30820,
+    "observed_runtime_parent_alive":  false,
+    "runtime_executable_path":  "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\runtime_review\\lib\\windows-i686\\fatal.exe",
+    "runtime_executable_sha256":  "24aac8f4c325a6df0725da2e31a364b28841038c327cf10e014796647e3aa0ba",
+    "pid":  34588,
+    "process_start_time_utc":  "2026-08-11T06:58:03.5811504Z",
+    "process_alive":  true,
+    "window_handle":  1579654,
+    "window_title":  "FATAL TWELVE",
+    "foreground_at_evidence_time":  false,
+    "window_rect":  {
+                        "left":  -1333,
+                        "top":  566,
+                        "right":  -47,
+                        "bottom":  1315,
+                        "width":  1286,
+                        "height":  749
+                    },
+    "client_bounds":  {
+                          "left":  0,
+                          "top":  0,
+                          "right":  1280,
+                          "bottom":  720,
+                          "width":  1280,
+                          "height":  720
+                      },
+    "payload_manifest_path":  "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\runtime_review\\USER_REVIEW_MANIFEST.json",
+    "payload_manifest_sha256":  "40ce0188bdd94911d635500c4378897b0a51a281f30a375791c9a8212f62675e",
+    "review_only_mute":  {
+                             "rpy_path":  "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\runtime_review\\game\\f12_user_review_mute.rpy",
+                             "rpy_sha256":  "50a05d8999aea7ec82ee227c5adcf2322f57b7afcba4a95a18b8d0add039ebca",
+                             "rpyc_path":  "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\runtime_review\\game\\f12_user_review_mute.rpyc",
+                             "rpyc_sha256":  "800521680639fba38f6f75d693113b03efdc8e664ab97365243133dc227134d3"
+                         },
+    "process_launch_contract":  {
+                                    "SDL_AUDIODRIVER":  "dummy",
+                                    "RENPY_DISABLE_JOYSTICK":  "1",
+                                    "APPDATA":  "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\runtime_review\\review_appdata",
+                                    "LOCALAPPDATA":  "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\runtime_review\\review_localappdata",
+                                    "config_sound":  false,
+                                    "config_audio_periodic_thread":  false,
+                                    "music_volume":  0,
+                                    "sfx_volume":  0,
+                                    "voice_volume":  0,
+                                    "music_muted":  true,
+                                    "sfx_muted":  true,
+                                    "voice_muted":  true,
+                                    "evidence_basis":  "guarded launcher invocation + USER_REVIEW_MANIFEST audio_policy + exact mute overlay hashes"
+                                },
+    "log_state":  {
+                      "log_path":  "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\runtime_review\\log.txt",
+                      "log_size":  14336,
+                      "traceback_present":  false,
+                      "errors_present":  false
+                  },
+    "user_manual_verdict":  "PENDING",
+    "checklist":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\technical_qa\\MANUAL_RUNTIME_REVIEW_CHECKLIST.md"
+}

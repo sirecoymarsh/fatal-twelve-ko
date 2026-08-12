@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "contract_status": "draft-architecture-approved-for-translation-staging",
+  "approved_by_user": true,
+  "approval_scope": {
+    "translation_source_and_slot_design": true,
+    "read_only_discovery": true,
+    "live_installation": false,
+    "archive_replacement": false
+  },
+  "semantic_source": {
+    "language": "Japanese",
+    "internal_key": null,
+    "meaning_authority": [
+      "game/scenario.rpa::scenario/*.rpyc",
+      "Japanese voice audio",
+      "Japanese runtime scene context"
+    ],
+    "ui_authority": [
+      "game/system.rpa::{screens.rpyc,script.rpyc,characters.rpyc,gamedata.rpyc}",
+      "Japanese runtime UI context"
+    ]
+  },
+  "english_reference_policy": {
+    "semantic_or_style_source": false,
+    "allowed_uses": [
+      "translation-ID and file alignment only",
+      "official romanized spelling of proper nouns after Japanese context is fixed",
+      "discrepancy detection that is reported instead of silently adopted"
+    ],
+    "prohibited_uses": [
+      "English prose as the basis of a Korean sentence",
+      "English-only onomatopoeia or interjection spellings",
+      "English punctuation rhythm, sentence segmentation, or honorific flattening",
+      "silent English fallback when Japanese meaning is ambiguous"
+    ],
+    "ambiguity_order": [
+      "Japanese script",
+      "Japanese voice performance",
+      "Japanese visual/contextual evidence",
+      "flag for review"
+    ]
+  },
+  "slots": [
+    {
+      "language": "Japanese",
+      "internal_key": null,
+      "selector_action": "Language(None)",
+      "selector_label": "日本語",
+      "scenario_assets": "game/scenario.rpa::scenario/*.rpyc",
+      "ui_assets": "game/system.rpa",
+      "state": "preserve"
+    },
+    {
+      "language": "English",
+      "internal_key": "english",
+      "selector_action": "Language(\"english\")",
+      "selector_label": "English",
+      "scenario_assets": "game/tl.rpa::tl/english/scenario/*.rpyc",
+      "ui_assets": "game/tl.rpa::tl/english/{screens,script,characters,gamedata}.rpyc",
+      "state": "preserve"
+    },
+    {
+      "language": "Korean",
+      "internal_key": "korean",
+      "selector_action": "F12PatchLanguage(\"korean\", \"korean\")",
+      "selector_label": "한국어",
+      "scenario_assets": "game/tl/korean/scenario/*.rpyc",
+      "ui_assets": "game/tl/korean/*.rpyc and game/tl/korean/<localized-file-path>",
+      "state": "add-new-slot"
+    }
+  ],
+  "korean_output": {
+    "mode": "add-new-slot",
+    "replacement_language": null,
+    "internal_key": "korean",
+    "root": "game/tl/korean",
+    "default_on_first_patch_boot": true,
+    "selection_persistence": "patch-owned persistent.fatal12_ko_language_v1 restores Japanese, English, or Korean after the shipped localize.rpyc forces English",
+    "missing_dialogue_fallback": "Japanese default translation block",
+    "missing_ui_string_fallback": "original Japanese string",
+    "missing_localized_asset_fallback": "original non-tl asset"
+  },
+  "preserve": [
+    {
+      "language": "Japanese",
+      "requirement": "selectable and semantically untouched"
+    },
+    {
+      "language": "English",
+      "requirement": "selectable and byte-identical in tl.rpa"
+    }
+  ],
+  "selector": {
+    "mode": "add-new-entry",
+    "surface": "Preferences > System",
+    "labels": [
+      "日本語",
+      "English",
+      "한국어"
+    ],
+    "do_not_enable_config_developer": true,
+    "implementation": "additive screen synchronized by config.interact_callbacks"
+  },
+  "font_contract": {
+    "reuse_shipped_fonts": true,
+    "new_font_binary_required": false,
+    "korean_body_font": "gui/fonts/NotoSansCJKjp-Regular.otf",
+    "korean_emphasis_font": "gui/fonts/NotoSansCJKjp-Medium.otf",
+    "required_linebreak_mode": "korean-with-spaces",
+    "verified_modern_hangul_syllables": "11172/11172 with nonzero glyph IDs",
+    "styles_requiring_korean_override": [
+      "_default",
+      "default",
+      "say_dialogue",
+      "menu_page_title_label_text",
+      "game_menu_date_text"
+    ],
+    "preserved_language_restore": "Ren'Py change_language restores the base style backup before applying Korean-only translation blocks"
+  },
+  "patch_boundaries": {
+    "additive_files_only": true,
+    "replace_localize_rpyc": false,
+    "modify_archives": false,
+    "runtime_injector": false,
+    "live_game_modified_during_discovery": false,
+    "sources_are_build_inputs_not_release_payloads": true
+  },
+  "baseline": {
+    "game_version": "Ren'Py 6.99.14.3.3347 / game config.version 180420",
+    "script_version": "(6, 99, 14, 3)",
+    "sha256": {
+      "game/localize.rpyc": "5BA31F69D3646990D42E7044D97BF4CFB07BC105619B4F220FDCF1AD374D1D2F",
+      "game/scenario.rpa": "EA39387AE13432A79FFE4601AF7B50478D063432CE3B7BC4013C92E09F036D22",
+      "game/tl.rpa": "AD628D5AA7B0601E69FA99C13D6F67C21854AE0A290599DC478A986CFC53AC5F",
+      "game/system.rpa": "A298B88F12C98435B015A647B51F5A35987EA4D714B5BF92E90972F3FCF6B648",
+      "game/script_version.txt": "D052A3281338FF0C8E8E28B48AC5375085553DF182CEB3F63400D946AD48E2D3"
+    }
+  },
+  "known_exceptions": [
+    {
+      "surface": "shipped startup localization",
+      "behavior": "game/localize.rpyc assigns _preferences.language = \"english\" at init priority -1000",
+      "handling": "additive priority -999 bootstrap restores the patch-owned user choice"
+    },
+    {
+      "surface": "shipped language row",
+      "behavior": "screens.rpyc line 604 gates Japanese/English controls behind config.developer while options.rpyc sets config.developer = False",
+      "handling": "leave developer mode false and add a separate three-language row"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schema_version": "fatal-twelve-renpy-catalog-v1",
+  "validated_at_utc": "2026-08-10T11:34:28.298726+00:00",
+  "catalog": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_012_01F.catalog.jsonl",
+  "records": 1190,
+  "require_translated": false,
+  "source_rebuild_performed": true,
+  "metadata_checked": true,
+  "errors": [],
+  "warnings": [],
+  "passed": true,
+  "meta_checks": {
+    "catalog_hash": {
+      "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_012_01F.catalog.jsonl",
+      "size": 4010594,
+      "sha256": "e12aaebc37d01c94f726fb4262addadec22d3f9d0720ea2f58cc4299f5146236"
+    },
+    "statistics": {
+      "records": 1190,
+      "lanes": {
+        "dialogue": 535,
+        "narration": 655
+      },
+      "voiced_records": 535,
+      "translation_id_records": 1190,
+      "menu_key_records": 0,
+      "reference_present": 0,
+      "reference_missing": 1190,
+      "speakers": {
+        "<narrator>": 655,
+        "diana": 15,
+        "lete": 135,
+        "lete_unk1": 6,
+        "linda": 3,
+        "mao": 24,
+        "miharu": 67,
+        "naomi": 89,
+        "parca": 81,
+        "rinka": 115
+      },
+      "labels": {
+        "f012_01F": 792,
+        "sentei12": 398
+      },
+      "protected_token_kinds": {
+        "number": 65,
+        "renpy_text_tag": 18
+      },
+      "japanese_codepoints_in_source_text": 30096,
+      "untranslated": 1190
+    }
+  }
+}

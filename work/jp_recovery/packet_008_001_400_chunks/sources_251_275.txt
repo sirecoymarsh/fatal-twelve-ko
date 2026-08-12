@@ -1,0 +1,25 @@
+251	L1086	narration	narrator	私自身、それを成し遂げる手がかりが今は何もないことは分かっている。
+252	L1088	narration	narrator	でも、言葉にしたかった。
+253	L1090	narration	narrator	それは、行動の第一歩だ。
+254	L1096	dialogue	miharu	「申し訳ないけれど、ぼくは賛同できないな。可能性は……なさ過ぎるだろう？」
+255	L1100	dialogue	rinka	「……そう言うと思ってた」
+256	L1104	dialogue	naomi	「未島先輩、でも、もしそんな方法があれば、わたしは……」
+257	L1108	dialogue	miharu	「しかし、ぼくたちが最後の二人にならなければ、何も成し遂げられないことに変わりはないさ」
+258	L1112	dialogue	rinka	「……そう言うとも、思ってた。だからそれまでに、何か手掛かりを見つける」
+259	L1118	dialogue	naomi	「なんだか、もう、わたしの出る幕はないって感じになっちゃいましたね」
+260	L1124	dialogue	rinka	「ううん、違う。学園祭が終わったらあらためて――って言ったでしょ。だからこれは、お願い」
+261	L1128	dialogue	rinka	「ここからは、私たち３人で戦おう。相手は他の参加者じゃない。私たちの、運命だ」
+262	L1130	narration	narrator	私は、ようやくその言葉を口にすることができた。
+263	L1132	narration	narrator	女神の選定が始まった時からずっと、そう言いたかったのかもしれない。
+264	L1134	narration	narrator	迷っているままでは、言えなかった。
+265	L1136	narration	narrator	でも、今は違う。
+266	L1138	narration	narrator	私はもう、生きることを迷わない。
+267	L1144	dialogue	miharu	「あくまで方法があればという前提ではあるけれど、賛成させてもらうよ」
+268	L1150	dialogue	naomi	「はい！　わたしもその言葉を……待っていました！」
+269	L1156	dialogue	rinka	「――ありがとう」
+270	L1158	narration	narrator	二人の笑顔と、私はしっかりと向き合うことができた。
+271	L1166	dialogue	miharu	「ではぼくは、バイトがあってね。ここで失礼させてもらうよ」
+272	L1170	narration	narrator	海晴はそう言って、ライオン館を後にした。
+273	L1191	dialogue	rinka	「ねえ、海晴。隠し事はもう、なしにしようよ。今日はバイトじゃなくてさ……スケールさんたちと会いに行くんでしょ？」
+274	L1193	narration	narrator	海晴がライオン館を出た直後、私はその後ろ姿を追っていた。
+275	L1195	narration	narrator	直未には一言断って、ライオン館で待っていてもらっている。

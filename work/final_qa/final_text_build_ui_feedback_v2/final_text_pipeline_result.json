@@ -1,0 +1,84 @@
+{
+  "schema_version": "fatal-twelve-final-text-pipeline-result-v1",
+  "status": "PASS",
+  "game_executed": false,
+  "source_masters_modified": false,
+  "preflight_report": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\prepared\\preflight_report.json",
+    "sha256": "fd88f67e70fbfd3ee59c525f26032a00761eced551a894884f3a4695618d1651"
+  },
+  "corrected_master_index": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\corrected\\corrected_master_index.json",
+    "sha256": "21e0ce2421d67a8582f9ce4180f88b09de43eb9d777ba7febeb73b1c82a6280e"
+  },
+  "correction_audit": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\corrected\\correction_audit.json",
+    "sha256": "1a88e5c7f061aa28c7c94e0c2e73f8745133ce63442b2038b3a774fd6e90e7aa"
+  },
+  "approved_static_audit": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\audit\\final_static_qa.approved.json",
+    "sha256": "27a0e7b8067d0234e7e8dfb77b04121dade78f7a11c1f794a8973474e77b0ed0",
+    "all_master_gate": {
+      "hard_total": 8,
+      "review_total": 2,
+      "info_total": 0,
+      "hard_open": 0,
+      "review_open": 0,
+      "info_open": 0,
+      "pass": true
+    },
+    "scenario_gate": {
+      "hard_total": 7,
+      "review_total": 1,
+      "info_total": 0,
+      "hard_open": 0,
+      "review_open": 0,
+      "info_open": 0,
+      "pass": true
+    },
+    "system_ui_gate": {
+      "hard_total": 1,
+      "review_total": 1,
+      "info_total": 0,
+      "hard_open": 0,
+      "review_open": 0,
+      "info_open": 0,
+      "pass": true
+    },
+    "record_bound_approvals": 10
+  },
+  "system_ui_review": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\reviews\\A.manual.system_ui.report.json",
+    "sha256": "219cd8bf438e8e24304bdc8afcf9b8f6f5792358489c4cb3dccdc10201bb5c43",
+    "verdict": "PASS",
+    "entries_reviewed": 732,
+    "contexts_reviewed": 739,
+    "corrections": 167
+  },
+  "render_manifest": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\final_rpy\\render_manifest.json",
+    "sha256": "ae58dba67939a80744c44520546816edfc5c88663d2a455229ddecc7f33401c2",
+    "summary": {
+      "input_masters": 30,
+      "scripts": 29,
+      "system_ui_string_masters": 1,
+      "records": 18916,
+      "translate_blocks": 18126,
+      "menu_occurrences": 790,
+      "unique_global_menu_old_keys": 785,
+      "deduplicated_same_target_menu_occurrences": 5,
+      "supplemental_string_inputs": 1,
+      "supplemental_string_pairs": 12,
+      "supplemental_old_key_conflicts": 0,
+      "total_unique_global_old_keys": 797,
+      "menu_target_conflicts": 0,
+      "runtime_and_protected_token_validation": "passed",
+      "source_group_statement_replacement_validation": "passed"
+    }
+  },
+  "global_strings": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\final_rpy\\strings\\scenario_strings.rpy",
+    "sha256": "10238bccafb8528011be71c7b0f2b486b042f45991b19d04571584aaa36d5cdb",
+    "unique_old_keys": 797
+  }
+}

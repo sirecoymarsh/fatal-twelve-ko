@@ -1,0 +1,44 @@
+{
+  "schema_version": "fatal-twelve-synthetic-correction-render-test-v1",
+  "scope": "synthetic fixtures only",
+  "real_project_masters_read_or_modified_by_tests": false,
+  "translation_qa_performed": false,
+  "tests_run": 8,
+  "tests_passed": 8,
+  "tests_failed": 0,
+  "coverage": [
+    "successful guarded correction and isolated working copy",
+    "stable_id duplicate correction rejection",
+    "old_ko exact guard rejection",
+    "protected number loss rejection",
+    "Ren'Py runtime tag loss rejection",
+    "source statement/group identity rejection",
+    "global same-old different-target menu rejection",
+    "same-old same-target global menu deduplication and final RPY rendering",
+    "optional system_ui strings master correction-copy and global strings collection"
+  ],
+  "files": {
+    "final_qa_common.py": {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_qa_common.py",
+      "sha256": "a60df15a625421135fb16f00358d57be4f7af9a436b8fd0fce64d1326d158c03"
+    },
+    "apply_corrections.py": {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\apply_corrections.py",
+      "sha256": "98b857ef36f9945b9b9e0208624fdf1c1bfb489dc4ad60094b2b15219a9873ea"
+    },
+    "render_final_scenario.py": {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\render_final_scenario.py",
+      "sha256": "efaef3184f87ac176310c06ae6720ea2030e0b1f4ca82369a8f9a10bba8c52eb"
+    },
+    "tests/test_correction_render_pipeline.py": {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\tests\\test_correction_render_pipeline.py",
+      "sha256": "3bfdbefe91c34e252a798cd9f1e00f97f4322c9d6da6478f4248f3458c75f901"
+    },
+    "tests/synthetic_test_output.txt": {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\tests\\synthetic_test_output.txt",
+      "sha256": "34f1f20b214b11452103829026f519ffa21045656d010a349a581b957a060459"
+    }
+  },
+  "real_master_index_observed_unchanged_sha256": "33a690260a2e516adb353ebdfdf9d70c92a6ec1e90fa058b626c55d557995d68",
+  "real_system_ui_master_observed_sha256": "f1b514e5da065b38883f7e3b2489999127b108d4e12728acac4d6f05359e9726"
+}

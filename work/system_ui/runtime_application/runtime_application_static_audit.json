@@ -1,0 +1,854 @@
+{
+  "engine": {
+    "version": "Ren'Py 6.99.14.3.3347",
+    "root": "F:\\DOWN\\Fatal.Twelve.Incl.DLC\\Fatal.Twelve.Incl.DLC\\Fatal Twelve",
+    "read_only": true
+  },
+  "source_hashes": {
+    "screens.rpy": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+    "script.rpy": "ab3c66bf241c8fe4151b3245b435d8cb9f29ee81b6164d49f9141bdb25ffa150",
+    "gamedata.rpy": "1aae56972a54511bc3e440431933f47eed4a2a44a4f0e138693ff78548a6d07f",
+    "screens.ko.rpy": "c743dba36516ce09ce4d22e8d7b90a0a6521f5d7d0632f922010ebbbb738a782",
+    "script.ko.rpy": "d4e5dfa67a1fbb40e4064dc427ca619c9e994073d7b5cc1801cc54931788b982"
+  },
+  "direct_literal_audit": [
+    {
+      "lookup_key": "日本語",
+      "source": "system/screens.rpy:609",
+      "simple_strings_entry_applies": true,
+      "reason": "_textbutton defaults substitute=True; exact evaluated label is translated.",
+      "minimal_add_only_action": "none"
+    },
+    {
+      "lookup_key": "English",
+      "source": "system/screens.rpy:610",
+      "simple_strings_entry_applies": true,
+      "reason": "_textbutton defaults substitute=True; exact evaluated label is translated.",
+      "minimal_add_only_action": "none"
+    },
+    {
+      "lookup_key": "Numeral ",
+      "source": "system/screens.rpy:1062",
+      "simple_strings_entry_applies": false,
+      "reason": "_label translates after expression evaluation, so the exact key is Numeral I through Numeral XII, not the prefix.",
+      "minimal_add_only_action": "add 12 exact composed pairs without overriding the screen",
+      "supplement_file": "numeral_composed_string_keys.ko.rpy"
+    },
+    {
+      "lookup_key": " - ",
+      "source": "system/screens.rpy:1239",
+      "simple_strings_entry_applies": true,
+      "reason": "Text default substitute=None is not False, so Text invokes translation; source and draft happen to be identical.",
+      "minimal_add_only_action": "none"
+    },
+    {
+      "lookup_key": "to be continued...",
+      "source": "system/script.rpy:1751",
+      "simple_strings_entry_applies": true,
+      "reason": "Python Text default substitute=None still invokes exact translation lookup.",
+      "minimal_add_only_action": "none"
+    }
+  ],
+  "base_none_eight_audit": [
+    {
+      "lookup_key": "Quick save complete.",
+      "source_jp": "クイックセーブ完了",
+      "draft_ko": "빠른 저장 완료",
+      "simple_strings_entry_applies": true,
+      "consumer_evidence": [
+        "renpy/common/00action_file.rpy:858",
+        "renpy/common/00action_other.rpy:572"
+      ],
+      "reason": "Korean TranslateString registers and the runtime consumer translates the exact technical old key."
+    },
+    {
+      "lookup_key": "Are you sure you want to delete this save?",
+      "source_jp": "セーブデータ削除しますか?",
+      "draft_ko": "저장 데이터를 삭제하시겠습니까?",
+      "simple_strings_entry_applies": true,
+      "consumer_evidence": [
+        "renpy/common/00gui.rpy:371",
+        "Text translation path"
+      ],
+      "reason": "Korean TranslateString registers and the runtime consumer translates the exact technical old key."
+    },
+    {
+      "lookup_key": "Are you sure you want to overwrite your save?",
+      "source_jp": "セーブデータを上書きしますか？",
+      "draft_ko": "저장 데이터를 덮어쓰시겠습니까?",
+      "simple_strings_entry_applies": true,
+      "consumer_evidence": [
+        "renpy/common/00gui.rpy:372",
+        "Text translation path"
+      ],
+      "reason": "Korean TranslateString registers and the runtime consumer translates the exact technical old key."
+    },
+    {
+      "lookup_key": "Loading will lose unsaved progress.\nAre you sure you want to do this?",
+      "source_jp": "セーブデータロードしますか？",
+      "draft_ko": "저장 데이터를 불러오시겠습니까?",
+      "simple_strings_entry_applies": true,
+      "consumer_evidence": [
+        "renpy/common/00gui.rpy:373",
+        "Text translation path"
+      ],
+      "reason": "Korean TranslateString registers and the runtime consumer translates the exact technical old key."
+    },
+    {
+      "lookup_key": "Are you sure you want to quit?",
+      "source_jp": "ゲームを終了しますか？",
+      "draft_ko": "게임을 종료하시겠습니까?",
+      "simple_strings_entry_applies": true,
+      "consumer_evidence": [
+        "renpy/common/00gui.rpy:374",
+        "Text translation path"
+      ],
+      "reason": "Korean TranslateString registers and the runtime consumer translates the exact technical old key."
+    },
+    {
+      "lookup_key": "Are you sure you want to return to the main menu?\nThis will lose unsaved progress.",
+      "source_jp": "タイトル画面に戻りますか？",
+      "draft_ko": "타이틀 화면으로 돌아가시겠습니까?",
+      "simple_strings_entry_applies": true,
+      "consumer_evidence": [
+        "renpy/common/00gui.rpy:375",
+        "Text translation path"
+      ],
+      "reason": "Korean TranslateString registers and the runtime consumer translates the exact technical old key."
+    },
+    {
+      "lookup_key": "Image [index] of [count] locked.",
+      "source_jp": "画像 [index] / [count] はロックされています。",
+      "draft_ko": "[count]개 중 [index]번 이미지는 잠겨 있습니다.",
+      "simple_strings_entry_applies": true,
+      "consumer_evidence": [
+        "system/screens.rpy:1873 explicit _()"
+      ],
+      "reason": "Korean TranslateString registers and the runtime consumer translates the exact technical old key."
+    },
+    {
+      "lookup_key": "Saved screenshot as %s.",
+      "source_jp": "スクリーンショットを %s に保存しました",
+      "draft_ko": "스크린샷을 %s에 저장했습니다.",
+      "simple_strings_entry_applies": true,
+      "consumer_evidence": [
+        "renpy/common/00keymap.rpy:270 explicit __()"
+      ],
+      "reason": "Korean TranslateString registers and the runtime consumer translates the exact technical old key."
+    }
+  ],
+  "supplemental_composed_pairs": [
+    {
+      "old": "Numeral I",
+      "new": "번호 I"
+    },
+    {
+      "old": "Numeral II",
+      "new": "번호 II"
+    },
+    {
+      "old": "Numeral III",
+      "new": "번호 III"
+    },
+    {
+      "old": "Numeral IV",
+      "new": "번호 IV"
+    },
+    {
+      "old": "Numeral V",
+      "new": "번호 V"
+    },
+    {
+      "old": "Numeral VI",
+      "new": "번호 VI"
+    },
+    {
+      "old": "Numeral VII",
+      "new": "번호 VII"
+    },
+    {
+      "old": "Numeral VIII",
+      "new": "번호 VIII"
+    },
+    {
+      "old": "Numeral IX",
+      "new": "번호 IX"
+    },
+    {
+      "old": "Numeral X",
+      "new": "번호 X"
+    },
+    {
+      "old": "Numeral XI",
+      "new": "번호 XI"
+    },
+    {
+      "old": "Numeral XII",
+      "new": "번호 XII"
+    }
+  ],
+  "engine_source_evidence": [
+    {
+      "engine_file": "renpy/translation/__init__.py",
+      "engine_sha256": "7dc7ae75408939d81b226a4aa81f5a082074d27f1d398b4ea08f2d16f8cdc499",
+      "line_start": 437,
+      "line_end": 447,
+      "purpose": "language-specific exact lookup",
+      "excerpt": [
+        {
+          "line": 437,
+          "text": "def translate_string(s, language=Default):"
+        },
+        {
+          "line": 438,
+          "text": "    \"\"\""
+        },
+        {
+          "line": 439,
+          "text": "    Translates interface string `s` to `language`. If `languages` is Default,"
+        },
+        {
+          "line": 440,
+          "text": "    uses the language set in the preferences."
+        },
+        {
+          "line": 441,
+          "text": "    \"\"\""
+        },
+        {
+          "line": 442,
+          "text": ""
+        },
+        {
+          "line": 443,
+          "text": "    if language is Default:"
+        },
+        {
+          "line": 444,
+          "text": "        language = renpy.game.preferences.language"
+        },
+        {
+          "line": 445,
+          "text": ""
+        },
+        {
+          "line": 446,
+          "text": "    stl = renpy.game.script.translator.strings[language]  # @UndefinedVariable"
+        },
+        {
+          "line": 447,
+          "text": "    return stl.translate(s)"
+        }
+      ]
+    },
+    {
+      "engine_file": "renpy/substitutions.py",
+      "engine_sha256": "ba1ef303fe8caa3ebab0329790f2405db69b8d03aa71d49167a92b3e5bb6e054",
+      "line_start": 204,
+      "line_end": 227,
+      "purpose": "substitution translates by default",
+      "excerpt": [
+        {
+          "line": 204,
+          "text": "def substitute(s, scope=None, force=False, translate=True):"
+        },
+        {
+          "line": 205,
+          "text": "    \"\"\""
+        },
+        {
+          "line": 206,
+          "text": "    Performs translation and formatting on `s`, as necessary."
+        },
+        {
+          "line": 207,
+          "text": ""
+        },
+        {
+          "line": 208,
+          "text": "    `scope`"
+        },
+        {
+          "line": 209,
+          "text": "        The scope which is used in formatting, in addition to the default"
+        },
+        {
+          "line": 210,
+          "text": "        store."
+        },
+        {
+          "line": 211,
+          "text": ""
+        },
+        {
+          "line": 212,
+          "text": "    `force`"
+        },
+        {
+          "line": 213,
+          "text": "        Force substitution to occur, even if it's disabled in the config."
+        },
+        {
+          "line": 214,
+          "text": ""
+        },
+        {
+          "line": 215,
+          "text": "    `translate`"
+        },
+        {
+          "line": 216,
+          "text": "        Determines if translation occurs."
+        },
+        {
+          "line": 217,
+          "text": ""
+        },
+        {
+          "line": 218,
+          "text": "    Returns the substituted string, and a flag that is True if substitution"
+        },
+        {
+          "line": 219,
+          "text": "    occurred, or False if no substitution occurred."
+        },
+        {
+          "line": 220,
+          "text": "    \"\"\""
+        },
+        {
+          "line": 221,
+          "text": ""
+        },
+        {
+          "line": 222,
+          "text": "    if not isinstance(s, basestring):"
+        },
+        {
+          "line": 223,
+          "text": "        s = unicode(s)"
+        },
+        {
+          "line": 224,
+          "text": ""
+        },
+        {
+          "line": 225,
+          "text": "    if translate:"
+        },
+        {
+          "line": 226,
+          "text": "        s = renpy.translation.translate_string(s)"
+        },
+        {
+          "line": 227,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "engine_file": "renpy/text/text.py",
+      "engine_sha256": "730733a91acffbc36189219dc60204307b82aca140a137e16ad3fa0a2ffb3bd9",
+      "line_start": 1444,
+      "line_end": 1467,
+      "purpose": "only substitute=False skips Text translation",
+      "excerpt": [
+        {
+          "line": 1444,
+          "text": "    def set_text(self, text, scope=None, substitute=False, update=True):"
+        },
+        {
+          "line": 1445,
+          "text": ""
+        },
+        {
+          "line": 1446,
+          "text": "        if self.locked:"
+        },
+        {
+          "line": 1447,
+          "text": "            return"
+        },
+        {
+          "line": 1448,
+          "text": ""
+        },
+        {
+          "line": 1449,
+          "text": "        self.language = renpy.game.preferences.language"
+        },
+        {
+          "line": 1450,
+          "text": ""
+        },
+        {
+          "line": 1451,
+          "text": "        old_text = self.text"
+        },
+        {
+          "line": 1452,
+          "text": ""
+        },
+        {
+          "line": 1453,
+          "text": "        if not isinstance(text, list):"
+        },
+        {
+          "line": 1454,
+          "text": "            text = [ text ]"
+        },
+        {
+          "line": 1455,
+          "text": ""
+        },
+        {
+          "line": 1456,
+          "text": "        # The text parameter, before substitutions were performed."
+        },
+        {
+          "line": 1457,
+          "text": "        self.text_parameter = text"
+        },
+        {
+          "line": 1458,
+          "text": ""
+        },
+        {
+          "line": 1459,
+          "text": "        new_text = [ ]"
+        },
+        {
+          "line": 1460,
+          "text": "        uses_scope = False"
+        },
+        {
+          "line": 1461,
+          "text": ""
+        },
+        {
+          "line": 1462,
+          "text": "        # Perform substitution as necessary."
+        },
+        {
+          "line": 1463,
+          "text": "        for i in text:"
+        },
+        {
+          "line": 1464,
+          "text": "            if isinstance(i, basestring):"
+        },
+        {
+          "line": 1465,
+          "text": "                if substitute is not False:"
+        },
+        {
+          "line": 1466,
+          "text": "                    i, did_sub = renpy.substitutions.substitute(i, scope, substitute)"
+        },
+        {
+          "line": 1467,
+          "text": "                    uses_scope = uses_scope or did_sub"
+        }
+      ]
+    },
+    {
+      "engine_file": "renpy/ui.py",
+      "engine_sha256": "f947ee978b9026aad4909ccc1cda673b11710b5f0adf5dd7b9610fe46d43d9a2",
+      "line_start": 949,
+      "line_end": 988,
+      "purpose": "textbutton and label Text construction",
+      "excerpt": [
+        {
+          "line": 949,
+          "text": "def _textbutton(label, clicked=None, style=None, text_style=None, substitute=True, scope=None, **kwargs):"
+        },
+        {
+          "line": 950,
+          "text": ""
+        },
+        {
+          "line": 951,
+          "text": "    text_kwargs, button_kwargs = renpy.easy.split_properties(kwargs, \"text_\", \"\")"
+        },
+        {
+          "line": 952,
+          "text": ""
+        },
+        {
+          "line": 953,
+          "text": "    # Deal with potentially bad keyword arguments. (We'd get these if the user"
+        },
+        {
+          "line": 954,
+          "text": "    # writes text_align instead of text_text_align.)"
+        },
+        {
+          "line": 955,
+          "text": "    if \"align\" in text_kwargs:"
+        },
+        {
+          "line": 956,
+          "text": "        if isinstance(text_kwargs[\"align\"], float):"
+        },
+        {
+          "line": 957,
+          "text": "            text_kwargs.pop(\"align\")"
+        },
+        {
+          "line": 958,
+          "text": "    text_kwargs.pop(\"y_fudge\", None)"
+        },
+        {
+          "line": 959,
+          "text": ""
+        },
+        {
+          "line": 960,
+          "text": "    if style is None:"
+        },
+        {
+          "line": 961,
+          "text": "        style = prefixed_style(\"button\")"
+        },
+        {
+          "line": 962,
+          "text": ""
+        },
+        {
+          "line": 963,
+          "text": "    if text_style is None:"
+        },
+        {
+          "line": 964,
+          "text": "        text_style = renpy.style.get_text_style(style, prefixed_style('button_text'))  # @UndefinedVariable"
+        },
+        {
+          "line": 965,
+          "text": ""
+        },
+        {
+          "line": 966,
+          "text": "    rv = renpy.display.behavior.Button(style=style, clicked=clicked, **button_kwargs)"
+        },
+        {
+          "line": 967,
+          "text": "    text = renpy.text.text.Text(label, style=text_style, substitute=substitute, scope=scope, **text_kwargs)"
+        },
+        {
+          "line": 968,
+          "text": "    rv.add(text)"
+        },
+        {
+          "line": 969,
+          "text": "    rv._main = text"
+        },
+        {
+          "line": 970,
+          "text": "    rv._composite_parts = [ text ]"
+        },
+        {
+          "line": 971,
+          "text": "    return rv"
+        },
+        {
+          "line": 972,
+          "text": ""
+        },
+        {
+          "line": 973,
+          "text": ""
+        },
+        {
+          "line": 974,
+          "text": "textbutton = Wrapper(_textbutton)"
+        },
+        {
+          "line": 975,
+          "text": ""
+        },
+        {
+          "line": 976,
+          "text": ""
+        },
+        {
+          "line": 977,
+          "text": "def _label(label, style=None, text_style=None, substitute=True, scope=None, **kwargs):"
+        },
+        {
+          "line": 978,
+          "text": ""
+        },
+        {
+          "line": 979,
+          "text": "    text_kwargs, label_kwargs = renpy.easy.split_properties(kwargs, \"text_\", \"\")"
+        },
+        {
+          "line": 980,
+          "text": ""
+        },
+        {
+          "line": 981,
+          "text": "    if style is None:"
+        },
+        {
+          "line": 982,
+          "text": "        style = prefixed_style('label')"
+        },
+        {
+          "line": 983,
+          "text": ""
+        },
+        {
+          "line": 984,
+          "text": "    if text_style is None:"
+        },
+        {
+          "line": 985,
+          "text": "        text_style = renpy.style.get_text_style(style, prefixed_style('label_text'))  # @UndefinedVariable"
+        },
+        {
+          "line": 986,
+          "text": ""
+        },
+        {
+          "line": 987,
+          "text": "    rv = renpy.display.layout.Window(None, style=style, **label_kwargs)"
+        },
+        {
+          "line": 988,
+          "text": "    text = renpy.text.text.Text(label, style=text_style, substitute=substitute, scope=scope, **text_kwargs)"
+        }
+      ]
+    },
+    {
+      "engine_file": "renpy/sl2/sldisplayables.py",
+      "engine_sha256": "64b385e0994a09e2c8496071ae2611b39298ce8b34881a4b59a22bebd00fdf06",
+      "line_start": 115,
+      "line_end": 116,
+      "purpose": "screen text positional expression",
+      "excerpt": [
+        {
+          "line": 115,
+          "text": "DisplayableParser(\"text\", renpy.text.text.Text, \"text\", 0, scope=True, replaces=True)"
+        },
+        {
+          "line": 116,
+          "text": "Positional(\"text\")"
+        }
+      ]
+    },
+    {
+      "engine_file": "renpy/sl2/sldisplayables.py",
+      "engine_sha256": "64b385e0994a09e2c8496071ae2611b39298ce8b34881a4b59a22bebd00fdf06",
+      "line_start": 196,
+      "line_end": 212,
+      "purpose": "screen textbutton and label expressions",
+      "excerpt": [
+        {
+          "line": 196,
+          "text": "DisplayableParser(\"textbutton\", renpy.ui._textbutton, 0, scope=True)"
+        },
+        {
+          "line": 197,
+          "text": "Positional(\"label\")"
+        },
+        {
+          "line": 198,
+          "text": "Keyword(\"action\")"
+        },
+        {
+          "line": 199,
+          "text": "Keyword(\"clicked\")"
+        },
+        {
+          "line": 200,
+          "text": "Keyword(\"hovered\")"
+        },
+        {
+          "line": 201,
+          "text": "Keyword(\"unhovered\")"
+        },
+        {
+          "line": 202,
+          "text": "Keyword(\"alternate\")"
+        },
+        {
+          "line": 203,
+          "text": "Keyword(\"text_style\")"
+        },
+        {
+          "line": 204,
+          "text": "Keyword(\"substitute\")"
+        },
+        {
+          "line": 205,
+          "text": "Keyword(\"scope\")"
+        },
+        {
+          "line": 206,
+          "text": "add(window_properties)"
+        },
+        {
+          "line": 207,
+          "text": "add(button_properties)"
+        },
+        {
+          "line": 208,
+          "text": "add(text_position_properties)"
+        },
+        {
+          "line": 209,
+          "text": "add(text_text_properties)"
+        },
+        {
+          "line": 210,
+          "text": ""
+        },
+        {
+          "line": 211,
+          "text": "DisplayableParser(\"label\", renpy.ui._label, \"label\", 0, scope=True)"
+        },
+        {
+          "line": 212,
+          "text": "Positional(\"label\")"
+        }
+      ]
+    },
+    {
+      "engine_file": "renpy/ast.py",
+      "engine_sha256": "4aa9f5c5ee2765e707a5b05d1e1d21d8abc366d62ae80ca9ba26213316b72685",
+      "line_start": 2207,
+      "line_end": 2237,
+      "purpose": "TranslateString registration",
+      "excerpt": [
+        {
+          "line": 2207,
+          "text": "class TranslateString(Node):"
+        },
+        {
+          "line": 2208,
+          "text": "    \"\"\""
+        },
+        {
+          "line": 2209,
+          "text": "    A node used for translated strings."
+        },
+        {
+          "line": 2210,
+          "text": "    \"\"\""
+        },
+        {
+          "line": 2211,
+          "text": ""
+        },
+        {
+          "line": 2212,
+          "text": "    translation_relevant = True"
+        },
+        {
+          "line": 2213,
+          "text": ""
+        },
+        {
+          "line": 2214,
+          "text": "    __slots__ = ["
+        },
+        {
+          "line": 2215,
+          "text": "        \"language\","
+        },
+        {
+          "line": 2216,
+          "text": "        \"old\","
+        },
+        {
+          "line": 2217,
+          "text": "        \"new\","
+        },
+        {
+          "line": 2218,
+          "text": "        \"newloc\","
+        },
+        {
+          "line": 2219,
+          "text": "        ]"
+        },
+        {
+          "line": 2220,
+          "text": ""
+        },
+        {
+          "line": 2221,
+          "text": "    def __init__(self, loc, language, old, new, newloc):"
+        },
+        {
+          "line": 2222,
+          "text": "        super(TranslateString, self).__init__(loc)"
+        },
+        {
+          "line": 2223,
+          "text": "        self.language = language"
+        },
+        {
+          "line": 2224,
+          "text": ""
+        },
+        {
+          "line": 2225,
+          "text": "        self.old = old"
+        },
+        {
+          "line": 2226,
+          "text": "        self.new = new"
+        },
+        {
+          "line": 2227,
+          "text": "        self.newloc = newloc"
+        },
+        {
+          "line": 2228,
+          "text": ""
+        },
+        {
+          "line": 2229,
+          "text": "    def diff_info(self):"
+        },
+        {
+          "line": 2230,
+          "text": "        return (TranslateString,)"
+        },
+        {
+          "line": 2231,
+          "text": ""
+        },
+        {
+          "line": 2232,
+          "text": "    def execute(self):"
+        },
+        {
+          "line": 2233,
+          "text": "        next_node(self.next)"
+        },
+        {
+          "line": 2234,
+          "text": "        statement_name(\"translate string\")"
+        },
+        {
+          "line": 2235,
+          "text": ""
+        },
+        {
+          "line": 2236,
+          "text": "        newloc = getattr(self, \"newloc\", (self.filename, self.linenumber + 1))"
+        },
+        {
+          "line": 2237,
+          "text": "        renpy.translation.add_string_translation(self.language, self.old, self.new, newloc)"
+        }
+      ]
+    }
+  ],
+  "quality_review_performed": false,
+  "translation_text_modified": false,
+  "live_game_modified": false
+}

@@ -1,0 +1,117 @@
+{
+  "schema_version": "fatal-twelve-system-ui-structure-check-v1",
+  "subject": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\system_ui\\gamedata.draft.json",
+  "validation_scope": "structure_only",
+  "translation_qa_performed": false,
+  "translation_qa": "deferred_until_full_first_draft",
+  "passed": true,
+  "summary": {
+    "catalog_entries": 569,
+    "draft_entries": 569,
+    "source_occurrences": 556,
+    "source_unique_keys": 534,
+    "official_old_unique_keys": 564,
+    "rpy_strings_entries": 564,
+    "technical_legacy_keys": 35,
+    "supplemental_current_keys": 5,
+    "sections": {
+      "bgm_titles": 44,
+      "bgm_titles_legacy": 35,
+      "card_types": 3,
+      "cards": 27,
+      "character_info": 14,
+      "locations": 81,
+      "plot_labels": 23,
+      "plot_titles": 23,
+      "plots": 109,
+      "scenes": 204,
+      "times": 6
+    },
+    "lanes": {
+      "bgm_title": 44,
+      "bgm_title_legacy": 35,
+      "card_description": 27,
+      "card_type": 3,
+      "character_profile_name": 14,
+      "location_name": 41,
+      "location_tip": 40,
+      "plot_label": 23,
+      "plot_summary": 109,
+      "plot_title": 23,
+      "scene_title": 204,
+      "time_label": 6
+    }
+  },
+  "hashes": {
+    "source_sha256": "1aae56972a54511bc3e440431933f47eed4a2a44a4f0e138693ff78548a6d07f",
+    "style_guide_sha256": "b2b87352fdfd9b25af688152b0ce8a7460ffeb88fc06ae6e45f1c5df2ae83891",
+    "glossary_sha256": "d7b49d77fcde5da240cb816890c75f9f15a2e83544db34a6193b8e939906300e",
+    "catalog_sha256": "af35ee63a8250bd55dadf4f6505c886795e2fcee30030fe3d11650c051f96a0a",
+    "characters_shared_mapping_sha256": "4a9c2f41b8828a31ff4474b91120fbd7ebcf77cd3c3f2845b9cfe0d9ff2063c5",
+    "draft_json_sha256": "accc5fe8fe27b0e699c2370461ce14344630eef9164780e16a4800b121911616",
+    "draft_rpy_sha256": "e7f511c937429c1dedbafbe270faa48d148d7a420377f34992227176dd6ca0a2"
+  },
+  "checks": {
+    "source_hash": {
+      "passed": true
+    },
+    "catalog_exact_union": {
+      "passed": true,
+      "detail": {
+        "catalog_entries": 569
+      }
+    },
+    "current_source_extraction": {
+      "passed": true,
+      "detail": {
+        "occurrences": 556,
+        "unique": 534
+      }
+    },
+    "official_old_key_coverage": {
+      "passed": true,
+      "detail": {
+        "expected": 564,
+        "actual": 564,
+        "unique": 564
+      }
+    },
+    "supplemental_current_keys_shared_mapping": {
+      "passed": true,
+      "detail": {
+        "count": 5,
+        "keys": [
+          "？？？",
+          "海晴",
+          "凛火",
+          "直未",
+          "ユウ"
+        ],
+        "provided_by": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\system_ui\\characters.draft.json"
+      }
+    },
+    "all_catalog_entries_drafted": {
+      "passed": true
+    },
+    "draft_flags": {
+      "passed": true
+    },
+    "protected_token_multisets": {
+      "passed": true,
+      "detail": {
+        "mismatch_count": 0,
+        "mismatches": []
+      }
+    },
+    "rpy_old_new_pairs": {
+      "passed": true,
+      "detail": {
+        "pairs": 564
+      }
+    },
+    "source_code_preservation": {
+      "passed": true,
+      "detail": "Source is read-only; output is a separate translate-korean strings file."
+    }
+  }
+}

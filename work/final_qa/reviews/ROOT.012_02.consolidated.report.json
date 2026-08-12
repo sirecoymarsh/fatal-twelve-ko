@@ -1,0 +1,28 @@
+{
+  "schema_version": "fatal-twelve-root-consolidated-review-v1",
+  "script": "012_02",
+  "source_authority": "Japanese only",
+  "english_reference_used": false,
+  "external_translation_api_used": false,
+  "exhaustive_checked": 209,
+  "manual_corrections": 20,
+  "seed_corrections": 3,
+  "seed_manual_overlap_sequences": [],
+  "output_unique_corrections": 23,
+  "checks": {
+    "old_guard": 23,
+    "changed": 23,
+    "encoding": 23,
+    "fullwidth_clear": 23,
+    "tag_exact": 23,
+    "roman_exact": 23,
+    "quote_exact": 23,
+    "newline_exact": 23,
+    "numbers_exact": 23,
+    "residual_kana_clear": 23
+  },
+  "failures": [],
+  "master_sha256": "f94a6d209e47fbfb9cecc78fdca754a0adc9928f8b50e6c3f436741403aacd4e",
+  "seed_sha256": "38a93ebc0e5bbf23e7eaffa913c6b3ade2842fcb60ff273f6a6b0799cf277b68",
+  "output_sha256": "57ed361e4586a81f5658594a9167e8aa3db501c9bf011f0ca23d5c0efca34b1a"
+}

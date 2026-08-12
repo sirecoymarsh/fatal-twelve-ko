@@ -1,0 +1,575 @@
+{
+  "generated_at_utc": "2026-08-11T05:32:44.473494+00:00",
+  "reviewer": "A",
+  "task": "scenario_003 and scenario_004 exhaustive final Japanese-source-only QA",
+  "source_policy": {
+    "meaning_authority": "source_jp only",
+    "english_new_prose_opened_or_used": false,
+    "external_translation_api_used": false,
+    "game_executed": false
+  },
+  "exhaustive_checked": 2593,
+  "expected_exhaustive_checked": 2593,
+  "coverage_pass": true,
+  "coverage": {
+    "003": {
+      "checked": 1526,
+      "expected": 1526,
+      "sequence_start": 1,
+      "sequence_end": 1526,
+      "sequence_contiguous": true,
+      "stable_id_unique": true,
+      "sequence_stable_id_sha256": "b8e25a38ff71f0b83e887f824a054d6fb8444722b88183b15668af89b8e54837",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "004": {
+      "checked": 1067,
+      "expected": 1067,
+      "sequence_start": 1,
+      "sequence_end": 1067,
+      "sequence_contiguous": true,
+      "stable_id_unique": true,
+      "sequence_stable_id_sha256": "450cd2c50636d60ed0655d4f28e94e829b2f200092db19d3a01989f138232078",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    }
+  },
+  "corrections": {
+    "output_rows": 195,
+    "per_script": {
+      "003": 142,
+      "004": 53
+    },
+    "manual_semantic_or_grammar_decisions": 133,
+    "manual_per_script": {
+      "003": 104,
+      "004": 29
+    },
+    "mechanical_changed_rows": 62,
+    "mechanical_manual_merge_count": 0,
+    "mechanical_manual_merge_keys": [],
+    "stable_id_unique": true,
+    "categories": {
+      "typography": 29,
+      "고정 용어": 17,
+      "고정 표기": 15,
+      "관용구": 1,
+      "관용구/문법": 1,
+      "누락/문법": 4,
+      "누락/의미": 1,
+      "대상/조사": 1,
+      "말장난/문맥": 1,
+      "명백한 직역": 9,
+      "문법": 13,
+      "문법/구두점": 1,
+      "문법/누락": 1,
+      "문법/의미": 1,
+      "문법/자연스러움": 2,
+      "문법/중복": 1,
+      "문법/직역": 2,
+      "숫자 의미": 1,
+      "시제/의미": 1,
+      "어휘/문법": 1,
+      "어휘/의미": 1,
+      "오역": 9,
+      "오역/말장난": 1,
+      "오역/말투": 1,
+      "의미": 4,
+      "의미/문법": 31,
+      "의미/문법 + 고정 용어": 1,
+      "의미/주체": 1,
+      "의미/직역": 5,
+      "의미/호칭": 1,
+      "인용부호 구조": 1,
+      "인용부호/문법": 2,
+      "인용부호/의미": 1,
+      "일본어식 의성": 4,
+      "일본어식 의성/말더듬": 2,
+      "조사/문법": 4,
+      "주체/문법": 14,
+      "주체/태": 1,
+      "호칭 고정 표기": 5,
+      "호칭/문법": 1,
+      "호칭/시점": 1,
+      "화행/문법": 1
+    }
+  },
+  "mechanical_inventory": {
+    "003": {
+      "fullwidth_digits": [
+        1323,
+        1324,
+        1346,
+        1347,
+        1351,
+        1384,
+        1420,
+        1440,
+        1441,
+        1465,
+        1467,
+        1488,
+        1525
+      ],
+      "fullwidth_percent": [
+        749
+      ],
+      "great_hall_term": [
+        1416,
+        1459,
+        1489,
+        1490,
+        1507
+      ],
+      "negated_event_term": [
+        41,
+        159,
+        226,
+        227,
+        395,
+        402,
+        403,
+        917,
+        1015,
+        1203,
+        1215,
+        1232,
+        1349
+      ],
+      "quote_repairs": []
+    },
+    "004": {
+      "fullwidth_digits": [
+        808,
+        835,
+        895,
+        897,
+        899,
+        908,
+        925,
+        945,
+        947,
+        949,
+        955,
+        979,
+        982,
+        993,
+        1061
+      ],
+      "fullwidth_percent": [],
+      "great_hall_term": [
+        867,
+        918,
+        963,
+        965,
+        994,
+        1002
+      ],
+      "negated_event_term": [
+        8,
+        14
+      ],
+      "quote_repairs": [
+        356
+      ]
+    }
+  },
+  "existing_a_correction_inventory": [
+    {
+      "file": "reviews\\A.002.consolidated.corrections.jsonl",
+      "sha256_before": "e3cd57857df535608aabece52aab21c9ad5bc113ee8da866301d2775cfc0895c",
+      "correction_object_count": 46
+    },
+    {
+      "file": "reviews\\A.002.consolidated.report.json",
+      "sha256_before": "256a5f576577802dc355d2d77d6e3e086da326fafc845adc5b27f71dd6e2a096",
+      "correction_object_count": 0
+    },
+    {
+      "file": "reviews\\A.endings.consolidated.corrections.jsonl",
+      "sha256_before": "b52101dd7b0847bd776114b05893df5c103f4bc39b9377a2e52787ced6caeedc",
+      "correction_object_count": 26
+    },
+    {
+      "file": "reviews\\A.endings.consolidated.report.json",
+      "sha256_before": "ffb0b3dd79c6d9c06b60988cf93c6d9f5f19a307e9e777a3c8a6eed7bbd5bfde",
+      "correction_object_count": 0
+    },
+    {
+      "file": "reviews\\A.manual.001_0170_0338.json",
+      "sha256_before": "f9a1596a641037c64354737ebb8bd10a8487613c1dd0bf210654f0df3267f9b1",
+      "correction_object_count": 16
+    },
+    {
+      "file": "reviews\\A.manual.001_0508_end.corrections.jsonl",
+      "sha256_before": "86dc2c0a0a510ba05fa63734c4a4f401bb18827ca065d67b44e1d04fcf42211e",
+      "correction_object_count": 113
+    },
+    {
+      "file": "reviews\\A.manual.001_0508_end.report.json",
+      "sha256_before": "0b2413e3d753ec6cbdc008866381c4804fc54218292df58af9db90ec382a75fa",
+      "correction_object_count": 0
+    },
+    {
+      "file": "reviews\\A.manual.system_ui.corrections.jsonl",
+      "sha256_before": "2684738e52aefec6681652d778a61f8b6a84e1a2137c13862e7583651badedd2",
+      "correction_object_count": 166
+    },
+    {
+      "file": "reviews\\A.manual.system_ui.report.json",
+      "sha256_before": "f61cae1de24d1586d4a88b59ad4e621ed56f9fad7bfa694a0b472f7825809c20",
+      "correction_object_count": 0
+    },
+    {
+      "file": "reviews\\A.manual_decisions.json",
+      "sha256_before": "9d5eec471d31aa2cc8a5ad5101e93bb89b1e20fa21863e0cb8a3a7b834e1f93f",
+      "correction_object_count": 15
+    },
+    {
+      "file": "reviews\\A.resume.corrections.jsonl",
+      "sha256_before": "eeda2930451c6de85dbce1b6946f9ff519fd1559582e9635d8fd782ec1912cc9",
+      "correction_object_count": 18
+    }
+  ],
+  "existing_a_target_hits": [],
+  "existing_a_target_hit_count": 0,
+  "existing_a_merge_count": 0,
+  "validation": {
+    "output_row_checked": 195,
+    "output_row_failure_count": 0,
+    "exact_old_guard_pass": true,
+    "protected_tokens_pass": true,
+    "numbers_old_new_pass": true,
+    "percent_formats_old_new_pass": true,
+    "roman_old_new_pass": true,
+    "quotes_against_source_pass": true,
+    "renpy_tags_old_new_pass": true,
+    "ruby_old_new_pass": true,
+    "newline_old_new_pass": true,
+    "width_per_row_pass": true,
+    "full_scope": {
+      "structure": {
+        "roman": {
+          "failure_count": 0,
+          "failures": [],
+          "pass": true
+        },
+        "quotes": {
+          "failure_count": 0,
+          "failures": [],
+          "pass": true
+        },
+        "tags": {
+          "failure_count": 0,
+          "failures": [],
+          "pass": true
+        },
+        "ruby": {
+          "failure_count": 0,
+          "failures": [],
+          "pass": true
+        },
+        "newlines": {
+          "failure_count": 0,
+          "failures": [],
+          "pass": true
+        }
+      },
+      "numeric_semantics": {
+        "checked": 2593,
+        "strict_match_count": 2578,
+        "audited_lexical_equivalent_count": 15,
+        "audited_lexical_equivalents": [
+          {
+            "script": "003",
+            "sequence": 126,
+            "stable_id": "scenario.rpa::scenario/003.rpy::tid::f003_862ae915",
+            "source_numbers": {
+              "2": 1
+            },
+            "target_numbers": {},
+            "reason": "source Arabic ２ is translated lexically as Korean 두"
+          },
+          {
+            "script": "003",
+            "sequence": 1223,
+            "stable_id": "scenario.rpa::scenario/003.rpy::tid::f003_s1_end_f1d4c5d9",
+            "source_numbers": {},
+            "target_numbers": {
+              "0": 1
+            },
+            "reason": "source lexical ゼロ is represented as digit 0"
+          },
+          {
+            "script": "004",
+            "sequence": 90,
+            "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s1_end_11446a0c",
+            "source_numbers": {
+              "3": 1
+            },
+            "target_numbers": {},
+            "reason": "source Arabic ３ is translated lexically as Korean 세"
+          },
+          {
+            "script": "004",
+            "sequence": 208,
+            "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s1_end_de80d656",
+            "source_numbers": {},
+            "target_numbers": {
+              "1": 1
+            },
+            "reason": "source kanji 一 in 一年生 is represented as digit 1"
+          },
+          {
+            "script": "004",
+            "sequence": 281,
+            "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s1_end_a9681c4e",
+            "source_numbers": {
+              "2": 1
+            },
+            "target_numbers": {},
+            "reason": "source Arabic ２ is translated lexically as Korean 두"
+          },
+          {
+            "script": "004",
+            "sequence": 286,
+            "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s1_end_bed8e84a",
+            "source_numbers": {
+              "2": 1
+            },
+            "target_numbers": {},
+            "reason": "source Arabic ２ is translated lexically as Korean 두"
+          },
+          {
+            "script": "004",
+            "sequence": 287,
+            "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s1_end_00ec6cd0",
+            "source_numbers": {
+              "2": 1
+            },
+            "target_numbers": {},
+            "reason": "source Arabic ２ is translated lexically as Korean 두"
+          },
+          {
+            "script": "004",
+            "sequence": 343,
+            "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s1_end_825e5dc4",
+            "source_numbers": {
+              "1": 1,
+              "2": 1
+            },
+            "target_numbers": {},
+            "reason": "source Arabic １/２ are translated lexically as Korean 혼자/둘"
+          },
+          {
+            "script": "004",
+            "sequence": 428,
+            "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s2_end_849bc0c7",
+            "source_numbers": {
+              "2": 1
+            },
+            "target_numbers": {},
+            "reason": "source Arabic ２ is translated lexically as Korean 둘"
+          },
+          {
+            "script": "004",
+            "sequence": 442,
+            "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s2_end_882082a0",
+            "source_numbers": {
+              "2": 1
+            },
+            "target_numbers": {},
+            "reason": "source Arabic ２ is translated lexically as Korean 두"
+          },
+          {
+            "script": "004",
+            "sequence": 454,
+            "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s2_end_166d6a02",
+            "source_numbers": {
+              "3": 1
+            },
+            "target_numbers": {},
+            "reason": "source Arabic ３ is translated lexically as Korean 셋"
+          },
+          {
+            "script": "004",
+            "sequence": 520,
+            "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s2_end_e2c27dc8",
+            "source_numbers": {
+              "3": 1
+            },
+            "target_numbers": {},
+            "reason": "source Arabic ３ is translated lexically as Korean 세"
+          },
+          {
+            "script": "004",
+            "sequence": 579,
+            "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s2_end_82a70917",
+            "source_numbers": {},
+            "target_numbers": {
+              "1": 1
+            },
+            "reason": "source kanji 一 in 一階 is represented as digit 1"
+          },
+          {
+            "script": "004",
+            "sequence": 611,
+            "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s2_end_c95c09a3",
+            "source_numbers": {
+              "3": 1
+            },
+            "target_numbers": {},
+            "reason": "source Arabic ３ is translated lexically as Korean 셋"
+          },
+          {
+            "script": "004",
+            "sequence": 717,
+            "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s2_end_576f68ec",
+            "source_numbers": {},
+            "target_numbers": {
+              "2": 1
+            },
+            "reason": "source kanji 二 in 二人組 is represented as digit 2"
+          }
+        ],
+        "failure_count": 0,
+        "failures": [],
+        "pass": true
+      },
+      "width": {
+        "failure_count": 0,
+        "failures": [],
+        "pass": true
+      },
+      "residual_japanese_kana": {
+        "failure_count": 0,
+        "failures": [],
+        "pass": true
+      },
+      "residual_han": {
+        "failure_count": 0,
+        "failures": [],
+        "allowlisted_records": [
+          {
+            "script": "004",
+            "sequence": 53,
+            "characters": {
+              "桂": 1
+            }
+          },
+          {
+            "script": "004",
+            "sequence": 57,
+            "characters": {
+              "春": 1,
+              "樹": 2
+            }
+          }
+        ],
+        "allowlist_reason": "004 seq53/57 are explicit name/kanji explanations; 桂, 樹, 春樹 must remain visible",
+        "pass": true
+      },
+      "percent_interpolation": {
+        "failure_count": 0,
+        "failures": [],
+        "pass": true
+      }
+    },
+    "all_pass": true,
+    "post_inventory_audit_issue_count": 3,
+    "post_inventory_unapproved_issue_count": 0
+  },
+  "intentional_han_preservation": {
+    "004:53": "桂 is the kanji being explained in the name 桂子",
+    "004:57": "樹 and 春樹 are the kanji/name forms being explicitly explained"
+  },
+  "immutability": {
+    "master_sha256_before": {
+      "003": "efbf28251b8adae4816ddf0adeaf7a62810499d3a52a21559faf05c6d0455e11",
+      "004": "3aa02e473877c09fe4650f8c7fbfccfd17a54fee35320bb254271cc81e5b422d"
+    },
+    "master_sha256_after": {
+      "003": "efbf28251b8adae4816ddf0adeaf7a62810499d3a52a21559faf05c6d0455e11",
+      "004": "3aa02e473877c09fe4650f8c7fbfccfd17a54fee35320bb254271cc81e5b422d"
+    },
+    "existing_a_sha256_before": {
+      "reviews\\A.002.consolidated.corrections.jsonl": "e3cd57857df535608aabece52aab21c9ad5bc113ee8da866301d2775cfc0895c",
+      "reviews\\A.002.consolidated.report.json": "256a5f576577802dc355d2d77d6e3e086da326fafc845adc5b27f71dd6e2a096",
+      "reviews\\A.endings.consolidated.corrections.jsonl": "b52101dd7b0847bd776114b05893df5c103f4bc39b9377a2e52787ced6caeedc",
+      "reviews\\A.endings.consolidated.report.json": "ffb0b3dd79c6d9c06b60988cf93c6d9f5f19a307e9e777a3c8a6eed7bbd5bfde",
+      "reviews\\A.manual.001_0170_0338.json": "f9a1596a641037c64354737ebb8bd10a8487613c1dd0bf210654f0df3267f9b1",
+      "reviews\\A.manual.001_0508_end.corrections.jsonl": "86dc2c0a0a510ba05fa63734c4a4f401bb18827ca065d67b44e1d04fcf42211e",
+      "reviews\\A.manual.001_0508_end.report.json": "0b2413e3d753ec6cbdc008866381c4804fc54218292df58af9db90ec382a75fa",
+      "reviews\\A.manual.system_ui.corrections.jsonl": "2684738e52aefec6681652d778a61f8b6a84e1a2137c13862e7583651badedd2",
+      "reviews\\A.manual.system_ui.report.json": "f61cae1de24d1586d4a88b59ad4e621ed56f9fad7bfa694a0b472f7825809c20",
+      "reviews\\A.manual_decisions.json": "9d5eec471d31aa2cc8a5ad5101e93bb89b1e20fa21863e0cb8a3a7b834e1f93f",
+      "reviews\\A.resume.corrections.jsonl": "eeda2930451c6de85dbce1b6946f9ff519fd1559582e9635d8fd782ec1912cc9"
+    },
+    "existing_a_sha256_after": {
+      "reviews\\A.002.consolidated.corrections.jsonl": "e3cd57857df535608aabece52aab21c9ad5bc113ee8da866301d2775cfc0895c",
+      "reviews\\A.002.consolidated.report.json": "256a5f576577802dc355d2d77d6e3e086da326fafc845adc5b27f71dd6e2a096",
+      "reviews\\A.endings.consolidated.corrections.jsonl": "b52101dd7b0847bd776114b05893df5c103f4bc39b9377a2e52787ced6caeedc",
+      "reviews\\A.endings.consolidated.report.json": "ffb0b3dd79c6d9c06b60988cf93c6d9f5f19a307e9e777a3c8a6eed7bbd5bfde",
+      "reviews\\A.manual.001_0170_0338.json": "f9a1596a641037c64354737ebb8bd10a8487613c1dd0bf210654f0df3267f9b1",
+      "reviews\\A.manual.001_0508_end.corrections.jsonl": "86dc2c0a0a510ba05fa63734c4a4f401bb18827ca065d67b44e1d04fcf42211e",
+      "reviews\\A.manual.001_0508_end.report.json": "0b2413e3d753ec6cbdc008866381c4804fc54218292df58af9db90ec382a75fa",
+      "reviews\\A.manual.system_ui.corrections.jsonl": "2684738e52aefec6681652d778a61f8b6a84e1a2137c13862e7583651badedd2",
+      "reviews\\A.manual.system_ui.report.json": "f61cae1de24d1586d4a88b59ad4e621ed56f9fad7bfa694a0b472f7825809c20",
+      "reviews\\A.manual_decisions.json": "9d5eec471d31aa2cc8a5ad5101e93bb89b1e20fa21863e0cb8a3a7b834e1f93f",
+      "reviews\\A.resume.corrections.jsonl": "eeda2930451c6de85dbce1b6946f9ff519fd1559582e9635d8fd782ec1912cc9"
+    },
+    "pass": true
+  },
+  "artifacts": {
+    "output": "reviews\\A.003_004.consolidated.corrections.jsonl",
+    "output_sha256": "eb6c1cfab2934860d29dc34cfe56ae85999df86f85c25260fc454353db426655",
+    "report": "reviews\\A.003_004.consolidated.report.json"
+  },
+  "inventory_consolidation_update": {
+    "input_corrections_sha256": "eb6c1cfab2934860d29dc34cfe56ae85999df86f85c25260fc454353db426655",
+    "input_report_sha256": "a6f4e972b40c582a508e675c458269700a83f5b880026674dc135bcb09fe9559",
+    "fixed_term": "夢の世界 -> 꿈의 세계",
+    "sequences": [
+      421,
+      485,
+      538,
+      596,
+      668,
+      805,
+      1079
+    ],
+    "added_rows": [
+      485,
+      538,
+      596,
+      668,
+      805,
+      1079
+    ],
+    "merged_rows": [
+      421
+    ],
+    "record_rule_approvals_deferred_to_global_manifest": [
+      {
+        "script": "004",
+        "sequence": 53,
+        "rule_id": "RESIDUAL_HANJA"
+      },
+      {
+        "script": "004",
+        "sequence": 57,
+        "rule_id": "RESIDUAL_HANJA"
+      },
+      {
+        "script": "004",
+        "sequence": 529,
+        "rule_id": "GLOSSARY_MISMATCH"
+      }
+    ]
+  },
+  "output_sha256": "09b0c8cfb9c4f68bec2b610b3eb8c5fef95ad795154ba5add686444b89d4465c",
+  "verdict": "PASS"
+}

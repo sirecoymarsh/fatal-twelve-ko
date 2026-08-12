@@ -1,0 +1,22 @@
+{
+  "schema_version": "fatal-twelve-catalog-contract-v1",
+  "semantic_source": {
+    "language": "ja",
+    "authority": "scenario.rpa / scenario/*.rpyc, represented by a strict UTF-8 unrpyc decompile",
+    "required_context": ["speaker", "voice call", "neighboring Japanese visible lines", "label and runtime scene metadata", "Ren'Py control tags and protected tokens"]
+  },
+  "reference": {
+    "language": "en",
+    "allowed_uses": ["translation ID membership", "missing/orphan ID detection", "exact Japanese old-key membership in translate strings"],
+    "forbidden_uses": ["wording", "onomatopoeia", "interjections", "punctuation rhythm", "character voice"],
+    "target_prose_is_parsed": false,
+    "target_prose_is_stored": false
+  },
+  "alignment": {
+    "naive_sequence_zip": false,
+    "say_blocks": "Recompute the Ren'Py 6.99 AST get_code digest and label-prefixed translation ID.",
+    "menu_strings": "Use an exact Japanese old-key match only; assign an independent source-stable menu key.",
+    "unmatched_reference_ids": "Report as orphaned; never shift later source rows to consume them."
+  },
+  "live_game": {"read_only": true, "modified": false}
+}

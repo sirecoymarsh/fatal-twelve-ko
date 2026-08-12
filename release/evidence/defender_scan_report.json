@@ -1,0 +1,26 @@
+{
+    "schema_version":  "fatal-twelve-defender-scan-v1",
+    "status":  "PASS",
+    "started_utc":  "2026-08-11T07:19:34.4825572Z",
+    "completed_utc":  "2026-08-11T07:19:36.1874925Z",
+    "scanner":  "Microsoft Defender MpCmdRun",
+    "signature_version":  "1.457.96.0",
+    "zip_scan":  {
+                     "label":  "ui_feedback_v2_final_release_zip",
+                     "exit_code":  0,
+                     "output":  [
+                                    "Scan starting...",
+                                    "Scan finished.",
+                                    "Scanning C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\release_pipeline\\final_build_v2\\release\\FatalTwelve_KoreanPatch_1.0.0.zip found no threats."
+                                ]
+                 },
+    "extracted_scan":  {
+                           "label":  "ui_feedback_v2_exact_extracted_public_package",
+                           "exit_code":  0,
+                           "output":  [
+                                          "Scan starting...",
+                                          "Scan finished.",
+                                          "Scanning C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\release_pipeline\\final_build_v2\\defender_scan_extracted found no threats."
+                                      ]
+                       }
+}

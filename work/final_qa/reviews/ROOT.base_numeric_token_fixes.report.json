@@ -1,0 +1,1223 @@
+{
+  "schema_version": "fatal-twelve-base-numeric-token-fixes-v1",
+  "generated_at_utc": "2026-08-11T06:11:32.984717+00:00",
+  "source_master_index": {
+    "path": "work/final_qa/output/master_index.json",
+    "sha256": "33a690260a2e516adb353ebdfdf9d70c92a6ec1e90fa058b626c55d557995d68",
+    "masters": 29
+  },
+  "prior_correction_manifest": {
+    "path": "work/final_qa/reviews/global_correction_manifest.json",
+    "sha256": "698681d414185f012943701776b4e1e8f99e8f39e10a21f8fd6b50c127493603",
+    "correction_files": [
+      {
+        "path": "work/final_qa/reviews/A.001.consolidated.corrections.jsonl",
+        "sha256": "b3f00f01f1c05bd51650b974f48375f8c679ac02e0dc15d0bb930c27637ab7e5",
+        "records": 299
+      },
+      {
+        "path": "work/final_qa/reviews/A.002.consolidated.corrections.jsonl",
+        "sha256": "e3cd57857df535608aabece52aab21c9ad5bc113ee8da866301d2775cfc0895c",
+        "records": 46
+      },
+      {
+        "path": "work/final_qa/reviews/A.003_004.consolidated.corrections.jsonl",
+        "sha256": "09b0c8cfb9c4f68bec2b610b3eb8c5fef95ad795154ba5add686444b89d4465c",
+        "records": 195
+      },
+      {
+        "path": "work/final_qa/reviews/A.endings.consolidated.corrections.jsonl",
+        "sha256": "b52101dd7b0847bd776114b05893df5c103f4bc39b9377a2e52787ced6caeedc",
+        "records": 26
+      },
+      {
+        "path": "work/final_qa/reviews/A.manual.system_ui.corrections.jsonl",
+        "sha256": "2684738e52aefec6681652d778a61f8b6a84e1a2137c13862e7583651badedd2",
+        "records": 166
+      },
+      {
+        "path": "work/final_qa/reviews/B.005_1_005_2_006.consolidated.corrections.jsonl",
+        "sha256": "2afff9a3f4dd22a9e3ee6ccadb3e5a20303a74c38622043511b1f69054a495c2",
+        "records": 320
+      },
+      {
+        "path": "work/final_qa/reviews/C.007_1_007_2.consolidated.corrections.jsonl",
+        "sha256": "1301660b246fb614d438193dd5c56995520460022c257f7144121414c31834fe",
+        "records": 297
+      },
+      {
+        "path": "work/final_qa/reviews/C.008.consolidated.corrections.jsonl",
+        "sha256": "73f771a5bb9a9153d8894a0de30e2831b98db06705a03690a0227204126837f6",
+        "records": 219
+      },
+      {
+        "path": "work/final_qa/reviews/C.011_01.consolidated.corrections.jsonl",
+        "sha256": "41154cd46037523d74e65b610d881d16d111fc2f2c58a8a359a2213a1520c398",
+        "records": 37
+      },
+      {
+        "path": "work/final_qa/reviews/C.011_01FGH.consolidated.corrections.jsonl",
+        "sha256": "79b27a0630cdcc7aaa88b4498dc49125b5042eb8bbd58811dd6073a4dd7b51bb",
+        "records": 59
+      },
+      {
+        "path": "work/final_qa/reviews/C.NG_plus.consolidated.corrections.jsonl",
+        "sha256": "2972745b27800a86236d5b6c5469531089045f40b0ada1a37accb2334b94ed9f",
+        "records": 28
+      },
+      {
+        "path": "work/final_qa/reviews/ROOT.009.consolidated.corrections.jsonl",
+        "sha256": "9ff4e3b2e94cdcb7a5dda01ab6d464bc1435ec69f24b128611d3392da6112dec",
+        "records": 219
+      },
+      {
+        "path": "work/final_qa/reviews/ROOT.010.consolidated.corrections.jsonl",
+        "sha256": "6cf6fbef246f87a9b94a15560edced4e07aadf614880967e23d7a056ce145735",
+        "records": 409
+      },
+      {
+        "path": "work/final_qa/reviews/ROOT.011_02_and_GH.consolidated.corrections.jsonl",
+        "sha256": "16d5ebea6db3a473ba6c0a5f768a9053b2dfec47dd28d0f1bd0746f05d8d17b6",
+        "records": 54
+      },
+      {
+        "path": "work/final_qa/reviews/ROOT.012_01F.consolidated.corrections.jsonl",
+        "sha256": "2fa4183bb1da6825c907534bc78a172c216ad6af9c349ed4c89850032468760c",
+        "records": 153
+      },
+      {
+        "path": "work/final_qa/reviews/ROOT.012_01GH.consolidated.corrections.jsonl",
+        "sha256": "fcbec6f68ed36808f550a72dceb2453e4c43dffd1d499e7c61c4149c31e152f0",
+        "records": 46
+      },
+      {
+        "path": "work/final_qa/reviews/ROOT.012_02.consolidated.corrections.jsonl",
+        "sha256": "57ed361e4586a81f5658594a9167e8aa3db501c9bf011f0ca23d5c0efca34b1a",
+        "records": 23
+      }
+    ],
+    "stable_ids": 2596
+  },
+  "output": {
+    "path": "work/final_qa/reviews/ROOT.base_numeric_token_fixes.corrections.jsonl",
+    "sha256": "83485334dda42788efd0b67255fd900c72990c251b93006e44debc76abd29a39",
+    "records": 42
+  },
+  "summary": {
+    "records": 42,
+    "per_script": {
+      "002": 5,
+      "003": 1,
+      "004": 10,
+      "008": 11,
+      "011_02": 8,
+      "BAD_END_01": 2,
+      "BAD_END_02": 1,
+      "BAD_END_04": 1,
+      "MIHARU_END": 1,
+      "TRUE_END": 1,
+      "UNHAPPY_END": 1
+    },
+    "protected_token_failed_records_before": 42,
+    "protected_token_failed_records_after": 0,
+    "exact_old_master_guards_pass": true,
+    "existing_correction_overlap": 0,
+    "source_masters_modified": false,
+    "verdict": "PASS"
+  },
+  "source_master_hashes": {
+    "work/final_qa/output/masters/scenario_001.master.json": "4fdebbdc7814689a10aa399ab98182841a69297792d724c920a3d11aead10b11",
+    "work/final_qa/output/masters/scenario_002.master.json": "e67a1f0695b56bca521c0ae681fc446283a84607e94a4e983dec6de692ece4c6",
+    "work/final_qa/output/masters/scenario_003.master.json": "efbf28251b8adae4816ddf0adeaf7a62810499d3a52a21559faf05c6d0455e11",
+    "work/final_qa/output/masters/scenario_004.master.json": "3aa02e473877c09fe4650f8c7fbfccfd17a54fee35320bb254271cc81e5b422d",
+    "work/final_qa/output/masters/scenario_005_1.master.json": "1612088a8ba3f209f6584f92af060933fbce5c1929c3f1160bb2a06287b0ff59",
+    "work/final_qa/output/masters/scenario_005_2.master.json": "9bd9b53edbed8760f230caac9df10c9395e6f736bb588267eba21aa740dbecf9",
+    "work/final_qa/output/masters/scenario_006.master.json": "aeef3280cb1a95332c172ed48ca99cdf24e99469006e8cbdf2d672fa730d55a2",
+    "work/final_qa/output/masters/scenario_007_1.master.json": "ed7665e80d7e30f1b02d2a8f59364d2589b38350183d6cee98c5e681eaad4400",
+    "work/final_qa/output/masters/scenario_007_2.master.json": "3b0fc00333a10d37c3775c8295ac19fb1b2355f866a8080f40ea0fc23ba3cb6d",
+    "work/final_qa/output/masters/scenario_008.master.json": "a7ec09ab4a69e908b46a3f97a6a54d6f7f57c972ef9ab5625911c3ba873f46a2",
+    "work/final_qa/output/masters/scenario_009.master.json": "de7771674e6e4a77df70194b7aff9ee7662da7993ec0ec0db476911020816911",
+    "work/final_qa/output/masters/scenario_010.master.json": "c0d0ac82b27f2a3ba9190a865d3250da9d7d74eea3092ada54c7dc3f2bc62631",
+    "work/final_qa/output/masters/scenario_011_01.master.json": "2fdc8632b63e73b5df4b9ad57d0d41b3684934968728c46689f96ed7a9917567",
+    "work/final_qa/output/masters/scenario_011_01F.master.json": "99e894449ed17ec84ebed2cdc0337c1520003de6dcc395c61b40c017dd5deaf2",
+    "work/final_qa/output/masters/scenario_011_01G.master.json": "baa9771051c79a07c5ed0b23a5dc8063b92c33a409c07c2091f282c532e883f9",
+    "work/final_qa/output/masters/scenario_011_01H.master.json": "f7fbcf20f0b86ff137374784062bdd5d250c2d22c620d3e4814c423b4862a3dd",
+    "work/final_qa/output/masters/scenario_011_02.master.json": "6fe2cf3d00249edaae358d58018dd10a9e72bbadd25b8bb3a6c69a4a1bcd0538",
+    "work/final_qa/output/masters/scenario_011_02GH.master.json": "bebe77e1833c99bd283fa04ad0efcb5e0992c42914710ae356b0b42d6a5a094c",
+    "work/final_qa/output/masters/scenario_012_01F.master.json": "03ca810fbd92741b4ddc824aad7bc3154b0dc89d78b64d7b1fcddc043d784214",
+    "work/final_qa/output/masters/scenario_012_01GH.master.json": "41e4baab3dcbfe987942d15a197cbaca061817b963af8d8a92a19b5dd60d3946",
+    "work/final_qa/output/masters/scenario_012_02.master.json": "f94a6d209e47fbfb9cecc78fdca754a0adc9928f8b50e6c3f436741403aacd4e",
+    "work/final_qa/output/masters/scenario_BAD_END_01.master.json": "b5e027eb04766570d6862fdb7b2d562c2fea8b82e7490ba90022ee2b6da4ca21",
+    "work/final_qa/output/masters/scenario_BAD_END_02.master.json": "d74f378bc5a52f8ee727d55b5a44950ab86bca80a5ef6b12d5c6b6f1beb93809",
+    "work/final_qa/output/masters/scenario_BAD_END_03.master.json": "2e002066815a41f88fcdb5c08acd329954f47545a088c7a43f378304a43c7c53",
+    "work/final_qa/output/masters/scenario_BAD_END_04.master.json": "4cfc371be6372580eddc4afad4ed7e8462597b3d9450e7d9ef761e13713ffb57",
+    "work/final_qa/output/masters/scenario_MIHARU_END.master.json": "4a92769aab61ed330586c5847f0ac24f11fc8594ba26fce49134e7b3bdc1c276",
+    "work/final_qa/output/masters/scenario_NG_plus.master.json": "2c137ca61b7d052065f6e50748f38dae7b6a06bdc695fe469f63c28fb30c0b50",
+    "work/final_qa/output/masters/scenario_TRUE_END.master.json": "3ccf081b268f01c5c147af158855b9a1c69511a84dd43bf3d6e1724b486f35cf",
+    "work/final_qa/output/masters/scenario_UNHAPPY_END.master.json": "851c809d36b6efd089f2eac5e82df84c00ff225345f95c77d9c670c46e4e0a73"
+  },
+  "entries": [
+    {
+      "script": "002",
+      "sequence": 36,
+      "stable_id": "scenario.rpa::scenario/002.rpy::tid::f002_e9a7e479",
+      "source_jp": "≪女神の選定≫が１人しか残れないというのであれば――。",
+      "source_sha256": "bb9ed1f66c4412d8bd5b7f994aeb5c853365361b33a112264044733ac5a04125",
+      "target_before": "≪여신의 선정≫에서 한 사람만 남을 수 있다면――.",
+      "target_before_sha256": "bdcd6162f130e520689537d9906b686244dd67e219197fb0bfed47ce663b48b4",
+      "target_after": "≪여신의 선정≫에서 1명만 남을 수 있다면――.",
+      "target_after_sha256": "117193a3ca25ae8e209a1d66d56335035cbea5e7cc8aa354ffb680d51e446bd5",
+      "expected_nfkc_arabic_numbers": {
+        "1": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "1": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": []
+    },
+    {
+      "script": "002",
+      "sequence": 209,
+      "stable_id": "scenario.rpa::scenario/002.rpy::tid::f002_7b58bb48",
+      "source_jp": "そしてこれから２度目の選定が始まるまでの間、私は進展も後退もない日々を過ごしていた。",
+      "source_sha256": "b6551d9fadbe428ef853ad3575d60043edae4e3768f7dd4c3868d307408547b1",
+      "target_before": "그리고 이제 두 번째 선정이 시작될 때까지 나는 진전도 후퇴도 없는 나날을 보냈다.",
+      "target_before_sha256": "033dba5ca9ac9e6aeb2f6d2acf0869c50cfca483f107996565c35b06e7c7258c",
+      "target_after": "그리고 이제 2번째 선정이 시작될 때까지 나는 진전도 후퇴도 없는 나날을 보냈다.",
+      "target_after_sha256": "37cc7d71994439f346496dd6da3593ec7049231221e7c5d803f22d398f3323d1",
+      "expected_nfkc_arabic_numbers": {
+        "2": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "2": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": []
+    },
+    {
+      "script": "002",
+      "sequence": 243,
+      "stable_id": "scenario.rpa::scenario/002.rpy::tid::f002_961fb560",
+      "source_jp": "これで北京ダックは３皿目だ。間には水餃子や饅頭などを挟んでいる。",
+      "source_sha256": "12ce6547eb2c39932cbb4e4fff87cf20f83096a19f04dd810c39fbbd2f7b92eb",
+      "target_before": "이걸로 베이징 덕은 세 접시째다. 사이사이에 물만두와 만터우 같은 것도 먹었다.",
+      "target_before_sha256": "705f0ef0a20aa9b5706cd08077fc42da3680e68b3704493402ad6907bb93c13a",
+      "target_after": "이걸로 베이징 덕은 3접시째다. 사이사이에 물만두와 만터우 같은 것도 먹었다.",
+      "target_after_sha256": "9538dec2e3efb8f8c14d279dca7163d7f47e6abff8aa0fa5237d621c28abe80e",
+      "expected_nfkc_arabic_numbers": {
+        "3": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "3": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": []
+    },
+    {
+      "script": "002",
+      "sequence": 246,
+      "stable_id": "scenario.rpa::scenario/002.rpy::tid::f002_900e7419",
+      "source_jp": "「ま、つまりだ。世界で１番の料理がフランス料理なのは動かないが、中華料理には２番を与えてやってもいい」",
+      "source_sha256": "58084cf2eae1b4ac713b6fd8081593c38eeb33ca6f6a37e3cafcf1c1ca274fea",
+      "target_before": "「뭐, 그러니까 말이야. 세계 최고의 요리가 프랑스 요리라는 사실은 변함없지만, 중국 요리에는 2등을 줘도 괜찮겠어」",
+      "target_before_sha256": "ad047af0babc5bde7827b097289d3d7abb10b5ef55577ab7345df89f67fe9912",
+      "target_after": "「뭐, 그러니까 말이야. 세계 1위의 요리가 프랑스 요리라는 사실은 변함없지만, 중국 요리에는 2위를 줘도 괜찮겠어」",
+      "target_after_sha256": "713a57685f70618d9ca720ffdeae10ca4160abaf790f4452318a0516826e8310",
+      "expected_nfkc_arabic_numbers": {
+        "1": 1,
+        "2": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "1": 1,
+            "2": 1
+          },
+          "actual": {
+            "2": 1
+          },
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": []
+    },
+    {
+      "script": "002",
+      "sequence": 267,
+      "stable_id": "scenario.rpa::scenario/002.rpy::tid::f002_ea8bf169",
+      "source_jp": "「１回目の選定で誰もあたしらを指名しなかったんだから、運よく揃った奴はいないってことが明らかになってる」",
+      "source_sha256": "251e92d03b21868644fe290bfc9ade0162e1f7244e2694a4db7c60a934ee2116",
+      "target_before": "「첫 번째 선정에서 아무도 우리를 지명하지 않았으니 운 좋게 다 모은 녀석은 없다는 사실이 드러났지」",
+      "target_before_sha256": "2f75bfde853ac795bf29351e22e25c8533354797d5e5067287b0d5911d5b0128",
+      "target_after": "「1번째 선정에서 아무도 우리를 지명하지 않았으니, 운 좋게 카드를 다 모은 녀석은 없다는 사실이 드러났지」",
+      "target_after_sha256": "2e357b5a53930f92548954ada8edc3e88230171ef16e3aa143872546c183aee0",
+      "expected_nfkc_arabic_numbers": {
+        "1": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "1": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": []
+    },
+    {
+      "script": "003",
+      "sequence": 126,
+      "stable_id": "scenario.rpa::scenario/003.rpy::tid::f003_862ae915",
+      "source_jp": "これでやっと２回目の選定が終わったような気がした。",
+      "source_sha256": "df7970d466fa17a5664b109b30d48e93bbeb87cefe0a5a1d99ac1f9f20bd09b5",
+      "target_before": "이제야 두 번째 선정이 끝난 듯한 기분이 들었다.",
+      "target_before_sha256": "ceea8aa6629d849855acda96adecda8c92c5c744bbe70e36bf66121ab66572fa",
+      "target_after": "이제야 2번째 선정이 끝난 듯한 기분이 들었다.",
+      "target_after_sha256": "ea039d8b985da3dfb6c5ff9081ff3e63b292b27b13d10901ffe0a43ad1c7f740",
+      "expected_nfkc_arabic_numbers": {
+        "2": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "2": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": []
+    },
+    {
+      "script": "004",
+      "sequence": 90,
+      "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s1_end_11446a0c",
+      "source_jp": "彼女の顔を、私はもう３度目もにしている。夢の世界で。運命の大広間で。",
+      "source_sha256": "d0827ea39d17471d233b8d8a4b58da0f72f47878ae67e0059035650529af954e",
+      "target_before": "그녀의 얼굴을 보는 건 벌써 세 번째다. 꿈의 세계에서. 운명의 대회랑에서.",
+      "target_before_sha256": "b32b0c1fab34f70dcce2fd95bf8869c6da5c7761997207d7046c1fe7c96313f6",
+      "target_after": "그녀의 얼굴을 보는 건 벌써 3번째다. 꿈의 세계에서. 운명의 대회랑에서.",
+      "target_after_sha256": "8a3ae68b0e02e94066ce574a7e3a15eea93262696665bf065baa9c8d5ab30e9c",
+      "expected_nfkc_arabic_numbers": {
+        "3": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "3": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": []
+    },
+    {
+      "script": "004",
+      "sequence": 281,
+      "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s1_end_a9681c4e",
+      "source_jp": "「その２人が！」",
+      "source_sha256": "8c77da9a5a9660ce5fe7dd961e028fb1b5d6f5cf9434877deed04c1c934665b7",
+      "target_before": "「그 두 사람이!」",
+      "target_before_sha256": "f0b7f23b2813013aadb55e1228af59bef896e332888212f8ba06758eb32bd370",
+      "target_after": "「그 2명이!」",
+      "target_after_sha256": "4e3502c3385aefbcf8002134930c65995d6b25d4f4737bad23d244c5f061c1c5",
+      "expected_nfkc_arabic_numbers": {
+        "2": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "2": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": []
+    },
+    {
+      "script": "004",
+      "sequence": 286,
+      "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s1_end_bed8e84a",
+      "source_jp": "Ⅺの女性は、２回目の選定でⅦの男性を脱落させた人だ。Ⅻのスコーピオンさんと同じように、とても冷徹な目をしていた。",
+      "source_sha256": "b49fd0bdfa55e00cc93ec58890d6867e7687709b94b48a7189c0c76b61ddf330",
+      "target_before": "Ⅺ의 여성은 두 번째 선정에서 Ⅶ의 남성을 탈락시킨 사람이다. Ⅻ의 스코피온 씨와 마찬가지로 무척 냉혹한 눈을 하고 있었다.",
+      "target_before_sha256": "935df3f252eea3c7270da56525771b05d8a8b93e526a20909350f2871c9edf9c",
+      "target_after": "Ⅺ의 여성은 2번째 선정에서 Ⅶ의 남성을 탈락시킨 사람이다. Ⅻ의 스코피온 씨와 마찬가지로 무척 냉혹한 눈을 하고 있었다.",
+      "target_after_sha256": "b08b7a64e35920f416a5c38e14a8614565e8964c51d33d8e3bc8d5cbf9185100",
+      "expected_nfkc_arabic_numbers": {
+        "2": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "2": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": []
+    },
+    {
+      "script": "004",
+      "sequence": 287,
+      "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s1_end_00ec6cd0",
+      "source_jp": "まさかその２人が協力関係にあったとは。Ⅲの男性に対してはこちらが氏名を分かっているから多少有利に働くと思っていたけれど、あの女性と組んでいるのなら、有利はないのと同じだろう。",
+      "source_sha256": "ea99b569b628e917245af648f5419dae3b991eaa48705e764c8b34bf47d367d6",
+      "target_before": "설마 그 두 사람이 협력 관계였다니. Ⅲ의 남자는 내가 성명을 알아 조금 유리할 줄 알았지만 그 여자와 한패라면 유리할 것도 없을 것이다.",
+      "target_before_sha256": "0a3879caafccc53478e5e3429715ba2c376037859060e6b4edc989c09e1cd601",
+      "target_after": "설마 그 2명이 협력 관계였다니. Ⅲ의 남자는 내가 성명을 알아 조금 유리할 줄 알았지만 그 여자와 한패라면 유리할 것도 없을 것이다.",
+      "target_after_sha256": "7eebd5699a8284424c658029b27e21ce0c237db43ee37fa7fc5aced578c662fe",
+      "expected_nfkc_arabic_numbers": {
+        "2": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "2": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": []
+    },
+    {
+      "script": "004",
+      "sequence": 343,
+      "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s1_end_825e5dc4",
+      "source_jp": "「……１人よりも２人の方が楽しいでしょ？」",
+      "source_sha256": "efc44ab2e4432492c34892a8690c10d6a937c9f57fd85915455a6211076be4a7",
+      "target_before": "「……혼자보다 둘이 더 즐겁잖아?」",
+      "target_before_sha256": "45978b9bec5430ee5028472abf6fb5b6c926794823ac6a684b5946d83993ba57",
+      "target_after": "「……1명보다 2명이 더 즐겁잖아?」",
+      "target_after_sha256": "ba0640e7a8505aa2ee25b10d8edd5e123b5ee40b7e8861719c117af282e38b55",
+      "expected_nfkc_arabic_numbers": {
+        "1": 1,
+        "2": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "1": 1,
+            "2": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": []
+    },
+    {
+      "script": "004",
+      "sequence": 428,
+      "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s2_end_849bc0c7",
+      "source_jp": "「いや、一緒に行こう。２人の方がいいと思う」",
+      "source_sha256": "1f4b94c496850518c7aed3a073055903ee95d6466d7644876589129b559d80a5",
+      "target_before": "「아니, 같이 가자. 둘이 가는 편이 좋을 것 같아」",
+      "target_before_sha256": "7cf720c496d08be2723542d1ead8d9b3eb42831e0c6fbe5f428664f627551aab",
+      "target_after": "「아니, 같이 가자. 2명이 가는 편이 좋을 것 같아」",
+      "target_after_sha256": "2b92faffac0d53dcf034acb2e1d43ded913cd7637b4236f1963dac1ef9652714",
+      "expected_nfkc_arabic_numbers": {
+        "2": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "2": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": []
+    },
+    {
+      "script": "004",
+      "sequence": 442,
+      "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s2_end_882082a0",
+      "source_jp": "私もできれば、２度目は来たくなかったのだけれど。いや、お店自体を否定するわけではなくて、雰囲気が苦手なのだ。男性客ばかりで、私たちはどうしても浮いてしまうし。",
+      "source_sha256": "ca7d65730b408525e623322de407189e9108acc1886e24bd92625a99e118e2f5",
+      "target_before": "나도 가능하면 두 번째로 오고 싶지는 않았다. 아니, 가게 자체를 부정하는 게 아니라 분위기가 거북한 것이다. 남자 손님뿐이라 우리는 아무래도 튀기도 하고.",
+      "target_before_sha256": "ade8db4fbf96c8520030e05747f4fd8777048546e12aac1ac4e1d9b5f8dbfa77",
+      "target_after": "나도 가능하다면 이곳에 2번이나 오고 싶지는 않았다. 아니, 가게 자체를 부정하는 게 아니라 분위기가 거북한 것이다. 남자 손님뿐이라 우리는 아무래도 눈에 띄기도 하고.",
+      "target_after_sha256": "0daa742a1f30ff35765d3d71e8411c9c429a02235700de150b96cb3624c84944",
+      "expected_nfkc_arabic_numbers": {
+        "2": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "2": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": []
+    },
+    {
+      "script": "004",
+      "sequence": 454,
+      "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s2_end_166d6a02",
+      "source_jp": "３人で帰ることにして、私がソーニャを泊めることになった経緯を説明した。",
+      "source_sha256": "8fcb7303d96454c74553dbd849d4e5bdda0389d67fe19894bab4a1010d3e4722",
+      "target_before": "셋이 같이 돌아가기로 하고 내가 소냐를 재우게 된 경위를 설명했다.",
+      "target_before_sha256": "c6df7734defad8ed9b59c5d439ddf50fe5b4a184f6d7a1b2a9fba16eca99dd9e",
+      "target_after": "3명이 함께 돌아가기로 하고, 내가 소냐를 재우게 된 경위를 설명했다.",
+      "target_after_sha256": "c3b1f5f724e2126e6d4dfb2b78791389bb4b91343c5712de5453c12ea6e97f25",
+      "expected_nfkc_arabic_numbers": {
+        "3": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "3": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": []
+    },
+    {
+      "script": "004",
+      "sequence": 520,
+      "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s2_end_e2c27dc8",
+      "source_jp": "秋葉原から総武線で新宿まで来た３人は、乗り換えのために一旦ホームへ出ていた。",
+      "source_sha256": "c9610c8fbc546b6dc116ace4f6369b0a8634b1737516a9309f4acbb65c25bd9c",
+      "target_before": "아키하바라에서 소부선을 타고 신주쿠까지 온 세 사람은 환승하려고 일단 승강장에 내렸다.",
+      "target_before_sha256": "065c6ebcc8460fcc0b9ff8abcc8797df869c7e5564d328939f70648d3acf94c9",
+      "target_after": "아키하바라에서 소부선을 타고 신주쿠까지 온 3명은 환승하려고 일단 승강장에 나왔다.",
+      "target_after_sha256": "606f5c9fe0a1f98c9fdc19ad22a415492464ab9dd5b91157553686c5ac9404d3",
+      "expected_nfkc_arabic_numbers": {
+        "3": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "3": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": []
+    },
+    {
+      "script": "004",
+      "sequence": 611,
+      "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s2_end_c95c09a3",
+      "source_jp": "放課後、私たちは３人で校門にいた。",
+      "source_sha256": "96ea67423ea6d6461d6e9217a535435306247ca8bcf1aa9934b0be663123402e",
+      "target_before": "방과 후 우리 셋은 교문에 있었다.",
+      "target_before_sha256": "2baaa0cd2441a8c67d7730652c4cb38142bec37fec561cff5c2ee9bfc870ce06",
+      "target_after": "방과 후 우리 3명은 교문에 있었다.",
+      "target_after_sha256": "45a33764f2b41b54bf4bf0ff0e11eea52649231fcd04b11828c6b761421d6aa2",
+      "expected_nfkc_arabic_numbers": {
+        "3": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "3": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": []
+    },
+    {
+      "script": "008",
+      "sequence": 206,
+      "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_dd8f9cf8",
+      "source_jp": "お店は結局、私の体調不良により１週間程度の休みということになっていた。",
+      "source_sha256": "a37c7f94c77b023345c978d07b2c27d2c29a110ca5414d674f24a05f234c0590",
+      "target_before": "가게는 결국 내 몸 상태가 나빠 일주일 정도 쉰 것으로 되어 있었다.",
+      "target_before_sha256": "f8883a506cbb9f45a237877aa7b0823cccbe17dc29f767ad17a351c21c80044b",
+      "target_after": "가게는 결국 내 몸 상태가 나빠 1주일 정도 쉬기로 했다.",
+      "target_after_sha256": "4451da72fdb5f538ae7dfa0109b98aa7ce49a06c8a3b5023296e060e2e380ecb",
+      "expected_nfkc_arabic_numbers": {
+        "1": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "1": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": []
+    },
+    {
+      "script": "008",
+      "sequence": 228,
+      "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_8a249351",
+      "source_jp": "「……なるほど。日辻さんの場合は、記憶の改変具合が他の人より大きい、という推測くらいしか今はできないけれど、君は≪世界が改変≫された２つの記憶を比較的はっきりと持っている」",
+      "source_sha256": "b9fbcf0b37cfdf8614b6953d84f8a2d10cc5d0d85690ac1a511f516db49da056",
+      "target_before": "「……그렇군. 히츠지 씨는 다른 사람보다 기억이 많이 개변되었다는 추측밖에 지금은 할 수 없지만, 너는 ≪세계가 개변된≫ 두 기억을 비교적 선명하게 가지고 있어」",
+      "target_before_sha256": "f5ad62e49cc80aa5a804b15966af47fefbb7cb9cfe19ca1b566c6d29e16859fc",
+      "target_after": "「……그렇군. 히츠지 씨는 다른 사람보다 기억이 많이 개변되었다는 추측밖에 지금은 할 수 없지만, 너는 ≪세계가 개변된≫ 2가지 기억을 비교적 선명하게 가지고 있어」",
+      "target_after_sha256": "2ae2ced148f09a65f48b0a8c926788d9958333ae40a784a5e74af300a51d4035",
+      "expected_nfkc_arabic_numbers": {
+        "2": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "2": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": []
+    },
+    {
+      "script": "008",
+      "sequence": 261,
+      "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_4641e4a9",
+      "source_jp": "「ここからは、私たち３人で戦おう。相手は他の参加者じゃない。私たちの、運命だ」",
+      "source_sha256": "6f3e052b50a6aa919a332fb03ab5a36d7d6623b1bc62860177cc1229ff77cae7",
+      "target_before": "「지금부터는 우리 세 사람이 싸우자. 상대는 다른 참가자가 아니야. 우리의 운명이야」",
+      "target_before_sha256": "6d96c3bab4ce2d433423007f2f5937379719d2d82e17ae1412d3e9e963eeeeb5",
+      "target_after": "「지금부터는 우리 3명이 싸우자. 상대는 다른 참가자가 아니야. 우리의 운명이야」",
+      "target_after_sha256": "632e90fb93733245a5b62e0b9fd7bfd9ea21852b5de7cccb72f10684edc8170e",
+      "expected_nfkc_arabic_numbers": {
+        "3": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "3": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": []
+    },
+    {
+      "script": "008",
+      "sequence": 287,
+      "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_16fc20fe",
+      "source_jp": "「――まあいいさ。君の気持ちは嬉しいけれど、気持ちを受け取るに留めておくよ。さっきも言っただろう？　ぼくたちは、まず最後の２人にならなくてはならないんだ」",
+      "source_sha256": "94d5af5c828936161f68bc05d2342684020e00b22fdf994583e60ebc54fef7b5",
+      "target_before": "「――뭐, 됐어. 네 마음은 기쁘지만 마음만 받아 둘게. 아까도 말했지? 우리는 우선 마지막 두 사람이 되어야 해」",
+      "target_before_sha256": "a014f80be3c5ddfc51d4aeffd8f7507beec09fdd5510a40a881f7de7414f2e7f",
+      "target_after": "「――뭐, 됐어. 네 마음은 기쁘지만 마음만 받을게. 아까도 말했지? 우리는 우선 마지막 2명이 되어야 해」",
+      "target_after_sha256": "80f4083eb5ae7b2015e66a72ff6a70f616959779a8dee291537e8df4f50064df",
+      "expected_nfkc_arabic_numbers": {
+        "2": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "2": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": []
+    },
+    {
+      "script": "008",
+      "sequence": 298,
+      "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_ad905753",
+      "source_jp": "他の参加者の情報も、私たち２人が生き残る算段も、私は何も持っていない。",
+      "source_sha256": "3f4b99cb82c269ab6b17d4f25487054718515cfaa6c5067b34e416dd5c3252c3",
+      "target_before": "다른 참가자의 정보도 우리 둘이 살아남을 방도도 나는 아무것도 갖고 있지 않다.",
+      "target_before_sha256": "cfedf1e50a64f8564fa0709987e7dc33a56368fd9b593755cf12eb2dfab7021a",
+      "target_after": "나는 다른 참가자들의 정보도, 우리 2명이 살아남을 방도도 아무것도 갖고 있지 않다.",
+      "target_after_sha256": "18e78f7aff26fcd11e072ff7eea8e8a2f901c32551b1d8fedf4876e1055c86c5",
+      "expected_nfkc_arabic_numbers": {
+        "2": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "2": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": []
+    },
+    {
+      "script": "008",
+      "sequence": 326,
+      "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_16bb4f13",
+      "source_jp": "「デキマ、ノーナ、モルタっていう３種類がいるそうで、それぞれギリシア神話のモイラっていう運命の女神と対応しているって、書いてありました」",
+      "source_sha256": "5625b7830f7968577da64fd5cc2bae2655bed57e65deb3e277bfb5f6380d9ad7",
+      "target_before": "「데키마, 노나, 모르타라는 세 여신이 있고 각각 그리스 신화의 모이라라는 운명의 여신과 대응한다고 적혀 있었어요」",
+      "target_before_sha256": "48e3e07f2805916802b88caf01ba33d455c7e2d74171399775651af60b41e4ff",
+      "target_after": "「데키마, 노나, 모르타라는 3종류가 있고, 각각 그리스 신화의 모이라라는 운명의 여신과 대응한다고 적혀 있었어요」",
+      "target_after_sha256": "54e0a0c4625ad0c74a4e8812319189b027d35677198f94eecdb37998490af363",
+      "expected_nfkc_arabic_numbers": {
+        "3": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "3": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": []
+    },
+    {
+      "script": "008",
+      "sequence": 400,
+      "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_05b04bd2",
+      "source_jp": "「ちなみに現在の彼の家族構成は、弟が４人と妹が１人だそうだ。彼ら家族は、アランの収入が支えているらしい」",
+      "source_sha256": "bf347a4844d661ac0f2e12dc7b9a55f523f40f345567cc66c50d29aa043457b9",
+      "target_before": "「참고로 현재 그의 가족은 남동생 넷과 여동생 하나라고 해. 그 가족은 아란의 수입으로 생활하는 모양이야」",
+      "target_before_sha256": "7bea663922b86e7b08309ba568d9549a96d0867960151821d0b1e766cbd9ed63",
+      "target_after": "「참고로 현재 그의 가족 구성은 남동생 4명과 여동생 1명이라고 해. 그 가족은 아란의 수입으로 생활하는 모양이야」",
+      "target_after_sha256": "1407e65579f47a91b3d241b036713193fd2d84823c52743b3caadea327019ca7",
+      "expected_nfkc_arabic_numbers": {
+        "4": 1,
+        "1": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "4": 1,
+            "1": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": []
+    },
+    {
+      "script": "008",
+      "sequence": 421,
+      "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_a61d2db5",
+      "source_jp": "フェデリーコはカードブックから１枚のカードを取り出し、ちらつかせた。",
+      "source_sha256": "68051debd183fd8ba127eb133e9d837c52d7896643e1041e5ba6edf2012fa23c",
+      "target_before": "페데리코는 카드북에서 카드 한 장을 꺼내 흔들어 보였다.",
+      "target_before_sha256": "5e63d8899d3d04cc6c66d74cae22911541ca6ac9297d6a8dc496f0a4b435b1d2",
+      "target_after": "페데리코는 카드북에서 카드 1장을 꺼내 흔들어 보였다.",
+      "target_after_sha256": "171bfd836611f6375cd3b4eaa7551dca61e2ea3e9bcb2c280abe6d4dbcc79c54",
+      "expected_nfkc_arabic_numbers": {
+        "1": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "1": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": []
+    },
+    {
+      "script": "008",
+      "sequence": 424,
+      "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_f3a4bc78",
+      "source_jp": "背景情報がないため、オデットの死因を理解したことになっていないからだと、２人とも分かっている。",
+      "source_sha256": "2956475cc1b4624dc4d4b46f9a6c486de10023f73388dc9cad238fc2635e8994",
+      "target_before": "배경 정보가 없으므로 오데트의 사인을 이해한 것이 아니기 때문이라고 두 사람 모두 알고 있다.",
+      "target_before_sha256": "f22e0af4aa90e634d0182fae0694cfdfe42acee6e73068657da0e09cf90c4d79",
+      "target_after": "배경 정보가 없으므로 오데트의 사인을 이해한 것이 아니기 때문이라고 2명 모두 알고 있다.",
+      "target_after_sha256": "2b705367da2d8c6361e998e7290efb9ea0f806a7ef06f45c30ba9c15c136422f",
+      "expected_nfkc_arabic_numbers": {
+        "2": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "2": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": []
+    },
+    {
+      "script": "008",
+      "sequence": 680,
+      "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_9f27bd2f",
+      "source_jp": "「８度目の選定じゃあ、フェデリーコがあたしを指名、スケールがてめーを指名で二人の脱落。てめーからアランの≪死因≫のカードを取得すれば、スケールの目的は達成される」",
+      "source_sha256": "1f9e168b49bb1545d54b57d3793249494f543c5deff443cac71afd00c08b36a5",
+      "target_before": "「여덟 번째 선정에서는 페데리코가 나를 지명하고, 스케일이 너를 지명해서 둘이 탈락한다. 너한테서 아란의 ≪사인≫ 카드를 얻으면 스케일의 목적은 달성되지.」",
+      "target_before_sha256": "1c1f8d382da717005dc19dfecbe5f225d3806162bf6cc68236c01603e610f327",
+      "target_after": "「8번째 선정에서는 페데리코가 나를 지명하고, 스케일이 너를 지명해서 둘이 탈락한다. 너한테서 아란의 ≪사인≫ 카드를 얻으면 스케일의 목적은 달성되지」",
+      "target_after_sha256": "3817d06102375158ea1ba7b9b1bb10744510d8f429d51172ef4f59201a214a69",
+      "expected_nfkc_arabic_numbers": {
+        "8": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "8": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": []
+    },
+    {
+      "script": "008",
+      "sequence": 740,
+      "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_bb7be56c",
+      "source_jp": "12人が死ぬと同時に、その死がなかったことになった運命の日。",
+      "source_sha256": "a5294a0d2c82374fd5c21a9a60d1c3394620f49a59f934a3469e71a277a26245",
+      "target_before": "열두 사람이 죽는 동시에 그 죽음이 없었던 일이 된 운명의 날.",
+      "target_before_sha256": "07a24eddd98bcb187da174131da89f100c5a3d4f59f3c5374287a1f5b2ea6463",
+      "target_after": "12명이 죽는 동시에 그 죽음이 없었던 일이 된 운명의 날.",
+      "target_after_sha256": "abefb59cdb2281447a4a393430ba93a0f5ce86d6dc1da7da33ba891f1e9ec6c9",
+      "expected_nfkc_arabic_numbers": {
+        "12": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "12": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": []
+    },
+    {
+      "script": "011_02",
+      "sequence": 1,
+      "stable_id": "scenario.rpa::scenario/011_02.rpy::tid::sentei11_53e6f637",
+      "source_jp": "運命の大広間を一周するように浮かぶ12個の円い床の上に立つのは、もはや私と海晴だけになっていた。",
+      "source_sha256": "e1e1c23301fc83605bdbc1f61a0f7e2cb95b3594017fff90722a8ad0ce4db2f9",
+      "target_before": "운명의 대회랑을 한 바퀴 둘러싸듯 떠 있는 열두 개의 둥근 바닥 위에 선 사람은 이제 나와 미하루뿐이었다.",
+      "target_before_sha256": "fe8206481bd6290dfacb9b2c87042748d346a5ce7fbe52a8f9ce7bc62b2a989c",
+      "target_after": "운명의 대회랑을 한 바퀴 둘러싸듯 떠 있는 12개의 둥근 바닥 위에 선 사람은 이제 나와 미하루뿐이었다.",
+      "target_after_sha256": "931a3768a7e37ad87805da5d1a6903661426ddec9c24a48bd4b103b31f89318f",
+      "expected_nfkc_arabic_numbers": {
+        "12": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "12": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": []
+    },
+    {
+      "script": "011_02",
+      "sequence": 7,
+      "stable_id": "scenario.rpa::scenario/011_02.rpy::tid::sentei11_fb727df2",
+      "source_jp": "「今宵は11度目の選定。いくつもの嘆きの果てに、あなた方のどちらかがワタクシの器になることでしょう」",
+      "source_sha256": "13476a424ec9868137a7d80150ba97bdc622d1a19d07d412f2310d79ad050b94",
+      "target_before": "「오늘 밤은 열한 번째 선정. 수많은 탄식 끝에 두 분 중 한 분이 저의 그릇이 되시겠지요」",
+      "target_before_sha256": "52357733914c17e96579c5dd3d93ad274387a7d8cae90e73fd50d7e667cecfce",
+      "target_after": "「오늘 밤은 11번째 선정. 수많은 탄식 끝에 두 분 중 한 분이 저의 그릇이 되시겠지요」",
+      "target_after_sha256": "a5a21996a67bd5858242922f50ebc6808160b5a4de6e7df1faeec5a5f787e925",
+      "expected_nfkc_arabic_numbers": {
+        "11": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "11": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": []
+    },
+    {
+      "script": "011_02",
+      "sequence": 13,
+      "stable_id": "scenario.rpa::scenario/011_02.rpy::tid::sentei11_3ac1a7c8",
+      "source_jp": "「12度目。あら、運命的ですわね」",
+      "source_sha256": "f7127e415d2d8023ae9f44c9d9b36ee81384250027e5f0383f1dc86103f929c4",
+      "target_before": "「열두 번째. 어머, 운명적이네요」",
+      "target_before_sha256": "ad7a609f782b4d34ccb563e145a1687b84757cae5d4c410a930ceea413cbba46",
+      "target_after": "「12번째. 어머, 운명적이네요」",
+      "target_after_sha256": "83e15d1450951f648f36dba674237292ab6ed1fa2b9c6264388c12c79a567ecc",
+      "expected_nfkc_arabic_numbers": {
+        "12": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "12": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": []
+    },
+    {
+      "script": "011_02",
+      "sequence": 16,
+      "stable_id": "scenario.rpa::scenario/011_02.rpy::tid::sentei11_b9491b89",
+      "source_jp": "12回。それは確かに運命的な数字だった。",
+      "source_sha256": "540bda09ab479998d6d4f7c0310c98d3503e1f19ffe904febc1d6b8ad446210e",
+      "target_before": "열두 번. 그것은 확실히 운명적인 숫자였다.",
+      "target_before_sha256": "e77080f6b32a446f7e3dc20876b03219567cfdab0288443c164de6327a39bef2",
+      "target_after": "12번. 그것은 확실히 운명적인 숫자였다.",
+      "target_after_sha256": "b7f42ad75c6b6e4c7754fcfeabfefd4e08fb5b9a02f9fb86fe934d01ddd04dbb",
+      "expected_nfkc_arabic_numbers": {
+        "12": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "12": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": []
+    },
+    {
+      "script": "011_02",
+      "sequence": 19,
+      "stable_id": "scenario.rpa::scenario/011_02.rpy::tid::sentei11_aecdd8bd",
+      "source_jp": "けれど今回の選定が12回目となると、意味が違ってくる。",
+      "source_sha256": "63bb6340b8200b324ec338169c8f45e5081b21cd5c5a93919fdf10f23711046f",
+      "target_before": "하지만 이번 선정이 열두 번째라면 의미가 달라진다.",
+      "target_before_sha256": "962f5280edbf027aedf0e7cd8ee43557a1f83418176b440d8232eb19dd24bba1",
+      "target_after": "하지만 이번 선정이 12번째라면 의미가 달라진다.",
+      "target_after_sha256": "2d496770e5c461bac36908f9566c44999dd152e3bc80270ebe8d806cb667b1fd",
+      "expected_nfkc_arabic_numbers": {
+        "12": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "12": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": []
+    },
+    {
+      "script": "011_02",
+      "sequence": 93,
+      "stable_id": "scenario.rpa::scenario/011_02.rpy::tid::sentei11_45ece4ae",
+      "source_jp": "「ワタクシは運命の女神の力をもって、≪因果の刻≫で結ばれた12人の≪命を落とさなかった世界≫を本流に束ねているのですわ」",
+      "source_sha256": "3ca4a03cc900cb9e962ec55154ea9abdfa5a9dd513f155d7a34852b4fedf92d7",
+      "target_before": "「저는 운명의 여신의 힘으로 ≪인과의 때≫에 묶인 열두 사람의 ≪목숨을 잃지 않은 세계≫를 본류에 한데 묶고 있습니다」",
+      "target_before_sha256": "94619b0af4c2e612c098bbdadbffa9d10450cefb3dd631a19d10699ece6ff8f4",
+      "target_after": "「저는 운명의 여신의 힘으로 ≪인과의 때≫에 묶인 12명의 ≪목숨을 잃지 않은 세계≫를 본류에 한데 묶고 있습니다」",
+      "target_after_sha256": "5aa65a0d460d0ea5a8a7d38470e6c4b4af00b2fcbee41408615481f63260008e",
+      "expected_nfkc_arabic_numbers": {
+        "12": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "12": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": []
+    },
+    {
+      "script": "011_02",
+      "sequence": 121,
+      "stable_id": "scenario.rpa::scenario/011_02.rpy::tid::sentei11_d17fdf3b",
+      "source_jp": "「≪因果の刻≫で結ばれているからこそ、ワタクシは12もの世界を紡ぎ直すことができたのですから」",
+      "source_sha256": "e9e182bd7983456defe4cab4652d40485f3ce87087207fcf4ac2751b992dec91",
+      "target_before": "「≪인과의 때≫로 이어져 있었기에 제가 열두 개나 되는 세계를 다시 엮을 수 있었던 것이니까요」",
+      "target_before_sha256": "ff2161ebd39777fddc1174bac07579b60e264628e2345baa390d63b83f20077c",
+      "target_after": "「≪인과의 때≫로 이어져 있었기에 제가 12개나 되는 세계를 다시 엮을 수 있었던 것이니까요」",
+      "target_after_sha256": "0eaff52c36d1b47799dc2bb2da4d91d08f69592d54526bcb6a47dcacb5a757da",
+      "expected_nfkc_arabic_numbers": {
+        "12": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "12": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": []
+    },
+    {
+      "script": "011_02",
+      "sequence": 131,
+      "stable_id": "scenario.rpa::scenario/011_02.rpy::tid::sentei11_4d222207",
+      "source_jp": "希望は、私のカードブックに眠る１枚のカードに託されることとなった。",
+      "source_sha256": "fbd66b1159e85863da225d0f580bd6b68903a33ccd2ca849b0f0ca29cfdf39fd",
+      "target_before": "희망은 내 카드북에 잠든 카드 한 장에 맡겨졌다.",
+      "target_before_sha256": "801b545c5981164b8e7a956be6bc42f8bfacb494ef1bfbb91f9ec391aead7b7a",
+      "target_after": "희망은 내 카드북에 잠든 카드 1장에 맡겨졌다.",
+      "target_after_sha256": "bc2e59cb460016b5a7b23f45023b8a5972998ddb071bb86950a74c383dd943b5",
+      "expected_nfkc_arabic_numbers": {
+        "1": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "1": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": []
+    },
+    {
+      "script": "BAD_END_01",
+      "sequence": 25,
+      "stable_id": "scenario.rpa::scenario/BAD_END_01.rpy::tid::fBAD_01_d132aa03",
+      "source_jp": "「何か久し振りだよねぇ。こうやって、２人でさ」",
+      "source_sha256": "a653bf782f8bc8fb1410ef7c66af31a6f00eb1496cd9b215e447785be32d992f",
+      "target_before": "「뭔가 오랜만이네. 이렇게 둘이서 말이야」",
+      "target_before_sha256": "f5f40022c0c503a63549265b10b047563505e62799840db21928bdad255b7a02",
+      "target_after": "「뭔가 오랜만이네. 이렇게 2명이서 말이야」",
+      "target_after_sha256": "a3c328a4ddf78d3e2ab1b1af6796bc27a8a4f3b443fd27540d4a004cfce5f6d3",
+      "expected_nfkc_arabic_numbers": {
+        "2": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "2": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": []
+    },
+    {
+      "script": "BAD_END_01",
+      "sequence": 42,
+      "stable_id": "scenario.rpa::scenario/BAD_END_01.rpy::tid::fBAD_01_6a058e20",
+      "source_jp": "ぼくを含めたこの３人が、仲良くいること。",
+      "source_sha256": "5a6d4a57fdf713d22b14d1f2a020687f0fd03826c394d4e04cc1161aeb1ce3eb",
+      "target_before": "나를 포함한 이 셋이 사이좋게 지내는 것.",
+      "target_before_sha256": "7bd8935a75c04924acb23dc8ab6dc03d5f57b0f3c27201d1b7d7ecd51b944027",
+      "target_after": "나를 포함한 이 3명이 사이좋게 지내는 것.",
+      "target_after_sha256": "ae03b08d2780ef4634bd6b8ac012fffeacd2e5ace33d5c49db90537557492773",
+      "expected_nfkc_arabic_numbers": {
+        "3": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "3": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": []
+    },
+    {
+      "script": "BAD_END_02",
+      "sequence": 1,
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_ba8b287a",
+      "source_jp": "２ヵ月前の話。",
+      "source_sha256": "fc65d607e75012faaa98c00c5dc77126a67304c58c983fcb15f88fd788295b46",
+      "target_before": "두 달 전의 이야기.",
+      "target_before_sha256": "ef62e6a737e303604a125bb42424e12e522b0b38d8befc8366bfce3274dea316",
+      "target_after": "2개월 전의 이야기.",
+      "target_after_sha256": "cd5aa100bf74b635c01ae7cf39bfb8e60ce177c623bf51db8da6fbc2f1ca0126",
+      "expected_nfkc_arabic_numbers": {
+        "2": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "2": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": []
+    },
+    {
+      "script": "BAD_END_04",
+      "sequence": 25,
+      "stable_id": "scenario.rpa::scenario/BAD_END_04.rpy::tid::fBAD_04_444cd946",
+      "source_jp": "こうして私は、17歳になりました。",
+      "source_sha256": "17e0da9d3f3828f9c26ebe2ba1eac7bc7c5ca79ac493d91565ae14d92edd8472",
+      "target_before": "그렇게 저는 열일곱 살이 되었습니다.",
+      "target_before_sha256": "43924f7b12dab6fadc624114a2e06f19716ce9de2f96fe88435f162818d8a481",
+      "target_after": "그렇게 저는 17살이 되었습니다.",
+      "target_after_sha256": "8ec64c4bfb69b670dbc5012a611a55a07c4ba1d107d029133174970aeb528638",
+      "expected_nfkc_arabic_numbers": {
+        "17": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "17": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": []
+    },
+    {
+      "script": "MIHARU_END",
+      "sequence": 14,
+      "stable_id": "scenario.rpa::scenario/MIHARU_END.rpy::tid::fMIHARU_c9522701",
+      "source_jp": "私たち12人が≪いるはずだった≫場所。",
+      "source_sha256": "d399bdfea31685398c987b3d636e3ef5a15f95db68c49e271b9c831d3d4a4e02",
+      "target_before": "우리 열두 명이 ≪있었어야 했던≫ 곳.",
+      "target_before_sha256": "4c998578ae5503b0830c00544712adfce29afab586f3d6866f9df34cdbce37ec",
+      "target_after": "우리 12명이 ≪있었어야 했던≫ 곳.",
+      "target_after_sha256": "640cb2c0cffd44bd4d9a9088a21a5ecffe1e29f3427436d1696164c4aa59ff8e",
+      "expected_nfkc_arabic_numbers": {
+        "12": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "12": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": []
+    },
+    {
+      "script": "TRUE_END",
+      "sequence": 18,
+      "stable_id": "scenario.rpa::scenario/TRUE_END.rpy::tid::fTRUE_ebf20dfa",
+      "source_jp": "しかも、３人からそれぞれプレゼントまでもらってしまった。",
+      "source_sha256": "ebd7e6e83233d285d3d04abccf5a45534a4d2c282435f151d973ecf1deaef96d",
+      "target_before": "게다가 세 사람에게 각자 선물까지 받고 말았다.",
+      "target_before_sha256": "0fe4fc0260bd224118e7617761aa299db2a436df4f765fc19898c41567041024",
+      "target_after": "게다가 3명에게서 각자 선물까지 받고 말았다.",
+      "target_after_sha256": "bfc3fcf4b38acc73461dd76ed9a44ea7c694d3419b505982e32719457833df8e",
+      "expected_nfkc_arabic_numbers": {
+        "3": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "3": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": []
+    },
+    {
+      "script": "UNHAPPY_END",
+      "sequence": 64,
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_c7022cf4",
+      "source_jp": "ぬいぐるみを連れた少女は、家族３人で歩いていた。",
+      "source_sha256": "55572b4146a47f221bd73fb064637aa236dda35238ec02a88145279b92eae894",
+      "target_before": "인형을 데리고 다니는 소녀는 부모님과 함께 걷고 있었다.",
+      "target_before_sha256": "9fca0a0a7acc0d7bc71d31b82d72341adb41350f8bbb8845a987455420597c16",
+      "target_after": "인형을 데리고 다니는 소녀를 포함해 가족 3명이 함께 걷고 있었다.",
+      "target_after_sha256": "00fa830c7d8a9f58629ee84d111de3c8d21c0f88d7d21365e323d5ee10c635ca",
+      "expected_nfkc_arabic_numbers": {
+        "3": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "3": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": []
+    }
+  ],
+  "actions_not_performed": [
+    "game execution",
+    "game compilation"
+  ]
+}

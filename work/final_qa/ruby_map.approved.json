@@ -1,0 +1,853 @@
+{
+  "schema_version": "fatal-twelve-ruby-map-v1",
+  "entry_count": 42,
+  "entries": [
+    {
+      "source_rb": "??",
+      "source_rt": "??",
+      "target_rb": "??",
+      "target_rt": "??",
+      "provenance": [
+        {
+          "script": "manual_approval",
+          "sequence": null,
+          "stable_id": null
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation/semantic reading mapped to Korean while preserving Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "??",
+      "source_rt": "???",
+      "target_rb": "???",
+      "target_rt": "???",
+      "provenance": [
+        {
+          "script": "manual_approval",
+          "sequence": null,
+          "stable_id": null
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation/semantic reading mapped to Korean while preserving Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "??",
+      "source_rt": "????",
+      "target_rb": "????",
+      "target_rt": "????",
+      "provenance": [
+        {
+          "script": "manual_approval",
+          "sequence": null,
+          "stable_id": null
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation/semantic reading mapped to Korean while preserving Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "???",
+      "source_rt": "????",
+      "target_rb": "????",
+      "target_rt": "????",
+      "provenance": [
+        {
+          "script": "manual_approval",
+          "sequence": null,
+          "stable_id": null
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation/semantic reading mapped to Korean while preserving Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "≪運命の大広間≫",
+      "source_rt": "ばしょ",
+      "target_rb": "≪운명의 대회랑≫",
+      "target_rt": "장소",
+      "provenance": [
+        {
+          "script": "scenario_012_01F",
+          "sequence": 898,
+          "stable_id": "scenario.rpa::scenario/012_01F.rpy::tid::sentei12_b6d03fbe"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation/semantic reading mapped to Korean while preserving Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "下層",
+      "source_rt": "した",
+      "target_rb": "아래층",
+      "target_rt": "아래",
+      "provenance": [
+        {
+          "script": "scenario_008",
+          "sequence": 1379,
+          "stable_id": "scenario.rpa::scenario/008.rpy::tid::sentei8_1e3118d7"
+        },
+        {
+          "script": "scenario_010",
+          "sequence": 1313,
+          "stable_id": "scenario.rpa::scenario/010.rpy::tid::sentei10_5b144877"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation/semantic reading mapped to Korean while preserving Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "人間",
+      "source_rt": "とも",
+      "target_rb": "사람",
+      "target_rt": "벗",
+      "provenance": [
+        {
+          "script": "scenario_010",
+          "sequence": 802,
+          "stable_id": "scenario.rpa::scenario/010.rpy::tid::f010_2184103d"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation/semantic reading mapped to Korean while preserving Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "何",
+      "source_rt": "・",
+      "target_rb": "무엇",
+      "target_rt": "・",
+      "provenance": [
+        {
+          "script": "scenario_011_02GH",
+          "sequence": 199,
+          "stable_id": "scenario.rpa::scenario/011_02GH.rpy::tid::f011_02GH_cdb11643"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation/semantic reading mapped to Korean while preserving Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "刻",
+      "source_rt": "とき",
+      "target_rb": "순간",
+      "target_rt": "때",
+      "provenance": [
+        {
+          "script": "scenario_011_02",
+          "sequence": 42,
+          "stable_id": "scenario.rpa::scenario/011_02.rpy::tid::sentei11_2b1695ab"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation/semantic reading mapped to Korean while preserving Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "同質",
+      "source_rt": "おなじ",
+      "target_rb": "동질",
+      "target_rt": "같음",
+      "provenance": [
+        {
+          "script": "scenario_011_02GH",
+          "sequence": 290,
+          "stable_id": "scenario.rpa::scenario/011_02GH.rpy::tid::f011_02GH_5040dc3f"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation/semantic reading mapped to Korean while preserving Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "寂寥",
+      "source_rt": "せきりょう",
+      "target_rb": "적요",
+      "target_rt": "쓸쓸함",
+      "provenance": [
+        {
+          "script": "scenario_009",
+          "sequence": 970,
+          "stable_id": "scenario.rpa::scenario/009.rpy::tid::f009_s1_end_2_64696e6c"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation/semantic reading mapped to Korean while preserving Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "庇護欲",
+      "source_rt": "ひごよく",
+      "target_rb": "보호 본능",
+      "target_rt": "보호본능",
+      "provenance": [
+        {
+          "script": "scenario_008",
+          "sequence": 765,
+          "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_79b17a99"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation/semantic reading mapped to Korean while preserving Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "想い",
+      "source_rt": "ユメ",
+      "target_rb": "마음",
+      "target_rt": "꿈",
+      "provenance": [
+        {
+          "script": "scenario_012_01GH",
+          "sequence": 265,
+          "stable_id": "scenario.rpa::scenario/012_01GH.rpy::tid::f012_01GH_s1_end_bba9279d"
+        },
+        {
+          "script": "scenario_012_02",
+          "sequence": 78,
+          "stable_id": "scenario.rpa::scenario/012_02.rpy::tid::f012_02_46135696"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation/semantic reading mapped to Korean while preserving Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "想いの欠片",
+      "source_rt": "ユメ",
+      "target_rb": "마음의 조각",
+      "target_rt": "꿈",
+      "provenance": [
+        {
+          "script": "scenario_012_01F",
+          "sequence": 955,
+          "stable_id": "scenario.rpa::scenario/012_01F.rpy::tid::sentei12_e6727136"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation/semantic reading mapped to Korean while preserving Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "昌鎬",
+      "source_rt": "Chanho",
+      "target_rb": "창호",
+      "target_rt": "Chanho",
+      "provenance": [
+        {
+          "script": "scenario_002",
+          "sequence": 296,
+          "stable_id": "scenario.rpa::scenario/002.rpy::tid::f002_639ebc90"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation/semantic reading mapped to Korean while preserving Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "昌鎬",
+      "source_rt": "チャンホ",
+      "target_rb": "창호",
+      "target_rt": "찬호",
+      "provenance": [
+        {
+          "script": "scenario_003",
+          "sequence": 64,
+          "stable_id": "scenario.rpa::scenario/003.rpy::tid::f003_277b8849"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation/semantic reading mapped to Korean while preserving Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "春樹",
+      "source_rt": "はるき",
+      "target_rb": "하루키",
+      "target_rt": "하루키",
+      "provenance": [
+        {
+          "script": "scenario_003",
+          "sequence": 1179,
+          "stable_id": "scenario.rpa::scenario/003.rpy::tid::f003_s1_end_76611cc7"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation/semantic reading mapped to Korean while preserving Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "暇",
+      "source_rt": "いとま",
+      "target_rb": "틈",
+      "target_rt": "겨를",
+      "provenance": [
+        {
+          "script": "scenario_009",
+          "sequence": 1585,
+          "stable_id": "scenario.rpa::scenario/009.rpy::tid::sentei9_dfe11c46"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation/semantic reading mapped to Korean while preserving Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "未来",
+      "source_rt": "さき",
+      "target_rb": "미래",
+      "target_rt": "앞날",
+      "provenance": [
+        {
+          "script": "scenario_007_1",
+          "sequence": 791,
+          "stable_id": "scenario.rpa::scenario/007_1.rpy::tid::f007_1_629c0b06"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation/semantic reading mapped to Korean while preserving Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "桂子",
+      "source_rt": "けいこ",
+      "target_rb": "게이코",
+      "target_rt": "게이코",
+      "provenance": [
+        {
+          "script": "scenario_003",
+          "sequence": 643,
+          "stable_id": "scenario.rpa::scenario/003.rpy::tid::f003_s1_end_ee908451"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation/semantic reading mapped to Korean while preserving Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "概念",
+      "source_rt": "ゆめ",
+      "target_rb": "개념",
+      "target_rt": "꿈",
+      "provenance": [
+        {
+          "script": "scenario_011_02GH",
+          "sequence": 212,
+          "stable_id": "scenario.rpa::scenario/011_02GH.rpy::tid::f011_02GH_895a876f"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation/semantic reading mapped to Korean while preserving Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "牛塚",
+      "source_rt": "うしづか",
+      "target_rb": "우시즈카",
+      "target_rt": "우시즈카",
+      "provenance": [
+        {
+          "script": "scenario_005_1",
+          "sequence": 234,
+          "stable_id": "scenario.rpa::scenario/005_1.rpy::tid::f005_1_58972a45"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation/semantic reading mapped to Korean while preserving Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "現在",
+      "source_rt": "いま",
+      "target_rb": "현재",
+      "target_rt": "지금",
+      "provenance": [
+        {
+          "script": "scenario_012_01F",
+          "sequence": 202,
+          "stable_id": "scenario.rpa::scenario/012_01F.rpy::tid::f012_01F_35b6cc84"
+        },
+        {
+          "script": "scenario_012_01F",
+          "sequence": 202,
+          "stable_id": "scenario.rpa::scenario/012_01F.rpy::tid::f012_01F_35b6cc84"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation/semantic reading mapped to Korean while preserving Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "瓶淵",
+      "source_rt": "かめぶち",
+      "target_rb": "카메부치",
+      "target_rt": "카메부치",
+      "provenance": [
+        {
+          "script": "scenario_003",
+          "sequence": 643,
+          "stable_id": "scenario.rpa::scenario/003.rpy::tid::f003_s1_end_ee908451"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation/semantic reading mapped to Korean while preserving Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "甜面醤",
+      "source_rt": "テンメンジャン",
+      "target_rb": "첨면장",
+      "target_rt": "텐멘장",
+      "provenance": [
+        {
+          "script": "scenario_002",
+          "sequence": 400,
+          "stable_id": "scenario.rpa::scenario/002.rpy::tid::f002_8b0a53c2"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation/semantic reading mapped to Korean while preserving Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "目撃す",
+      "source_rt": "み",
+      "target_rb": "목격하",
+      "target_rt": "보",
+      "provenance": [
+        {
+          "script": "scenario_011_02GH",
+          "sequence": 315,
+          "stable_id": "scenario.rpa::scenario/011_02GH.rpy::tid::f011_02GH_70b5c51b"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation/semantic reading mapped to Korean while preserving Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "真実",
+      "source_rt": "ほんとう",
+      "target_rb": "진실",
+      "target_rt": "진짜",
+      "provenance": [
+        {
+          "script": "scenario_012_02",
+          "sequence": 138,
+          "stable_id": "scenario.rpa::scenario/012_02.rpy::tid::f012_02_3c9a0bdc"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation/semantic reading mapped to Korean while preserving Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "瞬間",
+      "source_rt": "とき",
+      "target_rb": "순간",
+      "target_rt": "때",
+      "provenance": [
+        {
+          "script": "scenario_011_02GH",
+          "sequence": 151,
+          "stable_id": "scenario.rpa::scenario/011_02GH.rpy::tid::f011_02GH_cee4352b"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation/semantic reading mapped to Korean while preserving Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "祖母",
+      "source_rt": "ばあさん",
+      "target_rb": "할머니",
+      "target_rt": "할멈",
+      "provenance": [
+        {
+          "script": "scenario_009",
+          "sequence": 1424,
+          "stable_id": "scenario.rpa::scenario/009.rpy::tid::sentei9_61f51ff8"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation/semantic reading mapped to Korean while preserving Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "精神",
+      "source_rt": "こころ",
+      "target_rb": "정신",
+      "target_rt": "마음",
+      "provenance": [
+        {
+          "script": "scenario_011_02GH",
+          "sequence": 290,
+          "stable_id": "scenario.rpa::scenario/011_02GH.rpy::tid::f011_02GH_5040dc3f"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation/semantic reading mapped to Korean while preserving Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "結局何",
+      "source_rt": "・",
+      "target_rb": "뭐",
+      "target_rt": "·",
+      "provenance": [
+        {
+          "script": "scenario_012_01F",
+          "sequence": 89,
+          "stable_id": "scenario.rpa::scenario/012_01F.rpy::tid::f012_01F_2b954ce7"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation/semantic reading mapped to Korean while preserving Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "美味",
+      "source_rt": "うま",
+      "target_rb": "맛있어",
+      "target_rt": "먹음직스러워",
+      "provenance": [
+        {
+          "script": "scenario_007_1",
+          "sequence": 365,
+          "stable_id": "scenario.rpa::scenario/007_1.rpy::tid::f007_1_02b55f51"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation/semantic reading mapped to Korean while preserving Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "肉体",
+      "source_rt": "からだ",
+      "target_rb": "육체",
+      "target_rt": "몸",
+      "provenance": [
+        {
+          "script": "scenario_011_02GH",
+          "sequence": 290,
+          "stable_id": "scenario.rpa::scenario/011_02GH.rpy::tid::f011_02GH_5040dc3f"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation/semantic reading mapped to Korean while preserving Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "自分",
+      "source_rt": "てめー",
+      "target_rb": "자기",
+      "target_rt": "네놈",
+      "provenance": [
+        {
+          "script": "scenario_007_1",
+          "sequence": 329,
+          "stable_id": "scenario.rpa::scenario/007_1.rpy::tid::f007_1_164b1280"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation/semantic reading mapped to Korean while preserving Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "茂継",
+      "source_rt": "しげつぐ",
+      "target_rb": "시게쓰구",
+      "target_rt": "시게쓰구",
+      "provenance": [
+        {
+          "script": "scenario_005_1",
+          "sequence": 433,
+          "stable_id": "scenario.rpa::scenario/005_1.rpy::tid::f005_1_s1_end_af9b112a"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Frozen Japanese-source Korean name spelling: ???? = ????; preserves the exact Ren'Py ruby pair."
+    },
+    {
+      "source_rb": "蔓延",
+      "source_rt": "はびこ",
+      "target_rb": "만연한",
+      "target_rt": "널리 퍼진",
+      "provenance": [
+        {
+          "script": "scenario_007_2",
+          "sequence": 177,
+          "stable_id": "scenario.rpa::scenario/007_2.rpy::tid::f007_2_2da9fa4d"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation/semantic reading mapped to Korean while preserving Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "蛇鉈",
+      "source_rt": "へびなた",
+      "target_rb": "헤비나타",
+      "target_rt": "헤비나타",
+      "provenance": [
+        {
+          "script": "scenario_005_1",
+          "sequence": 23,
+          "stable_id": "scenario.rpa::scenario/005_1.rpy::tid::f005_1_00e78c3f"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation/semantic reading mapped to Korean while preserving Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "豆板醤",
+      "source_rt": "トウバンジャン",
+      "target_rb": "두반장",
+      "target_rt": "토우반장",
+      "provenance": [
+        {
+          "script": "scenario_002",
+          "sequence": 400,
+          "stable_id": "scenario.rpa::scenario/002.rpy::tid::f002_8b0a53c2"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation/semantic reading mapped to Korean while preserving Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "賢",
+      "source_rt": "さか",
+      "target_rb": "영리",
+      "target_rt": "영악",
+      "provenance": [
+        {
+          "script": "scenario_007_2",
+          "sequence": 279,
+          "stable_id": "scenario.rpa::scenario/007_2.rpy::tid::f007_2_b8318127"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation/semantic reading mapped to Korean while preserving Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "運命に",
+      "source_rt": "きみと",
+      "target_rb": "운명과",
+      "target_rt": "너와",
+      "provenance": [
+        {
+          "script": "scenario_007_2",
+          "sequence": 735,
+          "stable_id": "scenario.rpa::scenario/007_2.rpy::tid::f007_2_d1942892"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation/semantic reading mapped to Korean while preserving Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "魯",
+      "source_rt": "Ro",
+      "target_rb": "루",
+      "target_rt": "Ro",
+      "provenance": [
+        {
+          "script": "scenario_002",
+          "sequence": 296,
+          "stable_id": "scenario.rpa::scenario/002.rpy::tid::f002_639ebc90"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation/semantic reading mapped to Korean while preserving Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "魯",
+      "source_rt": "ロ",
+      "target_rb": "루",
+      "target_rt": "로",
+      "provenance": [
+        {
+          "script": "scenario_003",
+          "sequence": 64,
+          "stable_id": "scenario.rpa::scenario/003.rpy::tid::f003_277b8849"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation/semantic reading mapped to Korean while preserving Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "獅子舞",
+      "source_rt": "ししまい",
+      "target_rb": "시시마이",
+      "target_rt": "시시마이",
+      "provenance": [
+        {
+          "script": "scenario_001",
+          "sequence": 9,
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_8024772c"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation mapped to the frozen Korean proper-name spelling while preserving the exact Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "凛火",
+      "source_rt": "りんか",
+      "target_rb": "린카",
+      "target_rt": "린카",
+      "provenance": [
+        {
+          "script": "scenario_001",
+          "sequence": 9,
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_8024772c"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation mapped to the frozen Korean proper-name spelling while preserving the exact Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "飴茶",
+      "source_rt": "あめちゃ",
+      "target_rb": "아메차",
+      "target_rt": "아메차",
+      "provenance": [
+        {
+          "script": "scenario_001",
+          "sequence": 10,
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_bc643489"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation mapped to the frozen Korean proper-name spelling while preserving the exact Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "直未",
+      "source_rt": "なおみ",
+      "target_rb": "나오미",
+      "target_rt": "나오미",
+      "provenance": [
+        {
+          "script": "scenario_001",
+          "sequence": 23,
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_619b8ef6"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation mapped to the frozen Korean proper-name spelling while preserving the exact Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "日辻",
+      "source_rt": "ひつじ",
+      "target_rb": "히츠지",
+      "target_rt": "히츠지",
+      "provenance": [
+        {
+          "script": "scenario_001",
+          "sequence": 27,
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_94682d80"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation mapped to the frozen Korean proper-name spelling while preserving the exact Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "海晴",
+      "source_rt": "みはる",
+      "target_rb": "미하루",
+      "target_rt": "미하루",
+      "provenance": [
+        {
+          "script": "scenario_001",
+          "sequence": 103,
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_10e1937e"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation mapped to the frozen Korean proper-name spelling while preserving the exact Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "真央",
+      "source_rt": "まお",
+      "target_rb": "마오",
+      "target_rt": "마오",
+      "provenance": [
+        {
+          "script": "scenario_001",
+          "sequence": 103,
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_10e1937e"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation mapped to the frozen Korean proper-name spelling while preserving the exact Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "王塚",
+      "source_rt": "おうつか",
+      "target_rb": "오우츠카",
+      "target_rt": "오우츠카",
+      "provenance": [
+        {
+          "script": "scenario_001",
+          "sequence": 109,
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_c1b0c312"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation mapped to the frozen Korean proper-name spelling while preserving the exact Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "小熊",
+      "source_rt": "おぐま",
+      "target_rb": "오구마",
+      "target_rt": "오구마",
+      "provenance": [
+        {
+          "script": "scenario_001",
+          "sequence": 177,
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_57d238c9"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation mapped to the frozen Korean proper-name spelling while preserving the exact Ren'Py ruby structure."
+    },
+    {
+      "source_rb": "未島",
+      "source_rt": "みしま",
+      "target_rb": "미시마",
+      "target_rt": "미시마",
+      "provenance": [
+        {
+          "script": "scenario_001",
+          "sequence": 221,
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_ac7093e8"
+        }
+      ],
+      "status": "approved",
+      "reviewer": "ROOT",
+      "reason": "Japanese ruby pronunciation mapped to the frozen Korean proper-name spelling while preserving the exact Ren'Py ruby structure."
+    }
+  ]
+}

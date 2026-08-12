@@ -1,0 +1,25 @@
+076	L0355	narration	narrator	だが、今もっとも知りたいのはそのことではなかった。
+077	L0357	narration	narrator	私にとっての運命の決着――その結果が知りたかった。
+078	L0362	dialogue	rinka	「それでさ……飴茶でのテロはどうなったの？」
+079	L0364	narration	narrator	ごくり、と唾を飲んだ。
+080	L0366	narration	narrator	嫌な予感はしていたけれど、自分を疑うことはしていない。
+081	L0368	narration	narrator	そうでなければ、私はきっと――。
+082	L0373	dialogue	miharu	「文化祭の日に起きた≪私立飴茶女子大学附属高校爆破テロ≫はなかったことになっている」
+083	L0378	dialogue	miharu	「けれど、文化祭の倉庫として使っていた空き教室から出火し、その教室が焼け焦げた、という事件は存在している」
+084	L0383	dialogue	rinka	「嘘っ！　それって……、だって！」
+085	L0385	narration	narrator	私は、息が止まりそうになっていた。
+086	L0387	narration	narrator	心臓が急激に冷やされていくような錯覚。
+087	L0392	dialogue	miharu	「ただし死者は――ゼロだ」
+088	L0397	dialogue	rinka	「えっ……あっ……じゃあ、それって……」
+089	L0399	narration	narrator	海晴の言葉を聞き、私の心臓は再び熱を取り戻した。
+090	L0401	narration	narrator	急激な温度変化で、変になってしまいそうだ。
+091	L0403	narration	narrator	死者がいないということはつまり、直未は、死んでいない。
+092	L0405	narration	narrator	直未は、生きている――！
+093	L0407	narration	narrator	けれど海晴の声は、とても静かだった。
+094	L0409	narration	narrator	その理由は、すぐに分かった。
+095	L0414	dialogue	miharu	「ただし、火傷をしている可能性も、後遺症が残っている可能性も捨てきれない。火事そのものは、起こっているからね。ニュースだけでは、そこまで分からなかった」
+096	L0419	dialogue	miharu	「それに情けないことだけれど、ぼくも少し怖い。もし生きてはいても日辻さんの身に何かが……そう思うと、真央や本人に連絡する勇気が湧かなかった」
+097	L0424	dialogue	miharu	「君の掴んだ現実がどうなっているか分からないから、どう聞いていいかも分からないしね」
+098	L0429	dialogue	rinka	「なんだ、そんなことか。心配する必要はないよ。だって、生きていれば不幸になんて――させないから」
+099	L0434	dialogue	miharu	「くすっ。やはり君は……強いね」
+100	L0438	dialogue	rinka	「そんなことないよ。色んな人の助けを借りなきゃ、大切なものを守れないくらい弱いよ」

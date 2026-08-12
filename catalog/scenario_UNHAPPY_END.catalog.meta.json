@@ -1,0 +1,104 @@
+{
+  "schema_version": "fatal-twelve-renpy-catalog-v1",
+  "generated_at_utc": "2026-08-10T10:02:34.697333+00:00",
+  "policy": {
+    "semantic_source_language": "ja",
+    "target_language": "ko",
+    "reference_language": "english",
+    "reference_usage": "translation identifiers and missingness only",
+    "reference_prose_parsed": false,
+    "reference_prose_stored": false,
+    "live_game_modified": false
+  },
+  "inputs": {
+    "source_rpy": {
+      "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\work\\extracted\\scenario\\scenario\\UNHAPPY_END.rpy",
+      "size": 12308,
+      "sha256": "b2a4cdee4dfd4b2c71d0445ecba0500e309d98208ff0b77659003e68d4a3a848",
+      "encoding": "utf-8",
+      "replacement_characters": 0,
+      "japanese_codepoints": 1898
+    },
+    "characters_rpy": {
+      "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\work\\extracted\\system\\characters.rpy",
+      "size": 5975,
+      "sha256": "8e1e99a2bcac76e743086a15211cf32d888a621b3c0de0278f598a8bf5e76f37",
+      "encoding": "utf-8",
+      "replacement_characters": 0,
+      "japanese_codepoints": 280,
+      "character_definitions": 73
+    },
+    "reference_rpy_index_only": {
+      "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\work\\extracted\\tl\\tl\\english\\scenario\\UNHAPPY_END.rpy",
+      "size": 12209,
+      "sha256": "97b96bc037299c5c7086f54a3d7e688c727cc073f78d07f1cf66e6441cfeb762",
+      "encoding": "utf-8",
+      "replacement_characters": 0,
+      "japanese_codepoints": 0
+    },
+    "source_rpyc": null,
+    "reference_rpyc": null,
+    "source_archive": null,
+    "reference_archive": null
+  },
+  "stable_id": {
+    "translation_blocks": "scenario.rpa::<script>::tid::<renpy_translation_id>",
+    "menu_strings": "scenario.rpa::<script>::menu::<menu ordinal>:<role>:<direct item ordinal>:<source sha256 prefix>",
+    "renpy_id_algorithm": "md5(concat(AST.get_code UTF-8 + CRLF))[:8], prefixed by label with dots replaced by underscores, duplicate suffix _N"
+  },
+  "reference_index": {
+    "translation_ids": 87,
+    "old_string_keys": 0,
+    "duplicate_translation_ids": [],
+    "duplicate_old_strings_sha256": []
+  },
+  "statistics": {
+    "records": 87,
+    "lanes": {
+      "dialogue": 38,
+      "narration": 49
+    },
+    "voiced_records": 38,
+    "translation_id_records": 87,
+    "menu_key_records": 0,
+    "reference_present": 87,
+    "reference_missing": 0,
+    "speakers": {
+      "<narrator>": 49,
+      "alan_unk5": 5,
+      "chan_unk1": 4,
+      "chanho_unk1": 1,
+      "federico_unk3": 5,
+      "keiko_unk3": 3,
+      "lete": 1,
+      "miharu": 3,
+      "odette_unk3": 4,
+      "rinka": 5,
+      "scale_unk2": 2,
+      "sonya_unk2": 2,
+      "ushizuka_unk2": 1,
+      "yuu_unk7": 2
+    },
+    "labels": {
+      "fUNHAPPY": 87
+    },
+    "protected_token_kinds": {
+      "number": 2
+    },
+    "japanese_codepoints_in_source_text": 1898,
+    "untranslated": 87
+  },
+  "diagnostics": {
+    "non_display_quoted_commands": [],
+    "orphan_voice_calls": [],
+    "reference_orphan_translation_ids": [],
+    "source_translation_ids_missing_reference": [],
+    "reference_orphan_old_key_hashes": [],
+    "source_old_keys_missing_reference_stable_ids": []
+  },
+  "catalog": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\catalog_design\\scenario_UNHAPPY_END.catalog.jsonl",
+    "size": 285204,
+    "sha256": "c1496aae936f489e55293c1934ab7931ee0e519753f7add5e3ce41a1a81b6b44"
+  }
+}

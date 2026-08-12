@@ -1,0 +1,795 @@
+{
+  "schema_version": "fatal-twelve-numeric-token-fix-report-v1",
+  "generated_at_utc": "2026-08-11T05:53:33.756169+00:00",
+  "source_failure_inventory": {
+    "path": "work/final_qa/reviews/numeric_token_failures.preapply.json",
+    "sha256": "35e01943856f3dbba06a5a0159b3f50b78d23e79103d14cf9cd809dec2c3d07b",
+    "records": 22
+  },
+  "summary": {
+    "records": 22,
+    "correction_files_changed": 2,
+    "protected_token_findings_before": 22,
+    "protected_token_findings_after": 0,
+    "exact_master_old_guards_pass": true,
+    "exact_current_target_guards_pass": true,
+    "semantic_unit_numeric_surface_only": true,
+    "source_masters_modified": false,
+    "policy_artifacts_modified": false,
+    "verdict": "PASS"
+  },
+  "manifest": {
+    "path": "work/final_qa/reviews/global_correction_manifest.json",
+    "sha256_before": "41d02c227280a77635dd294128fb83caa0a136411dfc06775ae5f9e75ad33603",
+    "sha256_after": "698681d414185f012943701776b4e1e8f99e8f39e10a21f8fd6b50c127493603"
+  },
+  "manifest_validation": {
+    "path": "work/final_qa/reviews/global_correction_manifest.validation.json",
+    "sha256_before": "b6d3fd2374facb1a4ef4d28396b9a178505893b11a06473b0222b77993a4eaf0",
+    "sha256_after": "cf6149f7ba252a74b4e7bfaeda5486cdfe197f1d156e0cbfbbec0d1448353cb9",
+    "verdict": "PASS"
+  },
+  "changed_correction_files": [
+    {
+      "path": "work/final_qa/reviews/ROOT.009.consolidated.corrections.jsonl",
+      "sha256_before": "b5d284c41aced8509dd2ce78caaafa7c6f8697abc3183be68c02cf7883de4fb4",
+      "records": 219,
+      "sha256_after": "9ff4e3b2e94cdcb7a5dda01ab6d464bc1435ec69f24b128611d3392da6112dec"
+    },
+    {
+      "path": "work/final_qa/reviews/ROOT.011_02_and_GH.consolidated.corrections.jsonl",
+      "sha256_before": "8e58413efd577236d4cdb41f9587863afcb8301275019004fb335d263fa631a5",
+      "records": 54,
+      "sha256_after": "16d5ebea6db3a473ba6c0a5f768a9053b2dfec47dd28d0f1bd0746f05d8d17b6"
+    }
+  ],
+  "source_master_immutability": {
+    "sha256_before": {
+      "work/final_qa/output/masters/scenario_009.master.json": "de7771674e6e4a77df70194b7aff9ee7662da7993ec0ec0db476911020816911",
+      "work/final_qa/output/masters/scenario_011_02.master.json": "6fe2cf3d00249edaae358d58018dd10a9e72bbadd25b8bb3a6c69a4a1bcd0538"
+    },
+    "sha256_after": {
+      "work/final_qa/output/masters/scenario_009.master.json": "de7771674e6e4a77df70194b7aff9ee7662da7993ec0ec0db476911020816911",
+      "work/final_qa/output/masters/scenario_011_02.master.json": "6fe2cf3d00249edaae358d58018dd10a9e72bbadd25b8bb3a6c69a4a1bcd0538"
+    },
+    "pass": true
+  },
+  "policy_artifact_immutability": {
+    "sha256_before": {
+      "ruby_map": "e2f9c68d1768cce159c5c986f3c5e4328bbbeadb42a7dfc0a2d3b41a76a22d31",
+      "structural_overlay": "1b97f3984fa3f1d01eaaad3dd2b98aa196d6739fa1934b16e14235313bd629f5",
+      "approval_ledger": "5639258e18ea34826c9800ee3bc118ec1633de38b8824c4f77d7da4688d2be23"
+    },
+    "sha256_after": {
+      "ruby_map": "e2f9c68d1768cce159c5c986f3c5e4328bbbeadb42a7dfc0a2d3b41a76a22d31",
+      "structural_overlay": "1b97f3984fa3f1d01eaaad3dd2b98aa196d6739fa1934b16e14235313bd629f5",
+      "approval_ledger": "5639258e18ea34826c9800ee3bc118ec1633de38b8824c4f77d7da4688d2be23"
+    },
+    "pass": true
+  },
+  "entries": [
+    {
+      "file": "work/final_qa/reviews/ROOT.009.consolidated.corrections.jsonl",
+      "line": 44,
+      "script": "009",
+      "sequence": 648,
+      "stable_id": "scenario.rpa::scenario/009.rpy::tid::f009_s1_end_1_1149574d",
+      "source_jp": "結局２人きりだったわけで、返事を保留にしたとはいっても、とても気まずかった。",
+      "source_sha256": "be26bcf1fce991aa6271850c3b53d0b5a351cd76c956fb4d39abe6ba0fb1b754",
+      "master_old_ko_guard": "결국 2명만 함께 있었고 대답을 미뤘다고는 해도 몹시 어색했다.",
+      "master_old_ko_sha256": "c96fb051199caf6be5db359864d5725bd6d93ca5f4d839643365cb5204c20e9d",
+      "target_before": "결국 둘만 남았고, 대답을 보류했다고는 해도 몹시 어색했다.",
+      "target_before_sha256": "49847c1f153a15cff990215810cdfabf08f11046d9b66e43e171802f23054652",
+      "numeric_surface_before": "둘",
+      "numeric_surface_after": "2명",
+      "target_after": "결국 2명만 남았고, 대답을 보류했다고는 해도 몹시 어색했다.",
+      "target_after_sha256": "9c684a101900bfab135eb883d0f0a9498f9d986abc0b392d62735570644ee25d",
+      "expected_nfkc_arabic_numbers": {
+        "2": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "2": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": [],
+      "only_declared_numeric_surface_changed": true
+    },
+    {
+      "file": "work/final_qa/reviews/ROOT.009.consolidated.corrections.jsonl",
+      "line": 79,
+      "script": "009",
+      "sequence": 905,
+      "stable_id": "scenario.rpa::scenario/009.rpy::tid::f009_s1_end_2_c149b304",
+      "source_jp": "そして店員さんにこのジュースの料金を聞き、雰囲気相応に高いと思いながらも、1000円札と100円玉２枚を手渡した。",
+      "source_sha256": "03be83f1bffb7d21ef12791106038380f47ffa2899aa9e190900aca15cb444d9",
+      "master_old_ko_guard": "그리고 직원에게 이 주스 가격을 묻고 분위기에 걸맞게 비싸다고 생각하면서도 1000엔 지폐와 100엔짜리 동전 ２개를 건넸다.",
+      "master_old_ko_sha256": "f9196fd1982f080132f65fa19b94d4e42de55211829f999859a33bf1e2e9f6d8",
+      "target_before": "그리고 직원에게 이 주스의 가격을 물었다. 분위기에 걸맞게 비싸다고 생각하면서도, 1000엔짜리 지폐 한 장과 100엔짜리 동전 두 개를 건넸다.",
+      "target_before_sha256": "b9490db29ec533cd00e7c57a181af37559c3164493f1412f068b451925d58621",
+      "numeric_surface_before": "동전 두 개",
+      "numeric_surface_after": "동전 2개",
+      "target_after": "그리고 직원에게 이 주스의 가격을 물었다. 분위기에 걸맞게 비싸다고 생각하면서도, 1000엔짜리 지폐 한 장과 100엔짜리 동전 2개를 건넸다.",
+      "target_after_sha256": "6714bc8ef17986a32b11ce39d6dc0830d459a9222fdb31b581a9db020cbf655f",
+      "expected_nfkc_arabic_numbers": {
+        "1000": 1,
+        "100": 1,
+        "2": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "1000": 1,
+            "100": 1,
+            "2": 1
+          },
+          "actual": {
+            "1000": 1,
+            "100": 1
+          },
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": [],
+      "only_declared_numeric_surface_changed": true
+    },
+    {
+      "file": "work/final_qa/reviews/ROOT.009.consolidated.corrections.jsonl",
+      "line": 83,
+      "script": "009",
+      "sequence": 915,
+      "stable_id": "scenario.rpa::scenario/009.rpy::tid::f009_s1_end_2_ea240ca0",
+      "source_jp": "アラン・スコーピオンは１日前、スケール・ジョーンズから情報交換を求められていた。",
+      "source_sha256": "1d722541d9a0e82e2a6ed189cad10389d0b068f0b87285228948bc80475e5736",
+      "master_old_ko_guard": "아란 스코피온은 １일 전 스케일 존스에게 정보 교환을 요청받았다.",
+      "master_old_ko_sha256": "9a398649163ef5c1ce25eac9d67d3762c49b150cf3ee856333a0f67bbf3d61e4",
+      "target_before": "아란 스코피온은 하루 전, 스케일 존스에게 정보 교환을 제안받았다.",
+      "target_before_sha256": "d07a9e22b71ee364a6b7db4a087f849200f9921f926c244df4cd079f3e94e763",
+      "numeric_surface_before": "하루 전",
+      "numeric_surface_after": "1일 전",
+      "target_after": "아란 스코피온은 1일 전, 스케일 존스에게 정보 교환을 제안받았다.",
+      "target_after_sha256": "1bec98b890b12c6989538ab591173a9fa08897368773b53e9a8c1f7cbfc97092",
+      "expected_nfkc_arabic_numbers": {
+        "1": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "1": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": [],
+      "only_declared_numeric_surface_changed": true
+    },
+    {
+      "file": "work/final_qa/reviews/ROOT.009.consolidated.corrections.jsonl",
+      "line": 86,
+      "script": "009",
+      "sequence": 925,
+      "stable_id": "scenario.rpa::scenario/009.rpy::tid::f009_s1_end_2_acc64346",
+      "source_jp": "そしてもう１つ、スケールが彼に提案してきたことがあった。",
+      "source_sha256": "c0341e704ff6684603210163ad65f31f2bbcce4599cee1469ad4a32fe03c41b9",
+      "master_old_ko_guard": "그리고 또 １가지, 스케일이 그에게 제안한 것이 있었다.",
+      "master_old_ko_sha256": "d5ce1ae3c11d16d4850506bdecf2ab72b712438e347d141e388dc22f5b1b8a27",
+      "target_before": "그리고 스케일이 그에게 한 가지 더 제안한 것이 있었다.",
+      "target_before_sha256": "36b9dd4b64f08b78cc4aa756a96adb8bd259178473146683f670f288934eb386",
+      "numeric_surface_before": "한 가지",
+      "numeric_surface_after": "1가지",
+      "target_after": "그리고 스케일이 그에게 1가지 더 제안한 것이 있었다.",
+      "target_after_sha256": "2bbe43f3beef68193b373d507f310a5c601ee9735cf192c3286a2dd2d8d8a8fd",
+      "expected_nfkc_arabic_numbers": {
+        "1": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "1": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": [],
+      "only_declared_numeric_surface_changed": true
+    },
+    {
+      "file": "work/final_qa/reviews/ROOT.009.consolidated.corrections.jsonl",
+      "line": 87,
+      "script": "009",
+      "sequence": 928,
+      "stable_id": "scenario.rpa::scenario/009.rpy::tid::f009_s1_end_2_32a048d7",
+      "source_jp": "１周するように順番に指名し合い、順番に防御し合うことで、誰も誰にも指名できなくなるという方法だ。",
+      "source_sha256": "7aa7a8d63e97747485a1ff140c0369847afb72b054a4432b2ce6ffdd61a74fba",
+      "master_old_ko_guard": "１바퀴를 돌듯 차례대로 서로를 지명하고 차례대로 방어함으로써 아무도 누구도 지명할 수 없게 되는 방법이다.",
+      "master_old_ko_sha256": "1056d97d4063ee49894f7e99025ce6c7f7038e03fedc6f51000c681a1d74ac31",
+      "target_before": "한 바퀴를 돌듯 차례대로 서로를 지명하고 방어해, 누구도 다른 사람을 지명할 수 없게 만드는 방법이다.",
+      "target_before_sha256": "a02f10c20996116379d47d35cf63c6a48db5eae71cbc9538fe1fd82801d08778",
+      "numeric_surface_before": "한 바퀴",
+      "numeric_surface_after": "1바퀴",
+      "target_after": "1바퀴를 돌듯 차례대로 서로를 지명하고 방어해, 누구도 다른 사람을 지명할 수 없게 만드는 방법이다.",
+      "target_after_sha256": "e4ed41d4df469402c45de09c7af47dfc0dfdc763d9548b4ec4247eafd67a5ddc",
+      "expected_nfkc_arabic_numbers": {
+        "1": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "1": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": [],
+      "only_declared_numeric_surface_changed": true
+    },
+    {
+      "file": "work/final_qa/reviews/ROOT.009.consolidated.corrections.jsonl",
+      "line": 88,
+      "script": "009",
+      "sequence": 930,
+      "stable_id": "scenario.rpa::scenario/009.rpy::tid::f009_s1_end_2_640fc55b",
+      "source_jp": "９度目の選定が始まったとき、その情報で凛火を指名する――という方法だ。",
+      "source_sha256": "1544d9b49b9b6abc7818ffc3ae69a71da258fa705052e9b9b132a5e12aa7706a",
+      "master_old_ko_guard": "９번째 선정이 시작했을 때 그 정보로 린카를 지명한다――는 방법이다.",
+      "master_old_ko_sha256": "38e4aed8d4b427ce450b5302a75f324aef228e8b3d5f1326d72ab5fd75520c05",
+      "target_before": "아홉 번째 선정이 시작되면, 그 정보로 린카를 지명한다――는 방법이다.",
+      "target_before_sha256": "a97b24e65c395ffe5049dc25f3770efe678a8cd6d1af5aa44374500d7aa52153",
+      "numeric_surface_before": "아홉 번째",
+      "numeric_surface_after": "9번째",
+      "target_after": "9번째 선정이 시작되면, 그 정보로 린카를 지명한다――는 방법이다.",
+      "target_after_sha256": "ed159a9a02d81dc06c86ee7edeacaa2a998d6ee7a20f38afbdf94c7aaf822509",
+      "expected_nfkc_arabic_numbers": {
+        "9": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "9": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": [],
+      "only_declared_numeric_surface_changed": true
+    },
+    {
+      "file": "work/final_qa/reviews/ROOT.009.consolidated.corrections.jsonl",
+      "line": 90,
+      "script": "009",
+      "sequence": 935,
+      "stable_id": "scenario.rpa::scenario/009.rpy::tid::f009_s1_end_2_45064d02",
+      "source_jp": "アランは１枚のカードを取り出すと、短く呟いた。",
+      "source_sha256": "f44b8c0b569dba35062616d962dc97d3b8c37f26b165200aab209da427f2874b",
+      "master_old_ko_guard": "아란은 카드 １장을 꺼내고 짧게 중얼거렸다.",
+      "master_old_ko_sha256": "1aad4fe42082444a6e7817365ef3eee83907b7ada4e2d6c00898f0f2a900ac6b",
+      "target_before": "아란은 카드 한 장을 꺼내 짧게 중얼거렸다.",
+      "target_before_sha256": "da3d3eac2353af27443bd1430428e16bd06ee8b5e9c4a45d6c4fbd3d616ace00",
+      "numeric_surface_before": "카드 한 장",
+      "numeric_surface_after": "카드 1장",
+      "target_after": "아란은 카드 1장을 꺼내 짧게 중얼거렸다.",
+      "target_after_sha256": "bf465f221ee95c38ebfaaf2d835d677a4a06070d984242e41b8ec56dfdb5134c",
+      "expected_nfkc_arabic_numbers": {
+        "1": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "1": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": [],
+      "only_declared_numeric_surface_changed": true
+    },
+    {
+      "file": "work/final_qa/reviews/ROOT.009.consolidated.corrections.jsonl",
+      "line": 93,
+      "script": "009",
+      "sequence": 956,
+      "stable_id": "scenario.rpa::scenario/009.rpy::tid::f009_s1_end_2_5dabba4c",
+      "source_jp": "アランこそ３枚のカードをまだ揃えていないが、指名されたミハルが生き残ったということは、ミハルはスケールのカードを３枚揃えているということ。",
+      "source_sha256": "2989bb1acb2e270b5418dea6ac706a0ab4a1f13a2ca7630e684030b12cb8180e",
+      "master_old_ko_guard": "정작 아란은 카드 ３장을 아직 모으지 못했지만 지명당한 미하루가 살아남았다는 것은 미하루가 스케일의 카드 ３장을 모았다는 뜻.",
+      "master_old_ko_sha256": "f3ae9fe3c95e883a58a32b3545999b4190511ebdcef83bdc35940f17a4ab039d",
+      "target_before": "정작 아란은 아직 카드 세 장을 모으지 못했지만, 지명당한 미하루가 살아남았다는 건 미하루가 스케일의 카드 세 장을 모았다는 뜻이다.",
+      "target_before_sha256": "896e8e8168fce3298c1a1a5f2ccf6a8f9049f656a44126217ea28ee5dbbe2954",
+      "numeric_surface_before": "세 장",
+      "numeric_surface_after": "3장",
+      "target_after": "정작 아란은 아직 카드 3장을 모으지 못했지만, 지명당한 미하루가 살아남았다는 건 미하루가 스케일의 카드 3장을 모았다는 뜻이다.",
+      "target_after_sha256": "1b5d023456360a73ea3fffe4421025487e80acf7c8cd453b740205bd368f56fb",
+      "expected_nfkc_arabic_numbers": {
+        "3": 2
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "3": 2
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": [],
+      "only_declared_numeric_surface_changed": true
+    },
+    {
+      "file": "work/final_qa/reviews/ROOT.009.consolidated.corrections.jsonl",
+      "line": 94,
+      "script": "009",
+      "sequence": 957,
+      "stable_id": "scenario.rpa::scenario/009.rpy::tid::f009_s1_end_2_3b875abd",
+      "source_jp": "そしてリンカも、スケールのカードをすでに３枚揃えているはずだと、彼は確信している。",
+      "source_sha256": "e0e2515eb884bbd73d881873201e295867cd04928e34ae586f10fe4a19e6a1b4",
+      "master_old_ko_guard": "그리고 린카도 스케일의 카드 ３장을 이미 모았을 것이라고 그는 확신한다.",
+      "master_old_ko_sha256": "6be36685c271b67bc8f875462a02c3bc6677b235b304f0e0b8848ff38645a465",
+      "target_before": "그리고 린카도 이미 스케일의 카드 세 장을 모았을 것이라고 그는 확신하고 있었다.",
+      "target_before_sha256": "2794a29916f915499d19d1753cb0aa4f341a8187d07d2095beb3b811a228c410",
+      "numeric_surface_before": "세 장",
+      "numeric_surface_after": "3장",
+      "target_after": "그리고 린카도 이미 스케일의 카드 3장을 모았을 것이라고 그는 확신하고 있었다.",
+      "target_after_sha256": "f967193f685002e1b5f169865b58048fc3c13ce0ec01ef4b8100c50288edceb2",
+      "expected_nfkc_arabic_numbers": {
+        "3": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "3": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": [],
+      "only_declared_numeric_surface_changed": true
+    },
+    {
+      "file": "work/final_qa/reviews/ROOT.009.consolidated.corrections.jsonl",
+      "line": 95,
+      "script": "009",
+      "sequence": 963,
+      "stable_id": "scenario.rpa::scenario/009.rpy::tid::f009_s1_end_2_c1650caf",
+      "source_jp": "オデットとこの国を訪れてから、間もなく２ヵ月が経とうとしていた。",
+      "source_sha256": "4d93f1576fda435bd9ea190f6026c29e9cb80e9c469345456b283a3370fd9b62",
+      "master_old_ko_guard": "오데트와 이 나라를 찾은 뒤 곧 ２개월이 지나려 하고 있었다.",
+      "master_old_ko_sha256": "096d9ff0a423aacdf316847e97b438ae1dedbcb57ae70fc821897d8d8b4f7c48",
+      "target_before": "오데트와 이 나라를 찾은 지 이제 곧 두 달이 되어 간다.",
+      "target_before_sha256": "af0cf4067de7d98bf982a035176668c71be3cbd104ac2176940fc1d97c4bfaf7",
+      "numeric_surface_before": "두 달",
+      "numeric_surface_after": "2개월",
+      "target_after": "오데트와 이 나라를 찾은 지 이제 곧 2개월이 되어 간다.",
+      "target_after_sha256": "5a7bb1669b62d1982bbb09bc8637d0e7a411df6c9285da937df78a1ae7a8685b",
+      "expected_nfkc_arabic_numbers": {
+        "2": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "2": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": [],
+      "only_declared_numeric_surface_changed": true
+    },
+    {
+      "file": "work/final_qa/reviews/ROOT.009.consolidated.corrections.jsonl",
+      "line": 96,
+      "script": "009",
+      "sequence": 964,
+      "stable_id": "scenario.rpa::scenario/009.rpy::tid::f009_s1_end_2_037dea14",
+      "source_jp": "女神の選定も順当に行けばあと４回。",
+      "source_sha256": "845305ab2421294a704c75ebc3c1287a7134163363ae6074700811940dcc95e4",
+      "master_old_ko_guard": "여신의 선정도 순조롭게 진행되면 앞으로 ４번.",
+      "master_old_ko_sha256": "8f3fca49d4e7e2cd7e53148de00a1b748b05de5c162aaeacee04003c448af9dc",
+      "target_before": "여신의 선정도 순조롭게 진행된다면 이제 네 번 남았다.",
+      "target_before_sha256": "5a4183531d2b2b6c2254e193d196dfdbc6c7a1b83e94f78f168a4e83c9c4d7fd",
+      "numeric_surface_before": "네 번",
+      "numeric_surface_after": "4번",
+      "target_after": "여신의 선정도 순조롭게 진행된다면 이제 4번 남았다.",
+      "target_after_sha256": "f571b9f3bf70900e6ad2b57aa8b199ecefbb88c1cb924878bee2300dc05ecb23",
+      "expected_nfkc_arabic_numbers": {
+        "4": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "4": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": [],
+      "only_declared_numeric_surface_changed": true
+    },
+    {
+      "file": "work/final_qa/reviews/ROOT.009.consolidated.corrections.jsonl",
+      "line": 108,
+      "script": "009",
+      "sequence": 1015,
+      "stable_id": "scenario.rpa::scenario/009.rpy::tid::f009_s1_end_2_aa6ba20d",
+      "source_jp": "スケールの作戦では、９度目の選定でスケールがリンカを、フェデリーコがミハルを、アランがフェデリーコを指名するはずだった。",
+      "source_sha256": "e98fe4b6cd7d355a336b219b2882558cdc2bc2620b56c68d50b64a66c7b4a1ca",
+      "master_old_ko_guard": "스케일의 작전에서는 ９번째 선정에서 스케일이 린카를, 페데리코가 미하루를, 아란이 페데리코를 지명할 터였다.",
+      "master_old_ko_sha256": "ae38961958bb8bff6c4ad9dbcdf6dc6631f6095ed33da6da44f7f0915cafddc4",
+      "target_before": "스케일의 작전대로라면 아홉 번째 선정에서 스케일이 린카를, 페데리코가 미하루를, 아란이 페데리코를 지명할 터였다.",
+      "target_before_sha256": "a500853f2d28964ca869d4fcd3cd1a100ffcedaca626cf0224a70603d3ad6168",
+      "numeric_surface_before": "아홉 번째",
+      "numeric_surface_after": "9번째",
+      "target_after": "스케일의 작전대로라면 9번째 선정에서 스케일이 린카를, 페데리코가 미하루를, 아란이 페데리코를 지명할 터였다.",
+      "target_after_sha256": "fbc7f053ac131947f92733223ac4aec5530b86281cb077ffa759840bba1f14d4",
+      "expected_nfkc_arabic_numbers": {
+        "9": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "9": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": [],
+      "only_declared_numeric_surface_changed": true
+    },
+    {
+      "file": "work/final_qa/reviews/ROOT.009.consolidated.corrections.jsonl",
+      "line": 123,
+      "script": "009",
+      "sequence": 1092,
+      "stable_id": "scenario.rpa::scenario/009.rpy::tid::f009_s1_end_2_1370b6b2",
+      "source_jp": "２時間ほどだらだらして過ごしたあと、シャワーを浴びて、私は寝ることに決めた。",
+      "source_sha256": "f73de63df5e35a1e46023467ccc619f4f6b9cacbac191dcab98fb20b6a68be15",
+      "master_old_ko_guard": "２시간 정도 느긋하게 보낸 뒤 샤워하고 자기로 했다.",
+      "master_old_ko_sha256": "c6c31d8f494098b2b61088662cf66b0a88cd33f7e166335761f0a7424deca16f",
+      "target_before": "두 시간쯤 빈둥거리며 보낸 뒤, 샤워를 하고 자기로 했다.",
+      "target_before_sha256": "977eb37ceaec186aea2066a72d29fdb2293d10b9a3a6dd85f88fb857c946d9e0",
+      "numeric_surface_before": "두 시간",
+      "numeric_surface_after": "2시간",
+      "target_after": "2시간쯤 빈둥거리며 보낸 뒤, 샤워를 하고 자기로 했다.",
+      "target_after_sha256": "a428b846da9f18216120f805b70b84855349bfecdf3ccdbcdbf8ae15d800bea5",
+      "expected_nfkc_arabic_numbers": {
+        "2": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "2": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": [],
+      "only_declared_numeric_surface_changed": true
+    },
+    {
+      "file": "work/final_qa/reviews/ROOT.009.consolidated.corrections.jsonl",
+      "line": 131,
+      "script": "009",
+      "sequence": 1126,
+      "stable_id": "scenario.rpa::scenario/009.rpy::tid::f009_s1_end_2_b3d45669",
+      "source_jp": "『５分を過ぎたら君のお婆さんを殺すし、１回目でカードが作られなくても殺す』",
+      "source_sha256": "97c041a3e00c47aa4221453f9d17deb2835104055eec24fac9605ab51b57baf3",
+      "master_old_ko_guard": "『５분이 지나면 네 할머니를 죽이고 １번째 시도에서 카드가 만들어지지 않아도 죽인다』",
+      "master_old_ko_sha256": "e92665747a9cd4d6ef6993ee37feee2f3ffe9f433992a6e80da2df7d17d9c100",
+      "target_before": "『5분이 지나면 네 할머니를 죽인다. 첫 번째 시도에서 카드가 만들어지지 않아도 죽일 거야』",
+      "target_before_sha256": "373aefc5d56e8b97d25503dab7b42079a3440f803d0617d133d8ba6ff99f417a",
+      "numeric_surface_before": "첫 번째",
+      "numeric_surface_after": "1번째",
+      "target_after": "『5분이 지나면 네 할머니를 죽인다. 1번째 시도에서 카드가 만들어지지 않아도 죽일 거야』",
+      "target_after_sha256": "131b3cd1d36464f6e91e353e7ab0e1a70c2e39f29bed374bf30e7874ab7ed803",
+      "expected_nfkc_arabic_numbers": {
+        "5": 1,
+        "1": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "5": 1,
+            "1": 1
+          },
+          "actual": {
+            "5": 1
+          },
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": [],
+      "only_declared_numeric_surface_changed": true
+    },
+    {
+      "file": "work/final_qa/reviews/ROOT.009.consolidated.corrections.jsonl",
+      "line": 173,
+      "script": "009",
+      "sequence": 1326,
+      "stable_id": "scenario.rpa::scenario/009.rpy::tid::f009_root_E_95bdac2b",
+      "source_jp": "ここからおばあちゃんの家までは新幹線を使っても４時間以上かかるので、まさにとんぼ帰り。",
+      "source_sha256": "b9e8adb81bf5d2f437c40d9710352f6a6ff42d28d4158d7930d7c179606bb249",
+      "master_old_ko_guard": "여기서 할머니 댁까지는 신칸센을 타도 ４시간 넘게 걸리니 그야말로 곧장 되돌아가는 셈이다.",
+      "master_old_ko_sha256": "2189b3e1a922d127d88ce66adbe8b8fe3083c73230415fec883a0e91e2e5b915",
+      "target_before": "여기서 할머니 댁까지는 신칸센을 타도 네 시간 넘게 걸리니, 그야말로 도착하자마자 되돌아온 셈이다.",
+      "target_before_sha256": "63efddabd2f435d029b60893b87ae738d22526164831e940696b011923f43f62",
+      "numeric_surface_before": "네 시간",
+      "numeric_surface_after": "4시간",
+      "target_after": "여기서 할머니 댁까지는 신칸센을 타도 4시간 넘게 걸리니, 그야말로 도착하자마자 되돌아온 셈이다.",
+      "target_after_sha256": "2a3fdd90294b20d41e12f650d5980a38e50ae356a14714682d45dae5e1fd2390",
+      "expected_nfkc_arabic_numbers": {
+        "4": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "4": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": [],
+      "only_declared_numeric_surface_changed": true
+    },
+    {
+      "file": "work/final_qa/reviews/ROOT.009.consolidated.corrections.jsonl",
+      "line": 176,
+      "script": "009",
+      "sequence": 1348,
+      "stable_id": "scenario.rpa::scenario/009.rpy::tid::sentei9_d60be73f",
+      "source_jp": "残っているのは、たった５人。",
+      "source_sha256": "9f733b1a06497b0fbf0b4a527aef617223abc54653f1bf92327bc926b4a767ea",
+      "master_old_ko_guard": "남은 사람은 고작 ５명.",
+      "master_old_ko_sha256": "29e8ac874c0159194bfe57b601d499fff519951a95b2a030f3d365044b774fe9",
+      "target_before": "남은 참가자는 고작 다섯 명.",
+      "target_before_sha256": "3b31eddecf6e916c5afcd9082b9ef8ed6d707eb89fd8f97a612de18f00cad02e",
+      "numeric_surface_before": "다섯 명",
+      "numeric_surface_after": "5명",
+      "target_after": "남은 참가자는 고작 5명.",
+      "target_after_sha256": "9fdc69f8f38aff03af434425a8acb4eb99011e777eeef42bccfbbde9cc556247",
+      "expected_nfkc_arabic_numbers": {
+        "5": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "5": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": [],
+      "only_declared_numeric_surface_changed": true
+    },
+    {
+      "file": "work/final_qa/reviews/ROOT.009.consolidated.corrections.jsonl",
+      "line": 182,
+      "script": "009",
+      "sequence": 1370,
+      "stable_id": "scenario.rpa::scenario/009.rpy::tid::sentei9_be6fe051",
+      "source_jp": "停滞した日々が続いている中、９度目の選定が始まった。",
+      "source_sha256": "c27c30dc84186a8ab4409c5fb81c0ac13e9add4c94dc2502290f84d153c09051",
+      "master_old_ko_guard": "정체된 나날이 이어지는 가운데 ９번째 선정이 시작됐다.",
+      "master_old_ko_sha256": "4449e7371fce32d2dd082dbb1df4a4309dcb11eb465f30106278a971709f31d5",
+      "target_before": "정체된 나날이 이어지는 가운데 아홉 번째 선정이 시작됐다.",
+      "target_before_sha256": "7c042ae62d8d7f279bdb844b3b2cff5e853929ab06c7e349073031fe351aa326",
+      "numeric_surface_before": "아홉 번째",
+      "numeric_surface_after": "9번째",
+      "target_after": "정체된 나날이 이어지는 가운데 9번째 선정이 시작됐다.",
+      "target_after_sha256": "236b3c392e9fb3d8ea8391c87781bde56e54a2a6159e34b99fb2705fcfb1e919",
+      "expected_nfkc_arabic_numbers": {
+        "9": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "9": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": [],
+      "only_declared_numeric_surface_changed": true
+    },
+    {
+      "file": "work/final_qa/reviews/ROOT.009.consolidated.corrections.jsonl",
+      "line": 190,
+      "script": "009",
+      "sequence": 1454,
+      "stable_id": "scenario.rpa::scenario/009.rpy::tid::sentei9_7db88862",
+      "source_jp": "私が上層を訪れたのは、これで２度目だった。",
+      "source_sha256": "93c72d6b43f900071371a6e20d867f4536e7f3a03a5a2c66095cbad18fdaa2e5",
+      "master_old_ko_guard": "내가 상층을 찾은 건 이걸로 ２번째였다.",
+      "master_old_ko_sha256": "8d1927e7ec52db02e62136064de9cf4db0971795a7adf2059200e8ad861d1ab2",
+      "target_before": "내가 상층에 온 건 이번이 두 번째였다.",
+      "target_before_sha256": "0d6eed6f09ad8847e7f6b57fb51ce2fa1b812d841a2240a9ad93d376b11c2dae",
+      "numeric_surface_before": "두 번째",
+      "numeric_surface_after": "2번째",
+      "target_after": "내가 상층에 온 건 이번이 2번째였다.",
+      "target_after_sha256": "09644d7a871b4adf825a80d1a0fb03a329e786548ef4059cc501aa02dd789e65",
+      "expected_nfkc_arabic_numbers": {
+        "2": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "2": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": [],
+      "only_declared_numeric_surface_changed": true
+    },
+    {
+      "file": "work/final_qa/reviews/ROOT.009.consolidated.corrections.jsonl",
+      "line": 203,
+      "script": "009",
+      "sequence": 1508,
+      "stable_id": "scenario.rpa::scenario/009.rpy::tid::sentei9_e88612a9",
+      "source_jp": "３車線以上はある高架のハイウェイ。",
+      "source_sha256": "fa45435c03aab7c1d82a79d1c09262b759f21686fd075f87bb41456051d85bab",
+      "master_old_ko_guard": "３차선이 넘는 고가 고속도로.",
+      "master_old_ko_sha256": "f95edfaf42bf88f6310fbcdfc51fd66294db220299ce1691a0ef10733850d1c2",
+      "target_before": "차선이 세 개 이상인 고가 고속도로.",
+      "target_before_sha256": "2475291692133337fa0851fabd3e0efc6bb90fbe41052e1861c31756e8e67bf6",
+      "numeric_surface_before": "차선이 세 개",
+      "numeric_surface_after": "3차선",
+      "target_after": "3차선 이상인 고가 고속도로.",
+      "target_after_sha256": "ca201739262190c1371c2442a6680ff3e20a7fbad296e6f921fc1dd32d584bb8",
+      "expected_nfkc_arabic_numbers": {
+        "3": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "3": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": [],
+      "only_declared_numeric_surface_changed": true
+    },
+    {
+      "file": "work/final_qa/reviews/ROOT.009.consolidated.corrections.jsonl",
+      "line": 209,
+      "script": "009",
+      "sequence": 1535,
+      "stable_id": "scenario.rpa::scenario/009.rpy::tid::sentei9_f735ab2a",
+      "source_jp": "こうして私の２度目の指名が終わる。",
+      "source_sha256": "20a60c8c15fff81d8a22ae1676e60cf1fb6d456e25b9ed6c78d9f8388917a6e5",
+      "master_old_ko_guard": "이렇게 내 ２번째 지명이 끝났다.",
+      "master_old_ko_sha256": "34258adf00d7d0e50a656ae183094d72ca59c6212ddf3d2eff60c1816cfa08c1",
+      "target_before": "이렇게 나의 두 번째 지명이 끝났다.",
+      "target_before_sha256": "33db1bf7e08862836427780a54b772017e7c1db4dc0ff9049677f66268fb2cb3",
+      "numeric_surface_before": "두 번째",
+      "numeric_surface_after": "2번째",
+      "target_after": "이렇게 나의 2번째 지명이 끝났다.",
+      "target_after_sha256": "317fd5056213674961160857d4771c2a72908956767c9e1b3d6ed39e544313a5",
+      "expected_nfkc_arabic_numbers": {
+        "2": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "2": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": [],
+      "only_declared_numeric_surface_changed": true
+    },
+    {
+      "file": "work/final_qa/reviews/ROOT.009.consolidated.corrections.jsonl",
+      "line": 212,
+      "script": "009",
+      "sequence": 1548,
+      "stable_id": "scenario.rpa::scenario/009.rpy::tid::sentei9_e9257080",
+      "source_jp": "「それでは、今宵の脱落者は１め――」",
+      "source_sha256": "4ab0a133135238172bd9a4bc3029ee0b1652cbaa00016baf50256dd331e81377",
+      "master_old_ko_guard": "「그럼 오늘 밤의 탈락자는 １명――」",
+      "master_old_ko_sha256": "da4a103460f44117bd6b0b36190d7ca56a9a7f926a47e5bf4589189617803c36",
+      "target_before": "「그럼 오늘 밤의 탈락자는 한 명――」",
+      "target_before_sha256": "d6c6417dd88cb1d653be1052bcc251046c98284c8f66551a5f42ecf12ecdf4c7",
+      "numeric_surface_before": "한 명",
+      "numeric_surface_after": "1명",
+      "target_after": "「그럼 오늘 밤의 탈락자는 1명――」",
+      "target_after_sha256": "26b96da54d5e477c497bd101d4ab788eb6fefc8a6890836c81c5a1365ec974d3",
+      "expected_nfkc_arabic_numbers": {
+        "1": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "1": 1
+          },
+          "actual": {},
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": [],
+      "only_declared_numeric_surface_changed": true
+    },
+    {
+      "file": "work/final_qa/reviews/ROOT.011_02_and_GH.consolidated.corrections.jsonl",
+      "line": 2,
+      "script": "011_02",
+      "sequence": 20,
+      "stable_id": "scenario.rpa::scenario/011_02.rpy::tid::sentei11_cee92cf3",
+      "source_jp": "１から順番に数を重ねた12回目。偶然にしては、確かによくできている。",
+      "source_sha256": "fff0c38f41bb72b4604f99789ab6858b202278726131e1af38d5113e9c88cfbe",
+      "master_old_ko_guard": "1부터 차례로 횟수를 쌓아 온 열두 번째. 우연이라기에는 확실히 절묘하다.",
+      "master_old_ko_sha256": "ed4a9927186c55c27ccdb6f85729cf1555698f906bd37ee47804f5f3259c49a8",
+      "target_before": "1부터 차례로 세어 도달한 열두 번째. 우연이라기에는 확실히 절묘하다.",
+      "target_before_sha256": "123ca384f995b9d8fe258c4f443d5b5919dad7e80ee549059f01cbafa4f1ba70",
+      "numeric_surface_before": "열두 번째",
+      "numeric_surface_after": "12번째",
+      "target_after": "1부터 차례로 세어 도달한 12번째. 우연이라기에는 확실히 절묘하다.",
+      "target_after_sha256": "c73dd51a4abf31d11ba0d14c18598b09391be186968dfdb5f33cd34c86a8365c",
+      "expected_nfkc_arabic_numbers": {
+        "1": 1,
+        "12": 1
+      },
+      "before_findings": [
+        {
+          "kind": "arabic_number_mismatch",
+          "expected": {
+            "1": 1,
+            "12": 1
+          },
+          "actual": {
+            "1": 1
+          },
+          "message": "NFKC-equivalent Arabic-number multiset differs"
+        }
+      ],
+      "after_findings": [],
+      "only_declared_numeric_surface_changed": true
+    }
+  ],
+  "actions_not_performed": [
+    "game execution",
+    "game compilation"
+  ]
+}

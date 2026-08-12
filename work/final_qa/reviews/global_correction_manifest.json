@@ -1,0 +1,168 @@
+{
+  "schema_version": "fatal-twelve-global-correction-manifest-v1",
+  "generated_at_utc": "2026-08-11T07:12:53.671675+00:00",
+  "correction_files": [
+    {
+      "reviewer": "A",
+      "path": "work/final_qa/reviews/A.001.consolidated.corrections.jsonl",
+      "sha256": "b3f00f01f1c05bd51650b974f48375f8c679ac02e0dc15d0bb930c27637ab7e5",
+      "records": 299
+    },
+    {
+      "reviewer": "A",
+      "path": "work/final_qa/reviews/A.002.consolidated.corrections.jsonl",
+      "sha256": "e3cd57857df535608aabece52aab21c9ad5bc113ee8da866301d2775cfc0895c",
+      "records": 46
+    },
+    {
+      "reviewer": "A",
+      "path": "work/final_qa/reviews/A.003_004.consolidated.corrections.jsonl",
+      "sha256": "09b0c8cfb9c4f68bec2b610b3eb8c5fef95ad795154ba5add686444b89d4465c",
+      "records": 195
+    },
+    {
+      "reviewer": "A",
+      "path": "work/final_qa/reviews/A.endings.consolidated.corrections.jsonl",
+      "sha256": "b52101dd7b0847bd776114b05893df5c103f4bc39b9377a2e52787ced6caeedc",
+      "records": 26
+    },
+    {
+      "reviewer": "A",
+      "path": "work/final_qa/reviews/A.manual.system_ui.corrections.jsonl",
+      "sha256": "b50acda02042e218d6a59c0568d90a119663cc438fd7a82492e968fc96b2206e",
+      "records": 167
+    },
+    {
+      "reviewer": "B",
+      "path": "work/final_qa/reviews/B.005_1_005_2_006.consolidated.corrections.jsonl",
+      "sha256": "2afff9a3f4dd22a9e3ee6ccadb3e5a20303a74c38622043511b1f69054a495c2",
+      "records": 320
+    },
+    {
+      "reviewer": "C",
+      "path": "work/final_qa/reviews/C.007_1_007_2.consolidated.corrections.jsonl",
+      "sha256": "1301660b246fb614d438193dd5c56995520460022c257f7144121414c31834fe",
+      "records": 297
+    },
+    {
+      "reviewer": "C",
+      "path": "work/final_qa/reviews/C.008.consolidated.corrections.jsonl",
+      "sha256": "73f771a5bb9a9153d8894a0de30e2831b98db06705a03690a0227204126837f6",
+      "records": 219
+    },
+    {
+      "reviewer": "C",
+      "path": "work/final_qa/reviews/C.011_01.consolidated.corrections.jsonl",
+      "sha256": "41154cd46037523d74e65b610d881d16d111fc2f2c58a8a359a2213a1520c398",
+      "records": 37
+    },
+    {
+      "reviewer": "C",
+      "path": "work/final_qa/reviews/C.011_01FGH.consolidated.corrections.jsonl",
+      "sha256": "79b27a0630cdcc7aaa88b4498dc49125b5042eb8bbd58811dd6073a4dd7b51bb",
+      "records": 59
+    },
+    {
+      "reviewer": "C",
+      "path": "work/final_qa/reviews/C.NG_plus.consolidated.corrections.jsonl",
+      "sha256": "2972745b27800a86236d5b6c5469531089045f40b0ada1a37accb2334b94ed9f",
+      "records": 28
+    },
+    {
+      "reviewer": "ROOT",
+      "path": "work/final_qa/reviews/ROOT.009.consolidated.corrections.jsonl",
+      "sha256": "9ff4e3b2e94cdcb7a5dda01ab6d464bc1435ec69f24b128611d3392da6112dec",
+      "records": 219
+    },
+    {
+      "reviewer": "ROOT",
+      "path": "work/final_qa/reviews/ROOT.010.consolidated.corrections.jsonl",
+      "sha256": "6cf6fbef246f87a9b94a15560edced4e07aadf614880967e23d7a056ce145735",
+      "records": 409
+    },
+    {
+      "reviewer": "ROOT",
+      "path": "work/final_qa/reviews/ROOT.011_02_and_GH.consolidated.corrections.jsonl",
+      "sha256": "16d5ebea6db3a473ba6c0a5f768a9053b2dfec47dd28d0f1bd0746f05d8d17b6",
+      "records": 54
+    },
+    {
+      "reviewer": "ROOT",
+      "path": "work/final_qa/reviews/ROOT.012_01F.consolidated.corrections.jsonl",
+      "sha256": "2fa4183bb1da6825c907534bc78a172c216ad6af9c349ed4c89850032468760c",
+      "records": 153
+    },
+    {
+      "reviewer": "ROOT",
+      "path": "work/final_qa/reviews/ROOT.012_01GH.consolidated.corrections.jsonl",
+      "sha256": "fcbec6f68ed36808f550a72dceb2453e4c43dffd1d499e7c61c4149c31e152f0",
+      "records": 46
+    },
+    {
+      "reviewer": "ROOT",
+      "path": "work/final_qa/reviews/ROOT.012_02.consolidated.corrections.jsonl",
+      "sha256": "57ed361e4586a81f5658594a9167e8aa3db501c9bf011f0ca23d5c0efca34b1a",
+      "records": 23
+    },
+    {
+      "reviewer": "ROOT",
+      "path": "work/final_qa/reviews/ROOT.base_numeric_token_fixes.corrections.jsonl",
+      "sha256": "83485334dda42788efd0b67255fd900c72990c251b93006e44debc76abd29a39",
+      "records": 42
+    }
+  ],
+  "supplemental_strings": [
+    {
+      "path": "work/system_ui/runtime_application/numeral_composed_string_keys.ko.rpy",
+      "sha256": "b8b8bd0fb905f3346811fa36356f144874f2bf874cf92bdca2e0185da488f6dc",
+      "pairs": 12
+    }
+  ],
+  "policy_artifacts": [
+    {
+      "kind": "ruby_map",
+      "path": "work/final_qa/ruby_map.approved.json",
+      "sha256": "e2f9c68d1768cce159c5c986f3c5e4328bbbeadb42a7dfc0a2d3b41a76a22d31",
+      "entries": 52
+    },
+    {
+      "kind": "structural_overlay_spec",
+      "path": "work/final_qa/reviews/structural_fixes_spec.json",
+      "sha256": "1b97f3984fa3f1d01eaaad3dd2b98aa196d6739fa1934b16e14235313bd629f5",
+      "records": 178,
+      "status": "fully_merged_into_canonical_correction_rows"
+    },
+    {
+      "kind": "record_bound_qa_approvals",
+      "path": "work/final_qa/reviews/qa_approvals.draft.json",
+      "sha256": "5639258e18ea34826c9800ee3bc118ec1633de38b8824c4f77d7da4688d2be23",
+      "records": 10,
+      "blanket_approvals": false
+    }
+  ],
+  "scope": {
+    "scenario_count": 29,
+    "scenario_master_records": 18184,
+    "scenario_corrections": 2472,
+    "system_ui_master_records": 732,
+    "system_ui_corrections": 167,
+    "expected_render_global_string_old_keys": 797,
+    "total_unique_corrections": 2639
+  },
+  "validation": {
+    "exact_old_guard_pass": true,
+    "stable_id_unique": true,
+    "script_sequence_unique": true,
+    "structural_overlay_merged": 178,
+    "record_bound_approvals_verified": 10,
+    "scenario_preflight_unapproved_issues": 0,
+    "scenario_preflight_approved_issues": 8,
+    "historical_component_conflicts_materialized": 4
+  },
+  "actions_not_performed": [
+    "master apply",
+    "corrected master generation",
+    "RPY render",
+    "game execution"
+  ]
+}

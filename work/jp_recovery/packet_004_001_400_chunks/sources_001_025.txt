@@ -1,0 +1,25 @@
+001	L0026	narration	narrator	目が覚めた時、私は久しぶりにぐっすりと眠れたことに気が付いていた。
+002	L0028	narration	narrator	桂子さんが、脱落した。だが、私に残ったのは悲しみではなく、空しさだった。
+003	L0030	narration	narrator	私はふと机の上を見た。
+004	L0032	narration	narrator	桂子さんから受け取った手紙と私の書いた手紙の二つが置かれていた。
+005	L0034	narration	narrator	だが桂子さんから受け取った手紙の中身を見てみると、それはただの白紙だった。
+006	L0036	narration	narrator	「桂子さんが手紙を書いた」という行動とその結果が……消えている。
+007	L0038	narration	narrator	まだ封をしていなかったので、私が書き写した手紙も確認してみた。こちらには、きちんと昨日のままの文面が残っていた。
+008	L0040	narration	narrator	選定参加者の記憶には残っているが、期間中に起こした行動がなかったことになるというのは証明された。
+009	L0042	narration	narrator	だが――。
+010	L0047	dialogue	rinka	「世界は完全には変わらない……」
+011	L0049	narration	narrator	桂子さんから私に渡された便箋は、私の家から消えていない。
+012	L0051	narration	narrator	考えられるのは、私が脱落したときにも手紙の文面だけが消え、私の机から手紙は消えないということだ。
+013	L0053	narration	narrator	女神による世界の≪書き換え≫とやらは完璧ではない。
+014	L0055	narration	narrator	直未に≪なかったこと≫になった火事の記憶があるのも、そのせいかもしれない。
+015	L0057	narration	narrator	直未は、桂子さんのことをどこまで覚えているのだろうか。
+016	L0059	narration	narrator	選定になるべく関わらせたくないから、私から聞くことはしないけれど。
+017	L0064	dialogue	rinka	「海晴……！　直未……！」
+018	L0066	narration	narrator	でも、私は二人の名前を口にしていた。
+019	L0068	narration	narrator	そうせずにはいられなかったから。
+020	L0070	narration	narrator	奥歯を噛み締めてから、私は今朝も学校へ行く準備を始めた。
+021	L0092	dialogue	rinka	「あっ……」
+022	L0094	narration	narrator	校門まで来たとき、丁度直未と鉢合わせた。
+023	L0096	narration	narrator	先週あんなことがあったばかりだから、ちょっと気まずい。
+024	L0098	narration	narrator	でも、私は普通を装おうと、「おはよう」と挨拶をした。
+025	L0103	dialogue	naomi	「おはようございます、せんぱい。わたしも今日から本格的に文化祭の準備を始めることにしました。看板とか装飾とか、考えないといけませんし」

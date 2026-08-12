@@ -1,0 +1,262 @@
+{
+  "schema_version": "fatal-twelve-c-007-consolidated-v1",
+  "generated_at_utc": "2026-08-11T05:32:44.919002+00:00",
+  "reviewer": "C",
+  "scripts": [
+    "007_1",
+    "007_2"
+  ],
+  "source_authority": "Japanese source_jp only",
+  "english_reference_used": false,
+  "external_translation_api_used": false,
+  "game_executed": false,
+  "master_modified": false,
+  "exhaustive_checked": 2534,
+  "coverage": {
+    "007_1": 1063,
+    "007_2": 1471
+  },
+  "input": {
+    "path": "reviews\\C.decisions.tsv",
+    "sha256": "ac823c031b87953515c57fa7c976724f87e3fb2d2a5a08bf2fdc5fe754348a96",
+    "decision_rows": 269
+  },
+  "corrections": {
+    "output_rows": 297,
+    "per_script": {
+      "007_1": 153,
+      "007_2": 144
+    },
+    "excluded_decisions": [
+      {
+        "script": "007_1",
+        "sequence": 365,
+        "reason": "decision conflicts with approved ruby mapping; authoritative master text is retained",
+        "excluded_new_ko": "「멍청아. 뭐, 나도 이 아가씨가 {rb}맛있{/rb}{rt}먹음직{/rt}어 보인다는 데는 동감이지만…… 됐다」"
+      }
+    ],
+    "width_repair_rows": [
+      [
+        "007_2",
+        3
+      ],
+      [
+        "007_2",
+        45
+      ],
+      [
+        "007_2",
+        77
+      ],
+      [
+        "007_2",
+        110
+      ],
+      [
+        "007_2",
+        113
+      ],
+      [
+        "007_2",
+        127
+      ],
+      [
+        "007_2",
+        151
+      ],
+      [
+        "007_2",
+        219
+      ],
+      [
+        "007_2",
+        326
+      ],
+      [
+        "007_2",
+        329
+      ],
+      [
+        "007_2",
+        381
+      ],
+      [
+        "007_2",
+        405
+      ],
+      [
+        "007_2",
+        564
+      ],
+      [
+        "007_2",
+        599
+      ],
+      [
+        "007_2",
+        604
+      ],
+      [
+        "007_2",
+        647
+      ],
+      [
+        "007_2",
+        673
+      ],
+      [
+        "007_2",
+        677
+      ],
+      [
+        "007_2",
+        684
+      ],
+      [
+        "007_2",
+        722
+      ],
+      [
+        "007_2",
+        769
+      ],
+      [
+        "007_2",
+        1286
+      ],
+      [
+        "007_2",
+        1290
+      ],
+      [
+        "007_2",
+        1331
+      ],
+      [
+        "007_2",
+        1338
+      ],
+      [
+        "007_2",
+        1365
+      ],
+      [
+        "007_2",
+        1374
+      ],
+      [
+        "007_2",
+        1431
+      ],
+      [
+        "007_2",
+        1464
+      ]
+    ],
+    "width_repair_count": 29,
+    "width_merged_with_decision": [
+      [
+        "007_2",
+        45
+      ],
+      [
+        "007_2",
+        127
+      ],
+      [
+        "007_2",
+        1290
+      ]
+    ],
+    "fixed_term_rows": [
+      [
+        "007_2",
+        1070
+      ],
+      [
+        "007_2",
+        1132
+      ],
+      [
+        "007_2",
+        1147
+      ]
+    ]
+  },
+  "record_rule_approvals_deferred_to_global_manifest": [
+    {
+      "script": "007_1",
+      "sequence": 269,
+      "rule_id": "TARGET_QUOTE_UNBALANCED"
+    },
+    {
+      "script": "007_2",
+      "sequence": 61,
+      "rule_id": "NO_HANGUL"
+    }
+  ],
+  "validation": {
+    "rows": 297,
+    "stable_id_unique": true,
+    "script_sequence_unique": true,
+    "exact_old_guard_pass": true,
+    "failures": [],
+    "post_correction_audit_issue_count": 2,
+    "post_correction_unapproved_issue_count": 0,
+    "post_correction_approved_issues": [
+      {
+        "script": "007_1",
+        "sequence": 269,
+        "stable_id": "scenario.rpa::scenario/007_1.rpy::tid::f007_1_a2f320a9",
+        "source_line": 1033,
+        "speaker": "odette",
+        "severity": "error",
+        "policy_severity": "HARD",
+        "rule_id": "TARGET_QUOTE_UNBALANCED",
+        "category": "target_quote_unbalanced",
+        "status": "open",
+        "message": "한국어 target 낫표 불균형",
+        "evidence": [
+          "unclosed quote(s): 「"
+        ],
+        "normalized_evidence": [
+          "unclosed quote(s): 「"
+        ],
+        "source_sha256": "5234491f07a1753d4a804df7f02895b47e2e7d97fbe66247c940a8bbf6888a25",
+        "target_sha256": "232433b0bbfb85390c5310f69fd54eb0c7cb454a874d4ce12572b8f7e571c40e",
+        "source_jp": "「さ、嬢ちゃん。兄ちゃんにどう言われてここまで来たのかは知らないが、面子を見たらどういうことか察しはつくよな？",
+        "draft_ko": "「자, 아가씨. 형씨에게 무슨 말을 듣고 여기까지 왔는지는 모르겠지만, 이 면면을 보면 무슨 일인지 짐작은 가지?",
+        "finding_id": "cc89d611ae8183d8d2f0e9a464db62ce00561c068bad700d6c58557c5923d20f"
+      },
+      {
+        "script": "007_2",
+        "sequence": 61,
+        "stable_id": "scenario.rpa::scenario/007_2.rpy::tid::f007_2_b28c38e7",
+        "source_line": 251,
+        "speaker": "rinka",
+        "severity": "warning",
+        "policy_severity": "REVIEW",
+        "rule_id": "NO_HANGUL",
+        "category": "no_hangul",
+        "status": "open",
+        "message": "일본어 의미 문장인데 한글이 없음",
+        "evidence": null,
+        "normalized_evidence": null,
+        "source_sha256": "3b0d050e4e989eed97a3ea46301a4e27b6187bc745218ac8c3c32b5b267dbc58",
+        "target_sha256": "c0185ac0ca5c1c11839c2778f9233530a75c0f325115ea4fe49d9d146aa129b2",
+        "source_jp": "「……っ！」",
+        "draft_ko": "「……!」",
+        "finding_id": "ecebc29400ea276c0013eff69e1df3a04d6c73030d1df6b2835af835576c4ab3"
+      }
+    ]
+  },
+  "ruby_map": {
+    "path": "ruby_map.approved.json",
+    "sha256": "e2f9c68d1768cce159c5c986f3c5e4328bbbeadb42a7dfc0a2d3b41a76a22d31"
+  },
+  "output": {
+    "path": "reviews\\C.007_1_007_2.consolidated.corrections.jsonl",
+    "sha256": "1301660b246fb614d438193dd5c56995520460022c257f7144121414c31834fe"
+  },
+  "verdict": "PASS"
+}

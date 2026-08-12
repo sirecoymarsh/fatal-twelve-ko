@@ -1,0 +1,46 @@
+{
+  "scope": [
+    "system/screens.rpy",
+    "system/script.rpy"
+  ],
+  "source_hashes": {
+    "screens.rpy": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+    "script.rpy": "ab3c66bf241c8fe4151b3245b435d8cb9f29ee81b6164d49f9141bdb25ffa150"
+  },
+  "membership_file_hashes": {
+    "screens.rpy": "716bd8db6ee478f649ff806ce46a43dc4abdd8faf6a9c3be947910137ced30e7",
+    "script.rpy": "cea6525ddf2804f6ba376796d5a406c2d007fd3ab08320f722d9e29988612989"
+  },
+  "catalog_records": {
+    "screens": 87,
+    "script": 22,
+    "total": 109
+  },
+  "authoritative_old_key_coverage": {
+    "screens": "77/77",
+    "script": "13/13"
+  },
+  "emitted_rpy_entries": {
+    "screens": 87,
+    "script": 21,
+    "total_unique": 108
+  },
+  "cross_source_duplicates_omitted": [
+    "Image [index] of [count] locked. (script copy; emitted in screens.ko.rpy)"
+  ],
+  "dynamic_display_consumers_audited": {
+    "screens": 20,
+    "script": 0,
+    "note": "Runtime text is owned by scenario, gamedata, save metadata, or Ren'Py and is not duplicated into this strings lane."
+  },
+  "structure_results": {
+    "screens": "PASS",
+    "script": "PASS"
+  },
+  "translation_quality_review_performed": false,
+  "status": "first_draft_unreviewed",
+  "qa": "deferred_until_full_first_draft",
+  "source_authority": "Japanese only",
+  "english_reference_used": false,
+  "official_membership_handling": "Only old keys were mechanically retained; official new prose was skipped."
+}

@@ -1,0 +1,92 @@
+{
+  "schema_version": "fatal-twelve-renpy-catalog-v1",
+  "generated_at_utc": "2026-08-10T09:57:11.653502+00:00",
+  "policy": {
+    "semantic_source_language": "ja",
+    "target_language": "ko",
+    "reference_language": "english",
+    "reference_usage": "translation identifiers and missingness only",
+    "reference_prose_parsed": false,
+    "reference_prose_stored": false,
+    "live_game_modified": false
+  },
+  "inputs": {
+    "source_rpy": {
+      "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\work\\extracted\\scenario\\scenario\\MIHARU_END.rpy",
+      "size": 2520,
+      "sha256": "948643891c1dd5e7ec6f49d69e7c4cfe6104f49ca82bc424dc77b9d97f871e49",
+      "encoding": "utf-8",
+      "replacement_characters": 0,
+      "japanese_codepoints": 426
+    },
+    "characters_rpy": {
+      "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\work\\extracted\\system\\characters.rpy",
+      "size": 5975,
+      "sha256": "8e1e99a2bcac76e743086a15211cf32d888a621b3c0de0278f598a8bf5e76f37",
+      "encoding": "utf-8",
+      "replacement_characters": 0,
+      "japanese_codepoints": 280,
+      "character_definitions": 73
+    },
+    "reference_rpy_index_only": {
+      "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\work\\extracted\\tl\\tl\\english\\scenario\\MIHARU_END.rpy",
+      "size": 2808,
+      "sha256": "5f9dbf432a3100ac162f631de26c4606e612ae1b91187be94a376b6771edf581",
+      "encoding": "utf-8",
+      "replacement_characters": 0,
+      "japanese_codepoints": 0
+    },
+    "source_rpyc": null,
+    "reference_rpyc": null,
+    "source_archive": null,
+    "reference_archive": null
+  },
+  "stable_id": {
+    "translation_blocks": "scenario.rpa::<script>::tid::<renpy_translation_id>",
+    "menu_strings": "scenario.rpa::<script>::menu::<menu ordinal>:<role>:<direct item ordinal>:<source sha256 prefix>",
+    "renpy_id_algorithm": "md5(concat(AST.get_code UTF-8 + CRLF))[:8], prefixed by label with dots replaced by underscores, duplicate suffix _N"
+  },
+  "reference_index": {
+    "translation_ids": 26,
+    "old_string_keys": 0,
+    "duplicate_translation_ids": [],
+    "duplicate_old_strings_sha256": []
+  },
+  "statistics": {
+    "records": 26,
+    "lanes": {
+      "dialogue": 3,
+      "narration": 23
+    },
+    "voiced_records": 3,
+    "translation_id_records": 26,
+    "menu_key_records": 0,
+    "reference_present": 26,
+    "reference_missing": 0,
+    "speakers": {
+      "<narrator>": 23,
+      "rinka": 3
+    },
+    "labels": {
+      "fMIHARU": 26
+    },
+    "protected_token_kinds": {
+      "number": 1
+    },
+    "japanese_codepoints_in_source_text": 426,
+    "untranslated": 26
+  },
+  "diagnostics": {
+    "non_display_quoted_commands": [],
+    "orphan_voice_calls": [],
+    "reference_orphan_translation_ids": [],
+    "source_translation_ids_missing_reference": [],
+    "reference_orphan_old_key_hashes": [],
+    "source_old_keys_missing_reference_stable_ids": []
+  },
+  "catalog": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\catalog_design\\scenario_MIHARU_END.catalog.jsonl",
+    "size": 74462,
+    "sha256": "18462dbb996f7bf58c2e28044e8d1f5118b90e1183f2bbc0e05627d0c6b720a6"
+  }
+}

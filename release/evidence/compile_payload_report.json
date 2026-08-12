@@ -1,0 +1,1071 @@
+{
+  "schema_version": "fatal-twelve-isolated-compile-payload-v2",
+  "status": "PASS",
+  "game_execution": false,
+  "engine_compile": true,
+  "engine_isolated": true,
+  "audio_driver": "dummy",
+  "python_hash_seed": "0",
+  "live_tree_file_count": 1228,
+  "live_tree_sha256": "81105eeaec8189454326a5a25520e806ff73eef8b9f090552005ca31f5f2972f",
+  "expected_live_tree_sha256": "81105eeaec8189454326a5a25520e806ff73eef8b9f090552005ca31f5f2972f",
+  "live_tree_unchanged": true,
+  "live_tree_difference_count": 0,
+  "baseline_anchors_before": [
+    {
+      "path": "fatal.exe",
+      "size": 386048,
+      "sha256": "987b9a1d43e46b8665a0cc4c6280459ef3d13c365fba8ba0b55a88e9f03f43bd",
+      "match": true
+    },
+    {
+      "path": "game/scenario.rpa",
+      "size": 5102486,
+      "sha256": "ea39387ae13432a79ffe4601af7b50478d063432ce3b7bc4013c92e09f036d22",
+      "match": true
+    },
+    {
+      "path": "game/system.rpa",
+      "size": 199203732,
+      "sha256": "a298b88f12c98435b015a647b51f5a35987ea4d714b5bf92e90972f3fcf6b648",
+      "match": true
+    },
+    {
+      "path": "game/tl.rpa",
+      "size": 78290069,
+      "sha256": "ad628d5aa7b0601e69fa99c13d6f67c21854ae0a290599dc478a986cfc53ac5f",
+      "match": true
+    },
+    {
+      "path": "game/localize.rpyc",
+      "size": 924,
+      "sha256": "5ba31f69d3646990d42e7044d97bf4cfb07bc105619b4f220fdcf1ad374d1d2f",
+      "match": true
+    }
+  ],
+  "baseline_anchors_after": [
+    {
+      "path": "fatal.exe",
+      "size": 386048,
+      "sha256": "987b9a1d43e46b8665a0cc4c6280459ef3d13c365fba8ba0b55a88e9f03f43bd",
+      "match": true
+    },
+    {
+      "path": "game/scenario.rpa",
+      "size": 5102486,
+      "sha256": "ea39387ae13432a79ffe4601af7b50478d063432ce3b7bc4013c92e09f036d22",
+      "match": true
+    },
+    {
+      "path": "game/system.rpa",
+      "size": 199203732,
+      "sha256": "a298b88f12c98435b015a647b51f5a35987ea4d714b5bf92e90972f3fcf6b648",
+      "match": true
+    },
+    {
+      "path": "game/tl.rpa",
+      "size": 78290069,
+      "sha256": "ad628d5aa7b0601e69fa99c13d6f67c21854ae0a290599dc478a986cfc53ac5f",
+      "match": true
+    },
+    {
+      "path": "game/localize.rpyc",
+      "size": 924,
+      "sha256": "5ba31f69d3646990d42e7044d97bf4cfb07bc105619b4f220fdcf1ad374d1d2f",
+      "match": true
+    }
+  ],
+  "engine_manifest_sha256": "e2b39e430fae0797c49bda067a0d8331fd1d5202fffc3b90684883e9e47b89eb",
+  "engine_executable_sha256": "987b9a1d43e46b8665a0cc4c6280459ef3d13c365fba8ba0b55a88e9f03f43bd",
+  "engine_tree_sha256_before": "79eeeccf205754dac548743988a31bc77f783f2f455bad44b3a5d535ceb4b268",
+  "engine_tree_sha256_after": "12038a36342ed1d035be273b1707dc0cf1c6519eb70db73960bd018b4b22c539",
+  "engine_changed_file_count": 47,
+  "engine_changed_files": [
+    {
+      "path": "renpy/common/000atl.rpyc",
+      "change": "modified",
+      "before": {
+        "path": "renpy/common/000atl.rpyc",
+        "size": 1918,
+        "sha256": "c022e3310bc76fbab22a588e2b5d5e104e03dbb2b28e3bd7d4caa1396afe0995"
+      },
+      "after": {
+        "path": "renpy/common/000atl.rpyc",
+        "size": 1914,
+        "sha256": "6df0753a558e6df2eaf5b0579527e31ae88c919a11827cdd0386e796bd7441aa"
+      }
+    },
+    {
+      "path": "renpy/common/000namespaces.rpyc",
+      "change": "modified",
+      "before": {
+        "path": "renpy/common/000namespaces.rpyc",
+        "size": 1580,
+        "sha256": "d49f0b698d5bb3eeb2ffb4b4749075547378767c5f86aaf281eceec1d64d2645"
+      },
+      "after": {
+        "path": "renpy/common/000namespaces.rpyc",
+        "size": 1576,
+        "sha256": "44d76434c761b99afef55d3dd2402cb02d375f792e76b388f70e991eee9ec6d5"
+      }
+    },
+    {
+      "path": "renpy/common/000statements.rpyc",
+      "change": "modified",
+      "before": {
+        "path": "renpy/common/000statements.rpyc",
+        "size": 5254,
+        "sha256": "fad3d39cfe8a3f1166e973cd605cd8b910e796b0d6a271851db403fbff56a1cf"
+      },
+      "after": {
+        "path": "renpy/common/000statements.rpyc",
+        "size": 5376,
+        "sha256": "d7258b0a494da22ce7847c2f3bad7d3decae4bc479d2f604fcbf34df7b6a71e1"
+      }
+    },
+    {
+      "path": "renpy/common/000window.rpyc",
+      "change": "modified",
+      "before": {
+        "path": "renpy/common/000window.rpyc",
+        "size": 2520,
+        "sha256": "c2a635d604a84ae280798569c7e923987fa1fe186c310ce2a408d9b525095fdd"
+      },
+      "after": {
+        "path": "renpy/common/000window.rpyc",
+        "size": 2634,
+        "sha256": "4b9c9898725c4ac0471fa3959893fe23c315faf8f27d8196731fc00841bad4d6"
+      }
+    },
+    {
+      "path": "renpy/common/00achievement.rpyc",
+      "change": "modified",
+      "before": {
+        "path": "renpy/common/00achievement.rpyc",
+        "size": 4958,
+        "sha256": "6ee2036e92cce8bb1d3ca71911b84ae03fbb20e1a2d327f319464935ed1359bf"
+      },
+      "after": {
+        "path": "renpy/common/00achievement.rpyc",
+        "size": 5078,
+        "sha256": "732ffebc0c0d84b9656f910c2b19f3266e6d81af408329e163b5d5a9cdbcf218"
+      }
+    },
+    {
+      "path": "renpy/common/00action_audio.rpyc",
+      "change": "modified",
+      "before": {
+        "path": "renpy/common/00action_audio.rpyc",
+        "size": 3582,
+        "sha256": "431a53e7dcd339934238cd9c7cc46fc997bd2720d30a830c4e1b0d05c04918c4"
+      },
+      "after": {
+        "path": "renpy/common/00action_audio.rpyc",
+        "size": 3698,
+        "sha256": "6fae7dfefcf6ab585d50fbb3c8888e31f7f2cf0f3edb06f707b924ec08be2116"
+      }
+    },
+    {
+      "path": "renpy/common/00action_control.rpyc",
+      "change": "modified",
+      "before": {
+        "path": "renpy/common/00action_control.rpyc",
+        "size": 3190,
+        "sha256": "654e6bcdfbc9dc4134d63543de5169e817607e8ec83c8a95fab71fa8a88f3bac"
+      },
+      "after": {
+        "path": "renpy/common/00action_control.rpyc",
+        "size": 3306,
+        "sha256": "3630885702ae539c83c2d812e4dca0b9e003e671180c91722fa82a6de73fbff7"
+      }
+    },
+    {
+      "path": "renpy/common/00action_data.rpyc",
+      "change": "modified",
+      "before": {
+        "path": "renpy/common/00action_data.rpyc",
+        "size": 3758,
+        "sha256": "761472b51bccbb8de8aed86c6ff720ee4e29f68f5bfb5f5e5c06ad77ffb9c6e6"
+      },
+      "after": {
+        "path": "renpy/common/00action_data.rpyc",
+        "size": 3876,
+        "sha256": "c87d96286ebaa44596c73dd6621b94ebd265e437130c77188ce1f100e9f8feea"
+      }
+    },
+    {
+      "path": "renpy/common/00action_file.rpyc",
+      "change": "modified",
+      "before": {
+        "path": "renpy/common/00action_file.rpyc",
+        "size": 11226,
+        "sha256": "a683a5200712ed33ddfc083e9831166f66e3681ed713c27bf98f0192eb747ddf"
+      },
+      "after": {
+        "path": "renpy/common/00action_file.rpyc",
+        "size": 11340,
+        "sha256": "6d841c9bc850d53b479853bcc7d6d7e3d40806fa4ab87262efad98fc3ad8f9da"
+      }
+    },
+    {
+      "path": "renpy/common/00action_menu.rpyc",
+      "change": "modified",
+      "before": {
+        "path": "renpy/common/00action_menu.rpyc",
+        "size": 5024,
+        "sha256": "da8b9fc6e72ff7587dd3a12a60f06734112f38375ce6552eead14e5cb3064cea"
+      },
+      "after": {
+        "path": "renpy/common/00action_menu.rpyc",
+        "size": 5140,
+        "sha256": "c52ca0a6026f8db6d5e017a5c1a1e3ec524ef13c7ee96d50edd573097183b443"
+      }
+    },
+    {
+      "path": "renpy/common/00action_other.rpyc",
+      "change": "modified",
+      "before": {
+        "path": "renpy/common/00action_other.rpyc",
+        "size": 10116,
+        "sha256": "5ba8be5e8bd545415e15d937e6bc3eb7ae1e994a0a16aa4fceb1e00f792fcbe8"
+      },
+      "after": {
+        "path": "renpy/common/00action_other.rpyc",
+        "size": 10236,
+        "sha256": "ca35deeef0474ba50748f488e223cd6c9631640ccfcf1c12dd281d279459e6b2"
+      }
+    },
+    {
+      "path": "renpy/common/00barvalues.rpyc",
+      "change": "modified",
+      "before": {
+        "path": "renpy/common/00barvalues.rpyc",
+        "size": 5560,
+        "sha256": "f81255f65a4974f02c6905a0220f5aca6fcc5d5bfa15354e4ce0ef022350a7aa"
+      },
+      "after": {
+        "path": "renpy/common/00barvalues.rpyc",
+        "size": 5670,
+        "sha256": "1e5aa0b36386078da965a435efdf8d956cb7187a7fcbb2a7784c1e0aed144ee4"
+      }
+    },
+    {
+      "path": "renpy/common/00build.rpyc",
+      "change": "modified",
+      "before": {
+        "path": "renpy/common/00build.rpyc",
+        "size": 6858,
+        "sha256": "c1a488bccea718154252519c7cdc6eec3a023ad68d733911ccc913f951ed45e3"
+      },
+      "after": {
+        "path": "renpy/common/00build.rpyc",
+        "size": 6972,
+        "sha256": "15eff353f114cbbbdc0bfa9e90abe859e7dab272930a411b72bf05ab0ac05e4e"
+      }
+    },
+    {
+      "path": "renpy/common/00compat.rpyc",
+      "change": "modified",
+      "before": {
+        "path": "renpy/common/00compat.rpyc",
+        "size": 5068,
+        "sha256": "b24a24e16fac8c4051b3fc5ebbb0925f452ac348a77464e14c1ae7cd40c9a213"
+      },
+      "after": {
+        "path": "renpy/common/00compat.rpyc",
+        "size": 5174,
+        "sha256": "214325b321c324e55bf9bc3b58d907d990ad40fbc1b77640ad70b218e3cd25e9"
+      }
+    },
+    {
+      "path": "renpy/common/00console.rpyc",
+      "change": "modified",
+      "before": {
+        "path": "renpy/common/00console.rpyc",
+        "size": 18120,
+        "sha256": "2beac147106702e0cca3bb8256a11c1e4d1d3a183539bfcee716ff4bd35dc109"
+      },
+      "after": {
+        "path": "renpy/common/00console.rpyc",
+        "size": 18244,
+        "sha256": "9d919e2710e1299abc0ad60db42c3dcdf55e3ce30f18f63d38fc40734d5202d7"
+      }
+    },
+    {
+      "path": "renpy/common/00defaults.rpyc",
+      "change": "modified",
+      "before": {
+        "path": "renpy/common/00defaults.rpyc",
+        "size": 3628,
+        "sha256": "3a398965dc66d625977abab94373a11ba199112abd07e21648293882dd5d5004"
+      },
+      "after": {
+        "path": "renpy/common/00defaults.rpyc",
+        "size": 3750,
+        "sha256": "85c624b1ec009618a5890c3d769e419f12e9f98b759a9d07456a197a4ac021bb"
+      }
+    },
+    {
+      "path": "renpy/common/00definitions.rpyc",
+      "change": "modified",
+      "before": {
+        "path": "renpy/common/00definitions.rpyc",
+        "size": 12268,
+        "sha256": "c1a4768d844f36acabf3ad78fe4ce9c3235518d489ec6ae806f8756a8b6af99c"
+      },
+      "after": {
+        "path": "renpy/common/00definitions.rpyc",
+        "size": 12390,
+        "sha256": "58c9e8a7e8c07c23d8158c769c6694d65a7b64c264036acae6566dc3476bb7a1"
+      }
+    },
+    {
+      "path": "renpy/common/00director.rpyc",
+      "change": "modified",
+      "before": {
+        "path": "renpy/common/00director.rpyc",
+        "size": 39254,
+        "sha256": "8f5641813ef1b813c57043183269e73b7276471d3c4f60f293ad7d6c8c3fe422"
+      },
+      "after": {
+        "path": "renpy/common/00director.rpyc",
+        "size": 39360,
+        "sha256": "94f85f1fd0bff88b13b4b33bb3c9c819a83c53583d88e8e2081e89fa841ec928"
+      }
+    },
+    {
+      "path": "renpy/common/00gallery.rpyc",
+      "change": "modified",
+      "before": {
+        "path": "renpy/common/00gallery.rpyc",
+        "size": 10998,
+        "sha256": "daf9a1429e05d46bd1a7df8f610ab4ca5aa164f89ed77d6efc55a6bc5b4dff2a"
+      },
+      "after": {
+        "path": "renpy/common/00gallery.rpyc",
+        "size": 11122,
+        "sha256": "4632e795b6cae39488f964b458dbcf1d7f491ec106447b3b3fbba780e5e9bdc7"
+      }
+    },
+    {
+      "path": "renpy/common/00gamemenu.rpyc",
+      "change": "modified",
+      "before": {
+        "path": "renpy/common/00gamemenu.rpyc",
+        "size": 7614,
+        "sha256": "06f8c325616a33746a065fee622722affc04f167d07fc7cb245e295cb2d554e4"
+      },
+      "after": {
+        "path": "renpy/common/00gamemenu.rpyc",
+        "size": 7732,
+        "sha256": "4b87014909409fa19d4c63ce06e89c427c85016e70da3a7bfc2081f209c6de61"
+      }
+    },
+    {
+      "path": "renpy/common/00gamepad.rpyc",
+      "change": "modified",
+      "before": {
+        "path": "renpy/common/00gamepad.rpyc",
+        "size": 8574,
+        "sha256": "e54227aa8cd1271ff95fe5e1241c7f58f20c7659284e94b9caeb7e4d301decff"
+      },
+      "after": {
+        "path": "renpy/common/00gamepad.rpyc",
+        "size": 8682,
+        "sha256": "f162c196299320baf8860fe44349667af8b4437d6c4da4ea895e9c7f5c391148"
+      }
+    },
+    {
+      "path": "renpy/common/00gltest.rpyc",
+      "change": "modified",
+      "before": {
+        "path": "renpy/common/00gltest.rpyc",
+        "size": 17026,
+        "sha256": "e9ca6dafb390fa59ee06ba412010412eefa162e4012501c4ab7424aec0e067a6"
+      },
+      "after": {
+        "path": "renpy/common/00gltest.rpyc",
+        "size": 17144,
+        "sha256": "f304601a57220f0563c823e30e70b67d3feb2a757aef13a87ea4737ece5e7983"
+      }
+    },
+    {
+      "path": "renpy/common/00gui.rpyc",
+      "change": "modified",
+      "before": {
+        "path": "renpy/common/00gui.rpyc",
+        "size": 8818,
+        "sha256": "7b670b659a004dd0874d0f15eaf633abd379219f6d7a80e703fff044fdb6e776"
+      },
+      "after": {
+        "path": "renpy/common/00gui.rpyc",
+        "size": 8942,
+        "sha256": "140460cf9842159daf51d943c886df659495b6c7147794edabc6bd2c2d64cb0e"
+      }
+    },
+    {
+      "path": "renpy/common/00iap.rpyc",
+      "change": "modified",
+      "before": {
+        "path": "renpy/common/00iap.rpyc",
+        "size": 7652,
+        "sha256": "b37a12391f14c5bd5a12dd3bb003e7d5a72b10181a7d06558f97038552b0114e"
+      },
+      "after": {
+        "path": "renpy/common/00iap.rpyc",
+        "size": 7774,
+        "sha256": "545e950549f2849943fdbcdc09c179831ce66207946a977c6d35a9706f2c0492"
+      }
+    },
+    {
+      "path": "renpy/common/00icon.rpyc",
+      "change": "modified",
+      "before": {
+        "path": "renpy/common/00icon.rpyc",
+        "size": 1902,
+        "sha256": "8c37486bd12f38b9ee9f6f286fee5425582514ca12d8da2858647c28d10db2a0"
+      },
+      "after": {
+        "path": "renpy/common/00icon.rpyc",
+        "size": 1894,
+        "sha256": "d2f50d908c9f39ea540cbf2c261ae49ed5da3cc5cefccfc285be99f7d3dfcbd1"
+      }
+    },
+    {
+      "path": "renpy/common/00iconbutton.rpyc",
+      "change": "modified",
+      "before": {
+        "path": "renpy/common/00iconbutton.rpyc",
+        "size": 2910,
+        "sha256": "b25d8d8ef73040e7ba96b6c86f4ddd71d581335fdd77589abf9a13059dc1f930"
+      },
+      "after": {
+        "path": "renpy/common/00iconbutton.rpyc",
+        "size": 3022,
+        "sha256": "d3ae8d21e43bebd0c01070d2df81cee20a391e09c40602afd8b44edf5703f9f7"
+      }
+    },
+    {
+      "path": "renpy/common/00images.rpyc",
+      "change": "modified",
+      "before": {
+        "path": "renpy/common/00images.rpyc",
+        "size": 1552,
+        "sha256": "0ae2d1cf41565149c0e6c857879ee46a88cc114662c8a1681ebf24401246264a"
+      },
+      "after": {
+        "path": "renpy/common/00images.rpyc",
+        "size": 1676,
+        "sha256": "55939ff96e095c67606dca74abe215eaeb18cff0a56729d58dacd56b1b91f70c"
+      }
+    },
+    {
+      "path": "renpy/common/00inputvalues.rpyc",
+      "change": "modified",
+      "before": {
+        "path": "renpy/common/00inputvalues.rpyc",
+        "size": 2968,
+        "sha256": "0d2a9b84a24dffb5cee3ec1b619eb65ac59faeddebba27e24a2d405ceddf43e7"
+      },
+      "after": {
+        "path": "renpy/common/00inputvalues.rpyc",
+        "size": 3090,
+        "sha256": "e87bbcdebe5b767a7e5a10f032545799ef425478ffc0797309dfa8de171d6b3f"
+      }
+    },
+    {
+      "path": "renpy/common/00keymap.rpyc",
+      "change": "modified",
+      "before": {
+        "path": "renpy/common/00keymap.rpyc",
+        "size": 9722,
+        "sha256": "ed1a59f17f5775432c8a79f5c026b35db868c311656a9f9b8a7c73df55e287c8"
+      },
+      "after": {
+        "path": "renpy/common/00keymap.rpyc",
+        "size": 9842,
+        "sha256": "c770c7f324131dcd9820f53013927b79d76ad2d9df26917cecc4d60ef8c05d00"
+      }
+    },
+    {
+      "path": "renpy/common/00layout.rpyc",
+      "change": "modified",
+      "before": {
+        "path": "renpy/common/00layout.rpyc",
+        "size": 8518,
+        "sha256": "47266c53f7e44e837237b5a5e952f185280f2790f9f5d90bbc6f050721f9d17b"
+      },
+      "after": {
+        "path": "renpy/common/00layout.rpyc",
+        "size": 8652,
+        "sha256": "e5974de77268afaed5de8411728b96703da25b741353d87510dd1e0f8773bfb0"
+      }
+    },
+    {
+      "path": "renpy/common/00library.rpyc",
+      "change": "modified",
+      "before": {
+        "path": "renpy/common/00library.rpyc",
+        "size": 7576,
+        "sha256": "46e3005a5543dd45d120c0017ffbfdccf7ce255db5347194440b388bba23fcb2"
+      },
+      "after": {
+        "path": "renpy/common/00library.rpyc",
+        "size": 7686,
+        "sha256": "eb744ecac4864214e9df12e39ac5818b08cf4fd1567617edccf1e7ea73298e77"
+      }
+    },
+    {
+      "path": "renpy/common/00mixers.rpyc",
+      "change": "modified",
+      "before": {
+        "path": "renpy/common/00mixers.rpyc",
+        "size": 1814,
+        "sha256": "761f8835702b56e336e73847b6582fb99620133cdb6e307704a1d2b12373b3e6"
+      },
+      "after": {
+        "path": "renpy/common/00mixers.rpyc",
+        "size": 1924,
+        "sha256": "59fef282a0f8f507bf4be7f136ead86869833a7b41ea60b8e3664cc5ad703ab0"
+      }
+    },
+    {
+      "path": "renpy/common/00musicroom.rpyc",
+      "change": "modified",
+      "before": {
+        "path": "renpy/common/00musicroom.rpyc",
+        "size": 6748,
+        "sha256": "b86beaae9f81222ded03f5088849b0a3fcbf8e2835e6ebf367597c1a94768981"
+      },
+      "after": {
+        "path": "renpy/common/00musicroom.rpyc",
+        "size": 6870,
+        "sha256": "e27f392410b7fffb8327c74599431ce5854973bc0fe497240cca97b33bd36cbd"
+      }
+    },
+    {
+      "path": "renpy/common/00nvl_mode.rpyc",
+      "change": "modified",
+      "before": {
+        "path": "renpy/common/00nvl_mode.rpyc",
+        "size": 7908,
+        "sha256": "a285c64c33a26b79de25305ce0c01b39bb96c878a7f42c3ce041571eff89b4ed"
+      },
+      "after": {
+        "path": "renpy/common/00nvl_mode.rpyc",
+        "size": 8024,
+        "sha256": "2601ed199286751ece81d8b5460f6c42df4362e923313dfa4ed91c9d815015f3"
+      }
+    },
+    {
+      "path": "renpy/common/00obsolete.rpyc",
+      "change": "modified",
+      "before": {
+        "path": "renpy/common/00obsolete.rpyc",
+        "size": 2754,
+        "sha256": "bd8389f4500b02d2f79a6d3aab2bfe25c822b6ea587e33a84d952a5f8416d29e"
+      },
+      "after": {
+        "path": "renpy/common/00obsolete.rpyc",
+        "size": 2860,
+        "sha256": "bf9049acf3087090bdf9de1e28646dfb675d860e17cb59074428b42741fc7245"
+      }
+    },
+    {
+      "path": "renpy/common/00performance.rpyc",
+      "change": "modified",
+      "before": {
+        "path": "renpy/common/00performance.rpyc",
+        "size": 4622,
+        "sha256": "68b56e08a254a2153f8d56682bdee0eaaa4d0d6a4706cda1e3f075e6b63ea00f"
+      },
+      "after": {
+        "path": "renpy/common/00performance.rpyc",
+        "size": 4736,
+        "sha256": "529b6ab58cc9545a760443f5c4782eb682197b6f677e3b72b1800acb5efca908"
+      }
+    },
+    {
+      "path": "renpy/common/00placeholder.rpyc",
+      "change": "modified",
+      "before": {
+        "path": "renpy/common/00placeholder.rpyc",
+        "size": 3746,
+        "sha256": "a8f75297e34bedea62c3823c38ef14470054bdf1e9b2a064b9fc042ff053a184"
+      },
+      "after": {
+        "path": "renpy/common/00placeholder.rpyc",
+        "size": 3854,
+        "sha256": "6b6a7733a60a532bd93e6b635a3e3243f0fee7ce9994a88861acc1efd1552e67"
+      }
+    },
+    {
+      "path": "renpy/common/00preferences.rpyc",
+      "change": "modified",
+      "before": {
+        "path": "renpy/common/00preferences.rpyc",
+        "size": 10306,
+        "sha256": "a36d75353c37ed770edfd447e46c0959a7aefbf75a7292a2296828df497c92a1"
+      },
+      "after": {
+        "path": "renpy/common/00preferences.rpyc",
+        "size": 10426,
+        "sha256": "ad5fe5ccbd9269fa71cab1bee11af069789c0d98acf709043ec82d11d8a0015a"
+      }
+    },
+    {
+      "path": "renpy/common/00sideimage.rpyc",
+      "change": "modified",
+      "before": {
+        "path": "renpy/common/00sideimage.rpyc",
+        "size": 2148,
+        "sha256": "62d27005fe3d66bdc31fc6debba704776315af0b139036ac2a7fde14306e18b4"
+      },
+      "after": {
+        "path": "renpy/common/00sideimage.rpyc",
+        "size": 2262,
+        "sha256": "ca27ac480bcc7c2a8dd5543272110d0520d519ae7c990a3a88d4ef6ca9477b67"
+      }
+    },
+    {
+      "path": "renpy/common/00splines.rpyc",
+      "change": "modified",
+      "before": {
+        "path": "renpy/common/00splines.rpyc",
+        "size": 3148,
+        "sha256": "5b3ff826525a85e68d90851f83c5dbdd61d62949b4f8aa7f6d6781221fac46bb"
+      },
+      "after": {
+        "path": "renpy/common/00splines.rpyc",
+        "size": 3258,
+        "sha256": "c50a0962ce55f8a6d3a3be351c8eba32d8f5ba66546266beea72a043b3f50bb5"
+      }
+    },
+    {
+      "path": "renpy/common/00start.rpyc",
+      "change": "modified",
+      "before": {
+        "path": "renpy/common/00start.rpyc",
+        "size": 9226,
+        "sha256": "6428a87c99d4afd8eda514620d1e6a2a91fb93de07d3ecd6d0238df3d92c9083"
+      },
+      "after": {
+        "path": "renpy/common/00start.rpyc",
+        "size": 9350,
+        "sha256": "84ff806d6294d602118106435a2063664103bdf0022fb08cd2cd975a19d9ed48"
+      }
+    },
+    {
+      "path": "renpy/common/00style.rpyc",
+      "change": "modified",
+      "before": {
+        "path": "renpy/common/00style.rpyc",
+        "size": 14592,
+        "sha256": "4baae880f3f4758e4d8ed9e4da629513b05a69741f2038bb35303b3cdab9bcf7"
+      },
+      "after": {
+        "path": "renpy/common/00style.rpyc",
+        "size": 14712,
+        "sha256": "c6f1e865a9b9b2ee6e606216774d5502a6f4ff7afed55d87abf4c0218e2add1b"
+      }
+    },
+    {
+      "path": "renpy/common/00stylepreferences.rpyc",
+      "change": "modified",
+      "before": {
+        "path": "renpy/common/00stylepreferences.rpyc",
+        "size": 3228,
+        "sha256": "8b2102977795afdc1f0d5e15bd264f134c2d6b43dab9deb1de39827e269f73c0"
+      },
+      "after": {
+        "path": "renpy/common/00stylepreferences.rpyc",
+        "size": 3334,
+        "sha256": "ab2b11c2ff016d1048420c4377455ab268224f6929864f317c882486928d9fee"
+      }
+    },
+    {
+      "path": "renpy/common/00themes.rpyc",
+      "change": "modified",
+      "before": {
+        "path": "renpy/common/00themes.rpyc",
+        "size": 12594,
+        "sha256": "f57cf833de4b4e65edf9b36147c7372518aae12971caac6ecc0bad2814a2ed31"
+      },
+      "after": {
+        "path": "renpy/common/00themes.rpyc",
+        "size": 12714,
+        "sha256": "5e36ea8b3fb2fa4f18a3c4040d3fbb435590fb40cd76899ef2fd736c8f342190"
+      }
+    },
+    {
+      "path": "renpy/common/00updater.rpyc",
+      "change": "modified",
+      "before": {
+        "path": "renpy/common/00updater.rpyc",
+        "size": 21980,
+        "sha256": "d9e60af2864622bd48e961f6cdda5f44c206b7e5a4e719ee62324de31886ffd6"
+      },
+      "after": {
+        "path": "renpy/common/00updater.rpyc",
+        "size": 22084,
+        "sha256": "407bd6902d437810b3f39395b24e1ebdadf8b8a38b1ae720b6aa76c43646cf96"
+      }
+    },
+    {
+      "path": "renpy/common/00voice.rpyc",
+      "change": "modified",
+      "before": {
+        "path": "renpy/common/00voice.rpyc",
+        "size": 9256,
+        "sha256": "0af66efd87bc4bc1843021c463edbc059f8086c13ecc2f16b061f1696ac2816b"
+      },
+      "after": {
+        "path": "renpy/common/00voice.rpyc",
+        "size": 9374,
+        "sha256": "292a670d3318a50444576a9dbbd4e80ab49d5558db8949e4960586b7c6d06716"
+      }
+    },
+    {
+      "path": "renpy/common/_errorhandling.rpymc",
+      "change": "modified",
+      "before": {
+        "path": "renpy/common/_errorhandling.rpymc",
+        "size": 23692,
+        "sha256": "6fb94742d78bca8f03fa9afa42767ecdf314834fdce099e808c9d1cd1af60491"
+      },
+      "after": {
+        "path": "renpy/common/_errorhandling.rpymc",
+        "size": 23830,
+        "sha256": "bc31e3ef22efe78c80e78846d5187abbc6fc91cfc3edb34a24ca64b80f3b066e"
+      }
+    }
+  ],
+  "compile_exit_code": 0,
+  "compile_log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "source_rpy_file_count": 32,
+  "source_rpy_files": [
+    {
+      "path": "game/f12_korean_bootstrap.rpy",
+      "size": 3056,
+      "sha256": "2236231a92b718114f5247e146418503a98b082ce51eedcaa8d314271781cf59"
+    },
+    {
+      "path": "game/tl/korean/f12_slot.rpy",
+      "size": 1063,
+      "sha256": "df3086751c40ddae7d201190f70f4146ee5e24909d16f2a6b80c6985db02dd4e"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_001.rpy",
+      "size": 128421,
+      "sha256": "bb32dca15d5b59c1ae519dc5695121750715d88a209d0143ac4178e0ff9e6dcf"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_002.rpy",
+      "size": 101365,
+      "sha256": "177d4a7bfbf23aa27ffaaa5baeb861c4ab5aac417f7732b166ad4560671ff71e"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_003.rpy",
+      "size": 220700,
+      "sha256": "55d8350a17d553cf43e576db20182fc4aa3461404c6c6ee058cc5dc549a6d00b"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_004.rpy",
+      "size": 161068,
+      "sha256": "69b4c10b5bc7460b62813b72f7944bdcfc13c3a3042eef1ef2648a3dca73eb32"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_005_1.rpy",
+      "size": 238907,
+      "sha256": "ba73fc9ba490c7976a1c5617753a65f0e10f308a76f3e57d992997602282a5a5"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_005_2.rpy",
+      "size": 154094,
+      "sha256": "0a858368254bcf27f76a6a05186dfc12f347065d31880a40036e30e6d4690854"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_006.rpy",
+      "size": 99515,
+      "sha256": "1b29ddebc58b288c4a73469fc895d0cf1b35b2ce545d7c3a32dfeb50a377dd21"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_007_1.rpy",
+      "size": 158695,
+      "sha256": "a62c50bc39fa91f8eb1da2186801516bb74f60f460e82667e0130b6142e44c1c"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_007_2.rpy",
+      "size": 189894,
+      "sha256": "aa83f57a9822d512afd85c39a043e3375d50c0f449b5bd14107f4b5ce5d1c1dc"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_008.rpy",
+      "size": 223957,
+      "sha256": "c88ed3f7d1ce37b2a657dca2a27530bcd84098491482419eb8eac60f1fea8344"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_009.rpy",
+      "size": 240782,
+      "sha256": "4dbdcb48f2e34a925396aceb77841d1ee62c37572145da108e0733b178b6fcb4"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_010.rpy",
+      "size": 192131,
+      "sha256": "7af9402ddbe15a2df43524a22a7cfd711347343c7ee2dccca46fa0c10fb68df0"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_011_01.rpy",
+      "size": 59499,
+      "sha256": "9541e999077aff977d53c023c81b9835fe5370ea110bb9f480b47db525b2752d"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_011_01F.rpy",
+      "size": 30391,
+      "sha256": "5d0647356714133c8f9fc5c71198df70f251191335dac2f847dd77d2831c674b"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_011_01G.rpy",
+      "size": 27427,
+      "sha256": "e302d10862c5b14a36610e98b656f8d0348e439c3023a4501c521625ab7c8e5a"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_011_01H.rpy",
+      "size": 8772,
+      "sha256": "60e061a7f98d88e5ea7bf17f438f31b58bfd7745480f298bb754d65fcbe3f002"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_011_02.rpy",
+      "size": 21715,
+      "sha256": "88dc0029824c64c2b4e2e23443de783ee109c3803e6741e215d4556c620e9e45"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_011_02GH.rpy",
+      "size": 46087,
+      "sha256": "3b8ef2b973bdbb2689ee19a94fffd7d5666707eed07914dbd6ae4f61cdb61b95"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_012_01F.rpy",
+      "size": 169937,
+      "sha256": "39e3d9af72d7a1fea46548bd464a9dbf8c862d793574f43437f82e48faa09945"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_012_01GH.rpy",
+      "size": 42123,
+      "sha256": "5c884f5b787911311902c8ac443169435e8fc77734823757adfbc185bc5a0710"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_012_02.rpy",
+      "size": 25851,
+      "sha256": "97ce090ced2bcd57e21e4ab7da841949b74b54e9b9ace35b1cdfbc182eb693e3"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_BAD_END_01.rpy",
+      "size": 6990,
+      "sha256": "64a4cca6de670261cd34a7fafb2939a5376e74a4b3d6b569a97b185a78c576c0"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_BAD_END_02.rpy",
+      "size": 11072,
+      "sha256": "26651727285f0a133ce0625e3fb122b5b93730a70859522e4352acd7c1379329"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_BAD_END_03.rpy",
+      "size": 3181,
+      "sha256": "4e16ca82bd1effbd97dd8a3c48f8700ad94d06ce91d8bf59300639ad9036dc11"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_BAD_END_04.rpy",
+      "size": 5069,
+      "sha256": "8678c1fade13f5b89d7af379aa0e5114374704a646e133c18f4f7a82f954b1f3"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_MIHARU_END.rpy",
+      "size": 2793,
+      "sha256": "544276f8c33edb32a6d1c8837f16b6c3d390dcdf15f51db9b85b8a2d1c356698"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_NG_plus.rpy",
+      "size": 24168,
+      "sha256": "78d47afe8c7d850aa8db4ba292bb4f956cb527865488116cdd5f584d7566f7a9"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_TRUE_END.rpy",
+      "size": 16572,
+      "sha256": "f1b516d9312da2c6db37efa26f7fb109482159c8c302eec40eb59737155c657a"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_UNHAPPY_END.rpy",
+      "size": 11821,
+      "sha256": "6d7828ea33a18b9124a8d4f9cc68c716cf3a842f528c9b84296cb0bfb9c895fa"
+    },
+    {
+      "path": "game/tl/korean/strings/scenario_strings.rpy",
+      "size": 429074,
+      "sha256": "10238bccafb8528011be71c7b0f2b486b042f45991b19d04571584aaa36d5cdb"
+    }
+  ],
+  "payload_file_count": 32,
+  "payload_files": [
+    {
+      "path": "game/f12_korean_bootstrap.rpyc",
+      "size": 4172,
+      "sha256": "e74f5856d0270a4f403130354b8f814049b1001341c63a1bf20532708842e9b9"
+    },
+    {
+      "path": "game/tl/korean/f12_slot.rpyc",
+      "size": 1240,
+      "sha256": "9e9936da2bd83b08d90fb6dfcc6976ddcf0447e1223f598f990003a7e4aa9829"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_001.rpyc",
+      "size": 213484,
+      "sha256": "11300fa46a8b97314223c20125be8e5c7a4c7ffd85d73405c740f35bdbd163ef"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_002.rpyc",
+      "size": 169656,
+      "sha256": "f41622c706d4c450ce8d54974c0a416c4b530998885239eea2efb19776ddd33e"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_003.rpyc",
+      "size": 368018,
+      "sha256": "40103a2a97b66f1447b85b5ab1e84b4e9dab9d5a98ed4c07a7b6052102f2c555"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_004.rpyc",
+      "size": 263504,
+      "sha256": "3b91c00d5ef64bf50faa495594fa18f9fe25fe2cc5d39b5652a735a5bda22e57"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_005_1.rpyc",
+      "size": 396122,
+      "sha256": "2f3bfc8ffbfbaaf2477289d42ca1fa7410a820fc734d17e60b3395c9a8db8b91"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_005_2.rpyc",
+      "size": 254004,
+      "sha256": "985253d9102f1e79b0701dabf267dd29a675a028cf3c7c24c0390d60ec30dc8f"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_006.rpyc",
+      "size": 179814,
+      "sha256": "71afb7a31f0d1aba71aac2fee23cd12f41ffc002f56539ecf011cbd6aeeed38e"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_007_1.rpyc",
+      "size": 264160,
+      "sha256": "d91a1d5d31692f5195d300de67b65c8943bb5f293a18866c2e4eac5a71ccbd51"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_007_2.rpyc",
+      "size": 338482,
+      "sha256": "e66e895346aa3abd8ab54474c0142248d1cd2842f43927444213076b2965d58b"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_008.rpyc",
+      "size": 368446,
+      "sha256": "ad656980c1c676aa3491d1971e2c05e31f88a16b69e30369d5c396ce9adf520b"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_009.rpyc",
+      "size": 389904,
+      "sha256": "cb19a9cf3d24b816a4eb43b982b1b0e0f21437ea2e841a64662fd8daf5006eaf"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_010.rpyc",
+      "size": 325144,
+      "sha256": "6fa7fe9c2941c68dc92be6da64cf72cb87511fddc85599751da002def36273d8"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_011_01.rpyc",
+      "size": 99240,
+      "sha256": "1e5ec1f96ced853588b3d2e70f0b05699eec78501781b5bde790e8862e75c5c9"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_011_01F.rpyc",
+      "size": 52634,
+      "sha256": "db7dc26249a154a1a94a4dac438e6ec1b3990059f8616c743578c7f79bfd710d"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_011_01G.rpyc",
+      "size": 48318,
+      "sha256": "3a78dc692fe43e7dbcd93cf20c786ed69d87f888dc73a4f131acf5db6e475e6e"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_011_01H.rpyc",
+      "size": 17064,
+      "sha256": "ab04a2cb13daa509806d2992b14cd7489640b5e31f995a64558f6e6820816ac6"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_011_02.rpyc",
+      "size": 35946,
+      "sha256": "e396657dc8e273af607295459cdbef099bf9a9786e1267af246010d3f092b24a"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_011_02GH.rpyc",
+      "size": 78996,
+      "sha256": "5dfb7d5d77a54afc89775882b5737505b4a4038a03b3012e375c9aa85dc0f6e4"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_012_01F.rpyc",
+      "size": 285726,
+      "sha256": "2a55e6ca5eaf48e7a5a5aa88b08f4db53bfdea1c3d3cf2af365e861fa2a729c0"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_012_01GH.rpyc",
+      "size": 73968,
+      "sha256": "a63890534336b883c882c4ff862f2ea75f9546a1576b4a78ab4ce350b071635a"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_012_02.rpyc",
+      "size": 49180,
+      "sha256": "365359fc076e1a05efa743dcce76ad88c2f052b4088c1ae2b9fdb620e5b3418d"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_BAD_END_01.rpyc",
+      "size": 14648,
+      "sha256": "76c7a309a0d08bb4610f8cac7310c9ac577f424f39b58e6c38dd1e9164978354"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_BAD_END_02.rpyc",
+      "size": 21302,
+      "sha256": "931824a2d7dc10a4c67ae68722768ccad837e54e895c7eb2c12896fbb0e53bef"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_BAD_END_03.rpyc",
+      "size": 6946,
+      "sha256": "a5d53bf3e5a9352cd812f9ce80262600c6659af64d6c7c5fa11a3384132fe488"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_BAD_END_04.rpyc",
+      "size": 11378,
+      "sha256": "cf6bc893d3ae7985c99f6354ec1dc090efc6f9eaf394403cfec863a242749a9f"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_MIHARU_END.rpyc",
+      "size": 7008,
+      "sha256": "fd10cfb7f3651b1a0f1e120b24e2965cf97c115e978937033992604fb44b89c1"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_NG_plus.rpyc",
+      "size": 43208,
+      "sha256": "06aa71e940859f4fb64cc0184198e1290834cf09e0386fdeab8bcbf56d195e0f"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_TRUE_END.rpyc",
+      "size": 31696,
+      "sha256": "88249b2f20700d6c29855a2b3c68802344c2068511ca9f014f04cd97c7a2ad67"
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_UNHAPPY_END.rpyc",
+      "size": 23338,
+      "sha256": "e6d142089479d538e10c4aa9b89ae6d7254034ba78fbf3ab0289be971a6ad958"
+    },
+    {
+      "path": "game/tl/korean/strings/scenario_strings.rpyc",
+      "size": 214344,
+      "sha256": "76f5d3b02260f41f7a23d2b99ab35302e834bc8826e1b52c8405eccd5f46a472"
+    }
+  ]
+}

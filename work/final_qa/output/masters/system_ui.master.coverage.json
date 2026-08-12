@@ -1,0 +1,20 @@
+{
+  "inputs": [
+    "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\system_ui\\characters.draft.json",
+    "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\system_ui\\gamedata.draft.json",
+    "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\system_ui\\screens.draft.json",
+    "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\system_ui\\script.draft.json"
+  ],
+  "catalog_records": 739,
+  "unique_runtime_string_keys": 732,
+  "duplicate_context_aliases": 7,
+  "target_conflicts": 0,
+  "master": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\system_ui.master.json",
+  "review_packets": [
+    "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\review_packets\\A_UI\\A_UI__system_ui__0001-0160__160.tsv",
+    "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\review_packets\\A_UI\\A_UI__system_ui__0161-0320__160.tsv",
+    "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\review_packets\\A_UI\\A_UI__system_ui__0321-0480__160.tsv",
+    "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\review_packets\\A_UI\\A_UI__system_ui__0481-0640__160.tsv",
+    "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\review_packets\\A_UI\\A_UI__system_ui__0641-0732__92.tsv"
+  ]
+}

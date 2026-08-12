@@ -1,0 +1,25 @@
+001	L0031	narration	narrator	オデットが無事に魯を脱落させたのを夢の世界で見届けたオレは、気付けば朝を迎えていた。
+002	L0033	narration	narrator	夢の世界へ移動したときに起きていたのか寝ていたのか、記憶ははっきりしていなかった。
+003	L0035	narration	narrator	時差のために日本の０時を意識していなかったせいではあるが、今後、日曜日は気をつけなければならない。
+004	L0037	narration	narrator	ホテルを出る準備を終えたオレたちは、ルームサービスで頼んだモーニングを食べながら話していた。
+005	L0042	dialogue	federico	「でよう、結局魯の未練はなんだったんだ？」
+006	L0047	dialogue	odette	「何だ。まだ予想がついてなかったのか。お前が自分で言ってたんだぞ？」
+007	L0052	dialogue	federico	「は？　オレが、か？」
+008	L0054	narration	narrator	オレは自分の発言を思い出しながら、逡巡した。
+009	L0059	dialogue	federico	「やっぱり愛人関係なのか？」
+010	L0064	dialogue	odette	「ま、いいか。それじゃ全く気付いてないみたいだしよ」
+011	L0066	narration	narrator	オデットはカップに入ったカフェ・アメリカーノを飲み干してから言った。
+012	L0068	narration	narrator	エスプレッソをお湯で薄めたような飲み物をよく飲めるもんだ。
+013	L0073	dialogue	odette	「犬、だよ」
+014	L0078	dialogue	federico	「……犬？　犬ってあの犬だよな？」
+015	L0083	dialogue	odette	「ああ。だが、あの愛人が飼ってた犬ってわけじゃねえ」
+016	L0088	dialogue	odette	「あいつは犬と一生を共にしたかったんだ。子犬から育てて、成犬になれば友人になり、最期を看取る」
+017	L0093	dialogue	odette	「ありふれた経験だが、得難い経験でもある」
+018	L0104	dialogue	federico	「ふぅん、犬ごときが未練になるもんかね」
+019	L0109	dialogue	odette	「んなもん、人それぞれだろうに。お前の国でもペットを飼うのは普通だろ？」
+020	L0114	dialogue	federico	「オレの国では、な」
+021	L0116	narration	narrator	オレの身の上話になっても嫌なので、オレは話を逸らすことにした。
+022	L0121	dialogue	federico	「ところで、何でそれが分かったんだ？」
+023	L0126	dialogue	odette	「お前が愛人のところに犬がいるって言っていたのを聞いてピンと来たんだ。もしかして――ってな」
+024	L0131	dialogue	odette	「んで調べてたら、魯の妻が犬アレルギーだったって判明した。はははは、そりゃ飼えないわけだ」
+025	L0133	narration	narrator	オデットはさらに魯の情報を話した。

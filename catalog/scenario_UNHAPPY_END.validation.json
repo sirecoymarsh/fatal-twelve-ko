@@ -1,0 +1,55 @@
+{
+  "schema_version": "fatal-twelve-renpy-catalog-v1",
+  "validated_at_utc": "2026-08-10T10:02:50.311107+00:00",
+  "catalog": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\catalog_design\\scenario_UNHAPPY_END.catalog.jsonl",
+  "records": 87,
+  "require_translated": false,
+  "source_rebuild_performed": true,
+  "metadata_checked": true,
+  "errors": [],
+  "warnings": [],
+  "passed": true,
+  "meta_checks": {
+    "catalog_hash": {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\catalog_design\\scenario_UNHAPPY_END.catalog.jsonl",
+      "size": 285204,
+      "sha256": "c1496aae936f489e55293c1934ab7931ee0e519753f7add5e3ce41a1a81b6b44"
+    },
+    "statistics": {
+      "records": 87,
+      "lanes": {
+        "dialogue": 38,
+        "narration": 49
+      },
+      "voiced_records": 38,
+      "translation_id_records": 87,
+      "menu_key_records": 0,
+      "reference_present": 87,
+      "reference_missing": 0,
+      "speakers": {
+        "<narrator>": 49,
+        "alan_unk5": 5,
+        "chan_unk1": 4,
+        "chanho_unk1": 1,
+        "federico_unk3": 5,
+        "keiko_unk3": 3,
+        "lete": 1,
+        "miharu": 3,
+        "odette_unk3": 4,
+        "rinka": 5,
+        "scale_unk2": 2,
+        "sonya_unk2": 2,
+        "ushizuka_unk2": 1,
+        "yuu_unk7": 2
+      },
+      "labels": {
+        "fUNHAPPY": 87
+      },
+      "protected_token_kinds": {
+        "number": 2
+      },
+      "japanese_codepoints_in_source_text": 1898,
+      "untranslated": 87
+    }
+  }
+}

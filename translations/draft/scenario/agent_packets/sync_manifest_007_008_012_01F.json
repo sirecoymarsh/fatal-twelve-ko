@@ -1,0 +1,152 @@
+﻿[
+    {
+        "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\patch_architecture\\draft_007_2_351_800.json",
+        "file":  "draft_007_2_351_800.json",
+        "sha256":  "7ae4c989fb9454e7fd92561e4ff00e3bf31ef0d844412f3ca00055c693051f55",
+        "bytes":  605370
+    },
+    {
+        "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\patch_architecture\\draft_007_2_351_800.rpy",
+        "file":  "draft_007_2_351_800.rpy",
+        "sha256":  "7a6fea9863234580c450c6e44db964a52094afea80f02b484f1aa586925854b3",
+        "bytes":  135398
+    },
+    {
+        "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\patch_architecture\\draft_007_2_351_800.structure_check.json",
+        "file":  "draft_007_2_351_800.structure_check.json",
+        "sha256":  "174085f8a69388f3a53c9aac136ee3580728e913b7043a14219e80ab7de8b68d",
+        "bytes":  2794
+    },
+    {
+        "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\catalog_design\\draft_007_2_801_1150.json",
+        "file":  "draft_007_2_801_1150.json",
+        "sha256":  "6e4158b3ca67076cbc720e569241562241e12eb8014a93b38939ff615478eb88",
+        "bytes":  530017
+    },
+    {
+        "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\catalog_design\\draft_007_2_801_1150.rpy",
+        "file":  "draft_007_2_801_1150.rpy",
+        "sha256":  "7f5df6449b0ef053ea38b3868340eb23ca479877f11eed8c4daf64e6e3a0c68d",
+        "bytes":  46553
+    },
+    {
+        "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\catalog_design\\draft_007_2_801_1150.assembly.json",
+        "file":  "draft_007_2_801_1150.assembly.json",
+        "sha256":  "3c5af3cd997e765a7264f7b79e98ea8b6094898a9e82adbaeeefabdc0812f5e0",
+        "bytes":  1076
+    },
+    {
+        "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\root_drafts\\draft_007_2_1151_end.json",
+        "file":  "draft_007_2_1151_end.json",
+        "sha256":  "5fd9f337c37f7ec90f8402379571c89ae7b27ef57de91600ba4c60e0388da4e9",
+        "bytes":  487795
+    },
+    {
+        "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\root_drafts\\draft_007_2_1151_end.rpy",
+        "file":  "draft_007_2_1151_end.rpy",
+        "sha256":  "e7921b625e24cade7c9b19d663208fc68048c2c4fa2c537c82b4c7a3349d7d5a",
+        "bytes":  41380
+    },
+    {
+        "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\root_drafts\\draft_007_2_1151_end.assembly.json",
+        "file":  "draft_007_2_1151_end.assembly.json",
+        "sha256":  "903923acec813c6f6c893077dc920232f583b6c5e32756db964a0138c589ff15",
+        "bytes":  1071
+    },
+    {
+        "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\draft_008_001_400.json",
+        "file":  "draft_008_001_400.json",
+        "sha256":  "fa2aeffd0fec25663517702853561f8accdf0c6104d1fedf384ffc0b6e5ff741",
+        "bytes":  568764
+    },
+    {
+        "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\draft_008_001_400.rpy",
+        "file":  "draft_008_001_400.rpy",
+        "sha256":  "c731ed6cf9b894c0178c7cecefb5663314ea05a4b4d0b140f4417f1fcbb9084e",
+        "bytes":  130516
+    },
+    {
+        "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\draft_008_401_800.json",
+        "file":  "draft_008_401_800.json",
+        "sha256":  "c08cd76d7a0d6a5483a13d4f3c0a9e37cf254292b1511507d6d5aee0c2fbd55c",
+        "bytes":  561571
+    },
+    {
+        "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\draft_008_401_800.rpy",
+        "file":  "draft_008_401_800.rpy",
+        "sha256":  "dbab7cc3e2e819b414422a8cb4b790ef6ad6d0409778d8c30ae6998da5fc5ef2",
+        "bytes":  125853
+    },
+    {
+        "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\patch_architecture\\draft_008_801_1150.json",
+        "file":  "draft_008_801_1150.json",
+        "sha256":  "e7a84dbef821000101c61aa1737d0a8e03b0bfe9f6bc26372a4e76fb3b936153",
+        "bytes":  488622
+    },
+    {
+        "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\patch_architecture\\draft_008_801_1150.rpy",
+        "file":  "draft_008_801_1150.rpy",
+        "sha256":  "5c578fb0ecd220a6bf2ae4f6a6716bca7a9c98138c0a7e8066108fdf93c4b0e8",
+        "bytes":  113815
+    },
+    {
+        "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\patch_architecture\\draft_008_801_1150.structure_check.json",
+        "file":  "draft_008_801_1150.structure_check.json",
+        "sha256":  "f1a1537a68eae88426b0abb6fc2ddc4a4332dc3a0246cb71024f3cad0f0a6f40",
+        "bytes":  2794
+    },
+    {
+        "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\root_drafts\\draft_008_1151_end.json",
+        "file":  "draft_008_1151_end.json",
+        "sha256":  "df68c958ae71f1e2e9b86c8499d153821988449227bd446db68aa802868e01ac",
+        "bytes":  551458
+    },
+    {
+        "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\root_drafts\\draft_008_1151_end.rpy",
+        "file":  "draft_008_1151_end.rpy",
+        "sha256":  "cab06aa0cffa34492403339b6fb37cf44db08e336c8089c378019776761054ec",
+        "bytes":  49704
+    },
+    {
+        "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\root_drafts\\draft_008_1151_end.assembly.json",
+        "file":  "draft_008_1151_end.assembly.json",
+        "sha256":  "ca54e99232647b8308c643a66725500b1791b2115a4cdfc4552eb6e2fe22af3b",
+        "bytes":  1067
+    },
+    {
+        "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\root_drafts\\draft_012_01F_001_300.json",
+        "file":  "draft_012_01F_001_300.json",
+        "sha256":  "f97a25c3444f82a3ae1924da1314224f7c1b79f47d94d0c622d1361b30017d1d",
+        "bytes":  491454
+    },
+    {
+        "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\root_drafts\\draft_012_01F_001_300.rpy",
+        "file":  "draft_012_01F_001_300.rpy",
+        "sha256":  "46dcc65c4809d3a9bf3fd2d962f9598ef67517280623e1f19659da68628eff97",
+        "bytes":  46007
+    },
+    {
+        "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\root_drafts\\draft_012_01F_001_300.assembly.json",
+        "file":  "draft_012_01F_001_300.assembly.json",
+        "sha256":  "4e47f8fc7680146c336aa296c11282f0261e24798b9a3bd833b0f836179e1795",
+        "bytes":  1069
+    },
+    {
+        "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\root_drafts\\draft_012_01F_301_600.json",
+        "file":  "draft_012_01F_301_600.json",
+        "sha256":  "42a935cd7c4dcf0f86377f60bfb544cbfcd6adddc53241fd7e3a3ac2beb98c6b",
+        "bytes":  479652
+    },
+    {
+        "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\root_drafts\\draft_012_01F_301_600.rpy",
+        "file":  "draft_012_01F_301_600.rpy",
+        "sha256":  "fe53fe72b9ba2690c9542f24459f0ad745967f2556a59f6eb27fe3e601fba2dc",
+        "bytes":  44053
+    },
+    {
+        "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\root_drafts\\draft_012_01F_301_600.assembly.json",
+        "file":  "draft_012_01F_301_600.assembly.json",
+        "sha256":  "d92a27f75bc4cf7220bdd33cb4fee143b53c7bfb8e1d1b88fb8ae1396291b433",
+        "bytes":  1071
+    }
+]

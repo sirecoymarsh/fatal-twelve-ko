@@ -1,0 +1,174 @@
+{
+  "schema_version": "fatal-twelve-ko-structure-check-v1",
+  "subject": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\patch_architecture\\draft_009_801_1200.json",
+  "validation_scope": "structure_only",
+  "translation_qa_performed": false,
+  "translation_qa": "deferred_until_full_first_draft",
+  "passed": true,
+  "summary": {
+    "catalog_total_records": 1588,
+    "draft_entries": 400,
+    "command_index_start": 801,
+    "command_index_end": 1200,
+    "first_source_line": 3107,
+    "last_source_line": 4540,
+    "lanes": {
+      "choice_prompt": 1,
+      "dialogue": 129,
+      "dialogue_choice_prompt": 1,
+      "narration": 265,
+      "narrative_choice": 4
+    },
+    "translate_blocks": 394,
+    "voice_lines": 129,
+    "json_voice_records": 130,
+    "menu_entries": 6,
+    "unique_translation_ids": 394
+  },
+  "hashes": {
+    "japanese_source_sha256": "2ca1bc76b28a36172bed17b993999e71da42bfe9e110f9e09bd9d125f4dc126c",
+    "catalog_sha256": "acba3c94ebbf88c9d06790bd5ae9902901cabe2dfaafe97437da53b73641b20e",
+    "catalog_meta_sha256": "2fc1dd66ee0f4b02351d57eb2ee9ab136f4641b7d2814e30449910a3d9ecfe2f",
+    "catalog_validation_sha256": "a94119be3abbb0108b9bbc9011c258840da95df2255dd11b00f699108ff8d75e",
+    "draft_json_sha256": "91c5e1564acad700c14079fd57bb3293f955b994450ce7bb313904a272532fc8",
+    "draft_rpy_sha256": "71c28d99440e07ef144660fe8e00e7362046d4b44ba6ed97d47eb88d55833844"
+  },
+  "checks": {
+    "exact_range": {
+      "passed": true,
+      "detail": {
+        "expected_count": 400,
+        "catalog_count": 400,
+        "draft_count": 400,
+        "catalog_first_last": [
+          801,
+          1200
+        ],
+        "draft_first_last": [
+          801,
+          1200
+        ]
+      }
+    },
+    "packet_metadata": {
+      "passed": true
+    },
+    "packet_flags": {
+      "passed": true
+    },
+    "exact_catalog_identity": {
+      "passed": true,
+      "detail": {
+        "mismatch_count": 0,
+        "mismatches": []
+      }
+    },
+    "entry_flags_and_nonempty": {
+      "passed": true,
+      "detail": {
+        "bad_commands": []
+      }
+    },
+    "protected_token_multisets": {
+      "passed": true,
+      "detail": {
+        "mismatch_count": 0,
+        "mismatches": []
+      }
+    },
+    "translate_blocks": {
+      "passed": true,
+      "detail": {
+        "blocks": 394,
+        "unique_ids": 394
+      }
+    },
+    "translate_id_order": {
+      "passed": true
+    },
+    "control_voice_display_tail": {
+      "passed": true,
+      "detail": {
+        "mismatch_count": 0,
+        "mismatches": []
+      }
+    },
+    "menu_strings_lane": {
+      "passed": true,
+      "detail": {
+        "expected_count": 6,
+        "actual_count": 6,
+        "expected_pairs": [
+          [
+            "「こんな時にっ……！」",
+            "「이럴 때……!」"
+          ],
+          [
+            "出ない",
+            "받지 않는다"
+          ],
+          [
+            "出る",
+            "받는다"
+          ],
+          [
+            "アランさんは悠長な口調で、そう言った。",
+            "아란 씨는 느긋한 말투로 그렇게 말했다."
+          ],
+          [
+            "切る",
+            "끊는다"
+          ],
+          [
+            "切らない",
+            "끊지 않는다"
+          ]
+        ],
+        "actual_pairs": [
+          [
+            "「こんな時にっ……！」",
+            "「이럴 때……!」"
+          ],
+          [
+            "出ない",
+            "받지 않는다"
+          ],
+          [
+            "出る",
+            "받는다"
+          ],
+          [
+            "アランさんは悠長な口調で、そう言った。",
+            "아란 씨는 느긋한 말투로 그렇게 말했다."
+          ],
+          [
+            "切る",
+            "끊는다"
+          ],
+          [
+            "切らない",
+            "끊지 않는다"
+          ]
+        ]
+      }
+    },
+    "voice_count": {
+      "passed": true,
+      "detail": {
+        "expected_explicit_rpy": 129,
+        "actual_explicit_rpy": 129,
+        "expected_json_including_menu_prompt": 130,
+        "actual_json_including_menu_prompt": 130
+      }
+    },
+    "catalog_source_rebuild_validation": {
+      "passed": true,
+      "detail": {
+        "records": 1588,
+        "errors": 0,
+        "warnings": 0,
+        "source_rebuild_performed": true
+      }
+    }
+  }
+}

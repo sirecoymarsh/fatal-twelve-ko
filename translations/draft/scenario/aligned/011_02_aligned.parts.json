@@ -1,0 +1,51 @@
+{
+  "schema_version": "fatal-twelve-multipart-alignment-v1",
+  "generated_at_utc": "2026-08-10T10:28:04.892163+00:00",
+  "aligned_json": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\011_02_aligned.json",
+  "parts": [
+    {
+      "input": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\011_02_part001_source_only.json",
+        "size": 44440,
+        "sha256": "7b85c47e25bbcf21d393b635a98e8b2c555f02c83878f955df8fc8cd5ce71656"
+      },
+      "entry_range": [
+        1,
+        65
+      ],
+      "entries": 65,
+      "draft_ko_sha256_before": "f2c26e358f99525c781aba8582b20a9257f79cf6b7ac77391db06c7116d1228a",
+      "draft_ko_sha256_after": "f2c26e358f99525c781aba8582b20a9257f79cf6b7ac77391db06c7116d1228a",
+      "source_jp_sha256_before": "f42f8a048945ee5a78c4fbd2ed5f54761f30e0700b4cae539afd37ddb615ffa8",
+      "source_jp_sha256_after": "f42f8a048945ee5a78c4fbd2ed5f54761f30e0700b4cae539afd37ddb615ffa8",
+      "catalog_sequence": [
+        1,
+        65
+      ],
+      "translation_text_modified": false
+    },
+    {
+      "input": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\011_02_part002_source_only.json",
+        "size": 47321,
+        "sha256": "79a6d55c94c161020db01b4a8021952de4966557c5f398088ea6363829552cb2"
+      },
+      "entry_range": [
+        66,
+        131
+      ],
+      "entries": 66,
+      "draft_ko_sha256_before": "8398582931158bb83536bc28c494c12ada3d6ecc609392fe74bf9864f2552dde",
+      "draft_ko_sha256_after": "8398582931158bb83536bc28c494c12ada3d6ecc609392fe74bf9864f2552dde",
+      "source_jp_sha256_before": "fd5ab5e34ca9c2e50a3a5177e67849d454fde462c17933f5c185ba63ef26da08",
+      "source_jp_sha256_after": "fd5ab5e34ca9c2e50a3a5177e67849d454fde462c17933f5c185ba63ef26da08",
+      "catalog_sequence": [
+        66,
+        131
+      ],
+      "translation_text_modified": false
+    }
+  ],
+  "translation_text_modified": false,
+  "translation_QA_performed": false
+}

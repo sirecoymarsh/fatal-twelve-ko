@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-10T00:00:00+09:00",
+  "input_root": "F:\\DOWN\\Fatal.Twelve.Incl.DLC\\Fatal.Twelve.Incl.DLC\\Fatal Twelve",
+  "files": [
+    {
+      "relative_path": "game/scenario.rpa",
+      "absolute_input_path": "F:\\DOWN\\Fatal.Twelve.Incl.DLC\\Fatal.Twelve.Incl.DLC\\Fatal Twelve\\game\\scenario.rpa",
+      "size": 5102486,
+      "sha256": "ea39387ae13432a79ffe4601af7b50478d063432ce3b7bc4013c92e09f036d22"
+    },
+    {
+      "relative_path": "game/system.rpa",
+      "absolute_input_path": "F:\\DOWN\\Fatal.Twelve.Incl.DLC\\Fatal.Twelve.Incl.DLC\\Fatal Twelve\\game\\system.rpa",
+      "size": 199203732,
+      "sha256": "a298b88f12c98435b015a647b51f5a35987ea4d714b5bf92e90972f3fcf6b648"
+    },
+    {
+      "relative_path": "game/tl.rpa",
+      "absolute_input_path": "F:\\DOWN\\Fatal.Twelve.Incl.DLC\\Fatal.Twelve.Incl.DLC\\Fatal Twelve\\game\\tl.rpa",
+      "size": 78290069,
+      "sha256": "ad628d5aa7b0601e69fa99c13d6f67c21854ae0a290599dc478a986cfc53ac5f"
+    },
+    {
+      "relative_path": "game/localize.rpyc",
+      "absolute_input_path": "F:\\DOWN\\Fatal.Twelve.Incl.DLC\\Fatal.Twelve.Incl.DLC\\Fatal Twelve\\game\\localize.rpyc",
+      "size": 924,
+      "sha256": "5ba31f69d3646990d42e7044d97bf4cfb07bc105619b4f220fdcf1ad374d1d2f"
+    },
+    {
+      "relative_path": "game/script_version.txt",
+      "absolute_input_path": "F:\\DOWN\\Fatal.Twelve.Incl.DLC\\Fatal.Twelve.Incl.DLC\\Fatal Twelve\\game\\script_version.txt",
+      "size": 14,
+      "sha256": "d052a3281338ff0c8e8e28b48ac5375085553df182ceb3f63400d946ad48e2d3"
+    }
+  ]
+}

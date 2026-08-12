@@ -1,0 +1,46 @@
+{
+  "schema_version": "fatal-twelve-renpy-catalog-v1",
+  "validated_at_utc": "2026-08-10T10:02:50.310101+00:00",
+  "catalog": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\catalog_design\\scenario_BAD_END_02.catalog.jsonl",
+  "records": 80,
+  "require_translated": false,
+  "source_rebuild_performed": true,
+  "metadata_checked": true,
+  "errors": [],
+  "warnings": [],
+  "passed": true,
+  "meta_checks": {
+    "catalog_hash": {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\catalog_design\\scenario_BAD_END_02.catalog.jsonl",
+      "size": 258210,
+      "sha256": "c31af6f5be65991c798a9e3cc5f0d83a17bc773150d3fa4b8601d960d19558c5"
+    },
+    "statistics": {
+      "records": 80,
+      "lanes": {
+        "dialogue": 29,
+        "narration": 51
+      },
+      "voiced_records": 29,
+      "translation_id_records": 80,
+      "menu_key_records": 0,
+      "reference_present": 80,
+      "reference_missing": 0,
+      "speakers": {
+        "<narrator>": 51,
+        "federico_unk2": 10,
+        "mao": 17,
+        "miharu": 1,
+        "scale": 1
+      },
+      "labels": {
+        "fBAD_02": 80
+      },
+      "protected_token_kinds": {
+        "number": 4
+      },
+      "japanese_codepoints_in_source_text": 1901,
+      "untranslated": 80
+    }
+  }
+}

@@ -1,0 +1,25 @@
+176	L0728	dialogue	rinka	「でも直未は偉いね。リーダーって感じ？」
+177	L0733	dialogue	naomi	「いえ……。ただわたし以外に仕切る人がいないから、流れでわたしがリーダーみたいになっているだけです」
+178	L0738	dialogue	rinka	「そういうところが偉いねってことだよ」
+179	L0740	narration	narrator	直未は恥ずかしそうに顔を赤らめて、目を逸らす。
+180	L0742	narration	narrator	話を聞いている限りでは、私と違ってちゃんとクラスメイトと仲良くしているようだ。
+181	L0744	narration	narrator	きっと、文化祭の出し物を主導しているのが大きく影響しているのだろう。
+182	L0746	narration	narrator	出会ってすぐの私を怖がっていた時期と比べると、ずいぶん成長したんだな、と思う。
+183	L0748	narration	narrator	そういう意味では、私とは正反対だ。
+184	L0750	narration	narrator	電車に乗ろうとしたところで、直未は急に真剣な目を見せる。
+185	L0752	narration	narrator	そして、私に耳打ちをした。
+186	L0760	dialogue	naomi	「……先輩、あの人」
+187	L0764	narration	narrator	直未は自分の体で手を隠しつつ、遠くに見える人影を指差した。
+188	L0771	dialogue	naomi	「あの……銀の髪の……」
+189	L0778	dialogue	rinka	「えっと……銀……銀……あっ！」
+190	L0780	narration	narrator	私はその姿を見て、ぴくり、と肩を強張らせた。
+191	L0782	narration	narrator	電車は、まだ来ない――。
+192	L0787	dialogue	rinka	「直未、先帰ってて」
+193	L0792	dialogue	naomi	「待ってください。先輩がそんなに焦るってことは……あの子、選定の参加者なんですよね？　確か、子供が２人混ざっていたって言ってました」
+194	L0797	dialogue	rinka	「……うん」
+195	L0799	narration	narrator	子供といえば、ⅣとⅩの位置の２人。ソーニャは脱落してしまったから、今はⅣの子供のことだ。
+196	L0801	narration	narrator	私はあの子の≪死因≫のカードを持っているが、他の情報はまだ何もない。完全にノーマークだった。
+197	L0803	narration	narrator	まさかこんなところで会うなんて――いや、この考え方は間違っているかもしれない。
+198	L0805	narration	narrator	ソーニャやスコーピオンさんたちも新宿周辺に来ていたということは、何らかの理由があるに違いない。
+199	L0807	narration	narrator	私が忘れている記憶――死因、そして最初に女神に会い、選定の説明を受けた時に聞いていた、何かのはずだ。
+200	L0809	narration	narrator	しかし、それを今考えても仕方がない。

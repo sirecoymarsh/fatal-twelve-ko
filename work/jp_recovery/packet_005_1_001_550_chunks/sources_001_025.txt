@@ -1,0 +1,25 @@
+001	L0030	narration	narrator	ホテルでオデットと合流した時、オレは夢の世界で見た光景での興奮が抑えきれていなかった。
+002	L0035	dialogue	federico	「なあ、あいつら見たか？　ⅠとⅡのガキ。仲間割れしてたぜ？」
+003	L0040	dialogue	federico	「ああいうのはなんか、ゾクゾクするもんがあるよな」
+004	L0042	narration	narrator	オレが言うと、オデットは心底面倒くさそうな声で答えた。
+005	L0047	dialogue	odette	「ったく、朝からうるせえ奴だな。んなことより朝飯だ。ここのホテルのバイキングにはもう飽きちまったが、味は悪くねえからな」
+006	L0052	dialogue	federico	「――ったく。今後あいつらを脱落させにいくときに、役に立ってくるかもしれないだろ？」
+007	L0054	narration	narrator	言いかけて、オレはオデットが不機嫌であることに気付いた。
+008	L0056	narration	narrator	ガキ同士が見せる汚い争いに興奮して、昨日の選定であったことをすっかり忘れていたのだ。
+009	L0061	dialogue	odette	「あたしを出し抜いたんだ……ミハルってのは侮れねぇ」
+010	L0063	narration	narrator	だが明らかに不機嫌ではあるのだが、オデットの声はどこか楽しそうでもあった。
+011	L0068	dialogue	odette	「くく……面白くなってきたぜ」
+012	L0070	narration	narrator	ロシアのガキの時といい、こいつの感情と行動パターンは相変わらず読めない。
+013	L0072	narration	narrator	だが一つ言えるのは、面白さを感じているのはオレも同じということだった。
+014	L0095	narration	narrator	思えば、一人で目を覚ますのは数日ぶりだった。
+015	L0097	narration	narrator	目が乾いている。
+016	L0099	narration	narrator	寝ている間に、また泣いてしまっていたのかもしれない。
+017	L0104	dialogue	rinka	「本当に弱いな、私は……」
+018	L0106	narration	narrator	ソーニャと過ごした数日間は、私にとっても楽しいものだった。
+019	L0108	narration	narrator	緊迫した選定の期間の中で、彼女との時間は一種の清涼剤のように思える。
+020	L0110	narration	narrator	こみ上げてくる想いを噛み締めて、私は机の上に置いたカードブックを手に取った。
+021	L0112	narration	narrator	昨晩の選定で生成されたカード。
+022	L0114	narration	narrator	それは、海晴がソーニャの指名の優先権を得るために全員に開示した情報だった。
+023	L0116	narration	narrator	{rb}蛇鉈{/rb}{rt}へびなた{/rt}海晴。
+024	L0118	narration	narrator	それが、海晴の氏名カードの内容だった。
+025	L0120	narration	narrator	その苗字に聞き覚えはない。だが海晴の家庭環境を考えれば、何があったかの想像はつく。

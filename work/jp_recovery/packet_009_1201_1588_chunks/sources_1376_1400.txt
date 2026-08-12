@@ -1,0 +1,25 @@
+1376	L5154	dialogue	parca	「Ⅰ番サマはいかがなさいますか？」
+1377	L5156	narration	narrator	女神の質問に、私は首を振って答えた。
+1378	L5160	narration	narrator	スケールさんを指名するかどうかという問題はまだ解決していなかったからだ。
+1379	L5162	narration	narrator	全員で指名し合い防御し合うという方法について、詳しく話せてもいない。
+1380	L5164	narration	narrator	海晴とも、話せていなかった。
+1381	L5166	narration	narrator	そんな海晴は、暗い顔で下を向いていた。
+1382	L5168	narration	narrator	やはり、海晴には何かあった。
+1383	L5170	narration	narrator	だが連絡もできないし、家に行っても門前払い。
+1384	L5172	narration	narrator	悔しいけれど、どうしようもなかったのだ。
+1385	L5179	dialogue	parca	「Ⅱ番サマは、どうなさいますか？」
+1386	L5181	narration	narrator	海晴はきっと指名を行わないと、そう思っていた。
+1387	L5183	narration	narrator	だが――。
+1388	L5190	dialogue	miharu	「ぼ、ぼくは……Ⅰ番を……指名……する……」
+1389	L5195	dialogue	parca	「あら！」
+1390	L5200	dialogue	rinka	「えっ……」
+1391	L5205	dialogue	parca	「おっと、進行役のワタクシが驚いてはいけませんね。かしこまりましたわ。さて、お後は……」
+1392	L5209	narration	narrator	それ以降、≪運命の大広間≫に響く声を、私は一切聞くことができなかった。
+1393	L5211	narration	narrator	頭が真っ白になるとは、このことだ。
+1394	L5213	narration	narrator	思考は完全に停止し、徐々に感情まで停止していく。
+1395	L5215	narration	narrator	それでも私の立つこの床は無慈悲に、上層へと向かって行った。
+1396	L5217	narration	narrator	そしてこの後に待つのは私の脱落であり――死だった。
+1397	L5235	dialogue	federico	「構わないってことはあるか！　ちょっと待て、それはどういうことだ？」
+1398	L5237	narration	narrator	フェデリーコが訊ねたあと、パルカは彼以外の参加者をぐるりと一周して見渡した。
+1399	L5239	narration	narrator	私も、微笑むパルカと目が合った。
+1400	L5244	dialogue	parca	「この様子では、どうやら貴方サマ以外はすでにご存じのようですわね」

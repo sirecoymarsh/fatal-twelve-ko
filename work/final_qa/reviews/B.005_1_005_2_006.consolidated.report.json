@@ -1,0 +1,466 @@
+{
+  "schema_version": "fatal-twelve-reviewer-b-005-006-consolidated-qa-v1",
+  "reviewer": "B",
+  "source_authority": "Japanese only",
+  "english_new_prose_used": false,
+  "external_translation_api_used": false,
+  "game_executed": false,
+  "audio_runtime_touched": false,
+  "scope": {
+    "exhaustive_checked_this_pass": 3154,
+    "this_pass": {
+      "005_1": {
+        "sequence_min": 301,
+        "sequence_max": 1657,
+        "records": 1357
+      },
+      "005_2": {
+        "sequence_min": 1,
+        "sequence_max": 1042,
+        "records": 1042
+      },
+      "006": {
+        "sequence_min": 1,
+        "sequence_max": 755,
+        "records": 755
+      }
+    },
+    "prior_review_integrated": {
+      "005_1": {
+        "sequence_min": 1,
+        "sequence_max": 300,
+        "records": 300
+      }
+    },
+    "integrated_full_scope_records": 3454,
+    "005_1_full_integration": {
+      "sequence_min": 1,
+      "sequence_max": 1657,
+      "records": 1657,
+      "status": "PASS"
+    }
+  },
+  "masters": {
+    "005_1": {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_005_1.master.json",
+      "sha256": "1612088a8ba3f209f6584f92af060933fbce5c1929c3f1160bb2a06287b0ff59",
+      "records": 1657
+    },
+    "005_2": {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_005_2.master.json",
+      "sha256": "9bd9b53edbed8760f230caac9df10c9395e6f736bb588267eba21aa740dbecf9",
+      "records": 1042
+    },
+    "006": {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_006.master.json",
+      "sha256": "aeef3280cb1a95332c172ed48ca99cdf24e99469006e8cbdf2d672fa730d55a2",
+      "records": 755
+    }
+  },
+  "inputs": {
+    "seed_records": 24,
+    "resume_records": 12,
+    "manual_records": 277,
+    "prior_integrated_override_records": 1,
+    "manual_by_script": {
+      "005_1": 123,
+      "005_2": 88,
+      "006": 66
+    },
+    "global_hard_token_records": 48,
+    "lane_decision_counts_before_dedup": {
+      "global_hard_token": 48,
+      "seed_001_0200": 24,
+      "resume_0201_0300": 12,
+      "manual_exhaustive_0301_1657": 123,
+      "manual_exhaustive_full": 154,
+      "prior_integrated_guard_fix": 1
+    },
+    "overlap_events": [
+      {
+        "script": "005_1",
+        "sequence": 385,
+        "incoming": "manual_exhaustive_0301_1657"
+      },
+      {
+        "script": "005_1",
+        "sequence": 433,
+        "incoming": "manual_exhaustive_0301_1657"
+      },
+      {
+        "script": "005_1",
+        "sequence": 494,
+        "incoming": "manual_exhaustive_0301_1657"
+      },
+      {
+        "script": "005_1",
+        "sequence": 495,
+        "incoming": "manual_exhaustive_0301_1657"
+      },
+      {
+        "script": "005_1",
+        "sequence": 542,
+        "incoming": "manual_exhaustive_0301_1657"
+      },
+      {
+        "script": "005_1",
+        "sequence": 571,
+        "incoming": "manual_exhaustive_0301_1657"
+      },
+      {
+        "script": "005_1",
+        "sequence": 573,
+        "incoming": "manual_exhaustive_0301_1657"
+      },
+      {
+        "script": "005_1",
+        "sequence": 627,
+        "incoming": "manual_exhaustive_0301_1657"
+      },
+      {
+        "script": "005_1",
+        "sequence": 824,
+        "incoming": "manual_exhaustive_0301_1657"
+      },
+      {
+        "script": "005_1",
+        "sequence": 825,
+        "incoming": "manual_exhaustive_0301_1657"
+      },
+      {
+        "script": "005_1",
+        "sequence": 968,
+        "incoming": "manual_exhaustive_0301_1657"
+      },
+      {
+        "script": "005_1",
+        "sequence": 1041,
+        "incoming": "manual_exhaustive_0301_1657"
+      },
+      {
+        "script": "005_1",
+        "sequence": 1062,
+        "incoming": "manual_exhaustive_0301_1657"
+      },
+      {
+        "script": "005_1",
+        "sequence": 1269,
+        "incoming": "manual_exhaustive_0301_1657"
+      },
+      {
+        "script": "005_1",
+        "sequence": 1359,
+        "incoming": "manual_exhaustive_0301_1657"
+      },
+      {
+        "script": "005_1",
+        "sequence": 1483,
+        "incoming": "manual_exhaustive_0301_1657"
+      },
+      {
+        "script": "005_2",
+        "sequence": 246,
+        "incoming": "manual_exhaustive_full"
+      },
+      {
+        "script": "005_2",
+        "sequence": 247,
+        "incoming": "manual_exhaustive_full"
+      },
+      {
+        "script": "005_2",
+        "sequence": 254,
+        "incoming": "manual_exhaustive_full"
+      },
+      {
+        "script": "005_2",
+        "sequence": 255,
+        "incoming": "manual_exhaustive_full"
+      },
+      {
+        "script": "005_2",
+        "sequence": 378,
+        "incoming": "manual_exhaustive_full"
+      },
+      {
+        "script": "005_2",
+        "sequence": 406,
+        "incoming": "manual_exhaustive_full"
+      },
+      {
+        "script": "005_2",
+        "sequence": 545,
+        "incoming": "manual_exhaustive_full"
+      },
+      {
+        "script": "005_2",
+        "sequence": 695,
+        "incoming": "manual_exhaustive_full"
+      },
+      {
+        "script": "005_2",
+        "sequence": 731,
+        "incoming": "manual_exhaustive_full"
+      },
+      {
+        "script": "005_2",
+        "sequence": 736,
+        "incoming": "manual_exhaustive_full"
+      },
+      {
+        "script": "005_2",
+        "sequence": 740,
+        "incoming": "manual_exhaustive_full"
+      },
+      {
+        "script": "005_2",
+        "sequence": 742,
+        "incoming": "manual_exhaustive_full"
+      },
+      {
+        "script": "005_2",
+        "sequence": 905,
+        "incoming": "manual_exhaustive_full"
+      },
+      {
+        "script": "005_2",
+        "sequence": 967,
+        "incoming": "manual_exhaustive_full"
+      },
+      {
+        "script": "005_2",
+        "sequence": 984,
+        "incoming": "manual_exhaustive_full"
+      },
+      {
+        "script": "005_2",
+        "sequence": 991,
+        "incoming": "manual_exhaustive_full"
+      },
+      {
+        "script": "005_2",
+        "sequence": 992,
+        "incoming": "manual_exhaustive_full"
+      },
+      {
+        "script": "005_2",
+        "sequence": 994,
+        "incoming": "manual_exhaustive_full"
+      },
+      {
+        "script": "005_2",
+        "sequence": 1040,
+        "incoming": "manual_exhaustive_full"
+      },
+      {
+        "script": "006",
+        "sequence": 7,
+        "incoming": "manual_exhaustive_full"
+      },
+      {
+        "script": "006",
+        "sequence": 12,
+        "incoming": "manual_exhaustive_full"
+      },
+      {
+        "script": "006",
+        "sequence": 86,
+        "incoming": "manual_exhaustive_full"
+      },
+      {
+        "script": "006",
+        "sequence": 111,
+        "incoming": "manual_exhaustive_full"
+      },
+      {
+        "script": "006",
+        "sequence": 157,
+        "incoming": "manual_exhaustive_full"
+      },
+      {
+        "script": "006",
+        "sequence": 750,
+        "incoming": "manual_exhaustive_full"
+      },
+      {
+        "script": "005_1",
+        "sequence": 299,
+        "incoming": "prior_integrated_guard_fix"
+      }
+    ],
+    "overlap_event_count": 42
+  },
+  "output": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\reviews\\B.005_1_005_2_006.consolidated.corrections.jsonl",
+    "records": 320,
+    "records_by_script": {
+      "005_1": 165,
+      "005_2": 88,
+      "006": 67
+    },
+    "sha256": "2afff9a3f4dd22a9e3ee6ccadb3e5a20303a74c38622043511b1f69054a495c2"
+  },
+  "checks": {
+    "exact_old_guard": "PASS",
+    "source_guard": "PASS",
+    "stable_id_unique": "PASS",
+    "identity": "PASS",
+    "tags_interpolation_percent_ruby": "PASS",
+    "number_semantics": "PASS",
+    "roman": "PASS",
+    "quotes_and_double_angle": "PASS",
+    "newlines": "PASS",
+    "fullwidth_and_u3000": "PASS",
+    "residual_kana": "PASS",
+    "encoding_and_question_damage": "PASS",
+    "no_op": "PASS",
+    "masters_immutable": "PASS",
+    "official_exact_apply": "PASS",
+    "semantic_diff": "PASS",
+    "target_runtime_or_protected_token_failures": "PASS",
+    "target_official_static_audit_hard": "PASS",
+    "target_review_dispositions": "PASS",
+    "pipeline_unit_tests_28": "PASS"
+  },
+  "issues": [],
+  "artifacts": {
+    "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\reviews\\B.correction_seeds.jsonl": "da5a98ef2eacf92aaa12b540d60c34dcbff2f02554cc8d6feede10983a2fa828",
+    "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\reviews\\B.resume.corrections.jsonl": "aaa16febf7ed8a13aba881c67f0f65f4f3079a5918b200fead21405a818bc8ed",
+    "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\reviews\\B.005_1_005_2_006.consolidated.corrections.jsonl": "2afff9a3f4dd22a9e3ee6ccadb3e5a20303a74c38622043511b1f69054a495c2",
+    "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\reviews\\materialize_b_exhaustive.py": "3d3b2cd1257ccb8d0586f5e74a4fec6a2c577c2e12d26f4d664493db0a72723d",
+    "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\reviews\\B.005_1_005_2_006.post_apply_validation.json": "c4672743221620ee2e448f5473987c31de299afcb962ed765c60e310f747afb8",
+    "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\B_005_006_validation_v3\\correction_audit.json": "d473fb510ba75f2d352364984ef64b38d1c53d3c832215350a24db12aca6102a",
+    "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\B_005_006_validation_v3\\corrected_master_index.json": "98a2404c2ce539f97e16adc3e2b286569d9dc375fc91c6e36bcd3aac7db71d43",
+    "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\B_005_006_validation_v3\\audit_master.json": "9df29c36af5fe008aa33bea0ce601aed8e2513a8a9130b0a1a1063513b950fd8",
+    "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\reviews\\validate_b_post_apply.py": "e56b3c906e81193d58bc9e31698e478fe4c82489b00c6c5d4d7aa9af0977ee92"
+  },
+  "final_status": "PASS",
+  "post_apply_validation": {
+    "schema_version": "fatal-twelve-reviewer-b-post-apply-validation-v1",
+    "status": "PASS",
+    "scope": {
+      "exhaustive_checked_this_pass": 3154,
+      "integrated_full_scope_records": 3454,
+      "005_1_full_sequence_range_integrated": "1-1657"
+    },
+    "input": {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\reviews\\B.005_1_005_2_006.consolidated.corrections.jsonl",
+      "sha256": "2afff9a3f4dd22a9e3ee6ccadb3e5a20303a74c38622043511b1f69054a495c2",
+      "records": 320,
+      "records_by_script": {
+        "005_1": 165,
+        "005_2": 88,
+        "006": 67
+      }
+    },
+    "official_exact_apply": {
+      "status": "PASS",
+      "output_root": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\B_005_006_validation_v3",
+      "correction_audit": {
+        "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\B_005_006_validation_v3\\correction_audit.json",
+        "sha256": "d473fb510ba75f2d352364984ef64b38d1c53d3c832215350a24db12aca6102a"
+      },
+      "corrected_master_index": {
+        "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\B_005_006_validation_v3\\corrected_master_index.json",
+        "sha256": "98a2404c2ce539f97e16adc3e2b286569d9dc375fc91c6e36bcd3aac7db71d43"
+      },
+      "corrections_applied": 320,
+      "target_runtime_or_protected_token_failed_records": 0,
+      "whole_corpus_preexisting_runtime_or_protected_token_failed_records": 83,
+      "source_masters_modified": false
+    },
+    "semantic_diff": {
+      "005_1": {
+        "records": 1657,
+        "expected_changed_records": 165,
+        "actual_changed_records": 165,
+        "changed_stable_id_set_exact": true,
+        "old_ko_exact_guard": true,
+        "new_ko_exact_apply": true,
+        "source_and_identity_unchanged": true,
+        "base_master_sha256": "1612088a8ba3f209f6584f92af060933fbce5c1929c3f1160bb2a06287b0ff59",
+        "applied_master_sha256": "e605d6ee0fddb4b06da039aac43ea48fb19c96af7de687b024aed4ba9aef44a4"
+      },
+      "005_2": {
+        "records": 1042,
+        "expected_changed_records": 88,
+        "actual_changed_records": 88,
+        "changed_stable_id_set_exact": true,
+        "old_ko_exact_guard": true,
+        "new_ko_exact_apply": true,
+        "source_and_identity_unchanged": true,
+        "base_master_sha256": "9bd9b53edbed8760f230caac9df10c9395e6f736bb588267eba21aa740dbecf9",
+        "applied_master_sha256": "19a8b8f0320ab63517fe1bed3878aaca3210585777d52e6fad36fe3ec1258d80"
+      },
+      "006": {
+        "records": 755,
+        "expected_changed_records": 67,
+        "actual_changed_records": 67,
+        "changed_stable_id_set_exact": true,
+        "old_ko_exact_guard": true,
+        "new_ko_exact_apply": true,
+        "source_and_identity_unchanged": true,
+        "base_master_sha256": "aeef3280cb1a95332c172ed48ca99cdf24e99469006e8cbdf2d672fa730d55a2",
+        "applied_master_sha256": "c73765923f05a3e31fb89794095ca709a52db579327aaf516040054034ad1ed4"
+      }
+    },
+    "official_static_audit": {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\B_005_006_validation_v3\\audit_master.json",
+      "sha256": "9df29c36af5fe008aa33bea0ce601aed8e2513a8a9130b0a1a1063513b950fd8",
+      "whole_corpus_gate_pass": false,
+      "whole_corpus_issues": 914,
+      "target_scope": {
+        "hard_open": 0,
+        "review_open_before_disposition": 3,
+        "accepted_reviews": [
+          {
+            "script": "005_1",
+            "sequence": 23,
+            "stable_id": "scenario.rpa::scenario/005_1.rpy::tid::f005_1_00e78c3f",
+            "rule_id": "RUBY_UNMAPPED",
+            "disposition": "accepted_known_name_ruby; source and target ruby structure preserved exactly"
+          },
+          {
+            "script": "005_1",
+            "sequence": 234,
+            "stable_id": "scenario.rpa::scenario/005_1.rpy::tid::f005_1_58972a45",
+            "rule_id": "RUBY_UNMAPPED",
+            "disposition": "accepted_known_name_ruby; source and target ruby structure preserved exactly"
+          },
+          {
+            "script": "005_1",
+            "sequence": 433,
+            "stable_id": "scenario.rpa::scenario/005_1.rpy::tid::f005_1_s1_end_af9b112a",
+            "rule_id": "RUBY_UNMAPPED",
+            "disposition": "accepted_known_name_ruby; source and target ruby structure preserved exactly"
+          }
+        ],
+        "unresolved_after_disposition": 0,
+        "gate_pass": true
+      },
+      "note": "Whole-corpus failures belong to scripts outside this reviewer-B scope; all three target masters have zero HARD findings."
+    },
+    "unit_tests": {
+      "status": "PASS",
+      "tests": 28,
+      "command": "python -m unittest work.final_qa.tests.test_correction_render_pipeline work.final_qa.tests.test_audit_master_policy"
+    },
+    "checks": {
+      "correction_jsonl_parse": "PASS",
+      "stable_id_unique": "PASS",
+      "exact_old_guard": "PASS",
+      "exact_new_apply": "PASS",
+      "changed_stable_id_set_exact": "PASS",
+      "source_identity_unchanged": "PASS",
+      "target_runtime_and_protected_tokens": "PASS",
+      "target_official_static_audit_hard": "PASS",
+      "accepted_ruby_review_disposition": "PASS",
+      "source_masters_immutable": "PASS",
+      "game_not_executed": "PASS"
+    },
+    "validator_script": {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\reviews\\validate_b_post_apply.py",
+      "sha256": "e56b3c906e81193d58bc9e31698e478fe4c82489b00c6c5d4d7aa9af0977ee92"
+    }
+  }
+}

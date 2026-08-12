@@ -1,0 +1,168 @@
+{
+  "schema_version": "fatal-twelve-review-group-manifest-v1",
+  "description": "Fixed read-only first-draft review assignments. Every master record must belong to exactly one group and one continuous per-script chunk.",
+  "master_index": "${FINAL_QA_ROOT}\\output\\master_index.json",
+  "output_root": "${FINAL_QA_ROOT}\\review_packets",
+  "variables": {
+    "FINAL_QA_ROOT": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa"
+  },
+  "expectations": {
+    "group_count": 4,
+    "script_count": 29,
+    "record_count": 18184
+  },
+  "chunk_policy": {
+    "scope": "per_script_contiguous_command_index",
+    "target_records": 185,
+    "minimum_records": 150,
+    "maximum_records": 220,
+    "short_script_policy": "single_chunk_below_minimum",
+    "cross_script_chunks": false
+  },
+  "groups": [
+    {
+      "group_id": "A",
+      "expected_records": 5277,
+      "scripts": [
+        {
+          "script_key": "001",
+          "expected_records": 844
+        },
+        {
+          "script_key": "002",
+          "expected_records": 668
+        },
+        {
+          "script_key": "003",
+          "expected_records": 1526
+        },
+        {
+          "script_key": "004",
+          "expected_records": 1067
+        },
+        {
+          "script_key": "BAD_END_01",
+          "expected_records": 58
+        },
+        {
+          "script_key": "BAD_END_02",
+          "expected_records": 80
+        },
+        {
+          "script_key": "BAD_END_03",
+          "expected_records": 21
+        },
+        {
+          "script_key": "BAD_END_04",
+          "expected_records": 43
+        },
+        {
+          "script_key": "MIHARU_END",
+          "expected_records": 26
+        },
+        {
+          "script_key": "TRUE_END",
+          "expected_records": 125
+        },
+        {
+          "script_key": "UNHAPPY_END",
+          "expected_records": 87
+        },
+        {
+          "script_key": "system_ui",
+          "expected_records": 732
+        }
+      ]
+    },
+    {
+      "group_id": "B",
+      "expected_records": 4327,
+      "scripts": [
+        {
+          "script_key": "005_1",
+          "expected_records": 1657
+        },
+        {
+          "script_key": "005_2",
+          "expected_records": 1042
+        },
+        {
+          "script_key": "006",
+          "expected_records": 755
+        },
+        {
+          "script_key": "011_01",
+          "expected_records": 408
+        },
+        {
+          "script_key": "011_01F",
+          "expected_records": 210
+        },
+        {
+          "script_key": "011_01G",
+          "expected_records": 192
+        },
+        {
+          "script_key": "011_01H",
+          "expected_records": 63
+        }
+      ]
+    },
+    {
+      "group_id": "C",
+      "expected_records": 4219,
+      "scripts": [
+        {
+          "script_key": "007_1",
+          "expected_records": 1063
+        },
+        {
+          "script_key": "007_2",
+          "expected_records": 1471
+        },
+        {
+          "script_key": "008",
+          "expected_records": 1500
+        },
+        {
+          "script_key": "NG_plus",
+          "expected_records": 185
+        }
+      ]
+    },
+    {
+      "group_id": "ROOT",
+      "expected_records": 5093,
+      "scripts": [
+        {
+          "script_key": "009",
+          "expected_records": 1588
+        },
+        {
+          "script_key": "010",
+          "expected_records": 1337
+        },
+        {
+          "script_key": "011_02",
+          "expected_records": 131
+        },
+        {
+          "script_key": "011_02GH",
+          "expected_records": 325
+        },
+        {
+          "script_key": "012_01F",
+          "expected_records": 1190
+        },
+        {
+          "script_key": "012_01GH",
+          "expected_records": 313
+        },
+        {
+          "script_key": "012_02",
+          "expected_records": 209
+        }
+      ]
+    }
+  ]
+}

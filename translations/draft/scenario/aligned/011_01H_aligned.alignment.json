@@ -1,0 +1,60 @@
+{
+  "schema_version": "fatal-twelve-generic-alignment-result-v1",
+  "created_at_utc": "2026-08-10T10:27:31.597851+00:00",
+  "catalog_schema": "fatal-twelve-renpy-catalog-v1",
+  "catalog": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\catalog_design\\scenario_011_01H.catalog.jsonl",
+    "size": 200785,
+    "sha256": "ac0083e6309836dc1ee2e2bd0ce4f9603603725711769528038fbc33380989da"
+  },
+  "input": {
+    "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\011_01H_source_only.json",
+    "size": 41973,
+    "sha256": "b0deeeae01c73391e343daa7002994a7d545f2e8c035b916ad35f47b4e01712e"
+  },
+  "output_json": {
+    "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\011_01H_aligned.json",
+    "size": 200756,
+    "sha256": "fbd688beae8f743407627c15024608d000d95df0f612dcd759e43737d8c41426"
+  },
+  "output_rpy": {
+    "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\011_01H_aligned.rpy",
+    "size": 9098,
+    "sha256": "493256a35d1a689a46f0358cebdd12f17b908a7a8fa13a1899390d899e84ab77"
+  },
+  "coverage_report": {
+    "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\011_01H_aligned.coverage.json",
+    "size": 2115,
+    "sha256": "bf5ded490b67eeffb64cf59133e7e7eb72f240fb141ce8c9b90991de29863845"
+  },
+  "join": {
+    "primary_keys": [
+      "source_file",
+      "source_line",
+      "speaker"
+    ],
+    "additional_assertion": "source_jp exact equality",
+    "unique_fallback": "source_file+speaker+source_jp only when exactly one catalog record; source line corrected",
+    "sequence_zip_used": false,
+    "English_prose_used": false
+  },
+  "records": 63,
+  "draft_ko_sha256_before": "1f0d3e9b7d1f783c382e339a82ce88205e7133e0c6ff2cdbb1c11fe89b602395",
+  "draft_ko_sha256_after": "1f0d3e9b7d1f783c382e339a82ce88205e7133e0c6ff2cdbb1c11fe89b602395",
+  "source_jp_sha256_before": "1ce9c0b1351d6b862259a4e1a30153dddd174ff6a65ff77ab0c2eeb88ed1f58a",
+  "source_jp_sha256_after": "1ce9c0b1351d6b862259a4e1a30153dddd174ff6a65ff77ab0c2eeb88ed1f58a",
+  "translation_text_modified": false,
+  "translation_QA_performed": false,
+  "complete_catalog_coverage": true,
+  "source_line_alignment": {
+    "exact_line_matches": 63,
+    "corrected_from_unique_exact_source": 0,
+    "delta_counts": {}
+  },
+  "rpy_structure": {
+    "translate_blocks": 63,
+    "strings_entries": 0,
+    "unique_translate_ids": 63,
+    "menu_lane_separate": true
+  }
+}

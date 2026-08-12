@@ -1,0 +1,225 @@
+{
+  "schema_version": "fatal-twelve-korean-final-release-evidence-v2",
+  "status": "PASS",
+  "release_revision": "ui_feedback_v2",
+  "release_version": "1.0.0",
+  "supersedes_provisional_zip_sha256": "f0289c8254979ada120aa29fcc91338f7f7f2f47d0e6b8059383699c63e22afd",
+  "public_payload_policy": "explicit allowlist; compiled game/*.rpyc only",
+  "game_execution_during_release_build": false,
+  "engine_compile_only": true,
+  "audio_driver": "dummy",
+  "frozen_translation": {
+    "pipeline_result": {
+      "path": "../final_qa/final_text_build_ui_feedback_v2/final_text_pipeline_result.json",
+      "sha256": "f463f7a0088016fe5a120a67db29e71bb6405f0cbb5616138bf452e9304f3df1"
+    },
+    "render_manifest": {
+      "path": "../final_qa/final_text_build_ui_feedback_v2/final_rpy/render_manifest.json",
+      "sha256": "ae58dba67939a80744c44520546816edfc5c88663d2a455229ddecc7f33401c2"
+    },
+    "global_strings": {
+      "path": "../final_qa/final_text_build_ui_feedback_v2/final_rpy/strings/scenario_strings.rpy",
+      "sha256": "10238bccafb8528011be71c7b0f2b486b042f45991b19d04571584aaa36d5cdb",
+      "unique_old_keys": 797
+    },
+    "canonical_static_contract": {
+      "path": "../final_qa/technical_qa/final_rpy_static_contract.json",
+      "sha256": "9b925c19863254e84326e3ac1d2cd00d440ec447693e54bd7862ae8645e4d9e7",
+      "status": "PASS"
+    },
+    "scenario_rpy_files": 29,
+    "source_rpy_files_in_stage": 32,
+    "ui_feedback_source_delta": {
+      "path": "final_build_v2/ui_feedback_source_delta.json",
+      "size": 12055,
+      "sha256": "c6a1abfaac5d0514d8c4ba12416d512a61a743b1db86770ce6f17633848902fb"
+    }
+  },
+  "glyph_coverage": {
+    "path": "../final_qa/final_text_build_ui_feedback_v2/audit/final_glyph_coverage.report.json",
+    "sha256": "a70f8fd6205f0d32432147c324ab477c62a7b1c6fb76b19e1ac258a7b075300e",
+    "verdict": "PASS",
+    "required_codepoints": 1368,
+    "fonts": 2,
+    "missing_codepoints": 0,
+    "bootstrap_selector_included": true
+  },
+  "live_restoration": {
+    "side_effect_candidates": 47,
+    "restored_from_original_zip": 46,
+    "already_original": 1,
+    "restore_report": {
+      "path": "final_build/live_restore_report.json",
+      "size": 24768,
+      "sha256": "925a74c7c44c4246c0893f0bd413212f387772d8269cb78b3e75dce39e66b686"
+    },
+    "full_original_zip_audit": {
+      "path": "final_build/live_vs_original_zip_audit.json",
+      "size": 11335,
+      "sha256": "b58e77e0c033dff9e941b1c3b8a82aa5e036293ea11ecd53d3ee98df6ecffd6a"
+    },
+    "original_files": 1228,
+    "exact_files": 1228,
+    "different": 0,
+    "missing": 0,
+    "extras": 0,
+    "anchors_match": true
+  },
+  "isolated_compile": {
+    "stage_manifest": {
+      "path": "final_build_v2/stage_source_manifest.json",
+      "size": 6591,
+      "sha256": "e1f68e912f52759e304856fbebe8c9d653d5be824229b2a64830de1839d91e2a"
+    },
+    "isolated_engine_manifest": {
+      "path": "final_build_v2/isolated_engine_manifest.json",
+      "size": 182326,
+      "sha256": "e2b39e430fae0797c49bda067a0d8331fd1d5202fffc3b90684883e9e47b89eb"
+    },
+    "compile_report": {
+      "path": "final_build_v2/compile_payload_report.json",
+      "size": 35546,
+      "sha256": "8234d1db12e2f5cc8c19ad8d4002604c03a71e49685301217e891dd7728cbf09"
+    },
+    "expected_live_tree_sha256": "81105eeaec8189454326a5a25520e806ff73eef8b9f090552005ca31f5f2972f",
+    "live_tree_file_count": 1228,
+    "live_tree_sha256": "81105eeaec8189454326a5a25520e806ff73eef8b9f090552005ca31f5f2972f",
+    "live_tree_unchanged": true,
+    "engine_executable_sha256": "987b9a1d43e46b8665a0cc4c6280459ef3d13c365fba8ba0b55a88e9f03f43bd",
+    "isolated_engine_changed_files": 47,
+    "compile_exit_code": 0,
+    "payload_file_count": 32,
+    "payload_tree_sha256": "2130118e5dd25bb11c983e16792fa1ebfc7811eb423d3e6289e13e3b196d693d"
+  },
+  "release": {
+    "zip": {
+      "path": "final_build_v2/release/FatalTwelve_KoreanPatch_1.0.0.zip",
+      "size": 4496043,
+      "sha256": "dae1890ffdad3010c16e4079fbd02424145b1e55ca8f76e475a1c45cdbdbb872"
+    },
+    "zip_sidecar": {
+      "path": "final_build_v2/release/FatalTwelve_KoreanPatch_1.0.0.zip.sha256",
+      "size": 100,
+      "sha256": "3c827e9735f81c21dc95b6ce6a1e376b312de11ec3d5727fb116276a72808f5b"
+    },
+    "install_manifest_sha256": "7a26a507b542aeb635c83d17d67b92e606acdad86270f89e81c3928ca842a95c",
+    "public_file_count": 38,
+    "payload_file_count": 32,
+    "independent_build_count": 2,
+    "independent_builds_byte_identical": true,
+    "fixed_zip_timestamp": [
+      1980,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "payload_rpyc_only": true,
+    "private_absolute_path_leaks": 0
+  },
+  "verification": {
+    "synthetic_matrix": {
+      "report": {
+        "path": "fixture_test_report.json",
+        "size": 2089,
+        "sha256": "d37ffad2e14fb8ed0772dda8d6fe8e27f3a35edb7403943915912795a7fe3f08"
+      },
+      "passed": 14,
+      "failed": 0,
+      "powershell_version": "5.1.26100.8972"
+    },
+    "generic_zip_harness": {
+      "report": {
+        "path": "final_harness_synthetic_report.json",
+        "size": 1044,
+        "sha256": "d18db7416a6bae8b97399f3fa8b2e146e5177bc5cc53ff8b0a85253a57e17f9a"
+      },
+      "passed": 6,
+      "failed": 0
+    },
+    "final_zip_fixture": {
+      "report": {
+        "path": "final_build_v2/final_package_fixture_report.json",
+        "size": 1042,
+        "sha256": "9c9b3fdbac9428fb450360340e0fd5fb2e872b361d57e15935ddfa1f9cdd638e"
+      },
+      "passed": 6,
+      "failed": 0,
+      "powershell_version": "5.1.26100.8972",
+      "baseline_unchanged": true
+    },
+    "determinism_public_audit": {
+      "path": "final_build_v2/determinism_and_public_audit.json",
+      "size": 750,
+      "sha256": "56af3fa686f97fbecba53191a25a15a731941406df0094f0ec52d774e8aabd4e"
+    },
+    "defender": {
+      "report": {
+        "path": "final_build_v2/defender_scan_report.json",
+        "size": 1456,
+        "sha256": "a20cab533b577250ed56ff5df8d222c7b9f83069934f04c9e9586abe506f7304"
+      },
+      "status": "PASS",
+      "signature_version": "1.457.96.0",
+      "zip_exit_code": 0,
+      "extracted_exit_code": 0
+    },
+    "final_text_technical_tests": {
+      "passed": 36,
+      "failed": 0
+    }
+  },
+  "baseline_anchors": [
+    {
+      "path": "fatal.exe",
+      "accepted": [
+        {
+          "id": "trusted-original",
+          "sha256": "987b9a1d43e46b8665a0cc4c6280459ef3d13c365fba8ba0b55a88e9f03f43bd",
+          "size": 386048
+        }
+      ]
+    },
+    {
+      "path": "game/scenario.rpa",
+      "accepted": [
+        {
+          "id": "trusted-original",
+          "sha256": "ea39387ae13432a79ffe4601af7b50478d063432ce3b7bc4013c92e09f036d22",
+          "size": 5102486
+        }
+      ]
+    },
+    {
+      "path": "game/system.rpa",
+      "accepted": [
+        {
+          "id": "trusted-original",
+          "sha256": "a298b88f12c98435b015a647b51f5a35987ea4d714b5bf92e90972f3fcf6b648",
+          "size": 199203732
+        }
+      ]
+    },
+    {
+      "path": "game/tl.rpa",
+      "accepted": [
+        {
+          "id": "trusted-original",
+          "sha256": "ad628d5aa7b0601e69fa99c13d6f67c21854ae0a290599dc478a986cfc53ac5f",
+          "size": 78290069
+        }
+      ]
+    },
+    {
+      "path": "game/localize.rpyc",
+      "accepted": [
+        {
+          "id": "trusted-original",
+          "sha256": "5ba31f69d3646990d42e7044d97bf4cfb07bc105619b4f220fdcf1ad374d1d2f",
+          "size": 924
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "schema_version": "fatal-twelve-system-ui-structure-check-v1",
+  "subject": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\system_ui\\characters.draft.json",
+  "validation_scope": "structure_only",
+  "translation_qa_performed": false,
+  "translation_qa": "deferred_until_full_first_draft",
+  "passed": true,
+  "summary": {
+    "catalog_entries": 61,
+    "draft_entries": 61,
+    "source_occurrences": 70,
+    "source_unique_keys": 60,
+    "official_old_unique_keys": 61,
+    "rpy_strings_entries": 61,
+    "technical_legacy_keys": 1
+  },
+  "hashes": {
+    "source_sha256": "8e1e99a2bcac76e743086a15211cf32d888a621b3c0de0278f598a8bf5e76f37",
+    "style_guide_sha256": "b2b87352fdfd9b25af688152b0ce8a7460ffeb88fc06ae6e45f1c5df2ae83891",
+    "glossary_sha256": "d7b49d77fcde5da240cb816890c75f9f15a2e83544db34a6193b8e939906300e",
+    "official_old_key_index_sha256": "73c26be2330cd5299bf41c636c88d7ec3f16549d4204bb200788fabfd4cd6d67",
+    "catalog_sha256": "077c3229996cdfe8d9f1735ae5a5d0696fec545b37fd61aae060674cd9c26529",
+    "draft_json_sha256": "4a9c2f41b8828a31ff4474b91120fbd7ebcf77cd3c3f2845b9cfe0d9ff2063c5",
+    "draft_rpy_sha256": "608dcfe84a3e4e29a4a38357518a7ff6a83d7522cf0deee2aa998272cdc4462c"
+  },
+  "checks": {
+    "source_hash": {
+      "passed": true
+    },
+    "current_source_extraction": {
+      "passed": true,
+      "detail": {
+        "occurrences": 70,
+        "unique": 60
+      }
+    },
+    "official_old_key_coverage": {
+      "passed": true,
+      "detail": {
+        "expected": 61,
+        "actual": 61
+      }
+    },
+    "all_current_source_keys_covered": {
+      "passed": true
+    },
+    "draft_flags_and_nonempty": {
+      "passed": true
+    },
+    "protected_tokens": {
+      "passed": true,
+      "detail": {
+        "mismatch_commands": []
+      }
+    },
+    "rpy_old_new_pairs": {
+      "passed": true,
+      "detail": {
+        "pairs": 61,
+        "unique_old": 61
+      }
+    },
+    "source_code_preservation": {
+      "passed": true,
+      "detail": "Source is read-only; output is a separate translate-korean strings file."
+    }
+  }
+}

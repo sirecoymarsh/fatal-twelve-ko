@@ -1,0 +1,52 @@
+# Original game / runtime copies
+runtime_review*/
+**/runtime_review*/
+**/engine_copy/
+**/engine_isolated/
+**/runtime_smoke_engine/
+**/compile_probe_engine*/
+**/compile_probe_final*/
+**/final_fixture_run/
+**/staging_baseline/
+**/staging_patched/
+**/defender_scan_extracted/
+**/release_build_a/
+**/release_build_b/
+**/test_runs/
+**/final_harness_synthetic_run/
+**/work/extracted/
+work/extracted/
+
+# Proprietary/binary game files
+*.rpa
+*.rpyc
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Python/cache/temp
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+*.tmp
+*.temp
+*.bak
+*.log
+
+# Saves, backups, local state
+*.save
+*.sav
+*.state.json
+backups/
+recovery/
+saves/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

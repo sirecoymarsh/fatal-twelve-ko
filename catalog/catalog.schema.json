@@ -1,0 +1,128 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.invalid/fatal-twelve/catalog.schema.json",
+  "title": "Fatal Twelve Japanese-first Ren'Py catalog record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "stable_id", "command_index", "lane", "visibility",
+    "source", "localization", "alignment", "speaker", "voice_call",
+    "runtime_context", "prelude_commands", "menu_context", "protected_tokens",
+    "protected_token_multiset", "layout", "english_alignment", "context", "translation"
+  ],
+  "properties": {
+    "schema_version": {"const": "fatal-twelve-renpy-catalog-v1"},
+    "stable_id": {"type": "string", "minLength": 1},
+    "command_index": {"type": "integer", "minimum": 1},
+    "lane": {"enum": ["narration", "dialogue", "choice_prompt", "dialogue_choice_prompt", "narrative_choice", "spoken_choice"]},
+    "visibility": {
+      "type": "object", "additionalProperties": false,
+      "required": ["verdict", "exclusion_reason"],
+      "properties": {"verdict": {"const": "visible"}, "exclusion_reason": {"type": "null"}}
+    },
+    "source": {
+      "type": "object", "additionalProperties": false,
+      "required": ["language", "archive", "script", "line", "indent", "label", "statement_code", "group_code", "text_ja", "text_sha256", "group_sha256", "renpy_digest"],
+      "properties": {
+        "language": {"const": "ja"},
+        "archive": {"const": "scenario.rpa"},
+        "script": {"type": "string"},
+        "line": {"type": "integer", "minimum": 1},
+        "indent": {"type": "integer", "minimum": 0},
+        "label": {"type": ["string", "null"]},
+        "statement_code": {"type": "string"},
+        "group_code": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+        "text_ja": {"type": "string", "minLength": 1},
+        "text_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "group_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "renpy_digest": {"type": ["string", "null"], "pattern": "^[0-9a-f]{8}$"}
+      }
+    },
+    "localization": {
+      "type": "object", "additionalProperties": false,
+      "required": ["translation_id", "id_origin", "menu_key"],
+      "properties": {
+        "translation_id": {"type": ["string", "null"]},
+        "id_origin": {"enum": ["renpy-6.99-recomputed", "renpy-string-key"]},
+        "menu_key": {"type": ["string", "null"]}
+      }
+    },
+    "alignment": {
+      "type": "object", "additionalProperties": false,
+      "required": ["method", "confidence", "sequence_alignment_used", "reference_prose_used", "evidence"],
+      "properties": {
+        "method": {"enum": ["renpy-6.99-ast-code-digest", "renpy-string-old-key-exact-match", "source-menu-identity-no-reference"]},
+        "confidence": {"enum": ["exact", "unmatched-reference"]},
+        "sequence_alignment_used": {"const": false},
+        "reference_prose_used": {"const": false},
+        "evidence": {
+          "type": "object", "additionalProperties": false,
+          "required": ["computed_translation_id", "renpy_digest", "source_group_sha256", "source_text_sha256", "reference_key_present"],
+          "properties": {
+            "computed_translation_id": {"type": ["string", "null"]},
+            "renpy_digest": {"type": ["string", "null"]},
+            "source_group_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+            "source_text_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+            "reference_key_present": {"type": "boolean"}
+          }
+        }
+      }
+    },
+    "speaker": {"type": ["object", "null"]},
+    "voice_call": {"type": ["object", "null"]},
+    "runtime_context": {"type": "object"},
+    "prelude_commands": {"type": "array", "items": {"type": "object"}},
+    "menu_context": {"type": ["object", "null"]},
+    "protected_tokens": {"type": "array", "items": {"$ref": "#/$defs/token"}},
+    "protected_token_multiset": {"type": "object", "additionalProperties": {"type": "integer", "minimum": 1}},
+    "layout": {"type": "object"},
+    "english_alignment": {
+      "type": "object", "additionalProperties": false,
+      "required": ["mode", "key_present", "prose_imported"],
+      "properties": {
+        "mode": {"enum": ["translation_id_only", "old_key_presence_only"]},
+        "key_present": {"type": "boolean"},
+        "prose_imported": {"const": false}
+      }
+    },
+    "context": {
+      "type": "object", "additionalProperties": false,
+      "required": ["previous", "next"],
+      "properties": {
+        "previous": {"type": "array", "items": {"$ref": "#/$defs/context"}},
+        "next": {"type": "array", "items": {"$ref": "#/$defs/context"}}
+      }
+    },
+    "translation": {
+      "type": "object", "additionalProperties": false,
+      "required": ["language", "text_ko", "status", "provenance", "notes"],
+      "properties": {
+        "language": {"const": "ko"},
+        "text_ko": {"type": ["string", "null"]},
+        "status": {"enum": ["untranslated", "draft", "reviewed", "approved", "deferred"]},
+        "provenance": {"const": "japanese-source-only"},
+        "notes": {"type": "array", "items": {"type": "string"}}
+      }
+    }
+  },
+  "$defs": {
+    "token": {
+      "type": "object",
+      "required": ["kind", "value", "start", "end", "severity"],
+      "properties": {
+        "kind": {"type": "string"}, "value": {"type": "string"},
+        "start": {"type": "integer", "minimum": 0}, "end": {"type": "integer", "minimum": 0},
+        "severity": {"const": "hard"}, "coordinate_space": {"type": "string"}
+      }
+    },
+    "context": {
+      "type": "object", "additionalProperties": false,
+      "required": ["stable_id", "line", "label", "lane", "speaker_code", "source_text_ja"],
+      "properties": {
+        "stable_id": {"type": "string"}, "line": {"type": "integer", "minimum": 1},
+        "label": {"type": ["string", "null"]}, "lane": {"type": "string"},
+        "speaker_code": {"type": ["string", "null"]}, "source_text_ja": {"type": "string"}
+      }
+    }
+  }
+}

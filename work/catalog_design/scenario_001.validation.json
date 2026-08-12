@@ -1,0 +1,77 @@
+{
+  "schema_version": "fatal-twelve-renpy-catalog-v1",
+  "validated_at_utc": "2026-08-10T09:29:12.825448+00:00",
+  "catalog": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\catalog_design\\scenario_001.catalog.jsonl",
+  "records": 844,
+  "require_translated": false,
+  "source_rebuild_performed": true,
+  "metadata_checked": true,
+  "errors": [],
+  "warnings": [],
+  "passed": true,
+  "meta_checks": {
+    "catalog_hash": {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\catalog_design\\scenario_001.catalog.jsonl",
+      "size": 2856472,
+      "sha256": "8b980c599493d1cd0355b525238a3867540fdac293246fed51dee0b5aa3196b3"
+    },
+    "statistics": {
+      "records": 844,
+      "lanes": {
+        "choice_prompt": 2,
+        "dialogue": 374,
+        "dialogue_choice_prompt": 1,
+        "narration": 461,
+        "narrative_choice": 4,
+        "spoken_choice": 2
+      },
+      "voiced_records": 372,
+      "translation_id_records": 835,
+      "menu_key_records": 9,
+      "reference_present": 843,
+      "reference_missing": 1,
+      "speakers": {
+        "<narrator>": 469,
+        "alan_num": 3,
+        "alan_unk1": 1,
+        "chan_num": 2,
+        "diana_unk1": 4,
+        "lete": 1,
+        "lete_unk1": 9,
+        "linda_unk1": 3,
+        "mao": 29,
+        "mao_unk1": 4,
+        "miharu": 39,
+        "miharu_unk1": 1,
+        "naomi": 74,
+        "naomi_unk1": 3,
+        "naomi_unk2": 1,
+        "parca": 51,
+        "rinka": 145,
+        "rinka_miharu": 1,
+        "yuu_unk1": 2,
+        "yuu_unk2": 2
+      },
+      "labels": {
+        "f001": 310,
+        "f001.s1_1": 5,
+        "f001.s1_2": 2,
+        "f001.s1_end": 190,
+        "f001.s2_1": 2,
+        "f001.s2_2": 2,
+        "f001.s2_end": 65,
+        "f001.s3_1": 2,
+        "f001.s3_2": 2,
+        "f001.s3_end": 66,
+        "sentei1": 198
+      },
+      "protected_token_kinds": {
+        "literal_escape": 1,
+        "number": 99,
+        "renpy_text_tag": 48
+      },
+      "japanese_codepoints_in_source_text": 23664,
+      "untranslated": 844
+    }
+  }
+}

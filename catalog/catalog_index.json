@@ -1,0 +1,301 @@
+{
+  "schema_version": "fatal-twelve-catalog-index-v1",
+  "generated_at_utc": "2026-08-10T10:06:01.915838+00:00",
+  "catalogs": [
+    {
+      "script": "scenario/001.rpy",
+      "catalog": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_001.catalog.jsonl",
+        "size": 2856472,
+        "sha256": "8b980c599493d1cd0355b525238a3867540fdac293246fed51dee0b5aa3196b3"
+      },
+      "meta": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_001.catalog.meta.json",
+        "size": 6916,
+        "sha256": "40cdfa12aea9fee6d5d97f32a308ffc40b1ec8a969a9ec60fb486efcbd35c57d"
+      },
+      "validation": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_001.validation.json",
+        "size": 2210,
+        "sha256": "f5930672882e24f0b66b807ac399f3a7cbc60e068b37a0d7754ba7a01491ce8c"
+      },
+      "source_rebuild_passed": true,
+      "validation_errors": 0,
+      "validation_warnings": 0,
+      "records": 844,
+      "translation_id_records": 835,
+      "menu_key_records": 9,
+      "voiced_records": 372,
+      "reference_present": 843,
+      "reference_missing": 1,
+      "semantic_source_language": "ja",
+      "reference_usage": "translation identifiers and missingness only",
+      "reference_prose_parsed": false,
+      "reference_prose_stored": false,
+      "live_game_modified": false
+    },
+    {
+      "script": "scenario/002.rpy",
+      "catalog": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_002.catalog.jsonl",
+        "size": 2233516,
+        "sha256": "832387bcbf5b8b08abe8ae75873b6d0dc2b4c537c9a1ec4e152dcf55b6251f47"
+      },
+      "meta": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_002.catalog.meta.json",
+        "size": 4169,
+        "sha256": "5fff9a1961dc9bd3cb76eb19b9ee16c7202b410ad88515374fef68d7f7735ed6"
+      },
+      "validation": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_002.validation.json",
+        "size": 1699,
+        "sha256": "57212d29473817d9aa0becaf52370fdf18751432ac36adb946d5561a5c6c0587"
+      },
+      "source_rebuild_passed": true,
+      "validation_errors": 0,
+      "validation_warnings": 0,
+      "records": 668,
+      "translation_id_records": 665,
+      "menu_key_records": 3,
+      "voiced_records": 262,
+      "reference_present": 668,
+      "reference_missing": 0,
+      "semantic_source_language": "ja",
+      "reference_usage": "translation identifiers and missingness only",
+      "reference_prose_parsed": false,
+      "reference_prose_stored": false,
+      "live_game_modified": false
+    },
+    {
+      "script": "scenario/BAD_END_01.rpy",
+      "catalog": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_BAD_END_01.catalog.jsonl",
+        "size": 178591,
+        "sha256": "4eb49274a5a760e0053611fac859545fe56ced6eb230e3907fcfee3cbb61cb60"
+      },
+      "meta": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_BAD_END_01.catalog.meta.json",
+        "size": 3307,
+        "sha256": "37880763d42c3a24f20e276fdb942cb379824664797408daf900666d132539f6"
+      },
+      "validation": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_BAD_END_01.validation.json",
+        "size": 1368,
+        "sha256": "0647b218ee4a8c0a12e255cf0c8bb8322cbbc297b391950d2e78096edd70b328"
+      },
+      "source_rebuild_passed": true,
+      "validation_errors": 0,
+      "validation_warnings": 0,
+      "records": 58,
+      "translation_id_records": 58,
+      "menu_key_records": 0,
+      "voiced_records": 17,
+      "reference_present": 58,
+      "reference_missing": 0,
+      "semantic_source_language": "ja",
+      "reference_usage": "translation identifiers and missingness only",
+      "reference_prose_parsed": false,
+      "reference_prose_stored": false,
+      "live_game_modified": false
+    },
+    {
+      "script": "scenario/BAD_END_02.rpy",
+      "catalog": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_BAD_END_02.catalog.jsonl",
+        "size": 258210,
+        "sha256": "c31af6f5be65991c798a9e3cc5f0d83a17bc773150d3fa4b8601d960d19558c5"
+      },
+      "meta": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_BAD_END_02.catalog.meta.json",
+        "size": 3338,
+        "sha256": "689d745f4b3ca267f815935b12dafe6e869f7f6f63494743b9f22c228c1bced5"
+      },
+      "validation": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_BAD_END_02.validation.json",
+        "size": 1399,
+        "sha256": "3fbff35a15c3f30eba44202cc7a110e5e0df3203fa5b72f8cdd74bb429ca61a7"
+      },
+      "source_rebuild_passed": true,
+      "validation_errors": 0,
+      "validation_warnings": 0,
+      "records": 80,
+      "translation_id_records": 80,
+      "menu_key_records": 0,
+      "voiced_records": 29,
+      "reference_present": 80,
+      "reference_missing": 0,
+      "semantic_source_language": "ja",
+      "reference_usage": "translation identifiers and missingness only",
+      "reference_prose_parsed": false,
+      "reference_prose_stored": false,
+      "live_game_modified": false
+    },
+    {
+      "script": "scenario/BAD_END_03.rpy",
+      "catalog": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_BAD_END_03.catalog.jsonl",
+        "size": 68958,
+        "sha256": "39295dfc437439ce00926f1583a6c773d0f917d709b118c7f301fa3bbd7d4e7c"
+      },
+      "meta": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_BAD_END_03.catalog.meta.json",
+        "size": 3268,
+        "sha256": "f55bdc0053b91f6001c865120e76e70831dc6656a37540f728c3d83e32b632cd"
+      },
+      "validation": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_BAD_END_03.validation.json",
+        "size": 1326,
+        "sha256": "c8b7e1588eceb8253c5ddc5f3110567260d2f307f20728f6f357b8b41e9e3d89"
+      },
+      "source_rebuild_passed": true,
+      "validation_errors": 0,
+      "validation_warnings": 0,
+      "records": 21,
+      "translation_id_records": 21,
+      "menu_key_records": 0,
+      "voiced_records": 10,
+      "reference_present": 21,
+      "reference_missing": 0,
+      "semantic_source_language": "ja",
+      "reference_usage": "translation identifiers and missingness only",
+      "reference_prose_parsed": false,
+      "reference_prose_stored": false,
+      "live_game_modified": false
+    },
+    {
+      "script": "scenario/BAD_END_04.rpy",
+      "catalog": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_BAD_END_04.catalog.jsonl",
+        "size": 131163,
+        "sha256": "aa225d6427edbf145c084bff8d0a2a019e90eed1bab4b659c488feec8571083d"
+      },
+      "meta": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_BAD_END_04.catalog.meta.json",
+        "size": 3304,
+        "sha256": "92c61b2d7f01af5520d0c106572ef8a60964878ace3cf4355ca6516e8af02367"
+      },
+      "validation": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_BAD_END_04.validation.json",
+        "size": 1366,
+        "sha256": "059efb527a57dca41c065cef09b65e423db3bf2999beef773e9f74d2d0661752"
+      },
+      "source_rebuild_passed": true,
+      "validation_errors": 0,
+      "validation_warnings": 0,
+      "records": 43,
+      "translation_id_records": 43,
+      "menu_key_records": 0,
+      "voiced_records": 12,
+      "reference_present": 43,
+      "reference_missing": 0,
+      "semantic_source_language": "ja",
+      "reference_usage": "translation identifiers and missingness only",
+      "reference_prose_parsed": false,
+      "reference_prose_stored": false,
+      "live_game_modified": false
+    },
+    {
+      "script": "scenario/MIHARU_END.rpy",
+      "catalog": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_MIHARU_END.catalog.jsonl",
+        "size": 74462,
+        "sha256": "18462dbb996f7bf58c2e28044e8d1f5118b90e1183f2bbc0e05627d0c6b720a6"
+      },
+      "meta": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_MIHARU_END.catalog.meta.json",
+        "size": 3265,
+        "sha256": "2951364fd09e4687a8358eace2388d4d470fd8a3381420416866dd6397be541f"
+      },
+      "validation": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_MIHARU_END.validation.json",
+        "size": 1323,
+        "sha256": "09109d6924950122fea8f3b9424c75017d7b3ee8ef78133937345ea8bf3c77e6"
+      },
+      "source_rebuild_passed": true,
+      "validation_errors": 0,
+      "validation_warnings": 0,
+      "records": 26,
+      "translation_id_records": 26,
+      "menu_key_records": 0,
+      "voiced_records": 3,
+      "reference_present": 26,
+      "reference_missing": 0,
+      "semantic_source_language": "ja",
+      "reference_usage": "translation identifiers and missingness only",
+      "reference_prose_parsed": false,
+      "reference_prose_stored": false,
+      "live_game_modified": false
+    },
+    {
+      "script": "scenario/TRUE_END.rpy",
+      "catalog": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_TRUE_END.catalog.jsonl",
+        "size": 397391,
+        "sha256": "603d2e6c39b812905fb0c0b2f4efa8929f59139941d3244b62cbedac5604da8b"
+      },
+      "meta": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_TRUE_END.catalog.meta.json",
+        "size": 4014,
+        "sha256": "4f804299fc8b5969c080e2feef5d316e4c8805023c5bb51dfcfed89638764312"
+      },
+      "validation": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_TRUE_END.validation.json",
+        "size": 1392,
+        "sha256": "93e22d0ed7ebbafd748b1f5150edc4390f43153c6049a96685c44a56fa16db04"
+      },
+      "source_rebuild_passed": true,
+      "validation_errors": 0,
+      "validation_warnings": 0,
+      "records": 125,
+      "translation_id_records": 125,
+      "menu_key_records": 0,
+      "voiced_records": 48,
+      "reference_present": 125,
+      "reference_missing": 0,
+      "semantic_source_language": "ja",
+      "reference_usage": "translation identifiers and missingness only",
+      "reference_prose_parsed": false,
+      "reference_prose_stored": false,
+      "live_game_modified": false
+    },
+    {
+      "script": "scenario/UNHAPPY_END.rpy",
+      "catalog": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_UNHAPPY_END.catalog.jsonl",
+        "size": 285204,
+        "sha256": "c1496aae936f489e55293c1934ab7931ee0e519753f7add5e3ce41a1a81b6b44"
+      },
+      "meta": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_UNHAPPY_END.catalog.meta.json",
+        "size": 3558,
+        "sha256": "22d810cf5184007e817ec18df0e577dd91bbf4f7c758203faa1f15c1b30ca0f8"
+      },
+      "validation": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_UNHAPPY_END.validation.json",
+        "size": 1636,
+        "sha256": "f5dccbe62a4e86d433aad54c0af3d992d2cc7138c6a9321d863a3a5a273127f1"
+      },
+      "source_rebuild_passed": true,
+      "validation_errors": 0,
+      "validation_warnings": 0,
+      "records": 87,
+      "translation_id_records": 87,
+      "menu_key_records": 0,
+      "voiced_records": 38,
+      "reference_present": 87,
+      "reference_missing": 0,
+      "semantic_source_language": "ja",
+      "reference_usage": "translation identifiers and missingness only",
+      "reference_prose_parsed": false,
+      "reference_prose_stored": false,
+      "live_game_modified": false
+    }
+  ],
+  "totals": {
+    "catalogs": 9,
+    "records": 1952,
+    "translation_id_records": 1940,
+    "menu_key_records": 12,
+    "source_rebuild_passed": 9
+  }
+}

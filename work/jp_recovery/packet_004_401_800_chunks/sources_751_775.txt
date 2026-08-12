@@ -1,0 +1,25 @@
+751	L3182	dialogue	miharu	「君の……未練……か」
+752	L3184	narration	narrator	それだけ言うと、今度は海晴の方が黙ってしまう。
+753	L3186	narration	narrator	海晴の表情から、葛藤しているのがすごく伝わってくる。
+754	L3188	narration	narrator	そして顔を綻ばせ、続ける。
+755	L3193	dialogue	miharu	「君はあるいは、ぼくの死因に心当たりがあるはずなのにね。確信を持ったら軽蔑するはずだろうに」
+756	L3198	dialogue	miharu	「けれども――分かった。今はまだそれでいい。だが、ぼくのスタンスは変わらない。ぼくの運命はきっと、君のためにあるのだから。迷いがなくなる時を心待ちにしているよ」
+757	L3203	dialogue	rinka	「海晴はどうして、そこまで私を生かそうとしてくれるの？　海晴にだって未練は……あるはずなのに。自分のカードをちゃんと、持っているでしょ？」
+758	L3211	dialogue	miharu	「君を愛しているからさ」
+759	L3216	dialogue	rinka	「あ、あいっ？」
+760	L3218	narration	narrator	動揺してしまったが、それは家族愛だとかの愛であろう。
+761	L3223	dialogue	miharu	「さて、ぼくたちももう寝よう。明日、ソフィアを見送るのだろう？」
+762	L3228	dialogue	rinka	「う、うん……そうだね……」
+763	L3230	narration	narrator	海晴の性格からして、思わせ振りなことを言う時は裏にも何か考えているだろうから。
+764	L3232	narration	narrator	言葉通りの意味ではないと分かっているはずなのに、慌ててしまい恥ずかしかった。
+765	L3234	narration	narrator	そして、万が一があった場合。
+766	L3236	narration	narrator	私はその言葉の受け止め方を知らないから、余計に恥ずかしいのだろう。
+767	L3257	narration	narrator	部屋に戻ってからも、私は中々寝ることができなかった。
+768	L3259	narration	narrator	色々考えてしまったからだ。
+769	L3261	narration	narrator	その中でも特に、私が海晴の死因に心当たりがあるという一節が気になる。
+770	L3263	narration	narrator	否定しなかった理由は、自分でも察しがついていた。
+771	L3265	narration	narrator	真剣に考えることから逃げていただけで、カード化された親友の死因なんて見たくないだけで、本当は――。
+772	L3267	narration	narrator	でも、これだけは言える。
+773	L3272	dialogue	rinka	「軽蔑なんて、するわけないだろ」
+774	L3274	narration	narrator	海晴はもうぐっすり眠っているようで、小さく寝息を立てている。寝顔も美人なのってすごいな、とふと思った。
+775	L3276	narration	narrator	まくれた袖から、手首の傷痕が覗く。

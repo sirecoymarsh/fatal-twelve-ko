@@ -1,0 +1,142 @@
+{
+  "schema_version": "fatal-twelve-renpy-catalog-v1",
+  "generated_at_utc": "2026-08-10T10:07:48.792521+00:00",
+  "policy": {
+    "semantic_source_language": "ja",
+    "target_language": "ko",
+    "reference_language": "english",
+    "reference_usage": "translation identifiers and missingness only",
+    "reference_prose_parsed": false,
+    "reference_prose_stored": false,
+    "live_game_modified": false
+  },
+  "inputs": {
+    "source_rpy": {
+      "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\work\\extracted\\scenario\\scenario\\003.rpy",
+      "size": 216174,
+      "sha256": "56bcc1b54e42938abadd6319a252a4077cd2af73438f0210fd2474c6ee04c503",
+      "encoding": "utf-8",
+      "replacement_characters": 0,
+      "japanese_codepoints": 38221
+    },
+    "characters_rpy": {
+      "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\work\\extracted\\system\\characters.rpy",
+      "size": 5975,
+      "sha256": "8e1e99a2bcac76e743086a15211cf32d888a621b3c0de0278f598a8bf5e76f37",
+      "encoding": "utf-8",
+      "replacement_characters": 0,
+      "japanese_codepoints": 280,
+      "character_definitions": 73
+    },
+    "reference_rpy_index_only": {
+      "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\work\\extracted\\tl\\tl\\english\\scenario\\003.rpy",
+      "size": 226539,
+      "sha256": "e9c79bff7a5a725b5eec69e6ecdc142d39448f22c5a114efb9fb8a06b8d443e3",
+      "encoding": "utf-8",
+      "replacement_characters": 0,
+      "japanese_codepoints": 11
+    },
+    "source_rpyc": null,
+    "reference_rpyc": null,
+    "source_archive": null,
+    "reference_archive": null
+  },
+  "stable_id": {
+    "translation_blocks": "scenario.rpa::<script>::tid::<renpy_translation_id>",
+    "menu_strings": "scenario.rpa::<script>::menu::<menu ordinal>:<role>:<direct item ordinal>:<source sha256 prefix>",
+    "renpy_id_algorithm": "md5(concat(AST.get_code UTF-8 + CRLF))[:8], prefixed by label with dots replaced by underscores, duplicate suffix _N"
+  },
+  "reference_index": {
+    "translation_ids": 1526,
+    "old_string_keys": 2,
+    "duplicate_translation_ids": [],
+    "duplicate_old_strings_sha256": []
+  },
+  "statistics": {
+    "records": 1526,
+    "lanes": {
+      "dialogue": 630,
+      "dialogue_choice_prompt": 1,
+      "narration": 893,
+      "spoken_choice": 2
+    },
+    "voiced_records": 633,
+    "translation_id_records": 1523,
+    "menu_key_records": 3,
+    "reference_present": 1525,
+    "reference_missing": 1,
+    "speakers": {
+      "<narrator>": 895,
+      "alan": 14,
+      "alan_num": 27,
+      "alan_unk2": 2,
+      "chanho": 7,
+      "federico": 15,
+      "keiko": 108,
+      "keiko_num": 8,
+      "keiko_unk1": 1,
+      "keiko_unk2": 1,
+      "mao": 21,
+      "miharu": 16,
+      "miharu_num": 1,
+      "naomi": 149,
+      "odette": 25,
+      "parca": 14,
+      "rinka": 221,
+      "rinka_num": 1
+    },
+    "labels": {
+      "f003": 240,
+      "f003.s1_1": 10,
+      "f003.s1_2": 3,
+      "f003.s1_end": 1161,
+      "sentei3": 112
+    },
+    "protected_token_kinds": {
+      "number": 101,
+      "renpy_text_tag": 20
+    },
+    "japanese_codepoints_in_source_text": 38221,
+    "untranslated": 1526
+  },
+  "diagnostics": {
+    "non_display_quoted_commands": [
+      {
+        "line": 392,
+        "code": "play se \"body_fall01\""
+      },
+      {
+        "line": 1779,
+        "code": "play se \"bell02\""
+      },
+      {
+        "line": 2532,
+        "code": "play se \"body_fall01\""
+      },
+      {
+        "line": 3827,
+        "code": "play se \"taoreru08\""
+      },
+      {
+        "line": 5073,
+        "code": "play se \"electricity_switch\""
+      }
+    ],
+    "orphan_voice_calls": [],
+    "reference_orphan_translation_ids": [
+      "f003_2138e4f8",
+      "f003_s1_end_07e5ddaa",
+      "f003_s1_end_e74f3aa3"
+    ],
+    "source_translation_ids_missing_reference": [],
+    "reference_orphan_old_key_hashes": [],
+    "source_old_keys_missing_reference_stable_ids": [
+      "scenario.rpa::scenario/003.rpy::menu::001:spoken_prompt:01:6b2112621c809e63"
+    ]
+  },
+  "catalog": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\catalog_design\\scenario_003.catalog.jsonl",
+    "size": 5054467,
+    "sha256": "32d4d9a432f041be0b67646f3af4c29247165d100e5fb1a3b371a8bb0cf0e4c5"
+  }
+}

@@ -1,0 +1,25 @@
+726	L2948	dialogue	miharu	「……当然さ。地獄でも天国でもない。凛火の隣に行くだけさ」
+727	L2953	dialogue	odette	「かかっ、妬けるねぇ。じゃ、あばよ」
+728	L2957	narration	narrator	オデットはそう言い残すと、海晴の元から去って行った。
+729	L2959	narration	narrator	海晴は気持ちを落ち着けるため、一度ベンチへと座り込んだ。
+730	L2963	narration	narrator	その後日が暮れるまで、ずっとその場所で考え込んでいたのだった。
+731	L2965	narration	narrator	オデットの語った、弱さについて。
+732	L2988	narration	narrator	翌日の放課後、海晴は屋上に直未を呼び出していた。
+733	L2990	narration	narrator	今にも雨が降りそうな曇り空の下、二人は向き合っている。
+734	L2992	narration	narrator	直未は海晴から呼び出されることなどほとんどないし、二人で話すというのもあまりいい思い出はなかった。
+735	L2997	dialogue	naomi	「あの……、未島先輩。今日は、どうしたんですか？」
+736	L2999	narration	narrator	遠慮、というよりも怯えの混ざった声で、直未は何も言わない海晴へと問いかけた。
+737	L3004	dialogue	miharu	「まだ遊園地に行く前。君とライオン館の前で話した時のことは覚えているよ。だからぼくは、日辻さん、君がぼくを避けていることは仕方がないと思っている」
+738	L3009	dialogue	naomi	「避けている、だなんて……ううん、ご、ごめんなさい。わ、わたし……未島先輩のこと……、確かに、避けていました」
+739	L3023	narration	narrator	それは５月３日、≪因果の刻≫の翌日であった。
+740	L3025	narration	narrator	12人が死ぬと同時に、その死がなかったことになった運命の日。
+741	L3027	narration	narrator	海晴は、凛火の顔を見るためにライオン館を訪れていた。
+742	L3029	narration	narrator	凛火と会うことで自らの生を実感し、遊園地へ行く約束の念押しをした。
+743	L3031	narration	narrator	海晴は凛火と行く遊園地を境に、本格的に≪女神の選定≫へ身を投じる覚悟をしていたのだ。
+744	L3033	narration	narrator	ライオン館を出た直後の道で、日辻直未とすれ違った。
+745	L3038	dialogue	naomi	「あ、未島先輩っ」
+746	L3040	narration	narrator	直未は何も気にせず、海晴を見かけたので声をかけた。
+747	L3042	narration	narrator	対照的に、海晴は振り返ったあとしばらく無言で直未のことを睨みつける。
+748	L3047	dialogue	naomi	「あ、あの……」
+749	L3052	dialogue	miharu	「君は、凛火のことが好きなのかい？」
+750	L3057	dialogue	naomi	「へっ！　え、えと……凛火先輩のことは尊敬してますし、先輩としてすごく好き、ですけど……」

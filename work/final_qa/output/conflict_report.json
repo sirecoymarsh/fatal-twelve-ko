@@ -1,0 +1,45 @@
+{
+  "schema_version": "fatal-twelve-master-conflict-report-v1",
+  "translation_review_performed": false,
+  "selection_rule": "Only an exact manifest policy may select a duplicated occurrence.",
+  "conflict_count": 1,
+  "resolved_conflicts": 1,
+  "conflicts": [
+    {
+      "script_key": "001",
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s1_end_4f5fe164",
+      "sequence": 351,
+      "source_jp": "思わず、声を上げていた。",
+      "policy": {
+        "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s1_end_4f5fe164",
+        "policy": "select_exact_packet_and_preserve_all_candidates",
+        "selected_packet": "${PROJECT_ROOT}\\translations\\draft\\scenario\\aligned\\001_sequence351_bridge_aligned.json",
+        "selected_draft_ko_sha256": "e7065a3171496a423d50ac7516622b8bf0152585fa29f432c75653f6159b161b",
+        "reason": "Explicit bridge packet selection; translation review remains deferred."
+      },
+      "resolved": true,
+      "candidates": [
+        {
+          "selected": false,
+          "packet_id": "001_recovery_151_350",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\draft_001_151_350_aligned.json",
+          "packet_sha256": "7e3d349e63038c28e66b5d77ec89f0e1b2dbd48978a58835c0246a91a61009fb",
+          "packet_entry_index": 198,
+          "sequence": 351,
+          "draft_ko": "나도 모르게 소리를 지르고 있었다.",
+          "draft_ko_sha256": "7fec7749f3440a5c3fdb4ac7b1f5e733a7e47e71cbd4b2a8e6a00d3e5b1e0748"
+        },
+        {
+          "selected": true,
+          "packet_id": "001_sequence351_bridge",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_sequence351_bridge_aligned.json",
+          "packet_sha256": "f09950a6d826ceceec07198c56849dbc4cdb89a9058673e73f00caa350781c72",
+          "packet_entry_index": 0,
+          "sequence": 351,
+          "draft_ko": "나도 모르게 목소리를 높였다.",
+          "draft_ko_sha256": "e7065a3171496a423d50ac7516622b8bf0152585fa29f432c75653f6159b161b"
+        }
+      ]
+    }
+  ]
+}

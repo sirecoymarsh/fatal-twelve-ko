@@ -1,0 +1,85 @@
+{
+  "patch_id": "fatal-twelve-ko",
+  "release_version": "REPLACE_WITH_RELEASE_VERSION",
+  "release_root_name": "FatalTwelve_KoreanPatch_REPLACE_WITH_RELEASE_VERSION",
+  "game": {
+    "display_name": "Fatal Twelve",
+    "process_executable_relative_path": "fatal.exe",
+    "anchors": [
+      {
+        "path": "fatal.exe",
+        "accepted": [
+          {
+            "id": "trusted-original",
+            "size": "REPLACE_WITH_EXACT_SIZE",
+            "sha256": "987b9a1d43e46b8665a0cc4c6280459ef3d13c365fba8ba0b55a88e9f03f43bd"
+          }
+        ]
+      },
+      {
+        "path": "game/scenario.rpa",
+        "accepted": [
+          {
+            "id": "trusted-original",
+            "size": "REPLACE_WITH_EXACT_SIZE",
+            "sha256": "ea39387ae13432a79ffe4601af7b50478d063432ce3b7bc4013c92e09f036d22"
+          }
+        ]
+      },
+      {
+        "path": "game/system.rpa",
+        "accepted": [
+          {
+            "id": "trusted-original",
+            "size": "REPLACE_WITH_EXACT_SIZE",
+            "sha256": "a298b88f12c98435b015a647b51f5a35987ea4d714b5bf92e90972f3fcf6b648"
+          }
+        ]
+      },
+      {
+        "path": "game/tl.rpa",
+        "accepted": [
+          {
+            "id": "trusted-original",
+            "size": "REPLACE_WITH_EXACT_SIZE",
+            "sha256": "ad628d5aa7b0601e69fa99c13d6f67c21854ae0a290599dc478a986cfc53ac5f"
+          }
+        ]
+      },
+      {
+        "path": "game/localize.rpyc",
+        "accepted": [
+          {
+            "id": "trusted-original",
+            "size": "REPLACE_WITH_EXACT_SIZE",
+            "sha256": "5ba31f69d3646990d42e7044d97bf4cfb07bc105619b4f220fdcf1ad374d1d2f"
+          }
+        ]
+      }
+    ]
+  },
+  "payload_allowlist": [
+    {
+      "path": "game/REPLACE_WITH_COMPILED_FILE.rpyc",
+      "role": "compiled Korean localization",
+      "pre_states": [
+        {
+          "id": "absent",
+          "kind": "absent"
+        }
+      ]
+    }
+  ],
+  "supported_prestate_profiles": [
+    {
+      "id": "trusted-pristine",
+      "description": "Every additive Korean .rpyc target is absent.",
+      "states": [
+        {
+          "path": "game/REPLACE_WITH_COMPILED_FILE.rpyc",
+          "state_id": "absent"
+        }
+      ]
+    }
+  ]
+}

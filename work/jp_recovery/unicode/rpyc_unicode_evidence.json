@@ -1,0 +1,1555 @@
+{
+  "format": "fatal-twelve-rpyc-unicode-evidence-v1",
+  "method": "RPC2 slot 1 -> zlib -> pickletools opcode walk (no object unpickling)",
+  "english_translation_data_used": false,
+  "rpyc_file_count": 38,
+  "japanese_binunicode_count": 18273,
+  "japanese_byte_string_opcode_count": 0,
+  "conclusion": "Japanese source strings are serialized as pickle Unicode values; the decompiled files are strict UTF-8 without a BOM.",
+  "files": [
+    {
+      "source_archive": "system.rpa",
+      "source_file": "characters.rpyc",
+      "rpyc_sha256": "3b46e41c44762962d9c3ac31782b7b1f681773c120237153257cab95f904aae6",
+      "rpc2_header": "RENPY RPC2",
+      "slots": {
+        "1": 6325,
+        "2": 6325
+      },
+      "slot1_pickle_uncompressed_size": 20527,
+      "slot1_pickle_sha256": "62829c0557c2711f20b916548845e10c3a68c29b4929b870578d6486423d2a01",
+      "pickle_string_opcodes": {
+        "BINUNICODE": 158,
+        "SHORT_BINSTRING": 14,
+        "BINSTRING": 0
+      },
+      "japanese_text_by_opcode": {
+        "BINUNICODE": 63
+      },
+      "first_japanese": [
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 909,
+          "text": "Character(name = _(\"凛火\"), kind = d_kind, image=\"rnk\", voice_tag=\"rnk\")"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 1152,
+          "text": "Character(name = _(\"Ⅰの少女\"),kind = rinka)"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 1373,
+          "text": "Character(name = _(\"黒髪の少女\"),kind = rinka)"
+        }
+      ],
+      "decompiled_rpy": "characters.rpy",
+      "decompiled_rpy_sha256": "8e1e99a2bcac76e743086a15211cf32d888a621b3c0de0278f598a8bf5e76f37",
+      "decompiled_rpy_encoding": "UTF-8 (strict decode passed)",
+      "decompiled_rpy_has_utf8_bom": false,
+      "decompiled_rpy_replacement_character_count": 0,
+      "decompiled_rpy_c1_control_count": 0
+    },
+    {
+      "source_archive": "system.rpa",
+      "source_file": "gamedata.rpyc",
+      "rpyc_sha256": "524797c6d7c0ac8a61786f6f28ba444403f63c2e58070771efff38007401f382",
+      "rpc2_header": "RENPY RPC2",
+      "slots": {
+        "1": 41087,
+        "2": 41087
+      },
+      "slot1_pickle_uncompressed_size": 146009,
+      "slot1_pickle_sha256": "5546618aa449a55035766f5e5b7738873e653b7992b19c2a8f51867331292588",
+      "pickle_string_opcodes": {
+        "BINUNICODE": 26,
+        "SHORT_BINSTRING": 14,
+        "BINSTRING": 0
+      },
+      "japanese_text_by_opcode": {
+        "BINUNICODE": 10
+      },
+      "first_japanese": [
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 350,
+          "text": "{\n    \"00\" : _(\"プロローグ\"),\n    \"01\" : _(\"帰り道\"),\n    \"02\" : _(\"転記\"),\n    \"03\" : _(\"ガールズトーク\"),\n    \"04\" : _(\"奇妙な本\"),\n    \"05\" : _(\"まどろみの中で\"),\n    \"06\" : _(\"炎の記憶\"),\n    \"07\" : _(\"悪夢を見た朝\"),\n    \"08\" : _(\"かしまし遊園地\"),\n    \"09\" : _(\"癒しの時\"),\n    \"10\" : _(\"女神の選定\"),\n    \"11\" : _(\"憂鬱な朝\"),\n    \"12\" : _(\"連休明けの学校\"),\n    \"13\" : _(\"メイド喫茶初訪問！\"),\n    \"14\" : _(\"すれ違い\"),\n    \"15\" : _(\"危険な二人\"),\n    \"16\" : _(\"尾行の後\"),\n    \"17\" : _(\"余裕の夜会\"),\n    \"18\" : _(\"尾行と追跡\"),\n    \"19\" : _(\"呆れるほど迂闊\"),\n    \"20\" : _(\"空白の数日間\"),\n    \"21\" : _(\"２度目の選定、開始\"),\n    \"22\" : _(\"指名の真相\"),\n    \"23\" : _(\"続く悪夢\"),\n    \"24\" : _(\"今日のご飯\"),\n    \"25\" : _(\"放課後どうする？\"),\n    \"26\" : _(\"遠い背中\"),\n    \"27\" : _(\"蝕む夢\"),\n    \"28\" : _(\"絆の芽生え\"),\n    \"29\" : _(\"女性と病院\"),\n    \"30\" : _(\"読書は好き？嫌い？\"),\n    \"31\" : _(\"死因への到達\"),\n    \"32\" : _(\"直面する想い\"),\n    \"33\" : _(\"なぜ、私が？\"),\n    \"34\" : _(\"その名前\"),\n    \"35\" : _(\"手紙\"),\n    \"36\" : _(\"人を縛る鎖\"),\n    \"37\" : _(\"獲られたカード\"),\n    \"38\" : _(\"変化と変化\"),\n    \"39\" : _(\"かすかな救い\"),\n    \"40\" : _(\"白の来訪者\"),\n    \"41\" : _(\"接近\"),\n    \"42\" : _(\"平穏な学校生活\"),\n    \"43\" : _(\"ニッポンの文化\"),\n    \"44\" : _(\"世界の広さ\"),\n    \"45\" : _(\"旅人が遺すもの\"),\n    \"46\" : _(\"意外×想定外\"),\n    \"47\" : _(\"旅人の祈り\"),\n    \"48\" : _(\"彼のヨロコビ\"),\n    \"49\" : _(\"人の不幸は何の味？\"),\n    \"50\" : _(\"カレーとスプーン\"),\n    \"51\" : _(\"餅は餅屋、コーヒーは喫茶店\"),\n    \"52\" : _(\"聞き込み調査\"),\n    \"53\" : _(\"答え合わせ\"),\n    \"54\" : _(\"牛塚茂継\"),\n    \"55\" : _(\"孤独と餓死\"),\n    \"56\" : _(\"洞察\"),\n    \"57\" : _(\"できること\"),\n    \"58\" : _(\"その日\"),\n    \"59\" : _(\"その場所\"),\n    \"60\" : _(\"戦いの記憶\"),\n    \"61\" : _(\"好々爺\"),\n    \"62\" : _(\"まったりお風呂\"),\n    \"63\" : _(\"引き出しの中の記憶\"),\n    \"64\" : _(\"深夜の襲撃、続く\"),\n    \"65\" : _(\"カレーライス\"),\n    \"66\" : _(\"継ぐこと\"),\n    \"67\" : _(\"与えられた名前\"),\n    \"68\" : _(\"消極的組の予定\"),\n    \"69\" : _(\"約束に、足踏み\"),\n    \"70\" : _(\"せめてもの\"),\n    \"71\" : _(\"ひとときの…\"),\n    \"72\" : _(\"５度目の選定、開始\"),\n    \"73\" : _(\"迷いなき脱落\"),\n    \"74\" : _(\"消滅・衝撃\"),\n    \"75\" : _(\"旗？\"),\n    \"76\" : _(\"呪詛の言葉\"),\n    \"77\" : _(\"自省\"),\n    \"78\" : _(\"図書室で初対面\"),\n    \"79\" : _(\"紙コップとコーヒー\"),\n    \"80\" : _(\"獣と少女\"),\n    \"81\" : _(\"少女と獣\"),\n    \"82\" : _(\"自らの死、その刻\"),\n    \"83\" : _(\"梅雨入り\"),\n    \"84\" : _(\"異様\"),\n    \"85\" : _(\"お別れの仕方\"),\n    \"86\" : _(\"独りで\"),\n    \"87\" : _(\"Ⅸ人目の男\"),\n    \"88\" : _(\"奇妙な４人\"),\n    \"89\" : _(\"その裏で、彼ら\"),\n    \"90\" : _(\"大立ち回り\"),\n    \"91\" : _(\"雨の日はまだ続く\"),\n    \"92\" : _(\"神速の射手\"),\n    \"93\" : _(\"雨と後悔\"),\n    \"94\" : _(\"正義か悪か\"),\n    \"95\" : _(\"雨の雫\"),\n    \"96\" : _(\"邂逅と分岐点\"),\n    \"97\" : _(\"出発\"),\n    \"98\" : _(\"ねーよ！\"),\n    \"99\" : _(\"眠れない夜\"),\n    \"100\" : _(\"事件の予兆\"),\n    \"101\" : _(\"ボクの話をしよう\"),\n    \"102\" : _(\"世界へのメッセージ\"),\n    \"103\" : _(\"攻防・前\"),\n    \"104\" : _(\"攻防・後\"),\n    \"105\" : _(\"心配\"),\n    \"106\" : _(\"束の間の休息\"),\n    \"107\" : _(\"彼の真意\"),\n    \"108\" : _(\"決着、そして\"),\n    \"109\" : _(\"７度目の選定、開始\"),\n    \"110\" : _(\"その刻\"),\n    \"111\" : _(\"答え合わせ\"),\n    \"112\" : _(\"安堵\"),\n    \"113\" : _(\"信じてる\"),\n    \"114\" : _(\"彼女の綻び\"),\n    \"115\" : _(\"噛みしめて\"),\n    \"116\" : _(\"困難な道へ\"),\n    \"117\" : _(\"炎の記憶、再び\"),\n    \"118\" : _(\"やめとこ\"),\n    \"119\" : _(\"惹かれ合う弱さ\"),\n    \"120\" : _(\"袖の内側\"),\n    \"121\" : _(\"酒の味\"),\n    \"122\" : _(\"前向きに\"),\n    \"123\" : _(\"オデット・マランソン\"),\n    \"124\" : _(\"少しでも\"),\n    \"125\" : _(\"枯れて果てて\"),\n    \"126\" : _(\"激闘\"),\n    \"127\" : _(\"ただ、待つ\"),\n    \"128\" : _(\"立っていたのは――\"),\n    \"129\" : _(\"彼の夢\"),\n    \"130\" : _(\"戦いを終えて\"),\n    \"131\" : _(\"だから、大丈夫\"),\n    \"132\" : _(\"８度目の選定、開始\"),\n    \"133\" : _(\"大波乱\"),\n    \"134\" : _(\"捨てられなかったもの\"),\n    \"135\" : _(\"可能と不可能\"),\n    \"136\" : _(\"絶えないです\"),\n    \"137\" : _(\"敗北者の夜\"),\n    \"138\" : _(\"指輪\"),\n    \"139\" : _(\"亀裂\"),\n    \"140\" : _(\"海晴に――\"),\n    \"141\" : _(\"告白\"),\n    \"142\" : _(\"落ち着かない朝\"),\n    \"143\" : _(\"浮足立つ昼\"),\n    \"144\" : _(\"決意、あらためて\"),\n    \"145\" : _(\"スケール・ジョーンズ\"),\n    \"146\" : _(\"過去という呪縛\"),\n    \"147\" : _(\"オレの/彼の覚悟\"),\n    \"148\" : _(\"どちら側？\"),\n    \"149\" : _(\"憧れ\"),\n    \"150\" : _(\"必死の決断\"),\n    \"151\" : _(\"スターゲイザー\"),\n    \"152\" : _(\"久々のおばあちゃん\"),\n    \"153\" : _(\"おしまいへ\"),\n    \"154\" : _(\"９度目の選定、開始\"),\n    \"155\" : _(\"女神の器\"),\n    \"156\" : _(\"とおく\"),\n    \"157\" : _(\"事実\"),\n    \"158\" : _(\"たったこれだけ\"),\n    \"159\" : _(\"動き出す歯車\"),\n    \"160\" : _(\"止まらない\"),\n    \"161\" : _(\"抗いの人生\"),\n    \"162\" : _(\"必死\"),\n    \"163\" : _(\"切り札\"),\n    \"164\" : _(\"案外大変\"),\n    \"165\" : _(\"アムリタ\"),\n    \"166\" : _(\"七夕\"),\n    \"167\" : _(\"面影\"),\n    \"168\" : _(\"10度目の選定、開始\"),\n    \"169\" : _(\"祈り\"),\n    \"170\" : _(\"交差しなかった運命\"),\n    \"171\" : _(\"答え\"),\n    \"172\" : _(\"二人のこれから\"),\n    \"173\" : _(\"一人の夜\"),\n    \"174\" : _(\"一夜明け…\"),\n    \"175\" : _(\"ダイアナ・ハリソン\"),\n    \"176\" : _(\"少女の死\"),\n    \"177\" : _(\"初デート\"),\n    \"178\" : _(\"レモン色\"),\n    \"179\" : _(\"一生の想い出\"),\n    \"180\" : _(\"いっしょ\"),\n    \"181\" : _(\"夜を噛み締める\"),\n    \"182\" : _(\"11度目の選定、開始\"),\n    \"183\" : _(\"世界の大河\"),\n    \"184\" : _(\"護るべきもの\"),\n    \"185\" : _(\"真意\"),\n    \"186\" : _(\"忘却の先\"),\n    \"187\" : _(\"続く想い\"),\n    \"188\" : _(\"急転直下\"),\n    \"189\" : _(\"停滞\"),\n    \"190\" : _(\"覚悟、してる\"),\n    \"191\" : _(\"ごきげんよう\"),\n    \"192\" : _(\"それぞれの願い\"),\n    \"193\" : _(\"過去と現在\"),\n    \"194\" : _(\"いつか、また\"),\n    \"195\" : _(\"前夜\"),\n    \"196\" : _(\"最後の選定、開始\"),\n    \"197\" : _(\"抱き締めて\"),\n    \"198\" : _(\"声\"),\n    \"199\" : _(\"ありがとう\"),\n    \"200\" : _(\"イツワリ\"),\n    \"201\" : _(\"私だけの、私\"),\n    \"202\" : _(\"存在の証明\"),\n    \"203\" : _(\"権利\"),\n    \"204\" : _(\"憂鬱な予感\"),    \n    }"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 7669,
+          "text": "{\n   \"01\" : {\"name\" : _(\"？？？\"), \"tip\" : \"\"},\n   \"02\" : {\"name\" : _(\"新宿駅・ホーム\"), \"tip\" : _(\"2015年では乗降者数が世界一位にもなるほどのターミナル駅。いくつもの路線が通る交通の要でもある。凛火は、通学にも遊びにも頻繁に利用している。\")},\n   \"03\" : {\"name\" : _(\"山手線・車内\"), \"tip\" : _(\"日本で最も有名な路線の一つ。最近車両がリニューアルしたらしい。ライオン館の最寄り駅はいくつかあるが、山手線沿線にもあるらしい。一番の最寄ではないが、地下鉄を利用しないため電車賃がちょっと節約できる\")},   \n   \"04\" : {\"name\" : _(\"ライオン館・内観\"), \"tip\" : _(\"凛火の自宅兼、祖母の経営する喫茶店。おいしいコーヒーを求めて、たくさんのお客さんがやって来ていた。凛火がマスター代理を務めている現在は、事情を知っている常連さんが主なお客。\")},\n   \"05\" : {\"name\" : _(\"凛火の部屋\"), \"tip\" : _(\"ライオン館の二階に位置している。かつては祖母の身内が使っていたらしいが、今ではすっかり凛火の部屋。シックな雰囲気があるが、少女漫画や可愛い小物など女の子らしいところも多い。\")},\n   \"06\" : {\"name\" : _(\"スターダストキングダム\"), \"tip\" : _(\"正式名称は東京スターダストキングダム。東京と名前に冠しているが、実際の住所は千葉県。楽しいアトラクションや幻想的なパレード、美味しい屋台のフードなど、幅広い層に人気がある。\")},\n   \"07\" : {\"name\" : _(\"運命の大広間・下層\"), \"tip\" : _(\"運命の女神パルカによって形成された夢の中の空間。≪夢の世界≫という、本来、人間の認識できない形而上の世界を人間が認識できるように構成された場所。宙に浮く床や歯車、巨大な時計の針など現実離れしている。\")},\n   \"08\" : {\"name\" : _(\"学校・教室\"), \"tip\" : _(\"正式名称は「私立飴茶女子大学附属高等学校」。女子校で初等部から大学まで設置されていて、よくお嬢様学校と間違えられるが、実態は有名国立大学への進学者も輩出する進学校である。正式名称は「私立飴茶女子大学附属高等学校」。女子校で初等部から大学まで設置されていて、よくお嬢様学校と間違えられるが、実態は有名国立大学への進学者も輩出する進学校である。\")},\n   \"09\" : {\"name\" : _(\"メイド喫茶\"), \"tip\" : _(\"個人経営のメイド喫茶「Fairy Dream」。オーナーの迷走により、頻繁にメニューが変わる。提供されるサービスには、お絵描きなどベタなものもあれば、元シェフの店長が本気で作ったパスタも。そのカオスさが一部のマニアに根強く人気。個人経営のメイド喫茶「Fairy Dream」。オーナーの迷走により、頻繁にメニューが変わる。提供されるサービスには、お絵描きなどベタなものもあれば、元シェフの店長が本気で作ったパスタも。そのカオスさが一部のマニアに根強く人気。\")},\n   \"10\" : {\"name\" : _(\"北京市街・飲⾷店\"), \"tip\" : _(\"中国・北京のどこかにある老舗北京料理店「王華」。伝統的な料理が店主の信条であり、かなりワイルドな味付けが美味。20年ものの紹興酒と一緒に食べるこの店の料理は、一生忘れられないだろう。中国・北京のどこかにある老舗北京料理店「王華」。伝統的な料理が店主の信条であり、かなりワイルドな味付けが美味。20年ものの紹興酒と一緒に食べるこの店の料理は、一生忘れられないだろう。\")},\n   \"11\" : {\"name\" : _(\"北京市街・ホテル\"), \"tip\" : _(\"日本発の「エンジェルインターナショナルホテルグループ」の一支店。ゲスト第一主義をモットーとしたこのホテルは、政治家や芸能人も多く利用するという。一方、ワケアリの宿泊客が多いことでも有名で……。日本発の「エンジェルインターナショナルホテルグループ」の一支店。ゲスト第一主義をモットーとしたこのホテルは、政治家や芸能人も多く利用するという。一方、ワケアリの宿泊客が多いことでも有名で……。\")},\n   \"12\" : {\"name\" : _(\"台湾市街・ホテル\"), \"tip\" : _(\"「エンジェルインターナショナルホテル台湾」は、一流の宿泊施設。最高級の設備と手厚いサービスに惹かれ、長期利用する客も多いらしい。ロビーで待っていると、一日に何人も芸能人を見ることができるとか、できないとか。「エンジェルインターナショナルホテル台湾」は、一流の宿泊施設。最高級の設備と手厚いサービスに惹かれ、長期利用する客も多いらしい。ロビーで待っていると、一日に何人も芸能人を見ることができるとか、できないとか。\")},\n   \"13\" : {\"name\" : _(\"台湾市街地・レストラン前\"), \"tip\" : _(\"「約會」という名のイタリアンレストラン。店名の意味は「待ち合わせ」であり、食事だけでなく、食事の相手を待つ時間も楽しんで欲しいという願いが込められている。相手が大幅に遅刻しているときなどは、サービスでスパークリングワインを提供している。「約會」という名のイタリアンレストラン。店名の意味は「待ち合わせ」であり、食事だけでなく、食事の相手を待つ時間も楽しんで欲しいという願いが込められている。相手が大幅に遅刻しているときなどは、サービスでスパークリングワインを提供している。\")},\n   \"14\" : {\"name\" : _(\"学校・校門\"), \"tip\" : _(\"多くの生徒が行き交う校門。校則が厳しい方ではないので、学校へ入る前の荷物検査などは行っていない。ただし、始業時刻が近くなると生活指導の教員が立ち、のんびり歩いている生徒へ発破をかける。一生懸命走っている姿を見せると、温情で遅刻をチャラにしてくれる場合もあるらしい。多くの生徒が行き交う校門。校則が厳しい方ではないので、学校へ入る前の荷物検査などは行っていない。ただし、始業時刻が近くなると生活指導の教員が立ち、のんびり歩いている生徒へ発破をかける。一生懸命走っている姿を見せると、温情で遅刻をチャラにしてくれる場合もあるらしい。\")},\n   \"15\" : {\"name\" : _(\"学校・屋上\"), \"tip\" : _(\"テラスとして開放されている屋上。高等部の生徒が多く利用している。屋上で食事を摂ったり、外の空気を吸いに来たりと人の出入りは多い。ただし、金髪混じりで有名な生徒やピンク髪の素行の悪い生徒の溜まり場になっていて、彼女たちがいる時は利用を避けられている。テラスとして開放されている屋上。高等部の生徒が多く利用している。屋上で食事を摂ったり、外の空気を吸いに来たりと人の出入りは多い。ただし、金髪混じりで有名な生徒やピンク髪の素行の悪い生徒の溜まり場になっていて、彼女たちがいる時は利用を避けられている。\")},\n   \"16\" : {\"name\" : _(\"運命の大広間・上層\"), \"tip\" : _(\"運命の大広間において、指名が行われるための空間。指名者と被指名者の立つ床が上昇して移動していることから上層と呼ばれているが、実際は下層とは上下の関係になく表裏の関係にある。下層と違い大時計に針はなく、参加者の立つ床がある場所には穴が開いている。\")},\n   \"17\" : {\"name\" : _(\"新宿御苑・時計台の⾒える場所\"), \"tip\" : _(\"大都会ながら、広大な敷地を持つ庭園。日本式・イギリス式・フランス式の各庭園のほか、森のように街路樹が並んでいる場所もある。草木の隙間からはビル街がのぞき、独特の風景を生み出している。\")},\n   \"18\" : {\"name\" : _(\"ライオン館・外観\"), \"tip\" : _(\"目の前が新宿御苑ということもあり、その雰囲気に合わせて店の前にはたくさんの観葉植物が置かれている。２階には凛火の部屋と祖母の部屋がそれぞれある。凛火は、この建物がいつからあるのか、祖母がいつからここに住んでいるかなど詳しいことを知らない。\")},\n   \"19\" : {\"name\" : _(\"病院・ラウンジ\"), \"tip\" : _(\"病院の待合スペース。患者だけでなく見舞客も来るため、自動販売機などが置かれている。症状の軽い入院患者は、ここで談笑することで日々のコミュニケーションをとっている。コミック雑誌が充実していて、マンガファンの医者がこっそり読んでいるとかいないとか。\")},\n   \"20\" : {\"name\" : _(\"病院・新⽣児室\"), \"tip\" : _(\"子供が生まれてから退院するまで、新生児のケアを行う部屋。体温や呼吸、心拍数など、まだ体内機能が未熟な新生児の看護は多様であり、目が離せない。泣き方一つでも、何か異常がないか観察を怠れないらしい。\")},\n   \"21\" : {\"name\" : _(\"ファミレス\"), \"tip\" : _(\"一般的なファミリーレストラン。全国展開しているチェーン店であり、派生店も多い。このチェーンで人気なのは意外にも和風メニューで、最近は高級ブランドそばなど、高価格帯の商品を増やしている。「日本の伝統食」シリーズは好調らしく、第５弾の企画会議中である。\")},\n   \"22\" : {\"name\" : _(\"増上寺と東京タワー\"), \"tip\" : _(\"増上寺とは、浄土宗の寺院である。近くには東京タワーが見え、ライトアップされた増上寺と東京タワーが並ぶ姿は美しく、人気も高い。この近くには、仏教系の中高一貫校もあるらしい。\")},\n   \"23\" : {\"name\" : _(\"ホテル（⽇本）\"), \"tip\" : _(\"「エンジェルインターナショナルホテルグループ」の系列。日本発のホテルグループであるのだが、国内での知名度はいま一つ。日本限定のサービスとして、大浴場が併設されているホテルが多い。\")},\n   \"24\" : {\"name\" : _(\"茂継邸・外観\"), \"tip\" : _(\"近所で評判のボロ家。実際の古さよりも、誰が住んでいるのか分からない得体の知れなさの方が評判の原因らしい。隣人からは廃墟化していないだけマシ、と諦められている。\")},\n   \"25\" : {\"name\" : _(\"茂継邸・廊下\"), \"tip\" : _(\"数十年間置きっぱなしの人形など、物の放置具合がうかがえる。散乱している物を漁れば、半世紀前の新聞も見つかるとか。リフォームは行っていないが、意外にも元々の作りが丈夫なため、きちんと掃除をすればまだまだ住める。\")},\n   \"26\" : {\"name\" : _(\"道\"), \"tip\" : _(\"住宅街の道。早朝には散歩する高齢者が、朝には通勤通学で急いで駅に向かう会社員や学生たちが、昼には犬の散歩をする主婦が、夕方には駅から帰宅する学生や夕食の買い物をする主婦が、夜には帰宅してくる会社員たちが、深夜になるとほろ酔いの大人たちが、営みを作る。\")},\n   \"27\" : {\"name\" : _(\"茂継邸・内観\"), \"tip\" : _(\"年頃の凛火こそ嫌悪感を露わにしたが、決して不潔ではない牛塚茂継の部屋。物を棚やタンスに収納することを諦めた結果が彼の家である。昔の家らしく、天井は低め。\")},\n   \"28\" : {\"name\" : _(\"銭湯\"), \"tip\" : _(\"地元民がよく利用する銭湯。特別なお湯でもなんでもないが、大きなお風呂は落ち着くと利用客は口を揃える。日々の暮らしで昔ながらのぬくもりを感じられる、数少ない場所でもある。\")},\n   \"29\" : {\"name\" : _(\"茂継邸・外観（取り壊し）\"), \"tip\" : _(\"かつて牛塚茂継の住む家があった場所。彼の死後、家族にも所有権を放棄された家はすぐに取り壊され、更地となった。あまりにも早い対応に、茂継との縁を断ち切りたい家族の念がうかがえる。\")},\n   \"30\" : {\"name\" : _(\"学校・図書室\"), \"tip\" : _(\"飴茶の図書室は広く建物ごと独立しているため、図書館とも呼ばれている。高等部の生徒だけでなく、飴茶生なら誰でも利用可能。静かな空間には読書スペースのほか、自習スペースもあり、習慣的に利用する生徒は多い。司書のおすすめコーナーは週一でラインナップが入れ替わるが、直未は全て読破しているらしい。\")},\n   \"31\" : {\"name\" : _(\"学校・廊下（文化祭）\"), \"tip\" : _(\"吹き抜けになっている校舎。天気や季節によって景色が変わって風情があるのだが、生徒たちからは夏は暑く冬は寒いと評判は良くない。それでも教室でじっとしていられない生徒も多く、休み時間には生徒が談笑する場所になっている。\")},\n   \"32\" : {\"name\" : _(\"学校・教室（文化祭）\"), \"tip\" : _(\"高等部の文化祭。女子高ということもあり、基本的には親族や生徒同士などの関係者のみで行われる。飴茶の生徒であれば、中等部や大学からも遊びに来る人がいるらしい。気合の入れようはクラスによってまちまち。\")},\n   \"33\" : {\"name\" : _(\"セレモニーホール\"), \"tip\" : _(\"飴茶女子高校から電車で40分ほど行ったところにある葬儀場。罪なき生徒のあまりに突然の死は多くの人々に悼まれ、自然と参列者が増えていった。手向けの花は、命が三途の川の向こう側に行ってしまうことを示していた。\")},\n   \"34\" : {\"name\" : _(\"バー\"), \"tip\" : _(\"≪MILK CROWN≫は、この店のオーナーが酒よりも牛乳が好きなことから名づけられた。牛乳などの液体に水滴を落としたときにしぶきが王冠の形になる現象が、ミルククラウンである。古今東西多種多様のお酒を仕入れている。\")},\n   \"35\" : {\"name\" : _(\"ホテル（日本）\"), \"tip\" : _(\"「エンジェルインターナショナルホテルグループ」には、ウルトラ・スイートルームがあるという。ただのお金を持つだけでは利用できず、予約を取るだけであらゆるコネが必要だという。闇取引が行われているだとか、大物芸能人の密会の場になっているだとか、都市伝説が絶えないようだ。\")},  \n   \"36\" : {\"name\" : _(\"横浜・倉庫\"), \"tip\" : _(\"どこかの配送会社が手放したあと、半廃墟化した倉庫。ほとんど人通りがなく、一部では心霊スポット扱いされている。最近は、無人のはずなのに中から光が見えたり奇妙な音がしたりと、いよいよ心霊スポットでは済まなくなり、敬遠されている。\")},\n   \"37\" : {\"name\" : _(\"東京タワー・エントランス\"), \"tip\" : _(\"言わずと知れた東京のシンボルのうちの一つ。都会のど真ん中にそびえ立つ塔は、昼夜問わず存在感を示し続ける。休日には、イベントが多くとり行われている。\")},\n   \"38\" : {\"name\" : _(\"東京タワー・展望台\"), \"tip\" : _(\"二つある展望台のうち、低い方の展望台。高い方の展望台へ行くには追加の料金がかかってしまうこともあり、こちらの展望台のみ利用する観光客も多い。それでも十分な高さがあり、東京の街並みを360度一望できる。\")},\n   \"39\" : {\"name\" : _(\"芝公園\"), \"tip\" : _(\"港区芝に点在する公園。この場所は特に夜景スポットとして有名であり、きっといくつものドラマが生まれたことだろう。別の場所では、近所の男子高校生が授業や部活のランニングやトレーニングなどをしている姿がよく見かけられている。\")},\n   \"40\" : {\"name\" : _(\"学校・教室\"), \"tip\" : _(\"飴茶女子大学付属高校中等部の教室。中等部と高等部の校舎は偶然か意図的か、同じ構造をしている。中等部から高等部へエスカレーター式ではあるが、高等部でも入試を行っている。高等部の偏差値は非常に高いと界隈では有名である。\")},\n   \"41\" : {\"name\" : _(\"花⽕大会\"), \"tip\" : _(\"神奈川県みなとみらい付近で夏に行われる花火大会。元々幻想的でどこかノスタルジックな横浜の海と夜景だが、空に光の花が咲けば、それは、もはや筆舌に尽くし難い。ようやく訪れた平穏は、きっと祝福されている。\")},\n   \"42\" : {\"name\" : _(\"学校・廊下\"), \"tip\" : _(\"吹き抜けになっている校舎。天気や季節によって景色が変わって風情があるのだが、生徒たちからは夏は暑く冬は寒いと評判は良くない。それでも教室でじっとしていられない生徒も多く、休み時間には生徒が談笑する場所になっている。\")},\n\n   }"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 25600,
+          "text": "{\n    \"bgm_00\" : _(\"タイトル画面\"),\n    \"bgm_01\" : _(\"WARNING\"), \n    \"bgm_02\" : _(\"喫茶ライオン館\"),\n    \"bgm_03\" : _(\"Rinka's Room\"),\n    \"bgm_04\" : _(\"Sinking In Flames\"),\n    \"bgm_05\" : _(\"海晴\"),\n    \"bgm_06\" : _(\"Amusement Park / Day\"),\n    \"bgm_07\" : _(\"A Dot On A Piece Of Paper\"),\n    \"bgm_08\" : _(\"Amusement Park / Bright Night\"),\n    \"bgm_09\" : _(\"Theme of Destiny\"),\n    \"bgm_10\" : _(\"少女の唄\"),\n    \"bgm_11\" : _(\"Do You Understand?\"), \n    \"bgm_12\" : _(\"The Sacred Large Hall\"),  \n    \"bgm_13\" : _(\"Powerless\"),\n    \"bgm_14\" : _(\"At Amecha Girls' University High School\"),\n    \"bgm_15\" : _(\"Welcome Back, My Master E> ;)\"),\n    \"bgm_16\" : _(\"すれ違う二人 -S/I V/S-\"),\n    \"bgm_17\" : _(\"Villain\"),\n    \"bgm_18\" : _(\"情報調査中\"),\n    \"bgm_19\" : _(\"Odette\"),\n    \"bgm_20\" : _(\"Chilling With Sidekicks\"),\n    \"bgm_21\" : _(\"運命の選定\"),\n    \"bgm_22\" : _(\"Fall Into…\"),\n    \"bgm_23\" : _(\"絆\"),\n    \"bgm_24\" : _(\"焦燥\"),\n    \"bgm_25\" : _(\"託す想い\"),\n    \"bgm_26\" : _(\"Regular Ordinary Girlish Chat Time\"),\n    \"bgm_27\" : _(\"He Reveals me The Answer\"),\n    \"bgm_28\" : _(\"The Battle Begins\"),\n    \"bgm_29\" : _(\"癒しの時間\"),\n    \"bgm_30\" : _(\"The Memory Remains\"),\n    \"bgm_31\" : _(\"文化祭\"),\n    \"bgm_32\" : _(\"絶望\"),\n    \"bgm_33\" : _(\"Rain\"),\n    \"bgm_34\" : _(\"凛火\"),\n    \"bgm_35\" : _(\"Numb\"),\n    \"bgm_36\" : _(\"W i H g L n (Dark Side Of Hers)\"),\n    \"bgm_37\" : _(\"街\"),\n    \"bgm_38\" : _(\"おはよう (20XX XX XX)\"),\n    \"bgm_39\" : _(\"直未\"),\n    \"bgm_40\" : _(\"All For You\"),\n    \"bgm_41\" : _(\"運命の刻\"),\n    \"bgm_42\" : _(\"おやすみ (20XX 07 23)\"),\n    \"bgm_43\" : _(\"Alan\"),\n    }"
+        }
+      ],
+      "decompiled_rpy": "gamedata.rpy",
+      "decompiled_rpy_sha256": "1aae56972a54511bc3e440431933f47eed4a2a44a4f0e138693ff78548a6d07f",
+      "decompiled_rpy_encoding": "UTF-8 (strict decode passed)",
+      "decompiled_rpy_has_utf8_bom": false,
+      "decompiled_rpy_replacement_character_count": 0,
+      "decompiled_rpy_c1_control_count": 0
+    },
+    {
+      "source_archive": "system.rpa",
+      "source_file": "gui.rpyc",
+      "rpyc_sha256": "54010c454cb26a201775ad363bbdc86beb98e1b9716d889ce427b8d59f659fb5",
+      "rpc2_header": "RENPY RPC2",
+      "slots": {
+        "1": 1669,
+        "2": 1669
+      },
+      "slot1_pickle_uncompressed_size": 3956,
+      "slot1_pickle_sha256": "fc97a213c16264ae0e58501f5774a3c819fb88cc8d30cb97af72f9a7cf564052",
+      "pickle_string_opcodes": {
+        "BINUNICODE": 33,
+        "SHORT_BINSTRING": 21,
+        "BINSTRING": 0
+      },
+      "japanese_text_by_opcode": {},
+      "first_japanese": [],
+      "decompiled_rpy": "gui.rpy",
+      "decompiled_rpy_sha256": "0364e4769b615d5ef5fcf9d1e4ccf2342119026f997e6a964b84d73cf7739d01",
+      "decompiled_rpy_encoding": "UTF-8 (strict decode passed)",
+      "decompiled_rpy_has_utf8_bom": false,
+      "decompiled_rpy_replacement_character_count": 0,
+      "decompiled_rpy_c1_control_count": 0
+    },
+    {
+      "source_archive": "system.rpa",
+      "source_file": "images.rpyc",
+      "rpyc_sha256": "5bcc62dabc7e53e3e18003533e2214d809f2b7adaab4a78836f03b24bd5d888f",
+      "rpc2_header": "RENPY RPC2",
+      "slots": {
+        "1": 26576,
+        "2": 26576
+      },
+      "slot1_pickle_uncompressed_size": 183862,
+      "slot1_pickle_sha256": "805d9589b1078119767c7fbd72f24d010c1c1641eb6ac1201ab6f97e7bf0ac54",
+      "pickle_string_opcodes": {
+        "BINUNICODE": 1439,
+        "SHORT_BINSTRING": 44,
+        "BINSTRING": 0
+      },
+      "japanese_text_by_opcode": {},
+      "first_japanese": [],
+      "decompiled_rpy": "images.rpy",
+      "decompiled_rpy_sha256": "a8f3c5ff7f47dac37d4f1cda2db54fedb6c41ced5fe123aa073097ef38c95ad5",
+      "decompiled_rpy_encoding": "UTF-8 (strict decode passed)",
+      "decompiled_rpy_has_utf8_bom": false,
+      "decompiled_rpy_replacement_character_count": 0,
+      "decompiled_rpy_c1_control_count": 0
+    },
+    {
+      "source_archive": "system.rpa",
+      "source_file": "options.rpyc",
+      "rpyc_sha256": "11c370a268ef21de270c4cff2dc20760b1b5856e89f8a77e195219ed5087490a",
+      "rpc2_header": "RENPY RPC2",
+      "slots": {
+        "1": 2644,
+        "2": 2644
+      },
+      "slot1_pickle_uncompressed_size": 10337,
+      "slot1_pickle_sha256": "2e09268d7c4cbe0f8ee1f46c87519c364030e195e27513814bb4fd99dfcf08fa",
+      "pickle_string_opcodes": {
+        "BINUNICODE": 15,
+        "SHORT_BINSTRING": 14,
+        "BINSTRING": 0
+      },
+      "japanese_text_by_opcode": {},
+      "first_japanese": [],
+      "decompiled_rpy": "options.rpy",
+      "decompiled_rpy_sha256": "78d1780042b63fa20103b30640e10abf1089b633bc5d412fe3ed60147561b134",
+      "decompiled_rpy_encoding": "UTF-8 (strict decode passed)",
+      "decompiled_rpy_has_utf8_bom": false,
+      "decompiled_rpy_replacement_character_count": 0,
+      "decompiled_rpy_c1_control_count": 0
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/001.rpyc",
+      "rpyc_sha256": "35218998032fd91e3ba60ed801cf6675526542e0f5ae348a0364c346699bce61",
+      "rpc2_header": "RENPY RPC2",
+      "slots": {
+        "1": 106207,
+        "2": 152142
+      },
+      "slot1_pickle_uncompressed_size": 346018,
+      "slot1_pickle_sha256": "ec0bde0b6f7308fa4c519eda9844c0f1210f8e222242482b44e38db27d870523",
+      "pickle_string_opcodes": {
+        "BINUNICODE": 4160,
+        "SHORT_BINSTRING": 127,
+        "BINSTRING": 0
+      },
+      "japanese_text_by_opcode": {
+        "BINUNICODE": 834
+      },
+      "first_japanese": [
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2205,
+          "text": "一つの結果に到達するまでの過程を、人は物語や人生と呼ぶ。"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2410,
+          "text": "様々な出会いがあり、別れがあり、事件があり、選択があり、そして未来の可能性の中を進み、一つの結果へ到達する。"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2638,
+          "text": "この世界というのは――運命というのは、そういう風にできている。"
+        }
+      ],
+      "decompiled_rpy": "scenario/001.rpy",
+      "decompiled_rpy_sha256": "c55da3e4f6f83a02dd4148c7f2786e89f0a378d35f65e6c4db6e6ef07c8fc2b9",
+      "decompiled_rpy_encoding": "UTF-8 (strict decode passed)",
+      "decompiled_rpy_has_utf8_bom": false,
+      "decompiled_rpy_replacement_character_count": 0,
+      "decompiled_rpy_c1_control_count": 0
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/002.rpyc",
+      "rpyc_sha256": "4524a2203ea9d5be044971c9223a3015d6e7c7bd96a53695080428be81cbb854",
+      "rpc2_header": "RENPY RPC2",
+      "slots": {
+        "1": 85511,
+        "2": 121957
+      },
+      "slot1_pickle_uncompressed_size": 280750,
+      "slot1_pickle_sha256": "4d2d02f55d61f9b1f7329d16dfcb166694b9d2d7a49399fadbef118396a767e2",
+      "pickle_string_opcodes": {
+        "BINUNICODE": 3250,
+        "SHORT_BINSTRING": 83,
+        "BINSTRING": 0
+      },
+      "japanese_text_by_opcode": {
+        "BINUNICODE": 667
+      },
+      "first_japanese": [
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 1727,
+          "text": "今朝の目覚めは、憂鬱というのが一番的確だ。"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2002,
+          "text": "反面、全く寝た気はしなかったけれど。"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2123,
+          "text": "そして私は、忘れていたことをいくつか思い出したのだ。"
+        }
+      ],
+      "decompiled_rpy": "scenario/002.rpy",
+      "decompiled_rpy_sha256": "03ab53e5185b6fbefb6be3eeb43452a1dc5e5632674d3a870402fb02117ebf36",
+      "decompiled_rpy_encoding": "UTF-8 (strict decode passed)",
+      "decompiled_rpy_has_utf8_bom": false,
+      "decompiled_rpy_replacement_character_count": 0,
+      "decompiled_rpy_c1_control_count": 0
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/003.rpyc",
+      "rpyc_sha256": "6f5bd036777014a6acdb8b9270dcd4735d44f2783e3ee0b7db8c1fde5163099d",
+      "rpc2_header": "RENPY RPC2",
+      "slots": {
+        "1": 173359,
+        "2": 256361
+      },
+      "slot1_pickle_uncompressed_size": 575397,
+      "slot1_pickle_sha256": "01109da21013a8f6b54f224f3648361f4a199d5c2658ca26d1660d7d480e7752",
+      "pickle_string_opcodes": {
+        "BINUNICODE": 6869,
+        "SHORT_BINSTRING": 82,
+        "BINSTRING": 0
+      },
+      "japanese_text_by_opcode": {
+        "BINUNICODE": 1524
+      },
+      "first_japanese": [
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 1446,
+          "text": "オデットが無事に魯を脱落させたのを夢の世界で見届けたオレは、気付けば朝を迎えていた。"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 1784,
+          "text": "夢の世界へ移動したときに起きていたのか寝ていたのか、記憶ははっきりしていなかった。"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 1974,
+          "text": "時差のために日本の０時を意識していなかったせいではあるが、今後、日曜日は気をつけなければならない。"
+        }
+      ],
+      "decompiled_rpy": "scenario/003.rpy",
+      "decompiled_rpy_sha256": "56bcc1b54e42938abadd6319a252a4077cd2af73438f0210fd2474c6ee04c503",
+      "decompiled_rpy_encoding": "UTF-8 (strict decode passed)",
+      "decompiled_rpy_has_utf8_bom": false,
+      "decompiled_rpy_replacement_character_count": 0,
+      "decompiled_rpy_c1_control_count": 0
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/004.rpyc",
+      "rpyc_sha256": "27df043e66efba8dd0d8d0a58590607d3b63932bfddae8304d993f08b59e9713",
+      "rpc2_header": "RENPY RPC2",
+      "slots": {
+        "1": 132626,
+        "2": 190808
+      },
+      "slot1_pickle_uncompressed_size": 442875,
+      "slot1_pickle_sha256": "2e4ccd2861fda3e9c3619c97b662bb54e46c30dc86f220f3b48f29a69ae3e90f",
+      "pickle_string_opcodes": {
+        "BINUNICODE": 5354,
+        "SHORT_BINSTRING": 36,
+        "BINSTRING": 0
+      },
+      "japanese_text_by_opcode": {
+        "BINUNICODE": 1066
+      },
+      "first_japanese": [
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 1640,
+          "text": "目が覚めた時、私は久しぶりにぐっすりと眠れたことに気が付いていた。"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 1951,
+          "text": "桂子さんが、脱落した。だが、私に残ったのは悲しみではなく、空しさだった。"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2126,
+          "text": "私はふと机の上を見た。"
+        }
+      ],
+      "decompiled_rpy": "scenario/004.rpy",
+      "decompiled_rpy_sha256": "1efdbb4989797b687d157f791c92384d3c1e6c84e99f2db05b0c148b5bc4bc52",
+      "decompiled_rpy_encoding": "UTF-8 (strict decode passed)",
+      "decompiled_rpy_has_utf8_bom": false,
+      "decompiled_rpy_replacement_character_count": 0,
+      "decompiled_rpy_c1_control_count": 0
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/005_1.rpyc",
+      "rpyc_sha256": "de4c32284da9f12376690cbc41bf343bef7c1b194778420b33a716074ae508a5",
+      "rpc2_header": "RENPY RPC2",
+      "slots": {
+        "1": 177716,
+        "2": 268055
+      },
+      "slot1_pickle_uncompressed_size": 591468,
+      "slot1_pickle_sha256": "bfb7cbd651b9ac36b9ff0f2ed978b5a768f3d554af295fbb53341fb1a8eeef7c",
+      "pickle_string_opcodes": {
+        "BINUNICODE": 7138,
+        "SHORT_BINSTRING": 35,
+        "BINSTRING": 0
+      },
+      "japanese_text_by_opcode": {
+        "BINUNICODE": 1656
+      },
+      "first_japanese": [
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 1539,
+          "text": "ホテルでオデットと合流した時、オレは夢の世界で見た光景での興奮が抑えきれていなかった。"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2342,
+          "text": "「なあ、あいつら見たか？　ⅠとⅡのガキ。仲間割れしてたぜ？」"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2827,
+          "text": "「ああいうのはなんか、ゾクゾクするもんがあるよな」"
+        }
+      ],
+      "decompiled_rpy": "scenario/005_1.rpy",
+      "decompiled_rpy_sha256": "ab7a5098e52b97f43d1d5e64c62e75a4340758166d8e9bf24cde692935f6d642",
+      "decompiled_rpy_encoding": "UTF-8 (strict decode passed)",
+      "decompiled_rpy_has_utf8_bom": false,
+      "decompiled_rpy_replacement_character_count": 0,
+      "decompiled_rpy_c1_control_count": 0
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/005_2.rpyc",
+      "rpyc_sha256": "45ffbec13d3313029db08555a8d8c41cc2b02d19a68eb6372e57c6009fdbab70",
+      "rpc2_header": "RENPY RPC2",
+      "slots": {
+        "1": 127280,
+        "2": 184260
+      },
+      "slot1_pickle_uncompressed_size": 425845,
+      "slot1_pickle_sha256": "64256ae19de0895f07b69a8e897b80bcf2ce4017c8a66b8845ad696d7c12b09a",
+      "pickle_string_opcodes": {
+        "BINUNICODE": 5457,
+        "SHORT_BINSTRING": 36,
+        "BINSTRING": 0
+      },
+      "japanese_text_by_opcode": {
+        "BINUNICODE": 1039
+      },
+      "first_japanese": [
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 1637,
+          "text": "眠ればすぐに朝が来る。"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 1884,
+          "text": "選定のない日は、少なくともそれが当たり前だった。"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2023,
+          "text": "いつものように準備を終えて、登校していた。"
+        }
+      ],
+      "decompiled_rpy": "scenario/005_2.rpy",
+      "decompiled_rpy_sha256": "9d2bddaa4aa60179f2df4a5c7ab981fcf9b395c67e9bea03f1e69133a398fba8",
+      "decompiled_rpy_encoding": "UTF-8 (strict decode passed)",
+      "decompiled_rpy_has_utf8_bom": false,
+      "decompiled_rpy_replacement_character_count": 0,
+      "decompiled_rpy_c1_control_count": 0
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/006.rpyc",
+      "rpyc_sha256": "fda3718d9a79807a4609f064d964e868166c321b306668e12e17130a7f80d2f2",
+      "rpc2_header": "RENPY RPC2",
+      "slots": {
+        "1": 84001,
+        "2": 124568
+      },
+      "slot1_pickle_uncompressed_size": 274560,
+      "slot1_pickle_sha256": "dd8a6fa338cd224d30cb6fdbef4bc4677c50c59e02daa55f8e3b2807ae72111e",
+      "pickle_string_opcodes": {
+        "BINUNICODE": 3366,
+        "SHORT_BINSTRING": 53,
+        "BINSTRING": 0
+      },
+      "japanese_text_by_opcode": {
+        "BINUNICODE": 751
+      },
+      "first_japanese": [
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2475,
+          "text": "「はぁっ、はぁっ……」"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2641,
+          "text": "目覚めた時、私は汗をかいていた。"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2756,
+          "text": "ねっとりと肌に絡みつく、嫌な汗だった。"
+        }
+      ],
+      "decompiled_rpy": "scenario/006.rpy",
+      "decompiled_rpy_sha256": "8c8a01db521ca68ca95ce604a1856d75f455cfa06a710736002f66b5455dbe9d",
+      "decompiled_rpy_encoding": "UTF-8 (strict decode passed)",
+      "decompiled_rpy_has_utf8_bom": false,
+      "decompiled_rpy_replacement_character_count": 0,
+      "decompiled_rpy_c1_control_count": 0
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/007_1.rpyc",
+      "rpyc_sha256": "ca188f71c233fd9415d55da79397ad255c6ca08494ca73ce7f1d16988bedd7fd",
+      "rpc2_header": "RENPY RPC2",
+      "slots": {
+        "1": 121666,
+        "2": 179107
+      },
+      "slot1_pickle_uncompressed_size": 398466,
+      "slot1_pickle_sha256": "44301df054debffcc219f6260980d89d31db44def3918d73b3968868d8b315a9",
+      "pickle_string_opcodes": {
+        "BINUNICODE": 4620,
+        "SHORT_BINSTRING": 36,
+        "BINSTRING": 0
+      },
+      "japanese_text_by_opcode": {
+        "BINUNICODE": 1063
+      },
+      "first_japanese": [
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 1536,
+          "text": "月曜日になったらしい。"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 1783,
+          "text": "今日も天気は雨だった。"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 1883,
+          "text": "学校は――行かなくていいか。"
+        }
+      ],
+      "decompiled_rpy": "scenario/007_1.rpy",
+      "decompiled_rpy_sha256": "66ca7e6ca330c3e1f5a6347d7996ae83c28e406533def7c4f9f4cffa0762d07e",
+      "decompiled_rpy_encoding": "UTF-8 (strict decode passed)",
+      "decompiled_rpy_has_utf8_bom": false,
+      "decompiled_rpy_replacement_character_count": 0,
+      "decompiled_rpy_c1_control_count": 0
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/007_2.rpyc",
+      "rpyc_sha256": "c8c82b4c0e1d6d984f7aaf476c7253c9e28a81aa2095c9d0b45e3790bd35d341",
+      "rpc2_header": "RENPY RPC2",
+      "slots": {
+        "1": 142098,
+        "2": 221281
+      },
+      "slot1_pickle_uncompressed_size": 466200,
+      "slot1_pickle_sha256": "3f51e9fcfde9b749928e7daeeb565830e7a10f3ac6049921366686c8784a9705",
+      "pickle_string_opcodes": {
+        "BINUNICODE": 5383,
+        "SHORT_BINSTRING": 54,
+        "BINSTRING": 0
+      },
+      "japanese_text_by_opcode": {
+        "BINUNICODE": 1468
+      },
+      "first_japanese": [
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 1452,
+          "text": "話の結論は出たが、落ち着けはしなかった。"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 1726,
+          "text": "準備があるため、そのままオデットさんと彼女の拠点へ向かうとのことだった。"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 1901,
+          "text": "ここから車で２時間程度の場所だそうだ。"
+        }
+      ],
+      "decompiled_rpy": "scenario/007_2.rpy",
+      "decompiled_rpy_sha256": "bdb7da6ce44cceec924d67f70288ef6f6410f6169b2782b086b35246b3d91377",
+      "decompiled_rpy_encoding": "UTF-8 (strict decode passed)",
+      "decompiled_rpy_has_utf8_bom": false,
+      "decompiled_rpy_replacement_character_count": 0,
+      "decompiled_rpy_c1_control_count": 0
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/008.rpyc",
+      "rpyc_sha256": "cc9a55caed52dfb2d513a7434a6507ac3c03d990dc24e993d966b7bb787c2539",
+      "rpc2_header": "RENPY RPC2",
+      "slots": {
+        "1": 172290,
+        "2": 253729
+      },
+      "slot1_pickle_uncompressed_size": 563167,
+      "slot1_pickle_sha256": "e527be1f33281d8208bf9e72d1e86fc229e6719836966fd5f46dfce69d3eb680",
+      "pickle_string_opcodes": {
+        "BINUNICODE": 6737,
+        "SHORT_BINSTRING": 51,
+        "BINSTRING": 0
+      },
+      "japanese_text_by_opcode": {
+        "BINUNICODE": 1494
+      },
+      "first_japanese": [
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 1550,
+          "text": "頭の中にかかっていた霧が、徐々に晴れていく。"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 1967,
+          "text": "近くには、人の気配を感じていた。"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2032,
+          "text": "「……直未？」"
+        }
+      ],
+      "decompiled_rpy": "scenario/008.rpy",
+      "decompiled_rpy_sha256": "4953cea6a6f8f2c31206717a1942ff2bcfc8f14d96c06ace49ad38678eb008e9",
+      "decompiled_rpy_encoding": "UTF-8 (strict decode passed)",
+      "decompiled_rpy_has_utf8_bom": false,
+      "decompiled_rpy_replacement_character_count": 0,
+      "decompiled_rpy_c1_control_count": 0
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/009.rpyc",
+      "rpyc_sha256": "0715c6e41b0bd9e4e1f2fc9fb6526edaeae220d52365978199c8981159083ec6",
+      "rpc2_header": "RENPY RPC2",
+      "slots": {
+        "1": 174437,
+        "2": 260430
+      },
+      "slot1_pickle_uncompressed_size": 563839,
+      "slot1_pickle_sha256": "9767eb0142a525d03a1018583d7b6ad26f8d3df98e228b521dd29aeaa0d2721a",
+      "pickle_string_opcodes": {
+        "BINUNICODE": 6385,
+        "SHORT_BINSTRING": 37,
+        "BINSTRING": 0
+      },
+      "japanese_text_by_opcode": {
+        "BINUNICODE": 1588
+      },
+      "first_japanese": [
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2070,
+          "text": "「見事だ、オデット・マランソン」"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2250,
+          "text": "アランは薄暗い倉庫の中で、そう呟いていた。"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2380,
+          "text": "オデットであればフェデリーコの情報を全て揃えていただろうということは、アランも予想していた。"
+        }
+      ],
+      "decompiled_rpy": "scenario/009.rpy",
+      "decompiled_rpy_sha256": "2ca1bc76b28a36172bed17b993999e71da42bfe9e110f9e09bd9d125f4dc126c",
+      "decompiled_rpy_encoding": "UTF-8 (strict decode passed)",
+      "decompiled_rpy_has_utf8_bom": false,
+      "decompiled_rpy_replacement_character_count": 0,
+      "decompiled_rpy_c1_control_count": 0
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/010.rpyc",
+      "rpyc_sha256": "37d70472666ec04290538314f1a8593a1398aa1eb26b95d243ac13896d032df3",
+      "rpc2_header": "RENPY RPC2",
+      "slots": {
+        "1": 150009,
+        "2": 222805
+      },
+      "slot1_pickle_uncompressed_size": 483662,
+      "slot1_pickle_sha256": "d0710ef11eac1aa9e805d6cd8cd33488f95343b5adbc4b87d3853352dfe97fa1",
+      "pickle_string_opcodes": {
+        "BINUNICODE": 5588,
+        "SHORT_BINSTRING": 52,
+        "BINSTRING": 0
+      },
+      "japanese_text_by_opcode": {
+        "BINUNICODE": 1337
+      },
+      "first_japanese": [
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2177,
+          "text": "「ひとまずお疲れ様、と言っておこう。今宵は君も一人の運命を終わらせた」"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2738,
+          "text": "「君の見えないところで、君の心には大きな負担になってしまったようだけれど」"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 3250,
+          "text": "「もっとも、君はすでに自分が一人ではないことを知っているね。それは、君にとってもっとも大きな力だと私は思っているよ」"
+        }
+      ],
+      "decompiled_rpy": "scenario/010.rpy",
+      "decompiled_rpy_sha256": "fdbfaccbb10170f76e3d9d82c21e749cce53f9405bd1d5a21605fc849871eba7",
+      "decompiled_rpy_encoding": "UTF-8 (strict decode passed)",
+      "decompiled_rpy_has_utf8_bom": false,
+      "decompiled_rpy_replacement_character_count": 0,
+      "decompiled_rpy_c1_control_count": 0
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/011_01.rpyc",
+      "rpyc_sha256": "aec08f5fee991d9ebb85e8848acfb631dc4db619b3cef4d47e941f4c0eafe5c7",
+      "rpc2_header": "RENPY RPC2",
+      "slots": {
+        "1": 44885,
+        "2": 66614
+      },
+      "slot1_pickle_uncompressed_size": 141539,
+      "slot1_pickle_sha256": "8044799394ee922064ad55c590fed385096bbc6838b76892ee59b8c2dcab8d8e",
+      "pickle_string_opcodes": {
+        "BINUNICODE": 1573,
+        "SHORT_BINSTRING": 52,
+        "BINSTRING": 0
+      },
+      "japanese_text_by_opcode": {
+        "BINUNICODE": 408
+      },
+      "first_japanese": [
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 1572,
+          "text": "朝。"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 1793,
+          "text": "胸には、喪失感があった。"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 1896,
+          "text": "ベッドでしばらくぼーっとしていると、目覚まし時計が鳴った。"
+        }
+      ],
+      "decompiled_rpy": "scenario/011_01.rpy",
+      "decompiled_rpy_sha256": "e903da9f9f2203ac605b6e5b9da3a57b19f42908c8b6984cedef7e71a31ca56f",
+      "decompiled_rpy_encoding": "UTF-8 (strict decode passed)",
+      "decompiled_rpy_has_utf8_bom": false,
+      "decompiled_rpy_replacement_character_count": 0,
+      "decompiled_rpy_c1_control_count": 0
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/011_01F.rpyc",
+      "rpyc_sha256": "4c7c2e81f5d80cbc10a08edc6e7133bf484b0c242d1737877a8962f150c6e0e7",
+      "rpc2_header": "RENPY RPC2",
+      "slots": {
+        "1": 22505,
+        "2": 33954
+      },
+      "slot1_pickle_uncompressed_size": 68304,
+      "slot1_pickle_sha256": "fb55ca211761c5fcf2da4c38f30aba4bfb2dd900fe8077d77ace0511790194f4",
+      "pickle_string_opcodes": {
+        "BINUNICODE": 708,
+        "SHORT_BINSTRING": 33,
+        "BINSTRING": 0
+      },
+      "japanese_text_by_opcode": {
+        "BINUNICODE": 210
+      },
+      "first_japanese": [
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2011,
+          "text": "「……ふぅ」"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2256,
+          "text": "一日の仕事を終えて、私は一息ついていた。"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2383,
+          "text": "机に座って勉強ばかりやっていたから、久々の立ち仕事はちょっぴり疲れる。"
+        }
+      ],
+      "decompiled_rpy": "scenario/011_01F.rpy",
+      "decompiled_rpy_sha256": "df127d6923d6d9e7e930f1aed5cd9c2de28bb063594a232e6bbf8a16d4c46a26",
+      "decompiled_rpy_encoding": "UTF-8 (strict decode passed)",
+      "decompiled_rpy_has_utf8_bom": false,
+      "decompiled_rpy_replacement_character_count": 0,
+      "decompiled_rpy_c1_control_count": 0
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/011_01G.rpyc",
+      "rpyc_sha256": "fc68b770bde4a20def314aa876fa171d3dbdd751179e2be1839ae989fc067466",
+      "rpc2_header": "RENPY RPC2",
+      "slots": {
+        "1": 23189,
+        "2": 33773
+      },
+      "slot1_pickle_uncompressed_size": 71208,
+      "slot1_pickle_sha256": "8eda66f87a573d9d2f24acc606f9244e88a566c984c835538b565791f5860917",
+      "pickle_string_opcodes": {
+        "BINUNICODE": 806,
+        "SHORT_BINSTRING": 32,
+        "BINSTRING": 0
+      },
+      "japanese_text_by_opcode": {
+        "BINUNICODE": 192
+      },
+      "first_japanese": [
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 1443,
+          "text": "お昼時、海晴がライオン館へ寄ってくれていた。"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 1725,
+          "text": "この日はアルバイトが休みらしい。土曜日なのに珍しい、と思っていた。"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2463,
+          "text": "「今日は、何時までの予定なんだい？」"
+        }
+      ],
+      "decompiled_rpy": "scenario/011_01G.rpy",
+      "decompiled_rpy_sha256": "8d83d6240a00ab6312dbc521c37df0d26fc9f63bb3ff3b46e49dd4dacbff6253",
+      "decompiled_rpy_encoding": "UTF-8 (strict decode passed)",
+      "decompiled_rpy_has_utf8_bom": false,
+      "decompiled_rpy_replacement_character_count": 0,
+      "decompiled_rpy_c1_control_count": 0
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/011_01H.rpyc",
+      "rpyc_sha256": "be8f23e94434abe341d24ca9596899f07b85dd5a38add5a4d2f1bdf1c9d57993",
+      "rpc2_header": "RENPY RPC2",
+      "slots": {
+        "1": 6824,
+        "2": 10098
+      },
+      "slot1_pickle_uncompressed_size": 17546,
+      "slot1_pickle_sha256": "bc7003b8c0b86c067ce0e5e12f892389e1583ba5f4425a50c9f6ad45b814a525",
+      "pickle_string_opcodes": {
+        "BINUNICODE": 172,
+        "SHORT_BINSTRING": 32,
+        "BINSTRING": 0
+      },
+      "japanese_text_by_opcode": {
+        "BINUNICODE": 63
+      },
+      "first_japanese": [
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 1445,
+          "text": "最後のお客さんを見送ったあと、私は深いため息をついて座っていた。"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 1757,
+          "text": "無気力なまま、一日が終わろうとしていた。"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 1884,
+          "text": "お店の仕事に集中していれば考えなくてよかったことも、つい考えてしまうからだ。"
+        }
+      ],
+      "decompiled_rpy": "scenario/011_01H.rpy",
+      "decompiled_rpy_sha256": "f69a916c7bef8bb57c982f8ae4025e12997f05d863f81d48ab1d9009f159cf4e",
+      "decompiled_rpy_encoding": "UTF-8 (strict decode passed)",
+      "decompiled_rpy_has_utf8_bom": false,
+      "decompiled_rpy_replacement_character_count": 0,
+      "decompiled_rpy_c1_control_count": 0
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/011_02.rpyc",
+      "rpyc_sha256": "878486c701ebfcf8b4249ef428d498a5a0e7eaaed9768e02214a2b5f5a85c123",
+      "rpc2_header": "RENPY RPC2",
+      "slots": {
+        "1": 19194,
+        "2": 26378
+      },
+      "slot1_pickle_uncompressed_size": 61965,
+      "slot1_pickle_sha256": "54884ef556328f2ec0a42c2a018de83c59dbdee8c4dfeb81b0583ea1b0880a93",
+      "pickle_string_opcodes": {
+        "BINUNICODE": 845,
+        "SHORT_BINSTRING": 34,
+        "BINSTRING": 0
+      },
+      "japanese_text_by_opcode": {
+        "BINUNICODE": 131
+      },
+      "first_japanese": [
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2047,
+          "text": "運命の大広間を一周するように浮かぶ12個の円い床の上に立つのは、もはや私と海晴だけになっていた。"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2391,
+          "text": "どこまでも続くように見えるこの空間。広い視界には、ただ寂しさだけが漂っている。"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2575,
+          "text": "その寂しさを切り払う一筋の光条は、いつも女神の一声だった。"
+        }
+      ],
+      "decompiled_rpy": "scenario/011_02.rpy",
+      "decompiled_rpy_sha256": "35d7b0cc57bb8dbdc28752f7f85785ffd1378c3867c4c3e46cd3dc83dab6303a",
+      "decompiled_rpy_encoding": "UTF-8 (strict decode passed)",
+      "decompiled_rpy_has_utf8_bom": false,
+      "decompiled_rpy_replacement_character_count": 0,
+      "decompiled_rpy_c1_control_count": 0
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/011_02GH.rpyc",
+      "rpyc_sha256": "1e71995e90038af9259fc4134d8194cc812471835f5a7135164b2a35de14ab17",
+      "rpc2_header": "RENPY RPC2",
+      "slots": {
+        "1": 33865,
+        "2": 51165
+      },
+      "slot1_pickle_uncompressed_size": 111440,
+      "slot1_pickle_sha256": "da02ffec8a46582728fa744b3b08d3773ff594147e8802bcef5638e34717825d",
+      "pickle_string_opcodes": {
+        "BINUNICODE": 1361,
+        "SHORT_BINSTRING": 33,
+        "BINSTRING": 0
+      },
+      "japanese_text_by_opcode": {
+        "BINUNICODE": 324
+      },
+      "first_japanese": [
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 1354,
+          "text": "「私は、Ⅱ番を。海晴を、指名する」"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2067,
+          "text": "「あら」"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2157,
+          "text": "私はそう言うと、パルカは少し驚いた顔を見せた。"
+        }
+      ],
+      "decompiled_rpy": "scenario/011_02GH.rpy",
+      "decompiled_rpy_sha256": "d402c9845040da71edb5ead0f1b6ef9a71b628aa8971bd41fc05da62836b597d",
+      "decompiled_rpy_encoding": "UTF-8 (strict decode passed)",
+      "decompiled_rpy_has_utf8_bom": false,
+      "decompiled_rpy_replacement_character_count": 0,
+      "decompiled_rpy_c1_control_count": 0
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/012_01F.rpyc",
+      "rpyc_sha256": "53807fc91c7b625e95a20034751a4b8afe6120602cdc0baac58f86399c2db32b",
+      "rpc2_header": "RENPY RPC2",
+      "slots": {
+        "1": 134710,
+        "2": 199794
+      },
+      "slot1_pickle_uncompressed_size": 449260,
+      "slot1_pickle_sha256": "b88fed6bcd735ae12198b2e9a886b3e095c607c37179ad3fa6f9964d739b2f73",
+      "pickle_string_opcodes": {
+        "BINUNICODE": 5543,
+        "SHORT_BINSTRING": 48,
+        "BINSTRING": 0
+      },
+      "japanese_text_by_opcode": {
+        "BINUNICODE": 1190
+      },
+      "first_japanese": [
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2126,
+          "text": "「こんばんは。あるいは、おはよう。こんにちは……ではないかな」"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2769,
+          "text": "「私も女神のように何か決め台詞というものが欲しかったけれど、中々思いつかないものだね」"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2980,
+          "text": "夢の中で、私はまた中性的な男性に出会った。"
+        }
+      ],
+      "decompiled_rpy": "scenario/012_01F.rpy",
+      "decompiled_rpy_sha256": "42cb156b5620a8872b5939da59b8a937e96e587a9013f3dab05f64aba7b764b9",
+      "decompiled_rpy_encoding": "UTF-8 (strict decode passed)",
+      "decompiled_rpy_has_utf8_bom": false,
+      "decompiled_rpy_replacement_character_count": 0,
+      "decompiled_rpy_c1_control_count": 0
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/012_01GH.rpyc",
+      "rpyc_sha256": "fa5fea372eab4ce4926f62a1d698d17e1a2b740e30f393bac4efea321cdcd907",
+      "rpc2_header": "RENPY RPC2",
+      "slots": {
+        "1": 32390,
+        "2": 49041
+      },
+      "slot1_pickle_uncompressed_size": 101875,
+      "slot1_pickle_sha256": "5d455dba6b19a7e0d97b0910ad9c5dc738c48cdf2cda2b65a49613d948f9b603",
+      "pickle_string_opcodes": {
+        "BINUNICODE": 1129,
+        "SHORT_BINSTRING": 36,
+        "BINSTRING": 0
+      },
+      "japanese_text_by_opcode": {
+        "BINUNICODE": 313
+      },
+      "first_japanese": [
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 1582,
+          "text": "朝の光を浴びて、ワタクシは目を覚ましました。"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 1865,
+          "text": "体に直接浴びる光というのは、こんなにもひりつくものだったのでしょうか。"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2037,
+          "text": "太陽の光はまるで神話のように、人間の体を焼いていくということでしょうか。"
+        }
+      ],
+      "decompiled_rpy": "scenario/012_01GH.rpy",
+      "decompiled_rpy_sha256": "144a0fe428c9b502755a8dd7e824a46e504d47359150248054d276c2069684c5",
+      "decompiled_rpy_encoding": "UTF-8 (strict decode passed)",
+      "decompiled_rpy_has_utf8_bom": false,
+      "decompiled_rpy_replacement_character_count": 0,
+      "decompiled_rpy_c1_control_count": 0
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/012_02.rpyc",
+      "rpyc_sha256": "fec07a034a10f7f554b9d94ddf17bccff5aff3e354a8299961f30e8ae85b5135",
+      "rpc2_header": "RENPY RPC2",
+      "slots": {
+        "1": 17638,
+        "2": 28582
+      },
+      "slot1_pickle_uncompressed_size": 54160,
+      "slot1_pickle_sha256": "74c55e95fd955f77187185294b41d17a65106f7fba0287030cc02538ed46f296",
+      "pickle_string_opcodes": {
+        "BINUNICODE": 559,
+        "SHORT_BINSTRING": 32,
+        "BINSTRING": 0
+      },
+      "japanese_text_by_opcode": {
+        "BINUNICODE": 209
+      },
+      "first_japanese": [
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 725,
+          "text": "私の体は、燃えていった。"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 976,
+          "text": "黒い炎が身を焦がし、黒い煙が肺を焼く。"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 1100,
+          "text": "肉体の死ではなく、存在の死。"
+        }
+      ],
+      "decompiled_rpy": "scenario/012_02.rpy",
+      "decompiled_rpy_sha256": "df7e95a0ba0c86b864e059382297e927a3edf46e68cb8a423f12e96cfcfeb206",
+      "decompiled_rpy_encoding": "UTF-8 (strict decode passed)",
+      "decompiled_rpy_has_utf8_bom": false,
+      "decompiled_rpy_replacement_character_count": 0,
+      "decompiled_rpy_c1_control_count": 0
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/BAD_END_01.rpyc",
+      "rpyc_sha256": "f7b0a68087e3b7e3609909dd08a474bab966227123ebf2d60e52b1226e94c6e9",
+      "rpc2_header": "RENPY RPC2",
+      "slots": {
+        "1": 7338,
+        "2": 10384
+      },
+      "slot1_pickle_uncompressed_size": 20240,
+      "slot1_pickle_sha256": "d582fc550664a2f876069fa7974d7de140b5afe5ab715d6516d9f94864445805",
+      "pickle_string_opcodes": {
+        "BINUNICODE": 239,
+        "SHORT_BINSTRING": 35,
+        "BINSTRING": 0
+      },
+      "japanese_text_by_opcode": {
+        "BINUNICODE": 58
+      },
+      "first_japanese": [
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2153,
+          "text": "ぼくは、一人でその場所に来ていた。"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2412,
+          "text": "ここは、女神の語る運命の終着点。"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 3000,
+          "text": "「……虚しいな。凛火のいない世界というのは」"
+        }
+      ],
+      "decompiled_rpy": "scenario/BAD_END_01.rpy",
+      "decompiled_rpy_sha256": "98085631b68394f8d31b35a5be24dbb2c14ba26c68ed179c4a177476748c95f1",
+      "decompiled_rpy_encoding": "UTF-8 (strict decode passed)",
+      "decompiled_rpy_has_utf8_bom": false,
+      "decompiled_rpy_replacement_character_count": 0,
+      "decompiled_rpy_c1_control_count": 0
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/BAD_END_02.rpyc",
+      "rpyc_sha256": "6c44e7b08a080dcae6f4a2ca65fd1c0fe35c27d85c9b6c2545003a5d199b969f",
+      "rpc2_header": "RENPY RPC2",
+      "slots": {
+        "1": 10056,
+        "2": 14272
+      },
+      "slot1_pickle_uncompressed_size": 28055,
+      "slot1_pickle_sha256": "ba0e2d363bd8f0eef6db4e93633e5b5060e89c80fb875869a04a92d99e64278e",
+      "pickle_string_opcodes": {
+        "BINUNICODE": 328,
+        "SHORT_BINSTRING": 35,
+        "BINSTRING": 0
+      },
+      "japanese_text_by_opcode": {
+        "BINUNICODE": 80
+      },
+      "first_japanese": [
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 1962,
+          "text": "２ヵ月前の話。"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2191,
+          "text": "連休が始まる直前の５月３日は、真央が親友を二人同時に失った日であった。"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2363,
+          "text": "それぞれ別のところで、それぞれの死の運命を辿った。"
+        }
+      ],
+      "decompiled_rpy": "scenario/BAD_END_02.rpy",
+      "decompiled_rpy_sha256": "5a1903ad2c20bb028dfc17fe43fba4ea1046a36595f12068fd6d83e932b73415",
+      "decompiled_rpy_encoding": "UTF-8 (strict decode passed)",
+      "decompiled_rpy_has_utf8_bom": false,
+      "decompiled_rpy_replacement_character_count": 0,
+      "decompiled_rpy_c1_control_count": 0
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/BAD_END_03.rpyc",
+      "rpyc_sha256": "111cfd1bf8d9e6d32064dce5cd4efa4d2695d3abdaa11f3ee6c22f74b06cd410",
+      "rpc2_header": "RENPY RPC2",
+      "slots": {
+        "1": 4530,
+        "2": 5734
+      },
+      "slot1_pickle_uncompressed_size": 11399,
+      "slot1_pickle_sha256": "44239c40fd85345db72ed2258bc3f8e12521cfd880733fca37082092b2c01a12",
+      "pickle_string_opcodes": {
+        "BINUNICODE": 142,
+        "SHORT_BINSTRING": 35,
+        "BINSTRING": 0
+      },
+      "japanese_text_by_opcode": {
+        "BINUNICODE": 21
+      },
+      "first_japanese": [
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2166,
+          "text": "誰もいなくなったその場所で、女神パルカは微笑んでいた。"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2935,
+          "text": "「意外な結末――というべきなのでしょうか」"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 3402,
+          "text": "「Ⅰ番サマはもう少し長く、生きてくださると思っていましたのに。だって――」"
+        }
+      ],
+      "decompiled_rpy": "scenario/BAD_END_03.rpy",
+      "decompiled_rpy_sha256": "23ce7790cec0c449294b71dafa04c6a4cbfb794fc81c306a65797f35e051f9be",
+      "decompiled_rpy_encoding": "UTF-8 (strict decode passed)",
+      "decompiled_rpy_has_utf8_bom": false,
+      "decompiled_rpy_replacement_character_count": 0,
+      "decompiled_rpy_c1_control_count": 0
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/BAD_END_04.rpyc",
+      "rpyc_sha256": "0379895711cc61e82bedcf3572058b1c38e4a9090db154ac0cca9243bdbfd841",
+      "rpc2_header": "RENPY RPC2",
+      "slots": {
+        "1": 6059,
+        "2": 8379
+      },
+      "slot1_pickle_uncompressed_size": 16113,
+      "slot1_pickle_sha256": "e42b4e6739d0e05c74e0562bfa9e268a1a27ff187af34f54a886e68b104c3373",
+      "pickle_string_opcodes": {
+        "BINUNICODE": 187,
+        "SHORT_BINSTRING": 35,
+        "BINSTRING": 0
+      },
+      "japanese_text_by_opcode": {
+        "BINUNICODE": 43
+      },
+      "first_japanese": [
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2170,
+          "text": "ワタクシたちは、遊園地に来ていました。"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2435,
+          "text": "それも、今日はなんとワタクシのお誕生日。"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2562,
+          "text": "一日たっぷり、皆サマと遊びました。"
+        }
+      ],
+      "decompiled_rpy": "scenario/BAD_END_04.rpy",
+      "decompiled_rpy_sha256": "a281e6fffd4b80cda75410f9bae30e439c13fc6c2c4afcc0ff858552085252b4",
+      "decompiled_rpy_encoding": "UTF-8 (strict decode passed)",
+      "decompiled_rpy_has_utf8_bom": false,
+      "decompiled_rpy_replacement_character_count": 0,
+      "decompiled_rpy_c1_control_count": 0
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/MIHARU_END.rpyc",
+      "rpyc_sha256": "de8d52374f80a05a321a02d296c0411bb5b2950bdc17fe1859b0ce74f5ab56c7",
+      "rpc2_header": "RENPY RPC2",
+      "slots": {
+        "1": 3250,
+        "2": 4667
+      },
+      "slot1_pickle_uncompressed_size": 7466,
+      "slot1_pickle_sha256": "99998262b0e5710d315a6e6fe2bb245f1f2f64423e63fb7b27d972cf3ec6f0df",
+      "pickle_string_opcodes": {
+        "BINUNICODE": 68,
+        "SHORT_BINSTRING": 35,
+        "BINSTRING": 0
+      },
+      "japanese_text_by_opcode": {
+        "BINUNICODE": 26
+      },
+      "first_japanese": [
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2447,
+          "text": "「……いける」"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2687,
+          "text": "公園のベンチに座って、私は紙コップに入れたコーヒーを飲んでいた。"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2850,
+          "text": "今日は一日この場所にいようと決めていた。"
+        }
+      ],
+      "decompiled_rpy": "scenario/MIHARU_END.rpy",
+      "decompiled_rpy_sha256": "948643891c1dd5e7ec6f49d69e7c4cfe6104f49ca82bc424dc77b9d97f871e49",
+      "decompiled_rpy_encoding": "UTF-8 (strict decode passed)",
+      "decompiled_rpy_has_utf8_bom": false,
+      "decompiled_rpy_replacement_character_count": 0,
+      "decompiled_rpy_c1_control_count": 0
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/NG_plus.rpyc",
+      "rpyc_sha256": "5d80c0ed5d22c7a9edcc90b33cd91c80296575578dcdd32acd5772910040fec8",
+      "rpc2_header": "RENPY RPC2",
+      "slots": {
+        "1": 16543,
+        "2": 26299
+      },
+      "slot1_pickle_uncompressed_size": 50184,
+      "slot1_pickle_sha256": "d452e74751a4b6ff47cc721060af1cde6ea64ae6a1efde8f90c75a1f0aa59a1a",
+      "pickle_string_opcodes": {
+        "BINUNICODE": 495,
+        "SHORT_BINSTRING": 32,
+        "BINSTRING": 0
+      },
+      "japanese_text_by_opcode": {
+        "BINUNICODE": 185
+      },
+      "first_japanese": [
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 1757,
+          "text": "嫌な予感がしたからだろうか。"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2012,
+          "text": "小熊真央の悪い予感というのは皮肉なことに、大抵当たってしまう。"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2266,
+          "text": "それは、真央がスマホに入れている占いアプリよりもよっぽど正確なものだった。"
+        }
+      ],
+      "decompiled_rpy": "scenario/NG_plus.rpy",
+      "decompiled_rpy_sha256": "fac8b9edb9daf1e6aba80ad76d404c563472a33841fbff9f82b6d6ea465ef250",
+      "decompiled_rpy_encoding": "UTF-8 (strict decode passed)",
+      "decompiled_rpy_has_utf8_bom": false,
+      "decompiled_rpy_replacement_character_count": 0,
+      "decompiled_rpy_c1_control_count": 0
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/TRUE_END.rpyc",
+      "rpyc_sha256": "b2142606a76fd79cafc8f907389b6793360ea277b1efcd459ec43eed46e22239",
+      "rpc2_header": "RENPY RPC2",
+      "slots": {
+        "1": 14052,
+        "2": 20752
+      },
+      "slot1_pickle_uncompressed_size": 42759,
+      "slot1_pickle_sha256": "68cf1454bf945ba6bb4a74d02f7edc616d54a328906c92eeb5c51122af891621",
+      "pickle_string_opcodes": {
+        "BINUNICODE": 466,
+        "SHORT_BINSTRING": 36,
+        "BINSTRING": 0
+      },
+      "japanese_text_by_opcode": {
+        "BINUNICODE": 124
+      },
+      "first_japanese": [
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2801,
+          "text": "「やああああああっとこの日が来たねぇ！」"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 3076,
+          "text": "ライオン館にまずやって来たのは、真央だった。"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 3209,
+          "text": "夏休み真っ只中のこの日。"
+        }
+      ],
+      "decompiled_rpy": "scenario/TRUE_END.rpy",
+      "decompiled_rpy_sha256": "6e1abfabb891e4cfae39c4d98c50dae4498947587bb5d14efc4a9a87e8e07c24",
+      "decompiled_rpy_encoding": "UTF-8 (strict decode passed)",
+      "decompiled_rpy_has_utf8_bom": false,
+      "decompiled_rpy_replacement_character_count": 0,
+      "decompiled_rpy_c1_control_count": 0
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/UNHAPPY_END.rpyc",
+      "rpyc_sha256": "699c06be3ae8e383e34f3b7301c10528cb52d8331c9b4334aa037dd282ccefd9",
+      "rpc2_header": "RENPY RPC2",
+      "slots": {
+        "1": 12568,
+        "2": 17345
+      },
+      "slot1_pickle_uncompressed_size": 35887,
+      "slot1_pickle_sha256": "eeaa288fb1545b5864f49b27bd9da3cceebf5bd9f99324c0d8945f16bb49a0e7",
+      "pickle_string_opcodes": {
+        "BINUNICODE": 436,
+        "SHORT_BINSTRING": 35,
+        "BINSTRING": 0
+      },
+      "japanese_text_by_opcode": {
+        "BINUNICODE": 87
+      },
+      "first_japanese": [
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2182,
+          "text": "目を覚ました私は、ゆっくりと体を起こしていた。"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 2460,
+          "text": "何だか、頭が重い。"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 3029,
+          "text": "「んー」"
+        }
+      ],
+      "decompiled_rpy": "scenario/UNHAPPY_END.rpy",
+      "decompiled_rpy_sha256": "b2a4cdee4dfd4b2c71d0445ecba0500e309d98208ff0b77659003e68d4a3a848",
+      "decompiled_rpy_encoding": "UTF-8 (strict decode passed)",
+      "decompiled_rpy_has_utf8_bom": false,
+      "decompiled_rpy_replacement_character_count": 0,
+      "decompiled_rpy_c1_control_count": 0
+    },
+    {
+      "source_archive": "system.rpa",
+      "source_file": "screens.rpyc",
+      "rpyc_sha256": "9c84d4eb92cb3421cba5dc374244528508fcf17e519b7f39d1fbb570d50beb39",
+      "rpc2_header": "RENPY RPC2",
+      "slots": {
+        "1": 42220,
+        "2": 42220
+      },
+      "slot1_pickle_uncompressed_size": 139395,
+      "slot1_pickle_sha256": "10fac76331ecf8e23b04e3574000a70de76fab619c52b5093afd590c5848130c",
+      "pickle_string_opcodes": {
+        "BINUNICODE": 1933,
+        "SHORT_BINSTRING": 91,
+        "BINSTRING": 0
+      },
+      "japanese_text_by_opcode": {
+        "BINUNICODE": 39
+      },
+      "first_japanese": [
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 21798,
+          "text": "_(\"データ管理\")"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 22522,
+          "text": "_(\"セーブ\")"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 22895,
+          "text": "_(\"ロード\")"
+        }
+      ],
+      "decompiled_rpy": "screens.rpy",
+      "decompiled_rpy_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "decompiled_rpy_encoding": "UTF-8 (strict decode passed)",
+      "decompiled_rpy_has_utf8_bom": false,
+      "decompiled_rpy_replacement_character_count": 0,
+      "decompiled_rpy_c1_control_count": 0
+    },
+    {
+      "source_archive": "system.rpa",
+      "source_file": "script.rpyc",
+      "rpyc_sha256": "843892a89f48e74883b3eb164688d35069ea18aa27bdbc1d1c3c99da0ec3f655",
+      "rpc2_header": "RENPY RPC2",
+      "slots": {
+        "1": 21768,
+        "2": 21768
+      },
+      "slot1_pickle_uncompressed_size": 83120,
+      "slot1_pickle_sha256": "11f260602b8c1428f1830301f1351261a9b1dd3b98e2b0787fbb9370783e5f9c",
+      "pickle_string_opcodes": {
+        "BINUNICODE": 492,
+        "SHORT_BINSTRING": 37,
+        "BINSTRING": 0
+      },
+      "japanese_text_by_opcode": {
+        "BINUNICODE": 10
+      },
+      "first_japanese": [
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 30117,
+          "text": "{\n    \"save\" : _(\"データをセーブ\"),\n    \"load\" : _(\"データをロード\"),\n    \"settings\" : _(\"環境設定を変更\"),\n    \"story\" : _(\"あらすじを読む\"),\n    \"cardbook\" : _(\"カードブックを調べる\"),\n    \"title\" : _(\"タイトルメニューへ戻る\"),\n    \"close\" : _(\"ゲームへ戻る\"),\n    \"quit\" : _(\"ゲームを終了\"),\n    }"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 49309,
+          "text": "\n\n\n\n\n\n@renpy.pure\nclass FileManipulation(Action):\n    \n    \n    selected_filename = None\n    \n    def __init__(self, filenumber, mode, confirm=True):\n        self.filename = get_slotname(filenumber)\n        self.mode = mode\n        self.confirm = confirm\n    \n    def __call__(self):\n        if not FileManipulation.selected_filename:\n            FileManipulation.selected_filename = self.filename\n            \n            renpy.restart_interaction()\n        \n        else:\n            \n            if FileManipulation.selected_filename == self.filename:\n                FileManipulation.selected_filename = None\n                \n                renpy.restart_interaction()\n            \n            elif self.mode == \"copy\":\n                \n                if self.confirm:\n                    msg = renpy.can_load(self.filename) and _(\"セーブデータを上書きコピーしますか？\") or _(\"セーブデータをコピーしますか？\")\n                    renpy.run(Confirm(msg, yes=self.copy, no=None))\n                else:\n                    self.copy()\n            \n            elif self.mode == \"move\":\n                \n                if self.confirm:\n                    renpy.run(Confirm(_(\"セーブデータを移しますか？\"), yes=self.move, no=None))\n                else:\n                    self.move()\n    \n    def copy(self):\n        try:\n            renpy.copy_save(FileManipulation.selected_filename, self.filename)\n        except:\n            pass\n        \n        finally:\n            FileManipulation.selected_filename = None\n    \n    def move(self):\n        try:\n            \n            if renpy.can_load(self.filename):\n                renpy.copy_save(FileManipulation.selected_filename, \"temp_\" + FileManipulation.selected_filename)\n                renpy.rename_save(self.filename, FileManipulation.selected_filename)\n                renpy.rename_save(\"temp_\" + FileManipulation.selected_filename, self.filename)\n            \n            else:\n                renpy.copy_save(FileManipulation.selected_filename, \"temp_\" + FileManipulation.selected_filename)\n                renpy.unlink_save(FileManipulation.selected_filename)\n                renpy.rename_save(\"temp_\" + FileManipulation.selected_filename, self.filename)\n        \n        except:\n            pass\n        \n        finally:\n            FileManipulation.selected_filename = None\n    \n    def get_sensitive(self):\n        if FileManipulation.selected_filename:\n            return True\n        else:\n            return renpy.can_load(self.filename)\n    \n    def get_selected(self):\n        return FileManipulation.selected_filename == self.filename\n    \n    @staticmethod\n    def is_selected():\n        return bool(FileManipulation.selected_filename)\n    \n    @staticmethod\n    def reset_selected():\n        FileManipulation.selected_filename = None            \n\n\n\n@renpy.pure\nclass SetPreferencesDefault(Action):        \n    \n    def __init__(self, page=None, confirm=True):\n        self.page = page\n        self.confirm = confirm\n    \n    def __call__(self):\n        \n        func = None\n        msg = \"\"\n        \n        if self.page:\n            \n            if self.page == \"system\":\n                func = SetPreferencesDefault.set_system\n            \n            elif self.page == \"sound\":\n                func = SetPreferencesDefault.set_sound\n            \n            else:\n                raise Exception(\"'\" + self.page + \"' is not a valid value.\")\n            \n            msg = _(\"このページの環境設定を初期化しますか？\")\n        \n        else:\n            func = SetPreferencesDefault.set_all\n            msg = _(\"全ての環境設定を初期化しますか？\")\n        \n        \n        if self.confirm:\n            renpy.run(Confirm(msg, yes=func, no=None))\n        else:\n            func()\n    \n    @staticmethod\n    def set_system():\n        \n        if config.default_fullscreen:\n            renpy.run(Preference(\"display\", \"fullscreen\"))\n        else:\n            renpy.run(Preference(\"display\", \"window\"))\n        \n        persistent.message_alpha = config.message_alpha_default\n        \n        persistent.text_cps_unseen = config.text_cps_unseen_default\n        \n        persistent.text_cps_seen = config.text_cps_seen_default\n        \n        renpy.run(Preference(\"auto-forward time\", config.default_afm_time))\n        \n        renpy.run(Preference(\"skip\", \"seen\"))\n        \n        if config.has_voice:\n            renpy.run(Preference(\"wait for voice\", \"enable\"))\n    \n    @staticmethod\n    def set_sound():\n        \n        renpy.run(Preference(\"music volume\", config.default_music_volume))\n        \n        renpy.run(Preference(\"mixer game_sfx volume\", config.default_game_sfx_volume))\n        \n        renpy.run(Preference(\"sound volume\", config.default_sfx_volume))\n        \n        if config.has_voice:\n            renpy.run(Preference(\"voice mute\", \"disable\"))\n            \n            renpy.run(Preference(\"voice volume\", config.default_voice_volume))\n            \n            renpy.run(Preference(\"voice sustain\", \"disable\"))\n    \n    @staticmethod\n    def set_all():\n        SetPreferencesDefault.set_system()\n        SetPreferencesDefault.set_sound()\n"
+        },
+        {
+          "opcode": "BINUNICODE",
+          "pickle_position": 59770,
+          "text": "クイックセーブ完了"
+        }
+      ],
+      "decompiled_rpy": "script.rpy",
+      "decompiled_rpy_sha256": "ab3c66bf241c8fe4151b3245b435d8cb9f29ee81b6164d49f9141bdb25ffa150",
+      "decompiled_rpy_encoding": "UTF-8 (strict decode passed)",
+      "decompiled_rpy_has_utf8_bom": false,
+      "decompiled_rpy_replacement_character_count": 0,
+      "decompiled_rpy_c1_control_count": 0
+    },
+    {
+      "source_archive": "system.rpa",
+      "source_file": "transforms.rpyc",
+      "rpyc_sha256": "da712b18997bcdbd9d279320f2c1c25ec54c00190685d98a285b1c6c2d71a7f1",
+      "rpc2_header": "RENPY RPC2",
+      "slots": {
+        "1": 8023,
+        "2": 8023
+      },
+      "slot1_pickle_uncompressed_size": 24782,
+      "slot1_pickle_sha256": "5a82276d26442f47bd29268819bd4174991cf7f548614aafe89c72ef92281fc4",
+      "pickle_string_opcodes": {
+        "BINUNICODE": 395,
+        "SHORT_BINSTRING": 235,
+        "BINSTRING": 0
+      },
+      "japanese_text_by_opcode": {},
+      "first_japanese": [],
+      "decompiled_rpy": "transforms.rpy",
+      "decompiled_rpy_sha256": "18f6ac6de5b1192875d833a081a1a635c806af4304d18a054c7145a896d3d03f",
+      "decompiled_rpy_encoding": "UTF-8 (strict decode passed)",
+      "decompiled_rpy_has_utf8_bom": false,
+      "decompiled_rpy_replacement_character_count": 0,
+      "decompiled_rpy_c1_control_count": 0
+    },
+    {
+      "source_archive": "system.rpa",
+      "source_file": "transitions.rpyc",
+      "rpyc_sha256": "8f1a97b30586d6cab9d4c3f3ced1ae8e146ccc65131611e409ab3e8f9597d857",
+      "rpc2_header": "RENPY RPC2",
+      "slots": {
+        "1": 5427,
+        "2": 5427
+      },
+      "slot1_pickle_uncompressed_size": 18258,
+      "slot1_pickle_sha256": "316614d98f23453620adbe2562946dec0c910c90a4459c2cbc9900176fff8c16",
+      "pickle_string_opcodes": {
+        "BINUNICODE": 140,
+        "SHORT_BINSTRING": 14,
+        "BINSTRING": 0
+      },
+      "japanese_text_by_opcode": {},
+      "first_japanese": [],
+      "decompiled_rpy": "transitions.rpy",
+      "decompiled_rpy_sha256": "fa15fbb6d8d7485bc5e750f62ddb0962abb5085a7b95d35c6c1dfdb9036e9509",
+      "decompiled_rpy_encoding": "UTF-8 (strict decode passed)",
+      "decompiled_rpy_has_utf8_bom": false,
+      "decompiled_rpy_replacement_character_count": 0,
+      "decompiled_rpy_c1_control_count": 0
+    }
+  ]
+}

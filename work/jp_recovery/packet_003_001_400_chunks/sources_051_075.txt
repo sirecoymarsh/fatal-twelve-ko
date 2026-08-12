@@ -1,0 +1,25 @@
+051	L0224	narration	narrator	オデットと魯の立つ丸い床は、それぞれ部屋の中心を基準に公転しながら上がって行った。
+052	L0226	narration	narrator	ある高さまで上がったところで、床は停止する。
+053	L0228	narration	narrator	そこは、下層と意匠は似ているが、ところどころが異なった空間であった。
+054	L0230	narration	narrator	女神はいつの間にか上層に移動して来ていて、不敵な微笑みを浮かべる。
+055	L0237	dialogue	parca	「それでは、指名をどうぞ」
+056	L0241	narration	narrator	床が上層へ移動するまでの間に、オデットの本からはひとりでにすべてのカードが飛び出していた。
+057	L0243	narration	narrator	カードは光に包まれ、何枚あるのかも、何が書かれているのかも、オデットにしか見えない。
+058	L0250	dialogue	odette	「えー、何だ。言えばいいんだな？　こいつの情報を」
+059	L0255	dialogue	chanho	「貴様っ……！」
+060	L0260	dialogue	parca	「貴女サマのお好きなように、カードを宣言してくださいまし」
+061	L0262	narration	narrator	オデットは目の前に現れたカードに目を通した。
+062	L0264	narration	narrator	自分のカードを含め、彼女が所持しているのは９枚だ。その中から、決められた３枚を読み上げる必要がある。
+063	L0266	narration	narrator	指でなぞりながら、オデットは口を開いた。
+064	L0275	dialogue	odette	「{rb}魯{/rb}{rt}ロ{/rt}{rb}昌鎬{/rb}{rt}チャンホ{/rt}」
+065	L0279	dialogue	chanho	「やめろ……やめてくれ！」
+066	L0285	dialogue	odette	「てめーの死因は脳梗塞」
+067	L0289	dialogue	chanho	「私には家族がいるんだ。私が死んだら家族はどうなる？　貴様はその責任を背負えるのか？」
+068	L0293	dialogue	chanho	「まだ間に合う。指名をやめなさい。金はある。私は株も土地も持っている」
+069	L0299	dialogue	odette	「みっともねぇなぁ」
+070	L0303	dialogue	chanho	「……いくら欲しい？　いくらでも出す。私の信用情報ならいくらでも引き出せる。一生遊んで暮らせるぞ？　どうする？」
+071	L0309	dialogue	odette	「こいつの未練は犬……だ」
+072	L0313	dialogue	chanho	「ああ……終わりだ……私はおしまいだ……」
+073	L0319	dialogue	odette	「金だろうが同情だろうが、命の対価にならねーよ」
+074	L0325	dialogue	odette	「何より、勝負事であたしが妥協するわけないんだよ」
+075	L0329	narration	narrator	オデットの宣言に合わせて、３枚のカードは空中を移動した。

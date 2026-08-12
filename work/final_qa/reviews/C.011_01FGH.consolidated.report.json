@@ -1,0 +1,54 @@
+{
+  "schema_version": "fatal-twelve-c-011-01fgh-review-v1",
+  "source_authority": "Japanese only",
+  "english_reference_used": false,
+  "external_translation_api_used": false,
+  "scripts": {
+    "011_01F": 210,
+    "011_01G": 192,
+    "011_01H": 63
+  },
+  "exhaustive_checked": 465,
+  "manual_corrections": 42,
+  "automatic_width_records": 20,
+  "manual_width_overlap": [
+    [
+      "011_01G",
+      96
+    ],
+    [
+      "011_01G",
+      105
+    ],
+    [
+      "011_01G",
+      107
+    ]
+  ],
+  "output_unique_corrections": 59,
+  "corrections_by_script": {
+    "011_01F": 23,
+    "011_01G": 26,
+    "011_01H": 10
+  },
+  "unchanged_approved": 406,
+  "checks": {
+    "changed": 59,
+    "encoding": 59,
+    "width_clear": 59,
+    "tag_exact": 59,
+    "roman_exact": 59,
+    "quote_exact": 59,
+    "newline_exact": 59,
+    "number_exact": 59,
+    "kana_clear": 59
+  },
+  "post_correction_audit_issues": 0,
+  "failures": [],
+  "master_sha256": {
+    "011_01F": "99e894449ed17ec84ebed2cdc0337c1520003de6dcc395c61b40c017dd5deaf2",
+    "011_01G": "baa9771051c79a07c5ed0b23a5dc8063b92c33a409c07c2091f282c532e883f9",
+    "011_01H": "f7fbcf20f0b86ff137374784062bdd5d250c2d22c620d3e4814c423b4862a3dd"
+  },
+  "output_sha256": "79b27a0630cdcc7aaa88b4498dc49125b5042eb8bbd58811dd6073a4dd7b51bb"
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "fatal-twelve-user-visible-ui-feedback-correction-v1",
+  "generated_at_utc": "2026-08-11T07:12:48.248007+00:00",
+  "source_contract": {
+    "semantic_authority": "Japanese source + actual shipped base old key",
+    "official_english_new_prose_used": false,
+    "external_translation_api_used": false
+  },
+  "feedback": {
+    "kind": "user_visible_runtime_review",
+    "session_evidence": "work/final_qa/technical_qa/visible_user_review.session.json",
+    "observed_screen": "preferences > system",
+    "observed_issue": "first reset button label wrapped to two lines",
+    "source_screen": "work/jp_recovery/raw/screens.rpy:258-271",
+    "source_confirmation_jp": "このページの環境設定を初期化しますか？",
+    "layout": {
+      "button_xsize": 130,
+      "button_ysize": 30,
+      "text_size": 16
+    }
+  },
+  "correction": {
+    "script": "system_ui",
+    "stable_id": "system-ui::c5566bdcafb33505eaa9421d",
+    "sequence": 90,
+    "old_ko": "이 페이지 초기화",
+    "new_ko": "페이지 초기화",
+    "category": "layout_fit",
+    "reason": "User-visible isolated runtime review found a two-line overflow in the 130x30 first reset button; shortened the label while preserving the semantics of the Japanese confirmation source."
+  },
+  "artifacts": {
+    "correction_file": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\reviews\\A.manual.system_ui.corrections.jsonl",
+    "correction_file_sha256": "b50acda02042e218d6a59c0568d90a119663cc438fd7a82492e968fc96b2206e",
+    "records": 167,
+    "system_ui_review_report": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\reviews\\A.manual.system_ui.report.json",
+    "system_ui_review_report_sha256": "219cd8bf438e8e24304bdc8afcf9b8f6f5792358489c4cb3dccdc10201bb5c43",
+    "session_evidence": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\technical_qa\\visible_user_review.session.json",
+    "session_evidence_sha256": "af51e8edd70f3a1cbc01c3a566d877112488aa8086f2081619db4dd4b2673e1d"
+  },
+  "actions_not_performed": [
+    "running review game modification",
+    "live F: game modification",
+    "game process restart"
+  ],
+  "verdict": "MATERIALIZED"
+}

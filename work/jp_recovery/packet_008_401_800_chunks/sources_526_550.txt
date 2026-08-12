@@ -1,0 +1,25 @@
+526	L2190	dialogue	lete_unk1	「君たち人間の、意志の力というものだろうか。私は、ようやく興味を持ち始めたさ」
+527	L2196	dialogue	lete_unk1	「おっと、無駄話はいいね。私が君の夢に顔を出すことが一体何を意味するのか、君はもう分かっているのだろう？」
+528	L2202	dialogue	lete_unk1	「君の忘却がまた一つ、紐解かれるということさ」
+529	L2204	narration	narrator	体の自由もなく、意識も朦朧としている。
+530	L2206	narration	narrator	鬱陶しい彼の声が遠くなった頃、私の意識はまた深いところへ落ちていく。
+531	L2222	narration	narrator	炎の中にいた。
+532	L2224	narration	narrator	身を焦がすような炎だった。
+533	L2226	narration	narrator	肌はただれ、肺は煙で焼かれている。
+534	L2228	narration	narrator	徐々に命が灰になっていくのだと、もう指先ひとつすら動かせない私には実感があった。
+535	L2234	dialogue	linda_unk1	「――――」
+536	L2237	dialogue	linda_unk1	「――――！」
+537	L2240	dialogue	linda_unk1	「――――！　――――！」
+538	L2242	narration	narrator	誰かが何かを叫ぶ声が聞こえた。
+539	L2244	narration	narrator	しきりに何かを叫んでいる。
+540	L2246	narration	narrator	炎は広がっていき、叫び声は空気の震える音にかき消される。
+541	L2248	narration	narrator	声が全く聞こえなくなる頃、私の意識も消えていった。
+542	L2283	dialogue	rinka	「うわあぁっ！」
+543	L2285	narration	narrator	私は声を上げて目を覚ましていた。
+544	L2287	narration	narrator	恐ろしい夢から、嫌な起き方をしたのだ。
+545	L2293	dialogue	lete	「にゃーお」
+546	L2295	narration	narrator	そう思ったら、ベッドの上、というか私の上には黒猫のレテが乗っかっていた。
+547	L2297	narration	narrator	それは、いつかの朝の焼き直し。
+548	L2299	narration	narrator	あの夜に見た悪夢は私の記憶だと思っていた。
+549	L2301	narration	narrator	私が電車の中で爆発に巻き込まれ、命を落とした因果の刻。
+550	L2303	narration	narrator	なかったことになっている、可能性の一つ。

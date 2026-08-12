@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "scope": "scenario/006.rpy command_index 504-755",
+  "validation_scope": "structure_only; translation QA not performed",
+  "catalog_sha256": "78f944328e6c015c0e27c8e271d4a2a6390f440f755f04550268ef42381f7636",
+  "json_sha256": "778eaa6aaf1d32c7f99d8f6f402e068bc4a3da04ae422710b2a1e01fbdc2d200",
+  "rpy_sha256": "19aebaeac7d079cd337fd963aba2f59f13a0086b403fd3b15e313ad814fa5065",
+  "checks": {
+    "entry_count": 252,
+    "sequence_contiguous": true,
+    "exact_catalog_identity": true,
+    "unique_stable_ids": true,
+    "unique_translation_ids": true,
+    "menu_strings_entries": 0,
+    "voice_entries": 103,
+    "rpy_translate_blocks": 252,
+    "rpy_voice_lines": 103,
+    "status_flags_ok": true,
+    "packet_flags_ok": true,
+    "pass": true
+  },
+  "status": "first_draft_unreviewed",
+  "qa": "deferred_until_full_first_draft"
+}

@@ -1,0 +1,72 @@
+{
+  "schema_version": "fatal-twelve-review-packet-coverage-v1",
+  "validation_scope": "assignment and serialization only; translation review not performed",
+  "translation_text_modified": false,
+  "master_index": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\master_index.json",
+    "sha256": "33a690260a2e516adb353ebdfdf9d70c92a6ec1e90fa058b626c55d557995d68"
+  },
+  "review_group_manifest": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\review_group_manifest.json",
+    "sha256": "aeed6ede3042312b1489a0ccfadaa50476f0eed91cca04e3f120f19a25597698"
+  },
+  "expected_groups": 4,
+  "exported_groups": 4,
+  "expected_scripts": 29,
+  "exported_scripts": 29,
+  "expected_records": 18184,
+  "exported_records": 18184,
+  "unique_assignments": 18184,
+  "missing_assignments": [],
+  "unexpected_assignments": [],
+  "duplicate_assignments": [],
+  "exactly_one_group_and_chunk_per_record": true,
+  "continuous_sequence_chunks": true,
+  "tsv_round_trip_validation": "passed",
+  "source_jp_and_draft_ko_immutable": true,
+  "assignment_sha256": "58caffc91fe107313f9bb72f4b64946e2a0bcf22e4e5f6b9f917bb194f2efe61",
+  "immutable_content_sha256": "02bd39e6664fb78c65402fa113a55370a0af8bad7b7231cca11122f5797dae78",
+  "chunk_policy": {
+    "scope": "per_script_contiguous_command_index",
+    "target_records": 185,
+    "minimum_records": 150,
+    "maximum_records": 220,
+    "short_script_policy": "single_chunk_below_minimum",
+    "cross_script_chunks": false
+  },
+  "chunk_count": 105,
+  "minimum_chunk_records": 21,
+  "maximum_chunk_records": 210,
+  "short_script_exception_chunks": 9,
+  "non_short_out_of_policy_chunks": 0,
+  "groups": [
+    {
+      "group_id": "A",
+      "expected_records": 4545,
+      "exported_records": 4545,
+      "script_count": 11,
+      "chunk_count": 30
+    },
+    {
+      "group_id": "B",
+      "expected_records": 4327,
+      "exported_records": 4327,
+      "script_count": 7,
+      "chunk_count": 24
+    },
+    {
+      "group_id": "C",
+      "expected_records": 4219,
+      "exported_records": 4219,
+      "script_count": 4,
+      "chunk_count": 23
+    },
+    {
+      "group_id": "ROOT",
+      "expected_records": 5093,
+      "exported_records": 5093,
+      "script_count": 7,
+      "chunk_count": 28
+    }
+  ]
+}

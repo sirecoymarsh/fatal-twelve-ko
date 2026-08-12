@@ -1,0 +1,46 @@
+{
+  "schema_version": "fatal-twelve-final-scenario-gate-v1",
+  "approval_ledger": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\reviews\\qa_approvals.draft.json",
+    "sha256": "5639258e18ea34826c9800ee3bc118ec1633de38b8824c4f77d7da4688d2be23",
+    "records": 10,
+    "schema_version": "fatal-twelve-record-bound-qa-approvals-v1"
+  },
+  "approvals_applied": 10,
+  "all_master_gate": {
+    "hard_total": 8,
+    "review_total": 2,
+    "info_total": 0,
+    "hard_open": 0,
+    "review_open": 0,
+    "info_open": 0,
+    "pass": true
+  },
+  "scenario_gate": {
+    "hard_total": 7,
+    "review_total": 1,
+    "info_total": 0,
+    "hard_open": 0,
+    "review_open": 0,
+    "info_open": 0,
+    "pass": true
+  },
+  "system_ui_static_gate": {
+    "hard_total": 1,
+    "review_total": 1,
+    "info_total": 0,
+    "hard_open": 0,
+    "review_open": 0,
+    "info_open": 0,
+    "pass": true
+  },
+  "system_ui_review": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\reviews\\A.manual.system_ui.report.json",
+    "sha256": "219cd8bf438e8e24304bdc8afcf9b8f6f5792358489c4cb3dccdc10201bb5c43",
+    "verdict": "PASS",
+    "entries_reviewed": 732,
+    "contexts_reviewed": 739,
+    "corrections": 167
+  },
+  "pass": true
+}

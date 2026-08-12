@@ -1,0 +1,25 @@
+376	L1474	narration	narrator	簡単ではないけれど、個人の意志が反映される曖昧なものでもあるのだ。
+377	L1479	dialogue	miharu	「なるほど。認識自体が認知の上に成り立っているということか……その考えには及ばなかった」
+378	L1484	dialogue	miharu	「ぼくは自分の名前に縛られていたからね。視野が狭くなっていたよ」
+379	L1489	dialogue	rinka	「大げさ、だよ。でも……疑問は解消したって感じかな」
+380	L1494	dialogue	miharu	「君を混乱させてしまっていたね」
+381	L1499	dialogue	rinka	「ううん。みんなそれぞれ、色々あるでしょ。けど私にとって海晴は海晴だから。それは、何にも変わることはないよ」
+382	L1504	dialogue	miharu	「――くすっ」
+383	L1506	narration	narrator	私の言葉を聞き、海晴は微笑んだ。
+384	L1508	narration	narrator	安堵したような、安らかな微笑だった。
+385	L1513	dialogue	miharu	「話は変わるけれど、運命の大広間であんなことを言ったから、君に避けられないか心配していたよ」
+386	L1518	dialogue	rinka	「本当に？　私は分かってたよ」
+387	L1523	dialogue	miharu	「これで、参加者のうちの何人かにはぼくたちが仲間割れしたと思い込ませることができたはずだ」
+388	L1525	narration	narrator	今はもう、君と話すことは何もない――という言葉。
+389	L1527	narration	narrator	私たちは一度目の選定の時から、知り合いとして会話しているところを他の参加者に見られている。
+390	L1529	narration	narrator	ソーニャも私たちが友達だと思っていたらしいし。
+391	L1534	dialogue	rinka	「タイミングはばっちり……だったね」
+392	L1545	dialogue_choice_prompt	miharu	「では、そろそろ行くよ」
+393	L1546	spoken_choice	narrator	「うん、じゃあまた明日学校で」
+394	L1553	spoken_choice	narrator	「うん、じゃあ気を付けてね」
+395	L1564	dialogue	rinka	「うん。また明日学校で」
+396	L1568	narration	narrator	海晴はにっこり笑うと、優雅な足取りでライオン館を後にした。
+397	L1578	dialogue	rinka	「うん、じゃあ気を付けてね」
+398	L1582	narration	narrator	海晴は少し怪訝な表情を浮かべてから、静かな足取りでライオン館を後にした。
+399	L1593	narration	narrator	結局、コーヒーを飲み終わってからの方が長い話になってしまった。
+400	L1595	narration	narrator	私は空になったカップの底を見つめながら、もうちょっとだけテーブルに座ったままでいた。

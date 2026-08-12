@@ -1,0 +1,4030 @@
+{
+  "schema_version": "fatal-twelve-master-draft-v1",
+  "script_key": "BAD_END_02",
+  "source_file": "scenario/BAD_END_02.rpy",
+  "catalog": {
+    "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_BAD_END_02.catalog.jsonl",
+    "sha256": "c31af6f5be65991c798a9e3cc5f0d83a17bc773150d3fa4b8601d960d19558c5",
+    "records": 80
+  },
+  "translation_text_policy": "immutable; copied verbatim from explicitly listed packets",
+  "catalog_metadata_policy": "authoritative",
+  "validation_scope": "structural only; no translation review or correction",
+  "source_authority": "Japanese only",
+  "english_reference_used": false,
+  "external_translation_api_used": false,
+  "structural_pass": false,
+  "coverage_complete": true,
+  "complete": true,
+  "coverage": {
+    "catalog_records": 80,
+    "packet_occurrences": 80,
+    "selected_unique_records": 80,
+    "duplicate_extra_occurrences": 0,
+    "missing_records": 0,
+    "missing_sequences": [],
+    "missing_stable_ids": [],
+    "pending_explained_missing_records": 0,
+    "unexplained_missing_records": 0,
+    "translation_ids": 80,
+    "menu_keys": 0,
+    "hard_token_failed_records": 0
+  },
+  "ready_packets": [
+    {
+      "packet_id": "BAD_END_02_full",
+      "manifest_status": "ready",
+      "effective_status": "ready",
+      "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+      "sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+      "schema": "fatal-twelve-aligned-draft-v1:entries",
+      "occurrences": 80,
+      "expected_occurrences": 80
+    }
+  ],
+  "pending_packets": [],
+  "resolved_conflict_stable_ids": [],
+  "entries": [
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_ba8b287a",
+      "sequence": 1,
+      "command_index": 1,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 26,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "２ヵ月前の話。",
+      "source_text_sha256": "fc65d607e75012faaa98c00c5dc77126a67304c58c983fcb15f88fd788295b46",
+      "source_group_sha256": "c8e44a14214f9459511345c5db741a72c70604fbf6567851f5d8d9149bdb594a",
+      "source_statement_code": "\"２ヵ月前の話。\"",
+      "source_group_code": [
+        "\"２ヵ月前の話。\""
+      ],
+      "translation_id": "fBAD_02_ba8b287a",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [
+        {
+          "kind": "number",
+          "value": "２",
+          "start": 0,
+          "end": 1,
+          "severity": "hard"
+        }
+      ],
+      "draft_ko": "2개월 전의 이야기.",
+      "draft_ko_sha256": "cd5aa100bf74b635c01ae7cf39bfb8e60ce177c623bf51db8da6fbc2f1ca0126",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 0,
+        "translation_text_copied_verbatim": true
+      },
+      "correction_status": "reviewer_correction_applied",
+      "correction_history": [
+        {
+          "reviewer": "A",
+          "input_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\prepared\\corrections\\A.final.corrections.jsonl",
+          "input_sha256": "b7d5580dbb3ca35c2f8c23cf8ffc210918337e4fd9e73afa2a96a7d4c3d88377",
+          "input_line": 561,
+          "old_ko_sha256": "ef62e6a737e303604a125bb42424e12e522b0b38d8befc8366bfce3274dea316",
+          "new_ko_sha256": "cd5aa100bf74b635c01ae7cf39bfb8e60ce177c623bf51db8da6fbc2f1ca0126",
+          "runtime_protected_token_validation": "passed"
+        }
+      ]
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_fab2deac",
+      "sequence": 2,
+      "command_index": 2,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 28,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "連休が始まる直前の５月３日は、真央が親友を二人同時に失った日であった。",
+      "source_text_sha256": "7787560fd21a534b8bdca9622e43a3d365953066788aa1a5cbc293c4fda58601",
+      "source_group_sha256": "613271636000c72d4002c8fc84ada1111c33878b839a1bc9527c915ea2caa7ad",
+      "source_statement_code": "\"連休が始まる直前の５月３日は、真央が親友を二人同時に失った日であった。\"",
+      "source_group_code": [
+        "\"連休が始まる直前の５月３日は、真央が親友を二人同時に失った日であった。\""
+      ],
+      "translation_id": "fBAD_02_fab2deac",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [
+        {
+          "kind": "number",
+          "value": "５",
+          "start": 9,
+          "end": 10,
+          "severity": "hard"
+        },
+        {
+          "kind": "number",
+          "value": "３",
+          "start": 11,
+          "end": 12,
+          "severity": "hard"
+        }
+      ],
+      "draft_ko": "연휴가 시작되기 직전인 5월 3일은 마오가 두 절친을 동시에 잃은 날이었다.",
+      "draft_ko_sha256": "a90cf1c223786b848fa20ebc39f94ca926091326f04408a1832024bd5f4327b3",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 1,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_c7be6cc9",
+      "sequence": 3,
+      "command_index": 3,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 30,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "それぞれ別のところで、それぞれの死の運命を辿った。",
+      "source_text_sha256": "e8204ba6b4055f703a818e6c0d68e9e748ea94c3da320e0cb3da17653f5deab0",
+      "source_group_sha256": "8d56d8677e9737a0901e833ae26dc857d257d4994f6ad811d16f584654a0d5c3",
+      "source_statement_code": "\"それぞれ別のところで、それぞれの死の運命を辿った。\"",
+      "source_group_code": [
+        "\"それぞれ別のところで、それぞれの死の運命を辿った。\""
+      ],
+      "translation_id": "fBAD_02_c7be6cc9",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "두 사람은 서로 다른 곳에서 저마다 죽음의 운명을 따랐다.",
+      "draft_ko_sha256": "67b8b905e21f7155660b1a8deb78678517630fcd1f7b42f9bd1870a3c11b5ddd",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 2,
+        "translation_text_copied_verbatim": true
+      },
+      "correction_status": "reviewer_correction_applied",
+      "correction_history": [
+        {
+          "reviewer": "A",
+          "input_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\prepared\\corrections\\A.final.corrections.jsonl",
+          "input_sha256": "b7d5580dbb3ca35c2f8c23cf8ffc210918337e4fd9e73afa2a96a7d4c3d88377",
+          "input_line": 562,
+          "old_ko_sha256": "06d5879b21486435a35e914d7ea39682da9530b7ab3450f1ca70d1e18bec0e30",
+          "new_ko_sha256": "67b8b905e21f7155660b1a8deb78678517630fcd1f7b42f9bd1870a3c11b5ddd",
+          "runtime_protected_token_validation": "passed"
+        }
+      ]
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_ff308c65",
+      "sequence": 4,
+      "command_index": 4,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 32,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "獅子舞凛火は列車での爆破テロに巻き込まれ、後輩の日辻直未を守って死亡。",
+      "source_text_sha256": "42a40354d8ed091b15d4900f6540cb56cd33e03be01dac8d7dac78cc6ae83d89",
+      "source_group_sha256": "2231b40a64ae79fbc7a770d52c94c0849e7fcafa70ceaf66751c00c83d1b8011",
+      "source_statement_code": "\"獅子舞凛火は列車での爆破テロに巻き込まれ、後輩の日辻直未を守って死亡。\"",
+      "source_group_code": [
+        "\"獅子舞凛火は列車での爆破テロに巻き込まれ、後輩の日辻直未を守って死亡。\""
+      ],
+      "translation_id": "fBAD_02_ff308c65",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "시시마이 린카는 열차 폭탄 테러에 휘말려 후배 히츠지 나오미를 지키다 사망.",
+      "draft_ko_sha256": "57f0b100f8644571fdebcf36ec5fd75be4699a2685a5bf592ef144a5688e5719",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 3,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_0c3f9b05",
+      "sequence": 5,
+      "command_index": 5,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 34,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "未島海晴は、自室で自殺。リストカットした直後に睡眠薬を服用し、死亡したものと見られる。",
+      "source_text_sha256": "e4df40f0cef63522df062fd424f10ecceb2c646bc4e394c71952b144b0c6410f",
+      "source_group_sha256": "e7d79b837263cc1c94902639abf2c8b0d21b15542cc2df872d10c4279607b681",
+      "source_statement_code": "\"未島海晴は、自室で自殺。リストカットした直後に睡眠薬を服用し、死亡したものと見られる。\"",
+      "source_group_code": [
+        "\"未島海晴は、自室で自殺。リストカットした直後に睡眠薬を服用し、死亡したものと見られる。\""
+      ],
+      "translation_id": "fBAD_02_0c3f9b05",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "미시마 미하루는 자기 방에서 자살. 손목을 그은 직후 수면제를 복용해 사망한 것으로 보인다.",
+      "draft_ko_sha256": "fd93f1921b6a5a419bf9fb0b1ea616806c4bfa5da3ff5d126cc19c2d6ea3a4fa",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 4,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_3962218d",
+      "sequence": 6,
+      "command_index": 6,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 39,
+      "source_label": "fBAD_02",
+      "lane": "dialogue",
+      "speaker": "mao",
+      "source_jp": "「うちはさ、独りになっちゃったよ」",
+      "source_text_sha256": "6c8c95de2987797aa2ae8b2759edca13652054bb477f34e077df73cca54c54a0",
+      "source_group_sha256": "1c376e1b59f37a1df14a0f5d19a3fe7f9e2959a142200ac4afd4f8642d6611d2",
+      "source_statement_code": "mao \"「うちはさ、独りになっちゃったよ」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"mao\", 341)",
+        "mao \"「うちはさ、独りになっちゃったよ」\""
+      ],
+      "translation_id": "fBAD_02_3962218d",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"mao\", 341)",
+        "line": 38,
+        "function": "get_voice_filename",
+        "tag": "mao",
+        "start_count": 341,
+        "resolution": {
+          "mode": "explicit_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": "sounds/voice/mao_00341.ogg"
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「나는 말이야, 혼자가 돼 버렸어」",
+      "draft_ko_sha256": "b3311e771ebe5c1fc30fd2db84e0443542f618e86802c873513e02c853810963",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 5,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_5488fa8e",
+      "sequence": 7,
+      "command_index": 7,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 41,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "小熊真央は、親友の自宅の前でぽつりと呟いた。",
+      "source_text_sha256": "f4f1d8c9a1edb35247f40bcaeb60548f3783300edf5983cec149e501ee63d36b",
+      "source_group_sha256": "19224846627017b41d5137ab765db7181e6884a7eb8b7b675a82adc6d29ace95",
+      "source_statement_code": "\"小熊真央は、親友の自宅の前でぽつりと呟いた。\"",
+      "source_group_code": [
+        "\"小熊真央は、親友の自宅の前でぽつりと呟いた。\""
+      ],
+      "translation_id": "fBAD_02_5488fa8e",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "오구마 마오는 절친의 집 앞에서 나직이 중얼거렸다.",
+      "draft_ko_sha256": "7b313347bb5e1eede715f43e6a9b901d385fabe9f4f9db223e9f29ded251a52f",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 6,
+        "translation_text_copied_verbatim": true
+      },
+      "correction_status": "reviewer_correction_applied",
+      "correction_history": [
+        {
+          "reviewer": "A",
+          "input_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\prepared\\corrections\\A.final.corrections.jsonl",
+          "input_sha256": "b7d5580dbb3ca35c2f8c23cf8ffc210918337e4fd9e73afa2a96a7d4c3d88377",
+          "input_line": 563,
+          "old_ko_sha256": "6b3ce97288b57b5361430a8374944fe206d74eebe134bcb9ee73b3a095b57036",
+          "new_ko_sha256": "7b313347bb5e1eede715f43e6a9b901d385fabe9f4f9db223e9f29ded251a52f",
+          "runtime_protected_token_validation": "passed"
+        }
+      ]
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_b22e4785",
+      "sequence": 8,
+      "command_index": 8,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 43,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "喫茶ライオン館は、長期休業している。凛火のお葬式が終わったあとも、彼女の祖母は親戚の介護で田舎に帰ってしまった。",
+      "source_text_sha256": "fb817708d4b52008aa8d0a6ca5057acde4908d2ea2f952e5b1c912cb0824a4ba",
+      "source_group_sha256": "d880435519e888c416cb0de4cfe18b4a7d977d7ac4ad7c4df7633af24db73c2a",
+      "source_statement_code": "\"喫茶ライオン館は、長期休業している。凛火のお葬式が終わったあとも、彼女の祖母は親戚の介護で田舎に帰ってしまった。\"",
+      "source_group_code": [
+        "\"喫茶ライオン館は、長期休業している。凛火のお葬式が終わったあとも、彼女の祖母は親戚の介護で田舎に帰ってしまった。\""
+      ],
+      "translation_id": "fBAD_02_b22e4785",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "찻집 라이온관은 장기 휴업 중이다. 린카의 장례식이 끝난 뒤에도 그녀의 할머니는 친척을 돌보기 위해 시골로 돌아가 버렸다.",
+      "draft_ko_sha256": "438355b001a926645006353eaec981f31d8f24c3ab654d44f3e39bc57996645e",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 7,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_9decdaa5",
+      "sequence": 9,
+      "command_index": 9,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 45,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "しかし家族との想い出が詰まったこの家も手放すことはできなかったらしい。",
+      "source_text_sha256": "934afa8d135e6ae511800ce0a2497fbf7e7ad4ce8cd710214e413ee3053f7402",
+      "source_group_sha256": "6671c2e53aa2079b7e9c5568dfe0cd1a4c7e996588bff16fd27988c992420ba4",
+      "source_statement_code": "\"しかし家族との想い出が詰まったこの家も手放すことはできなかったらしい。\"",
+      "source_group_code": [
+        "\"しかし家族との想い出が詰まったこの家も手放すことはできなかったらしい。\""
+      ],
+      "translation_id": "fBAD_02_9decdaa5",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "하지만 가족과의 추억이 가득한 이 집도 처분할 수는 없었던 모양이다.",
+      "draft_ko_sha256": "8fdfc8e1b1186afcf971071a0c3818bd8df7220423265d8b18dac9babbebc074",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 8,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_fac3099c",
+      "sequence": 10,
+      "command_index": 10,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 47,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "真央もその気持ちは、痛いほどよく分かっていた。",
+      "source_text_sha256": "253c6f9c26e065c5677d0fb767b951c72f33056d05ed1b9193b9f040f46f09af",
+      "source_group_sha256": "b3fb2d5f69de9653305955c041f9c4e812b89bf5a4125b78d7d9076f2803037b",
+      "source_statement_code": "\"真央もその気持ちは、痛いほどよく分かっていた。\"",
+      "source_group_code": [
+        "\"真央もその気持ちは、痛いほどよく分かっていた。\""
+      ],
+      "translation_id": "fBAD_02_fac3099c",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "마오도 그 마음을 아플 만큼 잘 이해했다.",
+      "draft_ko_sha256": "d7566e095d409261325a937df23170eccae9ea75359f3122f47f9409c9021456",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 9,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_5e655479",
+      "sequence": 11,
+      "command_index": 11,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 52,
+      "source_label": "fBAD_02",
+      "lane": "dialogue",
+      "speaker": "mao",
+      "source_jp": "「ライオン館はみんなの第二のおうちって、りーたんは言ってたな」",
+      "source_text_sha256": "4e747ed4aed402b51b67b4d6b714a2970f8ba2cd33f54aebd15748f31f9012b8",
+      "source_group_sha256": "d0a300043c5e5fa8c3205b90a379e0c623f93f7e5358b77623e39bd6bc99f64c",
+      "source_statement_code": "mao \"「ライオン館はみんなの第二のおうちって、りーたんは言ってたな」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"mao\")",
+        "mao \"「ライオン館はみんなの第二のおうちって、りーたんは言ってたな」\""
+      ],
+      "translation_id": "fBAD_02_5e655479",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"mao\")",
+        "line": 51,
+        "function": "get_voice_filename",
+        "tag": "mao",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「라이온관은 모두의 두 번째 집이라고, 리땅이 말했었지」",
+      "draft_ko_sha256": "9accf233850f457386107c3452d2663dbceeaa65c5241c532dd638ce65abcc6f",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 10,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_d242de7e",
+      "sequence": 12,
+      "command_index": 12,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 57,
+      "source_label": "fBAD_02",
+      "lane": "dialogue",
+      "speaker": "mao",
+      "source_jp": "「でもさ、人がいなくっちゃ、おうちはおうちじゃないよねぇ」",
+      "source_text_sha256": "e4fb83d717bd22099c2760b90b3429eb7fa302c0a57baa63766601894c9b385e",
+      "source_group_sha256": "234a9171c5eed956375c2d309872c4a8e1807317cff32e5a1af303ed5042d7ea",
+      "source_statement_code": "mao \"「でもさ、人がいなくっちゃ、おうちはおうちじゃないよねぇ」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"mao\")",
+        "mao \"「でもさ、人がいなくっちゃ、おうちはおうちじゃないよねぇ」\""
+      ],
+      "translation_id": "fBAD_02_d242de7e",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"mao\")",
+        "line": 56,
+        "function": "get_voice_filename",
+        "tag": "mao",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「하지만 사람이 없으면, 집은 집이 아니잖아」",
+      "draft_ko_sha256": "ff8be1079096499ec8f0026a4d7587e0ab01e1cb63b994a2377f5171dd4f3927",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 11,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_13657aca",
+      "sequence": 13,
+      "command_index": 13,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 59,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "寂しい声は、誰にも届かない。",
+      "source_text_sha256": "6cf7fbdb8faf811d10172303d2017d51948227d74c6e9c6317c628c0183404ae",
+      "source_group_sha256": "11f9482ff87e6c6759b06b9b064760189e090ff2a8249537a9756c2b38b5d0b1",
+      "source_statement_code": "\"寂しい声は、誰にも届かない。\"",
+      "source_group_code": [
+        "\"寂しい声は、誰にも届かない。\""
+      ],
+      "translation_id": "fBAD_02_13657aca",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "쓸쓸한 목소리는 누구에게도 닿지 않는다.",
+      "draft_ko_sha256": "b13d772ce457abf168e7310060a6343c48ed363f57405d7c892c6e1a4781bf39",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 12,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_4a8f0527",
+      "sequence": 14,
+      "command_index": 14,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 64,
+      "source_label": "fBAD_02",
+      "lane": "dialogue",
+      "speaker": "mao",
+      "source_jp": "「遊園地行こうって約束してたのにさ」",
+      "source_text_sha256": "ce5dd6e2aa22628accdd7f87ed22c0c95fcef05f8ff4f8ca4e243dc0f1155c7e",
+      "source_group_sha256": "aee05b40eff5e321cf7cd30527e4fc3ccdae0dec3a17ff26ca5dd70116de7709",
+      "source_statement_code": "mao \"「遊園地行こうって約束してたのにさ」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"mao\")",
+        "mao \"「遊園地行こうって約束してたのにさ」\""
+      ],
+      "translation_id": "fBAD_02_4a8f0527",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"mao\")",
+        "line": 63,
+        "function": "get_voice_filename",
+        "tag": "mao",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「놀이공원 가자고 약속했는데」",
+      "draft_ko_sha256": "815ca50f667f8c1bfcfab11ec1347afb39b8804c8fdf01e3b6e6a0f399895e5d",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 13,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_fc40af8e",
+      "sequence": 15,
+      "command_index": 15,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 66,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "それはもう決して叶わない夢。",
+      "source_text_sha256": "58260e6cb75599a6c6655a2b1e5e63d752aed8075e77f12cdc5ee458267a0aca",
+      "source_group_sha256": "8e00db999d8cf40040e652a516f3be27da1f4db06d8847064247dcdabb8e780d",
+      "source_statement_code": "\"それはもう決して叶わない夢。\"",
+      "source_group_code": [
+        "\"それはもう決して叶わない夢。\""
+      ],
+      "translation_id": "fBAD_02_fc40af8e",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "이제는 결코 이룰 수 없는 꿈.",
+      "draft_ko_sha256": "8fe1660356cd5cd01b260cae442977004a13987fff3f09f7603481412572341f",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 14,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_2eb35e5e",
+      "sequence": 16,
+      "command_index": 16,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 68,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "真央は凛火のお葬式以降、直未とも何となく気まずくなってしまい、話してはいなかった。",
+      "source_text_sha256": "1e8da1f61b134c289207e4de8cac85a132e233463996eb807e3634ef2b3676e0",
+      "source_group_sha256": "75f59a8a5632f891b9abb84cd69e4c89f56c4138ca031ed31c411491ba991846",
+      "source_statement_code": "\"真央は凛火のお葬式以降、直未とも何となく気まずくなってしまい、話してはいなかった。\"",
+      "source_group_code": [
+        "\"真央は凛火のお葬式以降、直未とも何となく気まずくなってしまい、話してはいなかった。\""
+      ],
+      "translation_id": "fBAD_02_2eb35e5e",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "마오는 린카의 장례식 이후 나오미와도 어쩐지 서먹해져 말을 나누지 않았다.",
+      "draft_ko_sha256": "6d7d233814fd67845722ad2f6d54c484c5df2dc936f5fa87b09e20be1f8e15a7",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 15,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_5b2233fb",
+      "sequence": 17,
+      "command_index": 17,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 73,
+      "source_label": "fBAD_02",
+      "lane": "dialogue",
+      "speaker": "mao",
+      "source_jp": "「うちもいつまでもこんなんじゃ、駄目だって思うんだけどさぁ」",
+      "source_text_sha256": "80604e55f8382bd96dbba8957bb8be1af14f8db3c4af01d4c9254459d58dea3f",
+      "source_group_sha256": "2f030f0c05c4ed49020d2b017f95bf11444cacbba5a7c3559eca953cf8a066ec",
+      "source_statement_code": "mao \"「うちもいつまでもこんなんじゃ、駄目だって思うんだけどさぁ」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"mao\")",
+        "mao \"「うちもいつまでもこんなんじゃ、駄目だって思うんだけどさぁ」\""
+      ],
+      "translation_id": "fBAD_02_5b2233fb",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"mao\")",
+        "line": 72,
+        "function": "get_voice_filename",
+        "tag": "mao",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「나도 언제까지나 이러고 있으면 안 된다고는 생각하지만 말이야」",
+      "draft_ko_sha256": "1af3e04b017498b79a7a09ca6ccb74b5d999d6794c90ba46d54d68c2d767f491",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 16,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_87c7a232",
+      "sequence": 18,
+      "command_index": 18,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 75,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "ライオン館を見る度に、思い出が駆け巡る。",
+      "source_text_sha256": "08ced7b5711692c7c8b23e9a2b0d0b7038e34e97c382aff14ee2bb9e4c83cfd4",
+      "source_group_sha256": "2676e875b8fefae137d91d7f53733535b89f6f56c0b562aa28ea092736c4a11c",
+      "source_statement_code": "\"ライオン館を見る度に、思い出が駆け巡る。\"",
+      "source_group_code": [
+        "\"ライオン館を見る度に、思い出が駆け巡る。\""
+      ],
+      "translation_id": "fBAD_02_87c7a232",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "라이온관을 볼 때마다 추억이 머릿속을 스쳐 간다.",
+      "draft_ko_sha256": "6d301da91d03d8df6a00f6ee3056732db048b673b558975969021d3a01562ee8",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 17,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_7e195df4",
+      "sequence": 19,
+      "command_index": 19,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 80,
+      "source_label": "fBAD_02",
+      "lane": "dialogue",
+      "speaker": "mao",
+      "source_jp": "「どうして、してないことまで夢に見るのかねぇ」",
+      "source_text_sha256": "ab663f3ea7156d422777e5c0657525acd2752969a4c76e762ffa64d030489250",
+      "source_group_sha256": "f19dd8b41a2af415b8eec45596d706c99458db3e5a3a7876dff0d34192b3d772",
+      "source_statement_code": "mao \"「どうして、してないことまで夢に見るのかねぇ」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"mao\")",
+        "mao \"「どうして、してないことまで夢に見るのかねぇ」\""
+      ],
+      "translation_id": "fBAD_02_7e195df4",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"mao\")",
+        "line": 79,
+        "function": "get_voice_filename",
+        "tag": "mao",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「왜 하지도 않은 일까지 꿈에서 보는 걸까」",
+      "draft_ko_sha256": "2f0a120d6d6335476aca9f1b53840089b5975609a4dc01519c6cabf670642e77",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 18,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_c02a4384",
+      "sequence": 20,
+      "command_index": 20,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 82,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "遊園地でみんなで写真を撮ったこと。",
+      "source_text_sha256": "3ea265128a7108aba3349a0aa12fd46e9cb3f92d6afd22230a244a76a38cae78",
+      "source_group_sha256": "3476a91e17e3cbacf76e5b286c3684465c5135701a024cd44864a9aaba7e0207",
+      "source_statement_code": "\"遊園地でみんなで写真を撮ったこと。\"",
+      "source_group_code": [
+        "\"遊園地でみんなで写真を撮ったこと。\""
+      ],
+      "translation_id": "fBAD_02_c02a4384",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "놀이공원에서 모두 함께 사진을 찍었던 일.",
+      "draft_ko_sha256": "dd4599007da85f2d356fd7a82f22ee7455cb8ca48df743cfa37c921c381957f7",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 19,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_f3dc9e45",
+      "sequence": 21,
+      "command_index": 21,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 84,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "文化祭で直未のクラスの模擬店で、凛火仕込みのコーヒーを飲んだこと。",
+      "source_text_sha256": "dcb992a0a0cefa86ad05c15ab2e137eeab92c484347f0440624cc87bcf54d6c4",
+      "source_group_sha256": "7753b128e51f9fa0254d87599eb451e5e87aff90b9e8a1d5bfdce66887caa055",
+      "source_statement_code": "\"文化祭で直未のクラスの模擬店で、凛火仕込みのコーヒーを飲んだこと。\"",
+      "source_group_code": [
+        "\"文化祭で直未のクラスの模擬店で、凛火仕込みのコーヒーを飲んだこと。\""
+      ],
+      "translation_id": "fBAD_02_f3dc9e45",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "문화제 때 나오미네 반 모의점에서 린카에게 배운 방식으로 내린 커피를 마셨던 일.",
+      "draft_ko_sha256": "85446f5ec0d6f00009ee350dc34be82997d5950388afbab8b6dafc193627698d",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 20,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_98eb1c79",
+      "sequence": 22,
+      "command_index": 22,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 86,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "ただし、真央はミルクと砂糖を大量に入れたこと。",
+      "source_text_sha256": "27be2e2b4e8d5b1bebacca36e78eda5ebdd89d6f1c255fe14ecf183c6aa33330",
+      "source_group_sha256": "385c192ff34b6e22415555e9359c077f87446142a36ca9f1d10413833869b1c4",
+      "source_statement_code": "\"ただし、真央はミルクと砂糖を大量に入れたこと。\"",
+      "source_group_code": [
+        "\"ただし、真央はミルクと砂糖を大量に入れたこと。\""
+      ],
+      "translation_id": "fBAD_02_98eb1c79",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "단, 마오는 우유와 설탕을 잔뜩 넣었다는 것.",
+      "draft_ko_sha256": "17a35468d500d0877732daef65cb6991ec47f2a509b0910c9369def6ff74a83a",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 21,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_154acaa0",
+      "sequence": 23,
+      "command_index": 23,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 88,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "何度も、凛火と海晴と屋上でご飯を食べたこと。",
+      "source_text_sha256": "7b806d5e20da7ef049b0e63fd9234d0b6022a48c5c12fdf5b27d6da183affd31",
+      "source_group_sha256": "e1e68e1032224df37fb6f585fd4d9f9b64a1ba6f75f167aa8aa70203efe35172",
+      "source_statement_code": "\"何度も、凛火と海晴と屋上でご飯を食べたこと。\"",
+      "source_group_code": [
+        "\"何度も、凛火と海晴と屋上でご飯を食べたこと。\""
+      ],
+      "translation_id": "fBAD_02_154acaa0",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "몇 번이고 린카와 미하루와 옥상에서 밥을 먹었던 일.",
+      "draft_ko_sha256": "2f455771dc09d9a9c9757042562ec4a1cb7ed0d2f0a6ec63e268224fe6394f4f",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 22,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_2b848a88",
+      "sequence": 24,
+      "command_index": 24,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 90,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "どれもあり得ない日々なのに、真央は夢を見る度、まるで思い出であるかのようにそんな光景を見せられていた。",
+      "source_text_sha256": "0fb5db502fcc42f592c7408486a577b20c853d6a1c7a86cf32c95f1552634a99",
+      "source_group_sha256": "2738e844ae90fc91b583ec6486bd25a98e722dec3fa2142dfe132485f130509c",
+      "source_statement_code": "\"どれもあり得ない日々なのに、真央は夢を見る度、まるで思い出であるかのようにそんな光景を見せられていた。\"",
+      "source_group_code": [
+        "\"どれもあり得ない日々なのに、真央は夢を見る度、まるで思い出であるかのようにそんな光景を見せられていた。\""
+      ],
+      "translation_id": "fBAD_02_2b848a88",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "모두 있을 수 없는 나날인데도, 마오는 꿈을 꿀 때마다 마치 추억인 양 그런 광경을 보게 되었다.",
+      "draft_ko_sha256": "83b482bdec50ad92f20dae54923f5dc208544c4f3d5346f1c2e2f8e856b5dab9",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 23,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_c1d7a725",
+      "sequence": 25,
+      "command_index": 25,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 95,
+      "source_label": "fBAD_02",
+      "lane": "dialogue",
+      "speaker": "mao",
+      "source_jp": "「だってそれくらい、悲しくって」",
+      "source_text_sha256": "ac388471316786efd788a088cf99bd3c27b2b68433d887518c2fccfa2825848a",
+      "source_group_sha256": "8bbc3600a6f627118afb80dc7003fa3d61ac8bd2b5e957fe84a2354c6d17067a",
+      "source_statement_code": "mao \"「だってそれくらい、悲しくって」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"mao\")",
+        "mao \"「だってそれくらい、悲しくって」\""
+      ],
+      "translation_id": "fBAD_02_c1d7a725",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"mao\")",
+        "line": 94,
+        "function": "get_voice_filename",
+        "tag": "mao",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「그만큼 슬퍼서」",
+      "draft_ko_sha256": "ac42b6eed044af1a53fb6386c859f29bc5247db8c91bedf0c18ac7da3c002d5d",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 24,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_43cc9ba8",
+      "sequence": 26,
+      "command_index": 26,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 97,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "その後、真央は30分ほどライオン館の前にいた。",
+      "source_text_sha256": "b6d87ac93f4a260d0dbc15a95b44659e1e81a54ae88486a3ccd39878a6eb7501",
+      "source_group_sha256": "cc9edfb5d643c54814006061f89590f125a2e71829972d59292114daa8e6e414",
+      "source_statement_code": "\"その後、真央は30分ほどライオン館の前にいた。\"",
+      "source_group_code": [
+        "\"その後、真央は30分ほどライオン館の前にいた。\""
+      ],
+      "translation_id": "fBAD_02_43cc9ba8",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [
+        {
+          "kind": "number",
+          "value": "30",
+          "start": 7,
+          "end": 9,
+          "severity": "hard"
+        }
+      ],
+      "draft_ko": "그 후 마오는 30분가량 라이온관 앞에 있었다.",
+      "draft_ko_sha256": "b8a524d4712f06c4fe46627d4a82ceff675f18ce1d72d0b80ecd2475ebcc6889",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 25,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_95d57960",
+      "sequence": 27,
+      "command_index": 27,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 99,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "そろそろ行こうかと意を決して歩こうとしたとき、ちょうど反対側から歩いてきた男性にぶつかってしまった。",
+      "source_text_sha256": "fc4a2fa136984f0b96b200fa8f1c8c2bba99b5d7891d526c27d18f20293a6884",
+      "source_group_sha256": "cac933315af8aa991f6cd9be2f21de5932b57d0312d0efa0d568a7bab145c044",
+      "source_statement_code": "\"そろそろ行こうかと意を決して歩こうとしたとき、ちょうど反対側から歩いてきた男性にぶつかってしまった。\"",
+      "source_group_code": [
+        "\"そろそろ行こうかと意を決して歩こうとしたとき、ちょうど反対側から歩いてきた男性にぶつかってしまった。\""
+      ],
+      "translation_id": "fBAD_02_95d57960",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "이제 가자고 마음먹고 걸음을 떼려던 때, 마침 맞은편에서 걸어오던 남자와 부딪히고 말았다.",
+      "draft_ko_sha256": "b994f1fdfefac3965b37b091f9362c7594ae130a4d522bfa8b719afa6857d3b5",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 26,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_b277faf5",
+      "sequence": 28,
+      "command_index": 28,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 101,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "背の高い男性だから、急に動いた真央が視界に入っていなかったのだと思った。",
+      "source_text_sha256": "f90274e80cc81fc2e0ea124daa84dd830c5a6e0d01e6592846dab130be45bcf3",
+      "source_group_sha256": "a3dac1f71cac66301650e41ca09077ac9fe26327a1d74a5c4f15bf27e706ffbb",
+      "source_statement_code": "\"背の高い男性だから、急に動いた真央が視界に入っていなかったのだと思った。\"",
+      "source_group_code": [
+        "\"背の高い男性だから、急に動いた真央が視界に入っていなかったのだと思った。\""
+      ],
+      "translation_id": "fBAD_02_b277faf5",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "키가 큰 남자라 갑자기 움직인 마오가 시야에 들어오지 않았던 거라고 생각했다.",
+      "draft_ko_sha256": "056d00c2a59415b53177c2e7a85b3a94bf35d22db2f47b91ee8f8f08b2eddeea",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 27,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_4b936d12",
+      "sequence": 29,
+      "command_index": 29,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 106,
+      "source_label": "fBAD_02",
+      "lane": "dialogue",
+      "speaker": "mao",
+      "source_jp": "「あ、すみま……」",
+      "source_text_sha256": "014aa7af0b2a6577080ab4d158aba6750548ec3ae7f53ea375853dc9cec05cdc",
+      "source_group_sha256": "4dd68188cfb790acc23a066c09d324d91e40f9d7b77328d3d9cacfc12408f555",
+      "source_statement_code": "mao \"「あ、すみま……」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"mao\")",
+        "mao \"「あ、すみま……」\""
+      ],
+      "translation_id": "fBAD_02_4b936d12",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"mao\")",
+        "line": 105,
+        "function": "get_voice_filename",
+        "tag": "mao",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「아, 죄송……」",
+      "draft_ko_sha256": "167c29f183d2d591e7651c1ecde4d07612123af8b11d1e883dd718680288d695",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 28,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_c6505cd5",
+      "sequence": 30,
+      "command_index": 30,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 114,
+      "source_label": "fBAD_02",
+      "lane": "dialogue",
+      "speaker": "federico_unk2",
+      "source_jp": "「おっと失礼、お嬢ちゃん。可愛い顔は汚れてないかい？」",
+      "source_text_sha256": "cb5f043790d93475e429874c2262585ddc8090364a38c9b1e95a79d90e9d473d",
+      "source_group_sha256": "0c8a42e6bd580ac90793660d9f090e80c147c2816a3751a78460920e7fdacfbb",
+      "source_statement_code": "federico_unk2 \"「おっと失礼、お嬢ちゃん。可愛い顔は汚れてないかい？」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"fed\", 395)",
+        "federico_unk2 \"「おっと失礼、お嬢ちゃん。可愛い顔は汚れてないかい？」\""
+      ],
+      "translation_id": "fBAD_02_c6505cd5",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"fed\", 395)",
+        "line": 113,
+        "function": "get_voice_filename",
+        "tag": "fed",
+        "start_count": 395,
+        "resolution": {
+          "mode": "explicit_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": "sounds/voice/fed_00395.ogg"
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「이런, 실례했어, 아가씨. 예쁜 얼굴은 안 더러워졌나?」",
+      "draft_ko_sha256": "75445f46dbf56c84eadee204fe5c3b5de2aceed49aa4fc63dfff4f926d6c59f1",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 29,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_2cba5ea6",
+      "sequence": 31,
+      "command_index": 31,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 119,
+      "source_label": "fBAD_02",
+      "lane": "dialogue",
+      "speaker": "mao",
+      "source_jp": "「……え？　いや、大丈夫っすけど」",
+      "source_text_sha256": "4dc4beb74341df3bca7b21ec2e4972cf4ea7f5a8ff1e27d095ade7a19c5b94cd",
+      "source_group_sha256": "273505f7088b203b4fb3ecdb9a078422a4f0c1aab3641440eca903df6f0911c4",
+      "source_statement_code": "mao \"「……え？　いや、大丈夫っすけど」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"mao\")",
+        "mao \"「……え？　いや、大丈夫っすけど」\""
+      ],
+      "translation_id": "fBAD_02_2cba5ea6",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"mao\")",
+        "line": 118,
+        "function": "get_voice_filename",
+        "tag": "mao",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「……네? 아니, 괜찮은데요」",
+      "draft_ko_sha256": "915c1af6d75061c6bc9754a351c90478df23bcd4605d0d522ac0f6c1d310994c",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 30,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_e9a182c3",
+      "sequence": 32,
+      "command_index": 32,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 121,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "ナンパかと思い、真央は露骨に嫌な表情を浮かべていた。",
+      "source_text_sha256": "146951e02625b4a9e6ef4df4514404e58aecc18166f015725ba0cda256c444f7",
+      "source_group_sha256": "3a0ad7c73e2738d1d74152be7001932c5d94009a5617e81ea1dbff87890c32e6",
+      "source_statement_code": "\"ナンパかと思い、真央は露骨に嫌な表情を浮かべていた。\"",
+      "source_group_code": [
+        "\"ナンパかと思い、真央は露骨に嫌な表情を浮かべていた。\""
+      ],
+      "translation_id": "fBAD_02_e9a182c3",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "헌팅이라고 생각한 마오는 노골적으로 싫은 표정을 지었다.",
+      "draft_ko_sha256": "154fc68c55d94edcf15c9eace22ae6b1d67afc1b12f698bd86b59f36b7ea809d",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 31,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_9c6edc5b",
+      "sequence": 33,
+      "command_index": 33,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 123,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "カタコトだが日本語を喋っているので、日本に住んでいるのか慣れた観光客かどちらかだろうと思っていた。",
+      "source_text_sha256": "960596c1e375cc6156e79466afb764bdb60fa4be6051fc03f69a3e5c5e2130f8",
+      "source_group_sha256": "2a6054128a89b0e0b1e2f2b4eb0fe9c6e14133916f0bdb7bd2b54ee60e2d5a58",
+      "source_statement_code": "\"カタコトだが日本語を喋っているので、日本に住んでいるのか慣れた観光客かどちらかだろうと思っていた。\"",
+      "source_group_code": [
+        "\"カタコトだが日本語を喋っているので、日本に住んでいるのか慣れた観光客かどちらかだろうと思っていた。\""
+      ],
+      "translation_id": "fBAD_02_9c6edc5b",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "서툴지만 일본어를 하고 있었기에, 일본에 사는 사람이거나 익숙한 관광객이겠거니 했다.",
+      "draft_ko_sha256": "93cb0c34ce074e318a6c6c2210d5625cc6f564d991e65c85c7faadb39dcc45d4",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 32,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_4b6750de",
+      "sequence": 34,
+      "command_index": 34,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 129,
+      "source_label": "fBAD_02",
+      "lane": "dialogue",
+      "speaker": "federico_unk2",
+      "source_jp": "「おっと、そういえばここ、か。≪運命の終着点≫からこんなに近くに住んでたんだなぁ」",
+      "source_text_sha256": "80402c1c18571b0a3860b81699ac5d1e7de40886994d5869b9c0a568cd267206",
+      "source_group_sha256": "498584d2a33344e2378af9d2b041de60852898a2000e141dbda5f04528f8349e",
+      "source_statement_code": "federico_unk2 \"「おっと、そういえばここ、か。≪運命の終着点≫からこんなに近くに住んでたんだなぁ」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"fed\")",
+        "federico_unk2 \"「おっと、そういえばここ、か。≪運命の終着点≫からこんなに近くに住んでたんだなぁ」\""
+      ],
+      "translation_id": "fBAD_02_4b6750de",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"fed\")",
+        "line": 128,
+        "function": "get_voice_filename",
+        "tag": "fed",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「이런, 그러고 보니 여기였나. ≪운명의 종착점≫에서 이렇게 가까운 곳에 살았군」",
+      "draft_ko_sha256": "cba7a7a7c33d1d415cfddbe4e58e91c9918e097556fe0e9937b8c7d0940fba85",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 33,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_09a6aed6",
+      "sequence": 35,
+      "command_index": 35,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 134,
+      "source_label": "fBAD_02",
+      "lane": "dialogue",
+      "speaker": "mao",
+      "source_jp": "「おにーさん、りーたんを知ってるのぉ？」",
+      "source_text_sha256": "eca1b343d0b90a46a686acd4c54e55a4bb8809f5fdd8d8357aade89ad13fbe35",
+      "source_group_sha256": "6e86d446702b9f17494971cf1adaf6b3b1f4ab77dea2ee054f56f3e496ab808a",
+      "source_statement_code": "mao \"「おにーさん、りーたんを知ってるのぉ？」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"mao\")",
+        "mao \"「おにーさん、りーたんを知ってるのぉ？」\""
+      ],
+      "translation_id": "fBAD_02_09a6aed6",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"mao\")",
+        "line": 133,
+        "function": "get_voice_filename",
+        "tag": "mao",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「아저씨, 리땅을 알아?」",
+      "draft_ko_sha256": "ec84631388f5aae1eaa8faa4f5c3abad4024bcdbd79c665808bdc759363c1402",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 34,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_d7a2620a",
+      "sequence": 36,
+      "command_index": 36,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 140,
+      "source_label": "fBAD_02",
+      "lane": "dialogue",
+      "speaker": "federico_unk2",
+      "source_jp": "「りーたん……ああ、リンカ・シシマイのことか。知ってるよ。オレの……仲間だった奴が随分と肩入れしてたからな」",
+      "source_text_sha256": "68b415c4219591c25010d3cba44ec27aaa9488b969f7eac0efa6aa4935930ef5",
+      "source_group_sha256": "ba0c649c736c9886ecbc3139c22f5565b102a51198400c521ff03c20f1d19af2",
+      "source_statement_code": "federico_unk2 \"「りーたん……ああ、リンカ・シシマイのことか。知ってるよ。オレの……仲間だった奴が随分と肩入れしてたからな」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"fed\")",
+        "federico_unk2 \"「りーたん……ああ、リンカ・シシマイのことか。知ってるよ。オレの……仲間だった奴が随分と肩入れしてたからな」\""
+      ],
+      "translation_id": "fBAD_02_d7a2620a",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"fed\")",
+        "line": 139,
+        "function": "get_voice_filename",
+        "tag": "fed",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「리땅…… 아, 린카 시시마이 말인가. 알아. 내…… 동료였던 녀석이 꽤나 편을 들어 줬거든」",
+      "draft_ko_sha256": "be617be2caed488ddcf288dd74a70dddcfe2aab8cda1a4b1875a7f27c314507a",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 35,
+        "translation_text_copied_verbatim": true
+      },
+      "correction_status": "reviewer_correction_applied",
+      "correction_history": [
+        {
+          "reviewer": "A",
+          "input_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\prepared\\corrections\\A.final.corrections.jsonl",
+          "input_sha256": "b7d5580dbb3ca35c2f8c23cf8ffc210918337e4fd9e73afa2a96a7d4c3d88377",
+          "input_line": 564,
+          "old_ko_sha256": "8cf347a06a67c7e88ae31567f0705b65da9ed79654170cb14318c89afed93e6a",
+          "new_ko_sha256": "be617be2caed488ddcf288dd74a70dddcfe2aab8cda1a4b1875a7f27c314507a",
+          "runtime_protected_token_validation": "passed"
+        }
+      ]
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_3130ef17",
+      "sequence": 37,
+      "command_index": 37,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 145,
+      "source_label": "fBAD_02",
+      "lane": "dialogue",
+      "speaker": "mao",
+      "source_jp": "「……どういう関係？」",
+      "source_text_sha256": "bded4e6d946164680b4533cdbedb996be1b9db00de70af059224e6d9784078f8",
+      "source_group_sha256": "259c6b719b9d13616fea96e8ab0d4e1352be7adab753e723b4183ec3ed560aca",
+      "source_statement_code": "mao \"「……どういう関係？」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"mao\")",
+        "mao \"「……どういう関係？」\""
+      ],
+      "translation_id": "fBAD_02_3130ef17",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"mao\")",
+        "line": 144,
+        "function": "get_voice_filename",
+        "tag": "mao",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「……무슨 사이야?」",
+      "draft_ko_sha256": "e61a477638711a7dc96bbf1a5152769f71c88c276289c9b09a3ea8daccac86ae",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 36,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_6eee5848",
+      "sequence": 38,
+      "command_index": 38,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 151,
+      "source_label": "fBAD_02",
+      "lane": "dialogue",
+      "speaker": "federico_unk2",
+      "source_jp": "「……ああ、お嬢ちゃんはミハルとも同じ学校か」",
+      "source_text_sha256": "05b6e554f4e517bcda5bbbaba3f9a82dd51c200e780de1ee056ebceb98e6c74a",
+      "source_group_sha256": "075d7f93f5a3aca9f811415689f665a30ec6c19e93e07ee04db2426184c501b1",
+      "source_statement_code": "federico_unk2 \"「……ああ、お嬢ちゃんはミハルとも同じ学校か」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"fed\")",
+        "federico_unk2 \"「……ああ、お嬢ちゃんはミハルとも同じ学校か」\""
+      ],
+      "translation_id": "fBAD_02_6eee5848",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"fed\")",
+        "line": 150,
+        "function": "get_voice_filename",
+        "tag": "fed",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「……아, 아가씨는 미하루와도 같은 학교인가」",
+      "draft_ko_sha256": "a21d9ad5746557b245aaff75ebecc87273f3627fcd5cef1259eba2a6ae6f2bc4",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 37,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_e5dc1dce",
+      "sequence": 39,
+      "command_index": 39,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 156,
+      "source_label": "fBAD_02",
+      "lane": "dialogue",
+      "speaker": "mao",
+      "source_jp": "「みはるんのことも？」",
+      "source_text_sha256": "907fb903b5f1bed98d129b08fa4fba3da8f34e4f2130819e010468351dc56a00",
+      "source_group_sha256": "3fb8d22f225d90923932b8fe3f3d47f9b09c4f88604c0ebdd6739a6669ff9f61",
+      "source_statement_code": "mao \"「みはるんのことも？」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"mao\")",
+        "mao \"「みはるんのことも？」\""
+      ],
+      "translation_id": "fBAD_02_e5dc1dce",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"mao\")",
+        "line": 155,
+        "function": "get_voice_filename",
+        "tag": "mao",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「미하룽도 알아?」",
+      "draft_ko_sha256": "7b53262d65dbf09fa83d12e9063523336e5e21244901ca9722e6e8d51660a02d",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 38,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_3d52d85d",
+      "sequence": 40,
+      "command_index": 40,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 162,
+      "source_label": "fBAD_02",
+      "lane": "dialogue",
+      "speaker": "federico_unk2",
+      "source_jp": "「まあ、な」",
+      "source_text_sha256": "12c2dfdeede81a8b87a583fb2c6e1b6a578a5649b945376fc7fd6a62a3d8d0d0",
+      "source_group_sha256": "7cf0b2c10c8040c40eb8ac1517de529e65c2498b446c777783a5fd55682adecf",
+      "source_statement_code": "federico_unk2 \"「まあ、な」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"fed\")",
+        "federico_unk2 \"「まあ、な」\""
+      ],
+      "translation_id": "fBAD_02_3d52d85d",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"fed\")",
+        "line": 161,
+        "function": "get_voice_filename",
+        "tag": "fed",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「뭐, 그렇지」",
+      "draft_ko_sha256": "8b41f074145bc8ad1bdadf0b74d3730d922e314a2246e4c36e0dba2c7967fb9b",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 39,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_db939938",
+      "sequence": 41,
+      "command_index": 41,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 167,
+      "source_label": "fBAD_02",
+      "lane": "dialogue",
+      "speaker": "mao",
+      "source_jp": "「もしよかったら、二人のこと聞かせてよ。うちの知らない二人がいるんだったら、知っておきたいから」",
+      "source_text_sha256": "fdb3787f83cb591abaa577364efe522319a7c08d2f60eafc9d15a588f3bbe583",
+      "source_group_sha256": "a9d46448d732ef329bf473d6437a7242c13cb3390be394827d5980ffa8ad4b13",
+      "source_statement_code": "mao \"「もしよかったら、二人のこと聞かせてよ。うちの知らない二人がいるんだったら、知っておきたいから」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"mao\")",
+        "mao \"「もしよかったら、二人のこと聞かせてよ。うちの知らない二人がいるんだったら、知っておきたいから」\""
+      ],
+      "translation_id": "fBAD_02_db939938",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"mao\")",
+        "line": 166,
+        "function": "get_voice_filename",
+        "tag": "mao",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「괜찮으면 두 사람 얘기 좀 들려줘. 내가 모르는 두 사람의 모습이 있다면 알아 두고 싶으니까」",
+      "draft_ko_sha256": "700446d0ec85c1c5e127a4b96aaad074999129a1d05cb0e4e7fbbf0ca0ab26c4",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 40,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_e6abe77c",
+      "sequence": 42,
+      "command_index": 42,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 173,
+      "source_label": "fBAD_02",
+      "lane": "dialogue",
+      "speaker": "federico_unk2",
+      "source_jp": "「そうか……あんたはあの二人と仲が良かったんだな」",
+      "source_text_sha256": "f068b103a8f89bb65c6a9b75442f333cda21ae428bf8d3933cc3b69b4e409a61",
+      "source_group_sha256": "337cabfee4afe73e602c5c3fa4679c3609c908d9279756d644601809ea29f094",
+      "source_statement_code": "federico_unk2 \"「そうか……あんたはあの二人と仲が良かったんだな」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"fed\")",
+        "federico_unk2 \"「そうか……あんたはあの二人と仲が良かったんだな」\""
+      ],
+      "translation_id": "fBAD_02_e6abe77c",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"fed\")",
+        "line": 172,
+        "function": "get_voice_filename",
+        "tag": "fed",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「그런가…… 너는 그 둘과 사이가 좋았구나」",
+      "draft_ko_sha256": "d7eff529202a940e8f8698a1507c94aa4b991a64cc7ebc9a6ecde33348f55a36",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 41,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_1f56c79a",
+      "sequence": 43,
+      "command_index": 43,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 175,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "真央は、珍しく必死になっていた。",
+      "source_text_sha256": "810bc8e5c022992c63b3096f7cca339c3f187e7b0ec7629bc2e910f930dcebe8",
+      "source_group_sha256": "aa61ae4f1e122381ec8dd80afe5fa3d403f465f218a784d44b3835985a8bd7da",
+      "source_statement_code": "\"真央は、珍しく必死になっていた。\"",
+      "source_group_code": [
+        "\"真央は、珍しく必死になっていた。\""
+      ],
+      "translation_id": "fBAD_02_1f56c79a",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "마오는 드물게 필사적이었다.",
+      "draft_ko_sha256": "6f2760f40cffedd69568aa954e459222a1306d8148143a4c6ee6509f6cb0a2d0",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 42,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_6f872cf0",
+      "sequence": 44,
+      "command_index": 44,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 177,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "大好きだった二人の痕跡は、少しでも多く自分の中に刻みたい。それが自分の知らない二人の姿なら、なおさらだ。",
+      "source_text_sha256": "b49f26fe42cea659161f540912ce6d920999ee5619af5e8360e790719ddcb0a2",
+      "source_group_sha256": "c71d83bdce805d3cd4bba79f50ed82fa20d0b685bd30124fd1a9daebf8c8d743",
+      "source_statement_code": "\"大好きだった二人の痕跡は、少しでも多く自分の中に刻みたい。それが自分の知らない二人の姿なら、なおさらだ。\"",
+      "source_group_code": [
+        "\"大好きだった二人の痕跡は、少しでも多く自分の中に刻みたい。それが自分の知らない二人の姿なら、なおさらだ。\""
+      ],
+      "translation_id": "fBAD_02_6f872cf0",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "무척 아끼던 두 사람의 흔적을 조금이라도 더 많이 자기 안에 새기고 싶다. 자신이 몰랐던 두 사람의 모습이라면 더더욱.",
+      "draft_ko_sha256": "92bd99eed935b502725c6dd54a5225af6cb36c53c50ec68c4ab343f22486dc28",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 43,
+        "translation_text_copied_verbatim": true
+      },
+      "correction_status": "reviewer_correction_applied",
+      "correction_history": [
+        {
+          "reviewer": "A",
+          "input_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\prepared\\corrections\\A.final.corrections.jsonl",
+          "input_sha256": "b7d5580dbb3ca35c2f8c23cf8ffc210918337e4fd9e73afa2a96a7d4c3d88377",
+          "input_line": 565,
+          "old_ko_sha256": "f8171bff6ce18a64b10ada4a2f4ae118d20a77a0701ed6c3612bf22d2bda490d",
+          "new_ko_sha256": "92bd99eed935b502725c6dd54a5225af6cb36c53c50ec68c4ab343f22486dc28",
+          "runtime_protected_token_validation": "passed"
+        }
+      ]
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_bbb02b00",
+      "sequence": 45,
+      "command_index": 45,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 179,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "思い出して、泣いてしまうかもしれないけれど。",
+      "source_text_sha256": "2eba46bb03f0133fe7330181583897a8deb6f025aea44167a253079dee1d35a8",
+      "source_group_sha256": "8ccb52acd2f62b2029cd36e022c63eabc140861a79f8daacebeceed93bc6f6c8",
+      "source_statement_code": "\"思い出して、泣いてしまうかもしれないけれど。\"",
+      "source_group_code": [
+        "\"思い出して、泣いてしまうかもしれないけれど。\""
+      ],
+      "translation_id": "fBAD_02_bbb02b00",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "떠올리고서 울어 버릴지도 모르지만.",
+      "draft_ko_sha256": "ffc326d9434a524b8bd60d368d79baaddd175748f146aa42375ea3cc117999cf",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 44,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_3c51dd4e",
+      "sequence": 46,
+      "command_index": 46,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 184,
+      "source_label": "fBAD_02",
+      "lane": "dialogue",
+      "speaker": "mao",
+      "source_jp": "「仲がいいとかじゃないよ。うちら、親友だから」",
+      "source_text_sha256": "4ea9ee1130e8b952434ecefc8095994175ab5c3ee323aea08fbc137b5ce3c973",
+      "source_group_sha256": "76309735dbba3810a2dcf29709225496fd0e146a7eb2e2bc9a9ab98c032c10ef",
+      "source_statement_code": "mao \"「仲がいいとかじゃないよ。うちら、親友だから」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"mao\")",
+        "mao \"「仲がいいとかじゃないよ。うちら、親友だから」\""
+      ],
+      "translation_id": "fBAD_02_3c51dd4e",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"mao\")",
+        "line": 183,
+        "function": "get_voice_filename",
+        "tag": "mao",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「사이가 좋은 정도가 아니야. 우리는 절친이니까」",
+      "draft_ko_sha256": "1b1036111a4d61f79a8afe62795ba52fed71fcccbfcbd696e0a2d4c0886c143c",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 45,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_ae507769",
+      "sequence": 47,
+      "command_index": 47,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 190,
+      "source_label": "fBAD_02",
+      "lane": "dialogue",
+      "speaker": "federico_unk2",
+      "source_jp": "「どこまで話していいもんなのか――まあいいか、終わっちまったことだしな」",
+      "source_text_sha256": "eb941a5f2982777b9ad54820202ee8351990bc5bc3bacc9de77994e4ddc61989",
+      "source_group_sha256": "784565abc253fca7ac16c81bea9e5dd7088f24f64f3b7a4ac07a6ea0d8a999a8",
+      "source_statement_code": "federico_unk2 \"「どこまで話していいもんなのか――まあいいか、終わっちまったことだしな」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"fed\")",
+        "federico_unk2 \"「どこまで話していいもんなのか――まあいいか、終わっちまったことだしな」\""
+      ],
+      "translation_id": "fBAD_02_ae507769",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"fed\")",
+        "line": 189,
+        "function": "get_voice_filename",
+        "tag": "fed",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「어디까지 말해도 되는 건지――뭐, 됐나. 이미 끝난 일이니까」",
+      "draft_ko_sha256": "0d838ed96c3bc1f7b121767b8f11971acd8b722b3ad0afca478a6e24cac172a3",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 46,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_78f1a955",
+      "sequence": 48,
+      "command_index": 48,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 196,
+      "source_label": "fBAD_02",
+      "lane": "dialogue",
+      "speaker": "federico_unk2",
+      "source_jp": "「ただ、ちょっとナントカ御苑ってとこに行かなくちゃいけなくてな。話はそこでしてもいいか？　公園なんだろ？」",
+      "source_text_sha256": "1008e62a33227bc972fdfd5c963d5cf712b87b813376ebe4be29659e03fa36ac",
+      "source_group_sha256": "363483d9af50a54b10fdb3864944cbf325e235e4916cf207382e355871d9c675",
+      "source_statement_code": "federico_unk2 \"「ただ、ちょっとナントカ御苑ってとこに行かなくちゃいけなくてな。話はそこでしてもいいか？　公園なんだろ？」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"fed\")",
+        "federico_unk2 \"「ただ、ちょっとナントカ御苑ってとこに行かなくちゃいけなくてな。話はそこでしてもいいか？　公園なんだろ？」\""
+      ],
+      "translation_id": "fBAD_02_78f1a955",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"fed\")",
+        "line": 195,
+        "function": "get_voice_filename",
+        "tag": "fed",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「단, 잠깐 뭐시기 교엔이라는 데에 가야 해서 말이야. 이야기는 거기서 해도 될까? 공원이지?」",
+      "draft_ko_sha256": "ef0a8b216435a10cf0e30608bb69aa0ae6c2ac7695fc1b5603b7a9df4cb3d07c",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 47,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_2c4021df",
+      "sequence": 49,
+      "command_index": 49,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 201,
+      "source_label": "fBAD_02",
+      "lane": "dialogue",
+      "speaker": "mao",
+      "source_jp": "「……このタイミングでもナンパするわけ？」",
+      "source_text_sha256": "b6d602b893a0f055208c3057a2bc5808438f6565c1800887fb8ac73e36046702",
+      "source_group_sha256": "f56c2687911a4991e8d1f83994e35e77afcb1c3d79b67668fc372422cfca4a2d",
+      "source_statement_code": "mao \"「……このタイミングでもナンパするわけ？」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"mao\")",
+        "mao \"「……このタイミングでもナンパするわけ？」\""
+      ],
+      "translation_id": "fBAD_02_2c4021df",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"mao\")",
+        "line": 200,
+        "function": "get_voice_filename",
+        "tag": "mao",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「……이 타이밍에도 헌팅하는 거야?」",
+      "draft_ko_sha256": "748a18a1315c70fdcb467a94a09555a346a293f552328468393ef6abe3e2f0da",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 48,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_be277ec5",
+      "sequence": 50,
+      "command_index": 50,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 207,
+      "source_label": "fBAD_02",
+      "lane": "dialogue",
+      "speaker": "federico_unk2",
+      "source_jp": "「ち、違ぇんだって。大体あんたはオレのタイプじゃねぇから、その心配はいらないぜ」",
+      "source_text_sha256": "2d8291050b276d3253c2347e66fad0eb0f86221531d9a6915ff06cb0fd6c750b",
+      "source_group_sha256": "94ec413edc4bff1332dfcd7a41e0d0620e24de68d8c2c3844bb3caf4227e379b",
+      "source_statement_code": "federico_unk2 \"「ち、違ぇんだって。大体あんたはオレのタイプじゃねぇから、その心配はいらないぜ」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"fed\")",
+        "federico_unk2 \"「ち、違ぇんだって。大体あんたはオレのタイプじゃねぇから、その心配はいらないぜ」\""
+      ],
+      "translation_id": "fBAD_02_be277ec5",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"fed\")",
+        "line": 206,
+        "function": "get_voice_filename",
+        "tag": "fed",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「아, 아니라니까. 애초에 넌 내 취향이 아니니 그런 걱정은 안 해도 돼」",
+      "draft_ko_sha256": "f18ef179ecfc0a1eef914e9001e1f5ad09d1af891cfbf5aecf742cf462270861",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 49,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_04fa7916",
+      "sequence": 51,
+      "command_index": 51,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 212,
+      "source_label": "fBAD_02",
+      "lane": "dialogue",
+      "speaker": "mao",
+      "source_jp": "「うわ、サイテー」",
+      "source_text_sha256": "d2885afbfde2c1adf672f51b00ba85b3cd231e300fccc668b8362e463733efba",
+      "source_group_sha256": "d6f0031fd584fcb52cf9b3fd30c0815ee56593d9d2c0ffdd214b1529248b4e03",
+      "source_statement_code": "mao \"「うわ、サイテー」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"mao\")",
+        "mao \"「うわ、サイテー」\""
+      ],
+      "translation_id": "fBAD_02_04fa7916",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"mao\")",
+        "line": 211,
+        "function": "get_voice_filename",
+        "tag": "mao",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「우와, 최악」",
+      "draft_ko_sha256": "5ab00d0c7df78cf72b2340d4d20496a00958febe27f2e842f003506d99077667",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 50,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_f882fc09",
+      "sequence": 52,
+      "command_index": 52,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 218,
+      "source_label": "fBAD_02",
+      "lane": "dialogue",
+      "speaker": "mao",
+      "source_jp": "「ま、いいよ。案内するから、教えてねぇ。おにーさんみたいな男の人とどうして知り合いなのか、やっぱ気になるし」",
+      "source_text_sha256": "e9047b17e701006c806966b724ce8a5fa5a6e916edf74f596078bc35842798a5",
+      "source_group_sha256": "cd52f3c5af324dfa9a3f6818621d96911925e0515bb591d89bf88eba73c0a670",
+      "source_statement_code": "mao \"「ま、いいよ。案内するから、教えてねぇ。おにーさんみたいな男の人とどうして知り合いなのか、やっぱ気になるし」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"mao\")",
+        "mao \"「ま、いいよ。案内するから、教えてねぇ。おにーさんみたいな男の人とどうして知り合いなのか、やっぱ気になるし」\""
+      ],
+      "translation_id": "fBAD_02_f882fc09",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"mao\")",
+        "line": 217,
+        "function": "get_voice_filename",
+        "tag": "mao",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「뭐, 좋아. 안내해 줄 테니 얘기해 줘. 아저씨 같은 남자랑 어떻게 알게 된 건지는 역시 궁금하니까」",
+      "draft_ko_sha256": "ceae2d51010212efb94da4f0377f56bfb7c3e0af52f30f1ae44347df7542de27",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 51,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_d1fa8dac",
+      "sequence": 53,
+      "command_index": 53,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 223,
+      "source_label": "fBAD_02",
+      "lane": "dialogue",
+      "speaker": "federico_unk2",
+      "source_jp": "「ちっ、なんかオレの評価はイマイチ変わらないんだよなぁ」",
+      "source_text_sha256": "03f59afa1bda6ef73a865e0728500011accc3a47380aa7505a20847ddde1566c",
+      "source_group_sha256": "0c5412ae6070d3b2ab53f2de47c912079f4826bb27d0c22a66d636fdccddb331",
+      "source_statement_code": "federico_unk2 \"「ちっ、なんかオレの評価はイマイチ変わらないんだよなぁ」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"fed\")",
+        "federico_unk2 \"「ちっ、なんかオレの評価はイマイチ変わらないんだよなぁ」\""
+      ],
+      "translation_id": "fBAD_02_d1fa8dac",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"fed\")",
+        "line": 222,
+        "function": "get_voice_filename",
+        "tag": "fed",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「쳇, 어째 나에 대한 평가는 영 나아지질 않는단 말이지」",
+      "draft_ko_sha256": "997d3d99b129c3051dc7e23ebbd013b9779eb0c6c23c8b17d1fc09b2301e6e84",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 52,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_ebb5b705",
+      "sequence": 54,
+      "command_index": 54,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 225,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "そして二人は、曇り空の下、歩き出した。",
+      "source_text_sha256": "e3e9133070c84b74549e98a78ca1e982c8114219f52f3d7a1c92687859ca9497",
+      "source_group_sha256": "e35a508ae7bc99722bc23bcc27e78703f919072500c149425fa9f24784f484e3",
+      "source_statement_code": "\"そして二人は、曇り空の下、歩き出した。\"",
+      "source_group_code": [
+        "\"そして二人は、曇り空の下、歩き出した。\""
+      ],
+      "translation_id": "fBAD_02_ebb5b705",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "그리고 두 사람은 흐린 하늘 아래 걷기 시작했다.",
+      "draft_ko_sha256": "d5fb269d5ddaba79d880687b640c399f73ffcff230debbfb5e49ee9b4f5eea16",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 53,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_d197eadd",
+      "sequence": 55,
+      "command_index": 55,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 227,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "この後、真央は今まで生きてきた自分の知識では理解しきれないような話を聞かされることになるが、それはあくまでこれからの物語。",
+      "source_text_sha256": "269cd94f19d5f9a669b47cf75b37a2ed691e256291b332cc71e728aae98854da",
+      "source_group_sha256": "b496f572352b8130212d81a6123ae58f9adc28b1df41d0430a219bdee8165c91",
+      "source_statement_code": "\"この後、真央は今まで生きてきた自分の知識では理解しきれないような話を聞かされることになるが、それはあくまでこれからの物語。\"",
+      "source_group_code": [
+        "\"この後、真央は今まで生きてきた自分の知識では理解しきれないような話を聞かされることになるが、それはあくまでこれからの物語。\""
+      ],
+      "translation_id": "fBAD_02_d197eadd",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "그 후 마오는 지금까지 살아오며 쌓은 지식만으로는 도저히 이해할 수 없는 이야기를 듣게 되지만, 그것은 어디까지나 앞으로의 이야기.",
+      "draft_ko_sha256": "2a9f212366640acb246cbd72f88c2fbc66bc8dab86cdfb0bf129e30ee906d525",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 54,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_bc93bb63",
+      "sequence": 56,
+      "command_index": 56,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 229,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "出会いと別れは無数に絡み合いながら、未来へと進んでいく。",
+      "source_text_sha256": "dd8ef40fc25eeff3f38f5ec5d0bb14d15c031672c864e034c9e1d05a32e6bf5d",
+      "source_group_sha256": "d660e9f539bc5f8fd649aa1ff4df942a34ef518ff8492689e7e651ae97e1eb50",
+      "source_statement_code": "\"出会いと別れは無数に絡み合いながら、未来へと進んでいく。\"",
+      "source_group_code": [
+        "\"出会いと別れは無数に絡み合いながら、未来へと進んでいく。\""
+      ],
+      "translation_id": "fBAD_02_bc93bb63",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "만남과 이별은 무수히 얽히면서 미래로 나아간다.",
+      "draft_ko_sha256": "fb22d9c0414870f3b1f8cfb2992a8698cfe4a0b5e3b91bf896c14771b7695b43",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 55,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_ffee40e5",
+      "sequence": 57,
+      "command_index": 57,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 231,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "時間は一方向にしか進まないからこそ、尊いのだと。",
+      "source_text_sha256": "f6e1eef1381c200884647e6c91b47fc60028d59950389a2c7f9153c3c593d2fd",
+      "source_group_sha256": "03682f9e417dde28012163b31d108b492946be593df4df6d8c8e7f8ad0c3ee2a",
+      "source_statement_code": "\"時間は一方向にしか進まないからこそ、尊いのだと。\"",
+      "source_group_code": [
+        "\"時間は一方向にしか進まないからこそ、尊いのだと。\""
+      ],
+      "translation_id": "fBAD_02_ffee40e5",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "시간은 한 방향으로만 흐르기에 소중하다는 것을.",
+      "draft_ko_sha256": "887e4cb430a5cfd0dceba25e4859308c13a036d4464c5bd735c00ccbc6601b97",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 56,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_e6b2dffc",
+      "sequence": 58,
+      "command_index": 58,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 233,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "誰もがいつか、知ることになる。",
+      "source_text_sha256": "3fd9c4b533101aaf817b7ee1a20145d1e0dbaa3705d44a9213969c38c3f510c8",
+      "source_group_sha256": "e68412ea3567f0cb127a3b1140f528758d47be565a0e8cce94fb59a9393368c1",
+      "source_statement_code": "\"誰もがいつか、知ることになる。\"",
+      "source_group_code": [
+        "\"誰もがいつか、知ることになる。\""
+      ],
+      "translation_id": "fBAD_02_e6b2dffc",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "누구나 언젠가는 알게 된다.",
+      "draft_ko_sha256": "4b470329ee4cd1991500ab5478b64a5822230473efa6581a5e23a68e9ce2b0ec",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 57,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_3b6f07c5",
+      "sequence": 59,
+      "command_index": 59,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 248,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "この日の夜。",
+      "source_text_sha256": "9096a3ffcbeb2cb14deba589cd898c9e84e7e474537c314c4d33a3e126f7c47d",
+      "source_group_sha256": "363be77b2eb74cc766dfb6203a81caddf854b6a2abd0b5ed0fa893df85efd5ad",
+      "source_statement_code": "\"この日の夜。\"",
+      "source_group_code": [
+        "\"この日の夜。\""
+      ],
+      "translation_id": "fBAD_02_3b6f07c5",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "그날 밤.",
+      "draft_ko_sha256": "ba957c1adbdb8891c485756b9f7a195460b8ebeceb452cf911eddd39819b417e",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 58,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_1626d646",
+      "sequence": 60,
+      "command_index": 60,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 250,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "未島海晴――蛇鉈海晴は、一人の男から電話を受けた。",
+      "source_text_sha256": "386e96f6d7b987de6972c5094a9e231dc4a89a9d82abd7c4e2a5c2d488b3349f",
+      "source_group_sha256": "6f709ed3b89c311b96881e7bb5a1c03fb1e34dc766a316fa9b5e17e8c5ee3cfc",
+      "source_statement_code": "\"未島海晴――蛇鉈海晴は、一人の男から電話を受けた。\"",
+      "source_group_code": [
+        "\"未島海晴――蛇鉈海晴は、一人の男から電話を受けた。\""
+      ],
+      "translation_id": "fBAD_02_1626d646",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "미시마 미하루――헤비나타 미하루는 한 남자에게서 전화를 받았다.",
+      "draft_ko_sha256": "310bb8b9ea9a16c2d548f2efb5b5653daceab8ebbd872d889f8a20ff30233286",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 59,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_4bb165dc",
+      "sequence": 61,
+      "command_index": 61,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 252,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "スケール・ジョーンズ。",
+      "source_text_sha256": "2b681ed4c199148ae2cad7a85d1a08049a7ce0c56012fa39d755094a7fa5166b",
+      "source_group_sha256": "d2d02debe220f8a1188a115e502147b2292c51440d16bdb768277334853475c9",
+      "source_statement_code": "\"スケール・ジョーンズ。\"",
+      "source_group_code": [
+        "\"スケール・ジョーンズ。\""
+      ],
+      "translation_id": "fBAD_02_4bb165dc",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "스케일 존스.",
+      "draft_ko_sha256": "4b9f4c0b1db8099b77117ebd0aef19aaa54026000369f400dae1075863c154ba",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 60,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_6be508e7",
+      "sequence": 62,
+      "command_index": 62,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 254,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "彼は自分の持てる最大限の話術を使い、海晴を説得した。",
+      "source_text_sha256": "3debf938f2f1c053761f3ee7cabaaf943ffbff05fd5ee4bc70a1ebb52834e432",
+      "source_group_sha256": "d7a48272e5750bd69e228c2b03bf3c67e7eb2c718be5ef8c6ece1175c7024957",
+      "source_statement_code": "\"彼は自分の持てる最大限の話術を使い、海晴を説得した。\"",
+      "source_group_code": [
+        "\"彼は自分の持てる最大限の話術を使い、海晴を説得した。\""
+      ],
+      "translation_id": "fBAD_02_6be508e7",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "그는 자신이 구사할 수 있는 온갖 화술을 동원해 미하루를 설득했다.",
+      "draft_ko_sha256": "9b4b45b9fe7a696f69571894cf98a3f6b0fa3b075d2eea517fed55973852ddf7",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 61,
+        "translation_text_copied_verbatim": true
+      },
+      "correction_status": "reviewer_correction_applied",
+      "correction_history": [
+        {
+          "reviewer": "A",
+          "input_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\prepared\\corrections\\A.final.corrections.jsonl",
+          "input_sha256": "b7d5580dbb3ca35c2f8c23cf8ffc210918337e4fd9e73afa2a96a7d4c3d88377",
+          "input_line": 566,
+          "old_ko_sha256": "31bc3aa57aca81f94cffe740bf0e22ba74165480a745ce590b1cde08774181bd",
+          "new_ko_sha256": "9b4b45b9fe7a696f69571894cf98a3f6b0fa3b075d2eea517fed55973852ddf7",
+          "runtime_protected_token_validation": "passed"
+        }
+      ]
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_d0052b3c",
+      "sequence": 63,
+      "command_index": 63,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 256,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "――どんなに凛火が好きでも、その恋は叶わないと。",
+      "source_text_sha256": "a03da9093b4c2e7df8abc9433fa575e60e261599452c482e30c25ffdf96d3add",
+      "source_group_sha256": "19c8a1466320fd633c873ad2d165572b3251b784695fc24878ca2e31d4e29105",
+      "source_statement_code": "\"――どんなに凛火が好きでも、その恋は叶わないと。\"",
+      "source_group_code": [
+        "\"――どんなに凛火が好きでも、その恋は叶わないと。\""
+      ],
+      "translation_id": "fBAD_02_d0052b3c",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "――아무리 린카를 좋아해도 그 사랑은 이루어지지 않는다고.",
+      "draft_ko_sha256": "2c03cb3210ba958212fed17f676b7b799e8f0cf8702440c9cfbab95d5fbc8a98",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 62,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_44bc2dff",
+      "sequence": 64,
+      "command_index": 64,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 258,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "――思いを伝えたところで、関係にヒビが入るだけだと。",
+      "source_text_sha256": "60e524d2ae51ce629bf9b746a35c806ca2cf2cedcf0fc42c5eb2e54a3877238e",
+      "source_group_sha256": "af36ce45078fe9f2b9a8472be59fe5a761cea020f77432461fb1c6e2cb3a2b64",
+      "source_statement_code": "\"――思いを伝えたところで、関係にヒビが入るだけだと。\"",
+      "source_group_code": [
+        "\"――思いを伝えたところで、関係にヒビが入るだけだと。\""
+      ],
+      "translation_id": "fBAD_02_44bc2dff",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "――마음을 전해 봤자 관계에 금이 갈 뿐이라고.",
+      "draft_ko_sha256": "f5cec2c2c4ea0de1310258aaf0887ae611ba4ad2816cadde09864cf02b8b4235",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 63,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_dd045e10",
+      "sequence": 65,
+      "command_index": 65,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 260,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "――獅子舞凛火の未練は、君ではないのだと。",
+      "source_text_sha256": "2ba0c12743a04ed4811ff3df7cc55f34f0a7278d6af3e06ee0a4c48b0180d11a",
+      "source_group_sha256": "1dce7aba52bdb96b9d82ad981ab91261e269585919d4ddd98aaf57b05cce8c7f",
+      "source_statement_code": "\"――獅子舞凛火の未練は、君ではないのだと。\"",
+      "source_group_code": [
+        "\"――獅子舞凛火の未練は、君ではないのだと。\""
+      ],
+      "translation_id": "fBAD_02_dd045e10",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "――시시마이 린카의 미련은 네가 아니라고.",
+      "draft_ko_sha256": "a2e1ffa4d41f9809df0375ccceea1af467138bd0c8a7ded1cc3a31a824234d8a",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 64,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_d7e4e592",
+      "sequence": 66,
+      "command_index": 66,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 262,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "――君は一生、獅子舞凛火と結ばれることはないと。",
+      "source_text_sha256": "06cbb493b66c01872e1f2f5507e1333c2eb28e9ae8fc38e6542a20b9bf315f0d",
+      "source_group_sha256": "baa66b7531f23d75343e3bcfa2cf28bce0f90f40b610c47478fb325322603459",
+      "source_statement_code": "\"――君は一生、獅子舞凛火と結ばれることはないと。\"",
+      "source_group_code": [
+        "\"――君は一生、獅子舞凛火と結ばれることはないと。\""
+      ],
+      "translation_id": "fBAD_02_d7e4e592",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "――너는 평생 시시마이 린카와 맺어질 수 없다고.",
+      "draft_ko_sha256": "444ef575ac397df6bd1bf538a3652cba8aa8d754a85da6189ca07f343f19718c",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 65,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_919b9680",
+      "sequence": 67,
+      "command_index": 67,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 264,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "――ただ一つ、獅子舞凛火の魂を手に入れることができると。",
+      "source_text_sha256": "a983052a6251d6c4912517515f3084cacf8f932f8d461831f9814393d731fd21",
+      "source_group_sha256": "74776f48971699f2bf4ed0d9e9eca2394a8367f597b407c5892ae6f96baba163",
+      "source_statement_code": "\"――ただ一つ、獅子舞凛火の魂を手に入れることができると。\"",
+      "source_group_code": [
+        "\"――ただ一つ、獅子舞凛火の魂を手に入れることができると。\""
+      ],
+      "translation_id": "fBAD_02_919b9680",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "――다만 한 가지, 시시마이 린카의 영혼을 손에 넣을 수는 있다고.",
+      "draft_ko_sha256": "b2f0bb34ce766054f3e0d114f24990799050d1bd98459057293a9af7ea4bcad9",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 66,
+        "translation_text_copied_verbatim": true
+      },
+      "correction_status": "reviewer_correction_applied",
+      "correction_history": [
+        {
+          "reviewer": "A",
+          "input_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\prepared\\corrections\\A.final.corrections.jsonl",
+          "input_sha256": "b7d5580dbb3ca35c2f8c23cf8ffc210918337e4fd9e73afa2a96a7d4c3d88377",
+          "input_line": 567,
+          "old_ko_sha256": "c1b92984770faf9062d52094147e1418115110f4281b4bf8aab24fcf578d7ba9",
+          "new_ko_sha256": "b2f0bb34ce766054f3e0d114f24990799050d1bd98459057293a9af7ea4bcad9",
+          "runtime_protected_token_validation": "passed"
+        }
+      ]
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_8c71e8d3",
+      "sequence": 68,
+      "command_index": 68,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 266,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "――自らの手で凛火を脱落させれば、彼女の運命を手中にすれば、それは凛火を手に入れることと同義だと。",
+      "source_text_sha256": "42b81060435769c01ffc3d8767c313babef36557ae2c5284d67eb3b7a8b29063",
+      "source_group_sha256": "087cd19756bfd8b775d64f14f34a46eab187dd1ef242835e857bdbe2d0644105",
+      "source_statement_code": "\"――自らの手で凛火を脱落させれば、彼女の運命を手中にすれば、それは凛火を手に入れることと同義だと。\"",
+      "source_group_code": [
+        "\"――自らの手で凛火を脱落させれば、彼女の運命を手中にすれば、それは凛火を手に入れることと同義だと。\""
+      ],
+      "translation_id": "fBAD_02_8c71e8d3",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "――자신의 손으로 린카를 탈락시키고 그녀의 운명을 손에 넣는다면, 그것은 린카를 손에 넣는 것과 같은 뜻이라고.",
+      "draft_ko_sha256": "af5140191800d70456b308456a63e7428dccac140d45d6cb5127e35214a52fbb",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 67,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_3fa3c18f",
+      "sequence": 69,
+      "command_index": 69,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 268,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "普段の海晴ならば、スケールからの言葉など戯言と切り捨てただろう。",
+      "source_text_sha256": "3e010a47a9285a30486b943e0ade162bcc68531bd6a781a985c82c5f95ab4362",
+      "source_group_sha256": "bf60ac42970574437970bee7602200505ff6cd5f929969321f4c18beb9405210",
+      "source_statement_code": "\"普段の海晴ならば、スケールからの言葉など戯言と切り捨てただろう。\"",
+      "source_group_code": [
+        "\"普段の海晴ならば、スケールからの言葉など戯言と切り捨てただろう。\""
+      ],
+      "translation_id": "fBAD_02_3fa3c18f",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "평소의 미하루라면 스케일의 말 따위 헛소리라며 잘라 버렸을 것이다.",
+      "draft_ko_sha256": "f7f6e2419511c83d78bf2104a2a7caae17bf7e08e6aef45dd2b5d7870ef3a6a7",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 68,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_619fb98c",
+      "sequence": 70,
+      "command_index": 70,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 270,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "しかし、この夜が悪かった。",
+      "source_text_sha256": "5157817ffa85ec89d37c5144b373acd11def813c6fcccd478b4e79e654b80604",
+      "source_group_sha256": "872f91dcadac5c4c774372e2df9867fba59b28fe7fb5e8cdecb12d83f5e68ab8",
+      "source_statement_code": "\"しかし、この夜が悪かった。\"",
+      "source_group_code": [
+        "\"しかし、この夜が悪かった。\""
+      ],
+      "translation_id": "fBAD_02_619fb98c",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "하지만 하필 그날 밤이 문제였다.",
+      "draft_ko_sha256": "98df5cf658e532c88172706b5ee430cf8be2d1db7ffbc3c2c09dee037e8347e1",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 69,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_6de2d938",
+      "sequence": 71,
+      "command_index": 71,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 272,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "自分の秘密を打ち明けた海晴は、それを秘密にしてきたこと自体に負い目を抱えていた。",
+      "source_text_sha256": "886f4059becc69c639d5eeade5e8204ef1412f169a154233daa55962c2e01f8c",
+      "source_group_sha256": "cc029c2ce3e39f2918a0c2afdc2759641dd058364bffb93be165b976b25bea10",
+      "source_statement_code": "\"自分の秘密を打ち明けた海晴は、それを秘密にしてきたこと自体に負い目を抱えていた。\"",
+      "source_group_code": [
+        "\"自分の秘密を打ち明けた海晴は、それを秘密にしてきたこと自体に負い目を抱えていた。\""
+      ],
+      "translation_id": "fBAD_02_6de2d938",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "자신의 비밀을 털어놓은 미하루는 지금껏 그것을 숨겨 왔다는 사실 자체에 죄책감을 품고 있었다.",
+      "draft_ko_sha256": "502a76d56526ac35dc5814f50b8842c5d662fe21f09057a5cad9b19d5a3b4d9e",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 70,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_7eb8ce8e",
+      "sequence": 72,
+      "command_index": 72,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 274,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "それだけではない。",
+      "source_text_sha256": "aa0841cfa0a75f101c96ddaf1c863c72e5f40204e6afb158a702b51a26f720f6",
+      "source_group_sha256": "1022f48bbc3d457ed086fd6009abc662818e5262d5e71cf04a46a6dee5a7ea25",
+      "source_statement_code": "\"それだけではない。\"",
+      "source_group_code": [
+        "\"それだけではない。\""
+      ],
+      "translation_id": "fBAD_02_7eb8ce8e",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "그뿐만이 아니었다.",
+      "draft_ko_sha256": "787ce155e3cf1c7d539f588c7c5205f6f0f631f384f230f550f43c17bf8c6344",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 71,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_1798ee80",
+      "sequence": 73,
+      "command_index": 73,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 276,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "海晴はまだ隠していることがあった。",
+      "source_text_sha256": "15aa4afaddf8921d2e069df59fc5667c1bc060613825e7ef55ebd1f6dc68295a",
+      "source_group_sha256": "01d491c55738712ef0faf0a7c4a800e394b953de99c97a2f4b49dd79a5fdfaea",
+      "source_statement_code": "\"海晴はまだ隠していることがあった。\"",
+      "source_group_code": [
+        "\"海晴はまだ隠していることがあった。\""
+      ],
+      "translation_id": "fBAD_02_1798ee80",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "미하루에게는 아직 숨기고 있는 것이 있었다.",
+      "draft_ko_sha256": "68f55151aa3c275bd1a693c28eed75f07fdef17a083cc65f1846ffff9e42ce13",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 72,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_c400f734",
+      "sequence": 74,
+      "command_index": 74,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 278,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "そのことも、話せない勇気のなさと自己嫌悪も、海晴の心を蝕んでいたのだ。",
+      "source_text_sha256": "665e7b1d9020d2da590ec5919f66261c75becd421d554726c783b89f017a71cd",
+      "source_group_sha256": "2d65fb54311dc990f326cec7ebe0f4f1c3521d28d8b0c5641722e68937614219",
+      "source_statement_code": "\"そのことも、話せない勇気のなさと自己嫌悪も、海晴の心を蝕んでいたのだ。\"",
+      "source_group_code": [
+        "\"そのことも、話せない勇気のなさと自己嫌悪も、海晴の心を蝕んでいたのだ。\""
+      ],
+      "translation_id": "fBAD_02_c400f734",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "그 사실도, 털어놓을 용기가 없는 자신에 대한 혐오도 미하루의 마음을 좀먹고 있었다.",
+      "draft_ko_sha256": "19496973eb4b66f56722e3440524ce6b4f03abf7e130d6f1531d4588461bdde4",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 73,
+        "translation_text_copied_verbatim": true
+      },
+      "correction_status": "reviewer_correction_applied",
+      "correction_history": [
+        {
+          "reviewer": "A",
+          "input_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\prepared\\corrections\\A.final.corrections.jsonl",
+          "input_sha256": "b7d5580dbb3ca35c2f8c23cf8ffc210918337e4fd9e73afa2a96a7d4c3d88377",
+          "input_line": 568,
+          "old_ko_sha256": "53c04ea67652e8a872a09c40b0feb356d39aa02d120a2bfb9af6bca4f6d8b993",
+          "new_ko_sha256": "19496973eb4b66f56722e3440524ce6b4f03abf7e130d6f1531d4588461bdde4",
+          "runtime_protected_token_validation": "passed"
+        }
+      ]
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_f765d4f1",
+      "sequence": 75,
+      "command_index": 75,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 283,
+      "source_label": "fBAD_02",
+      "lane": "dialogue",
+      "speaker": "scale",
+      "source_jp": "「自分の心に、正直になればいい」",
+      "source_text_sha256": "953b240f5189592aaec7facf357710a50db194505ed2163d40231d6ae9be332b",
+      "source_group_sha256": "2e49a1a6cc30129b53ae694132637a2ce2b811cc1ca7d22afeb4ff6b42d1930f",
+      "source_statement_code": "scale \"「自分の心に、正直になればいい」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"sca\", 299)",
+        "scale \"「自分の心に、正直になればいい」\""
+      ],
+      "translation_id": "fBAD_02_f765d4f1",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"sca\", 299)",
+        "line": 282,
+        "function": "get_voice_filename",
+        "tag": "sca",
+        "start_count": 299,
+        "resolution": {
+          "mode": "explicit_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": "sounds/voice/sca_00299.ogg"
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「자신의 마음에 솔직해지면 돼」",
+      "draft_ko_sha256": "706219d108de878f1d509561b0300f316c6fd76ec1572ab6faec6ea7c9099ad0",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 74,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_d0b6d0e4",
+      "sequence": 76,
+      "command_index": 76,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 285,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "スケールのその言葉は海晴にとって、麻薬になってしまった。",
+      "source_text_sha256": "e0fa20afba8b97a2a3cbb1bdb86afedcb45e153562327a6f4ba9dab6808bdb43",
+      "source_group_sha256": "83afa31351ca827383e7da3d750cf0cae32512a93112508011d34704b40d34ef",
+      "source_statement_code": "\"スケールのその言葉は海晴にとって、麻薬になってしまった。\"",
+      "source_group_code": [
+        "\"スケールのその言葉は海晴にとって、麻薬になってしまった。\""
+      ],
+      "translation_id": "fBAD_02_d0b6d0e4",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "스케일의 그 말은 미하루에게 마약이 되어 버렸다.",
+      "draft_ko_sha256": "86d96a5cd7f06a82cf24701d4ef76634e6c55f11265a0c85582fb357606bd62b",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 75,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_a31a3725",
+      "sequence": 77,
+      "command_index": 77,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 287,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "あの時、凛火からの着信を取れなかったというだけで。",
+      "source_text_sha256": "4e3b3e2e5fb8a0f95bb63a3f94669b2e6ad7ca7ab9a2c81cdec87205b2ee8684",
+      "source_group_sha256": "44f444cad0b8f7190d4f05d8bf928b293188a50ab78ceddb9e50e19527662828",
+      "source_statement_code": "\"あの時、凛火からの着信を取れなかったというだけで。\"",
+      "source_group_code": [
+        "\"あの時、凛火からの着信を取れなかったというだけで。\""
+      ],
+      "translation_id": "fBAD_02_a31a3725",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "그때 린카에게서 온 전화를 받지 못했다는 것 하나만으로.",
+      "draft_ko_sha256": "efd9e05d99717425430aae6004006a6b226d58d3ad6b680219076528de84a5b6",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 76,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_d8c46ccd",
+      "sequence": 78,
+      "command_index": 78,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 289,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "運命は、分岐したのだ。",
+      "source_text_sha256": "8b9f1599ea4f1a68ec781d16e871edc415e938f5baf86e9697b2ac614a9054ac",
+      "source_group_sha256": "2b9434206fb523d60dbdfe994bfe1fed7bd983abe0a2b4f424bed6397254ec2f",
+      "source_statement_code": "\"運命は、分岐したのだ。\"",
+      "source_group_code": [
+        "\"運命は、分岐したのだ。\""
+      ],
+      "translation_id": "fBAD_02_d8c46ccd",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "운명은 갈라졌다.",
+      "draft_ko_sha256": "092dc32ef054d3fd85a5f4861529e052c477c5fda29e8df42382537bef004279",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 77,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_92d1363f",
+      "sequence": 79,
+      "command_index": 79,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 294,
+      "source_label": "fBAD_02",
+      "lane": "dialogue",
+      "speaker": "miharu",
+      "source_jp": "「ああ、そうか。ぼくは、凛火を――奪いたかったのか」",
+      "source_text_sha256": "8b25e839ae1a68b07f36384f2dc3439c001b9a07b7f7b285059f811c896acc05",
+      "source_group_sha256": "ba1a672473fdb7107fc5ef960fe3531c68a4352fac45e13bf4364b56589159b5",
+      "source_statement_code": "miharu \"「ああ、そうか。ぼくは、凛火を――奪いたかったのか」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"mhr\", 941)",
+        "miharu \"「ああ、そうか。ぼくは、凛火を――奪いたかったのか」\""
+      ],
+      "translation_id": "fBAD_02_92d1363f",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"mhr\", 941)",
+        "line": 293,
+        "function": "get_voice_filename",
+        "tag": "mhr",
+        "start_count": 941,
+        "resolution": {
+          "mode": "explicit_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": "sounds/voice/mhr_00941.ogg"
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「아아, 그런가. 나는 린카를――빼앗고 싶었던 건가」",
+      "draft_ko_sha256": "f9e647d38a2c2455a66c1de890e294e63b9f3f77b65fea82035056102fb90ee2",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 78,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_b9c2c4a9",
+      "sequence": 80,
+      "command_index": 80,
+      "source_file": "scenario/BAD_END_02.rpy",
+      "source_line": 296,
+      "source_label": "fBAD_02",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "殺したかったのか。",
+      "source_text_sha256": "6cf607e05c34ced6699dc4dd599ebf7cb1ef0816113c12e25a63e3a163cb0c92",
+      "source_group_sha256": "8c1c32c1827f6ba4786d266beb6bce670bca9929d37ec429383f8b7f8b635762",
+      "source_statement_code": "\"殺したかったのか。\"",
+      "source_group_code": [
+        "\"殺したかったのか。\""
+      ],
+      "translation_id": "fBAD_02_b9c2c4a9",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "죽이고 싶었던 건가.",
+      "draft_ko_sha256": "c48aef2d879d01be268841bc8a5a3d6cd3357677427d4580ce5ac9e4c9819728",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "BAD_END_02_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+        "packet_sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 79,
+        "translation_text_copied_verbatim": true
+      }
+    }
+  ],
+  "runtime_and_protected_token_validation_pass": true,
+  "correction_application": {
+    "base_master_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_BAD_END_02.master.json",
+    "base_master_sha256": "d74f378bc5a52f8ee727d55b5a44950ab86bca80a5ef6b12d5c6b6f1beb93809",
+    "applied_corrections": 8,
+    "remaining_runtime_or_protected_token_failed_records": 0,
+    "translation_text_changed_only_by_explicit_jsonl": true
+  }
+}

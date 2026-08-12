@@ -1,0 +1,120 @@
+{
+  "schema_version": "fatal-twelve-untranslated-ranges-v1",
+  "generated_at_utc": "2026-08-10T10:00:54.922697+00:00",
+  "catalog": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\catalog_design\\scenario_001.catalog.jsonl",
+    "size": 2856472,
+    "sha256": "8b980c599493d1cd0355b525238a3867540fdac293246fed51dee0b5aa3196b3"
+  },
+  "coverage_sources": [
+    {
+      "file": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part001_aligned.json",
+        "size": 153540,
+        "sha256": "4dbdfa43ae676e95c91ce9017d461637af4a7ddfc216d6da33d509f6cbdf582e"
+      },
+      "matched_records": 50
+    },
+    {
+      "file": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part002_aligned.json",
+        "size": 153325,
+        "sha256": "417112dcb00d4ca276ad53a800216a144f0c6b2492b309900f6c9aaae6a225a3"
+      },
+      "matched_records": 50
+    },
+    {
+      "file": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part003_aligned.json",
+        "size": 147855,
+        "sha256": "7ddda907125cdd70d9ce65d1cf8ccf02ca52ec22a6fd2386c5534faf1bd063fe"
+      },
+      "matched_records": 50
+    },
+    {
+      "file": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\draft_001_151_350_aligned.json",
+        "size": 623670,
+        "sha256": "7e3d349e63038c28e66b5d77ec89f0e1b2dbd48978a58835c0246a91a61009fb"
+      },
+      "matched_records": 200
+    },
+    {
+      "file": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_sequence351_bridge_aligned.json",
+        "size": 4078,
+        "sha256": "f09950a6d826ceceec07198c56849dbc4cdb89a9058673e73f00caa350781c72"
+      },
+      "matched_records": 1
+    },
+    {
+      "file": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\translation_001_after_2922_aligned.json",
+        "size": 620361,
+        "sha256": "fb5c82599e1c9037bef576ed92e166a8a5eb6b2800273f78109218c163fd9706"
+      },
+      "matched_records": 188
+    },
+    {
+      "file": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_missing_menus_aligned.json",
+        "size": 17615,
+        "sha256": "67d1b9ed78f4e1eabe5989c4532d4fb37e5296011d23f022dbca2b1bff84f89c"
+      },
+      "matched_records": 6
+    },
+    {
+      "file": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part004_aligned.json",
+        "size": 158616,
+        "sha256": "9e367a39e944c3089e2a771b27ecdd749adef54e618080b65da9fb77542c8ea9"
+      },
+      "matched_records": 50
+    },
+    {
+      "file": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part005_aligned.json",
+        "size": 155675,
+        "sha256": "b32496d2f7e6b154d43b3516a9f870fea636f9a852a6331c521f86895ce1fb15"
+      },
+      "matched_records": 50
+    },
+    {
+      "file": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part006_aligned.json",
+        "size": 154772,
+        "sha256": "7421d3af5467078b273826f1e7316256d64ee98b6c9f55b783193f70cff08ba6"
+      },
+      "matched_records": 50
+    },
+    {
+      "file": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part007_aligned.json",
+        "size": 151005,
+        "sha256": "992974e49e421795e69bb35fbc819dbf9ed28726b48d4d08e78e923881fd682f"
+      },
+      "matched_records": 50
+    },
+    {
+      "file": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part008_aligned.json",
+        "size": 156291,
+        "sha256": "a6f046e6291fef214ecb2962e06bb4ef390cecec67acc9d1743ffd24cc3e23a4"
+      },
+      "matched_records": 50
+    },
+    {
+      "file": {
+        "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part009_aligned.json",
+        "size": 148128,
+        "sha256": "18c3e366cd163ffea49035ba82182b4b7be9f82ac5600be686357ebbd014c261"
+      },
+      "matched_records": 50
+    }
+  ],
+  "catalog_records": 844,
+  "draft_translated_records": 844,
+  "duplicate_draft_source_records": 1,
+  "untranslated_records": 0,
+  "ranges": []
+}

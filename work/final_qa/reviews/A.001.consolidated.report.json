@@ -1,0 +1,259 @@
+{
+  "schema_version": "fatal-twelve-a-001-consolidated-v1",
+  "generated_at_utc": "2026-08-11T05:32:44.013330+00:00",
+  "reviewer": "A",
+  "script": "001",
+  "source_authority": "Japanese source_jp only",
+  "english_reference_used": false,
+  "external_translation_api_used": false,
+  "game_executed": false,
+  "master_modified": false,
+  "exhaustive_checked": 844,
+  "coverage_evidence": [
+    {
+      "range": [
+        1,
+        169
+      ],
+      "path": "reviews/A.manual_decisions.json"
+    },
+    {
+      "range": [
+        170,
+        338
+      ],
+      "path": "reviews/A.manual.001_0170_0338.json"
+    },
+    {
+      "range": [
+        339,
+        507
+      ],
+      "path": "reviews/A.resume.corrections.jsonl"
+    },
+    {
+      "range": [
+        508,
+        844
+      ],
+      "path": "reviews/A.manual.001_0508_end.report.json",
+      "checked": 337
+    }
+  ],
+  "inputs": [
+    {
+      "path": "reviews\\A.manual_decisions.json",
+      "sha256": "9d5eec471d31aa2cc8a5ad5101e93bb89b1e20fa21863e0cb8a3a7b834e1f93f",
+      "selected_records": 15
+    },
+    {
+      "path": "reviews\\A.manual.001_0170_0338.json",
+      "sha256": "f9a1596a641037c64354737ebb8bd10a8487613c1dd0bf210654f0df3267f9b1",
+      "selected_records": 16
+    },
+    {
+      "path": "reviews\\A.resume.corrections.jsonl",
+      "sha256": "eeda2930451c6de85dbce1b6946f9ff519fd1559582e9635d8fd782ec1912cc9",
+      "selected_records": 18
+    },
+    {
+      "path": "reviews\\A.manual.001_0508_end.corrections.jsonl",
+      "sha256": "86dc2c0a0a510ba05fa63734c4a4f401bb18827ca065d67b44e1d04fcf42211e",
+      "selected_records": 113
+    }
+  ],
+  "corrections": {
+    "selected_input_rows": 162,
+    "output_rows": 299,
+    "quote_repairs": [
+      22,
+      24,
+      25,
+      26,
+      31,
+      32,
+      36,
+      37,
+      38,
+      39,
+      42,
+      43,
+      44,
+      46,
+      47,
+      50,
+      51,
+      54,
+      55,
+      58,
+      59,
+      63,
+      64,
+      68,
+      76,
+      77,
+      79,
+      80,
+      81,
+      89,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      100,
+      101,
+      102,
+      106,
+      107,
+      113,
+      114,
+      115,
+      116,
+      122,
+      123,
+      124,
+      132,
+      136,
+      139,
+      140,
+      148,
+      353,
+      356,
+      357,
+      362,
+      365,
+      368,
+      369,
+      372,
+      373,
+      377,
+      378,
+      381,
+      382,
+      383,
+      384,
+      389,
+      390,
+      391,
+      392,
+      395,
+      396,
+      401,
+      403,
+      404,
+      408,
+      411,
+      412,
+      413,
+      414,
+      419,
+      422,
+      424,
+      425,
+      426,
+      428,
+      431,
+      432,
+      433,
+      436,
+      437,
+      438,
+      439,
+      440,
+      441,
+      442,
+      443,
+      447,
+      448,
+      450,
+      456,
+      458,
+      459,
+      460,
+      465,
+      466,
+      468,
+      469,
+      471,
+      472,
+      475,
+      478,
+      479,
+      480,
+      484,
+      490,
+      493,
+      494,
+      495
+    ],
+    "quote_repairs_merged_into_existing": 1,
+    "width_repairs": [
+      158,
+      171,
+      172,
+      173,
+      181,
+      183,
+      206,
+      212,
+      213,
+      256,
+      267,
+      283,
+      287,
+      334,
+      345
+    ],
+    "width_repairs_merged_into_existing": 0,
+    "ruby_name_repair": [
+      177
+    ],
+    "approved_source_anomaly_not_rewritten": [
+      374
+    ]
+  },
+  "validation": {
+    "rows": 299,
+    "stable_id_unique": true,
+    "script_sequence_unique": true,
+    "exact_old_guard_pass": true,
+    "failures": [],
+    "post_correction_audit_issue_count": 1,
+    "post_correction_unapproved_issue_count": 0,
+    "post_correction_approved_issues": [
+      {
+        "script": "001",
+        "sequence": 374,
+        "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s1_end_3f7863e1",
+        "source_line": 1691,
+        "speaker": null,
+        "severity": "error",
+        "policy_severity": "HARD",
+        "rule_id": "GLOSSARY_MISMATCH",
+        "category": "term_candidate",
+        "status": "open",
+        "message": "고정 표기 누락: 凛火 -> 린카",
+        "evidence": null,
+        "normalized_evidence": null,
+        "source_sha256": "56ddb198089652908b39194c2023daa6ee877af7a56cbba597869e66ffadfa2e",
+        "target_sha256": "bd5a4878b0dc661ad24c903ac029a4f864a9fa4d129eb28951f228e3640873b0",
+        "source_jp": "言われてみれば、凛火は休みの日なのに制服を着ていた。遊びに行くときは私服だが、バイトの時は服を選ぶのが億劫だから制服にしているらしい。",
+        "draft_ko": "그러고 보니 미하루는 쉬는 날인데도 교복을 입고 있었다. 놀러 갈 때는 사복을 입지만, 알바할 때는 옷 고르기가 귀찮아서 교복을 입는다고 한다.",
+        "finding_id": "104ed397aff8a5da6ce78adc3df5edea1dbe6e1457ee4a4636b13e0027d57bf5"
+      }
+    ]
+  },
+  "ruby_map": {
+    "path": "ruby_map.approved.json",
+    "sha256": "e2f9c68d1768cce159c5c986f3c5e4328bbbeadb42a7dfc0a2d3b41a76a22d31"
+  },
+  "output": {
+    "path": "reviews\\A.001.consolidated.corrections.jsonl",
+    "sha256": "b3f00f01f1c05bd51650b974f48375f8c679ac02e0dc15d0bb930c27637ab7e5"
+  },
+  "verdict": "PASS"
+}

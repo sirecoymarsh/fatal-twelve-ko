@@ -1,0 +1,701 @@
+{
+  "schema_version": "fatal-twelve-consolidated-static-qa-v1",
+  "policy_schema_version": "fatal-twelve-validator-policy-v1",
+  "master_dir": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\corrected\\masters",
+  "files": [
+    {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\corrected\\masters\\scenario_001.master.json",
+      "sha256": "ce8a912ecd12880d2c4427c1d6694c03fe6b7d350228fb0f8e158439a422ed9a",
+      "entries": 844,
+      "sequence_min": 1,
+      "sequence_max": 844
+    },
+    {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\corrected\\masters\\scenario_002.master.json",
+      "sha256": "528313ffff252bc8a9661160ef8713d56f7f6165a379604602e0bda4d937a22d",
+      "entries": 668,
+      "sequence_min": 1,
+      "sequence_max": 668
+    },
+    {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\corrected\\masters\\scenario_003.master.json",
+      "sha256": "00fbb30156743a26d49570eed335d2adeb8eb15632b58f3257ff152e38d29756",
+      "entries": 1526,
+      "sequence_min": 1,
+      "sequence_max": 1526
+    },
+    {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\corrected\\masters\\scenario_004.master.json",
+      "sha256": "2b98a3a36bf4077063e4964a5e909ed44807912748e4f86255178510a6ab563f",
+      "entries": 1067,
+      "sequence_min": 1,
+      "sequence_max": 1067
+    },
+    {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\corrected\\masters\\scenario_005_1.master.json",
+      "sha256": "bea0b52b6085cc70224ef97ff743c520fba0881398af29096bad2818df490b3d",
+      "entries": 1657,
+      "sequence_min": 1,
+      "sequence_max": 1657
+    },
+    {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\corrected\\masters\\scenario_005_2.master.json",
+      "sha256": "6b350496aee8622a066ba1abdc92c58017cac5fadcdea5be72378928576d2942",
+      "entries": 1042,
+      "sequence_min": 1,
+      "sequence_max": 1042
+    },
+    {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\corrected\\masters\\scenario_006.master.json",
+      "sha256": "744efa031058c757e1b0540bfe9fadb2c5b54fc6e7d4dd7d1e72ece27e2a0e7e",
+      "entries": 755,
+      "sequence_min": 1,
+      "sequence_max": 755
+    },
+    {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\corrected\\masters\\scenario_007_1.master.json",
+      "sha256": "8c3bc029ecff6cda5a35d672ad3c5470b9a9e90e8b99a97d00255e1d4d5365fc",
+      "entries": 1063,
+      "sequence_min": 1,
+      "sequence_max": 1063
+    },
+    {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\corrected\\masters\\scenario_007_2.master.json",
+      "sha256": "c31bad4b4c2eefab19c893f95660d1689a88ba9de0e460a730678e13cb72f28f",
+      "entries": 1471,
+      "sequence_min": 1,
+      "sequence_max": 1471
+    },
+    {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\corrected\\masters\\scenario_008.master.json",
+      "sha256": "4bc1c76fa6bd88f2593b711d9589a7caa7256f4a07ce4b95e2179e8d68597a5b",
+      "entries": 1500,
+      "sequence_min": 1,
+      "sequence_max": 1500
+    },
+    {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\corrected\\masters\\scenario_009.master.json",
+      "sha256": "81f6a29f17317c5c6c22795d1aebb885cec53cc4e87a7238d2fd7782b1c81222",
+      "entries": 1588,
+      "sequence_min": 1,
+      "sequence_max": 1588
+    },
+    {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\corrected\\masters\\scenario_010.master.json",
+      "sha256": "5770e3b6eb09f79331608b83f7750c3a120a30fb7ccc89b93e831a2a973908ca",
+      "entries": 1337,
+      "sequence_min": 1,
+      "sequence_max": 1337
+    },
+    {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\corrected\\masters\\scenario_011_01.master.json",
+      "sha256": "13562530f902fd73cd1175330cd3bbe323d91e5e7435b88a928e310a22357f07",
+      "entries": 408,
+      "sequence_min": 1,
+      "sequence_max": 408
+    },
+    {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\corrected\\masters\\scenario_011_01F.master.json",
+      "sha256": "0120416636fad99530975e960aa7bcd4c2d35672212471c3b4b2b57f6e0acb27",
+      "entries": 210,
+      "sequence_min": 1,
+      "sequence_max": 210
+    },
+    {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\corrected\\masters\\scenario_011_01G.master.json",
+      "sha256": "bd50a49aeecf7281f33a11835b0b7b3b80de149a39a00f3ef95107c5ccf4e987",
+      "entries": 192,
+      "sequence_min": 1,
+      "sequence_max": 192
+    },
+    {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\corrected\\masters\\scenario_011_01H.master.json",
+      "sha256": "40ccdb583dd71c97efb9fe9194ce43e79ce15d5d02904da54e2d537860e8ca30",
+      "entries": 63,
+      "sequence_min": 1,
+      "sequence_max": 63
+    },
+    {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\corrected\\masters\\scenario_011_02.master.json",
+      "sha256": "95b9a29cfb35dbc65647657f0273a9cfcd79cc816cd46ec6cca055dea430df84",
+      "entries": 131,
+      "sequence_min": 1,
+      "sequence_max": 131
+    },
+    {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\corrected\\masters\\scenario_011_02GH.master.json",
+      "sha256": "69acad4751033d977230c9e02cbcb4cb2f273263b12aa1e5d2b6c3d1a8cdb45f",
+      "entries": 325,
+      "sequence_min": 1,
+      "sequence_max": 325
+    },
+    {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\corrected\\masters\\scenario_012_01F.master.json",
+      "sha256": "795e0c8af541abc93e45c31283b067e88012b5f832142bd4bd216b01585f1124",
+      "entries": 1190,
+      "sequence_min": 1,
+      "sequence_max": 1190
+    },
+    {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\corrected\\masters\\scenario_012_01GH.master.json",
+      "sha256": "463ccf57e557c6333136180b1088da5726f23efe2e2e1e62e50e08ecc4139565",
+      "entries": 313,
+      "sequence_min": 1,
+      "sequence_max": 313
+    },
+    {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\corrected\\masters\\scenario_012_02.master.json",
+      "sha256": "736a7dc1fe477d0348eed560e34a33afdd1e0cc41c04e3f1cc769e4a423ae915",
+      "entries": 209,
+      "sequence_min": 1,
+      "sequence_max": 209
+    },
+    {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\corrected\\masters\\scenario_BAD_END_01.master.json",
+      "sha256": "38daccea4b86278e154d1a789da6df69ee8435297da5ba5507929f8f2cc08471",
+      "entries": 58,
+      "sequence_min": 1,
+      "sequence_max": 58
+    },
+    {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\corrected\\masters\\scenario_BAD_END_02.master.json",
+      "sha256": "a002a0379c0006efe45066368e0fe8366fa69af625415ca606a2e1d13596d86e",
+      "entries": 80,
+      "sequence_min": 1,
+      "sequence_max": 80
+    },
+    {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\corrected\\masters\\scenario_BAD_END_03.master.json",
+      "sha256": "b9c001229c5f63c515772322c1bfc09091dc8908878aa911f711f945789aa10b",
+      "entries": 21,
+      "sequence_min": 1,
+      "sequence_max": 21
+    },
+    {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\corrected\\masters\\scenario_BAD_END_04.master.json",
+      "sha256": "51faf2f135bcdf9e41b18a96322904819eee68dddd84971551b205dcc2f6903d",
+      "entries": 43,
+      "sequence_min": 1,
+      "sequence_max": 43
+    },
+    {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\corrected\\masters\\scenario_MIHARU_END.master.json",
+      "sha256": "b28c46d8d7b768e4bf9ab08a4569dd21aec09205076afc6bdaad513670a5eb61",
+      "entries": 26,
+      "sequence_min": 1,
+      "sequence_max": 26
+    },
+    {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\corrected\\masters\\scenario_NG_plus.master.json",
+      "sha256": "8391ae40b6902760c77ff19aa15ce626833a2af49f1bd9de14041334bb206779",
+      "entries": 185,
+      "sequence_min": 1,
+      "sequence_max": 185
+    },
+    {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\corrected\\masters\\scenario_TRUE_END.master.json",
+      "sha256": "e0ee7678e886937f5a5edde32e0e515f8b7e9e3cf4fdaf5be2930bc3f40bd8dd",
+      "entries": 125,
+      "sequence_min": 1,
+      "sequence_max": 125
+    },
+    {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\corrected\\masters\\scenario_UNHAPPY_END.master.json",
+      "sha256": "66782a873b8e810a43547169e8cb073f9ec0d0091443560d24ee9d1642391a6f",
+      "entries": 87,
+      "sequence_min": 1,
+      "sequence_max": 87
+    },
+    {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\corrected\\masters\\system_ui.master.json",
+      "sha256": "ad5ef99eb8be5221a850a2f9ff3f6eea26c1b2e17a48f83bbf3f9adbca85067b",
+      "entries": 732,
+      "sequence_min": 1,
+      "sequence_max": 732
+    }
+  ],
+  "entry_count": 18916,
+  "issue_count": 10,
+  "severity_counts": {
+    "error": 8,
+    "warning": 2
+  },
+  "policy_severity_counts": {
+    "HARD": 8,
+    "REVIEW": 2
+  },
+  "category_counts": {
+    "dialogue_quotes": 1,
+    "interpolation_reorder": 1,
+    "no_hangul": 1,
+    "residual_kanji": 2,
+    "target_quote_unbalanced": 2,
+    "term_candidate": 3
+  },
+  "rule_id_counts": {
+    "GLOSSARY_MISMATCH": 3,
+    "INTERPOLATION_REORDER": 1,
+    "JP_QUOTE_STYLE": 1,
+    "NO_HANGUL": 1,
+    "RESIDUAL_HANJA": 2,
+    "TARGET_QUOTE_UNBALANCED": 2
+  },
+  "gate": {
+    "hard_total": 8,
+    "review_total": 2,
+    "info_total": 0,
+    "hard_open": 0,
+    "review_open": 0,
+    "info_open": 0,
+    "pass": true
+  },
+  "issues": [
+    {
+      "script": "001",
+      "sequence": 374,
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s1_end_3f7863e1",
+      "source_line": 1691,
+      "speaker": null,
+      "severity": "error",
+      "policy_severity": "HARD",
+      "rule_id": "GLOSSARY_MISMATCH",
+      "category": "term_candidate",
+      "status": "approved",
+      "message": "고정 표기 누락: 凛火 -> 린카",
+      "evidence": null,
+      "normalized_evidence": null,
+      "source_sha256": "56ddb198089652908b39194c2023daa6ee877af7a56cbba597869e66ffadfa2e",
+      "target_sha256": "bd5a4878b0dc661ad24c903ac029a4f864a9fa4d129eb28951f228e3640873b0",
+      "source_jp": "言われてみれば、凛火は休みの日なのに制服を着ていた。遊びに行くときは私服だが、バイトの時は服を選ぶのが億劫だから制服にしているらしい。",
+      "draft_ko": "그러고 보니 미하루는 쉬는 날인데도 교복을 입고 있었다. 놀러 갈 때는 사복을 입지만, 알바할 때는 옷 고르기가 귀찮아서 교복을 입는다고 한다.",
+      "finding_id": "104ed397aff8a5da6ce78adc3df5edea1dbe6e1457ee4a4636b13e0027d57bf5",
+      "approval": {
+        "ledger_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\reviews\\qa_approvals.draft.json",
+        "ledger_sha256": "5639258e18ea34826c9800ee3bc118ec1633de38b8824c4f77d7da4688d2be23",
+        "ledger_entry": 1,
+        "reviewer": "ROOT",
+        "reason": "Immutable JP source says Rinka, but adjacent JP context proves the intended subject is Miharu; preserve contextually correct Korean Miharu as a narrow source anomaly.",
+        "source_sha256": "56ddb198089652908b39194c2023daa6ee877af7a56cbba597869e66ffadfa2e",
+        "target_sha256": "bd5a4878b0dc661ad24c903ac029a4f864a9fa4d129eb28951f228e3640873b0"
+      }
+    },
+    {
+      "script": "002",
+      "sequence": 202,
+      "stable_id": "scenario.rpa::scenario/002.rpy::tid::f002_5ba6ff96",
+      "source_line": 805,
+      "speaker": "miharu",
+      "severity": "error",
+      "policy_severity": "HARD",
+      "rule_id": "GLOSSARY_MISMATCH",
+      "category": "term_candidate",
+      "status": "approved",
+      "message": "고정 표기 누락: 凛火 -> 린카",
+      "evidence": null,
+      "normalized_evidence": null,
+      "source_sha256": "d8a2a911a3aaca4e898b8e301a88935988b84766d6cdd1997eefede325fa98a8",
+      "target_sha256": "368d19bdf058acab78ce5a258f66d3905f07a59149c1b2a8ab97b84e8e91733e",
+      "source_jp": "「ぼくの情報は凛火には教えないでおこう。狙われるリスクが増えるのは嫌だからね」",
+      "draft_ko": "「내 정보는 너한테 알려 주지 않을게. 내가 노려질 위험이 커지는 건 싫으니까」",
+      "finding_id": "f38734aafa10aa51e4bc07eb076e5536544b1ba3eeefabdbaf5678a2d29014ea",
+      "approval": {
+        "ledger_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\reviews\\qa_approvals.draft.json",
+        "ledger_sha256": "5639258e18ea34826c9800ee3bc118ec1633de38b8824c4f77d7da4688d2be23",
+        "ledger_entry": 2,
+        "reviewer": "ROOT",
+        "reason": "Rinka is the addressee and Korean naturally uses direct second-person ?; referent is preserved.",
+        "source_sha256": "d8a2a911a3aaca4e898b8e301a88935988b84766d6cdd1997eefede325fa98a8",
+        "target_sha256": "368d19bdf058acab78ce5a258f66d3905f07a59149c1b2a8ab97b84e8e91733e"
+      }
+    },
+    {
+      "script": "004",
+      "sequence": 53,
+      "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_26d57359",
+      "source_line": 208,
+      "speaker": null,
+      "severity": "error",
+      "policy_severity": "HARD",
+      "rule_id": "RESIDUAL_HANJA",
+      "category": "residual_kanji",
+      "status": "approved",
+      "message": "한국어 visible text에 비승인 CJK ideograph가 남음",
+      "evidence": [
+        "桂"
+      ],
+      "normalized_evidence": [
+        "桂"
+      ],
+      "source_sha256": "24e01e0ca734f4e5ba7fb39bbce3eeb8129afc718f28b202800cf2541f260cb3",
+      "target_sha256": "2505c16e16825ecbe1e48444b0f8fc1e9b2a6d1b4e0753b6b3ca46c09addac35",
+      "source_jp": "桂子の桂は中国ではキンモクセイに代表されるモクセイ科、日本では木材に使用されることの多いカツラ科の植物を表している。",
+      "draft_ko": "게이코의 계수나무 계(桂)는 중국에서는 금목서를 대표로 하는 물푸레나무과, 일본에서는 목재로 자주 쓰이는 계수나무과 식물을 나타낸다.",
+      "finding_id": "9b7f1b25fdf9fcbdd1993a5590e228907f3b375f177b03cca2d5998ad137d3e9",
+      "approval": {
+        "ledger_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\reviews\\qa_approvals.draft.json",
+        "ledger_sha256": "5639258e18ea34826c9800ee3bc118ec1633de38b8824c4f77d7da4688d2be23",
+        "ledger_entry": 3,
+        "reviewer": "ROOT",
+        "reason": "? is intentionally shown while explaining the kanji used in Keiko?s name.",
+        "source_sha256": "24e01e0ca734f4e5ba7fb39bbce3eeb8129afc718f28b202800cf2541f260cb3",
+        "target_sha256": "2505c16e16825ecbe1e48444b0f8fc1e9b2a6d1b4e0753b6b3ca46c09addac35"
+      }
+    },
+    {
+      "script": "004",
+      "sequence": 57,
+      "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_ee6737b0",
+      "source_line": 216,
+      "speaker": null,
+      "severity": "error",
+      "policy_severity": "HARD",
+      "rule_id": "RESIDUAL_HANJA",
+      "category": "residual_kanji",
+      "status": "approved",
+      "message": "한국어 visible text에 비승인 CJK ideograph가 남음",
+      "evidence": [
+        "春",
+        "樹"
+      ],
+      "normalized_evidence": [
+        "春",
+        "樹"
+      ],
+      "source_sha256": "aaa63f5d4d84301eccf451f0a8ce426a23cd70c827fa786a793fef7314ae0b88",
+      "target_sha256": "fcbd4fe542418c50df1ae370f87427c6508b03d9f9a0f207bed0c2bff7838797",
+      "source_jp": "だから彼は、真っ直ぐな子に育つようにと「樹」そのものの漢字を選んだ。春に産まれた樹だから、春樹。",
+      "draft_ko": "그래서 그는 올곧은 아이로 자라기를 바라며 「나무 수(樹)」 그 자체를 골랐다. 봄에 태어난 나무이기에 하루키(春樹).",
+      "finding_id": "f63a73b378849a8f8a4c70d2d84ac17acdb284bc6021d1ed557ce7a1e84e2519",
+      "approval": {
+        "ledger_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\reviews\\qa_approvals.draft.json",
+        "ledger_sha256": "5639258e18ea34826c9800ee3bc118ec1633de38b8824c4f77d7da4688d2be23",
+        "ledger_entry": 4,
+        "reviewer": "ROOT",
+        "reason": "?/?? are intentionally shown while explaining the kanji used in Haruki?s name.",
+        "source_sha256": "aaa63f5d4d84301eccf451f0a8ce426a23cd70c827fa786a793fef7314ae0b88",
+        "target_sha256": "fcbd4fe542418c50df1ae370f87427c6508b03d9f9a0f207bed0c2bff7838797"
+      }
+    },
+    {
+      "script": "004",
+      "sequence": 529,
+      "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s2_end_d2d3ac84",
+      "source_line": 2251,
+      "speaker": "rinka",
+      "severity": "error",
+      "policy_severity": "HARD",
+      "rule_id": "GLOSSARY_MISMATCH",
+      "category": "term_candidate",
+      "status": "approved",
+      "message": "고정 표기 누락: ソーニャ -> 소냐",
+      "evidence": null,
+      "normalized_evidence": null,
+      "source_sha256": "024d99a7191a3479cf96a29bd257abb3361fdc70e2e179a4583a0917c614076e",
+      "target_sha256": "aa53468a0c042378f7468414fb01a0efec57c44a114ed00722d8fe9749a91f41",
+      "source_jp": "「子供の頃にはそれなりに見てたんだけど、随分たくさんあるよね。アニメじゃなくて漫画だったら、もう少し分かったんだけど……それでもソーニャたち程ではないかな」",
+      "draft_ko": "「어릴 때는 나름대로 봤는데 정말 많이 있네. 애니메이션이 아니라 만화라면 조금 더 알았겠지만…… 그래도 너희만큼은 아닐 것 같아」",
+      "finding_id": "7a862653ed02f99c81a776646e28824e7e9f6e298cea5cfe730e254602af7bc0",
+      "approval": {
+        "ledger_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\reviews\\qa_approvals.draft.json",
+        "ledger_sha256": "5639258e18ea34826c9800ee3bc118ec1633de38b8824c4f77d7da4688d2be23",
+        "ledger_entry": 5,
+        "reviewer": "ROOT",
+        "reason": "Sonya and companions are directly addressed as ??; referents are preserved.",
+        "source_sha256": "024d99a7191a3479cf96a29bd257abb3361fdc70e2e179a4583a0917c614076e",
+        "target_sha256": "aa53468a0c042378f7468414fb01a0efec57c44a114ed00722d8fe9749a91f41"
+      }
+    },
+    {
+      "script": "007_1",
+      "sequence": 269,
+      "stable_id": "scenario.rpa::scenario/007_1.rpy::tid::f007_1_a2f320a9",
+      "source_line": 1033,
+      "speaker": "odette",
+      "severity": "error",
+      "policy_severity": "HARD",
+      "rule_id": "TARGET_QUOTE_UNBALANCED",
+      "category": "target_quote_unbalanced",
+      "status": "approved",
+      "message": "한국어 target 낫표 불균형",
+      "evidence": [
+        "unclosed quote(s): 「"
+      ],
+      "normalized_evidence": [
+        "unclosed quote(s): 「"
+      ],
+      "source_sha256": "5234491f07a1753d4a804df7f02895b47e2e7d97fbe66247c940a8bbf6888a25",
+      "target_sha256": "232433b0bbfb85390c5310f69fd54eb0c7cb454a874d4ce12572b8f7e571c40e",
+      "source_jp": "「さ、嬢ちゃん。兄ちゃんにどう言われてここまで来たのかは知らないが、面子を見たらどういうことか察しはつくよな？",
+      "draft_ko": "「자, 아가씨. 형씨에게 무슨 말을 듣고 여기까지 왔는지는 모르겠지만, 이 면면을 보면 무슨 일인지 짐작은 가지?",
+      "finding_id": "cc89d611ae8183d8d2f0e9a464db62ce00561c068bad700d6c58557c5923d20f",
+      "approval": {
+        "ledger_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\reviews\\qa_approvals.draft.json",
+        "ledger_sha256": "5639258e18ea34826c9800ee3bc118ec1633de38b8824c4f77d7da4688d2be23",
+        "ledger_entry": 6,
+        "reviewer": "ROOT",
+        "reason": "The immutable Japanese source itself leaves this quote open across the scripted utterance; target preserves the exact source quote structure.",
+        "source_sha256": "5234491f07a1753d4a804df7f02895b47e2e7d97fbe66247c940a8bbf6888a25",
+        "target_sha256": "232433b0bbfb85390c5310f69fd54eb0c7cb454a874d4ce12572b8f7e571c40e"
+      }
+    },
+    {
+      "script": "007_2",
+      "sequence": 61,
+      "stable_id": "scenario.rpa::scenario/007_2.rpy::tid::f007_2_b28c38e7",
+      "source_line": 251,
+      "speaker": "rinka",
+      "severity": "warning",
+      "policy_severity": "REVIEW",
+      "rule_id": "NO_HANGUL",
+      "category": "no_hangul",
+      "status": "approved",
+      "message": "일본어 의미 문장인데 한글이 없음",
+      "evidence": null,
+      "normalized_evidence": null,
+      "source_sha256": "3b0d050e4e989eed97a3ea46301a4e27b6187bc745218ac8c3c32b5b267dbc58",
+      "target_sha256": "c0185ac0ca5c1c11839c2778f9233530a75c0f325115ea4fe49d9d146aa129b2",
+      "source_jp": "「……っ！」",
+      "draft_ko": "「……!」",
+      "finding_id": "ecebc29400ea276c0013eff69e1df3a04d6c73030d1df6b2835af835576c4ab3",
+      "approval": {
+        "ledger_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\reviews\\qa_approvals.draft.json",
+        "ledger_sha256": "5639258e18ea34826c9800ee3bc118ec1633de38b8824c4f77d7da4688d2be23",
+        "ledger_entry": 7,
+        "reviewer": "ROOT",
+        "reason": "A voiceless gasp rendered only as punctuation preserves the Japanese utterance without residual Japanese.",
+        "source_sha256": "3b0d050e4e989eed97a3ea46301a4e27b6187bc745218ac8c3c32b5b267dbc58",
+        "target_sha256": "c0185ac0ca5c1c11839c2778f9233530a75c0f325115ea4fe49d9d146aa129b2"
+      }
+    },
+    {
+      "script": "011_02",
+      "sequence": 124,
+      "stable_id": "scenario.rpa::scenario/011_02.rpy::tid::sentei11_0f96b932",
+      "source_line": 540,
+      "speaker": "parca",
+      "severity": "error",
+      "policy_severity": "HARD",
+      "rule_id": "TARGET_QUOTE_UNBALANCED",
+      "category": "target_quote_unbalanced",
+      "status": "approved",
+      "message": "한국어 target 낫표 불균형",
+      "evidence": [
+        "unclosed quote(s): 「"
+      ],
+      "normalized_evidence": [
+        "unclosed quote(s): 「"
+      ],
+      "source_sha256": "8161142e074476f817b16b76126346de58fde2127724d7376e4c896182e22385",
+      "target_sha256": "2b3b6f40202d387a9fa43ffb707b886cec10af602c82d60a9e1fd833f88f2c6f",
+      "source_jp": "「それでは、今宵の脱落者はなし。これをもって、選定を終了といたしましょう",
+      "draft_ko": "「그럼 오늘 밤의 탈락자는 없음. 이것으로 선정을 마치도록 하지요",
+      "finding_id": "29fae08ed70f10a7abe2ccb31226e00a67a64bc7ab7fe8fe146659a49d51f447",
+      "approval": {
+        "ledger_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\reviews\\qa_approvals.draft.json",
+        "ledger_sha256": "5639258e18ea34826c9800ee3bc118ec1633de38b8824c4f77d7da4688d2be23",
+        "ledger_entry": 8,
+        "reviewer": "ROOT",
+        "reason": "The immutable Japanese source itself leaves this quote open; target preserves the exact source quote structure.",
+        "source_sha256": "8161142e074476f817b16b76126346de58fde2127724d7376e4c896182e22385",
+        "target_sha256": "2b3b6f40202d387a9fa43ffb707b886cec10af602c82d60a9e1fd833f88f2c6f"
+      }
+    },
+    {
+      "script": "system_ui",
+      "sequence": 49,
+      "stable_id": "system-ui::3456a48299cee975d9b500fc",
+      "source_line": 1873,
+      "speaker": null,
+      "severity": "warning",
+      "policy_severity": "REVIEW",
+      "rule_id": "INTERPOLATION_REORDER",
+      "category": "interpolation_reorder",
+      "status": "approved",
+      "message": "named interpolation 순서 변경 검토",
+      "evidence": {
+        "source": [
+          "[index]",
+          "[count]"
+        ],
+        "target": [
+          "[count]",
+          "[index]"
+        ]
+      },
+      "normalized_evidence": {
+        "source": [
+          "[index]",
+          "[count]"
+        ],
+        "target": [
+          "[count]",
+          "[index]"
+        ]
+      },
+      "source_sha256": "3456a48299cee975d9b500fcd681b69440263688b66e9f9ee2bb57ef6900c5f2",
+      "target_sha256": "a5548a6891a95367b001b41892da9b3780eaf952ab99e6e01717e08e797e50c4",
+      "source_jp": "Image [index] of [count] locked.",
+      "draft_ko": "[count]개 중 [index]번 이미지는 잠겨 있습니다.",
+      "finding_id": "aabf7bdc25acb8f4342ce60e067e42443014058ca17b22790f858f9965fd5962",
+      "approval": {
+        "ledger_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\reviews\\qa_approvals.draft.json",
+        "ledger_sha256": "5639258e18ea34826c9800ee3bc118ec1633de38b8824c4f77d7da4688d2be23",
+        "ledger_entry": 9,
+        "reviewer": "A",
+        "reason": "Named interpolation order is changed only to form natural Korean; the exact token multiset is preserved.",
+        "source_sha256": "3456a48299cee975d9b500fcd681b69440263688b66e9f9ee2bb57ef6900c5f2",
+        "target_sha256": "a5548a6891a95367b001b41892da9b3780eaf952ab99e6e01717e08e797e50c4"
+      }
+    },
+    {
+      "script": "system_ui",
+      "sequence": 272,
+      "stable_id": "system-ui::b175bcc2a09ed2b21f77613f",
+      "source_line": null,
+      "speaker": null,
+      "severity": "error",
+      "policy_severity": "HARD",
+      "rule_id": "JP_QUOTE_STYLE",
+      "category": "dialogue_quotes",
+      "status": "approved",
+      "message": "원문 「」/『』 종류·개수·중첩 skeleton 불일치",
+      "evidence": {
+        "source": [
+          "「",
+          "「",
+          "」"
+        ],
+        "target": [
+          "「",
+          "」",
+          "「",
+          "」"
+        ]
+      },
+      "normalized_evidence": {
+        "source": [
+          "「",
+          "「",
+          "」"
+        ],
+        "target": [
+          "「",
+          "」",
+          "「",
+          "」"
+        ]
+      },
+      "source_sha256": "b175bcc2a09ed2b21f77613f63d691ccb2863f306f1b3db31f03168a28d26721",
+      "target_sha256": "3b6a262ce6884222d98e28e0cdbd740db4d1115e6cf96a5910c6815567241acc",
+      "source_jp": "・５月24日（木）\n　氏名を知ったアランのことを調べようとしていたが、進展なく３日が経過した。\n凛火は、店をお休みにして図書館へ行くことに決めて外へ出たとき、家の前に少女が倒れているのを発見する。少女が≪女神の選定≫の参加者であることに気付いた直後、彼女は自らの名前を「ソフィア・プリズニェツィ・アレクセーエヴナ（ソーニャ）\nと名乗る。\n\n空腹だという少女をファミレスへ連れていき、ご飯をおごらされることに。掴みどころのないソーニャに戸惑う凛火に対し、ソーニャは次の脱落者は自分だ、と告げる。\n夜、行く場所がないソーニャをライオン館へ連れて帰る凛火。猫のレテを見てはしゃぐソーニャの姿を見て、凛火は普通の少女の影を見る。\nソーニャは両親と日本に来ていたが、Ⅲの男性とⅪの女性によって引き離されてしまったらしい。次の脱落者が自分だというのは、すでに彼らがソーニャのカードを３枚取得しているからであった。ソーニャは信頼の証として「世界を見ること」という自分の≪未練≫を話し、凛火は≪Ⅹ・未練≫のカードを取得した。",
+      "draft_ko": "・5월 24일(목)\n 성명을 알아낸 아란을 조사하려 했지만 진전 없이 3일이 지났다.\n린카는 가게를 쉬고 도서관에 가기로 정해 밖으로 나오다 집 앞에 쓰러진 소녀를 발견한다. 소녀가 ≪여신의 선정≫ 참가자임을 알아챈 직후, 그녀는 자기 이름을 「소피아 프리즈네치 알렉세예브나(소냐)」\n라고 밝힌다.\n\n배고프다는 소녀를 패밀리 레스토랑으로 데려가 밥을 사 주게 된다. 종잡을 수 없는 소냐에게 당황한 린카를 향해 소냐는 다음 탈락자는 자신이라고 말한다.\n밤, 갈 곳 없는 소냐를 라이온관으로 데려온 린카. 고양이 레테를 보고 들뜬 소냐의 모습에서 린카는 평범한 소녀의 모습을 본다.\n소냐는 부모와 일본에 왔지만 Ⅲ의 남성과 Ⅺ의 여성에게 떨어지게 된 모양이다. 다음 탈락자가 자신이라는 것은 이미 그들이 소냐의 카드 3장을 얻었기 때문이었다. 소냐는 신뢰의 증표로 「세상을 보는 것」이라는 자기 ≪미련≫을 말하고 린카는 ≪Ⅹ·미련≫ 카드를 얻는다.",
+      "finding_id": "fc9b8e07f79f9db9676a9ed6d7952af9c82e331df888abed16437bed4f67af80",
+      "approval": {
+        "ledger_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\reviews\\qa_approvals.draft.json",
+        "ledger_sha256": "5639258e18ea34826c9800ee3bc118ec1633de38b8824c4f77d7da4688d2be23",
+        "ledger_entry": 10,
+        "reviewer": "A",
+        "reason": "The immutable Japanese UI source lacks a closing quote; the reviewed Korean target repairs that source anomaly while preserving all other structure.",
+        "source_sha256": "b175bcc2a09ed2b21f77613f63d691ccb2863f306f1b3db31f03168a28d26721",
+        "target_sha256": "3b6a262ce6884222d98e28e0cdbd740db4d1115e6cf96a5910c6815567241acc"
+      }
+    }
+  ],
+  "scenario_gate": {
+    "hard_total": 7,
+    "review_total": 1,
+    "info_total": 0,
+    "hard_open": 0,
+    "review_open": 0,
+    "info_open": 0,
+    "pass": true
+  },
+  "system_ui_gate": {
+    "hard_total": 1,
+    "review_total": 1,
+    "info_total": 0,
+    "hard_open": 0,
+    "review_open": 0,
+    "info_open": 0,
+    "pass": true
+  },
+  "approval_ledger": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\reviews\\qa_approvals.draft.json",
+    "sha256": "5639258e18ea34826c9800ee3bc118ec1633de38b8824c4f77d7da4688d2be23",
+    "records": 10,
+    "schema_version": "fatal-twelve-record-bound-qa-approvals-v1"
+  },
+  "record_bound_approvals_applied": [
+    {
+      "ledger_entry": 1,
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s1_end_3f7863e1",
+      "rule_id": "GLOSSARY_MISMATCH",
+      "finding_id": "104ed397aff8a5da6ce78adc3df5edea1dbe6e1457ee4a4636b13e0027d57bf5",
+      "reviewer": "ROOT"
+    },
+    {
+      "ledger_entry": 2,
+      "stable_id": "scenario.rpa::scenario/002.rpy::tid::f002_5ba6ff96",
+      "rule_id": "GLOSSARY_MISMATCH",
+      "finding_id": "f38734aafa10aa51e4bc07eb076e5536544b1ba3eeefabdbaf5678a2d29014ea",
+      "reviewer": "ROOT"
+    },
+    {
+      "ledger_entry": 3,
+      "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_26d57359",
+      "rule_id": "RESIDUAL_HANJA",
+      "finding_id": "9b7f1b25fdf9fcbdd1993a5590e228907f3b375f177b03cca2d5998ad137d3e9",
+      "reviewer": "ROOT"
+    },
+    {
+      "ledger_entry": 4,
+      "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_ee6737b0",
+      "rule_id": "RESIDUAL_HANJA",
+      "finding_id": "f63a73b378849a8f8a4c70d2d84ac17acdb284bc6021d1ed557ce7a1e84e2519",
+      "reviewer": "ROOT"
+    },
+    {
+      "ledger_entry": 5,
+      "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s2_end_d2d3ac84",
+      "rule_id": "GLOSSARY_MISMATCH",
+      "finding_id": "7a862653ed02f99c81a776646e28824e7e9f6e298cea5cfe730e254602af7bc0",
+      "reviewer": "ROOT"
+    },
+    {
+      "ledger_entry": 6,
+      "stable_id": "scenario.rpa::scenario/007_1.rpy::tid::f007_1_a2f320a9",
+      "rule_id": "TARGET_QUOTE_UNBALANCED",
+      "finding_id": "cc89d611ae8183d8d2f0e9a464db62ce00561c068bad700d6c58557c5923d20f",
+      "reviewer": "ROOT"
+    },
+    {
+      "ledger_entry": 7,
+      "stable_id": "scenario.rpa::scenario/007_2.rpy::tid::f007_2_b28c38e7",
+      "rule_id": "NO_HANGUL",
+      "finding_id": "ecebc29400ea276c0013eff69e1df3a04d6c73030d1df6b2835af835576c4ab3",
+      "reviewer": "ROOT"
+    },
+    {
+      "ledger_entry": 8,
+      "stable_id": "scenario.rpa::scenario/011_02.rpy::tid::sentei11_0f96b932",
+      "rule_id": "TARGET_QUOTE_UNBALANCED",
+      "finding_id": "29fae08ed70f10a7abe2ccb31226e00a67a64bc7ab7fe8fe146659a49d51f447",
+      "reviewer": "ROOT"
+    },
+    {
+      "ledger_entry": 9,
+      "stable_id": "system-ui::3456a48299cee975d9b500fc",
+      "rule_id": "INTERPOLATION_REORDER",
+      "finding_id": "aabf7bdc25acb8f4342ce60e067e42443014058ca17b22790f858f9965fd5962",
+      "reviewer": "A"
+    },
+    {
+      "ledger_entry": 10,
+      "stable_id": "system-ui::b175bcc2a09ed2b21f77613f",
+      "rule_id": "JP_QUOTE_STYLE",
+      "finding_id": "fc9b8e07f79f9db9676a9ed6d7952af9c82e331df888abed16437bed4f67af80",
+      "reviewer": "A"
+    }
+  ],
+  "record_bound_approval_count": 10
+}

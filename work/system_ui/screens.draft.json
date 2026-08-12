@@ -1,0 +1,3613 @@
+{
+  "source_file": "system/screens.rpy",
+  "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+  "record_count": 87,
+  "status": "first_draft_unreviewed",
+  "qa": "deferred_until_full_first_draft",
+  "source_authority": "Japanese only",
+  "english_reference_used": false,
+  "records": [
+    {
+      "command_index": 1,
+      "stable_id": "sysui_ef14d5898f6430538fc7",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": null,
+      "source_lines": [],
+      "statement": null,
+      "statements": [],
+      "exact_locator": {
+        "kind": "official_old_key_membership_only",
+        "file": "tl/tl/english/screens.rpy",
+        "line": 6,
+        "statement": "old \"GALLERY\""
+      },
+      "lane": "strings",
+      "lookup_key": "GALLERY",
+      "source_jp": "GALLERY",
+      "draft_ko": "갤러리",
+      "authoritative_old_key": true,
+      "official_membership_line": 6,
+      "origin": [
+        "authoritative_old_key_membership"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 2,
+      "stable_id": "sysui_8052a67c760c5fa7b83d",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": null,
+      "source_lines": [],
+      "statement": null,
+      "statements": [],
+      "exact_locator": {
+        "kind": "official_old_key_membership_only",
+        "file": "tl/tl/english/screens.rpy",
+        "line": 10,
+        "statement": "old \"MUSIC\""
+      },
+      "lane": "strings",
+      "lookup_key": "MUSIC",
+      "source_jp": "MUSIC",
+      "draft_ko": "음악",
+      "authoritative_old_key": true,
+      "official_membership_line": 10,
+      "origin": [
+        "authoritative_old_key_membership"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 3,
+      "stable_id": "sysui_657d58d414cd710ea41e",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": null,
+      "source_lines": [],
+      "statement": null,
+      "statements": [],
+      "exact_locator": {
+        "kind": "official_old_key_membership_only",
+        "file": "tl/tl/english/screens.rpy",
+        "line": 14,
+        "statement": "old \"SCENE REPLAY\""
+      },
+      "lane": "strings",
+      "lookup_key": "SCENE REPLAY",
+      "source_jp": "SCENE REPLAY",
+      "draft_ko": "장면 다시 보기",
+      "authoritative_old_key": true,
+      "official_membership_line": 14,
+      "origin": [
+        "authoritative_old_key_membership"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 4,
+      "stable_id": "sysui_943b7069cd447c5c8549",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": null,
+      "source_lines": [],
+      "statement": null,
+      "statements": [],
+      "exact_locator": {
+        "kind": "official_old_key_membership_only",
+        "file": "tl/tl/english/screens.rpy",
+        "line": 18,
+        "statement": "old \"CHARACTER INFO\""
+      },
+      "lane": "strings",
+      "lookup_key": "CHARACTER INFO",
+      "source_jp": "CHARACTER INFO",
+      "draft_ko": "인물 정보",
+      "authoritative_old_key": true,
+      "official_membership_line": 18,
+      "origin": [
+        "authoritative_old_key_membership"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 5,
+      "stable_id": "sysui_9bdc673920b626afc57c",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 192,
+      "source_lines": [
+        192
+      ],
+      "statement": "textbutton _(\"START\") action Jump(\"before_start\")",
+      "statements": [
+        {
+          "line": 192,
+          "statement": "textbutton _(\"START\") action Jump(\"before_start\")"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 192,
+        "statement": "textbutton _(\"START\") action Jump(\"before_start\")"
+      },
+      "lane": "strings",
+      "lookup_key": "START",
+      "source_jp": "START",
+      "draft_ko": "시작",
+      "authoritative_old_key": true,
+      "official_membership_line": 22,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 6,
+      "stable_id": "sysui_5f3318205397db1b3b09",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 193,
+      "source_lines": [
+        193
+      ],
+      "statement": "textbutton _(\"CONTINUE\"):",
+      "statements": [
+        {
+          "line": 193,
+          "statement": "textbutton _(\"CONTINUE\"):"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 193,
+        "statement": "textbutton _(\"CONTINUE\"):"
+      },
+      "lane": "strings",
+      "lookup_key": "CONTINUE",
+      "source_jp": "CONTINUE",
+      "draft_ko": "이어하기",
+      "authoritative_old_key": true,
+      "official_membership_line": 26,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 7,
+      "stable_id": "sysui_8281319866373fbd4a21",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 199,
+      "source_lines": [
+        199
+      ],
+      "statement": "textbutton _(\"LOAD\") action ShowMenu(\"file_manager\")",
+      "statements": [
+        {
+          "line": 199,
+          "statement": "textbutton _(\"LOAD\") action ShowMenu(\"file_manager\")"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 199,
+        "statement": "textbutton _(\"LOAD\") action ShowMenu(\"file_manager\")"
+      },
+      "lane": "strings",
+      "lookup_key": "LOAD",
+      "source_jp": "LOAD",
+      "draft_ko": "불러오기",
+      "authoritative_old_key": true,
+      "official_membership_line": 30,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 8,
+      "stable_id": "sysui_38e4d8d6361af3517dd7",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 200,
+      "source_lines": [
+        200
+      ],
+      "statement": "textbutton _(\"SETTINGS\") action ShowMenu(\"preferences\")",
+      "statements": [
+        {
+          "line": 200,
+          "statement": "textbutton _(\"SETTINGS\") action ShowMenu(\"preferences\")"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 200,
+        "statement": "textbutton _(\"SETTINGS\") action ShowMenu(\"preferences\")"
+      },
+      "lane": "strings",
+      "lookup_key": "SETTINGS",
+      "source_jp": "SETTINGS",
+      "draft_ko": "설정",
+      "authoritative_old_key": true,
+      "official_membership_line": 34,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 9,
+      "stable_id": "sysui_e11b7fe5567387ee7f8e",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 201,
+      "source_lines": [
+        201
+      ],
+      "statement": "textbutton _(\"EXTRA\") action [ShowMenu(\"extra\"),",
+      "statements": [
+        {
+          "line": 201,
+          "statement": "textbutton _(\"EXTRA\") action [ShowMenu(\"extra\"),"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 201,
+        "statement": "textbutton _(\"EXTRA\") action [ShowMenu(\"extra\"),"
+      },
+      "lane": "strings",
+      "lookup_key": "EXTRA",
+      "source_jp": "EXTRA",
+      "draft_ko": "특전",
+      "authoritative_old_key": true,
+      "official_membership_line": 38,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 10,
+      "stable_id": "sysui_eb8ab1a569ddf673be7a",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 205,
+      "source_lines": [
+        205
+      ],
+      "statement": "textbutton _(\"QUIT\") action Quit(confirm=False)",
+      "statements": [
+        {
+          "line": 205,
+          "statement": "textbutton _(\"QUIT\") action Quit(confirm=False)"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 205,
+        "statement": "textbutton _(\"QUIT\") action Quit(confirm=False)"
+      },
+      "lane": "strings",
+      "lookup_key": "QUIT",
+      "source_jp": "QUIT",
+      "draft_ko": "종료",
+      "authoritative_old_key": true,
+      "official_membership_line": 42,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 11,
+      "stable_id": "sysui_283838ba769de2c546b9",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 240,
+      "source_lines": [
+        240
+      ],
+      "statement": "textbutton _(\"back\") action Return()",
+      "statements": [
+        {
+          "line": 240,
+          "statement": "textbutton _(\"back\") action Return()"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 240,
+        "statement": "textbutton _(\"back\") action Return()"
+      },
+      "lane": "strings",
+      "lookup_key": "back",
+      "source_jp": "back",
+      "draft_ko": "뒤로",
+      "authoritative_old_key": true,
+      "official_membership_line": 46,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 12,
+      "stable_id": "sysui_f4ff882fa5f2e8bc206d",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 238,
+      "source_lines": [
+        238
+      ],
+      "statement": "textbutton _(\"close\") action Return()",
+      "statements": [
+        {
+          "line": 238,
+          "statement": "textbutton _(\"close\") action Return()"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 238,
+        "statement": "textbutton _(\"close\") action Return()"
+      },
+      "lane": "strings",
+      "lookup_key": "close",
+      "source_jp": "close",
+      "draft_ko": "닫기",
+      "authoritative_old_key": true,
+      "official_membership_line": 50,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 13,
+      "stable_id": "sysui_e34f39bd1e10feb08b33",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 269,
+      "source_lines": [
+        269
+      ],
+      "statement": "textbutton _(\"reset page\") action SetPreferencesDefault(page)",
+      "statements": [
+        {
+          "line": 269,
+          "statement": "textbutton _(\"reset page\") action SetPreferencesDefault(page)"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 269,
+        "statement": "textbutton _(\"reset page\") action SetPreferencesDefault(page)"
+      },
+      "lane": "strings",
+      "lookup_key": "reset page",
+      "source_jp": "reset page",
+      "draft_ko": "이 페이지 초기화",
+      "authoritative_old_key": true,
+      "official_membership_line": 54,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 14,
+      "stable_id": "sysui_e6e1920e611ac5cce800",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 271,
+      "source_lines": [
+        271
+      ],
+      "statement": "textbutton _(\"reset all\") action SetPreferencesDefault()",
+      "statements": [
+        {
+          "line": 271,
+          "statement": "textbutton _(\"reset all\") action SetPreferencesDefault()"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 271,
+        "statement": "textbutton _(\"reset all\") action SetPreferencesDefault()"
+      },
+      "lane": "strings",
+      "lookup_key": "reset all",
+      "source_jp": "reset all",
+      "draft_ko": "모두 초기화",
+      "authoritative_old_key": true,
+      "official_membership_line": 58,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 15,
+      "stable_id": "sysui_09e5599cd480ea435ba4",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 314,
+      "source_lines": [
+        314
+      ],
+      "statement": "use menu_page_title(_(\"データ管理\"), (1.0, 0.00))",
+      "statements": [
+        {
+          "line": 314,
+          "statement": "use menu_page_title(_(\"データ管理\"), (1.0, 0.00))"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 314,
+        "statement": "use menu_page_title(_(\"データ管理\"), (1.0, 0.00))"
+      },
+      "lane": "strings",
+      "lookup_key": "データ管理",
+      "source_jp": "データ管理",
+      "draft_ko": "데이터 관리",
+      "authoritative_old_key": true,
+      "official_membership_line": 62,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 16,
+      "stable_id": "sysui_8d9071b1ff3a24a941b8",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 322,
+      "source_lines": [
+        322
+      ],
+      "statement": "textbutton _(\"セーブ\"):",
+      "statements": [
+        {
+          "line": 322,
+          "statement": "textbutton _(\"セーブ\"):"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 322,
+        "statement": "textbutton _(\"セーブ\"):"
+      },
+      "lane": "strings",
+      "lookup_key": "セーブ",
+      "source_jp": "セーブ",
+      "draft_ko": "저장",
+      "authoritative_old_key": true,
+      "official_membership_line": 66,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 17,
+      "stable_id": "sysui_c03a7275576dc5fc75d2",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 328,
+      "source_lines": [
+        328
+      ],
+      "statement": "textbutton _(\"ロード\"):",
+      "statements": [
+        {
+          "line": 328,
+          "statement": "textbutton _(\"ロード\"):"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 328,
+        "statement": "textbutton _(\"ロード\"):"
+      },
+      "lane": "strings",
+      "lookup_key": "ロード",
+      "source_jp": "ロード",
+      "draft_ko": "불러오기",
+      "authoritative_old_key": true,
+      "official_membership_line": 70,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 18,
+      "stable_id": "sysui_bd506f341c0932bac29b",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 333,
+      "source_lines": [
+        333
+      ],
+      "statement": "textbutton _(\"移動\"):",
+      "statements": [
+        {
+          "line": 333,
+          "statement": "textbutton _(\"移動\"):"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 333,
+        "statement": "textbutton _(\"移動\"):"
+      },
+      "lane": "strings",
+      "lookup_key": "移動",
+      "source_jp": "移動",
+      "draft_ko": "이동",
+      "authoritative_old_key": true,
+      "official_membership_line": 74,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 19,
+      "stable_id": "sysui_cf06e0e21f307cd954c1",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 339,
+      "source_lines": [
+        339
+      ],
+      "statement": "textbutton _(\"コピー\"):",
+      "statements": [
+        {
+          "line": 339,
+          "statement": "textbutton _(\"コピー\"):"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 339,
+        "statement": "textbutton _(\"コピー\"):"
+      },
+      "lane": "strings",
+      "lookup_key": "コピー",
+      "source_jp": "コピー",
+      "draft_ko": "복사",
+      "authoritative_old_key": true,
+      "official_membership_line": 78,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 20,
+      "stable_id": "sysui_9d1200365f7467ed77e2",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 345,
+      "source_lines": [
+        345
+      ],
+      "statement": "textbutton _(\"削除\"):",
+      "statements": [
+        {
+          "line": 345,
+          "statement": "textbutton _(\"削除\"):"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 345,
+        "statement": "textbutton _(\"削除\"):"
+      },
+      "lane": "strings",
+      "lookup_key": "削除",
+      "source_jp": "削除",
+      "draft_ko": "삭제",
+      "authoritative_old_key": true,
+      "official_membership_line": 82,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 21,
+      "stable_id": "sysui_1c9f560fb7f4bbc7c2ad",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 365,
+      "source_lines": [
+        365
+      ],
+      "statement": "textbutton _(\"クイックセーブ\"):",
+      "statements": [
+        {
+          "line": 365,
+          "statement": "textbutton _(\"クイックセーブ\"):"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 365,
+        "statement": "textbutton _(\"クイックセーブ\"):"
+      },
+      "lane": "strings",
+      "lookup_key": "クイックセーブ",
+      "source_jp": "クイックセーブ",
+      "draft_ko": "빠른 저장",
+      "authoritative_old_key": true,
+      "official_membership_line": 86,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 22,
+      "stable_id": "sysui_7127bd0559c883f9b108",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 414,
+      "source_lines": [
+        414
+      ],
+      "statement": "text _(\"クイックセーブ № \") style_suffix \"number_text\"",
+      "statements": [
+        {
+          "line": 414,
+          "statement": "text _(\"クイックセーブ № \") style_suffix \"number_text\""
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 414,
+        "statement": "text _(\"クイックセーブ № \") style_suffix \"number_text\""
+      },
+      "lane": "strings",
+      "lookup_key": "クイックセーブ № ",
+      "source_jp": "クイックセーブ № ",
+      "draft_ko": "빠른 저장 № ",
+      "authoritative_old_key": true,
+      "official_membership_line": 90,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 23,
+      "stable_id": "sysui_04857722f836d2191193",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 421,
+      "source_lines": [
+        421
+      ],
+      "statement": "text _(\"セーブ № \") style_suffix \"number_text\"",
+      "statements": [
+        {
+          "line": 421,
+          "statement": "text _(\"セーブ № \") style_suffix \"number_text\""
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 421,
+        "statement": "text _(\"セーブ № \") style_suffix \"number_text\""
+      },
+      "lane": "strings",
+      "lookup_key": "セーブ № ",
+      "source_jp": "セーブ № ",
+      "draft_ko": "저장 № ",
+      "authoritative_old_key": true,
+      "official_membership_line": 94,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 24,
+      "stable_id": "sysui_f7f62acc2ecfc14cef36",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 439,
+      "source_lines": [
+        439
+      ],
+      "statement": "text _(\"日付： \") style_suffix \"slot_infotext\"",
+      "statements": [
+        {
+          "line": 439,
+          "statement": "text _(\"日付： \") style_suffix \"slot_infotext\""
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 439,
+        "statement": "text _(\"日付： \") style_suffix \"slot_infotext\""
+      },
+      "lane": "strings",
+      "lookup_key": "日付： ",
+      "source_jp": "日付： ",
+      "draft_ko": "날짜: ",
+      "authoritative_old_key": true,
+      "official_membership_line": 98,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 25,
+      "stable_id": "sysui_63ae7687df3a6dcd712d",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 440,
+      "source_lines": [
+        440
+      ],
+      "statement": "text FileTime(i, format=_(\"%Y/%m/%d - %H:%M\"), empty=u'') style_suffix \"slot_infotext\"",
+      "statements": [
+        {
+          "line": 440,
+          "statement": "text FileTime(i, format=_(\"%Y/%m/%d - %H:%M\"), empty=u'') style_suffix \"slot_infotext\""
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 440,
+        "statement": "text FileTime(i, format=_(\"%Y/%m/%d - %H:%M\"), empty=u'') style_suffix \"slot_infotext\""
+      },
+      "lane": "strings",
+      "lookup_key": "%Y/%m/%d - %H:%M",
+      "source_jp": "%Y/%m/%d - %H:%M",
+      "draft_ko": "%Y/%m/%d - %H:%M",
+      "authoritative_old_key": true,
+      "official_membership_line": 102,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [
+        "%Y",
+        "%m",
+        "%d",
+        "%H",
+        "%M"
+      ],
+      "protected_tokens_draft": [
+        "%Y",
+        "%m",
+        "%d",
+        "%H",
+        "%M"
+      ],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 26,
+      "stable_id": "sysui_2feeae2f2592dd23e909",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": null,
+      "source_lines": [],
+      "statement": null,
+      "statements": [],
+      "exact_locator": {
+        "kind": "official_old_key_membership_only",
+        "file": "tl/tl/english/screens.rpy",
+        "line": 106,
+        "statement": "old \"総合プレイ時間： \""
+      },
+      "lane": "strings",
+      "lookup_key": "総合プレイ時間： ",
+      "source_jp": "総合プレイ時間： ",
+      "draft_ko": "총 플레이 시간: ",
+      "authoritative_old_key": true,
+      "official_membership_line": 106,
+      "origin": [
+        "authoritative_old_key_membership"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 27,
+      "stable_id": "sysui_a9b29340e6383110b56a",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 529,
+      "source_lines": [
+        529
+      ],
+      "statement": "use menu_page_title(_(\"環境設定\"), (1.0, 0.0))",
+      "statements": [
+        {
+          "line": 529,
+          "statement": "use menu_page_title(_(\"環境設定\"), (1.0, 0.0))"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 529,
+        "statement": "use menu_page_title(_(\"環境設定\"), (1.0, 0.0))"
+      },
+      "lane": "strings",
+      "lookup_key": "環境設定",
+      "source_jp": "環境設定",
+      "draft_ko": "환경 설정",
+      "authoritative_old_key": true,
+      "official_membership_line": 110,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 28,
+      "stable_id": "sysui_ff32e805a3cbbe5bb8b2",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 540,
+      "source_lines": [
+        540
+      ],
+      "statement": "textbutton _(\"システム\"):",
+      "statements": [
+        {
+          "line": 540,
+          "statement": "textbutton _(\"システム\"):"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 540,
+        "statement": "textbutton _(\"システム\"):"
+      },
+      "lane": "strings",
+      "lookup_key": "システム",
+      "source_jp": "システム",
+      "draft_ko": "시스템",
+      "authoritative_old_key": true,
+      "official_membership_line": 114,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 29,
+      "stable_id": "sysui_d8c3d317fc97359c75e6",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": null,
+      "source_lines": [],
+      "statement": null,
+      "statements": [],
+      "exact_locator": {
+        "kind": "official_old_key_membership_only",
+        "file": "tl/tl/english/screens.rpy",
+        "line": 118,
+        "statement": "old \"メッセージ\""
+      },
+      "lane": "strings",
+      "lookup_key": "メッセージ",
+      "source_jp": "メッセージ",
+      "draft_ko": "메시지",
+      "authoritative_old_key": true,
+      "official_membership_line": 118,
+      "origin": [
+        "authoritative_old_key_membership"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 30,
+      "stable_id": "sysui_1ff633cda5d2d46fdbcf",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 543,
+      "source_lines": [
+        543
+      ],
+      "statement": "textbutton _(\"サウンド\"):",
+      "statements": [
+        {
+          "line": 543,
+          "statement": "textbutton _(\"サウンド\"):"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 543,
+        "statement": "textbutton _(\"サウンド\"):"
+      },
+      "lane": "strings",
+      "lookup_key": "サウンド",
+      "source_jp": "サウンド",
+      "draft_ko": "사운드",
+      "authoritative_old_key": true,
+      "official_membership_line": 122,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 31,
+      "stable_id": "sysui_716a28c02faaec6a760a",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 566,
+      "source_lines": [
+        566
+      ],
+      "statement": "label _(\"画面モード\")",
+      "statements": [
+        {
+          "line": 566,
+          "statement": "label _(\"画面モード\")"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 566,
+        "statement": "label _(\"画面モード\")"
+      },
+      "lane": "strings",
+      "lookup_key": "画面モード",
+      "source_jp": "画面モード",
+      "draft_ko": "화면 모드",
+      "authoritative_old_key": true,
+      "official_membership_line": 126,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 32,
+      "stable_id": "sysui_ead2812c50344fd4fd18",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 569,
+      "source_lines": [
+        569
+      ],
+      "statement": "textbutton _(\"ウインドウ\") action Preference(\"display\", \"window\")",
+      "statements": [
+        {
+          "line": 569,
+          "statement": "textbutton _(\"ウインドウ\") action Preference(\"display\", \"window\")"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 569,
+        "statement": "textbutton _(\"ウインドウ\") action Preference(\"display\", \"window\")"
+      },
+      "lane": "strings",
+      "lookup_key": "ウインドウ",
+      "source_jp": "ウインドウ",
+      "draft_ko": "창 모드",
+      "authoritative_old_key": true,
+      "official_membership_line": 130,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 33,
+      "stable_id": "sysui_9fcbdb25cff0800dad1d",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 570,
+      "source_lines": [
+        570
+      ],
+      "statement": "textbutton _(\"フルスクリーン\") action Preference(\"display\", \"fullscreen\")",
+      "statements": [
+        {
+          "line": 570,
+          "statement": "textbutton _(\"フルスクリーン\") action Preference(\"display\", \"fullscreen\")"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 570,
+        "statement": "textbutton _(\"フルスクリーン\") action Preference(\"display\", \"fullscreen\")"
+      },
+      "lane": "strings",
+      "lookup_key": "フルスクリーン",
+      "source_jp": "フルスクリーン",
+      "draft_ko": "전체 화면",
+      "authoritative_old_key": true,
+      "official_membership_line": 134,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 34,
+      "stable_id": "sysui_f54492fe2be73c8aac85",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 573,
+      "source_lines": [
+        573
+      ],
+      "statement": "label _(\"メッセージ枠の透明度\")",
+      "statements": [
+        {
+          "line": 573,
+          "statement": "label _(\"メッセージ枠の透明度\")"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 573,
+        "statement": "label _(\"メッセージ枠の透明度\")"
+      },
+      "lane": "strings",
+      "lookup_key": "メッセージ枠の透明度",
+      "source_jp": "メッセージ枠の透明度",
+      "draft_ko": "메시지 창 투명도",
+      "authoritative_old_key": true,
+      "official_membership_line": 138,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 35,
+      "stable_id": "sysui_a341040c641a5327ebc9",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": null,
+      "source_lines": [],
+      "statement": null,
+      "statements": [],
+      "exact_locator": {
+        "kind": "official_old_key_membership_only",
+        "file": "tl/tl/english/screens.rpy",
+        "line": 142,
+        "statement": "old \"クイックメニューを固定\""
+      },
+      "lane": "strings",
+      "lookup_key": "クイックメニューを固定",
+      "source_jp": "クイックメニューを固定",
+      "draft_ko": "빠른 메뉴 고정",
+      "authoritative_old_key": true,
+      "official_membership_line": 142,
+      "origin": [
+        "authoritative_old_key_membership"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 36,
+      "stable_id": "sysui_5e015b0f883bb0b20991",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": null,
+      "source_lines": [],
+      "statement": null,
+      "statements": [],
+      "exact_locator": {
+        "kind": "official_old_key_membership_only",
+        "file": "tl/tl/english/screens.rpy",
+        "line": 146,
+        "statement": "old \"スキップアイコンを表示\""
+      },
+      "lane": "strings",
+      "lookup_key": "スキップアイコンを表示",
+      "source_jp": "スキップアイコンを表示",
+      "draft_ko": "건너뛰기 아이콘 표시",
+      "authoritative_old_key": true,
+      "official_membership_line": 146,
+      "origin": [
+        "authoritative_old_key_membership"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 37,
+      "stable_id": "sysui_0c0fcef1ab47d6d2495c",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": null,
+      "source_lines": [],
+      "statement": null,
+      "statements": [],
+      "exact_locator": {
+        "kind": "official_old_key_membership_only",
+        "file": "tl/tl/english/screens.rpy",
+        "line": 150,
+        "statement": "old \"オートモードアイコンを表示\""
+      },
+      "lane": "strings",
+      "lookup_key": "オートモードアイコンを表示",
+      "source_jp": "オートモードアイコンを表示",
+      "draft_ko": "자동 모드 아이콘 표시",
+      "authoritative_old_key": true,
+      "official_membership_line": 150,
+      "origin": [
+        "authoritative_old_key_membership"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 38,
+      "stable_id": "sysui_d4b29b973a2f5b870d14",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": null,
+      "source_lines": [],
+      "statement": null,
+      "statements": [],
+      "exact_locator": {
+        "kind": "official_old_key_membership_only",
+        "file": "tl/tl/english/screens.rpy",
+        "line": 154,
+        "statement": "old \"ロールバックメニューを表示\""
+      },
+      "lane": "strings",
+      "lookup_key": "ロールバックメニューを表示",
+      "source_jp": "ロールバックメニューを表示",
+      "draft_ko": "롤백 메뉴 표시",
+      "authoritative_old_key": true,
+      "official_membership_line": 154,
+      "origin": [
+        "authoritative_old_key_membership"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 39,
+      "stable_id": "sysui_be92ec8f2edf2806e466",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 606,
+      "source_lines": [
+        606
+      ],
+      "statement": "label _(\"言語\")",
+      "statements": [
+        {
+          "line": 606,
+          "statement": "label _(\"言語\")"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 606,
+        "statement": "label _(\"言語\")"
+      },
+      "lane": "strings",
+      "lookup_key": "言語",
+      "source_jp": "言語",
+      "draft_ko": "언어",
+      "authoritative_old_key": true,
+      "official_membership_line": 158,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 40,
+      "stable_id": "sysui_81952f040b8f1ff690f6",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 579,
+      "source_lines": [
+        579
+      ],
+      "statement": "label _(\"未読メッセージの表示速度\")",
+      "statements": [
+        {
+          "line": 579,
+          "statement": "label _(\"未読メッセージの表示速度\")"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 579,
+        "statement": "label _(\"未読メッセージの表示速度\")"
+      },
+      "lane": "strings",
+      "lookup_key": "未読メッセージの表示速度",
+      "source_jp": "未読メッセージの表示速度",
+      "draft_ko": "읽지 않은 메시지 표시 속도",
+      "authoritative_old_key": true,
+      "official_membership_line": 162,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 41,
+      "stable_id": "sysui_3ad5c80cd31edb3d4e80",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 583,
+      "source_lines": [
+        583
+      ],
+      "statement": "label _(\"既読メッセージの表示速度\")",
+      "statements": [
+        {
+          "line": 583,
+          "statement": "label _(\"既読メッセージの表示速度\")"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 583,
+        "statement": "label _(\"既読メッセージの表示速度\")"
+      },
+      "lane": "strings",
+      "lookup_key": "既読メッセージの表示速度",
+      "source_jp": "既読メッセージの表示速度",
+      "draft_ko": "읽은 메시지 표시 속도",
+      "authoritative_old_key": true,
+      "official_membership_line": 166,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 42,
+      "stable_id": "sysui_a75ef05e91630854ed56",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 587,
+      "source_lines": [
+        587
+      ],
+      "statement": "label _(\"オートモード時のウエイト速度\")",
+      "statements": [
+        {
+          "line": 587,
+          "statement": "label _(\"オートモード時のウエイト速度\")"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 587,
+        "statement": "label _(\"オートモード時のウエイト速度\")"
+      },
+      "lane": "strings",
+      "lookup_key": "オートモード時のウエイト速度",
+      "source_jp": "オートモード時のウエイト速度",
+      "draft_ko": "자동 모드 대기 속도",
+      "authoritative_old_key": true,
+      "official_membership_line": 170,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 43,
+      "stable_id": "sysui_8551d8fc3f26d0b833a6",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 591,
+      "source_lines": [
+        591
+      ],
+      "statement": "label _(\"スキップモード\")",
+      "statements": [
+        {
+          "line": 591,
+          "statement": "label _(\"スキップモード\")"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 591,
+        "statement": "label _(\"スキップモード\")"
+      },
+      "lane": "strings",
+      "lookup_key": "スキップモード",
+      "source_jp": "スキップモード",
+      "draft_ko": "건너뛰기 모드",
+      "authoritative_old_key": true,
+      "official_membership_line": 174,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 44,
+      "stable_id": "sysui_b00bc69dbffb5c4da780",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 594,
+      "source_lines": [
+        594
+      ],
+      "statement": "textbutton _(\"既読のみ\") action Preference(\"skip\", \"seen\")",
+      "statements": [
+        {
+          "line": 594,
+          "statement": "textbutton _(\"既読のみ\") action Preference(\"skip\", \"seen\")"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 594,
+        "statement": "textbutton _(\"既読のみ\") action Preference(\"skip\", \"seen\")"
+      },
+      "lane": "strings",
+      "lookup_key": "既読のみ",
+      "source_jp": "既読のみ",
+      "draft_ko": "읽은 내용만",
+      "authoritative_old_key": true,
+      "official_membership_line": 178,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 45,
+      "stable_id": "sysui_52de7fe9bd812c0dafa2",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 595,
+      "source_lines": [
+        595
+      ],
+      "statement": "textbutton _(\"全て\") action Preference(\"skip\", \"all\")",
+      "statements": [
+        {
+          "line": 595,
+          "statement": "textbutton _(\"全て\") action Preference(\"skip\", \"all\")"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 595,
+        "statement": "textbutton _(\"全て\") action Preference(\"skip\", \"all\")"
+      },
+      "lane": "strings",
+      "lookup_key": "全て",
+      "source_jp": "全て",
+      "draft_ko": "모두",
+      "authoritative_old_key": true,
+      "official_membership_line": 182,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 46,
+      "stable_id": "sysui_c67783759d3949cd2edf",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 599,
+      "source_lines": [
+        599
+      ],
+      "statement": "label _(\"オートモードは音声を待つ\")",
+      "statements": [
+        {
+          "line": 599,
+          "statement": "label _(\"オートモードは音声を待つ\")"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 599,
+        "statement": "label _(\"オートモードは音声を待つ\")"
+      },
+      "lane": "strings",
+      "lookup_key": "オートモードは音声を待つ",
+      "source_jp": "オートモードは音声を待つ",
+      "draft_ko": "자동 모드에서 음성 재생 대기",
+      "authoritative_old_key": true,
+      "official_membership_line": 186,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 47,
+      "stable_id": "sysui_3ebe9bf9a9cb83e73e2f",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 619,
+      "source_lines": [
+        619,
+        989
+      ],
+      "statement": "label _(\"BGM\")",
+      "statements": [
+        {
+          "line": 619,
+          "statement": "label _(\"BGM\")"
+        },
+        {
+          "line": 989,
+          "statement": "use info_panel(_(\"BGM\"), get_current_bgm_title(), \"gui/right_click_content_music.png\", (0.05, 0.35), game_menu_info_appear)"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 619,
+        "statement": "label _(\"BGM\")"
+      },
+      "lane": "strings",
+      "lookup_key": "BGM",
+      "source_jp": "BGM",
+      "draft_ko": "BGM",
+      "authoritative_old_key": true,
+      "official_membership_line": 190,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 48,
+      "stable_id": "sysui_4753653822349d24ca70",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 624,
+      "source_lines": [
+        624
+      ],
+      "statement": "label _(\"効果音\")",
+      "statements": [
+        {
+          "line": 624,
+          "statement": "label _(\"効果音\")"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 624,
+        "statement": "label _(\"効果音\")"
+      },
+      "lane": "strings",
+      "lookup_key": "効果音",
+      "source_jp": "効果音",
+      "draft_ko": "효과음",
+      "authoritative_old_key": true,
+      "official_membership_line": 194,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 49,
+      "stable_id": "sysui_09f79fe1032302f4bed2",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 629,
+      "source_lines": [
+        629
+      ],
+      "statement": "label _(\"システム効果音\")",
+      "statements": [
+        {
+          "line": 629,
+          "statement": "label _(\"システム効果音\")"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 629,
+        "statement": "label _(\"システム効果音\")"
+      },
+      "lane": "strings",
+      "lookup_key": "システム効果音",
+      "source_jp": "システム効果音",
+      "draft_ko": "시스템 효과음",
+      "authoritative_old_key": true,
+      "official_membership_line": 198,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 50,
+      "stable_id": "sysui_97cd17add814887b59c7",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 636,
+      "source_lines": [
+        636
+      ],
+      "statement": "label _(\"ボイス\")",
+      "statements": [
+        {
+          "line": 636,
+          "statement": "label _(\"ボイス\")"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 636,
+        "statement": "label _(\"ボイス\")"
+      },
+      "lane": "strings",
+      "lookup_key": "ボイス",
+      "source_jp": "ボイス",
+      "draft_ko": "음성",
+      "authoritative_old_key": true,
+      "official_membership_line": 202,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 51,
+      "stable_id": "sysui_c2aae7bf6414fa8cad16",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 642,
+      "source_lines": [
+        642
+      ],
+      "statement": "label _(\"ボイス再生を次のメッセージまで継続する\")",
+      "statements": [
+        {
+          "line": 642,
+          "statement": "label _(\"ボイス再生を次のメッセージまで継続する\")"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 642,
+        "statement": "label _(\"ボイス再生を次のメッセージまで継続する\")"
+      },
+      "lane": "strings",
+      "lookup_key": "ボイス再生を次のメッセージまで継続する",
+      "source_jp": "ボイス再生を次のメッセージまで継続する",
+      "draft_ko": "다음 메시지까지 음성 계속 재생",
+      "authoritative_old_key": true,
+      "official_membership_line": 206,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 52,
+      "stable_id": "sysui_0a84df5e4dfae2869577",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 730,
+      "source_lines": [
+        730
+      ],
+      "statement": "textbutton _(\"はい\") action yes_action style_suffix \"button_yes\"",
+      "statements": [
+        {
+          "line": 730,
+          "statement": "textbutton _(\"はい\") action yes_action style_suffix \"button_yes\""
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 730,
+        "statement": "textbutton _(\"はい\") action yes_action style_suffix \"button_yes\""
+      },
+      "lane": "strings",
+      "lookup_key": "はい",
+      "source_jp": "はい",
+      "draft_ko": "예",
+      "authoritative_old_key": true,
+      "official_membership_line": 210,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 53,
+      "stable_id": "sysui_0e0f82a3812eea63ff88",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 731,
+      "source_lines": [
+        731
+      ],
+      "statement": "textbutton _(\"いいえ\") action no_action style_suffix \"button_no\"",
+      "statements": [
+        {
+          "line": 731,
+          "statement": "textbutton _(\"いいえ\") action no_action style_suffix \"button_no\""
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 731,
+        "statement": "textbutton _(\"いいえ\") action no_action style_suffix \"button_no\""
+      },
+      "lane": "strings",
+      "lookup_key": "いいえ",
+      "source_jp": "いいえ",
+      "draft_ko": "아니요",
+      "authoritative_old_key": true,
+      "official_membership_line": 214,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 54,
+      "stable_id": "sysui_363adf8dfbce421ba641",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 796,
+      "source_lines": [
+        796
+      ],
+      "statement": "textbutton _(\"AUTO\") action Preference(\"auto-forward\", \"toggle\")",
+      "statements": [
+        {
+          "line": 796,
+          "statement": "textbutton _(\"AUTO\") action Preference(\"auto-forward\", \"toggle\")"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 796,
+        "statement": "textbutton _(\"AUTO\") action Preference(\"auto-forward\", \"toggle\")"
+      },
+      "lane": "strings",
+      "lookup_key": "AUTO",
+      "source_jp": "AUTO",
+      "draft_ko": "자동",
+      "authoritative_old_key": true,
+      "official_membership_line": 218,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 55,
+      "stable_id": "sysui_06546f3e4968ed2d22e9",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 797,
+      "source_lines": [
+        797
+      ],
+      "statement": "textbutton _(\"SKIP\") action Skip()",
+      "statements": [
+        {
+          "line": 797,
+          "statement": "textbutton _(\"SKIP\") action Skip()"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 797,
+        "statement": "textbutton _(\"SKIP\") action Skip()"
+      },
+      "lane": "strings",
+      "lookup_key": "SKIP",
+      "source_jp": "SKIP",
+      "draft_ko": "건너뛰기",
+      "authoritative_old_key": true,
+      "official_membership_line": 222,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 56,
+      "stable_id": "sysui_10a40ee1d093c6c8b6ef",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 799,
+      "source_lines": [
+        799
+      ],
+      "statement": "textbutton _(\"QUICK SAVE\") action QuickSave()",
+      "statements": [
+        {
+          "line": 799,
+          "statement": "textbutton _(\"QUICK SAVE\") action QuickSave()"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 799,
+        "statement": "textbutton _(\"QUICK SAVE\") action QuickSave()"
+      },
+      "lane": "strings",
+      "lookup_key": "QUICK SAVE",
+      "source_jp": "QUICK SAVE",
+      "draft_ko": "빠른 저장",
+      "authoritative_old_key": true,
+      "official_membership_line": 226,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 57,
+      "stable_id": "sysui_73e69ef4fd41e2e47581",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": null,
+      "source_lines": [],
+      "statement": null,
+      "statements": [],
+      "exact_locator": {
+        "kind": "official_old_key_membership_only",
+        "file": "tl/tl/english/screens.rpy",
+        "line": 230,
+        "statement": "old \"ROLLBACK\""
+      },
+      "lane": "strings",
+      "lookup_key": "ROLLBACK",
+      "source_jp": "ROLLBACK",
+      "draft_ko": "되돌리기",
+      "authoritative_old_key": true,
+      "official_membership_line": 230,
+      "origin": [
+        "authoritative_old_key_membership"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 58,
+      "stable_id": "sysui_e1c9e8bd43540f8a4bc6",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 801,
+      "source_lines": [
+        801
+      ],
+      "statement": "textbutton _(\"VOICE\") action VoiceReplay()",
+      "statements": [
+        {
+          "line": 801,
+          "statement": "textbutton _(\"VOICE\") action VoiceReplay()"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 801,
+        "statement": "textbutton _(\"VOICE\") action VoiceReplay()"
+      },
+      "lane": "strings",
+      "lookup_key": "VOICE",
+      "source_jp": "VOICE",
+      "draft_ko": "음성",
+      "authoritative_old_key": true,
+      "official_membership_line": 234,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 59,
+      "stable_id": "sysui_f7fb4cfcff493812eec9",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 802,
+      "source_lines": [
+        802
+      ],
+      "statement": "textbutton _(\"HIDE\") action HideInterface()",
+      "statements": [
+        {
+          "line": 802,
+          "statement": "textbutton _(\"HIDE\") action HideInterface()"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 802,
+        "statement": "textbutton _(\"HIDE\") action HideInterface()"
+      },
+      "lane": "strings",
+      "lookup_key": "HIDE",
+      "source_jp": "HIDE",
+      "draft_ko": "숨기기",
+      "authoritative_old_key": true,
+      "official_membership_line": 238,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 60,
+      "stable_id": "sysui_d81c5e2cbe9ced5bbbc4",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 803,
+      "source_lines": [
+        803
+      ],
+      "statement": "textbutton _(\"MENU\"):",
+      "statements": [
+        {
+          "line": 803,
+          "statement": "textbutton _(\"MENU\"):"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 803,
+        "statement": "textbutton _(\"MENU\"):"
+      },
+      "lane": "strings",
+      "lookup_key": "MENU",
+      "source_jp": "MENU",
+      "draft_ko": "메뉴",
+      "authoritative_old_key": true,
+      "official_membership_line": 242,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 61,
+      "stable_id": "sysui_66e887ed47fb25a1796e",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 997,
+      "source_lines": [
+        997
+      ],
+      "statement": "use info_panel(_(\"Location\"), get_location_name(), \"gui/right_click_content_location.png\", (0.1, 0.50), game_menu_info_appear(0.1))",
+      "statements": [
+        {
+          "line": 997,
+          "statement": "use info_panel(_(\"Location\"), get_location_name(), \"gui/right_click_content_location.png\", (0.1, 0.50), game_menu_info_appear(0.1))"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 997,
+        "statement": "use info_panel(_(\"Location\"), get_location_name(), \"gui/right_click_content_location.png\", (0.1, 0.50), game_menu_info_appear(0.1))"
+      },
+      "lane": "strings",
+      "lookup_key": "Location",
+      "source_jp": "Location",
+      "draft_ko": "장소",
+      "authoritative_old_key": true,
+      "official_membership_line": 246,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 62,
+      "stable_id": "sysui_43a190cc5401bfb12185",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 1005,
+      "source_lines": [
+        1005
+      ],
+      "statement": "use info_panel(_(\"Tip\"), get_location_tip(), \"gui/right_click_content_tips.png\", (0.2, 0.65), game_menu_info_appear(0.2))",
+      "statements": [
+        {
+          "line": 1005,
+          "statement": "use info_panel(_(\"Tip\"), get_location_tip(), \"gui/right_click_content_tips.png\", (0.2, 0.65), game_menu_info_appear(0.2))"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 1005,
+        "statement": "use info_panel(_(\"Tip\"), get_location_tip(), \"gui/right_click_content_tips.png\", (0.2, 0.65), game_menu_info_appear(0.2))"
+      },
+      "lane": "strings",
+      "lookup_key": "Tip",
+      "source_jp": "Tip",
+      "draft_ko": "도움말",
+      "authoritative_old_key": true,
+      "official_membership_line": 250,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 63,
+      "stable_id": "sysui_afa91be5bb4f6cf4fc54",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 1058,
+      "source_lines": [
+        1058
+      ],
+      "statement": "use menu_page_title(_(\"カードブック\"), (1.0, 0.03))",
+      "statements": [
+        {
+          "line": 1058,
+          "statement": "use menu_page_title(_(\"カードブック\"), (1.0, 0.03))"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 1058,
+        "statement": "use menu_page_title(_(\"カードブック\"), (1.0, 0.03))"
+      },
+      "lane": "strings",
+      "lookup_key": "カードブック",
+      "source_jp": "カードブック",
+      "draft_ko": "카드북",
+      "authoritative_old_key": true,
+      "official_membership_line": 254,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 64,
+      "stable_id": "sysui_2d2177b78c3584f18171",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": null,
+      "source_lines": [],
+      "statement": null,
+      "statements": [],
+      "exact_locator": {
+        "kind": "official_old_key_membership_only",
+        "file": "tl/tl/english/screens.rpy",
+        "line": 258,
+        "statement": "old \"カードはありません\""
+      },
+      "lane": "strings",
+      "lookup_key": "カードはありません",
+      "source_jp": "カードはありません",
+      "draft_ko": "카드가 없습니다",
+      "authoritative_old_key": true,
+      "official_membership_line": 258,
+      "origin": [
+        "authoritative_old_key_membership"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 65,
+      "stable_id": "sysui_650462773f05697f2608",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": null,
+      "source_lines": [],
+      "statement": null,
+      "statements": [],
+      "exact_locator": {
+        "kind": "official_old_key_membership_only",
+        "file": "tl/tl/english/screens.rpy",
+        "line": 262,
+        "statement": "old \"BACK\""
+      },
+      "lane": "strings",
+      "lookup_key": "BACK",
+      "source_jp": "BACK",
+      "draft_ko": "뒤로",
+      "authoritative_old_key": true,
+      "official_membership_line": 262,
+      "origin": [
+        "authoritative_old_key_membership"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 66,
+      "stable_id": "sysui_ac3973fa4632972ea068",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": null,
+      "source_lines": [],
+      "statement": null,
+      "statements": [],
+      "exact_locator": {
+        "kind": "official_old_key_membership_only",
+        "file": "tl/tl/english/screens.rpy",
+        "line": 266,
+        "statement": "old \"ロールバックモ－ド\""
+      },
+      "lane": "strings",
+      "lookup_key": "ロールバックモ－ド",
+      "source_jp": "ロールバックモ－ド",
+      "draft_ko": "롤백 모드",
+      "authoritative_old_key": true,
+      "official_membership_line": 266,
+      "origin": [
+        "authoritative_old_key_membership"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 67,
+      "stable_id": "sysui_87eb69161b8db185c2d5",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": null,
+      "source_lines": [],
+      "statement": null,
+      "statements": [],
+      "exact_locator": {
+        "kind": "official_old_key_membership_only",
+        "file": "tl/tl/english/screens.rpy",
+        "line": 270,
+        "statement": "old \"NEXT\""
+      },
+      "lane": "strings",
+      "lookup_key": "NEXT",
+      "source_jp": "NEXT",
+      "draft_ko": "다음",
+      "authoritative_old_key": true,
+      "official_membership_line": 270,
+      "origin": [
+        "authoritative_old_key_membership"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 68,
+      "stable_id": "sysui_82fb6f09d67baa79f553",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": null,
+      "source_lines": [],
+      "statement": null,
+      "statements": [],
+      "exact_locator": {
+        "kind": "official_old_key_membership_only",
+        "file": "tl/tl/english/screens.rpy",
+        "line": 274,
+        "statement": "old \"キーボード\""
+      },
+      "lane": "strings",
+      "lookup_key": "キーボード",
+      "source_jp": "キーボード",
+      "draft_ko": "키보드",
+      "authoritative_old_key": true,
+      "official_membership_line": 274,
+      "origin": [
+        "authoritative_old_key_membership"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 69,
+      "stable_id": "sysui_95d8c7e4e206ac738dfb",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": null,
+      "source_lines": [],
+      "statement": null,
+      "statements": [],
+      "exact_locator": {
+        "kind": "official_old_key_membership_only",
+        "file": "tl/tl/english/screens.rpy",
+        "line": 278,
+        "statement": "old \"マウス\""
+      },
+      "lane": "strings",
+      "lookup_key": "マウス",
+      "source_jp": "マウス",
+      "draft_ko": "마우스",
+      "authoritative_old_key": true,
+      "official_membership_line": 278,
+      "origin": [
+        "authoritative_old_key_membership"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 70,
+      "stable_id": "sysui_d0a9460a73ff758b2dd1",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": null,
+      "source_lines": [],
+      "statement": null,
+      "statements": [],
+      "exact_locator": {
+        "kind": "official_old_key_membership_only",
+        "file": "tl/tl/english/screens.rpy",
+        "line": 282,
+        "statement": "old \"Keyboard Help\""
+      },
+      "lane": "strings",
+      "lookup_key": "Keyboard Help",
+      "source_jp": "Keyboard Help",
+      "draft_ko": "키보드 도움말",
+      "authoritative_old_key": true,
+      "official_membership_line": 282,
+      "origin": [
+        "authoritative_old_key_membership"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 71,
+      "stable_id": "sysui_a27605eb1aea5e1b1ddd",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": null,
+      "source_lines": [],
+      "statement": null,
+      "statements": [],
+      "exact_locator": {
+        "kind": "official_old_key_membership_only",
+        "file": "tl/tl/english/screens.rpy",
+        "line": 286,
+        "statement": "old \"Mouse Help\""
+      },
+      "lane": "strings",
+      "lookup_key": "Mouse Help",
+      "source_jp": "Mouse Help",
+      "draft_ko": "마우스 도움말",
+      "authoritative_old_key": true,
+      "official_membership_line": 286,
+      "origin": [
+        "authoritative_old_key_membership"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 72,
+      "stable_id": "sysui_aa31bd0a3c55785cf081",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 807,
+      "source_lines": [
+        807
+      ],
+      "statement": "textbutton _(\"END REPLAY\") action EndReplay(False)",
+      "statements": [
+        {
+          "line": 807,
+          "statement": "textbutton _(\"END REPLAY\") action EndReplay(False)"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 807,
+        "statement": "textbutton _(\"END REPLAY\") action EndReplay(False)"
+      },
+      "lane": "strings",
+      "lookup_key": "END REPLAY",
+      "source_jp": "END REPLAY",
+      "draft_ko": "다시 보기 종료",
+      "authoritative_old_key": true,
+      "official_membership_line": 294,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 73,
+      "stable_id": "sysui_668e02aa368ef334a509",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 1331,
+      "source_lines": [
+        1331
+      ],
+      "statement": "use menu_page_title(_(\"あらすじ\"), (1.0, 0.03))",
+      "statements": [
+        {
+          "line": 1331,
+          "statement": "use menu_page_title(_(\"あらすじ\"), (1.0, 0.03))"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 1331,
+        "statement": "use menu_page_title(_(\"あらすじ\"), (1.0, 0.03))"
+      },
+      "lane": "strings",
+      "lookup_key": "あらすじ",
+      "source_jp": "あらすじ",
+      "draft_ko": "줄거리",
+      "authoritative_old_key": true,
+      "official_membership_line": 298,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 74,
+      "stable_id": "sysui_c39b1526a4be8f644bae",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 1545,
+      "source_lines": [
+        1545
+      ],
+      "statement": "use menu_page_title(_(\"エクストラ\"), (1.0, 0.00))",
+      "statements": [
+        {
+          "line": 1545,
+          "statement": "use menu_page_title(_(\"エクストラ\"), (1.0, 0.00))"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 1545,
+        "statement": "use menu_page_title(_(\"エクストラ\"), (1.0, 0.00))"
+      },
+      "lane": "strings",
+      "lookup_key": "エクストラ",
+      "source_jp": "エクストラ",
+      "draft_ko": "특전",
+      "authoritative_old_key": true,
+      "official_membership_line": 302,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 75,
+      "stable_id": "sysui_02faf37173d5cddbc8c0",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 1554,
+      "source_lines": [
+        1554
+      ],
+      "statement": "textbutton _(\"ギャラリー\"):",
+      "statements": [
+        {
+          "line": 1554,
+          "statement": "textbutton _(\"ギャラリー\"):"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 1554,
+        "statement": "textbutton _(\"ギャラリー\"):"
+      },
+      "lane": "strings",
+      "lookup_key": "ギャラリー",
+      "source_jp": "ギャラリー",
+      "draft_ko": "갤러리",
+      "authoritative_old_key": true,
+      "official_membership_line": 306,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 76,
+      "stable_id": "sysui_4c1e5b3df80b2e61ca8c",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 1560,
+      "source_lines": [
+        1560
+      ],
+      "statement": "textbutton _(\"リプレイ\"):",
+      "statements": [
+        {
+          "line": 1560,
+          "statement": "textbutton _(\"リプレイ\"):"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 1560,
+        "statement": "textbutton _(\"リプレイ\"):"
+      },
+      "lane": "strings",
+      "lookup_key": "リプレイ",
+      "source_jp": "リプレイ",
+      "draft_ko": "다시 보기",
+      "authoritative_old_key": true,
+      "official_membership_line": 310,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 77,
+      "stable_id": "sysui_e8e03ed9eac0790a2bdb",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 1592,
+      "source_lines": [
+        1592
+      ],
+      "statement": "textbutton _(\"エンディング\"):",
+      "statements": [
+        {
+          "line": 1592,
+          "statement": "textbutton _(\"エンディング\"):"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 1592,
+        "statement": "textbutton _(\"エンディング\"):"
+      },
+      "lane": "strings",
+      "lookup_key": "エンディング",
+      "source_jp": "エンディング",
+      "draft_ko": "엔딩",
+      "authoritative_old_key": true,
+      "official_membership_line": 314,
+      "origin": [
+        "authoritative_old_key_membership",
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 78,
+      "stable_id": "sysui_f2aa582f85539529d185",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 1600,
+      "source_lines": [
+        1600
+      ],
+      "statement": "textbutton _(\"女神の選定\"):",
+      "statements": [
+        {
+          "line": 1600,
+          "statement": "textbutton _(\"女神の選定\"):"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 1600,
+        "statement": "textbutton _(\"女神の選定\"):"
+      },
+      "lane": "strings",
+      "lookup_key": "女神の選定",
+      "source_jp": "女神の選定",
+      "draft_ko": "여신의 선정",
+      "authoritative_old_key": false,
+      "official_membership_line": null,
+      "origin": [
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 79,
+      "stable_id": "sysui_ffdedcb30ffa840b1822",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 1873,
+      "source_lines": [
+        1873
+      ],
+      "statement": "text _(\"Image [index] of [count] locked.\") align (0.5, 0.5)",
+      "statements": [
+        {
+          "line": 1873,
+          "statement": "text _(\"Image [index] of [count] locked.\") align (0.5, 0.5)"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 1873,
+        "statement": "text _(\"Image [index] of [count] locked.\") align (0.5, 0.5)"
+      },
+      "lane": "strings",
+      "lookup_key": "Image [index] of [count] locked.",
+      "source_jp": "画像 [index] / [count] はロックされています。",
+      "draft_ko": "[count]개 중 [index]번 이미지는 잠겨 있습니다.",
+      "authoritative_old_key": false,
+      "official_membership_line": null,
+      "origin": [
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [
+        "[index]",
+        "[count]"
+      ],
+      "protected_tokens_draft": [
+        "[count]",
+        "[index]"
+      ],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 80,
+      "stable_id": "sysui_d277b0f84871fd931ef1",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 1908,
+      "source_lines": [
+        1908
+      ],
+      "statement": "textbutton _(\"prev\") action gallery.Previous(unlocked=gallery.unlocked_advance)",
+      "statements": [
+        {
+          "line": 1908,
+          "statement": "textbutton _(\"prev\") action gallery.Previous(unlocked=gallery.unlocked_advance)"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 1908,
+        "statement": "textbutton _(\"prev\") action gallery.Previous(unlocked=gallery.unlocked_advance)"
+      },
+      "lane": "strings",
+      "lookup_key": "prev",
+      "source_jp": "prev",
+      "draft_ko": "이전",
+      "authoritative_old_key": false,
+      "official_membership_line": null,
+      "origin": [
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 81,
+      "stable_id": "sysui_98078e136b197ecbd9c3",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 1909,
+      "source_lines": [
+        1909
+      ],
+      "statement": "textbutton _(\"next\") action gallery.Next(unlocked=gallery.unlocked_advance)",
+      "statements": [
+        {
+          "line": 1909,
+          "statement": "textbutton _(\"next\") action gallery.Next(unlocked=gallery.unlocked_advance)"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 1909,
+        "statement": "textbutton _(\"next\") action gallery.Next(unlocked=gallery.unlocked_advance)"
+      },
+      "lane": "strings",
+      "lookup_key": "next",
+      "source_jp": "next",
+      "draft_ko": "다음",
+      "authoritative_old_key": false,
+      "official_membership_line": null,
+      "origin": [
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 82,
+      "stable_id": "sysui_2d062ddf87a5c785b819",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 1910,
+      "source_lines": [
+        1910
+      ],
+      "statement": "textbutton _(\"slideshow\") action gallery.ToggleSlideshow()",
+      "statements": [
+        {
+          "line": 1910,
+          "statement": "textbutton _(\"slideshow\") action gallery.ToggleSlideshow()"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 1910,
+        "statement": "textbutton _(\"slideshow\") action gallery.ToggleSlideshow()"
+      },
+      "lane": "strings",
+      "lookup_key": "slideshow",
+      "source_jp": "slideshow",
+      "draft_ko": "슬라이드 쇼",
+      "authoritative_old_key": false,
+      "official_membership_line": null,
+      "origin": [
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 83,
+      "stable_id": "sysui_62ee694e53c2c6623c54",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 1911,
+      "source_lines": [
+        1911
+      ],
+      "statement": "textbutton _(\"return\") action gallery.Return()",
+      "statements": [
+        {
+          "line": 1911,
+          "statement": "textbutton _(\"return\") action gallery.Return()"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 1911,
+        "statement": "textbutton _(\"return\") action gallery.Return()"
+      },
+      "lane": "strings",
+      "lookup_key": "return",
+      "source_jp": "return",
+      "draft_ko": "돌아가기",
+      "authoritative_old_key": false,
+      "official_membership_line": null,
+      "origin": [
+        "base_source_translation_call"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 84,
+      "stable_id": "sysui_5e50f1aad604a2cf0cbb",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 609,
+      "source_lines": [
+        609
+      ],
+      "statement": "textbutton \"日本語\" action Language(None)",
+      "statements": [
+        {
+          "line": 609,
+          "statement": "textbutton \"日本語\" action Language(None)"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 609,
+        "statement": "textbutton \"日本語\" action Language(None)"
+      },
+      "lane": "direct_literal",
+      "lookup_key": "日本語",
+      "source_jp": "日本語",
+      "draft_ko": "일본어",
+      "authoritative_old_key": false,
+      "official_membership_line": null,
+      "origin": [
+        "base_source_direct_display_literal"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 85,
+      "stable_id": "sysui_3161ed18610116b30bd1",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 610,
+      "source_lines": [
+        610
+      ],
+      "statement": "textbutton \"English\" action Language(\"english\")",
+      "statements": [
+        {
+          "line": 610,
+          "statement": "textbutton \"English\" action Language(\"english\")"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 610,
+        "statement": "textbutton \"English\" action Language(\"english\")"
+      },
+      "lane": "direct_literal",
+      "lookup_key": "English",
+      "source_jp": "English",
+      "draft_ko": "영어",
+      "authoritative_old_key": false,
+      "official_membership_line": null,
+      "origin": [
+        "base_source_direct_display_literal"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 86,
+      "stable_id": "sysui_44ee06dbf9316f9734d1",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 1062,
+      "source_lines": [
+        1062
+      ],
+      "statement": "label \"Numeral \" + character_info[current_character][\"numeral\"] style \"cardbook_character_name_label\":",
+      "statements": [
+        {
+          "line": 1062,
+          "statement": "label \"Numeral \" + character_info[current_character][\"numeral\"] style \"cardbook_character_name_label\":"
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 1062,
+        "statement": "label \"Numeral \" + character_info[current_character][\"numeral\"] style \"cardbook_character_name_label\":"
+      },
+      "lane": "direct_literal",
+      "lookup_key": "Numeral ",
+      "source_jp": "Numeral ",
+      "draft_ko": "번호 ",
+      "authoritative_old_key": false,
+      "official_membership_line": null,
+      "origin": [
+        "base_source_direct_display_literal"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    },
+    {
+      "command_index": 87,
+      "stable_id": "sysui_871eb3cd470f3ade9b83",
+      "source_file": "system/screens.rpy",
+      "source_sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "source_line": 1239,
+      "source_lines": [
+        1239
+      ],
+      "statement": "text \" - \" style \"cardbook_button_text\"",
+      "statements": [
+        {
+          "line": 1239,
+          "statement": "text \" - \" style \"cardbook_button_text\""
+        }
+      ],
+      "exact_locator": {
+        "kind": "base_source",
+        "file": "system/screens.rpy",
+        "line": 1239,
+        "statement": "text \" - \" style \"cardbook_button_text\""
+      },
+      "lane": "direct_literal",
+      "lookup_key": " - ",
+      "source_jp": " - ",
+      "draft_ko": " - ",
+      "authoritative_old_key": false,
+      "official_membership_line": null,
+      "origin": [
+        "base_source_direct_display_literal"
+      ],
+      "exact_translation_id": null,
+      "protected_tokens_source": [],
+      "protected_tokens_draft": [],
+      "protected_tokens_preserved": true,
+      "emitted_to_rpy": true,
+      "duplicate_of": null,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "source_authority": "Japanese only",
+      "english_reference_used": false
+    }
+  ]
+}

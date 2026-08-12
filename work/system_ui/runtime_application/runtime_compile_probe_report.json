@@ -1,0 +1,128 @@
+{
+  "result": "PASS",
+  "engine": "Ren'Py 6.99.14.3.3347",
+  "verdict": {
+    "direct_literals": {
+      "simple_entries_effective": 4,
+      "simple_entries_inert": 1,
+      "effective_keys": [
+        "日本語",
+        "English",
+        " - ",
+        "to be continued..."
+      ],
+      "inert_key": "Numeral ",
+      "inert_reason": "The label expression is evaluated first and exact lookup sees Numeral I through Numeral XII."
+    },
+    "base_translate_none_eight": {
+      "simple_entries_effective": 8,
+      "runtime_probe_pass": true
+    }
+  },
+  "baseline_runtime": {
+    "current_simple_entries_only": true,
+    "direct_exact_four_pass": true,
+    "base_eight_pass": true,
+    "numeral_actual": "Numeral I",
+    "numeral_remained_untranslated": true,
+    "probe_file": "staging_baseline/runtime_probe.json"
+  },
+  "patched_runtime": {
+    "minimal_add_only_supplement": "numeral_composed_string_keys.ko.rpy",
+    "full_screen_override": false,
+    "full_label_override": false,
+    "composed_pairs_added": 12,
+    "direct_exact_four_pass": true,
+    "base_eight_pass": true,
+    "numeral_actual": "번호 I",
+    "all_pass": true,
+    "probe_file": "staging_patched/runtime_probe.json"
+  },
+  "compile_stages": {
+    "staging_baseline": {
+      "command_exit_code": 0,
+      "compile_log": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\system_ui\\runtime_application\\staging_baseline\\compile.log",
+      "rpyc_count_expected": 5,
+      "rpyc_files": [
+        {
+          "path": "game/base_none.rpyc",
+          "size": 2134,
+          "sha256": "96f0079315b6a6f6631db071b6f9eb07b007b9a56afde08a94ac9ba4206d2470"
+        },
+        {
+          "path": "game/options.rpyc",
+          "size": 1590,
+          "sha256": "4115db4c0d39990005ed35717c6ca546691c5e3493b1a4a4b0c9d1f366953428"
+        },
+        {
+          "path": "game/screens.rpyc",
+          "size": 2354,
+          "sha256": "cb061360308431c67a45fa471ac6ccc22587a0edc41a33417bec78991d90158b"
+        },
+        {
+          "path": "game/script.rpyc",
+          "size": 3512,
+          "sha256": "034c58975a70edddb1187e7bfd4a120299ec1e5620a182e91d5a328897b1bbba"
+        },
+        {
+          "path": "game/tl/korean/under_test.rpyc",
+          "size": 2620,
+          "sha256": "269f7d338767ae688c37a924f697bcd706ef7ae323a841455ee84a9c1fab850e"
+        }
+      ],
+      "result": "PASS"
+    },
+    "staging_patched": {
+      "command_exit_code": 0,
+      "compile_log": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\system_ui\\runtime_application\\staging_patched\\compile.log",
+      "rpyc_count_expected": 6,
+      "rpyc_files": [
+        {
+          "path": "game/base_none.rpyc",
+          "size": 2140,
+          "sha256": "d8be11e9917b13ace81b26ac9b274c3fca01dd4d5b254d9cc9f1bf79bf3803e3"
+        },
+        {
+          "path": "game/options.rpyc",
+          "size": 1592,
+          "sha256": "ea25ada03d7aff3ce725a289b9e8deb25e66021a8566cb23fe105b48b8d802dd"
+        },
+        {
+          "path": "game/screens.rpyc",
+          "size": 2352,
+          "sha256": "877d4123145baae82102fe139d84ddef01a2f9773162588aa2c31d21f9763d87"
+        },
+        {
+          "path": "game/script.rpyc",
+          "size": 3526,
+          "sha256": "1767280705d6548edb9a269e577e5e8a7f663c63f8dd637e63c7bad1ded7ec75"
+        },
+        {
+          "path": "game/tl/korean/under_test.rpyc",
+          "size": 2632,
+          "sha256": "f539f64e6e77c351222273c0c2744841dd226f81aa1cb5d379b176fd7379392c"
+        },
+        {
+          "path": "game/tl/korean/numeral_composed_string_keys.ko.rpyc",
+          "size": 1736,
+          "sha256": "fdcf701e7ab0aba101ffcd83984b33aaaf157e947074e7ec6de122a418e9826f"
+        }
+      ],
+      "result": "PASS"
+    }
+  },
+  "compiled_ast_roundtrip": {
+    "screen_direct_literals_preserved": true,
+    "python_text_expression_preserved": true,
+    "current_thirteen_entries_roundtrip": true,
+    "supplement_twelve_entries_roundtrip": true
+  },
+  "engine_source_evidence_file": "runtime_application_static_audit.json",
+  "live_original_hashes": {
+    "scenario.rpa": "ea39387ae13432a79ffe4601af7b50478d063432ce3b7bc4013c92e09f036d22",
+    "system.rpa": "a298b88f12c98435b015a647b51f5a35987ea4d714b5bf92e90972f3fcf6b648"
+  },
+  "translation_quality_review_performed": false,
+  "translation_wording_changed": false,
+  "live_game_modified": false
+}

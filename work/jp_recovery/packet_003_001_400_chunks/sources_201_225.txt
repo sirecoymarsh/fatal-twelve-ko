@@ -1,0 +1,25 @@
+201	L0834	narration	narrator	私がラップを開けたところで、真央は「一口いい？」と尋ねてきた。
+202	L0836	narration	narrator	買った本人より先に食べようとするところが真央らしい。私がカツサンドをひょいと近付けると、真央はそのまま一口かじった。
+203	L0841	dialogue	mao	「ああっ、カツまでいかなかった……」
+204	L0846	dialogue	rinka	「一口小さいもんね、真央……って海晴どうしたの？」
+205	L0848	narration	narrator	海晴は無表情で真央のことを見つめていた。
+206	L0853	dialogue	mao	「いやぁ、みはるんも欲しいんじゃない？」
+207	L0858	dialogue	rinka	「えーっと、じゃあハムサンドと交換する？　真央がかじってない方あげるから」
+208	L0863	dialogue	miharu	「お構いなく。ぼくは揚げ物は苦手だから、いらないよ」
+209	L0868	dialogue	mao	「スミマセン」
+210	L0872	narration	narrator	真央は海晴に謝ってから、自分の焼きそばパンを一口差し出していた。
+211	L0874	narration	narrator	海晴がそれも断ると、真央は「あはははー」と笑ってみせた。
+212	L0876	narration	narrator	全く、何をやっているんだか。
+213	L0878	narration	narrator	だが同時に、私はこれが日常なのだとふと思ってしまった。
+214	L0887	dialogue	miharu	「…………凛火？」
+215	L0892	dialogue	mao	「どしたの？」
+216	L0897	dialogue	rinka	「いや、何でもない。ちょっとぼーっとしちゃってさ」
+217	L0899	narration	narrator	私はそう答えてから、お昼ご飯を食べるのを再開した。
+218	L0901	narration	narrator	昼休みのチャイムが鳴る直前まで屋上にいて、おしゃべりをしながらゆっくりとした時間を過ごしていた。
+219	L0921	narration	narrator	６時間目が終わり荷物を片付けていると、入り口から私を呼ぶ声がした。
+220	L0926	dialogue	naomi	「せーんぱい？」
+221	L0931	dialogue	rinka	「あ、直未」
+222	L0933	narration	narrator	声の主は直未だった。
+223	L0935	narration	narrator	文化祭の日を考えると、そろそろ直未にはクラスメイトにコーヒーを教えられるようになってもらわないといけない。
+224	L0937	narration	narrator	なので、今週は予定が許す限り店に来てもらうように約束をしていた。
+225	L0939	narration	narrator	これまでは校門で待っていてくれたのだが、こうして教室まで来てくれるのは珍しい。

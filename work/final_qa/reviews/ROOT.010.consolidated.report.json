@@ -1,0 +1,205 @@
+{
+  "schema_version": "fatal-twelve-scenario010-consolidated-qa-v1",
+  "script": "010",
+  "source_authority": "Japanese only",
+  "english_new_prose_used": false,
+  "external_translation_api_used": false,
+  "game_executed": false,
+  "audio_runtime_touched": false,
+  "master": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_010.master.json",
+    "sha256": "c0d0ac82b27f2a3ba9190a865d3250da9d7d74eea3092ada54c7dc3f2bc62631",
+    "records": 1337
+  },
+  "superseded_invalid_input": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\reviews\\ROOT.manual.010_001_0480.corrections.jsonl",
+    "sha256": "2b218aee1797ed3b242485db97541b6b9214473f34dd919bb2b3e2c7050c1f11",
+    "records": 68,
+    "literal_question_mark_damage_records": 68,
+    "included_in_consolidated": false,
+    "replacement": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\reviews\\ROOT.manual.010_001_0480.rebuilt.corrections.jsonl"
+  },
+  "inputs": {
+    "seed_records": 146,
+    "manual_early_rebuilt_records": 68,
+    "manual_mid_records": 135,
+    "manual_tail_records": 87,
+    "manual_total_records": 290,
+    "seed_manual_overlap_records": 27,
+    "seed_manual_overlap": [
+      {
+        "stable_id": "scenario.rpa::scenario/010.rpy::tid::f010_93c4efba",
+        "sequence": 220
+      },
+      {
+        "stable_id": "scenario.rpa::scenario/010.rpy::tid::f010_1cda1652",
+        "sequence": 469
+      },
+      {
+        "stable_id": "scenario.rpa::scenario/010.rpy::tid::f010_3ace5e2f",
+        "sequence": 481
+      },
+      {
+        "stable_id": "scenario.rpa::scenario/010.rpy::tid::f010_f233eae8",
+        "sequence": 513
+      },
+      {
+        "stable_id": "scenario.rpa::scenario/010.rpy::tid::f010_a68bab6f",
+        "sequence": 528
+      },
+      {
+        "stable_id": "scenario.rpa::scenario/010.rpy::tid::f010_f3f8e602",
+        "sequence": 534
+      },
+      {
+        "stable_id": "scenario.rpa::scenario/010.rpy::tid::f010_2bcbbf6e",
+        "sequence": 535
+      },
+      {
+        "stable_id": "scenario.rpa::scenario/010.rpy::tid::f010_30d9b307",
+        "sequence": 546
+      },
+      {
+        "stable_id": "scenario.rpa::scenario/010.rpy::tid::f010_0443288d",
+        "sequence": 573
+      },
+      {
+        "stable_id": "scenario.rpa::scenario/010.rpy::tid::f010_3b6abb25",
+        "sequence": 914
+      },
+      {
+        "stable_id": "scenario.rpa::scenario/010.rpy::tid::f010_5921dc4f",
+        "sequence": 938
+      },
+      {
+        "stable_id": "scenario.rpa::scenario/010.rpy::tid::f010_1c5a7d06",
+        "sequence": 941
+      },
+      {
+        "stable_id": "scenario.rpa::scenario/010.rpy::tid::f010_5e4249f9",
+        "sequence": 980
+      },
+      {
+        "stable_id": "scenario.rpa::scenario/010.rpy::tid::f010_a6a8ba04",
+        "sequence": 984
+      },
+      {
+        "stable_id": "scenario.rpa::scenario/010.rpy::tid::f010_bf84ce77",
+        "sequence": 986
+      },
+      {
+        "stable_id": "scenario.rpa::scenario/010.rpy::tid::f010_f0e5d1c2",
+        "sequence": 987
+      },
+      {
+        "stable_id": "scenario.rpa::scenario/010.rpy::tid::f010_da94ee85",
+        "sequence": 1028
+      },
+      {
+        "stable_id": "scenario.rpa::scenario/010.rpy::tid::f010_956195af",
+        "sequence": 1073
+      },
+      {
+        "stable_id": "scenario.rpa::scenario/010.rpy::tid::f010_c8a485e6",
+        "sequence": 1080
+      },
+      {
+        "stable_id": "scenario.rpa::scenario/010.rpy::tid::sentei10_d28043c3",
+        "sequence": 1101
+      },
+      {
+        "stable_id": "scenario.rpa::scenario/010.rpy::tid::sentei10_1034a8ed",
+        "sequence": 1117
+      },
+      {
+        "stable_id": "scenario.rpa::scenario/010.rpy::tid::sentei10_0da60fcb",
+        "sequence": 1138
+      },
+      {
+        "stable_id": "scenario.rpa::scenario/010.rpy::tid::sentei10_9d1c441b",
+        "sequence": 1148
+      },
+      {
+        "stable_id": "scenario.rpa::scenario/010.rpy::tid::sentei10_4c828945",
+        "sequence": 1179
+      },
+      {
+        "stable_id": "scenario.rpa::scenario/010.rpy::tid::sentei10_2f9fa8fd",
+        "sequence": 1191
+      },
+      {
+        "stable_id": "scenario.rpa::scenario/010.rpy::tid::sentei10_12558754",
+        "sequence": 1198
+      },
+      {
+        "stable_id": "scenario.rpa::scenario/010.rpy::tid::sentei10_e97e5d3e",
+        "sequence": 1224
+      }
+    ]
+  },
+  "output": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\reviews\\ROOT.010.consolidated.corrections.jsonl",
+    "records": 409,
+    "sha256": "6cf6fbef246f87a9b94a15560edced4e07aadf614880967e23d7a056ce145735"
+  },
+  "checks": {
+    "exact_old_guard": "PASS",
+    "stable_id_unique": "PASS",
+    "protected_renpy_tokens": "PASS",
+    "newlines": "PASS",
+    "roman_codepoints": "PASS",
+    "corner_quotes": "PASS",
+    "double_angle_terms": "PASS",
+    "explicit_number_semantics": "PASS",
+    "number_word_equivalence_ledger": {},
+    "fullwidth_digits": "PASS",
+    "u3000": "PASS",
+    "residual_kana": "PASS",
+    "question_mark_replacement_damage": "PASS",
+    "no_op": "PASS"
+  },
+  "issues": [],
+  "artifacts": {
+    "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\reviews\\ROOT.manual.010_001_0480.rebuilt.corrections.jsonl": "453f7ac7af3ae6b18203d0f3569447d574facee766e29dba10dd1ae0073a0522",
+    "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\reviews\\ROOT.manual.010_0481_0960.corrections.jsonl": "2c160f5e18a9d8cf7e8818f3507ce7f262bb038b23ba27c9ea5cf2590b2063f2",
+    "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\reviews\\ROOT.manual.010_0961_1337.corrections.jsonl": "11c0ea15e74f23f36f51b39439c5f76b7aa362991471c02daa207b67c411ac3a",
+    "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\reviews\\ROOT.010.consolidated.corrections.jsonl": "6cf6fbef246f87a9b94a15560edced4e07aadf614880967e23d7a056ce145735",
+    "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\reviews\\materialize_010_final_qa.py": "d7effab5a8f36749cb7c8948ab1109518b7de894e55eaf30df4da29fcee66c9a"
+  },
+  "post_apply_validation": {
+    "correction_audit": {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\scenario010_validation\\correction_audit.json",
+      "sha256": "732d35056a96db2e8849ee7f50c85a3a277fb6a97b598e792f48397184fea577",
+      "input_sha256": "6cf6fbef246f87a9b94a15560edced4e07aadf614880967e23d7a056ce145735",
+      "input_records": 409
+    },
+    "scenario010_corrected_master": {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\scenario010_validation\\masters\\scenario_010.master.json",
+      "sha256": "b7015f7dadf664980a938762bd011472360902252d5af2bd94d9c34919ce9d8f",
+      "records": 1337,
+      "applied_corrections": 409,
+      "remaining_runtime_or_protected_token_failed_records": 0
+    },
+    "audit_master": {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\scenario010_validation\\audit_master.json",
+      "sha256": "e71748957935d5a31f5cd350e706d698bfbfb1000bbb04980ab221390e4e4f70",
+      "scenario010_issue_count": 0,
+      "scenario010_gate": "PASS"
+    },
+    "source_masters_modified": false,
+    "game_executed": false,
+    "semantic_diff": {
+      "base_records": 1337,
+      "changed_draft_ko_records": 409,
+      "unchanged_draft_ko_records": 928,
+      "changed_stable_id_set_equals_correction_map": true,
+      "source_jp_stable_id_sequence_mutations": 0,
+      "target_map_mismatches": 0
+    },
+    "pipeline_unit_tests": {
+      "suite": "work.final_qa.tests.test_correction_render_pipeline",
+      "tests": 8,
+      "result": "PASS"
+    }
+  }
+}

@@ -1,0 +1,408 @@
+{
+  "format": "fatal-twelve-japanese-unicode-catalog-v1",
+  "english_translation_data_used": false,
+  "input_root": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\raw",
+  "rpy_file_count": 38,
+  "japanese_string_count": {
+    "scenario.rpa": 18151,
+    "system.rpa": 653
+  },
+  "unique_japanese_string_count": {
+    "scenario.rpa": 17833,
+    "system.rpa": 622
+  },
+  "catalog": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\unicode\\japanese_strings.jsonl",
+    "sha256": "7f48b4cde6e89ba3993036ba37f0b78523e1640bc4a3e14b374b8914d358e3a6",
+    "encoding": "UTF-8"
+  },
+  "files": [
+    {
+      "source_archive": "system.rpa",
+      "source_file": "characters.rpy",
+      "size": 5975,
+      "sha256": "8e1e99a2bcac76e743086a15211cf32d888a621b3c0de0278f598a8bf5e76f37",
+      "encoding": "UTF-8 (strict decode passed)",
+      "replacement_character_count": 0,
+      "c1_control_count": 0,
+      "japanese_string_count": 63
+    },
+    {
+      "source_archive": "system.rpa",
+      "source_file": "gamedata.rpy",
+      "size": 145707,
+      "sha256": "1aae56972a54511bc3e440431933f47eed4a2a44a4f0e138693ff78548a6d07f",
+      "encoding": "UTF-8 (strict decode passed)",
+      "replacement_character_count": 0,
+      "c1_control_count": 0,
+      "japanese_string_count": 530
+    },
+    {
+      "source_archive": "system.rpa",
+      "source_file": "gui.rpy",
+      "size": 3127,
+      "sha256": "0364e4769b615d5ef5fcf9d1e4ccf2342119026f997e6a964b84d73cf7739d01",
+      "encoding": "UTF-8 (strict decode passed)",
+      "replacement_character_count": 0,
+      "c1_control_count": 0,
+      "japanese_string_count": 0
+    },
+    {
+      "source_archive": "system.rpa",
+      "source_file": "images.rpy",
+      "size": 109843,
+      "sha256": "a8f3c5ff7f47dac37d4f1cda2db54fedb6c41ced5fe123aa073097ef38c95ad5",
+      "encoding": "UTF-8 (strict decode passed)",
+      "replacement_character_count": 0,
+      "c1_control_count": 0,
+      "japanese_string_count": 0
+    },
+    {
+      "source_archive": "system.rpa",
+      "source_file": "options.rpy",
+      "size": 10016,
+      "sha256": "78d1780042b63fa20103b30640e10abf1089b633bc5d412fe3ed60147561b134",
+      "encoding": "UTF-8 (strict decode passed)",
+      "replacement_character_count": 0,
+      "c1_control_count": 0,
+      "japanese_string_count": 0
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/001.rpy",
+      "size": 133518,
+      "sha256": "c55da3e4f6f83a02dd4148c7f2786e89f0a378d35f65e6c4db6e6ef07c8fc2b9",
+      "encoding": "UTF-8 (strict decode passed)",
+      "replacement_character_count": 0,
+      "c1_control_count": 0,
+      "japanese_string_count": 834
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/002.rpy",
+      "size": 106763,
+      "sha256": "03ab53e5185b6fbefb6be3eeb43452a1dc5e5632674d3a870402fb02117ebf36",
+      "encoding": "UTF-8 (strict decode passed)",
+      "replacement_character_count": 0,
+      "c1_control_count": 0,
+      "japanese_string_count": 667
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/003.rpy",
+      "size": 216174,
+      "sha256": "56bcc1b54e42938abadd6319a252a4077cd2af73438f0210fd2474c6ee04c503",
+      "encoding": "UTF-8 (strict decode passed)",
+      "replacement_character_count": 0,
+      "c1_control_count": 0,
+      "japanese_string_count": 1524
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/004.rpy",
+      "size": 166496,
+      "sha256": "1efdbb4989797b687d157f791c92384d3c1e6c84e99f2db05b0c148b5bc4bc52",
+      "encoding": "UTF-8 (strict decode passed)",
+      "replacement_character_count": 0,
+      "c1_control_count": 0,
+      "japanese_string_count": 1066
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/005_1.rpy",
+      "size": 228774,
+      "sha256": "ab7a5098e52b97f43d1d5e64c62e75a4340758166d8e9bf24cde692935f6d642",
+      "encoding": "UTF-8 (strict decode passed)",
+      "replacement_character_count": 0,
+      "c1_control_count": 0,
+      "japanese_string_count": 1656
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/005_2.rpy",
+      "size": 154160,
+      "sha256": "9d2bddaa4aa60179f2df4a5c7ab981fcf9b395c67e9bea03f1e69133a398fba8",
+      "encoding": "UTF-8 (strict decode passed)",
+      "replacement_character_count": 0,
+      "c1_control_count": 0,
+      "japanese_string_count": 1039
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/006.rpy",
+      "size": 101573,
+      "sha256": "8c8a01db521ca68ca95ce604a1856d75f455cfa06a710736002f66b5455dbe9d",
+      "encoding": "UTF-8 (strict decode passed)",
+      "replacement_character_count": 0,
+      "c1_control_count": 0,
+      "japanese_string_count": 751
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/007_1.rpy",
+      "size": 160564,
+      "sha256": "66ca7e6ca330c3e1f5a6347d7996ae83c28e406533def7c4f9f4cffa0762d07e",
+      "encoding": "UTF-8 (strict decode passed)",
+      "replacement_character_count": 0,
+      "c1_control_count": 0,
+      "japanese_string_count": 1063
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/007_2.rpy",
+      "size": 181557,
+      "sha256": "bdb7da6ce44cceec924d67f70288ef6f6410f6169b2782b086b35246b3d91377",
+      "encoding": "UTF-8 (strict decode passed)",
+      "replacement_character_count": 0,
+      "c1_control_count": 0,
+      "japanese_string_count": 1468
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/008.rpy",
+      "size": 220740,
+      "sha256": "4953cea6a6f8f2c31206717a1942ff2bcfc8f14d96c06ace49ad38678eb008e9",
+      "encoding": "UTF-8 (strict decode passed)",
+      "replacement_character_count": 0,
+      "c1_control_count": 0,
+      "japanese_string_count": 1494
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/009.rpy",
+      "size": 235053,
+      "sha256": "2ca1bc76b28a36172bed17b993999e71da42bfe9e110f9e09bd9d125f4dc126c",
+      "encoding": "UTF-8 (strict decode passed)",
+      "replacement_character_count": 0,
+      "c1_control_count": 0,
+      "japanese_string_count": 1588
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/010.rpy",
+      "size": 195807,
+      "sha256": "fdbfaccbb10170f76e3d9d82c21e749cce53f9405bd1d5a21605fc849871eba7",
+      "encoding": "UTF-8 (strict decode passed)",
+      "replacement_character_count": 0,
+      "c1_control_count": 0,
+      "japanese_string_count": 1337
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/011_01.rpy",
+      "size": 58768,
+      "sha256": "e903da9f9f2203ac605b6e5b9da3a57b19f42908c8b6984cedef7e71a31ca56f",
+      "encoding": "UTF-8 (strict decode passed)",
+      "replacement_character_count": 0,
+      "c1_control_count": 0,
+      "japanese_string_count": 408
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/011_01F.rpy",
+      "size": 28851,
+      "sha256": "df127d6923d6d9e7e930f1aed5cd9c2de28bb063594a232e6bbf8a16d4c46a26",
+      "encoding": "UTF-8 (strict decode passed)",
+      "replacement_character_count": 0,
+      "c1_control_count": 0,
+      "japanese_string_count": 210
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/011_01G.rpy",
+      "size": 27890,
+      "sha256": "8d83d6240a00ab6312dbc521c37df0d26fc9f63bb3ff3b46e49dd4dacbff6253",
+      "encoding": "UTF-8 (strict decode passed)",
+      "replacement_character_count": 0,
+      "c1_control_count": 0,
+      "japanese_string_count": 192
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/011_01H.rpy",
+      "size": 7835,
+      "sha256": "f69a916c7bef8bb57c982f8ae4025e12997f05d863f81d48ab1d9009f159cf4e",
+      "encoding": "UTF-8 (strict decode passed)",
+      "replacement_character_count": 0,
+      "c1_control_count": 0,
+      "japanese_string_count": 63
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/011_02.rpy",
+      "size": 23533,
+      "sha256": "35d7b0cc57bb8dbdc28752f7f85785ffd1378c3867c4c3e46cd3dc83dab6303a",
+      "encoding": "UTF-8 (strict decode passed)",
+      "replacement_character_count": 0,
+      "c1_control_count": 0,
+      "japanese_string_count": 131
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/011_02GH.rpy",
+      "size": 45105,
+      "sha256": "d402c9845040da71edb5ead0f1b6ef9a71b628aa8971bd41fc05da62836b597d",
+      "encoding": "UTF-8 (strict decode passed)",
+      "replacement_character_count": 0,
+      "c1_control_count": 0,
+      "japanese_string_count": 324
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/012_01F.rpy",
+      "size": 170614,
+      "sha256": "42cb156b5620a8872b5939da59b8a937e96e587a9013f3dab05f64aba7b764b9",
+      "encoding": "UTF-8 (strict decode passed)",
+      "replacement_character_count": 0,
+      "c1_control_count": 0,
+      "japanese_string_count": 1190
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/012_01GH.rpy",
+      "size": 40732,
+      "sha256": "144a0fe428c9b502755a8dd7e824a46e504d47359150248054d276c2069684c5",
+      "encoding": "UTF-8 (strict decode passed)",
+      "replacement_character_count": 0,
+      "c1_control_count": 0,
+      "japanese_string_count": 313
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/012_02.rpy",
+      "size": 22588,
+      "sha256": "df7e95a0ba0c86b864e059382297e927a3edf46e68cb8a423f12e96cfcfeb206",
+      "encoding": "UTF-8 (strict decode passed)",
+      "replacement_character_count": 0,
+      "c1_control_count": 0,
+      "japanese_string_count": 209
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/BAD_END_01.rpy",
+      "size": 6781,
+      "sha256": "98085631b68394f8d31b35a5be24dbb2c14ba26c68ed179c4a177476748c95f1",
+      "encoding": "UTF-8 (strict decode passed)",
+      "replacement_character_count": 0,
+      "c1_control_count": 0,
+      "japanese_string_count": 58
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/BAD_END_02.rpy",
+      "size": 10695,
+      "sha256": "5a1903ad2c20bb028dfc17fe43fba4ea1046a36595f12068fd6d83e932b73415",
+      "encoding": "UTF-8 (strict decode passed)",
+      "replacement_character_count": 0,
+      "c1_control_count": 0,
+      "japanese_string_count": 80
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/BAD_END_03.rpy",
+      "size": 3608,
+      "sha256": "23ce7790cec0c449294b71dafa04c6a4cbfb794fc81c306a65797f35e051f9be",
+      "encoding": "UTF-8 (strict decode passed)",
+      "replacement_character_count": 0,
+      "c1_control_count": 0,
+      "japanese_string_count": 21
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/BAD_END_04.rpy",
+      "size": 5186,
+      "sha256": "a281e6fffd4b80cda75410f9bae30e439c13fc6c2c4afcc0ff858552085252b4",
+      "encoding": "UTF-8 (strict decode passed)",
+      "replacement_character_count": 0,
+      "c1_control_count": 0,
+      "japanese_string_count": 43
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/MIHARU_END.rpy",
+      "size": 2520,
+      "sha256": "948643891c1dd5e7ec6f49d69e7c4cfe6104f49ca82bc424dc77b9d97f871e49",
+      "encoding": "UTF-8 (strict decode passed)",
+      "replacement_character_count": 0,
+      "c1_control_count": 0,
+      "japanese_string_count": 26
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/NG_plus.rpy",
+      "size": 22027,
+      "sha256": "fac8b9edb9daf1e6aba80ad76d404c563472a33841fbff9f82b6d6ea465ef250",
+      "encoding": "UTF-8 (strict decode passed)",
+      "replacement_character_count": 0,
+      "c1_control_count": 0,
+      "japanese_string_count": 185
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/TRUE_END.rpy",
+      "size": 15948,
+      "sha256": "6e1abfabb891e4cfae39c4d98c50dae4498947587bb5d14efc4a9a87e8e07c24",
+      "encoding": "UTF-8 (strict decode passed)",
+      "replacement_character_count": 0,
+      "c1_control_count": 0,
+      "japanese_string_count": 124
+    },
+    {
+      "source_archive": "scenario.rpa",
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "size": 12308,
+      "sha256": "b2a4cdee4dfd4b2c71d0445ecba0500e309d98208ff0b77659003e68d4a3a848",
+      "encoding": "UTF-8 (strict decode passed)",
+      "replacement_character_count": 0,
+      "c1_control_count": 0,
+      "japanese_string_count": 87
+    },
+    {
+      "source_archive": "system.rpa",
+      "source_file": "screens.rpy",
+      "size": 53669,
+      "sha256": "3d371a0785b0d26b59060bd78f899b0cc638530d154233e40e284f289401fe7c",
+      "encoding": "UTF-8 (strict decode passed)",
+      "replacement_character_count": 0,
+      "c1_control_count": 0,
+      "japanese_string_count": 39
+    },
+    {
+      "source_archive": "system.rpa",
+      "source_file": "script.rpy",
+      "size": 50324,
+      "sha256": "ab3c66bf241c8fe4151b3245b435d8cb9f29ee81b6164d49f9141bdb25ffa150",
+      "encoding": "UTF-8 (strict decode passed)",
+      "replacement_character_count": 0,
+      "c1_control_count": 0,
+      "japanese_string_count": 21
+    },
+    {
+      "source_archive": "system.rpa",
+      "source_file": "transforms.rpy",
+      "size": 5161,
+      "sha256": "18f6ac6de5b1192875d833a081a1a635c806af4304d18a054c7145a896d3d03f",
+      "encoding": "UTF-8 (strict decode passed)",
+      "replacement_character_count": 0,
+      "c1_control_count": 0,
+      "japanese_string_count": 0
+    },
+    {
+      "source_archive": "system.rpa",
+      "source_file": "transitions.rpy",
+      "size": 5408,
+      "sha256": "fa15fbb6d8d7485bc5e750f62ddb0962abb5085a7b95d35c6c1dfdb9036e9509",
+      "encoding": "UTF-8 (strict decode passed)",
+      "replacement_character_count": 0,
+      "c1_control_count": 0,
+      "japanese_string_count": 0
+    }
+  ],
+  "sample": {
+    "json_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\unicode\\scenario_001_first_30.json",
+    "json_sha256": "ca7b14ec0e6434af5d704ddf3f5fca7334a5c13109b32828401df97118fe7e3d",
+    "markdown_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\unicode\\scenario_001_first_30.md",
+    "markdown_sha256": "f8a7f7274268102faa25a229b3b0083f232277e8ee1eff76b3389d0393669f18",
+    "entry_count": 30
+  }
+}

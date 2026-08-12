@@ -1,0 +1,2060 @@
+{
+  "archive": {
+    "path": "F:\\DOWN\\Fatal.Twelve.Incl.DLC\\Fatal.Twelve.Incl.DLC\\Fatal Twelve\\game\\system.rpa",
+    "size": 199203732,
+    "sha256": "a298b88f12c98435b015a647b51f5a35987ea4d714b5bf92e90972f3fcf6b648",
+    "header": "RPA-3.0 000000000bdf839b 42424242",
+    "format": "RPA-3.0",
+    "index_offset": 199197595,
+    "xor_key_hex": "42424242",
+    "entry_count": 292,
+    "compressed_index_sha256": "19eb8d8aed0628bf42ebe7c6004f6ad2e4951501f2d2ab647bde4c07fa5ce2b4",
+    "raw_index_sha256": "129cec7a6b595b9b34d4f0baafebd13844ff3b0a265313762d1143899b44046b"
+  },
+  "entries": {
+    "characters.rpyc": [
+      {
+        "offset": 51,
+        "length": 12712,
+        "prefix_length": 0
+      }
+    ],
+    "gamedata.rpyc": [
+      {
+        "offset": 12780,
+        "length": 82236,
+        "prefix_length": 0
+      }
+    ],
+    "gui.rpyc": [
+      {
+        "offset": 198980405,
+        "length": 3400,
+        "prefix_length": 0
+      }
+    ],
+    "gui/BADEND_01.png": [
+      {
+        "offset": 883384,
+        "length": 11128,
+        "prefix_length": 0
+      }
+    ],
+    "gui/BADEND_02.png": [
+      {
+        "offset": 894529,
+        "length": 10631,
+        "prefix_length": 0
+      }
+    ],
+    "gui/BADEND_03.png": [
+      {
+        "offset": 905177,
+        "length": 11465,
+        "prefix_length": 0
+      }
+    ],
+    "gui/BADEND_04.png": [
+      {
+        "offset": 916659,
+        "length": 9721,
+        "prefix_length": 0
+      }
+    ],
+    "gui/MIHARUEND.png": [
+      {
+        "offset": 172863945,
+        "length": 10007,
+        "prefix_length": 0
+      }
+    ],
+    "gui/TRUEEND.png": [
+      {
+        "offset": 198960260,
+        "length": 8899,
+        "prefix_length": 0
+      }
+    ],
+    "gui/UNHAPPYEND.png": [
+      {
+        "offset": 198969176,
+        "length": 11212,
+        "prefix_length": 0
+      }
+    ],
+    "gui/bad01_hover.png": [
+      {
+        "offset": 95033,
+        "length": 130180,
+        "prefix_length": 0
+      }
+    ],
+    "gui/bad01_idle.png": [
+      {
+        "offset": 225230,
+        "length": 89828,
+        "prefix_length": 0
+      }
+    ],
+    "gui/bad02_hover.png": [
+      {
+        "offset": 315075,
+        "length": 113439,
+        "prefix_length": 0
+      }
+    ],
+    "gui/bad02_idle.png": [
+      {
+        "offset": 428531,
+        "length": 78549,
+        "prefix_length": 0
+      }
+    ],
+    "gui/bad03_hover.png": [
+      {
+        "offset": 507097,
+        "length": 132645,
+        "prefix_length": 0
+      }
+    ],
+    "gui/bad03_idle.png": [
+      {
+        "offset": 639759,
+        "length": 94576,
+        "prefix_length": 0
+      }
+    ],
+    "gui/bad04_hover.png": [
+      {
+        "offset": 734352,
+        "length": 88348,
+        "prefix_length": 0
+      }
+    ],
+    "gui/bad04_idle.png": [
+      {
+        "offset": 822717,
+        "length": 60650,
+        "prefix_length": 0
+      }
+    ],
+    "gui/btn_no_idle.png": [
+      {
+        "offset": 926397,
+        "length": 2972,
+        "prefix_length": 0
+      }
+    ],
+    "gui/btn_yes_idle.png": [
+      {
+        "offset": 933082,
+        "length": 2970,
+        "prefix_length": 0
+      }
+    ],
+    "gui/btn_yesno_hover.png": [
+      {
+        "offset": 929386,
+        "length": 3679,
+        "prefix_length": 0
+      }
+    ],
+    "gui/button01_hover.png": [
+      {
+        "offset": 936069,
+        "length": 505,
+        "prefix_length": 0
+      }
+    ],
+    "gui/button01_idle.png": [
+      {
+        "offset": 936591,
+        "length": 510,
+        "prefix_length": 0
+      }
+    ],
+    "gui/button01_insensitive.png": [
+      {
+        "offset": 937118,
+        "length": 519,
+        "prefix_length": 0
+      }
+    ],
+    "gui/button01_selected.png": [
+      {
+        "offset": 937654,
+        "length": 372,
+        "prefix_length": 0
+      }
+    ],
+    "gui/card_back.png": [
+      {
+        "offset": 1697820,
+        "length": 65962,
+        "prefix_length": 0
+      }
+    ],
+    "gui/card_front.png": [
+      {
+        "offset": 1763799,
+        "length": 23028,
+        "prefix_length": 0
+      }
+    ],
+    "gui/cardbook_bg.png": [
+      {
+        "offset": 938043,
+        "length": 759760,
+        "prefix_length": 0
+      }
+    ],
+    "gui/checkbox_hover.png": [
+      {
+        "offset": 1786844,
+        "length": 530,
+        "prefix_length": 0
+      }
+    ],
+    "gui/checkbox_idle.png": [
+      {
+        "offset": 1787391,
+        "length": 260,
+        "prefix_length": 0
+      }
+    ],
+    "gui/checkbox_selected.png": [
+      {
+        "offset": 1787668,
+        "length": 726,
+        "prefix_length": 0
+      }
+    ],
+    "gui/checkbox_selected_hover.png": [
+      {
+        "offset": 1788411,
+        "length": 551,
+        "prefix_length": 0
+      }
+    ],
+    "gui/demo_last_bg.png": [
+      {
+        "offset": 1788979,
+        "length": 1470181,
+        "prefix_length": 0
+      }
+    ],
+    "gui/demo_last_link.png": [
+      {
+        "offset": 3259177,
+        "length": 8500,
+        "prefix_length": 0
+      }
+    ],
+    "gui/demo_last_link_hover.png": [
+      {
+        "offset": 3267694,
+        "length": 9631,
+        "prefix_length": 0
+      }
+    ],
+    "gui/each_bg.png": [
+      {
+        "offset": 3277342,
+        "length": 173,
+        "prefix_length": 0
+      }
+    ],
+    "gui/fonts/CharisSILR.ttf": [
+      {
+        "offset": 3277532,
+        "length": 1471768,
+        "prefix_length": 0
+      }
+    ],
+    "gui/fonts/IPA_Font_License_Agreement_v1.0.txt": [
+      {
+        "offset": 12584798,
+        "length": 20564,
+        "prefix_length": 0
+      }
+    ],
+    "gui/fonts/M+ License": [
+      {
+        "offset": 12605379,
+        "length": 375,
+        "prefix_length": 0
+      }
+    ],
+    "gui/fonts/MTLc3m-LICENSE": [
+      {
+        "offset": 17211964,
+        "length": 702,
+        "prefix_length": 0
+      }
+    ],
+    "gui/fonts/MTLc3m.ttf": [
+      {
+        "offset": 17212683,
+        "length": 1924864,
+        "prefix_length": 0
+      }
+    ],
+    "gui/fonts/NotoSans-LICENSE.txt": [
+      {
+        "offset": 19137564,
+        "length": 4301,
+        "prefix_length": 0
+      }
+    ],
+    "gui/fonts/NotoSansCJKjp-Bold.otf": [
+      {
+        "offset": 19141882,
+        "length": 16998140,
+        "prefix_length": 0
+      }
+    ],
+    "gui/fonts/NotoSansCJKjp-Light.otf": [
+      {
+        "offset": 36140039,
+        "length": 16244028,
+        "prefix_length": 0
+      }
+    ],
+    "gui/fonts/NotoSansCJKjp-Medium.otf": [
+      {
+        "offset": 52384084,
+        "length": 16504512,
+        "prefix_length": 0
+      }
+    ],
+    "gui/fonts/NotoSansCJKjp-Regular.otf": [
+      {
+        "offset": 68888613,
+        "length": 16427228,
+        "prefix_length": 0
+      }
+    ],
+    "gui/fonts/NotoSansCJKjp-Thin.otf": [
+      {
+        "offset": 85315858,
+        "length": 15154292,
+        "prefix_length": 0
+      }
+    ],
+    "gui/fonts/NotoSerifCJKjp-Light.otf": [
+      {
+        "offset": 100470167,
+        "length": 23468788,
+        "prefix_length": 0
+      }
+    ],
+    "gui/fonts/NotoSerifCJKjp-Medium.otf": [
+      {
+        "offset": 123938972,
+        "length": 23900156,
+        "prefix_length": 0
+      }
+    ],
+    "gui/fonts/NotoSerifCJKjp-SemiBold.otf": [
+      {
+        "offset": 147839145,
+        "length": 23888120,
+        "prefix_length": 0
+      }
+    ],
+    "gui/fonts/SIL Open Font License.txt": [
+      {
+        "offset": 171727282,
+        "length": 4427,
+        "prefix_length": 0
+      }
+    ],
+    "gui/fonts/ipaexm.ttf": [
+      {
+        "offset": 4749317,
+        "length": 7835464,
+        "prefix_length": 0
+      }
+    ],
+    "gui/fonts/mgenplus-2pp-regular.ttf": [
+      {
+        "offset": 12605771,
+        "length": 4606176,
+        "prefix_length": 0
+      }
+    ],
+    "gui/frame.png": [
+      {
+        "offset": 171731726,
+        "length": 362,
+        "prefix_length": 0
+      }
+    ],
+    "gui/good01_hover.png": [
+      {
+        "offset": 171732105,
+        "length": 183134,
+        "prefix_length": 0
+      }
+    ],
+    "gui/good01_idle.png": [
+      {
+        "offset": 171915256,
+        "length": 117807,
+        "prefix_length": 0
+      }
+    ],
+    "gui/good02_hover.png": [
+      {
+        "offset": 172033080,
+        "length": 206626,
+        "prefix_length": 0
+      }
+    ],
+    "gui/good02_idle.png": [
+      {
+        "offset": 172239723,
+        "length": 117255,
+        "prefix_length": 0
+      }
+    ],
+    "gui/good03_hover.png": [
+      {
+        "offset": 172356995,
+        "length": 205990,
+        "prefix_length": 0
+      }
+    ],
+    "gui/good03_idle.png": [
+      {
+        "offset": 172563002,
+        "length": 119048,
+        "prefix_length": 0
+      }
+    ],
+    "gui/headline_bg.png": [
+      {
+        "offset": 172682067,
+        "length": 3952,
+        "prefix_length": 0
+      }
+    ],
+    "gui/icon_lin-osx.png": [
+      {
+        "offset": 172686036,
+        "length": 83869,
+        "prefix_length": 0
+      }
+    ],
+    "gui/icon_new.png": [
+      {
+        "offset": 172769922,
+        "length": 564,
+        "prefix_length": 0
+      }
+    ],
+    "gui/icon_win.png": [
+      {
+        "offset": 172770503,
+        "length": 3477,
+        "prefix_length": 0
+      }
+    ],
+    "gui/layout_extra.png": [
+      {
+        "offset": 172773997,
+        "length": 4358,
+        "prefix_length": 0
+      }
+    ],
+    "gui/layout_saves.png": [
+      {
+        "offset": 172778372,
+        "length": 4359,
+        "prefix_length": 0
+      }
+    ],
+    "gui/layout_settings.png": [
+      {
+        "offset": 172782748,
+        "length": 4358,
+        "prefix_length": 0
+      }
+    ],
+    "gui/main_auto_icon_1.png": [
+      {
+        "offset": 172787123,
+        "length": 2018,
+        "prefix_length": 0
+      }
+    ],
+    "gui/main_auto_icon_2.png": [
+      {
+        "offset": 172789158,
+        "length": 1648,
+        "prefix_length": 0
+      }
+    ],
+    "gui/main_auto_icon_3.png": [
+      {
+        "offset": 172790823,
+        "length": 1644,
+        "prefix_length": 0
+      }
+    ],
+    "gui/main_auto_icon_4.png": [
+      {
+        "offset": 172792484,
+        "length": 1629,
+        "prefix_length": 0
+      }
+    ],
+    "gui/main_ctc_01.png": [
+      {
+        "offset": 172794130,
+        "length": 1611,
+        "prefix_length": 0
+      }
+    ],
+    "gui/main_ctc_02.png": [
+      {
+        "offset": 172795758,
+        "length": 1717,
+        "prefix_length": 0
+      }
+    ],
+    "gui/main_ctc_03.png": [
+      {
+        "offset": 172797492,
+        "length": 1814,
+        "prefix_length": 0
+      }
+    ],
+    "gui/main_ctc_04.png": [
+      {
+        "offset": 172799323,
+        "length": 1862,
+        "prefix_length": 0
+      }
+    ],
+    "gui/main_ctc_05.png": [
+      {
+        "offset": 172801202,
+        "length": 1767,
+        "prefix_length": 0
+      }
+    ],
+    "gui/main_ctc_06.png": [
+      {
+        "offset": 172802986,
+        "length": 1668,
+        "prefix_length": 0
+      }
+    ],
+    "gui/main_hud_bg.png": [
+      {
+        "offset": 172804671,
+        "length": 328,
+        "prefix_length": 0
+      }
+    ],
+    "gui/main_message_bg.png": [
+      {
+        "offset": 172805016,
+        "length": 339,
+        "prefix_length": 0
+      }
+    ],
+    "gui/main_message_line.png": [
+      {
+        "offset": 172805372,
+        "length": 2033,
+        "prefix_length": 0
+      }
+    ],
+    "gui/main_notify_bg.png": [
+      {
+        "offset": 172807422,
+        "length": 55080,
+        "prefix_length": 0
+      }
+    ],
+    "gui/main_notify_icon.png": [
+      {
+        "offset": 172862519,
+        "length": 1409,
+        "prefix_length": 0
+      }
+    ],
+    "gui/num_hover.png": [
+      {
+        "offset": 172873969,
+        "length": 2043,
+        "prefix_length": 0
+      }
+    ],
+    "gui/quick_button_bg_hover.png": [
+      {
+        "offset": 172879177,
+        "length": 1900,
+        "prefix_length": 0
+      }
+    ],
+    "gui/quicksave_hover.png": [
+      {
+        "offset": 172876029,
+        "length": 3131,
+        "prefix_length": 0
+      }
+    ],
+    "gui/right_click_bg.png": [
+      {
+        "offset": 172881094,
+        "length": 6444,
+        "prefix_length": 0
+      }
+    ],
+    "gui/right_click_content_location.png": [
+      {
+        "offset": 172887555,
+        "length": 941,
+        "prefix_length": 0
+      }
+    ],
+    "gui/right_click_content_music.png": [
+      {
+        "offset": 172888513,
+        "length": 975,
+        "prefix_length": 0
+      }
+    ],
+    "gui/right_click_content_tips.png": [
+      {
+        "offset": 172889505,
+        "length": 1056,
+        "prefix_length": 0
+      }
+    ],
+    "gui/right_click_date_earlymorning.png": [
+      {
+        "offset": 172890578,
+        "length": 2749,
+        "prefix_length": 0
+      }
+    ],
+    "gui/right_click_date_evening.png": [
+      {
+        "offset": 172893344,
+        "length": 2611,
+        "prefix_length": 0
+      }
+    ],
+    "gui/right_click_date_latenight.png": [
+      {
+        "offset": 172895972,
+        "length": 2462,
+        "prefix_length": 0
+      }
+    ],
+    "gui/right_click_date_morning.png": [
+      {
+        "offset": 172898451,
+        "length": 2669,
+        "prefix_length": 0
+      }
+    ],
+    "gui/right_click_date_night.png": [
+      {
+        "offset": 172901137,
+        "length": 2504,
+        "prefix_length": 0
+      }
+    ],
+    "gui/right_click_date_noon.png": [
+      {
+        "offset": 172903658,
+        "length": 2614,
+        "prefix_length": 0
+      }
+    ],
+    "gui/right_click_fg.png": [
+      {
+        "offset": 172906289,
+        "length": 370,
+        "prefix_length": 0
+      }
+    ],
+    "gui/right_click_icon_backtogame_hover.png": [
+      {
+        "offset": 172906676,
+        "length": 4551,
+        "prefix_length": 0
+      }
+    ],
+    "gui/right_click_icon_backtogame_idle.png": [
+      {
+        "offset": 172911244,
+        "length": 3943,
+        "prefix_length": 0
+      }
+    ],
+    "gui/right_click_icon_backtogame_insensitive.png": [
+      {
+        "offset": 172915204,
+        "length": 4243,
+        "prefix_length": 0
+      }
+    ],
+    "gui/right_click_icon_backtotitle_hover.png": [
+      {
+        "offset": 172919464,
+        "length": 5663,
+        "prefix_length": 0
+      }
+    ],
+    "gui/right_click_icon_backtotitle_idle.png": [
+      {
+        "offset": 172925144,
+        "length": 4473,
+        "prefix_length": 0
+      }
+    ],
+    "gui/right_click_icon_backtotitle_insensitive.png": [
+      {
+        "offset": 172929634,
+        "length": 4592,
+        "prefix_length": 0
+      }
+    ],
+    "gui/right_click_icon_cardbook_hover.png": [
+      {
+        "offset": 172934243,
+        "length": 12617,
+        "prefix_length": 0
+      }
+    ],
+    "gui/right_click_icon_cardbook_idle.png": [
+      {
+        "offset": 172946877,
+        "length": 6342,
+        "prefix_length": 0
+      }
+    ],
+    "gui/right_click_icon_cardbook_insensitive.png": [
+      {
+        "offset": 172953236,
+        "length": 5969,
+        "prefix_length": 0
+      }
+    ],
+    "gui/right_click_icon_config_hover.png": [
+      {
+        "offset": 172959222,
+        "length": 7327,
+        "prefix_length": 0
+      }
+    ],
+    "gui/right_click_icon_config_idle.png": [
+      {
+        "offset": 172966566,
+        "length": 5975,
+        "prefix_length": 0
+      }
+    ],
+    "gui/right_click_icon_config_insensitive.png": [
+      {
+        "offset": 172972558,
+        "length": 6022,
+        "prefix_length": 0
+      }
+    ],
+    "gui/right_click_icon_endgame_hover.png": [
+      {
+        "offset": 172978597,
+        "length": 4418,
+        "prefix_length": 0
+      }
+    ],
+    "gui/right_click_icon_endgame_idle.png": [
+      {
+        "offset": 172983032,
+        "length": 3661,
+        "prefix_length": 0
+      }
+    ],
+    "gui/right_click_icon_endgame_insensitive.png": [
+      {
+        "offset": 172986710,
+        "length": 3883,
+        "prefix_length": 0
+      }
+    ],
+    "gui/right_click_icon_load_hover.png": [
+      {
+        "offset": 172990610,
+        "length": 7758,
+        "prefix_length": 0
+      }
+    ],
+    "gui/right_click_icon_load_idle.png": [
+      {
+        "offset": 172998385,
+        "length": 6932,
+        "prefix_length": 0
+      }
+    ],
+    "gui/right_click_icon_load_insensitive.png": [
+      {
+        "offset": 173005334,
+        "length": 6280,
+        "prefix_length": 0
+      }
+    ],
+    "gui/right_click_icon_save_hover.png": [
+      {
+        "offset": 173011631,
+        "length": 7166,
+        "prefix_length": 0
+      }
+    ],
+    "gui/right_click_icon_save_idle.png": [
+      {
+        "offset": 173018814,
+        "length": 7205,
+        "prefix_length": 0
+      }
+    ],
+    "gui/right_click_icon_save_insensitive.png": [
+      {
+        "offset": 173026036,
+        "length": 6811,
+        "prefix_length": 0
+      }
+    ],
+    "gui/right_click_icon_story_hover.png": [
+      {
+        "offset": 173032864,
+        "length": 6551,
+        "prefix_length": 0
+      }
+    ],
+    "gui/right_click_icon_story_idle.png": [
+      {
+        "offset": 173039432,
+        "length": 5026,
+        "prefix_length": 0
+      }
+    ],
+    "gui/right_click_icon_story_insensitive.png": [
+      {
+        "offset": 173044475,
+        "length": 5062,
+        "prefix_length": 0
+      }
+    ],
+    "gui/right_click_info_line.png": [
+      {
+        "offset": 173049554,
+        "length": 1114,
+        "prefix_length": 0
+      }
+    ],
+    "gui/right_click_menu_frame_01.png": [
+      {
+        "offset": 173050685,
+        "length": 134895,
+        "prefix_length": 0
+      }
+    ],
+    "gui/right_click_menu_frame_02.png": [
+      {
+        "offset": 173185597,
+        "length": 45366,
+        "prefix_length": 0
+      }
+    ],
+    "gui/right_click_menu_frame_03.png": [
+      {
+        "offset": 173230980,
+        "length": 10810,
+        "prefix_length": 0
+      }
+    ],
+    "gui/saveslot_hover.png": [
+      {
+        "offset": 173241807,
+        "length": 1096,
+        "prefix_length": 0
+      }
+    ],
+    "gui/saveslot_idle.png": [
+      {
+        "offset": 173242920,
+        "length": 1079,
+        "prefix_length": 0
+      }
+    ],
+    "gui/saveslot_selected.png": [
+      {
+        "offset": 173244016,
+        "length": 1177,
+        "prefix_length": 0
+      }
+    ],
+    "gui/scrollbar_idle.png": [
+      {
+        "offset": 173245210,
+        "length": 176,
+        "prefix_length": 0
+      }
+    ],
+    "gui/slider_left.png": [
+      {
+        "offset": 173245403,
+        "length": 450,
+        "prefix_length": 0
+      }
+    ],
+    "gui/slider_right.png": [
+      {
+        "offset": 173245870,
+        "length": 448,
+        "prefix_length": 0
+      }
+    ],
+    "gui/slider_thumb.png": [
+      {
+        "offset": 173246335,
+        "length": 196,
+        "prefix_length": 0
+      }
+    ],
+    "gui/splash_logo.png": [
+      {
+        "offset": 173246548,
+        "length": 26657,
+        "prefix_length": 0
+      }
+    ],
+    "gui/tab_hover.png": [
+      {
+        "offset": 173273222,
+        "length": 309,
+        "prefix_length": 0
+      }
+    ],
+    "gui/tab_idle.png": [
+      {
+        "offset": 173273548,
+        "length": 288,
+        "prefix_length": 0
+      }
+    ],
+    "gui/tab_insensitive.png": [
+      {
+        "offset": 173273853,
+        "length": 312,
+        "prefix_length": 0
+      }
+    ],
+    "gui/tab_selected.png": [
+      {
+        "offset": 173274182,
+        "length": 293,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_aln_hover.png": [
+      {
+        "offset": 173386692,
+        "length": 11181,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_aln_idle.png": [
+      {
+        "offset": 173397890,
+        "length": 10873,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_aln_selected.png": [
+      {
+        "offset": 173408780,
+        "length": 10591,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_cha_hover.png": [
+      {
+        "offset": 173419388,
+        "length": 10726,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_cha_idle.png": [
+      {
+        "offset": 173430131,
+        "length": 10826,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_cha_selected.png": [
+      {
+        "offset": 173440974,
+        "length": 10855,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_cnh_hover.png": [
+      {
+        "offset": 173451846,
+        "length": 11922,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_cnh_idle.png": [
+      {
+        "offset": 173463785,
+        "length": 11617,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_cnh_selected.png": [
+      {
+        "offset": 173475419,
+        "length": 11426,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_01.png": [
+      {
+        "offset": 173486862,
+        "length": 136793,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_02.png": [
+      {
+        "offset": 173623672,
+        "length": 160753,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_03.png": [
+      {
+        "offset": 173784442,
+        "length": 153070,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_04.png": [
+      {
+        "offset": 173937529,
+        "length": 170272,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_05.png": [
+      {
+        "offset": 174107818,
+        "length": 171551,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_06.png": [
+      {
+        "offset": 174279386,
+        "length": 138091,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_07.png": [
+      {
+        "offset": 174417494,
+        "length": 146725,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_08.png": [
+      {
+        "offset": 174564236,
+        "length": 135619,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_09.png": [
+      {
+        "offset": 174699872,
+        "length": 146535,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_10.png": [
+      {
+        "offset": 174846424,
+        "length": 151416,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_11.png": [
+      {
+        "offset": 174997857,
+        "length": 130561,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_12.png": [
+      {
+        "offset": 175128435,
+        "length": 139407,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_13.png": [
+      {
+        "offset": 175267859,
+        "length": 134350,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_14.png": [
+      {
+        "offset": 175402226,
+        "length": 174819,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_15.png": [
+      {
+        "offset": 175577062,
+        "length": 98846,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_16.png": [
+      {
+        "offset": 175675925,
+        "length": 126224,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_17.png": [
+      {
+        "offset": 175802166,
+        "length": 144566,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_18.png": [
+      {
+        "offset": 175946749,
+        "length": 139375,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_19.png": [
+      {
+        "offset": 176086141,
+        "length": 138687,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_20.png": [
+      {
+        "offset": 176224845,
+        "length": 100459,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_21.png": [
+      {
+        "offset": 176325321,
+        "length": 143093,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_22.png": [
+      {
+        "offset": 176468431,
+        "length": 130101,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_23.png": [
+      {
+        "offset": 176598549,
+        "length": 133432,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_24.png": [
+      {
+        "offset": 176731998,
+        "length": 93216,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_25.png": [
+      {
+        "offset": 176825231,
+        "length": 152038,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_26.png": [
+      {
+        "offset": 176977286,
+        "length": 128121,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_27.png": [
+      {
+        "offset": 177105424,
+        "length": 121525,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_28.png": [
+      {
+        "offset": 177226966,
+        "length": 136200,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_29.png": [
+      {
+        "offset": 177363183,
+        "length": 129533,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_30.png": [
+      {
+        "offset": 177492733,
+        "length": 106020,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_31.png": [
+      {
+        "offset": 177598770,
+        "length": 143062,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_32.png": [
+      {
+        "offset": 177741849,
+        "length": 167937,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_33.png": [
+      {
+        "offset": 177909803,
+        "length": 131474,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_34.png": [
+      {
+        "offset": 178041294,
+        "length": 150115,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_35.png": [
+      {
+        "offset": 178191426,
+        "length": 130126,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_36.png": [
+      {
+        "offset": 178321569,
+        "length": 159201,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_37.png": [
+      {
+        "offset": 178480787,
+        "length": 102203,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_38.png": [
+      {
+        "offset": 178583007,
+        "length": 156994,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_39.png": [
+      {
+        "offset": 178740018,
+        "length": 139282,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_40.png": [
+      {
+        "offset": 178879317,
+        "length": 143305,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_41.png": [
+      {
+        "offset": 179022639,
+        "length": 149003,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_42.png": [
+      {
+        "offset": 179171659,
+        "length": 139188,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_43.png": [
+      {
+        "offset": 179310864,
+        "length": 150837,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_44.png": [
+      {
+        "offset": 179461718,
+        "length": 143196,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_45.png": [
+      {
+        "offset": 179604931,
+        "length": 130721,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_46.png": [
+      {
+        "offset": 179735669,
+        "length": 92254,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_47.png": [
+      {
+        "offset": 179827940,
+        "length": 121042,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_48.png": [
+      {
+        "offset": 179948999,
+        "length": 149347,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_49.png": [
+      {
+        "offset": 180098363,
+        "length": 143851,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_50.png": [
+      {
+        "offset": 180242231,
+        "length": 146236,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_51.png": [
+      {
+        "offset": 180388484,
+        "length": 168562,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_52.png": [
+      {
+        "offset": 180557063,
+        "length": 177959,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_53.png": [
+      {
+        "offset": 180735039,
+        "length": 163493,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_54.png": [
+      {
+        "offset": 180898549,
+        "length": 160278,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_55.png": [
+      {
+        "offset": 181058844,
+        "length": 129954,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_56.png": [
+      {
+        "offset": 181188815,
+        "length": 104542,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_hover.png": [
+      {
+        "offset": 181293374,
+        "length": 736,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ecg_nodata.png": [
+      {
+        "offset": 181294127,
+        "length": 22486,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_fed_hover.png": [
+      {
+        "offset": 181316630,
+        "length": 12301,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_fed_idle.png": [
+      {
+        "offset": 181328948,
+        "length": 12081,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_fed_selected.png": [
+      {
+        "offset": 181341046,
+        "length": 12106,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_kik_hover.png": [
+      {
+        "offset": 181353169,
+        "length": 11410,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_kik_idle.png": [
+      {
+        "offset": 181364596,
+        "length": 11222,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_kik_selected.png": [
+      {
+        "offset": 181375835,
+        "length": 11105,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_mhr_hover.png": [
+      {
+        "offset": 181386957,
+        "length": 13415,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_mhr_idle.png": [
+      {
+        "offset": 181400389,
+        "length": 13107,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_mhr_selected.png": [
+      {
+        "offset": 181413513,
+        "length": 13055,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ode_hover.png": [
+      {
+        "offset": 181426585,
+        "length": 12791,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ode_idle.png": [
+      {
+        "offset": 181439393,
+        "length": 12445,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_ode_selected.png": [
+      {
+        "offset": 181451855,
+        "length": 12103,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_rnk_hover.png": [
+      {
+        "offset": 181463975,
+        "length": 12875,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_rnk_idle.png": [
+      {
+        "offset": 181476867,
+        "length": 12557,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_rnk_selected.png": [
+      {
+        "offset": 181489441,
+        "length": 12408,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_sca_hover.png": [
+      {
+        "offset": 181501866,
+        "length": 10908,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_sca_idle.png": [
+      {
+        "offset": 181512791,
+        "length": 10638,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_sca_selected.png": [
+      {
+        "offset": 181523446,
+        "length": 10476,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_scene_replay_DS_01_hover.png": [
+      {
+        "offset": 181533939,
+        "length": 183590,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_scene_replay_DS_01_idle.png": [
+      {
+        "offset": 181717546,
+        "length": 95711,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_scene_replay_DS_02_hover.png": [
+      {
+        "offset": 181813274,
+        "length": 174492,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_scene_replay_DS_02_idle.png": [
+      {
+        "offset": 181987783,
+        "length": 96129,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_scene_replay_DS_03_hover.png": [
+      {
+        "offset": 182083929,
+        "length": 174426,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_scene_replay_DS_03_idle.png": [
+      {
+        "offset": 182258372,
+        "length": 96168,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_scene_replay_DS_04_hover.png": [
+      {
+        "offset": 182354557,
+        "length": 183899,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_scene_replay_DS_04_idle.png": [
+      {
+        "offset": 182538473,
+        "length": 96504,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_scene_replay_DS_05_hover.png": [
+      {
+        "offset": 182634994,
+        "length": 183987,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_scene_replay_DS_05_idle.png": [
+      {
+        "offset": 182818998,
+        "length": 96542,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_scene_replay_DS_06_hover.png": [
+      {
+        "offset": 182915557,
+        "length": 183887,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_scene_replay_DS_06_idle.png": [
+      {
+        "offset": 183099461,
+        "length": 96504,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_scene_replay_DS_07-1_hover.png": [
+      {
+        "offset": 183195982,
+        "length": 174327,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_scene_replay_DS_07-1_idle.png": [
+      {
+        "offset": 183370326,
+        "length": 95993,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_scene_replay_DS_07-2_hover.png": [
+      {
+        "offset": 183466336,
+        "length": 174281,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_scene_replay_DS_07-2_idle.png": [
+      {
+        "offset": 183640634,
+        "length": 95664,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_scene_replay_DS_08_hover.png": [
+      {
+        "offset": 183736315,
+        "length": 183669,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_scene_replay_DS_08_idle.png": [
+      {
+        "offset": 183920001,
+        "length": 96320,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_scene_replay_DS_09-1_hover.png": [
+      {
+        "offset": 184016338,
+        "length": 174873,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_scene_replay_DS_09-1_idle.png": [
+      {
+        "offset": 184191228,
+        "length": 96401,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_scene_replay_DS_09-2_hover.png": [
+      {
+        "offset": 184287646,
+        "length": 174839,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_scene_replay_DS_09-2_idle.png": [
+      {
+        "offset": 184462502,
+        "length": 96412,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_scene_replay_DS_10_hover.png": [
+      {
+        "offset": 184558931,
+        "length": 184131,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_scene_replay_DS_10_idle.png": [
+      {
+        "offset": 184743079,
+        "length": 96705,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_scene_replay_DS_11-1_hover.png": [
+      {
+        "offset": 184839801,
+        "length": 174844,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_scene_replay_DS_11-1_idle.png": [
+      {
+        "offset": 185014662,
+        "length": 96409,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_scene_replay_DS_11-2_hover.png": [
+      {
+        "offset": 185111088,
+        "length": 174789,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_scene_replay_DS_11-2_idle.png": [
+      {
+        "offset": 185285894,
+        "length": 96375,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_scene_replay_DS_11-3_hover.png": [
+      {
+        "offset": 185382286,
+        "length": 174790,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_scene_replay_DS_11-3_idle.png": [
+      {
+        "offset": 185557093,
+        "length": 96382,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_scene_replay_DS_12_hover.png": [
+      {
+        "offset": 185653492,
+        "length": 214337,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_scene_replay_DS_12_idle.png": [
+      {
+        "offset": 185867846,
+        "length": 101595,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_scene_replay_DS_nodata_karipng.png": [
+      {
+        "offset": 185969458,
+        "length": 29979,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_sig_hover.png": [
+      {
+        "offset": 185999454,
+        "length": 11579,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_sig_idle.png": [
+      {
+        "offset": 186011050,
+        "length": 11278,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_sig_selected.png": [
+      {
+        "offset": 186022345,
+        "length": 11203,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_son_hover.png": [
+      {
+        "offset": 186033565,
+        "length": 11802,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_son_idle.png": [
+      {
+        "offset": 186045384,
+        "length": 11540,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_son_selected.png": [
+      {
+        "offset": 186056941,
+        "length": 11627,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_unk.png": [
+      {
+        "offset": 186068585,
+        "length": 1253,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_yuu_hover.png": [
+      {
+        "offset": 186069855,
+        "length": 13530,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_yuu_idle.png": [
+      {
+        "offset": 186083402,
+        "length": 13248,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumb_yuu_selected.png": [
+      {
+        "offset": 186096667,
+        "length": 12871,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumbnail_ecg_nodata.png": [
+      {
+        "offset": 173274492,
+        "length": 22486,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumbnail_no_arrival_bad.png": [
+      {
+        "offset": 173296995,
+        "length": 18946,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumbnail_no_arrival_good.png": [
+      {
+        "offset": 173315958,
+        "length": 30153,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumbnail_no_data_sentei.png": [
+      {
+        "offset": 173346128,
+        "length": 27179,
+        "prefix_length": 0
+      }
+    ],
+    "gui/thumbnail_save_nodata.png": [
+      {
+        "offset": 173373324,
+        "length": 13351,
+        "prefix_length": 0
+      }
+    ],
+    "gui/title_001.png": [
+      {
+        "offset": 186109555,
+        "length": 3702900,
+        "prefix_length": 0
+      }
+    ],
+    "gui/title_002.png": [
+      {
+        "offset": 189812472,
+        "length": 3704043,
+        "prefix_length": 0
+      }
+    ],
+    "gui/title_003.png": [
+      {
+        "offset": 193516532,
+        "length": 1565826,
+        "prefix_length": 0
+      }
+    ],
+    "gui/title_004.png": [
+      {
+        "offset": 195082375,
+        "length": 1378189,
+        "prefix_length": 0
+      }
+    ],
+    "gui/title_005.png": [
+      {
+        "offset": 196460581,
+        "length": 805350,
+        "prefix_length": 0
+      }
+    ],
+    "gui/title_006.png": [
+      {
+        "offset": 197265948,
+        "length": 1061657,
+        "prefix_length": 0
+      }
+    ],
+    "gui/title_007.png": [
+      {
+        "offset": 198327622,
+        "length": 68560,
+        "prefix_length": 0
+      }
+    ],
+    "gui/title_008.png": [
+      {
+        "offset": 198396199,
+        "length": 29363,
+        "prefix_length": 0
+      }
+    ],
+    "gui/title_009.png": [
+      {
+        "offset": 198425579,
+        "length": 74913,
+        "prefix_length": 0
+      }
+    ],
+    "gui/title_010.png": [
+      {
+        "offset": 198500509,
+        "length": 74393,
+        "prefix_length": 0
+      }
+    ],
+    "gui/title_011.png": [
+      {
+        "offset": 198574919,
+        "length": 35823,
+        "prefix_length": 0
+      }
+    ],
+    "gui/title_012.png": [
+      {
+        "offset": 198610759,
+        "length": 31840,
+        "prefix_length": 0
+      }
+    ],
+    "gui/title_013.png": [
+      {
+        "offset": 198642616,
+        "length": 31280,
+        "prefix_length": 0
+      }
+    ],
+    "gui/title_014.png": [
+      {
+        "offset": 198673913,
+        "length": 31850,
+        "prefix_length": 0
+      }
+    ],
+    "gui/title_015.png": [
+      {
+        "offset": 198705780,
+        "length": 252191,
+        "prefix_length": 0
+      }
+    ],
+    "gui/title_button_bg_hover.png": [
+      {
+        "offset": 198957988,
+        "length": 1876,
+        "prefix_length": 0
+      }
+    ],
+    "gui/title_particle.png": [
+      {
+        "offset": 198959881,
+        "length": 362,
+        "prefix_length": 0
+      }
+    ],
+    "images.rpyc": [
+      {
+        "offset": 198983822,
+        "length": 53214,
+        "prefix_length": 0
+      }
+    ],
+    "options.rpyc": [
+      {
+        "offset": 199037053,
+        "length": 5350,
+        "prefix_length": 0
+      }
+    ],
+    "screens.rpyc": [
+      {
+        "offset": 199042420,
+        "length": 84502,
+        "prefix_length": 0
+      }
+    ],
+    "script.rpyc": [
+      {
+        "offset": 199126939,
+        "length": 43598,
+        "prefix_length": 0
+      }
+    ],
+    "transforms.rpyc": [
+      {
+        "offset": 199170554,
+        "length": 16108,
+        "prefix_length": 0
+      }
+    ],
+    "transitions.rpyc": [
+      {
+        "offset": 199186679,
+        "length": 10916,
+        "prefix_length": 0
+      }
+    ]
+  }
+}

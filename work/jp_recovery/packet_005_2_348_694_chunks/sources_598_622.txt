@@ -1,0 +1,25 @@
+598	L2492	dialogue	yuu	「お馬さんを見たり、ボートも見たりした」
+599	L2497	dialogue	ushizuka	「……こほん」
+600	L2502	dialogue	yuu	「何より……独りぼっちのボクを助けてくれた。記憶がない不安よりも、この家にいられる安心の方が大きいよ」
+601	L2504	narration	narrator	女神の選定が始まってから、一ヵ月以上が経過している。
+602	L2506	narration	narrator	その時間のほとんどを、彼らは一緒に過ごしてきたのだ。
+603	L2508	narration	narrator	歪な形かもしれない。
+604	L2510	narration	narrator	だがそれは茂継にとっても、紛れもない家族の形。
+605	L2515	dialogue	ushizuka	「ユウ……わしはお前を家族だと思っておる」
+606	L2520	dialogue	yuu	「ボクも、そうだよ！　おじいちゃんはボクの唯一の家族だ！」
+607	L2522	narration	narrator	今は、とか、日本での、とか、そういった枕詞をユウはつけなかった。
+608	L2524	narration	narrator	自分の本来の記憶なんて、どうでもよかったのだ。
+609	L2526	narration	narrator	そのことが、ユウの言葉が本心からのものであることを強く証明していた。
+610	L2531	dialogue	ushizuka	「じゃが、わしは死ぬ」
+611	L2536	dialogue	ushizuka	「お前たち若い連中は、運命の悪戯のようなもので、本来の寿命よりも随分早くに命を落としてしまったんじゃろうが、わしは違う」
+612	L2541	dialogue	ushizuka	「あの日、腰を痛めなかったとしても、もう老い先は長くなかったんじゃ」
+613	L2546	dialogue	ushizuka	「わしの願いは、できるだけ長くお前と過ごすことじゃった……」
+614	L2551	dialogue	ushizuka	「ささやかな願いじゃった。だからこそ、必死に生きようとする者たちに拒まれたんじゃ」
+615	L2556	dialogue	yuu	「分からないよ、難しくって……ボクにはおじいちゃんが言っていることが分からない！」
+616	L2561	dialogue	ushizuka	「……ユウ。これからの生き方は、お前が決めるんじゃ」
+617	L2566	dialogue	yuu	「……ボク、が？」
+618	L2571	dialogue	ushizuka	「ああ。生きたいと思うんじゃったら、選定を勝ち残るんじゃ」
+619	L2576	dialogue	ushizuka	「思わない――そう思えないんじゃったら、わしは止めはせん」
+620	L2581	dialogue	yuu	「決められないよ。ボクは、そんなもの！」
+621	L2586	dialogue	ushizuka	「決めねばならんのじゃ。わしは数日後にはもう、死んだことになっているんじゃからな」
+622	L2591	dialogue	yuu	「嫌だ……嫌だよ……。おじいちゃん……！」

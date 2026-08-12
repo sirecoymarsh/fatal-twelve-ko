@@ -1,0 +1,752 @@
+{
+  "schema_version": "fatal-twelve-global-correction-manifest-validation-v1",
+  "generated_at_utc": "2026-08-11T07:12:53.679911+00:00",
+  "manifest": {
+    "path": "work/final_qa/reviews/global_correction_manifest.json",
+    "sha256": "34118e49cbe5cc253a90f883db81d0fdca0eede8b128eeea3340f347d852e902"
+  },
+  "summary": {
+    "correction_files": 18,
+    "scenario_count": 29,
+    "scenario_master_records": 18184,
+    "scenario_corrections": 2472,
+    "system_ui_master_records": 732,
+    "system_ui_corrections": 167,
+    "expected_render_global_string_old_keys": 797,
+    "total_unique_corrections": 2639,
+    "duplicate_stable_ids": 0,
+    "duplicate_script_sequences": 0,
+    "historical_component_conflicts_materialized": 4,
+    "exact_old_guard_failures": 0,
+    "structural_overlay_records": 178,
+    "structural_overlay_failures": 0,
+    "record_bound_approvals": 10,
+    "scenario_preflight_approved_issues": 8,
+    "scenario_preflight_unapproved_issues": 0,
+    "unused_scenario_approvals": 0,
+    "supplemental_string_pairs": 12,
+    "verdict": "PASS"
+  },
+  "correction_file_inventory": [
+    {
+      "reviewer": "A",
+      "path": "work/final_qa/reviews/A.001.consolidated.corrections.jsonl",
+      "sha256": "b3f00f01f1c05bd51650b974f48375f8c679ac02e0dc15d0bb930c27637ab7e5",
+      "records": 299,
+      "scripts": {
+        "001": 299
+      }
+    },
+    {
+      "reviewer": "A",
+      "path": "work/final_qa/reviews/A.002.consolidated.corrections.jsonl",
+      "sha256": "e3cd57857df535608aabece52aab21c9ad5bc113ee8da866301d2775cfc0895c",
+      "records": 46,
+      "scripts": {
+        "002": 46
+      }
+    },
+    {
+      "reviewer": "A",
+      "path": "work/final_qa/reviews/A.003_004.consolidated.corrections.jsonl",
+      "sha256": "09b0c8cfb9c4f68bec2b610b3eb8c5fef95ad795154ba5add686444b89d4465c",
+      "records": 195,
+      "scripts": {
+        "003": 142,
+        "004": 53
+      }
+    },
+    {
+      "reviewer": "A",
+      "path": "work/final_qa/reviews/A.endings.consolidated.corrections.jsonl",
+      "sha256": "b52101dd7b0847bd776114b05893df5c103f4bc39b9377a2e52787ced6caeedc",
+      "records": 26,
+      "scripts": {
+        "BAD_END_01": 2,
+        "BAD_END_02": 7,
+        "BAD_END_04": 2,
+        "TRUE_END": 6,
+        "UNHAPPY_END": 9
+      }
+    },
+    {
+      "reviewer": "A",
+      "path": "work/final_qa/reviews/A.manual.system_ui.corrections.jsonl",
+      "sha256": "b50acda02042e218d6a59c0568d90a119663cc438fd7a82492e968fc96b2206e",
+      "records": 167,
+      "scripts": {
+        "system_ui": 167
+      }
+    },
+    {
+      "reviewer": "B",
+      "path": "work/final_qa/reviews/B.005_1_005_2_006.consolidated.corrections.jsonl",
+      "sha256": "2afff9a3f4dd22a9e3ee6ccadb3e5a20303a74c38622043511b1f69054a495c2",
+      "records": 320,
+      "scripts": {
+        "005_1": 165,
+        "005_2": 88,
+        "006": 67
+      }
+    },
+    {
+      "reviewer": "C",
+      "path": "work/final_qa/reviews/C.007_1_007_2.consolidated.corrections.jsonl",
+      "sha256": "1301660b246fb614d438193dd5c56995520460022c257f7144121414c31834fe",
+      "records": 297,
+      "scripts": {
+        "007_1": 153,
+        "007_2": 144
+      }
+    },
+    {
+      "reviewer": "C",
+      "path": "work/final_qa/reviews/C.008.consolidated.corrections.jsonl",
+      "sha256": "73f771a5bb9a9153d8894a0de30e2831b98db06705a03690a0227204126837f6",
+      "records": 219,
+      "scripts": {
+        "008": 219
+      }
+    },
+    {
+      "reviewer": "C",
+      "path": "work/final_qa/reviews/C.011_01.consolidated.corrections.jsonl",
+      "sha256": "41154cd46037523d74e65b610d881d16d111fc2f2c58a8a359a2213a1520c398",
+      "records": 37,
+      "scripts": {
+        "011_01": 37
+      }
+    },
+    {
+      "reviewer": "C",
+      "path": "work/final_qa/reviews/C.011_01FGH.consolidated.corrections.jsonl",
+      "sha256": "79b27a0630cdcc7aaa88b4498dc49125b5042eb8bbd58811dd6073a4dd7b51bb",
+      "records": 59,
+      "scripts": {
+        "011_01F": 23,
+        "011_01G": 26,
+        "011_01H": 10
+      }
+    },
+    {
+      "reviewer": "C",
+      "path": "work/final_qa/reviews/C.NG_plus.consolidated.corrections.jsonl",
+      "sha256": "2972745b27800a86236d5b6c5469531089045f40b0ada1a37accb2334b94ed9f",
+      "records": 28,
+      "scripts": {
+        "NG_plus": 28
+      }
+    },
+    {
+      "reviewer": "ROOT",
+      "path": "work/final_qa/reviews/ROOT.009.consolidated.corrections.jsonl",
+      "sha256": "9ff4e3b2e94cdcb7a5dda01ab6d464bc1435ec69f24b128611d3392da6112dec",
+      "records": 219,
+      "scripts": {
+        "009": 219
+      }
+    },
+    {
+      "reviewer": "ROOT",
+      "path": "work/final_qa/reviews/ROOT.010.consolidated.corrections.jsonl",
+      "sha256": "6cf6fbef246f87a9b94a15560edced4e07aadf614880967e23d7a056ce145735",
+      "records": 409,
+      "scripts": {
+        "010": 409
+      }
+    },
+    {
+      "reviewer": "ROOT",
+      "path": "work/final_qa/reviews/ROOT.011_02_and_GH.consolidated.corrections.jsonl",
+      "sha256": "16d5ebea6db3a473ba6c0a5f768a9053b2dfec47dd28d0f1bd0746f05d8d17b6",
+      "records": 54,
+      "scripts": {
+        "011_02": 11,
+        "011_02GH": 43
+      }
+    },
+    {
+      "reviewer": "ROOT",
+      "path": "work/final_qa/reviews/ROOT.012_01F.consolidated.corrections.jsonl",
+      "sha256": "2fa4183bb1da6825c907534bc78a172c216ad6af9c349ed4c89850032468760c",
+      "records": 153,
+      "scripts": {
+        "012_01F": 153
+      }
+    },
+    {
+      "reviewer": "ROOT",
+      "path": "work/final_qa/reviews/ROOT.012_01GH.consolidated.corrections.jsonl",
+      "sha256": "fcbec6f68ed36808f550a72dceb2453e4c43dffd1d499e7c61c4149c31e152f0",
+      "records": 46,
+      "scripts": {
+        "012_01GH": 46
+      }
+    },
+    {
+      "reviewer": "ROOT",
+      "path": "work/final_qa/reviews/ROOT.012_02.consolidated.corrections.jsonl",
+      "sha256": "57ed361e4586a81f5658594a9167e8aa3db501c9bf011f0ca23d5c0efca34b1a",
+      "records": 23,
+      "scripts": {
+        "012_02": 23
+      }
+    },
+    {
+      "reviewer": "ROOT",
+      "path": "work/final_qa/reviews/ROOT.base_numeric_token_fixes.corrections.jsonl",
+      "sha256": "83485334dda42788efd0b67255fd900c72990c251b93006e44debc76abd29a39",
+      "records": 42,
+      "scripts": {
+        "002": 5,
+        "003": 1,
+        "004": 10,
+        "008": 11,
+        "011_02": 8,
+        "BAD_END_01": 2,
+        "BAD_END_02": 1,
+        "BAD_END_04": 1,
+        "MIHARU_END": 1,
+        "TRUE_END": 1,
+        "UNHAPPY_END": 1
+      }
+    }
+  ],
+  "per_script_correction_counts": {
+    "001": 299,
+    "002": 51,
+    "003": 143,
+    "004": 63,
+    "005_1": 165,
+    "005_2": 88,
+    "006": 67,
+    "007_1": 153,
+    "007_2": 144,
+    "008": 230,
+    "009": 219,
+    "010": 409,
+    "011_01": 37,
+    "011_01F": 23,
+    "011_01G": 26,
+    "011_01H": 10,
+    "011_02": 19,
+    "011_02GH": 43,
+    "012_01F": 153,
+    "012_01GH": 46,
+    "012_02": 23,
+    "BAD_END_01": 4,
+    "BAD_END_02": 8,
+    "BAD_END_04": 3,
+    "MIHARU_END": 1,
+    "NG_plus": 28,
+    "TRUE_END": 7,
+    "UNHAPPY_END": 10,
+    "system_ui": 167
+  },
+  "master_inventory": {
+    "001": {
+      "path": "work/final_qa/output/masters/scenario_001.master.json",
+      "sha256": "4fdebbdc7814689a10aa399ab98182841a69297792d724c920a3d11aead10b11",
+      "records": 844,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "002": {
+      "path": "work/final_qa/output/masters/scenario_002.master.json",
+      "sha256": "e67a1f0695b56bca521c0ae681fc446283a84607e94a4e983dec6de692ece4c6",
+      "records": 668,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "003": {
+      "path": "work/final_qa/output/masters/scenario_003.master.json",
+      "sha256": "efbf28251b8adae4816ddf0adeaf7a62810499d3a52a21559faf05c6d0455e11",
+      "records": 1526,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "004": {
+      "path": "work/final_qa/output/masters/scenario_004.master.json",
+      "sha256": "3aa02e473877c09fe4650f8c7fbfccfd17a54fee35320bb254271cc81e5b422d",
+      "records": 1067,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "005_1": {
+      "path": "work/final_qa/output/masters/scenario_005_1.master.json",
+      "sha256": "1612088a8ba3f209f6584f92af060933fbce5c1929c3f1160bb2a06287b0ff59",
+      "records": 1657,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "005_2": {
+      "path": "work/final_qa/output/masters/scenario_005_2.master.json",
+      "sha256": "9bd9b53edbed8760f230caac9df10c9395e6f736bb588267eba21aa740dbecf9",
+      "records": 1042,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "006": {
+      "path": "work/final_qa/output/masters/scenario_006.master.json",
+      "sha256": "aeef3280cb1a95332c172ed48ca99cdf24e99469006e8cbdf2d672fa730d55a2",
+      "records": 755,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "007_1": {
+      "path": "work/final_qa/output/masters/scenario_007_1.master.json",
+      "sha256": "ed7665e80d7e30f1b02d2a8f59364d2589b38350183d6cee98c5e681eaad4400",
+      "records": 1063,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "007_2": {
+      "path": "work/final_qa/output/masters/scenario_007_2.master.json",
+      "sha256": "3b0fc00333a10d37c3775c8295ac19fb1b2355f866a8080f40ea0fc23ba3cb6d",
+      "records": 1471,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "008": {
+      "path": "work/final_qa/output/masters/scenario_008.master.json",
+      "sha256": "a7ec09ab4a69e908b46a3f97a6a54d6f7f57c972ef9ab5625911c3ba873f46a2",
+      "records": 1500,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "009": {
+      "path": "work/final_qa/output/masters/scenario_009.master.json",
+      "sha256": "de7771674e6e4a77df70194b7aff9ee7662da7993ec0ec0db476911020816911",
+      "records": 1588,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "010": {
+      "path": "work/final_qa/output/masters/scenario_010.master.json",
+      "sha256": "c0d0ac82b27f2a3ba9190a865d3250da9d7d74eea3092ada54c7dc3f2bc62631",
+      "records": 1337,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "011_01": {
+      "path": "work/final_qa/output/masters/scenario_011_01.master.json",
+      "sha256": "2fdc8632b63e73b5df4b9ad57d0d41b3684934968728c46689f96ed7a9917567",
+      "records": 408,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "011_01F": {
+      "path": "work/final_qa/output/masters/scenario_011_01F.master.json",
+      "sha256": "99e894449ed17ec84ebed2cdc0337c1520003de6dcc395c61b40c017dd5deaf2",
+      "records": 210,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "011_01G": {
+      "path": "work/final_qa/output/masters/scenario_011_01G.master.json",
+      "sha256": "baa9771051c79a07c5ed0b23a5dc8063b92c33a409c07c2091f282c532e883f9",
+      "records": 192,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "011_01H": {
+      "path": "work/final_qa/output/masters/scenario_011_01H.master.json",
+      "sha256": "f7fbcf20f0b86ff137374784062bdd5d250c2d22c620d3e4814c423b4862a3dd",
+      "records": 63,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "011_02": {
+      "path": "work/final_qa/output/masters/scenario_011_02.master.json",
+      "sha256": "6fe2cf3d00249edaae358d58018dd10a9e72bbadd25b8bb3a6c69a4a1bcd0538",
+      "records": 131,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "011_02GH": {
+      "path": "work/final_qa/output/masters/scenario_011_02GH.master.json",
+      "sha256": "bebe77e1833c99bd283fa04ad0efcb5e0992c42914710ae356b0b42d6a5a094c",
+      "records": 325,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "012_01F": {
+      "path": "work/final_qa/output/masters/scenario_012_01F.master.json",
+      "sha256": "03ca810fbd92741b4ddc824aad7bc3154b0dc89d78b64d7b1fcddc043d784214",
+      "records": 1190,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "012_01GH": {
+      "path": "work/final_qa/output/masters/scenario_012_01GH.master.json",
+      "sha256": "41e4baab3dcbfe987942d15a197cbaca061817b963af8d8a92a19b5dd60d3946",
+      "records": 313,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "012_02": {
+      "path": "work/final_qa/output/masters/scenario_012_02.master.json",
+      "sha256": "f94a6d209e47fbfb9cecc78fdca754a0adc9928f8b50e6c3f436741403aacd4e",
+      "records": 209,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "BAD_END_01": {
+      "path": "work/final_qa/output/masters/scenario_BAD_END_01.master.json",
+      "sha256": "b5e027eb04766570d6862fdb7b2d562c2fea8b82e7490ba90022ee2b6da4ca21",
+      "records": 58,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "BAD_END_02": {
+      "path": "work/final_qa/output/masters/scenario_BAD_END_02.master.json",
+      "sha256": "d74f378bc5a52f8ee727d55b5a44950ab86bca80a5ef6b12d5c6b6f1beb93809",
+      "records": 80,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "BAD_END_03": {
+      "path": "work/final_qa/output/masters/scenario_BAD_END_03.master.json",
+      "sha256": "2e002066815a41f88fcdb5c08acd329954f47545a088c7a43f378304a43c7c53",
+      "records": 21,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "BAD_END_04": {
+      "path": "work/final_qa/output/masters/scenario_BAD_END_04.master.json",
+      "sha256": "4cfc371be6372580eddc4afad4ed7e8462597b3d9450e7d9ef761e13713ffb57",
+      "records": 43,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "MIHARU_END": {
+      "path": "work/final_qa/output/masters/scenario_MIHARU_END.master.json",
+      "sha256": "4a92769aab61ed330586c5847f0ac24f11fc8594ba26fce49134e7b3bdc1c276",
+      "records": 26,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "NG_plus": {
+      "path": "work/final_qa/output/masters/scenario_NG_plus.master.json",
+      "sha256": "2c137ca61b7d052065f6e50748f38dae7b6a06bdc695fe469f63c28fb30c0b50",
+      "records": 185,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "TRUE_END": {
+      "path": "work/final_qa/output/masters/scenario_TRUE_END.master.json",
+      "sha256": "3ccf081b268f01c5c147af158855b9a1c69511a84dd43bf3d6e1724b486f35cf",
+      "records": 125,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "UNHAPPY_END": {
+      "path": "work/final_qa/output/masters/scenario_UNHAPPY_END.master.json",
+      "sha256": "851c809d36b6efd089f2eac5e82df84c00ff225345f95c77d9c670c46e4e0a73",
+      "records": 87,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    },
+    "system_ui": {
+      "path": "work/final_qa/output/masters/system_ui.master.json",
+      "sha256": "f1b514e5da065b38883f7e3b2489999127b108d4e12728acac4d6f05359e9726",
+      "records": 732,
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false
+    }
+  },
+  "duplicate_conflict_ledger": [],
+  "materialized_component_conflict_history": {
+    "source_report": {
+      "path": "work/final_qa/reviews/ROOT.011_02_and_GH.consolidated.report.json",
+      "sha256": "dfae4504e2d6c0605bc9be579d88df7a42dab3ea7c1d794d3dab7d54925e7627"
+    },
+    "records": [
+      {
+        "script": "011_02GH",
+        "sequence": 41,
+        "stable_id": "scenario.rpa::scenario/011_02GH.rpy::tid::f011_02GH_965a5dba",
+        "old_ko": "지금까지 지명할 때와 달리 나는 빠른 말로 ３가지 정보를 입에 담았다.",
+        "seed_new_ko": "지금까지 지명할 때와 달리 나는 빠른 말로 3가지 정보를 입에 담았다.",
+        "manual_final_new_ko": "지금까지 지명할 때와 달리 나는 3가지 정보를 빠르게 말했다.",
+        "resolution": "manual final wins and already includes seed typography"
+      },
+      {
+        "script": "011_02GH",
+        "sequence": 86,
+        "stable_id": "scenario.rpa::scenario/011_02GH.rpy::tid::f011_02GH_ce80a050",
+        "old_ko": "「너와 특별한 관계가 된 ３일. 이별이 가깝다고 생각하니 무척 밀도 높은 시간이었어」",
+        "seed_new_ko": "「너와 특별한 관계가 된 3일. 이별이 가깝다고 생각하니 무척 밀도 높은 시간이었어」",
+        "manual_final_new_ko": "「너와 특별한 관계로 지낸 3일. 이별이 머지않았다고 생각하니, 그 시간은 무척 짙고 충만했어」",
+        "resolution": "manual final wins and already includes seed typography"
+      },
+      {
+        "script": "011_02GH",
+        "sequence": 91,
+        "stable_id": "scenario.rpa::scenario/011_02GH.rpy::tid::f011_02GH_7e9b72a2",
+        "old_ko": "「괜찮아, 린카. 선정이 시작된 뒤 약 ３개월을 살아온 내 기억은 너한테만 남아. 린카만 아는 내가 있어. 그것을 상상하는 것만으로도 무척 행복해」",
+        "seed_new_ko": "「괜찮아, 린카. 선정이 시작된 뒤 약 3개월을 살아온 내 기억은 너한테만 남아. 린카만 아는 내가 있어. 그것을 상상하는 것만으로도 무척 행복해」",
+        "manual_final_new_ko": "「괜찮아, 린카. 선정이 시작된 뒤 약 3개월 동안 살아온 나에 대한 기억은 너한테만 남아. 린카만 아는 내가 있어. 그것을 상상하는 것만으로도 무척 행복해」",
+        "resolution": "manual final wins and already includes seed typography"
+      },
+      {
+        "script": "011_02GH",
+        "sequence": 93,
+        "stable_id": "scenario.rpa::scenario/011_02GH.rpy::tid::f011_02GH_f7320cfc",
+        "old_ko": "３장의 카드는 멈추지 않고 운명의 대회랑 중심에서 정지했다.",
+        "seed_new_ko": "3장의 카드는 멈추지 않고 운명의 대회랑 중심에서 정지했다.",
+        "manual_final_new_ko": "3장의 카드는 한 번도 멈추지 않고 움직여 운명의 대회랑 중심에서 멈췄다.",
+        "resolution": "manual final wins and already includes seed typography"
+      }
+    ]
+  },
+  "structural_overlay": {
+    "path": "work/final_qa/reviews/structural_fixes_spec.json",
+    "sha256": "1b97f3984fa3f1d01eaaad3dd2b98aa196d6739fa1934b16e14235313bd629f5",
+    "records": 178,
+    "by_transform": {
+      "quote_style": 123,
+      "width_style": 44,
+      "proper_name": 1,
+      "frozen_term": 10
+    },
+    "failures": []
+  },
+  "record_bound_approvals": {
+    "path": "work/final_qa/reviews/qa_approvals.draft.json",
+    "sha256": "5639258e18ea34826c9800ee3bc118ec1633de38b8824c4f77d7da4688d2be23",
+    "records": 10,
+    "verification": [
+      {
+        "script": "001",
+        "sequence": 374,
+        "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s1_end_3f7863e1",
+        "rule_id": "GLOSSARY_MISMATCH",
+        "source_target_hash_guard_pass": true
+      },
+      {
+        "script": "002",
+        "sequence": 202,
+        "stable_id": "scenario.rpa::scenario/002.rpy::tid::f002_5ba6ff96",
+        "rule_id": "GLOSSARY_MISMATCH",
+        "source_target_hash_guard_pass": true
+      },
+      {
+        "script": "004",
+        "sequence": 53,
+        "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_26d57359",
+        "rule_id": "RESIDUAL_HANJA",
+        "source_target_hash_guard_pass": true
+      },
+      {
+        "script": "004",
+        "sequence": 57,
+        "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_ee6737b0",
+        "rule_id": "RESIDUAL_HANJA",
+        "source_target_hash_guard_pass": true
+      },
+      {
+        "script": "004",
+        "sequence": 529,
+        "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s2_end_d2d3ac84",
+        "rule_id": "GLOSSARY_MISMATCH",
+        "source_target_hash_guard_pass": true
+      },
+      {
+        "script": "007_1",
+        "sequence": 269,
+        "stable_id": "scenario.rpa::scenario/007_1.rpy::tid::f007_1_a2f320a9",
+        "rule_id": "TARGET_QUOTE_UNBALANCED",
+        "source_target_hash_guard_pass": true
+      },
+      {
+        "script": "007_2",
+        "sequence": 61,
+        "stable_id": "scenario.rpa::scenario/007_2.rpy::tid::f007_2_b28c38e7",
+        "rule_id": "NO_HANGUL",
+        "source_target_hash_guard_pass": true
+      },
+      {
+        "script": "011_02",
+        "sequence": 124,
+        "stable_id": "scenario.rpa::scenario/011_02.rpy::tid::sentei11_0f96b932",
+        "rule_id": "TARGET_QUOTE_UNBALANCED",
+        "source_target_hash_guard_pass": true
+      },
+      {
+        "script": "system_ui",
+        "sequence": 49,
+        "stable_id": "system-ui::3456a48299cee975d9b500fc",
+        "rule_id": "INTERPOLATION_REORDER",
+        "source_target_hash_guard_pass": true
+      },
+      {
+        "script": "system_ui",
+        "sequence": 272,
+        "stable_id": "system-ui::b175bcc2a09ed2b21f77613f",
+        "rule_id": "JP_QUOTE_STYLE",
+        "source_target_hash_guard_pass": true
+      }
+    ],
+    "approved_scenario_issues": [
+      {
+        "script": "001",
+        "sequence": 374,
+        "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s1_end_3f7863e1",
+        "rule_id": "GLOSSARY_MISMATCH",
+        "source_sha256": "56ddb198089652908b39194c2023daa6ee877af7a56cbba597869e66ffadfa2e",
+        "target_sha256": "bd5a4878b0dc661ad24c903ac029a4f864a9fa4d129eb28951f228e3640873b0"
+      },
+      {
+        "script": "002",
+        "sequence": 202,
+        "stable_id": "scenario.rpa::scenario/002.rpy::tid::f002_5ba6ff96",
+        "rule_id": "GLOSSARY_MISMATCH",
+        "source_sha256": "d8a2a911a3aaca4e898b8e301a88935988b84766d6cdd1997eefede325fa98a8",
+        "target_sha256": "368d19bdf058acab78ce5a258f66d3905f07a59149c1b2a8ab97b84e8e91733e"
+      },
+      {
+        "script": "004",
+        "sequence": 53,
+        "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_26d57359",
+        "rule_id": "RESIDUAL_HANJA",
+        "source_sha256": "24e01e0ca734f4e5ba7fb39bbce3eeb8129afc718f28b202800cf2541f260cb3",
+        "target_sha256": "2505c16e16825ecbe1e48444b0f8fc1e9b2a6d1b4e0753b6b3ca46c09addac35"
+      },
+      {
+        "script": "004",
+        "sequence": 57,
+        "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_ee6737b0",
+        "rule_id": "RESIDUAL_HANJA",
+        "source_sha256": "aaa63f5d4d84301eccf451f0a8ce426a23cd70c827fa786a793fef7314ae0b88",
+        "target_sha256": "fcbd4fe542418c50df1ae370f87427c6508b03d9f9a0f207bed0c2bff7838797"
+      },
+      {
+        "script": "004",
+        "sequence": 529,
+        "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s2_end_d2d3ac84",
+        "rule_id": "GLOSSARY_MISMATCH",
+        "source_sha256": "024d99a7191a3479cf96a29bd257abb3361fdc70e2e179a4583a0917c614076e",
+        "target_sha256": "aa53468a0c042378f7468414fb01a0efec57c44a114ed00722d8fe9749a91f41"
+      },
+      {
+        "script": "007_1",
+        "sequence": 269,
+        "stable_id": "scenario.rpa::scenario/007_1.rpy::tid::f007_1_a2f320a9",
+        "rule_id": "TARGET_QUOTE_UNBALANCED",
+        "source_sha256": "5234491f07a1753d4a804df7f02895b47e2e7d97fbe66247c940a8bbf6888a25",
+        "target_sha256": "232433b0bbfb85390c5310f69fd54eb0c7cb454a874d4ce12572b8f7e571c40e"
+      },
+      {
+        "script": "007_2",
+        "sequence": 61,
+        "stable_id": "scenario.rpa::scenario/007_2.rpy::tid::f007_2_b28c38e7",
+        "rule_id": "NO_HANGUL",
+        "source_sha256": "3b0d050e4e989eed97a3ea46301a4e27b6187bc745218ac8c3c32b5b267dbc58",
+        "target_sha256": "c0185ac0ca5c1c11839c2778f9233530a75c0f325115ea4fe49d9d146aa129b2"
+      },
+      {
+        "script": "011_02",
+        "sequence": 124,
+        "stable_id": "scenario.rpa::scenario/011_02.rpy::tid::sentei11_0f96b932",
+        "rule_id": "TARGET_QUOTE_UNBALANCED",
+        "source_sha256": "8161142e074476f817b16b76126346de58fde2127724d7376e4c896182e22385",
+        "target_sha256": "2b3b6f40202d387a9fa43ffb707b886cec10af602c82d60a9e1fd833f88f2c6f"
+      }
+    ],
+    "unapproved_scenario_issues": [],
+    "unused_scenario_approvals": []
+  },
+  "selected_input_immutability": {
+    "sha256_before": {
+      "A.001.consolidated.corrections.jsonl": "b3f00f01f1c05bd51650b974f48375f8c679ac02e0dc15d0bb930c27637ab7e5",
+      "A.002.consolidated.corrections.jsonl": "e3cd57857df535608aabece52aab21c9ad5bc113ee8da866301d2775cfc0895c",
+      "A.003_004.consolidated.corrections.jsonl": "09b0c8cfb9c4f68bec2b610b3eb8c5fef95ad795154ba5add686444b89d4465c",
+      "A.endings.consolidated.corrections.jsonl": "b52101dd7b0847bd776114b05893df5c103f4bc39b9377a2e52787ced6caeedc",
+      "A.manual.system_ui.corrections.jsonl": "b50acda02042e218d6a59c0568d90a119663cc438fd7a82492e968fc96b2206e",
+      "B.005_1_005_2_006.consolidated.corrections.jsonl": "2afff9a3f4dd22a9e3ee6ccadb3e5a20303a74c38622043511b1f69054a495c2",
+      "C.007_1_007_2.consolidated.corrections.jsonl": "1301660b246fb614d438193dd5c56995520460022c257f7144121414c31834fe",
+      "C.008.consolidated.corrections.jsonl": "73f771a5bb9a9153d8894a0de30e2831b98db06705a03690a0227204126837f6",
+      "C.011_01.consolidated.corrections.jsonl": "41154cd46037523d74e65b610d881d16d111fc2f2c58a8a359a2213a1520c398",
+      "C.011_01FGH.consolidated.corrections.jsonl": "79b27a0630cdcc7aaa88b4498dc49125b5042eb8bbd58811dd6073a4dd7b51bb",
+      "C.NG_plus.consolidated.corrections.jsonl": "2972745b27800a86236d5b6c5469531089045f40b0ada1a37accb2334b94ed9f",
+      "ROOT.009.consolidated.corrections.jsonl": "9ff4e3b2e94cdcb7a5dda01ab6d464bc1435ec69f24b128611d3392da6112dec",
+      "ROOT.010.consolidated.corrections.jsonl": "6cf6fbef246f87a9b94a15560edced4e07aadf614880967e23d7a056ce145735",
+      "ROOT.011_02_and_GH.consolidated.corrections.jsonl": "16d5ebea6db3a473ba6c0a5f768a9053b2dfec47dd28d0f1bd0746f05d8d17b6",
+      "ROOT.012_01F.consolidated.corrections.jsonl": "2fa4183bb1da6825c907534bc78a172c216ad6af9c349ed4c89850032468760c",
+      "ROOT.012_01GH.consolidated.corrections.jsonl": "fcbec6f68ed36808f550a72dceb2453e4c43dffd1d499e7c61c4149c31e152f0",
+      "ROOT.012_02.consolidated.corrections.jsonl": "57ed361e4586a81f5658594a9167e8aa3db501c9bf011f0ca23d5c0efca34b1a",
+      "ROOT.base_numeric_token_fixes.corrections.jsonl": "83485334dda42788efd0b67255fd900c72990c251b93006e44debc76abd29a39"
+    },
+    "sha256_after": {
+      "A.001.consolidated.corrections.jsonl": "b3f00f01f1c05bd51650b974f48375f8c679ac02e0dc15d0bb930c27637ab7e5",
+      "A.002.consolidated.corrections.jsonl": "e3cd57857df535608aabece52aab21c9ad5bc113ee8da866301d2775cfc0895c",
+      "A.003_004.consolidated.corrections.jsonl": "09b0c8cfb9c4f68bec2b610b3eb8c5fef95ad795154ba5add686444b89d4465c",
+      "A.endings.consolidated.corrections.jsonl": "b52101dd7b0847bd776114b05893df5c103f4bc39b9377a2e52787ced6caeedc",
+      "A.manual.system_ui.corrections.jsonl": "b50acda02042e218d6a59c0568d90a119663cc438fd7a82492e968fc96b2206e",
+      "B.005_1_005_2_006.consolidated.corrections.jsonl": "2afff9a3f4dd22a9e3ee6ccadb3e5a20303a74c38622043511b1f69054a495c2",
+      "C.007_1_007_2.consolidated.corrections.jsonl": "1301660b246fb614d438193dd5c56995520460022c257f7144121414c31834fe",
+      "C.008.consolidated.corrections.jsonl": "73f771a5bb9a9153d8894a0de30e2831b98db06705a03690a0227204126837f6",
+      "C.011_01.consolidated.corrections.jsonl": "41154cd46037523d74e65b610d881d16d111fc2f2c58a8a359a2213a1520c398",
+      "C.011_01FGH.consolidated.corrections.jsonl": "79b27a0630cdcc7aaa88b4498dc49125b5042eb8bbd58811dd6073a4dd7b51bb",
+      "C.NG_plus.consolidated.corrections.jsonl": "2972745b27800a86236d5b6c5469531089045f40b0ada1a37accb2334b94ed9f",
+      "ROOT.009.consolidated.corrections.jsonl": "9ff4e3b2e94cdcb7a5dda01ab6d464bc1435ec69f24b128611d3392da6112dec",
+      "ROOT.010.consolidated.corrections.jsonl": "6cf6fbef246f87a9b94a15560edced4e07aadf614880967e23d7a056ce145735",
+      "ROOT.011_02_and_GH.consolidated.corrections.jsonl": "16d5ebea6db3a473ba6c0a5f768a9053b2dfec47dd28d0f1bd0746f05d8d17b6",
+      "ROOT.012_01F.consolidated.corrections.jsonl": "2fa4183bb1da6825c907534bc78a172c216ad6af9c349ed4c89850032468760c",
+      "ROOT.012_01GH.consolidated.corrections.jsonl": "fcbec6f68ed36808f550a72dceb2453e4c43dffd1d499e7c61c4149c31e152f0",
+      "ROOT.012_02.consolidated.corrections.jsonl": "57ed361e4586a81f5658594a9167e8aa3db501c9bf011f0ca23d5c0efca34b1a",
+      "ROOT.base_numeric_token_fixes.corrections.jsonl": "83485334dda42788efd0b67255fd900c72990c251b93006e44debc76abd29a39"
+    },
+    "pass": true
+  },
+  "supplemental_strings": [
+    {
+      "path": "work/system_ui/runtime_application/numeral_composed_string_keys.ko.rpy",
+      "sha256": "b8b8bd0fb905f3346811fa36356f144874f2bf874cf92bdca2e0185da488f6dc",
+      "pairs": 12
+    }
+  ],
+  "ruby_map": {
+    "kind": "ruby_map",
+    "path": "work/final_qa/ruby_map.approved.json",
+    "sha256": "e2f9c68d1768cce159c5c986f3c5e4328bbbeadb42a7dfc0a2d3b41a76a22d31",
+    "entries": 52
+  },
+  "actions_not_performed": [
+    "master apply",
+    "corrected master generation",
+    "RPY render",
+    "game execution"
+  ]
+}

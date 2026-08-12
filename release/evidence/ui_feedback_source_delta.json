@@ -1,0 +1,379 @@
+{
+  "schema_version": "fatal-twelve-ui-feedback-v2-source-delta-v1",
+  "status": "PASS",
+  "source_rpy_path_count": 32,
+  "source_rpy_path_set_unchanged": true,
+  "changed_source_rpy_file_count": 1,
+  "changed_source_rpy_files": [
+    {
+      "path": "game/tl/korean/strings/scenario_strings.rpy",
+      "before": {
+        "size": 429078,
+        "sha256": "2f8230b2a871125d52d7a85c3f37ea25aa249175cde476b6034f067eac5d0da0"
+      },
+      "after": {
+        "size": 429074,
+        "sha256": "10238bccafb8528011be71c7b0f2b486b042f45991b19d04571584aaa36d5cdb"
+      }
+    }
+  ],
+  "expected_source_change": "stable_id seq90 target shortened from ? ??? ??? to ??? ???",
+  "compiled_payload_path_count": 32,
+  "compiled_payload_path_set_unchanged": true,
+  "changed_compiled_file_count": 32,
+  "compiled_delta_note": "Fresh RenPy compilation serializes stage-dependent metadata, so compiled-byte deltas are not used as a source-change oracle. Exact frozen source hashes, allowlist, compile report, and deterministic ZIP builds are authoritative.",
+  "changed_compiled_files": [
+    {
+      "path": "game/f12_korean_bootstrap.rpyc",
+      "before": {
+        "size": 4176,
+        "sha256": "3adfdb01cb198c3f0163840dce253f0845aae2fe34ec339e5a3cff004d72d5a1"
+      },
+      "after": {
+        "size": 4172,
+        "sha256": "e74f5856d0270a4f403130354b8f814049b1001341c63a1bf20532708842e9b9"
+      }
+    },
+    {
+      "path": "game/tl/korean/f12_slot.rpyc",
+      "before": {
+        "size": 1238,
+        "sha256": "d5aa5000b8beb206247785e125740d53a07909b63ce79e9ee3d37c8fb3232ef7"
+      },
+      "after": {
+        "size": 1240,
+        "sha256": "9e9936da2bd83b08d90fb6dfcc6976ddcf0447e1223f598f990003a7e4aa9829"
+      }
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_001.rpyc",
+      "before": {
+        "size": 213478,
+        "sha256": "be5336aee8c7c94f2d9c2b640f762c5b924d10fe71d2cd3612d1ec06233b7128"
+      },
+      "after": {
+        "size": 213484,
+        "sha256": "11300fa46a8b97314223c20125be8e5c7a4c7ffd85d73405c740f35bdbd163ef"
+      }
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_002.rpyc",
+      "before": {
+        "size": 169650,
+        "sha256": "679127a2c8f045627c8c50caf1091efbc718318ede44834fa34503d0c93fa8eb"
+      },
+      "after": {
+        "size": 169656,
+        "sha256": "f41622c706d4c450ce8d54974c0a416c4b530998885239eea2efb19776ddd33e"
+      }
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_003.rpyc",
+      "before": {
+        "size": 368010,
+        "sha256": "d796bb7812df120ee439637ee560d09a169640b7dd0d1c81e4fb52e64995075d"
+      },
+      "after": {
+        "size": 368018,
+        "sha256": "40103a2a97b66f1447b85b5ab1e84b4e9dab9d5a98ed4c07a7b6052102f2c555"
+      }
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_004.rpyc",
+      "before": {
+        "size": 263494,
+        "sha256": "ece41b8960988c24d32aa3b17f6dc5e5b7feb46387b233020ff01761a199ae1c"
+      },
+      "after": {
+        "size": 263504,
+        "sha256": "3b91c00d5ef64bf50faa495594fa18f9fe25fe2cc5d39b5652a735a5bda22e57"
+      }
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_005_1.rpyc",
+      "before": {
+        "size": 396116,
+        "sha256": "c7bd5fae0317856f03c0abcfe30f06becc433c51eaf5a2b2af402bc89562dd3b"
+      },
+      "after": {
+        "size": 396122,
+        "sha256": "2f3bfc8ffbfbaaf2477289d42ca1fa7410a820fc734d17e60b3395c9a8db8b91"
+      }
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_005_2.rpyc",
+      "before": {
+        "size": 253994,
+        "sha256": "f56a435dc34a3dc350fecceb8d057c49bc50b0abcdb821060f9bfaadcb78c4be"
+      },
+      "after": {
+        "size": 254004,
+        "sha256": "985253d9102f1e79b0701dabf267dd29a675a028cf3c7c24c0390d60ec30dc8f"
+      }
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_006.rpyc",
+      "before": {
+        "size": 179806,
+        "sha256": "33d3b4a738275ab05e4e019b4dc481560ada93a3299725c352857cd83d04df90"
+      },
+      "after": {
+        "size": 179814,
+        "sha256": "71afb7a31f0d1aba71aac2fee23cd12f41ffc002f56539ecf011cbd6aeeed38e"
+      }
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_007_1.rpyc",
+      "before": {
+        "size": 264152,
+        "sha256": "39fc921633d4d6d5c8effac4696e93baa499a25e30e7c4d656835bdb4f7acd8a"
+      },
+      "after": {
+        "size": 264160,
+        "sha256": "d91a1d5d31692f5195d300de67b65c8943bb5f293a18866c2e4eac5a71ccbd51"
+      }
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_007_2.rpyc",
+      "before": {
+        "size": 338466,
+        "sha256": "362567f0776dec27a8682e9b36afbcf45bed4a787ad1e42042abebafa3f74141"
+      },
+      "after": {
+        "size": 338482,
+        "sha256": "e66e895346aa3abd8ab54474c0142248d1cd2842f43927444213076b2965d58b"
+      }
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_008.rpyc",
+      "before": {
+        "size": 368438,
+        "sha256": "42802e866a736fa10bb68aa1b40a15f0cee9f8aaaccfe33a24709ea7c7650c3f"
+      },
+      "after": {
+        "size": 368446,
+        "sha256": "ad656980c1c676aa3491d1971e2c05e31f88a16b69e30369d5c396ce9adf520b"
+      }
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_009.rpyc",
+      "before": {
+        "size": 389900,
+        "sha256": "5e3973d71c663210b00631a71683e95059167ac492523ea2ecdd7525fa5f68b0"
+      },
+      "after": {
+        "size": 389904,
+        "sha256": "cb19a9cf3d24b816a4eb43b982b1b0e0f21437ea2e841a64662fd8daf5006eaf"
+      }
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_010.rpyc",
+      "before": {
+        "size": 325138,
+        "sha256": "4a2906e14219b61d2ee79a0afb38e653dff3c78c6003f6545fd940108fc19b63"
+      },
+      "after": {
+        "size": 325144,
+        "sha256": "6fa7fe9c2941c68dc92be6da64cf72cb87511fddc85599751da002def36273d8"
+      }
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_011_01.rpyc",
+      "before": {
+        "size": 99232,
+        "sha256": "50cd33add17943b08e78d7d7243a38a4a4b28f660da4eb3bd249fddd351b689a"
+      },
+      "after": {
+        "size": 99240,
+        "sha256": "1e5ec1f96ced853588b3d2e70f0b05699eec78501781b5bde790e8862e75c5c9"
+      }
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_011_01F.rpyc",
+      "before": {
+        "size": 52626,
+        "sha256": "e6cdf449cce75bad080253b3f179bbbeb53c7e9e17ec33fb48b424da2cc5c984"
+      },
+      "after": {
+        "size": 52634,
+        "sha256": "db7dc26249a154a1a94a4dac438e6ec1b3990059f8616c743578c7f79bfd710d"
+      }
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_011_01G.rpyc",
+      "before": {
+        "size": 48312,
+        "sha256": "2ccae8e61c0fcfc94f344b9dd4ba978f4930172a3b83f52bbd691b7c2748d85b"
+      },
+      "after": {
+        "size": 48318,
+        "sha256": "3a78dc692fe43e7dbcd93cf20c786ed69d87f888dc73a4f131acf5db6e475e6e"
+      }
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_011_01H.rpyc",
+      "before": {
+        "size": 17058,
+        "sha256": "ef12327c8d6e9e6ec4e87c723051ff8cc108cb1ac77f405b74d7ad5a71a58e5c"
+      },
+      "after": {
+        "size": 17064,
+        "sha256": "ab04a2cb13daa509806d2992b14cd7489640b5e31f995a64558f6e6820816ac6"
+      }
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_011_02.rpyc",
+      "before": {
+        "size": 35936,
+        "sha256": "887ac96bfc1f80490540ba6c8c30df424ab843373f160097ae938e5e00954472"
+      },
+      "after": {
+        "size": 35946,
+        "sha256": "e396657dc8e273af607295459cdbef099bf9a9786e1267af246010d3f092b24a"
+      }
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_011_02GH.rpyc",
+      "before": {
+        "size": 78988,
+        "sha256": "66a7d82cc19fa487888154efd5f8efc734388ec48ca7c10f2d09c6e49e1c45e8"
+      },
+      "after": {
+        "size": 78996,
+        "sha256": "5dfb7d5d77a54afc89775882b5737505b4a4038a03b3012e375c9aa85dc0f6e4"
+      }
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_012_01F.rpyc",
+      "before": {
+        "size": 285720,
+        "sha256": "5e2b1229f7470f30f9876c335268d28c353bb2b8962b14d40238ed908aec9330"
+      },
+      "after": {
+        "size": 285726,
+        "sha256": "2a55e6ca5eaf48e7a5a5aa88b08f4db53bfdea1c3d3cf2af365e861fa2a729c0"
+      }
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_012_01GH.rpyc",
+      "before": {
+        "size": 73960,
+        "sha256": "78087b67c9d77919fb671b86df919b79c2ebdccbefc259163f2375850b95c0e2"
+      },
+      "after": {
+        "size": 73968,
+        "sha256": "a63890534336b883c882c4ff862f2ea75f9546a1576b4a78ab4ce350b071635a"
+      }
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_012_02.rpyc",
+      "before": {
+        "size": 49172,
+        "sha256": "ca10f18562d6dad03252d548d723cfd4e2ea1de998242247f64a5b3942580479"
+      },
+      "after": {
+        "size": 49180,
+        "sha256": "365359fc076e1a05efa743dcce76ad88c2f052b4088c1ae2b9fdb620e5b3418d"
+      }
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_BAD_END_01.rpyc",
+      "before": {
+        "size": 14642,
+        "sha256": "4f749259c12b1233c10d9deec65a22da89bf32cd0d2a9436e22075b35cfaf23b"
+      },
+      "after": {
+        "size": 14648,
+        "sha256": "76c7a309a0d08bb4610f8cac7310c9ac577f424f39b58e6c38dd1e9164978354"
+      }
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_BAD_END_02.rpyc",
+      "before": {
+        "size": 21294,
+        "sha256": "7d6d85e87883c9ec4f1c9d81372f786622b522dd2f4091e7313e412620059a32"
+      },
+      "after": {
+        "size": 21302,
+        "sha256": "931824a2d7dc10a4c67ae68722768ccad837e54e895c7eb2c12896fbb0e53bef"
+      }
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_BAD_END_03.rpyc",
+      "before": {
+        "size": 6938,
+        "sha256": "23bb2f07b0759453d199bd5925d441673eaf718631268ca932947fe960f262d6"
+      },
+      "after": {
+        "size": 6946,
+        "sha256": "a5d53bf3e5a9352cd812f9ce80262600c6659af64d6c7c5fa11a3384132fe488"
+      }
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_BAD_END_04.rpyc",
+      "before": {
+        "size": 11372,
+        "sha256": "aff746eb77a7155d33ffb681f2c5b461de8d1d0ca1aeaa4a2c51c55ebbe5e6d2"
+      },
+      "after": {
+        "size": 11378,
+        "sha256": "cf6bc893d3ae7985c99f6354ec1dc090efc6f9eaf394403cfec863a242749a9f"
+      }
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_MIHARU_END.rpyc",
+      "before": {
+        "size": 7002,
+        "sha256": "5d9143ef4a3f6797f4cb5ff0cea60f1123752d4b6cda2662c70acd7d631ced57"
+      },
+      "after": {
+        "size": 7008,
+        "sha256": "fd10cfb7f3651b1a0f1e120b24e2965cf97c115e978937033992604fb44b89c1"
+      }
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_NG_plus.rpyc",
+      "before": {
+        "size": 43202,
+        "sha256": "1b3bc8a34d59b9e8e67267bf3291a24334e69f9300124c3e2f651a2b160c71bc"
+      },
+      "after": {
+        "size": 43208,
+        "sha256": "06aa71e940859f4fb64cc0184198e1290834cf09e0386fdeab8bcbf56d195e0f"
+      }
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_TRUE_END.rpyc",
+      "before": {
+        "size": 31690,
+        "sha256": "a365fec6c28b50d4f98d9ef1984ae2ed71f11143f25f808b1f4384a3037d7454"
+      },
+      "after": {
+        "size": 31696,
+        "sha256": "88249b2f20700d6c29855a2b3c68802344c2068511ca9f014f04cd97c7a2ad67"
+      }
+    },
+    {
+      "path": "game/tl/korean/scenario/scenario_UNHAPPY_END.rpyc",
+      "before": {
+        "size": 23332,
+        "sha256": "6165abbae085926a03e6549545013188907b1e2bc8546606e4aa7060d41d10aa"
+      },
+      "after": {
+        "size": 23338,
+        "sha256": "e6d142089479d538e10c4aa9b89ae6d7254034ba78fbf3ab0289be971a6ad958"
+      }
+    },
+    {
+      "path": "game/tl/korean/strings/scenario_strings.rpyc",
+      "before": {
+        "size": 214334,
+        "sha256": "8fc182cef1495fac5a396a76050d2aca433c256b48c35a9aa1f2968b03b81d24"
+      },
+      "after": {
+        "size": 214344,
+        "sha256": "76f5d3b02260f41f7a23d2b99ab35302e834bc8826e1b52c8405eccd5f46a472"
+      }
+    }
+  ]
+}

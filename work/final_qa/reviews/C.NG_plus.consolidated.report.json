@@ -1,0 +1,26 @@
+{
+  "schema_version": "fatal-twelve-c-ng-plus-review-v1",
+  "source_authority": "Japanese only",
+  "english_reference_used": false,
+  "external_translation_api_used": false,
+  "script": "NG_plus",
+  "exhaustive_checked": 185,
+  "manual_corrections": 28,
+  "unchanged_approved": 157,
+  "stable_id_unique": 28,
+  "checks": {
+    "changed": 28,
+    "encoding": 28,
+    "width_clear": 28,
+    "tag_exact": 28,
+    "roman_exact": 28,
+    "quote_exact": 28,
+    "newline_exact": 28,
+    "number_exact": 28,
+    "kana_clear": 28
+  },
+  "post_correction_audit_issues": 0,
+  "failures": [],
+  "master_sha256": "2c137ca61b7d052065f6e50748f38dae7b6a06bdc695fe469f63c28fb30c0b50",
+  "output_sha256": "2972745b27800a86236d5b6c5469531089045f40b0ada1a37accb2334b94ed9f"
+}

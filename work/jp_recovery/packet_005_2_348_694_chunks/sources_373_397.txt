@@ -1,0 +1,25 @@
+373	L1583	dialogue	rinka	「ち、ちょっと！？」
+374	L1588	dialogue	ushizuka	「あんなことをされはしたが、わしらを助けてくれたんじゃ。ま、作ったのはおぬしじゃが、構わんじゃろ」
+375	L1594	dialogue	yuu_unk5	「あんなこと？」
+376	L1599	dialogue	ushizuka	「よいよい。ほれ、待っておれ」
+377	L1603	narration	narrator	スコーピオンさんの返事を待たずに、牛塚さんは冷蔵庫からタッパーを取り出し、鍋に移して温めはじめた。
+378	L1608	dialogue	alan	「クミン、カルダモン、ターメリック……悪くはない、か」
+379	L1613	dialogue	alan	「…………いただこう」
+380	L1618	dialogue	rinka	「ええっ！？」
+381	L1620	narration	narrator	スコーピオンさんは無表情で座り込んだ。
+382	L1622	narration	narrator	一刻も早く立ち去りたいが、こうなると牛塚さんたちが心配で、帰るに帰れない。
+383	L1628	dialogue	yuu_unk5	「ってことは、Ⅻのお兄さんは敵じゃ……ない？」
+384	L1633	dialogue	alan	「今はな」
+385	L1639	dialogue	yuu_unk5	「あれ？　でもお兄さんも選定の参加者なんだよね？」
+386	L1644	dialogue	alan	「…………ああ」
+387	L1650	dialogue	yuu_unk5	「でも、どうしておじいちゃんを守ったの？」
+388	L1655	dialogue	alan	「守ったわけではない。偶然、利害関係が一致しただけだ」
+389	L1661	dialogue	yuu_unk5	「りがい？」
+390	L1666	dialogue	alan	「…………ああ」
+391	L1672	dialogue	yuu_unk5	「そっかー、よく分かんないけど、敵じゃないならまあ、いっか。それより、お姉ちゃんのカレー、とっても美味しいんだよ！」
+392	L1677	dialogue	alan	「…………そうか」
+393	L1683	dialogue	yuu_unk5	「でねっ、でねっ」
+394	L1685	narration	narrator	二人の会話を、私はびくびくしながら聞いていた。
+395	L1687	narration	narrator	無表情ではあるが、馴れ馴れしいともとれる少年の態度にスコーピオンさんがいつ怒り出さないか不安だったのだ。
+396	L1692	dialogue	alan	「貴様は、どうしてあの老人と一緒にいる？」
+397	L1698	dialogue	yuu_unk5	「きさま？」

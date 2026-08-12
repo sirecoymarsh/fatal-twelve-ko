@@ -1,0 +1,25 @@
+251	L1052	dialogue	rinka	「海晴は今日バイトがあるんだっけ？」
+252	L1057	dialogue	miharu	「ああ、そうだよ。なるべく稼がないといけないからね」
+253	L1062	dialogue	rinka	「そっか、頑張ってね」
+254	L1069	narration	narrator	私は海晴に「じゃあね」と言ってから教室を出た。
+255	L1081	narration	narrator	暇だったら真央も来るところなのだが、今日も用事があるらしかった。
+256	L1083	narration	narrator	二人でライオン館へと向かっている途中で、直未はぼそっと呟いた。
+257	L1088	dialogue	naomi	「未島先輩に、申し訳ない事しちゃったかな」
+258	L1093	dialogue	rinka	「海晴に？」
+259	L1098	dialogue	naomi	「はい。未島先輩も、凛火先輩と話したかったんじゃないかなと思ったので」
+260	L1103	dialogue	rinka	「私も海晴と話したかったな。でもバイトって言ってたから、直未のせいじゃないよ」
+261	L1108	dialogue	naomi	「いや、あの、そうじゃなくて……」
+262	L1113	dialogue	rinka	「そういえばさ、今日は教室まで来てくれたよね？」
+263	L1118	dialogue	naomi	「ちょっとでも早く合流できればって思ったんですけど、明日からはやめときます」
+264	L1123	dialogue	rinka	「え？　どうして？」
+265	L1130	narration	narrator	私が聞くと、直未は言葉に詰まっていた。
+266	L1134	narration	narrator	言葉になっていない言葉をいくつか発した後、裏返った声で「何でもです！」と答えた。
+267	L1136	narration	narrator	私には、珍しく直未が怒っているようにも見えた。
+268	L1161	narration	narrator	獅子舞凛火と日辻直未が並んで歩く後姿を、校門に隠れて見ている少女がいた。
+269	L1165	narration	narrator	未島海晴。飴茶女子の特待生であり、背が高くスタイルもいい美人。
+270	L1167	narration	narrator	完璧過ぎるせいで、周囲の生徒からは若干浮いている。
+271	L1169	narration	narrator	そして今は頬を伝う涙のせいで余計に、関わらないようにと避けられていた。
+272	L1171	narration	narrator	これが海晴でなければ明日の噂の種になるだろうが、あまりに奇妙な光景過ぎて、かえって誰も話題に上げたがらないだろう。
+273	L1176	dialogue	mao	「みはるん、まだいたんだ」
+274	L1178	narration	narrator	誰もが見ないふりをしていた海晴に話しかけたのは、クラスメイトの小熊真央だ。
+275	L1180	narration	narrator	音も出さずに泣いている海晴を見ても、いつもの調子を崩さなかった。

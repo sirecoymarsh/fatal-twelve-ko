@@ -1,0 +1,194 @@
+﻿{
+    "schema_version":  "fatal-twelve-packet-sync-v1",
+    "created_at":  "2026-08-10T12:06:39.0335809Z",
+    "scope":  "scenario first draft completion packets",
+    "file_count":  31,
+    "files":  [
+                  {
+                      "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\catalog_design\\draft_009_001_400.json",
+                      "destination":  "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_009_001_400.json",
+                      "size":  672184,
+                      "sha256":  "cf55499026eb45ce68c59f53bc5debecb9916225b8b248fccd02b905ceca94e9"
+                  },
+                  {
+                      "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\catalog_design\\draft_009_001_400.rpy",
+                      "destination":  "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_009_001_400.rpy",
+                      "size":  66177,
+                      "sha256":  "c89e520b0d3d412d45f1e2149d50b67ba579e792351beb0422d60b5bd990f5f5"
+                  },
+                  {
+                      "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\catalog_design\\draft_009_001_400.assembly.json",
+                      "destination":  "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_009_001_400.assembly.json",
+                      "size":  1067,
+                      "sha256":  "4cf90296c1f82a003f361decea4e7ab100315f0fb859a0818d5476a3b84fbc0c"
+                  },
+                  {
+                      "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\catalog_design\\draft_009_401_800.json",
+                      "destination":  "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_009_401_800.json",
+                      "size":  652716,
+                      "sha256":  "b597d89433d021c124f6fb2f6444746dbf4d05f35d05d3b6e93cfcec7e330af9"
+                  },
+                  {
+                      "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\catalog_design\\draft_009_401_800.rpy",
+                      "destination":  "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_009_401_800.rpy",
+                      "size":  63955,
+                      "sha256":  "29c99230bb65bd15b557911739589746e828e852b71f3ab7c67a6e147d10584d"
+                  },
+                  {
+                      "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\catalog_design\\draft_009_401_800.assembly.json",
+                      "destination":  "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_009_401_800.assembly.json",
+                      "size":  1069,
+                      "sha256":  "f74c5ef289667584e108e8a2a643177cac03257b65ccfc50de5be64e18d9d110"
+                  },
+                  {
+                      "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\patch_architecture\\draft_009_801_1200.json",
+                      "destination":  "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_009_801_1200.json",
+                      "size":  575241,
+                      "sha256":  "91c5e1564acad700c14079fd57bb3293f955b994450ce7bb313904a272532fc8"
+                  },
+                  {
+                      "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\patch_architecture\\draft_009_801_1200.rpy",
+                      "destination":  "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_009_801_1200.rpy",
+                      "size":  137187,
+                      "sha256":  "71c28d99440e07ef144660fe8e00e7362046d4b44ba6ed97d47eb88d55833844"
+                  },
+                  {
+                      "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\patch_architecture\\draft_009_801_1200.structure_check.json",
+                      "destination":  "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_009_801_1200.structure_check.json",
+                      "size":  4455,
+                      "sha256":  "dae4f2111cddc1d6befe7cef19af63f40e8166ccfed83a20c8e30054f41f503a"
+                  },
+                  {
+                      "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\draft_009_1201_1588.json",
+                      "destination":  "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_009_1201_1588.json",
+                      "size":  531873,
+                      "sha256":  "7954c2426302249fba1c914e47ee9aa924c159901681488334edbb88889d2d16"
+                  },
+                  {
+                      "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\draft_009_1201_1588.rpy",
+                      "destination":  "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_009_1201_1588.rpy",
+                      "size":  114753,
+                      "sha256":  "b98a0bb57486f0967bfb572e2c476cd0abd92dd9e98861a048af2675a62e5222"
+                  },
+                  {
+                      "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\root_drafts\\draft_010_001_300.json",
+                      "destination":  "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_010_001_300.json",
+                      "size":  470311,
+                      "sha256":  "2355cb58626b75f6e6515910d0329aecbe304e68c0a2c9b4d2219a8b20051b3c"
+                  },
+                  {
+                      "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\root_drafts\\draft_010_001_300.rpy",
+                      "destination":  "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_010_001_300.rpy",
+                      "size":  44559,
+                      "sha256":  "f0933be659edf5980a873fbf304b48b6a03cadf2ea2f2591474e5437af3aef8c"
+                  },
+                  {
+                      "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\root_drafts\\draft_010_001_300.assembly.json",
+                      "destination":  "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_010_001_300.assembly.json",
+                      "size":  1061,
+                      "sha256":  "636df020f499f9e7babd5b2f314f63fa8bec013dd50bc2b9b1a1fff235df64b7"
+                  },
+                  {
+                      "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\root_drafts\\draft_010_301_600.json",
+                      "destination":  "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_010_301_600.json",
+                      "size":  487341,
+                      "sha256":  "9aebb6e2555a87fdd53da63eccb16ef9da2e35e4f545ab2ee9171c1179704165"
+                  },
+                  {
+                      "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\root_drafts\\draft_010_301_600.rpy",
+                      "destination":  "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_010_301_600.rpy",
+                      "size":  46964,
+                      "sha256":  "eb583ef84e15fd69f0f829a05f1d84d4e3db4f7a1133b1f9a817428fac88ce7f"
+                  },
+                  {
+                      "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\root_drafts\\draft_010_301_600.assembly.json",
+                      "destination":  "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_010_301_600.assembly.json",
+                      "size":  1063,
+                      "sha256":  "a1fb2462d62a7ac19c6b0dc5e9333e9b2187c04b953271c26f4636875ea5f53c"
+                  },
+                  {
+                      "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\catalog_design\\draft_010_601_900.json",
+                      "destination":  "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_010_601_900.json",
+                      "size":  486973,
+                      "sha256":  "b519673175bc0f5bc54dc8298c7531d4540cb20f631d3b4ec86a4f154ae8a398"
+                  },
+                  {
+                      "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\catalog_design\\draft_010_601_900.rpy",
+                      "destination":  "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_010_601_900.rpy",
+                      "size":  46008,
+                      "sha256":  "21176d8242bb39c36eca0ec66f19f7344fb36a98c99bd9cfd3f329ae9356afd7"
+                  },
+                  {
+                      "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\catalog_design\\draft_010_601_900.assembly.json",
+                      "destination":  "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_010_601_900.assembly.json",
+                      "size":  1069,
+                      "sha256":  "0d37eafb25342c3f9dc67ac1dabae22ca2c6504b3337eda8cf9184afbc4a8977"
+                  },
+                  {
+                      "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\root_drafts\\draft_010_901_1100.json",
+                      "destination":  "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_010_901_1100.json",
+                      "size":  299381,
+                      "sha256":  "579385669a43ebbf95a1795f563d9b9ed693097b47a20018616add0c67cde4c3"
+                  },
+                  {
+                      "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\root_drafts\\draft_010_901_1100.rpy",
+                      "destination":  "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_010_901_1100.rpy",
+                      "size":  26703,
+                      "sha256":  "ca1c6a360b348aa4e869d3c1fb229cabef8c0a2e2e053f664c48f060ef59852b"
+                  },
+                  {
+                      "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\root_drafts\\draft_010_901_1100.assembly.json",
+                      "destination":  "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_010_901_1100.assembly.json",
+                      "size":  1066,
+                      "sha256":  "227a4016fa034fe0f29761d7fb21d46a5edca7fd46669e6763b66f7cbfe6556e"
+                  },
+                  {
+                      "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\root_drafts\\draft_010_1101_end.json",
+                      "destination":  "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_010_1101_end.json",
+                      "size":  389442,
+                      "sha256":  "cbfb778b9796aaace8181042d61c62f16544e7b62820a529a4f2721a554c0e5f"
+                  },
+                  {
+                      "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\root_drafts\\draft_010_1101_end.rpy",
+                      "destination":  "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_010_1101_end.rpy",
+                      "size":  34961,
+                      "sha256":  "65ce75be794b7b53ce65ce4725528caebae45f50ef02a91cb3a00aac225b30e9"
+                  },
+                  {
+                      "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\root_drafts\\draft_010_1101_end.assembly.json",
+                      "destination":  "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_010_1101_end.assembly.json",
+                      "size":  1067,
+                      "sha256":  "9555d307026a6a6ba39547fb9ed93c08875e62dab297a24298f996eeba20d696"
+                  },
+                  {
+                      "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\patch_architecture\\draft_012_01F_601_900.json",
+                      "destination":  "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_012_01F_601_900.json",
+                      "size":  421573,
+                      "sha256":  "0780ba1ef01f5b22c0e7fce91a4e82f423d9956169d59d9ec62fd038ae663ef0"
+                  },
+                  {
+                      "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\patch_architecture\\draft_012_01F_601_900.rpy",
+                      "destination":  "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_012_01F_601_900.rpy",
+                      "size":  98198,
+                      "sha256":  "da3603b974bfdc33fe8e471d1f2d54ab7f2a35e3da0634f3075f83306333b649"
+                  },
+                  {
+                      "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\patch_architecture\\draft_012_01F_601_900.structure_check.json",
+                      "destination":  "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_012_01F_601_900.structure_check.json",
+                      "size":  2796,
+                      "sha256":  "c60e65c173db3ebcfad491328e9e3e203e3d33cec659625d20a484e0a346b570"
+                  },
+                  {
+                      "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\draft_012_01F_901_1190.json",
+                      "destination":  "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_012_01F_901_1190.json",
+                      "size":  394121,
+                      "sha256":  "f85510d7881ee5eac566f413cf80530e19c1f9d9bf520cd79562ab37bb4b6126"
+                  },
+                  {
+                      "source":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\draft_012_01F_901_1190.rpy",
+                      "destination":  "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_012_01F_901_1190.rpy",
+                      "size":  85343,
+                      "sha256":  "0f00dcaccda1df6093d9b197228e6b9528ea4307d3393319a30e627f1831dbd8"
+                  }
+              ]
+}

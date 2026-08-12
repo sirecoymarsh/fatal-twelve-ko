@@ -1,0 +1,4340 @@
+{
+  "schema_version": "fatal-twelve-master-draft-v1",
+  "script_key": "UNHAPPY_END",
+  "source_file": "scenario/UNHAPPY_END.rpy",
+  "catalog": {
+    "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_UNHAPPY_END.catalog.jsonl",
+    "sha256": "c1496aae936f489e55293c1934ab7931ee0e519753f7add5e3ce41a1a81b6b44",
+    "records": 87
+  },
+  "translation_text_policy": "immutable; copied verbatim from explicitly listed packets",
+  "catalog_metadata_policy": "authoritative",
+  "validation_scope": "structural only; no translation review or correction",
+  "source_authority": "Japanese only",
+  "english_reference_used": false,
+  "external_translation_api_used": false,
+  "structural_pass": false,
+  "coverage_complete": true,
+  "complete": true,
+  "coverage": {
+    "catalog_records": 87,
+    "packet_occurrences": 87,
+    "selected_unique_records": 87,
+    "duplicate_extra_occurrences": 0,
+    "missing_records": 0,
+    "missing_sequences": [],
+    "missing_stable_ids": [],
+    "pending_explained_missing_records": 0,
+    "unexplained_missing_records": 0,
+    "translation_ids": 87,
+    "menu_keys": 0,
+    "hard_token_failed_records": 1
+  },
+  "ready_packets": [
+    {
+      "packet_id": "UNHAPPY_END_full",
+      "manifest_status": "ready",
+      "effective_status": "ready",
+      "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+      "sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+      "schema": "fatal-twelve-aligned-draft-v1:entries",
+      "occurrences": 87,
+      "expected_occurrences": 87
+    }
+  ],
+  "pending_packets": [],
+  "resolved_conflict_stable_ids": [],
+  "entries": [
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_79ee9917",
+      "sequence": 1,
+      "command_index": 1,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 29,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "目を覚ました私は、ゆっくりと体を起こしていた。",
+      "source_text_sha256": "bed3cf03965e45f1d4a23cea62c3159dc1ed2fa8702c73f14aebcbd2dd7255b0",
+      "source_group_sha256": "b50bc9a8958884be59e01c8f939476c190800edc8923a04534406ddfe9432c8e",
+      "source_statement_code": "\"目を覚ました私は、ゆっくりと体を起こしていた。\"",
+      "source_group_code": [
+        "\"目を覚ました私は、ゆっくりと体を起こしていた。\""
+      ],
+      "translation_id": "fUNHAPPY_79ee9917",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "눈을 뜬 나는 천천히 몸을 일으켰다.",
+      "draft_ko_sha256": "7e85bae6ee383957642248ec60f27943fef53c7fbe3d1a31fadf3d6abfe061ff",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 0,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_09733a81",
+      "sequence": 2,
+      "command_index": 2,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 31,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "何だか、頭が重い。",
+      "source_text_sha256": "3a9563926c9541016b78f6c6fac2bd5f59e6457b28770215aa11c824faa857f1",
+      "source_group_sha256": "a156cdd4e33e29f90e6e2427353858bc3e0aa45a9ddf2e630a66d77faa37d0a2",
+      "source_statement_code": "\"何だか、頭が重い。\"",
+      "source_group_code": [
+        "\"何だか、頭が重い。\""
+      ],
+      "translation_id": "fUNHAPPY_09733a81",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "어쩐지 머리가 무겁다.",
+      "draft_ko_sha256": "bea6067de3d0fff26d36d9ba58de7d666faf4563235fd6cfab3e7006956056d0",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 1,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_2499415f",
+      "sequence": 3,
+      "command_index": 3,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 36,
+      "source_label": "fUNHAPPY",
+      "lane": "dialogue",
+      "speaker": "rinka",
+      "source_jp": "「んー」",
+      "source_text_sha256": "dd8679f5163f0431d82184b0e307eb49cf79f26e0231aa8a75e98df6f2f4a6fe",
+      "source_group_sha256": "9b589cfec2236ae20e7366cb988228ed5a36cc3337a5a4963a83fb98c16ad331",
+      "source_statement_code": "rinka \"「んー」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"rnk\", 1898)",
+        "rinka \"「んー」\""
+      ],
+      "translation_id": "fUNHAPPY_2499415f",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"rnk\", 1898)",
+        "line": 35,
+        "function": "get_voice_filename",
+        "tag": "rnk",
+        "start_count": 1898,
+        "resolution": {
+          "mode": "explicit_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": "sounds/voice/rnk_01898.ogg"
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「으음」",
+      "draft_ko_sha256": "b27784fb5e0d6384e7d697a98b53f68c50dcbe1dfd05b1a6ed0834ead8deffa4",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 2,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_6f878437",
+      "sequence": 4,
+      "command_index": 4,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 38,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "声を出して、背伸びをした。",
+      "source_text_sha256": "702667f501cadb9d60e627c38978cc8d5e1b0b7c4c7d214d1c5cdb20b7656cda",
+      "source_group_sha256": "9cec4372d74864063c0c50181eba632241d3d7c66827d9b9d3fd77e7ab0b31f6",
+      "source_statement_code": "\"声を出して、背伸びをした。\"",
+      "source_group_code": [
+        "\"声を出して、背伸びをした。\""
+      ],
+      "translation_id": "fUNHAPPY_6f878437",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "소리를 내며 기지개를 켰다.",
+      "draft_ko_sha256": "832a49b18e6e8afc3416156796a9e86a04a97dad3c5353474b80c70fe1d85cd6",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 3,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_4bfdaed1",
+      "sequence": 5,
+      "command_index": 5,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 40,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "今日は夏休み一日目。正確には、国民の休日である海の日だ。",
+      "source_text_sha256": "1192194f5588cd1fa0b55717f1cc4cffae085328d9b7cd473aa41c41c3cc9370",
+      "source_group_sha256": "1aac51fe5b6c0f7f6582830bbe054be882d0e787682f6510eaf4fa13c7cb280c",
+      "source_statement_code": "\"今日は夏休み一日目。正確には、国民の休日である海の日だ。\"",
+      "source_group_code": [
+        "\"今日は夏休み一日目。正確には、国民の休日である海の日だ。\""
+      ],
+      "translation_id": "fUNHAPPY_4bfdaed1",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "오늘은 여름방학 첫날. 정확히는 공휴일인 바다의 날이다.",
+      "draft_ko_sha256": "97aefb868b3b06faba247aadf327af37d8257ab0c311d371b22449dd65f9d8c4",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 4,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_7f9cd5af",
+      "sequence": 6,
+      "command_index": 6,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 42,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "夏休みまでは、なんてことない日々が続いていた。",
+      "source_text_sha256": "6cd623c8c1b06029db360222eaa06ad01ef313865d9854b3b51f221b83b98d91",
+      "source_group_sha256": "2184db78ff9fee6fdcfc0cbeb72d9645797b48c93bd2737acd508b8426f7598e",
+      "source_statement_code": "\"夏休みまでは、なんてことない日々が続いていた。\"",
+      "source_group_code": [
+        "\"夏休みまでは、なんてことない日々が続いていた。\""
+      ],
+      "translation_id": "fUNHAPPY_7f9cd5af",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "여름방학 전까지는 별일 없는 나날이 이어졌다.",
+      "draft_ko_sha256": "5791f3eb28f8b53f4a9494675f631b15ffbe27b4826e68d9acbc474d790fb4b7",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 5,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_a43e0aab",
+      "sequence": 7,
+      "command_index": 7,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 44,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "夏休みくらいは、何か特別なことが起こるかな、なんて。",
+      "source_text_sha256": "b9851c22152f59e93ec9ada80df954c1602235eccfd4f2ad02cdb82849807fd3",
+      "source_group_sha256": "989a92648a817e78b6ca30ca28b2542054bdb355697199951e8c64b4ce8943e7",
+      "source_statement_code": "\"夏休みくらいは、何か特別なことが起こるかな、なんて。\"",
+      "source_group_code": [
+        "\"夏休みくらいは、何か特別なことが起こるかな、なんて。\""
+      ],
+      "translation_id": "fUNHAPPY_a43e0aab",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "여름방학쯤에는 뭔가 특별한 일이 생기려나, 하고.",
+      "draft_ko_sha256": "09cb0ed048ed561814f4100e71108bd287eb8eccc43e8bf6b54e069fd1d8bf8c",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 6,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_ea9c281f",
+      "sequence": 8,
+      "command_index": 8,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 48,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "夢のようなことを考えながら、私は朝の仕度を始めた。",
+      "source_text_sha256": "05a1075a2aed61ac6ef33d7152fb154fcba65299391fa5765068824a1820dbeb",
+      "source_group_sha256": "8c89763b72a8517db2b09e7c121a6a94ee7ff302769cb4c110e72b2d428af9ce",
+      "source_statement_code": "\"夢のようなことを考えながら、私は朝の仕度を始めた。\"",
+      "source_group_code": [
+        "\"夢のようなことを考えながら、私は朝の仕度を始めた。\""
+      ],
+      "translation_id": "fUNHAPPY_ea9c281f",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "꿈같은 생각을 하며 아침 준비를 시작했다.",
+      "draft_ko_sha256": "c4d3f25e6b2b2f760ad9a7c315219c654909ffa7a1d295fcc461213af6248ca1",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 7,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_0702154b",
+      "sequence": 9,
+      "command_index": 9,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 50,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "現実は、そう簡単に覆らない。",
+      "source_text_sha256": "fcd86fd26214336572e0437c43534c45c6e1f98a565c8e5fc08b0d26cdf7d5c9",
+      "source_group_sha256": "b4431456b6a11d2c9bf6c3c2617295a0dd6e06377c23aa57b8c0005e3231edf8",
+      "source_statement_code": "\"現実は、そう簡単に覆らない。\"",
+      "source_group_code": [
+        "\"現実は、そう簡単に覆らない。\""
+      ],
+      "translation_id": "fUNHAPPY_0702154b",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "현실은 그리 쉽게 뒤집히지 않는다.",
+      "draft_ko_sha256": "7a24e1b4c63cd2001c947164b64c7923a007203c606676407aa19c6de1017236",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 8,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_ed1f1f82",
+      "sequence": 10,
+      "command_index": 10,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 52,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "私や友人の真央や海晴、後輩の直未と、普通の日常を送っていくのだろうと、心のどこかでは分かっている。",
+      "source_text_sha256": "d8fb1dd434292925d73699ee5a0b5bef4e2f6ae2cb763e2d3aeb37fda817fd4f",
+      "source_group_sha256": "31ea65262f0bd3baa8c2887368098b6b1d8b580c00b08ed42e4b407e217cca44",
+      "source_statement_code": "\"私や友人の真央や海晴、後輩の直未と、普通の日常を送っていくのだろうと、心のどこかでは分かっている。\"",
+      "source_group_code": [
+        "\"私や友人の真央や海晴、後輩の直未と、普通の日常を送っていくのだろうと、心のどこかでは分かっている。\""
+      ],
+      "translation_id": "fUNHAPPY_ed1f1f82",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "나와 친구인 마오와 미하루, 후배 나오미가 평범한 일상을 보내게 되리라는 걸 마음 한편으로는 알고 있다.",
+      "draft_ko_sha256": "f77e911242a557dc7700d15aa8ee8c915c05d8b2f11e47129cdb883a6b1955bf",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 9,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_50a31b4c",
+      "sequence": 11,
+      "command_index": 11,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 70,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "自分でもどうしてここへ来たいと思ったのか、まったく覚えていなかった。",
+      "source_text_sha256": "06b9903d6f8a4e368b5bc5dac5d552a1c286cfce82939a28c5c347f7622a782c",
+      "source_group_sha256": "4fb78516643435aec79acc9bc9b1994fcadab36fd90157480bf1ad7f29d53a1b",
+      "source_statement_code": "\"自分でもどうしてここへ来たいと思ったのか、まったく覚えていなかった。\"",
+      "source_group_code": [
+        "\"自分でもどうしてここへ来たいと思ったのか、まったく覚えていなかった。\""
+      ],
+      "translation_id": "fUNHAPPY_50a31b4c",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "나도 왜 이곳에 오고 싶었는지 전혀 기억나지 않았다.",
+      "draft_ko_sha256": "2ff19a8ef138e10a01f74becf21cdd0f580ed4bba7392deb0e61628ee46941b0",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 10,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_7488adfa",
+      "sequence": 12,
+      "command_index": 12,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 72,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "ただふと散歩に行こうと思いつき、足がこの場所へと向かっていた。",
+      "source_text_sha256": "375f9b094f2a73ecacceb8e6a4e604b880bd36d46842233ab6c4e3a24bd4b0d6",
+      "source_group_sha256": "c84764917ca5088f7c6b04f05eaf5c1122f7b2bccef38bc0d11a0f1f18eaaa51",
+      "source_statement_code": "\"ただふと散歩に行こうと思いつき、足がこの場所へと向かっていた。\"",
+      "source_group_code": [
+        "\"ただふと散歩に行こうと思いつき、足がこの場所へと向かっていた。\""
+      ],
+      "translation_id": "fUNHAPPY_7488adfa",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "그저 문득 산책하러 가자고 생각했고, 발길은 이곳으로 향했다.",
+      "draft_ko_sha256": "9e3200832f2bba68787eff8b11d04a9b58c2c5d31f870948416af59eeba79656",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 11,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_12c56bbe",
+      "sequence": 13,
+      "command_index": 13,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 74,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "新宿御苑。",
+      "source_text_sha256": "b4f58883e1b9f150e32e403c369d2020b7426628b58a49653df4d3249e83cd10",
+      "source_group_sha256": "6fbe2393b1dd3156b2222d44762a20dcae4ae3275fe5bf6687d790ef5642da2c",
+      "source_statement_code": "\"新宿御苑。\"",
+      "source_group_code": [
+        "\"新宿御苑。\""
+      ],
+      "translation_id": "fUNHAPPY_12c56bbe",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "신주쿠 교엔.",
+      "draft_ko_sha256": "1b4f7097042a58848fe8a9e5ac35f6d3098fe93a8599351ec0d8d1f98c1e3aad",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 12,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_c82e3cdb",
+      "sequence": 14,
+      "command_index": 14,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 76,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "時計台の見える、私の想い出の場所。おばあちゃんと一緒に何度もここに来たことがあった。",
+      "source_text_sha256": "45222bf591f615da4984a2655a0cb8d90df276a9d78b596234c650e1dd298cc2",
+      "source_group_sha256": "75971e3b76c74f1a294f2f5f2e4f7dfe764e63c2d3be4b60bdb44c75e5100000",
+      "source_statement_code": "\"時計台の見える、私の想い出の場所。おばあちゃんと一緒に何度もここに来たことがあった。\"",
+      "source_group_code": [
+        "\"時計台の見える、私の想い出の場所。おばあちゃんと一緒に何度もここに来たことがあった。\""
+      ],
+      "translation_id": "fUNHAPPY_c82e3cdb",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "시계탑이 보이는 내 추억의 장소. 할머니와 함께 몇 번이나 이곳에 온 적이 있었다.",
+      "draft_ko_sha256": "7e9ee6d4589a27bd4c0dbe9e49971b3997696e34ad97ab606adc62e751002051",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 13,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_354ed9fb",
+      "sequence": 15,
+      "command_index": 15,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 82,
+      "source_label": "fUNHAPPY",
+      "lane": "dialogue",
+      "speaker": "chan_unk1",
+      "source_jp": "「すみません、ホテルを探しているんですけど」",
+      "source_text_sha256": "3baa8fdee34e32a3dc3e5507dee63e18f9cd2431074d8356de6ef422a6956b4b",
+      "source_group_sha256": "acb06f154588d5b3dc5e48e2af6fc2dfafb355bc72ebcc7388a666f9aaea99b9",
+      "source_statement_code": "chan_unk1 \"「すみません、ホテルを探しているんですけど」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"cha\", 32)",
+        "chan_unk1 \"「すみません、ホテルを探しているんですけど」\""
+      ],
+      "translation_id": "fUNHAPPY_354ed9fb",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"cha\", 32)",
+        "line": 81,
+        "function": "get_voice_filename",
+        "tag": "cha",
+        "start_count": 32,
+        "resolution": {
+          "mode": "explicit_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": "sounds/voice/cha_00032.ogg"
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「실례합니다, 호텔을 찾고 있는데요」",
+      "draft_ko_sha256": "03ef2317d7e832b1e51129cc1784b6b484a8b0669a76b4b48283f33922746c48",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 14,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_f4f516c1",
+      "sequence": 16,
+      "command_index": 16,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 84,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "歩いていると、観光客風の女性に声をかけられた。",
+      "source_text_sha256": "2f5453519074ac90444de7fcb7fa3cd8489b5f9500c3428ec35bfd9e6ac80051",
+      "source_group_sha256": "021093ef1663bdef6dd301eab584bf3fbc04f2d6a548cc5d10aa05c6b8b726c9",
+      "source_statement_code": "\"歩いていると、観光客風の女性に声をかけられた。\"",
+      "source_group_code": [
+        "\"歩いていると、観光客風の女性に声をかけられた。\""
+      ],
+      "translation_id": "fUNHAPPY_f4f516c1",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "걷던 중 관광객처럼 보이는 여성이 말을 걸었다.",
+      "draft_ko_sha256": "886d4278cfbeb2a444b405b360d48d11241740a3f6ad0d233380e3c0adb80afb",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 15,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_fb21227d",
+      "sequence": 17,
+      "command_index": 17,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 86,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "ここは外国の人も多いから、珍しいことではないけれど。",
+      "source_text_sha256": "1c13feaa8081cfa2267d3a23404c99564675b64b5e8d3c7b8eba09fd7c411e18",
+      "source_group_sha256": "963ece519d6cc17c68a3acf6cd569b28b63347513ccd1e67de1f5ac99857e6c5",
+      "source_statement_code": "\"ここは外国の人も多いから、珍しいことではないけれど。\"",
+      "source_group_code": [
+        "\"ここは外国の人も多いから、珍しいことではないけれど。\""
+      ],
+      "translation_id": "fUNHAPPY_fb21227d",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "이곳은 외국인도 많으니 드문 일은 아니지만.",
+      "draft_ko_sha256": "f1ffa64ae9983e0a91b0344470fa0674a3ed6defc76dcf6c5cb1a81d65d6cb44",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 16,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_1cd59896",
+      "sequence": 18,
+      "command_index": 18,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 91,
+      "source_label": "fUNHAPPY",
+      "lane": "dialogue",
+      "speaker": "rinka",
+      "source_jp": "「ホテルを探してるなら、とりあえず公園から出た方がいいと思いますけど」",
+      "source_text_sha256": "7487f6cbac1fb01ba195e7928e0fd0814106e99b84183c6a83596d06de6bbb0d",
+      "source_group_sha256": "4e8e55bac44cdfdf896ff79bc6ce6007e112991b9f8e3973a9863f4c445f7d69",
+      "source_statement_code": "rinka \"「ホテルを探してるなら、とりあえず公園から出た方がいいと思いますけど」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"rnk\")",
+        "rinka \"「ホテルを探してるなら、とりあえず公園から出た方がいいと思いますけど」\""
+      ],
+      "translation_id": "fUNHAPPY_1cd59896",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"rnk\")",
+        "line": 90,
+        "function": "get_voice_filename",
+        "tag": "rnk",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「호텔을 찾으신다면 일단 공원에서 나가는 게 좋을 것 같은데요」",
+      "draft_ko_sha256": "c5d44f794f69e3683a79153505e40804cb42913ec87c4777296020b999287a83",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 17,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_ad330624",
+      "sequence": 19,
+      "command_index": 19,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 97,
+      "source_label": "fUNHAPPY",
+      "lane": "dialogue",
+      "speaker": "chan_unk1",
+      "source_jp": "「え、あれ？　公園？　あたしいつの間にここに来たんだろ……」",
+      "source_text_sha256": "0dd63147a9414ad9220f95f2ae31510ca56e183e48fa79b64e3ee967e40b3a1c",
+      "source_group_sha256": "5c474362b09496949fac91a2e706a11ae271b8c797af45787f8923f738949559",
+      "source_statement_code": "chan_unk1 \"「え、あれ？　公園？　あたしいつの間にここに来たんだろ……」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"cha\")",
+        "chan_unk1 \"「え、あれ？　公園？　あたしいつの間にここに来たんだろ……」\""
+      ],
+      "translation_id": "fUNHAPPY_ad330624",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"cha\")",
+        "line": 96,
+        "function": "get_voice_filename",
+        "tag": "cha",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「어, 어라? 공원? 나 언제 여기까지 온 거지……」",
+      "draft_ko_sha256": "337017f400f6082d2e0d1bb7e29a8b797b1f270dccf5fe56915b1bf8ee5e46d0",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 18,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_e165679f",
+      "sequence": 20,
+      "command_index": 20,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 99,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "この公園は入場料がかかるんだけどなと思いながら、私は彼女がスマホを見るのを見守っていた。",
+      "source_text_sha256": "477d33efc3b3f1aeb6387b3b559af5e26fc1a365bda08b2607856789b2ecd8c3",
+      "source_group_sha256": "b2a26fcd128190f400ba68f7c87539667af1c8ff616e7a58e3c804e95520ae4a",
+      "source_statement_code": "\"この公園は入場料がかかるんだけどなと思いながら、私は彼女がスマホを見るのを見守っていた。\"",
+      "source_group_code": [
+        "\"この公園は入場料がかかるんだけどなと思いながら、私は彼女がスマホを見るのを見守っていた。\""
+      ],
+      "translation_id": "fUNHAPPY_e165679f",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "이 공원은 입장료도 받는데, 하고 생각하며 나는 그녀가 스마트폰을 보는 것을 지켜봤다.",
+      "draft_ko_sha256": "224b36f39e3a0cef25490d18f4efbf12a294a17684f06f1969b53b7491e6d973",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 19,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_53773abf",
+      "sequence": 21,
+      "command_index": 21,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 101,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "傍らには爽やかな男性がいる。落ち着いた様子は、彼氏さんというか旦那さんに見えた。",
+      "source_text_sha256": "2433e92cff9697afd85fac6a85ec11251eff609cdb1b37fad81529ed9a81b62e",
+      "source_group_sha256": "fff4d6e812550f23b8a876b32661d4fb5735d1c3515a802c32c49542fafefd28",
+      "source_statement_code": "\"傍らには爽やかな男性がいる。落ち着いた様子は、彼氏さんというか旦那さんに見えた。\"",
+      "source_group_code": [
+        "\"傍らには爽やかな男性がいる。落ち着いた様子は、彼氏さんというか旦那さんに見えた。\""
+      ],
+      "translation_id": "fUNHAPPY_53773abf",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "곁에는 산뜻한 인상의 남자가 있었다. 침착한 모습은 남자친구라기보다 남편처럼 보였다.",
+      "draft_ko_sha256": "17ed149382cfe4939188056a41495aec03349a1044b48fdd8f02489f7e51d116",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 20,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_262dbdb0",
+      "sequence": 22,
+      "command_index": 22,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 107,
+      "source_label": "fUNHAPPY",
+      "lane": "dialogue",
+      "speaker": "chan_unk1",
+      "source_jp": "「んー、まあいいや。とりあえずこの公園でお散歩しよっかな。行こっ、ビル」",
+      "source_text_sha256": "5d28ed17a99df00962d7255e42f9dcf8a5a3248ad4cd5d715c1d771e5de8ca44",
+      "source_group_sha256": "d9a390e32fa9a71039e3b582560150f3b7a52e7fbc51b02e3e7ba4d063fd6949",
+      "source_statement_code": "chan_unk1 \"「んー、まあいいや。とりあえずこの公園でお散歩しよっかな。行こっ、ビル」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"cha\")",
+        "chan_unk1 \"「んー、まあいいや。とりあえずこの公園でお散歩しよっかな。行こっ、ビル」\""
+      ],
+      "translation_id": "fUNHAPPY_262dbdb0",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"cha\")",
+        "line": 106,
+        "function": "get_voice_filename",
+        "tag": "cha",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「음, 뭐 됐어. 일단 이 공원에서 산책이나 할까. 가자, 빌」",
+      "draft_ko_sha256": "52ef6fffc2efbef9533bd701f09009392a4b8d17bd226aca2580ec3edf49b3f9",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 21,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_e6020866",
+      "sequence": 23,
+      "command_index": 23,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 113,
+      "source_label": "fUNHAPPY",
+      "lane": "dialogue",
+      "speaker": "chan_unk1",
+      "source_jp": "「ありがとねっ！」",
+      "source_text_sha256": "9515d14dfc76e63230cb6b7bca2be427ec712f23e8a5d139d4871daf7a7183fb",
+      "source_group_sha256": "485e078f6ce5ac64bcace64afa2030a97c96916b61606e99a2c577331f03af93",
+      "source_statement_code": "chan_unk1 \"「ありがとねっ！」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"cha\")",
+        "chan_unk1 \"「ありがとねっ！」\""
+      ],
+      "translation_id": "fUNHAPPY_e6020866",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"cha\")",
+        "line": 112,
+        "function": "get_voice_filename",
+        "tag": "cha",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「고마워!」",
+      "draft_ko_sha256": "9592e9e200c5ca48c48e002aaa854dcdee49814500f897368496cd236e2e5878",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 22,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_e1208547",
+      "sequence": 24,
+      "command_index": 24,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 117,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "そう言うと、女性は軽快な足取りで去っていった。",
+      "source_text_sha256": "6f80823e40c42a415029a35873203fe4525b4109c0b4a5397ba42553cc17fa26",
+      "source_group_sha256": "5081e22882bede9c616c3b22868987977ef50cb0cce5a5a8ee7bd11e45c6b5e5",
+      "source_statement_code": "\"そう言うと、女性は軽快な足取りで去っていった。\"",
+      "source_group_code": [
+        "\"そう言うと、女性は軽快な足取りで去っていった。\""
+      ],
+      "translation_id": "fUNHAPPY_e1208547",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "여성은 그렇게 말하고 가벼운 발걸음으로 떠났다.",
+      "draft_ko_sha256": "d4d742098c854d55a4b3546811e4e2bc687d920f20e416805395d573f0d599e7",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 23,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_6db3a319",
+      "sequence": 25,
+      "command_index": 25,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 119,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "そうやって行き当たりばったりだから迷うんだなと納得したけれど、一緒にいる男性も笑っているし、きっととてもいい関係なのだろう。",
+      "source_text_sha256": "aae52130f6eb1bdf6205e1c016613938dfd294fefe2e2b655d4d7a22cd89fce1",
+      "source_group_sha256": "9a867d9902042142211bae2e879a034f3f90577d4dfb31f01976f4858a8215e2",
+      "source_statement_code": "\"そうやって行き当たりばったりだから迷うんだなと納得したけれど、一緒にいる男性も笑っているし、きっととてもいい関係なのだろう。\"",
+      "source_group_code": [
+        "\"そうやって行き当たりばったりだから迷うんだなと納得したけれど、一緒にいる男性も笑っているし、きっととてもいい関係なのだろう。\""
+      ],
+      "translation_id": "fUNHAPPY_6db3a319",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "그렇게 닥치는 대로 다니니 길을 잃는구나 싶어 납득했지만, 함께 있던 남자도 웃고 있으니 분명 아주 좋은 사이겠지.",
+      "draft_ko_sha256": "4ba41459897c9584f27a473d994ef0f13527c77fdb0daffd1f546c8907fba553",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 24,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_2a2f849e",
+      "sequence": 26,
+      "command_index": 26,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 121,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "あれ、でも。",
+      "source_text_sha256": "d70ed2320c18f8164c4f15896908a5fe88896ac132aca9a389c2ff14ad79ec74",
+      "source_group_sha256": "d6ba31a33ac750ba95348f7b7cd8ab27c3b58b7f4cbcc4824b8d05f53770677d",
+      "source_statement_code": "\"あれ、でも。\"",
+      "source_group_code": [
+        "\"あれ、でも。\""
+      ],
+      "translation_id": "fUNHAPPY_2a2f849e",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "어라, 그런데.",
+      "draft_ko_sha256": "a14ca53b0e2a62cebf6271b2ea0bfe0c8814b61f09c72e63cd24bfbb86c105b7",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 25,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_7b96dade",
+      "sequence": 27,
+      "command_index": 27,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 123,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "あの人、英語じゃなかったっけ。私が英語分かるはずないのに、会話できてた。",
+      "source_text_sha256": "9881a79a24795ee638fb5edaade575abbad46b2307716d97b3699038eeb8b91e",
+      "source_group_sha256": "4abae153baaae72301c5f3046f8dee9e39a468a75bd5555474af18455b9d2bd5",
+      "source_statement_code": "\"あの人、英語じゃなかったっけ。私が英語分かるはずないのに、会話できてた。\"",
+      "source_group_code": [
+        "\"あの人、英語じゃなかったっけ。私が英語分かるはずないのに、会話できてた。\""
+      ],
+      "translation_id": "fUNHAPPY_7b96dade",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "저 사람, 영어로 말하지 않았나. 내가 영어를 알아들을 리 없는데 대화가 됐어.",
+      "draft_ko_sha256": "64559a4f9163f78435e2fdd31dedf5cf2a92f68577f04db6d7f338d453d0ac5b",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 26,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_40764c11",
+      "sequence": 28,
+      "command_index": 28,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 125,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "不思議なことは、さらに続いた。",
+      "source_text_sha256": "1ed98c8c1406aefdb90fbf5fa54abec1d8a0fee2345535f8720065492b96a1c3",
+      "source_group_sha256": "5a3cef1f489945134c8e224f666316825f3642f25d128ee4e361359fcdf9243b",
+      "source_statement_code": "\"不思議なことは、さらに続いた。\"",
+      "source_group_code": [
+        "\"不思議なことは、さらに続いた。\""
+      ],
+      "translation_id": "fUNHAPPY_40764c11",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "이상한 일은 계속됐다.",
+      "draft_ko_sha256": "4027522db1b04f964656bfefea6da134e02c069865797932ac8583012c6e5948",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 27,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_44d702df",
+      "sequence": 29,
+      "command_index": 29,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 133,
+      "source_label": "fUNHAPPY",
+      "lane": "dialogue",
+      "speaker": "chanho_unk1",
+      "source_jp": "「……綺麗な庭園だ」",
+      "source_text_sha256": "7d591d4c228ffbe34680a303212088ef02fed194faf74b74551504b75763e6d4",
+      "source_group_sha256": "7d72695c574478e0a5b2d0a45541ba1fef8ccbda663b88bac138744e492b30d7",
+      "source_statement_code": "chanho_unk1 \"「……綺麗な庭園だ」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"cnh\", 24)",
+        "chanho_unk1 \"「……綺麗な庭園だ」\""
+      ],
+      "translation_id": "fUNHAPPY_44d702df",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"cnh\", 24)",
+        "line": 132,
+        "function": "get_voice_filename",
+        "tag": "cnh",
+        "start_count": 24,
+        "resolution": {
+          "mode": "explicit_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": "sounds/voice/cnh_00024.ogg"
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「……아름다운 정원이군」",
+      "draft_ko_sha256": "dd537fc4a1bf7e6f51b4b0730cc2efeba872a8d3b1b58cc028d16d99a09b9ce0",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 28,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_afb88e91",
+      "sequence": 30,
+      "command_index": 30,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 135,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "スーツを着た男性が、一人でそう呟いていた。",
+      "source_text_sha256": "0f0d928a3aaad4ebd125ea130d7aeff2a673be368f9d9f3455b49753f8d0130d",
+      "source_group_sha256": "944aa75f646eeb6b8df258efd5364b5f940a8a4487c43044df319312c6f6e575",
+      "source_statement_code": "\"スーツを着た男性が、一人でそう呟いていた。\"",
+      "source_group_code": [
+        "\"スーツを着た男性が、一人でそう呟いていた。\""
+      ],
+      "translation_id": "fUNHAPPY_afb88e91",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "정장을 입은 남자가 혼자 그렇게 중얼거렸다.",
+      "draft_ko_sha256": "d3437a6946c87103e8858fc1db940f6bbe334d60ec785066de89517025967518",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 29,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_471adffa",
+      "sequence": 31,
+      "command_index": 31,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 139,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "その後一緒にいた家族と会話をしているのだが、それは中国語。まったく理解することができない。",
+      "source_text_sha256": "20415cc8dd211ef74038bf9ee23a294c455634028263cb37d209bb2b00b437b2",
+      "source_group_sha256": "ac0f8a074729befd51cd49315ac4b93cd52c7dbdf4bb6149ed220e2624c0de81",
+      "source_statement_code": "\"その後一緒にいた家族と会話をしているのだが、それは中国語。まったく理解することができない。\"",
+      "source_group_code": [
+        "\"その後一緒にいた家族と会話をしているのだが、それは中国語。まったく理解することができない。\""
+      ],
+      "translation_id": "fUNHAPPY_471adffa",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "이후 함께 있던 가족과 대화했는데 중국어였다. 전혀 알아들을 수 없다.",
+      "draft_ko_sha256": "1b0c4bed7012cc99bb5c5aad158d232b6bb3f0e78191bd7126fb80b42ffcfb53",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 30,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_a787965c",
+      "sequence": 32,
+      "command_index": 32,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 141,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "歩いていると、今度は向こうの方の人たちが目に入った。",
+      "source_text_sha256": "2aa4de99d9f530e6ce84dedad280ac28912b27ac977025869166feb12960bce6",
+      "source_group_sha256": "b49aba56a6e6e1604295eae665324136776deed473fdde8dacec5458c884fc63",
+      "source_statement_code": "\"歩いていると、今度は向こうの方の人たちが目に入った。\"",
+      "source_group_code": [
+        "\"歩いていると、今度は向こうの方の人たちが目に入った。\""
+      ],
+      "translation_id": "fUNHAPPY_a787965c",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "걷다 보니 이번에는 저쪽 사람들이 눈에 들어왔다.",
+      "draft_ko_sha256": "44a4a2123ac446536b5adcf527c5fd7dc98c3d4a4b95def2be6719e184d1d003",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 31,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_f219cb99",
+      "sequence": 33,
+      "command_index": 33,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 143,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "何やら賑やかな話し声が聞こえてきたのだ。",
+      "source_text_sha256": "44361fb9aa7be5fe1c7ee95759bc42da23f88c9bcdd84a3986aa885a0b9e9f97",
+      "source_group_sha256": "768e2ec227bc4911f0ddf3262406ad1b0b12f3c841461773afec57d1bf2ff340",
+      "source_statement_code": "\"何やら賑やかな話し声が聞こえてきたのだ。\"",
+      "source_group_code": [
+        "\"何やら賑やかな話し声が聞こえてきたのだ。\""
+      ],
+      "translation_id": "fUNHAPPY_f219cb99",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "뭔가 떠들썩한 말소리가 들렸다.",
+      "draft_ko_sha256": "a97439b75c6d43e195e9b80fe85e8cf813eeefa5ceec983481c52043810be454",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 32,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_8876f700",
+      "sequence": 34,
+      "command_index": 34,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 149,
+      "source_label": "fUNHAPPY",
+      "lane": "dialogue",
+      "speaker": "federico_unk3",
+      "source_jp": "「おいおい、こんなところ来てどうするんだ？」",
+      "source_text_sha256": "fda77dc1bcef51dcf774e01f489482540290f46ba4bae28f7aca9fac82bf5a4c",
+      "source_group_sha256": "691fd0d87d2306404453c63e870a2c45e3f9436630659b106b6867a7bef275b8",
+      "source_statement_code": "federico_unk3 \"「おいおい、こんなところ来てどうするんだ？」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"fed\", 405)",
+        "federico_unk3 \"「おいおい、こんなところ来てどうするんだ？」\""
+      ],
+      "translation_id": "fUNHAPPY_8876f700",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"fed\", 405)",
+        "line": 148,
+        "function": "get_voice_filename",
+        "tag": "fed",
+        "start_count": 405,
+        "resolution": {
+          "mode": "explicit_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": "sounds/voice/fed_00405.ogg"
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「어이, 이런 데 와서 뭘 하자는 거야?」",
+      "draft_ko_sha256": "ede82dc8bf479cae7fd4eb3928903824ffef32eab60219020d6f49f038a87390",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 33,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_a142adfc",
+      "sequence": 35,
+      "command_index": 35,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 155,
+      "source_label": "fUNHAPPY",
+      "lane": "dialogue",
+      "speaker": "odette_unk3",
+      "source_jp": "「あ？　理由なんてねーよ。これからしばらく日本で暮らさないといけねーんだ」",
+      "source_text_sha256": "d9b813c3218cabc05134f8a0f09e0746517a1cd3e261462244b4e58ce65b73e8",
+      "source_group_sha256": "f2a657f5eae290547005af5d0a351acae727eefce55b82ca002869bb5f306a3f",
+      "source_statement_code": "odette_unk3 \"「あ？　理由なんてねーよ。これからしばらく日本で暮らさないといけねーんだ」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"ode\", 502)",
+        "odette_unk3 \"「あ？　理由なんてねーよ。これからしばらく日本で暮らさないといけねーんだ」\""
+      ],
+      "translation_id": "fUNHAPPY_a142adfc",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"ode\", 502)",
+        "line": 154,
+        "function": "get_voice_filename",
+        "tag": "ode",
+        "start_count": 502,
+        "resolution": {
+          "mode": "explicit_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": "sounds/voice/ode_00502.ogg"
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「아? 이유 같은 건 없어. 이제부터 한동안 일본에서 살아야 하니까」",
+      "draft_ko_sha256": "55edde00103da1235c5ea89ef11f34e0f435219628a2190d041cfa4ef1fba98c",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 34,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_2f9b770b",
+      "sequence": 36,
+      "command_index": 36,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 161,
+      "source_label": "fUNHAPPY",
+      "lane": "dialogue",
+      "speaker": "odette_unk3",
+      "source_jp": "「ちったぁこの国の文化を楽しめよ、アンポンタン」",
+      "source_text_sha256": "5a2f61ffc8ba3dddafb42ffa3763c5b08cf0ebccf4b7067479e2b4dabd18b5a0",
+      "source_group_sha256": "780e1a9e1b3ee163f7d7afba8356f7b73a20ce197063f4622a695e0a705d79d1",
+      "source_statement_code": "odette_unk3 \"「ちったぁこの国の文化を楽しめよ、アンポンタン」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"ode\")",
+        "odette_unk3 \"「ちったぁこの国の文化を楽しめよ、アンポンタン」\""
+      ],
+      "translation_id": "fUNHAPPY_2f9b770b",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"ode\")",
+        "line": 160,
+        "function": "get_voice_filename",
+        "tag": "ode",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「조금은 이 나라 문화를 즐겨 보라고, 이 얼간아」",
+      "draft_ko_sha256": "c85bb0f255b197baec87173c8aa48d03fa211f18f5422065a4acd7f6bde47105",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 35,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_23996bf6",
+      "sequence": 37,
+      "command_index": 37,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 167,
+      "source_label": "fUNHAPPY",
+      "lane": "dialogue",
+      "speaker": "federico_unk3",
+      "source_jp": "「ま、仕方がねーか。あんたの船も沈んじまって、行く場所もない。この国なら、組織の連中も来ないだろうしよ」",
+      "source_text_sha256": "4bfc12feaa82a526e74aff355ae76aa9657529fc96cab5f3db45136236d9b47b",
+      "source_group_sha256": "c7ae49097c97fbdea86df89d5e6447fb8a3caa35a9738398922ffa33ebcbe736",
+      "source_statement_code": "federico_unk3 \"「ま、仕方がねーか。あんたの船も沈んじまって、行く場所もない。この国なら、組織の連中も来ないだろうしよ」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"fed\")",
+        "federico_unk3 \"「ま、仕方がねーか。あんたの船も沈んじまって、行く場所もない。この国なら、組織の連中も来ないだろうしよ」\""
+      ],
+      "translation_id": "fUNHAPPY_23996bf6",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"fed\")",
+        "line": 166,
+        "function": "get_voice_filename",
+        "tag": "fed",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「뭐, 어쩔 수 없나. 네 배도 가라앉아서 갈 데도 없고. 이 나라라면 조직 놈들도 안 오겠지」",
+      "draft_ko_sha256": "f59a3aa0fc724f36a4ed3a6d03d85c7467bb3a54c781d278d14cc10590ce630b",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 36,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_d18257dd",
+      "sequence": 38,
+      "command_index": 38,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 173,
+      "source_label": "fUNHAPPY",
+      "lane": "dialogue",
+      "speaker": "federico_unk3",
+      "source_jp": "「だがこの国で飲むイタリアワインは高過ぎる！」",
+      "source_text_sha256": "e2ff84db926d10bfe109f1a01f3e4f45030f0eff5dd2a6fcf9225f7c37bbf6a9",
+      "source_group_sha256": "05ed6b1815dc5cb01e1b90171edf6fd0219e1bfc8fc176d76f217cbe6f12a93e",
+      "source_statement_code": "federico_unk3 \"「だがこの国で飲むイタリアワインは高過ぎる！」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"fed\")",
+        "federico_unk3 \"「だがこの国で飲むイタリアワインは高過ぎる！」\""
+      ],
+      "translation_id": "fUNHAPPY_d18257dd",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"fed\")",
+        "line": 172,
+        "function": "get_voice_filename",
+        "tag": "fed",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「하지만 이 나라에서 마시는 이탈리아 와인은 너무 비싸!」",
+      "draft_ko_sha256": "5878a2fdc20e049b8b52ef1cf7d92b46bd61ed08f386297a278e48c9b4d180f1",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 37,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_9ccccc5d",
+      "sequence": 39,
+      "command_index": 39,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 179,
+      "source_label": "fUNHAPPY",
+      "lane": "dialogue",
+      "speaker": "odette_unk3",
+      "source_jp": "「てめーが行ったのはぼったくりのロクでもない店だろ、どーせ。やれやれ、今日はあたしがいい店を紹介してやるよ」",
+      "source_text_sha256": "98619bcad7592d0b97f380aae01ff07d57ecf0303926ff3f9a7e21e571926e71",
+      "source_group_sha256": "39c31c32384a678912a02915859aeff2f06c7bd213a2838fd0e40f1a493fb513",
+      "source_statement_code": "odette_unk3 \"「てめーが行ったのはぼったくりのロクでもない店だろ、どーせ。やれやれ、今日はあたしがいい店を紹介してやるよ」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"ode\")",
+        "odette_unk3 \"「てめーが行ったのはぼったくりのロクでもない店だろ、どーせ。やれやれ、今日はあたしがいい店を紹介してやるよ」\""
+      ],
+      "translation_id": "fUNHAPPY_9ccccc5d",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"ode\")",
+        "line": 178,
+        "function": "get_voice_filename",
+        "tag": "ode",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「네가 간 곳은 바가지나 씌우는 형편없는 가게였겠지, 뻔해. 이런, 오늘은 내가 좋은 가게를 소개해 주지」",
+      "draft_ko_sha256": "25fe517862f3f2f5b6023160760eaa6c9b9a839bdc8ba1b29c21e2b91ad051fd",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 38,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_70f7facd",
+      "sequence": 40,
+      "command_index": 40,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 185,
+      "source_label": "fUNHAPPY",
+      "lane": "dialogue",
+      "speaker": "odette_unk3",
+      "source_jp": "「かかっ、てめーのおごりでな」",
+      "source_text_sha256": "3f77fb0d5f7ac4749ab5ae9172fed5fbf0e40b9a9b8e4342702b12a1d64e78c9",
+      "source_group_sha256": "55208e09aae679cdadaadcd17b9b4f8c1da9fb2c553dcaff238cc974c2ef71bf",
+      "source_statement_code": "odette_unk3 \"「かかっ、てめーのおごりでな」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"ode\")",
+        "odette_unk3 \"「かかっ、てめーのおごりでな」\""
+      ],
+      "translation_id": "fUNHAPPY_70f7facd",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"ode\")",
+        "line": 184,
+        "function": "get_voice_filename",
+        "tag": "ode",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「크하핫, 네가 쏘는 걸로」",
+      "draft_ko_sha256": "88dc35416f36a852983cd31e664c292a06cd3c4e2d1fdc02dd6f30450786e264",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 39,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_63162188",
+      "sequence": 41,
+      "command_index": 41,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 191,
+      "source_label": "fUNHAPPY",
+      "lane": "dialogue",
+      "speaker": "federico_unk3",
+      "source_jp": "「ハァ？」",
+      "source_text_sha256": "397c0321e7200a9def67cc7d5997f396f8e15299cdbeb3781b0ca650b4920de3",
+      "source_group_sha256": "abcf2ee08bd0b5fa6f4cadecc70b75d8ff8fc01b28084d878a0453fb44b1cb0a",
+      "source_statement_code": "federico_unk3 \"「ハァ？」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"fed\")",
+        "federico_unk3 \"「ハァ？」\""
+      ],
+      "translation_id": "fUNHAPPY_63162188",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"fed\")",
+        "line": 190,
+        "function": "get_voice_filename",
+        "tag": "fed",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「뭐어?」",
+      "draft_ko_sha256": "9ec3e311455a695abf90ce89843305a2f6e09a0d1fff08069b9c6fe0ddc1613d",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 40,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_8c69c462",
+      "sequence": 42,
+      "command_index": 42,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 197,
+      "source_label": "fUNHAPPY",
+      "lane": "dialogue",
+      "speaker": "scale_unk2",
+      "source_jp": "「お、画になる二人を発見。一枚撮らせてもらうよ」",
+      "source_text_sha256": "9c837f8b0726e8fd4d7d575a40fc4fc0cc48d3b29d7d2519a5bfa9e7eb968e36",
+      "source_group_sha256": "21ef7a8971281f6ae1801a339001f9eb18cfb5f70f844252fe030ace2262302e",
+      "source_statement_code": "scale_unk2 \"「お、画になる二人を発見。一枚撮らせてもらうよ」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"sca\", 300)",
+        "scale_unk2 \"「お、画になる二人を発見。一枚撮らせてもらうよ」\""
+      ],
+      "translation_id": "fUNHAPPY_8c69c462",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"sca\", 300)",
+        "line": 196,
+        "function": "get_voice_filename",
+        "tag": "sca",
+        "start_count": 300,
+        "resolution": {
+          "mode": "explicit_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": "sounds/voice/sca_00300.ogg"
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「오, 그림이 되는 두 사람 발견. 한 장 찍게 해 줘」",
+      "draft_ko_sha256": "9a4c9bb5c39653dd2b7b4386dccb482380619b23396323160379a2c0616c4938",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 41,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_0ff84198",
+      "sequence": 43,
+      "command_index": 43,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 203,
+      "source_label": "fUNHAPPY",
+      "lane": "dialogue",
+      "speaker": "federico_unk3",
+      "source_jp": "「おいっ！　勝手に撮ってんじゃ……」",
+      "source_text_sha256": "e61910ddb88f3b1756b64e6023fa55ba60d0f7157e7163c3215903455fa1965e",
+      "source_group_sha256": "2a8acd4a8188d34b719b29b76ee9e5e95edcfeb9f3163b04dfa7e76704ad3506",
+      "source_statement_code": "federico_unk3 \"「おいっ！　勝手に撮ってんじゃ……」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"fed\")",
+        "federico_unk3 \"「おいっ！　勝手に撮ってんじゃ……」\""
+      ],
+      "translation_id": "fUNHAPPY_0ff84198",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"fed\")",
+        "line": 202,
+        "function": "get_voice_filename",
+        "tag": "fed",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「야! 멋대로 찍지 마……」",
+      "draft_ko_sha256": "398289c56d4fa127620d4b602a52fb98b91cce88941ec6c0dbbb7ed0d6618085",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 42,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_293b9c2c",
+      "sequence": 44,
+      "command_index": 44,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 209,
+      "source_label": "fUNHAPPY",
+      "lane": "dialogue",
+      "speaker": "scale_unk2",
+      "source_jp": "「ＨＡＨＡＨＡ、ネットにはアップしないから安心してくれ。ただのおれの趣味だ」",
+      "source_text_sha256": "a741a7f5ae8f099f81d34ce650e24575d94c42087f97b2beb224291ab15c44b3",
+      "source_group_sha256": "10071b46efa8f2281bd1beefafee8398d2661076a48f5d8c3674d2b37e53977b",
+      "source_statement_code": "scale_unk2 \"「ＨＡＨＡＨＡ、ネットにはアップしないから安心してくれ。ただのおれの趣味だ」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"sca\")",
+        "scale_unk2 \"「ＨＡＨＡＨＡ、ネットにはアップしないから安心してくれ。ただのおれの趣味だ」\""
+      ],
+      "translation_id": "fUNHAPPY_293b9c2c",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"sca\")",
+        "line": 208,
+        "function": "get_voice_filename",
+        "tag": "sca",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「하하하, 인터넷에는 안 올릴 테니 안심해. 그냥 내 취미야」",
+      "draft_ko_sha256": "69b8b31764ad1c2d82dee69050f23abbe56152b12858c09323d251f70862721a",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 43,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_c8f0c052",
+      "sequence": 45,
+      "command_index": 45,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 211,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "彼らはみんな背が高いが、電車で見る男子高校生みたいにはしゃいでいる。",
+      "source_text_sha256": "2cf5c356abeaf191679157d9705b08fc15a92c1dd2945b8b59eca54852a69e43",
+      "source_group_sha256": "718c23cacf35a86e311addffb55c9dd7df76ff6f3cb56ed1efbc5fefcc27d215",
+      "source_statement_code": "\"彼らはみんな背が高いが、電車で見る男子高校生みたいにはしゃいでいる。\"",
+      "source_group_code": [
+        "\"彼らはみんな背が高いが、電車で見る男子高校生みたいにはしゃいでいる。\""
+      ],
+      "translation_id": "fUNHAPPY_c8f0c052",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "그들은 모두 키가 큰데도 전철에서 보는 남고생들처럼 신이 났다.",
+      "draft_ko_sha256": "eb1baedfafb0a2596344c4d1b0c50f63dee210fc8fd1b10d9af4421ddd4a61c9",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 44,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_9679408b",
+      "sequence": 46,
+      "command_index": 46,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 213,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "初対面なのに、まるで昔からの知り合いのようだ。",
+      "source_text_sha256": "5dc887329a4cbd7494d5c66b757c3a1ebcbcff42e104f39b35b50fb499ed2735",
+      "source_group_sha256": "84824559d78e8a5e6de841e470be2d8bd19632b2fd82b3fe43308e154b0b17af",
+      "source_statement_code": "\"初対面なのに、まるで昔からの知り合いのようだ。\"",
+      "source_group_code": [
+        "\"初対面なのに、まるで昔からの知り合いのようだ。\""
+      ],
+      "translation_id": "fUNHAPPY_9679408b",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "초면인데도 마치 예전부터 알던 사이 같다.",
+      "draft_ko_sha256": "19a03b8726a010a61d3dd3ef3e4b9ce9ce24a2f082fbcc72a1315534b1bdaa15",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 45,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_caf78675",
+      "sequence": 47,
+      "command_index": 47,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 223,
+      "source_label": "fUNHAPPY",
+      "lane": "dialogue",
+      "speaker": "alan_unk5",
+      "source_jp": "「……フン。この場所に似合わない五月蠅い連中だ」",
+      "source_text_sha256": "4247c6d2296c24003cb9e5a53fb16315c244071673a085b324429282ec73e494",
+      "source_group_sha256": "35b5628cc075a57c5a7cdcb25c8ee08ca515e242785b1953ebf0a77503e927e1",
+      "source_statement_code": "alan_unk5 \"「……フン。この場所に似合わない五月蠅い連中だ」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"aln\", 419)",
+        "alan_unk5 \"「……フン。この場所に似合わない五月蠅い連中だ」\""
+      ],
+      "translation_id": "fUNHAPPY_caf78675",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"aln\", 419)",
+        "line": 222,
+        "function": "get_voice_filename",
+        "tag": "aln",
+        "start_count": 419,
+        "resolution": {
+          "mode": "explicit_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": "sounds/voice/aln_00419.ogg"
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「……흥. 이곳과 어울리지 않게 시끄러운 자들이군」",
+      "draft_ko_sha256": "12f50d439f92bedfd85b32e5b9342a20ee0f0652959024d445322e4fe06337c0",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 46,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_d654f51f",
+      "sequence": 48,
+      "command_index": 48,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 225,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "彼らから少し離れたところで、褐色の肌の青年が愚痴をこぼしていた。",
+      "source_text_sha256": "98c293e490cf1c8e5b37e5c1e2d37d6ac4f20d8f1e9312404abdacc6f696be65",
+      "source_group_sha256": "cea8f4b586ba7c9c0568fdd3efb86bf7c2db4f7fce45f7158758b61dc5fb008f",
+      "source_statement_code": "\"彼らから少し離れたところで、褐色の肌の青年が愚痴をこぼしていた。\"",
+      "source_group_code": [
+        "\"彼らから少し離れたところで、褐色の肌の青年が愚痴をこぼしていた。\""
+      ],
+      "translation_id": "fUNHAPPY_d654f51f",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "그들과 조금 떨어진 곳에서 갈색 피부의 청년이 불평을 흘리고 있었다.",
+      "draft_ko_sha256": "52b9af04f9eab0e433256df6c855bec01d400b2e50ac5dd972dab05efe08bde0",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 47,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_e631c373",
+      "sequence": 49,
+      "command_index": 49,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 231,
+      "source_label": "fUNHAPPY",
+      "lane": "dialogue",
+      "speaker": "alan_unk5",
+      "source_jp": "「アムが日本へ留学したいと駄々をこねていたが、これは見送らせるべきか」",
+      "source_text_sha256": "418c0e7049514ee889c1929e5f472579ce8e787d6e06cf89556f548ac53d243d",
+      "source_group_sha256": "309fad06b8c85fafae1cfe565cfaeed102ede755281a3e1d4f21ae3183432370",
+      "source_statement_code": "alan_unk5 \"「アムが日本へ留学したいと駄々をこねていたが、これは見送らせるべきか」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"aln\")",
+        "alan_unk5 \"「アムが日本へ留学したいと駄々をこねていたが、これは見送らせるべきか」\""
+      ],
+      "translation_id": "fUNHAPPY_e631c373",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"aln\")",
+        "line": 230,
+        "function": "get_voice_filename",
+        "tag": "aln",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「암이 일본에 유학하고 싶다고 떼를 썼는데, 이건 말려야 하나」",
+      "draft_ko_sha256": "4a1f9d49d5d0300977066b884ad20cf5834d002fe56a81a89b126aa00cf7e01c",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 48,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_cbd752c4",
+      "sequence": 50,
+      "command_index": 50,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 237,
+      "source_label": "fUNHAPPY",
+      "lane": "dialogue",
+      "speaker": "keiko_unk3",
+      "source_jp": "「あら、いいところですよ。この国は」",
+      "source_text_sha256": "e4f7d0ba53f33aed39f7760e752b1a5a2b06bde6415c8a4c6e916fa7d981524f",
+      "source_group_sha256": "b715028d64a24e2924b8722e09275c340c452d213443e1012f1d1913c4a97d0c",
+      "source_statement_code": "keiko_unk3 \"「あら、いいところですよ。この国は」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"kik\", 124)",
+        "keiko_unk3 \"「あら、いいところですよ。この国は」\""
+      ],
+      "translation_id": "fUNHAPPY_cbd752c4",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"kik\", 124)",
+        "line": 236,
+        "function": "get_voice_filename",
+        "tag": "kik",
+        "start_count": 124,
+        "resolution": {
+          "mode": "explicit_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": "sounds/voice/kik_00124.ogg"
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「어머, 좋은 곳이에요. 이 나라는」",
+      "draft_ko_sha256": "f4583a7626a4b1edffec89f20efe8c23b3b320a04d77fcb78c5a0239bcf54127",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 49,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_1b757670",
+      "sequence": 51,
+      "command_index": 51,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 243,
+      "source_label": "fUNHAPPY",
+      "lane": "dialogue",
+      "speaker": "alan_unk5",
+      "source_jp": "「……そうか」",
+      "source_text_sha256": "2352eb915b63d6dab9877ecd639bee2a08ca28c256474f2d2d5453bc12d2b639",
+      "source_group_sha256": "ccd3dcb77e8e70ac523174f123415738273d3a26275ae0aeb249ea4716c8db00",
+      "source_statement_code": "alan_unk5 \"「……そうか」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"aln\")",
+        "alan_unk5 \"「……そうか」\""
+      ],
+      "translation_id": "fUNHAPPY_1b757670",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"aln\")",
+        "line": 242,
+        "function": "get_voice_filename",
+        "tag": "aln",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「……그런가」",
+      "draft_ko_sha256": "38e124507b566420b4d9adf5d20e5d2dd693c5c1b31c64a7521613d481fe6a27",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 50,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_7fc937d5",
+      "sequence": 52,
+      "command_index": 52,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 249,
+      "source_label": "fUNHAPPY",
+      "lane": "dialogue",
+      "speaker": "keiko_unk3",
+      "source_jp": "「この子、生まれて３ヵ月になるんです」",
+      "source_text_sha256": "2655549ce66719f84f60244c3ff0eca932f36b5127d9826118cc8db9c2a3a531",
+      "source_group_sha256": "0f005cd51d598545da5808364f17005e74d9bd851c04eeb5a673ea000cda74c8",
+      "source_statement_code": "keiko_unk3 \"「この子、生まれて３ヵ月になるんです」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"kik\")",
+        "keiko_unk3 \"「この子、生まれて３ヵ月になるんです」\""
+      ],
+      "translation_id": "fUNHAPPY_7fc937d5",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"kik\")",
+        "line": 248,
+        "function": "get_voice_filename",
+        "tag": "kik",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [
+        {
+          "kind": "number",
+          "value": "３",
+          "start": 9,
+          "end": 10,
+          "severity": "hard"
+        }
+      ],
+      "draft_ko": "「이 아이, 태어난 지 3개월 됐어요」",
+      "draft_ko_sha256": "30126f2e9b0ed03692a4a9deadf51ddaf310c2ba48f692b143937945118d77d8",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 51,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_add1483d",
+      "sequence": 53,
+      "command_index": 53,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 255,
+      "source_label": "fUNHAPPY",
+      "lane": "dialogue",
+      "speaker": "alan_unk5",
+      "source_jp": "「なぜ僕にそれを？」",
+      "source_text_sha256": "481c5a46d35e6774117dec2f784e420cc462577deb910d903a4ca08e1dfd7200",
+      "source_group_sha256": "d3a81e1281018eda17b8e575ae411c8ffc10d1d41d08916383ac5f88ea982e29",
+      "source_statement_code": "alan_unk5 \"「なぜ僕にそれを？」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"aln\")",
+        "alan_unk5 \"「なぜ僕にそれを？」\""
+      ],
+      "translation_id": "fUNHAPPY_add1483d",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"aln\")",
+        "line": 254,
+        "function": "get_voice_filename",
+        "tag": "aln",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「왜 내게 그걸?」",
+      "draft_ko_sha256": "b14295b19e54a226ee92e47a7ba5b09d26be196c270609d6118b55b01de1ed5d",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 52,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_77eb37c8",
+      "sequence": 54,
+      "command_index": 54,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 261,
+      "source_label": "fUNHAPPY",
+      "lane": "dialogue",
+      "speaker": "keiko_unk3",
+      "source_jp": "「あなた、余裕がなさそうに見えるから。せっかくの観光なのですから、肩の力を抜けばいいのに。ねー、春樹くん？」",
+      "source_text_sha256": "f05591a8fba30deb46d2bd1d263f35a53fbd74f0488ce008c3931401009adee9",
+      "source_group_sha256": "7cb23674ea023a9b427a7390ec934d195e8e34ec80338f8d72b32025d7dfbbbb",
+      "source_statement_code": "keiko_unk3 \"「あなた、余裕がなさそうに見えるから。せっかくの観光なのですから、肩の力を抜けばいいのに。ねー、春樹くん？」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"kik\")",
+        "keiko_unk3 \"「あなた、余裕がなさそうに見えるから。せっかくの観光なのですから、肩の力を抜けばいいのに。ねー、春樹くん？」\""
+      ],
+      "translation_id": "fUNHAPPY_77eb37c8",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"kik\")",
+        "line": 260,
+        "function": "get_voice_filename",
+        "tag": "kik",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「당신, 여유가 없어 보여서요. 모처럼 관광을 왔으니 긴장을 풀면 좋을 텐데. 그렇지, 하루키?」",
+      "draft_ko_sha256": "1fddf689fd457301155cdbd04e0c23e37d47d9e78efd92b832ccf757908c148e",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 53,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_d95607e9",
+      "sequence": 55,
+      "command_index": 55,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 267,
+      "source_label": "fUNHAPPY",
+      "lane": "dialogue",
+      "speaker": "alan_unk5",
+      "source_jp": "「仕事のついでに寄っただけだ。余計なお世話ではあるが……ここでは肩を張る必要もない、か」",
+      "source_text_sha256": "a410fa1c75690a4232dfa08f3180fc8ed36791b064a8a30fe12fb45b45171d8e",
+      "source_group_sha256": "a9d3fb399d0bb8b59e5109af44498c18406f8ac2c2014c6bb412b6837ccad9ab",
+      "source_statement_code": "alan_unk5 \"「仕事のついでに寄っただけだ。余計なお世話ではあるが……ここでは肩を張る必要もない、か」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"aln\")",
+        "alan_unk5 \"「仕事のついでに寄っただけだ。余計なお世話ではあるが……ここでは肩を張る必要もない、か」\""
+      ],
+      "translation_id": "fUNHAPPY_d95607e9",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"aln\")",
+        "line": 266,
+        "function": "get_voice_filename",
+        "tag": "aln",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「일 때문에 들렀을 뿐이다. 쓸데없는 참견이긴 하지만…… 여기서는 긴장할 필요도 없나」",
+      "draft_ko_sha256": "a9c021100a4e6f288abae251dfe92c85a673892bdfdaf9189dc52587105aaaf8",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 54,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_dac43f8c",
+      "sequence": 56,
+      "command_index": 56,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 273,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "今日は、知らない人たちの会話がよく聞こえてくる。",
+      "source_text_sha256": "f641c4fa39e7324037c33284e2e3a351b46d6d829d20769cb0ca4c52b732e1da",
+      "source_group_sha256": "27821d883cdb25f291acb4761888bfc0e7c8a3da625a6b9d30255d17e5dafc80",
+      "source_statement_code": "\"今日は、知らない人たちの会話がよく聞こえてくる。\"",
+      "source_group_code": [
+        "\"今日は、知らない人たちの会話がよく聞こえてくる。\""
+      ],
+      "translation_id": "fUNHAPPY_dac43f8c",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "오늘은 모르는 사람들의 대화가 유난히 잘 들린다.",
+      "draft_ko_sha256": "fa88c944bc4d46fc068f5b76b7dc193a4fef4217771b54f13fb295eba91d2ab5",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 55,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_5f7db1fd",
+      "sequence": 57,
+      "command_index": 57,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 275,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "疑問に思っても、答えをくれる人はいない。",
+      "source_text_sha256": "6e6756a1b854290e76ea4480eb2179d7b9500c2a5f7beff00d0a75d6af3bbe36",
+      "source_group_sha256": "ace19dbb28406db2d7510a4c7ad680cf0b8ed5b976f2a86dbb2c4e3bd84cd75d",
+      "source_statement_code": "\"疑問に思っても、答えをくれる人はいない。\"",
+      "source_group_code": [
+        "\"疑問に思っても、答えをくれる人はいない。\""
+      ],
+      "translation_id": "fUNHAPPY_5f7db1fd",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "의문을 품어도 답해 줄 사람은 없다.",
+      "draft_ko_sha256": "557b0b9b22ecd2056b732d1570b9eebdf68dce27a5beb3e3bdab08d5c23a77a8",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 56,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_d8d1c401",
+      "sequence": 58,
+      "command_index": 58,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 281,
+      "source_label": "fUNHAPPY",
+      "lane": "dialogue",
+      "speaker": "yuu_unk7",
+      "source_jp": "「……はぁ」",
+      "source_text_sha256": "8734dfa31cfbe11485d0e3bc5a166dfa23bd781e8b7513c2656542cd3c7356f8",
+      "source_group_sha256": "ad64e54394eda79b85d48b2d4a446ce302f89f2f6be464abd4a39262de7d06b7",
+      "source_statement_code": "yuu_unk7 \"「……はぁ」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"yuu\", 385)",
+        "yuu_unk7 \"「……はぁ」\""
+      ],
+      "translation_id": "fUNHAPPY_d8d1c401",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"yuu\", 385)",
+        "line": 280,
+        "function": "get_voice_filename",
+        "tag": "yuu",
+        "start_count": 385,
+        "resolution": {
+          "mode": "explicit_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": "sounds/voice/yuu_00385.ogg"
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「……하아」",
+      "draft_ko_sha256": "fc022a5e4b90589ef0e9970a8d126841ca63a1bbaa365422df53f592b5421169",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 57,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_5b3de2fa",
+      "sequence": 59,
+      "command_index": 59,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 287,
+      "source_label": "fUNHAPPY",
+      "lane": "dialogue",
+      "speaker": "ushizuka_unk2",
+      "source_jp": "「元気がないようだのう。どれ、今日は大勝ちしたんじゃ。売店でアイスを買ってやろう」",
+      "source_text_sha256": "5eb72d7e0cff8789f6bd319c979e1f4e97a5973cfd30d862a0753bfc13d07c46",
+      "source_group_sha256": "42787553bf19a7e719df09b5e8e67ce865084d207de896990608b1a541543647",
+      "source_statement_code": "ushizuka_unk2 \"「元気がないようだのう。どれ、今日は大勝ちしたんじゃ。売店でアイスを買ってやろう」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"sgt\", 269)",
+        "ushizuka_unk2 \"「元気がないようだのう。どれ、今日は大勝ちしたんじゃ。売店でアイスを買ってやろう」\""
+      ],
+      "translation_id": "fUNHAPPY_5b3de2fa",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"sgt\", 269)",
+        "line": 286,
+        "function": "get_voice_filename",
+        "tag": "sgt",
+        "start_count": 269,
+        "resolution": {
+          "mode": "explicit_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": "sounds/voice/sgt_00269.ogg"
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「기운이 없어 보이는구나. 어디 보자, 오늘은 크게 땄으니 매점에서 아이스크림을 사 주마」",
+      "draft_ko_sha256": "c2f15147e41681e1f93e92d4568b82433a46f61714630349dcbab6cdc6bfe44f",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 58,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_a2493f38",
+      "sequence": 60,
+      "command_index": 60,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 293,
+      "source_label": "fUNHAPPY",
+      "lane": "dialogue",
+      "speaker": "yuu_unk7",
+      "source_jp": "「……うん」",
+      "source_text_sha256": "4e46455db8bd4ca32537798058f0d978371d37b54eb506feaca1e72a9689f34d",
+      "source_group_sha256": "e5e1000cff29b1357c23bdee6d967e0b0e83358fc0635bc128998b902bb8936b",
+      "source_statement_code": "yuu_unk7 \"「……うん」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"yuu\")",
+        "yuu_unk7 \"「……うん」\""
+      ],
+      "translation_id": "fUNHAPPY_a2493f38",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"yuu\")",
+        "line": 292,
+        "function": "get_voice_filename",
+        "tag": "yuu",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「……응」",
+      "draft_ko_sha256": "4c2b49e8cfb84263140668febeb65e589b15519602d5ae79c89edc7f188a91ab",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 59,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_9c177a25",
+      "sequence": 61,
+      "command_index": 61,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 295,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "おじいさんと一緒にいる少女の背負っているリュックには、きらりと金色の鍵が光っていた。",
+      "source_text_sha256": "3ee68e69bb9ee6e0361c9df6782d43a4988cf31a62dacfd2ba157189f25c060c",
+      "source_group_sha256": "61f12d78bc690303980ae8f04811a00335cd171dbda6f75ddb4c480168fa79ca",
+      "source_statement_code": "\"おじいさんと一緒にいる少女の背負っているリュックには、きらりと金色の鍵が光っていた。\"",
+      "source_group_code": [
+        "\"おじいさんと一緒にいる少女の背負っているリュックには、きらりと金色の鍵が光っていた。\""
+      ],
+      "translation_id": "fUNHAPPY_9c177a25",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "할아버지와 함께 있는 소녀가 멘 배낭에는 금빛 열쇠가 반짝였다.",
+      "draft_ko_sha256": "ab22c12cb6937fc39bfcb120d964d6a3da2d6980b58b59e2640856c58760b384",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 60,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_db7ba3ec",
+      "sequence": 62,
+      "command_index": 62,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 301,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "今度は、その少女を見ていたらしい女の子の元気な声が聞こえた。",
+      "source_text_sha256": "c749e7cd5622b75d7755197f6063c11410c009a3f6b2deacef03472701e8818f",
+      "source_group_sha256": "fe7258ab4ce8b735e999441d2cbacfd03520f92649aa403c219c9d946ec5149a",
+      "source_statement_code": "\"今度は、その少女を見ていたらしい女の子の元気な声が聞こえた。\"",
+      "source_group_code": [
+        "\"今度は、その少女を見ていたらしい女の子の元気な声が聞こえた。\""
+      ],
+      "translation_id": "fUNHAPPY_db7ba3ec",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "이번에는 그 소녀를 보고 있었던 듯한 여자아이의 씩씩한 목소리가 들렸다.",
+      "draft_ko_sha256": "9e4f611798ccca1e1196904d083945e02526ad5afe8dfdda2add2e9beeb66ea4",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 61,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_e193bea2",
+      "sequence": 63,
+      "command_index": 63,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 307,
+      "source_label": "fUNHAPPY",
+      "lane": "dialogue",
+      "speaker": "sonya_unk2",
+      "source_jp": "「オトウサマ！　ソーニャもアイスを食べたいであります！」",
+      "source_text_sha256": "9e0f18b2aae799361aee7a1d1fd2e654ee404c2cbbfca74c186fd713339068d2",
+      "source_group_sha256": "928afa07e19e745710cbfe79783cd95d67d599d390ebb5e7581db83c8637f0ed",
+      "source_statement_code": "sonya_unk2 \"「オトウサマ！　ソーニャもアイスを食べたいであります！」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"son\", 169)",
+        "sonya_unk2 \"「オトウサマ！　ソーニャもアイスを食べたいであります！」\""
+      ],
+      "translation_id": "fUNHAPPY_e193bea2",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"son\", 169)",
+        "line": 306,
+        "function": "get_voice_filename",
+        "tag": "son",
+        "start_count": 169,
+        "resolution": {
+          "mode": "explicit_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": "sounds/voice/son_00169.ogg"
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「아버님! 소냐도 아이스크림을 먹고 싶습니다!」",
+      "draft_ko_sha256": "ac06a33d99bc19ff3c59fd2518635e13edd4ef3d6fbc95243443ec51040f52e2",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 62,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_c7022cf4",
+      "sequence": 64,
+      "command_index": 64,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 309,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "ぬいぐるみを連れた少女は、家族３人で歩いていた。",
+      "source_text_sha256": "55572b4146a47f221bd73fb064637aa236dda35238ec02a88145279b92eae894",
+      "source_group_sha256": "d455a4e3d79f8d5afba70fe80e05111a4b12559ed91a7617aa1cff5190b0172a",
+      "source_statement_code": "\"ぬいぐるみを連れた少女は、家族３人で歩いていた。\"",
+      "source_group_code": [
+        "\"ぬいぐるみを連れた少女は、家族３人で歩いていた。\""
+      ],
+      "translation_id": "fUNHAPPY_c7022cf4",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [
+        {
+          "kind": "number",
+          "value": "３",
+          "start": 15,
+          "end": 16,
+          "severity": "hard"
+        }
+      ],
+      "draft_ko": "인형을 데리고 다니는 소녀는 부모님과 함께 걷고 있었다.",
+      "draft_ko_sha256": "9fca0a0a7acc0d7bc71d31b82d72341adb41350f8bbb8845a987455420597c16",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": false,
+        "findings": [
+          "Arabic numbers: expected {'3': 1}, got {}"
+        ]
+      },
+      "structural_validation": "hard_token_findings_reported",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 63,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_c30a0948",
+      "sequence": 65,
+      "command_index": 65,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 311,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "裕福そうな彼らは、とても幸せそうだった。",
+      "source_text_sha256": "f33b862ddb41541ea3f4757420729cc6ebeeff3f1ead2ed4c2b807dad9a2b535",
+      "source_group_sha256": "1a830a5ae67a4171a5caa804bd4cdce3565073be7c379c43bdbd87a92c191d48",
+      "source_statement_code": "\"裕福そうな彼らは、とても幸せそうだった。\"",
+      "source_group_code": [
+        "\"裕福そうな彼らは、とても幸せそうだった。\""
+      ],
+      "translation_id": "fUNHAPPY_c30a0948",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "부유해 보이는 그들은 무척 행복해 보였다.",
+      "draft_ko_sha256": "63be9610499fabf68559f7951a43fcbf7f461bc509642f0b4b305906e38c38fb",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 64,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_3bd44f9f",
+      "sequence": 66,
+      "command_index": 66,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 317,
+      "source_label": "fUNHAPPY",
+      "lane": "dialogue",
+      "speaker": "sonya_unk2",
+      "source_jp": "「パサジール、そこのオネエサマにご挨拶です」",
+      "source_text_sha256": "373028da40b7cac98fa50ef4195bdcb8961701c23f6892696bca4cf65da5f555",
+      "source_group_sha256": "3ce7993eb7cf2a08518b24e4d88aa0df7f6e13aa9fab322d28e0a5887f33900d",
+      "source_statement_code": "sonya_unk2 \"「パサジール、そこのオネエサマにご挨拶です」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"son\")",
+        "sonya_unk2 \"「パサジール、そこのオネエサマにご挨拶です」\""
+      ],
+      "translation_id": "fUNHAPPY_3bd44f9f",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"son\")",
+        "line": 316,
+        "function": "get_voice_filename",
+        "tag": "son",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「파사지르, 저기 언니께 인사드리는 겁니다」",
+      "draft_ko_sha256": "601a624e1cfe4f4336e35110e1a2b3163c9607021e6945b4033d9decc436b21e",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 65,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_9a86713b",
+      "sequence": 67,
+      "command_index": 67,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 322,
+      "source_label": "fUNHAPPY",
+      "lane": "dialogue",
+      "speaker": "rinka",
+      "source_jp": "「ええっ……」",
+      "source_text_sha256": "578f67664f868f77ec9f068ed1cff7351d6bb6a42b82eca0e66f56da061d595d",
+      "source_group_sha256": "5db1d18290c0572b43868b2826cb1ea8c8a30d02ee5de8055764783dec8b71e7",
+      "source_statement_code": "rinka \"「ええっ……」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"rnk\")",
+        "rinka \"「ええっ……」\""
+      ],
+      "translation_id": "fUNHAPPY_9a86713b",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"rnk\")",
+        "line": 321,
+        "function": "get_voice_filename",
+        "tag": "rnk",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「에엣……」",
+      "draft_ko_sha256": "6e4f1fabfc038d86011950f7701d80f29ddd4d3e551ec3c9753f646b1483bb04",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 66,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_a6585988",
+      "sequence": 68,
+      "command_index": 68,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 324,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "少女はぬいぐるみのくまで、私にぺこりと挨拶をしてきた。",
+      "source_text_sha256": "80f133ed90f04a76217bd83b28f95ab8d5c2f51cc0637560523d6489f6eb9a9d",
+      "source_group_sha256": "d12af374502fe20626311a14114b30e0d6eb4dc3be96c5b0badde0d96cd88c7b",
+      "source_statement_code": "\"少女はぬいぐるみのくまで、私にぺこりと挨拶をしてきた。\"",
+      "source_group_code": [
+        "\"少女はぬいぐるみのくまで、私にぺこりと挨拶をしてきた。\""
+      ],
+      "translation_id": "fUNHAPPY_a6585988",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "소녀는 곰 인형을 움직여 내게 꾸벅 인사해 왔다.",
+      "draft_ko_sha256": "518a3b20bf43520412f7e8e3dc37f5cbf1e97c5b5ca15099568db1cb40c59e8d",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 67,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_a007d9df",
+      "sequence": 69,
+      "command_index": 69,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 326,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "突然のことに戸惑いながら、とりあえず会釈で返しておいた。",
+      "source_text_sha256": "2422dc4d79eed944ed563fd647d2dd7e2331eb22b2ddd821e624a14c9158a90c",
+      "source_group_sha256": "14ca5b574a0417644093b60386b286c64c3562a1d98f89e03ec3f9c6ab229b87",
+      "source_statement_code": "\"突然のことに戸惑いながら、とりあえず会釈で返しておいた。\"",
+      "source_group_code": [
+        "\"突然のことに戸惑いながら、とりあえず会釈で返しておいた。\""
+      ],
+      "translation_id": "fUNHAPPY_a007d9df",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "갑작스러운 일에 당황하면서도 일단 가볍게 고개 숙여 답했다.",
+      "draft_ko_sha256": "25501a4a1bad8d6315543a362e0b89ffa8ffc0f6146b1b533bbfeec125f5fe3f",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 68,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_48832003",
+      "sequence": 70,
+      "command_index": 70,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 330,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "これでよかったのだろうかと思っていると、いつの間にか少女と両親は売店の方へと向かっていった。",
+      "source_text_sha256": "9ed013ee3c3d89f2c8158d3edc02386ab47b49d9aeb0a42216e7279f47c7b5d9",
+      "source_group_sha256": "b9002f6010d43e11541c38cda787b3b2cd0aa570fb2c0d42ab8ae7451eefab83",
+      "source_statement_code": "\"これでよかったのだろうかと思っていると、いつの間にか少女と両親は売店の方へと向かっていった。\"",
+      "source_group_code": [
+        "\"これでよかったのだろうかと思っていると、いつの間にか少女と両親は売店の方へと向かっていった。\""
+      ],
+      "translation_id": "fUNHAPPY_48832003",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "이걸로 된 걸까 생각하고 있자 어느새 소녀와 부모는 매점 쪽으로 가 버렸다.",
+      "draft_ko_sha256": "62a263155b74085480a0ff82b4c13fc7c6f5c214f77bf0db75c276cbbc368620",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 69,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_3164674e",
+      "sequence": 71,
+      "command_index": 71,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 332,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "なんだか今日はずいぶん賑やかだなぁ、と思っていた。",
+      "source_text_sha256": "b6e6e5e99e38ffc1edbd46528904fa443e07a6de5d97a3828350764464c8f2f5",
+      "source_group_sha256": "9fef0bd2fdfbcf3264d237fba1c1b6afa51b9177c05fec03eedc8e390197566c",
+      "source_statement_code": "\"なんだか今日はずいぶん賑やかだなぁ、と思っていた。\"",
+      "source_group_code": [
+        "\"なんだか今日はずいぶん賑やかだなぁ、と思っていた。\""
+      ],
+      "translation_id": "fUNHAPPY_3164674e",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "왠지 오늘은 꽤 떠들썩하네, 하고 생각했다.",
+      "draft_ko_sha256": "7f39fde107fe1b5ee9d220d68bea18a0a08de7386a17890d3cb3da0aa517057d",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 70,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_2c9057e0",
+      "sequence": 72,
+      "command_index": 72,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 334,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "まるで不思議の国に来てしまった気分だが、気にしても無駄だと、どうでもよくなった。",
+      "source_text_sha256": "1360b97a014635a2224f8690676fb4647d27ab5166cf0c2edc8e99707e2cfb83",
+      "source_group_sha256": "b0a5ffef9e0cd7a629076140f37896b12bdb2864bc6bd4a6c3cce75ae5a73c45",
+      "source_statement_code": "\"まるで不思議の国に来てしまった気分だが、気にしても無駄だと、どうでもよくなった。\"",
+      "source_group_code": [
+        "\"まるで不思議の国に来てしまった気分だが、気にしても無駄だと、どうでもよくなった。\""
+      ],
+      "translation_id": "fUNHAPPY_2c9057e0",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "마치 이상한 나라에 와 버린 기분이지만 신경 써 봐야 소용없다며 아무래도 좋아졌다.",
+      "draft_ko_sha256": "989f2b3f14b8d4fc92b27f0752f19556b643e72ba14a306b5ec0759b83285fe4",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 71,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_ce0acb72",
+      "sequence": 73,
+      "command_index": 73,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 338,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "帰ろうかなと思ったとき、ベンチに見慣れた姿を見かけた。",
+      "source_text_sha256": "1960f131da87c56b4204b25c78a961394209e6d3bb80928bff31d999177ff521",
+      "source_group_sha256": "5bf22c75882c8a41f64ffceabe565cdd42f20a4052e8b3577f6a8fb7ddc43def",
+      "source_statement_code": "\"帰ろうかなと思ったとき、ベンチに見慣れた姿を見かけた。\"",
+      "source_group_code": [
+        "\"帰ろうかなと思ったとき、ベンチに見慣れた姿を見かけた。\""
+      ],
+      "translation_id": "fUNHAPPY_ce0acb72",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "돌아갈까 생각했을 때 벤치에서 익숙한 모습을 발견했다.",
+      "draft_ko_sha256": "264f973e899c342747db9e4f6d09f4581e3ca2b871467f3301b1957693074aa4",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 72,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_9d38bfc3",
+      "sequence": 74,
+      "command_index": 74,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 340,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "私は忍び足で、彼女の隣に座る。",
+      "source_text_sha256": "12d76ab309aaa4508463287136adf5f8d2119b77c5108aae2539a2e53d17fcd9",
+      "source_group_sha256": "03a667871f7cf4eb3ce3b758cfa47827e1e50710861a616dbb4b8652381382ff",
+      "source_statement_code": "\"私は忍び足で、彼女の隣に座る。\"",
+      "source_group_code": [
+        "\"私は忍び足で、彼女の隣に座る。\""
+      ],
+      "translation_id": "fUNHAPPY_9d38bfc3",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "나는 살금살금 다가가 그녀 곁에 앉았다.",
+      "draft_ko_sha256": "52d8be5e92e0bedab2d5d985a6fc035eac359331546e0d7bd23f491d6fff63d7",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 73,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_15730631",
+      "sequence": 75,
+      "command_index": 75,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 349,
+      "source_label": "fUNHAPPY",
+      "lane": "dialogue",
+      "speaker": "miharu",
+      "source_jp": "「……ばれているよ、凛火？」",
+      "source_text_sha256": "7428c5f24c928ff65a676989bad12a144e43319e7449a537626414e4de8f244c",
+      "source_group_sha256": "43982abb6c189db573a4eb6ab94fcc205187a136fa40454f0c890f54afd40b9d",
+      "source_statement_code": "miharu \"「……ばれているよ、凛火？」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"mhr\", 955)",
+        "miharu \"「……ばれているよ、凛火？」\""
+      ],
+      "translation_id": "fUNHAPPY_15730631",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"mhr\", 955)",
+        "line": 348,
+        "function": "get_voice_filename",
+        "tag": "mhr",
+        "start_count": 955,
+        "resolution": {
+          "mode": "explicit_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": "sounds/voice/mhr_00955.ogg"
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「……다 들켰어, 린카?」",
+      "draft_ko_sha256": "f901cee1b37bfdf51a880b825ef664d16abe4655cbcc0fd7464c42dde74f3e41",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 74,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_abeda325",
+      "sequence": 76,
+      "command_index": 76,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 353,
+      "source_label": "fUNHAPPY",
+      "lane": "dialogue",
+      "speaker": "rinka",
+      "source_jp": "「ふふ、知ってる。どうしてここに？」",
+      "source_text_sha256": "fb9e79d1490f88b11e6bb60c2e5008968f64453584182718c457da45c8bd377b",
+      "source_group_sha256": "096dc36513bfe91097cf655fa46b3ff55e8dda843c3fda2222c290065ac4f77b",
+      "source_statement_code": "rinka \"「ふふ、知ってる。どうしてここに？」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"rnk\")",
+        "rinka \"「ふふ、知ってる。どうしてここに？」\""
+      ],
+      "translation_id": "fUNHAPPY_abeda325",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"rnk\")",
+        "line": 352,
+        "function": "get_voice_filename",
+        "tag": "rnk",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「후후, 알아. 왜 여기 왔어?」",
+      "draft_ko_sha256": "f989d20128c0eb92f698c319d78a4f0f7984fdd809aabfd8c0cee6d709ba29c5",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 75,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_338a2966",
+      "sequence": 77,
+      "command_index": 77,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 357,
+      "source_label": "fUNHAPPY",
+      "lane": "dialogue",
+      "speaker": "miharu",
+      "source_jp": "「君に会いたくなったからさ」",
+      "source_text_sha256": "425961822d93b6b82f2caa9e2dfb664731f98bda9cd82e9571cecbbbdb75202b",
+      "source_group_sha256": "4e69b03c32d1fbb947fe278ac80e4ae3f6cbe27b2fe711047ce636bb39e18a88",
+      "source_statement_code": "miharu \"「君に会いたくなったからさ」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"mhr\")",
+        "miharu \"「君に会いたくなったからさ」\""
+      ],
+      "translation_id": "fUNHAPPY_338a2966",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"mhr\")",
+        "line": 356,
+        "function": "get_voice_filename",
+        "tag": "mhr",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「네가 보고 싶어졌거든」",
+      "draft_ko_sha256": "2958c7951c4222702c9cbbbd5f9039f886097df951b14e8e84a3289848dbf141",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 76,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_cb62af7e",
+      "sequence": 78,
+      "command_index": 78,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 361,
+      "source_label": "fUNHAPPY",
+      "lane": "dialogue",
+      "speaker": "rinka",
+      "source_jp": "「なんだ。いつも通りか」",
+      "source_text_sha256": "0ad6c0bd51c5f310def30f9f78ad3bcf17b8d39356f4a44d564af5b19ee04eed",
+      "source_group_sha256": "26ad7ea72c22f2d753919920045bd5fd40942df7c3edab996c87d5e529838b54",
+      "source_statement_code": "rinka \"「なんだ。いつも通りか」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"rnk\")",
+        "rinka \"「なんだ。いつも通りか」\""
+      ],
+      "translation_id": "fUNHAPPY_cb62af7e",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"rnk\")",
+        "line": 360,
+        "function": "get_voice_filename",
+        "tag": "rnk",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「뭐야. 평소랑 똑같네」",
+      "draft_ko_sha256": "56531f5ed9c0cc73af21538cb7169c28ebc9b1a24ce5c7c670c9ba6254e76be2",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 77,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_35614bf0",
+      "sequence": 79,
+      "command_index": 79,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 363,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "私はそのまま、海晴の肩に寄り掛かった。海晴は背が高いので、どちらかというと腕に頭を預ける形になった。",
+      "source_text_sha256": "aada8369dae9b3ba5e2b35e31b6a07cb6e7d2ee21c74b9dce456c5018fe09689",
+      "source_group_sha256": "9d707bedd49df3d91fb35e22da8a73db9275f242efd96a7e6112f4903f7acf81",
+      "source_statement_code": "\"私はそのまま、海晴の肩に寄り掛かった。海晴は背が高いので、どちらかというと腕に頭を預ける形になった。\"",
+      "source_group_code": [
+        "\"私はそのまま、海晴の肩に寄り掛かった。海晴は背が高いので、どちらかというと腕に頭を預ける形になった。\""
+      ],
+      "translation_id": "fUNHAPPY_35614bf0",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "나는 그대로 미하루의 어깨에 기대었다. 미하루는 키가 커서, 어깨보다는 팔에 머리를 맡기는 모양이 되었다.",
+      "draft_ko_sha256": "9613e0f7c193e9c10e4b9be66440479600eb7c9964e5381ea6c8a66be1f26342",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 78,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_be90c890",
+      "sequence": 80,
+      "command_index": 80,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 367,
+      "source_label": "fUNHAPPY",
+      "lane": "dialogue",
+      "speaker": "miharu",
+      "source_jp": "「……凛火……」",
+      "source_text_sha256": "f4c44a89172dff9122dd546d3e1b715667af4a2c7ca41e51908cf31c7f71e35f",
+      "source_group_sha256": "bb70e450edc5e8f545dcaa9b63b997582e3de302eda6e2d13faf1174c28d706b",
+      "source_statement_code": "miharu \"「……凛火……」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"mhr\")",
+        "miharu \"「……凛火……」\""
+      ],
+      "translation_id": "fUNHAPPY_be90c890",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"mhr\")",
+        "line": 366,
+        "function": "get_voice_filename",
+        "tag": "mhr",
+        "start_count": null,
+        "resolution": {
+          "mode": "dynamic_runtime_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": null
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「……린카……」",
+      "draft_ko_sha256": "1400ea32ef5e9f96fd3e8491acfb0d135c6667bd6bc7dd5f34e24410e1aa86ba",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 79,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_c0d7ae75",
+      "sequence": 81,
+      "command_index": 81,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 369,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "どうしてか、疲れてしまったのだ。",
+      "source_text_sha256": "d22c076a391b05dc51a7aabc5a8e9ed1d6f1f0d4eb33070c93bafb1f00664cd3",
+      "source_group_sha256": "95ea715d04b7143512d4eab819bd40c288d67e54fc8935d082cdcce361814a64",
+      "source_statement_code": "\"どうしてか、疲れてしまったのだ。\"",
+      "source_group_code": [
+        "\"どうしてか、疲れてしまったのだ。\""
+      ],
+      "translation_id": "fUNHAPPY_c0d7ae75",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "왠지 모르게 지쳐 버렸다.",
+      "draft_ko_sha256": "7107526fd15764300d08f272104d754377453593a814d8fafb2ee4169c19c7dc",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 80,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_e6506604",
+      "sequence": 82,
+      "command_index": 82,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 371,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "海晴は顔をほのかに赤くして、私の方へ少しだけ、体を傾けた。",
+      "source_text_sha256": "6bce020bb2c6b59e2ab4c51a6cddb59ff92d5a42ebe8bb2f1ef5a2cf781969cb",
+      "source_group_sha256": "3ac0225f7b46859054d44dd4c63c5f0029195a36dcabaf36d45e9b63af9968e6",
+      "source_statement_code": "\"海晴は顔をほのかに赤くして、私の方へ少しだけ、体を傾けた。\"",
+      "source_group_code": [
+        "\"海晴は顔をほのかに赤くして、私の方へ少しだけ、体を傾けた。\""
+      ],
+      "translation_id": "fUNHAPPY_e6506604",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "미하루는 얼굴을 살짝 붉히며 내 쪽으로 조금 몸을 기울였다.",
+      "draft_ko_sha256": "ff160af91280f22b9d6b0f93e551bb845dda535597480a4a14ef46e3f490149a",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 81,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_f96d2f68",
+      "sequence": 83,
+      "command_index": 83,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 373,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "私たちは当たり前に、生きている。",
+      "source_text_sha256": "4ef97335d3ccf60fe451d859f31da4d79c3b6353d4398f2a1904b454d6a74df0",
+      "source_group_sha256": "2536fe1adcab9893e37bec0d8f19a3d1aac50dd76fcdd0d042645de7912257a7",
+      "source_statement_code": "\"私たちは当たり前に、生きている。\"",
+      "source_group_code": [
+        "\"私たちは当たり前に、生きている。\""
+      ],
+      "translation_id": "fUNHAPPY_f96d2f68",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "우리는 당연하다는 듯 살아 있다.",
+      "draft_ko_sha256": "bde963de770da5fc7c0af4327ee64359a563e3594c7be3254e93610c8196f7d8",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 82,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_f7304f0f",
+      "sequence": 84,
+      "command_index": 84,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 375,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "たった一つの人生を、生きている。",
+      "source_text_sha256": "30c6e8b6eb1b1e671d031344ede19d4835c2ac9a5b8cff6b45b9b23a6cfd064e",
+      "source_group_sha256": "f1117f23ebf2012dfcb4a3728c421121c6b138f94d9b38dc1d59b5c92a43b204",
+      "source_statement_code": "\"たった一つの人生を、生きている。\"",
+      "source_group_code": [
+        "\"たった一つの人生を、生きている。\""
+      ],
+      "translation_id": "fUNHAPPY_f7304f0f",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "단 하나뿐인 삶을 살아가고 있다.",
+      "draft_ko_sha256": "908b2c0ce513df8485e4a37db8aa2d96617bb64dad8203d7f5d662e670b04939",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 83,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_07f532d3",
+      "sequence": 85,
+      "command_index": 85,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 386,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "その黒猫は、夕焼けを背にしていた。",
+      "source_text_sha256": "972b49c5922ff51e8f4e0ba31ff3fd3a57ebae9da06a8a9b0ad1d5ac844a9180",
+      "source_group_sha256": "544a46ee1bea7e69ebb05880cbad8a5e6c92b1f2a8bf02d3dfd8629a856986dd",
+      "source_statement_code": "\"その黒猫は、夕焼けを背にしていた。\"",
+      "source_group_code": [
+        "\"その黒猫は、夕焼けを背にしていた。\""
+      ],
+      "translation_id": "fUNHAPPY_07f532d3",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "그 검은 고양이는 저녁노을을 등지고 있었다.",
+      "draft_ko_sha256": "f31441f509c7a7b31e71d5c5563c25e0c71115bbdd77c7d84ed98cf57c4ae7b0",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 84,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_1b40b30d",
+      "sequence": 86,
+      "command_index": 86,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 390,
+      "source_label": "fUNHAPPY",
+      "lane": "dialogue",
+      "speaker": "lete",
+      "source_jp": "「にゃーお」",
+      "source_text_sha256": "3b9693510fa43f7389ec6ca5f9a1ca6062cfb3cb64dd5ff8cb43764582c1a6d1",
+      "source_group_sha256": "7984938495b89bf433cf2a3fc4638ed1d67999cf3172e39ccd505e931daedde6",
+      "source_statement_code": "lete \"「にゃーお」\"",
+      "source_group_code": [
+        "voice get_voice_filename(\"cat\", 29)",
+        "lete \"「にゃーお」\""
+      ],
+      "translation_id": "fUNHAPPY_1b40b30d",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": {
+        "statement": "voice get_voice_filename(\"cat\", 29)",
+        "line": 389,
+        "function": "get_voice_filename",
+        "tag": "cat",
+        "start_count": 29,
+        "resolution": {
+          "mode": "explicit_counter",
+          "return_pattern": "{tag}_{counter:05d}",
+          "file_prefix": "sounds/voice/",
+          "file_suffix": ".ogg",
+          "exact_file_when_static": "sounds/voice/cat_00029.ogg"
+        }
+      },
+      "protected_tokens": [],
+      "draft_ko": "「야옹」",
+      "draft_ko_sha256": "20761b0d7324ce7e358bf6d0a8d0ce4dcbe730f1b720ff8facd05c26a1082012",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 85,
+        "translation_text_copied_verbatim": true
+      }
+    },
+    {
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_ef5a29fe",
+      "sequence": 87,
+      "command_index": 87,
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "source_line": 392,
+      "source_label": "fUNHAPPY",
+      "lane": "narration",
+      "speaker": null,
+      "source_jp": "一声鳴くと、自由気ままに歩いていった。",
+      "source_text_sha256": "6253f30e78c6cdc23c09c1f6137f87bb23966108cbea39bcc95909782d7ed5b0",
+      "source_group_sha256": "b8781641adb94c038bc2be480036d4d85d31a0001de64ad57159bbaa23116978",
+      "source_statement_code": "\"一声鳴くと、自由気ままに歩いていった。\"",
+      "source_group_code": [
+        "\"一声鳴くと、自由気ままに歩いていった。\""
+      ],
+      "translation_id": "fUNHAPPY_ef5a29fe",
+      "id_origin": "renpy-6.99-recomputed",
+      "menu_key": null,
+      "voice_call": null,
+      "protected_tokens": [],
+      "draft_ko": "한 번 울더니 자유롭게 걸어갔다.",
+      "draft_ko_sha256": "ec7f6cda8016aabd11814cd5ce9d930c7f3083ce753d658415cf728732300047",
+      "source_authority": "Japanese only",
+      "english_reference_used": false,
+      "external_translation_api_used": false,
+      "status": "first_draft_unreviewed",
+      "qa": "deferred_until_full_first_draft",
+      "identity_validation": "passed",
+      "hard_token_validation": {
+        "passed": true,
+        "findings": []
+      },
+      "structural_validation": "passed",
+      "provenance": {
+        "packet_id": "UNHAPPY_END_full",
+        "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+        "packet_sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+        "packet_schema": "fatal-twelve-aligned-draft-v1:entries",
+        "packet_entry_index": 86,
+        "translation_text_copied_verbatim": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+001	L0026	narration	narrator	頭の中にかかっていた霧が、徐々に晴れていく。
+002	L0033	choice_prompt	narrator	近くには、人の気配を感じていた。
+003	L0034	spoken_choice	narrator	「……直未？」
+004	L0039	spoken_choice	narrator	「……海晴？」
+005	L0044	spoken_choice	narrator	「……真央？」
+006	L0056	dialogue	rinka	「……直未？」
+007	L0061	dialogue	miharu	「ぼくより、日辻さんの方がよかったかな？　今朝だからか、それとも――」
+008	L0066	dialogue	rinka	「わ、わぁっ」
+009	L0075	dialogue	rinka	「……海晴？」
+010	L0080	dialogue	miharu	「聞き間違えじゃなければ、ぼくの名前を呼んでくれたのかい？　くすっ、それは嬉しいな」
+011	L0085	dialogue	rinka	「わ、わぁっ」
+012	L0095	dialogue	rinka	「……真央？」
+013	L0100	dialogue	miharu	「くすっ、凛火は変な夢でも見ていたのかな。選定の後に楽しい夢を見ることができたのだから、幸せというべきかもしれないね」
+014	L0105	dialogue	rinka	「わ、わぁっ」
+015	L0118	dialogue	miharu	「おはよう、凛火」
+016	L0123	dialogue	rinka	「あれ……どうして？」
+017	L0125	narration	narrator	私が目を覚ますと、傍らには海晴がいた。
+018	L0127	narration	narrator	海晴は制服を着ていて、準備は万端、といった雰囲気だ。
+019	L0132	dialogue	miharu	「ぼくがここにいるか、だね。昨日、凛火が電車の火事の中にいたとき、ぼくが凛火を運んだんだ」
+020	L0137	dialogue	miharu	「あんな場所にいれば、病院に運ばれてもマスコミが押し寄せて来る。飴茶の生徒だと知れれば余計にね。凛火にそんな負担はかけさせないさ」
+021	L0142	dialogue	miharu	「一日経てば世界の改変が起こると思っていたから、そこまで大変なことではなかったよ」
+022	L0147	dialogue	rinka	「えっと、何で私が山手線にいるって分かったの？」
+023	L0152	dialogue	miharu	「スケールたちと協力関係を結んでいたことが幸いしたよ。信用していいのか分からない人たちだけれど、彼の情報は正確だった」
+024	L0154	narration	narrator	海晴は、「もっと速く駆けつけられればよかった」と付け足した。
+025	L0159	dialogue	rinka	「もしかして、一晩ずっと隣にいてくれたの？」

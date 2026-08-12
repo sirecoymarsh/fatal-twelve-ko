@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "status": "translation_active_install_contract_pending",
+  "semantic_source_language": {
+    "key": null,
+    "language": "Japanese",
+    "authority": "exclusive primary source"
+  },
+  "auxiliary_language": {
+    "key": "english",
+    "language": "English",
+    "permitted_uses": [
+      "translation-ID alignment",
+      "omission detection",
+      "proper-noun reading cross-check only after Japanese-first draft"
+    ],
+    "prohibited_uses": [
+      "wording",
+      "sentence rhythm",
+      "onomatopoeia",
+      "interjections",
+      "punctuation",
+      "tone",
+      "cultural adaptation"
+    ],
+    "excluded_from_translator_packets": true
+  },
+  "output_language": {
+    "key": "korean",
+    "language": "Korean"
+  },
+  "slot_policy": {
+    "strategy": "add_new_slot",
+    "new_key": "korean",
+    "preserve": [
+      {
+        "key": null,
+        "language": "Japanese"
+      },
+      {
+        "key": "english",
+        "language": "English"
+      }
+    ],
+    "confirmation": "recommended default; confirm before live installation"
+  },
+  "delivery_level": "staged translation; no live game edits until install contract confirmation",
+  "font_policy": "use a Hangul-complete font; do not rely on mgenplus-2pp-regular.ttf",
+  "user_constraints": [
+    "Translate from Japanese original.",
+    "Do not import English-only onomatopoeia or English-localized phrasing."
+  ],
+  "input_baseline_manifest": "reports/baseline_hashes.json"
+}

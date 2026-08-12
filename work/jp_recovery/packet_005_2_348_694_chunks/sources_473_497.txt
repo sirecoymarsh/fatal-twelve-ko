@@ -1,0 +1,25 @@
+473	L2003	dialogue	ushizuka	「わしやこの子が傷付かんよう、守って欲しいんじゃ」
+474	L2008	dialogue	alan	「……僕があの女から貴様らを守ったとして、もう一つ懸念があるのは分かるな？」
+475	L2010	narration	narrator	アランさんはそう言うと、私と視線を合わせた。
+476	L2015	dialogue	rinka	「……分かりました。アレンさんが牛塚さんの条件を飲むなら、私は牛塚さんの指名を行いません」
+477	L2024	dialogue	yuu_unk5	「ちょっと待ってよ！　いらないよ！　あの人が来ても、僕が……僕がおじいちゃんを守るよ！」
+478	L2026	narration	narrator	再び、少年は興奮してそう言った。
+479	L2028	narration	narrator	だが、答えたのは牛塚さんではなくアランさんであった。
+480	L2033	dialogue	alan	「まだ分からないのか？」
+481	L2039	dialogue	yuu_unk5	「何がっ！」
+482	L2044	dialogue	alan	「シゲツグは君を傷付けたくないと言っているんだ」
+483	L2050	dialogue	yuu_unk5	「ボクを……？」
+484	L2055	dialogue	rinka	「あなたにも分かるんですね。家族が……いるからですか？」
+485	L2060	dialogue	alan	「その質問には、答えない」
+486	L2066	dialogue	yuu_unk5	「そうなの……おじいちゃん？」
+487	L2071	dialogue	ushizuka	「当然じゃ」
+488	L2076	dialogue	ushizuka	「お前は強いかもしれん。じゃが、わしはお前が怪我をするところは見たくない」
+489	L2082	dialogue	yuu_unk5	「でも……ボクが勝てれば……！」
+490	L2087	dialogue	alan	「思いあがらない方がいい。僕が君と本気で戦うとなれば、手加減はしない」
+491	L2092	dialogue	ushizuka	「無傷で済むとは、わしには思えん！」
+492	L2094	narration	narrator	家族としての想い。
+493	L2096	narration	narrator	牛塚さんの語った想いはまさに、桂子さんがアランさんに息子を人質に取られたときに言ったのと同じものであった。
+494	L2098	narration	narrator	アランさんが意図してそういう状況に持ち込んでいるのか、あるいはただの偶然なのか、相変わらずの無表情に戻ってしまった今では分からなかった。
+495	L2104	dialogue	yuu_unk5	「おじい……ちゃん……」
+496	L2110	dialogue	yuu_unk5	「ボクがおじいちゃんの敵をやっつけるから、喜んでくれると思ったのに」
+497	L2116	dialogue	yuu_unk5	「おじいちゃんがこの人たちのカードを集めれば、守れるんじゃないの！」

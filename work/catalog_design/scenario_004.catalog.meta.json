@@ -1,0 +1,122 @@
+{
+  "schema_version": "fatal-twelve-renpy-catalog-v1",
+  "generated_at_utc": "2026-08-10T10:21:24.866461+00:00",
+  "policy": {
+    "semantic_source_language": "ja",
+    "target_language": "ko",
+    "reference_language": "english",
+    "reference_usage": "translation identifiers and missingness only",
+    "reference_prose_parsed": false,
+    "reference_prose_stored": false,
+    "live_game_modified": false
+  },
+  "inputs": {
+    "source_rpy": {
+      "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\work\\extracted\\scenario\\scenario\\004.rpy",
+      "size": 166496,
+      "sha256": "1efdbb4989797b687d157f791c92384d3c1e6c84e99f2db05b0c148b5bc4bc52",
+      "encoding": "utf-8",
+      "replacement_characters": 0,
+      "japanese_codepoints": 29183
+    },
+    "characters_rpy": {
+      "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\work\\extracted\\system\\characters.rpy",
+      "size": 5975,
+      "sha256": "8e1e99a2bcac76e743086a15211cf32d888a621b3c0de0278f598a8bf5e76f37",
+      "encoding": "utf-8",
+      "replacement_characters": 0,
+      "japanese_codepoints": 280,
+      "character_definitions": 73
+    },
+    "reference_rpy_index_only": {
+      "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\work\\extracted\\tl\\tl\\english\\scenario\\004.rpy",
+      "size": 162630,
+      "sha256": "eab68007e6ca63f7568dc735bca365effdc3d47f5830fa1917e8681dd7727c87",
+      "encoding": "utf-8",
+      "replacement_characters": 0,
+      "japanese_codepoints": 20
+    },
+    "source_rpyc": null,
+    "reference_rpyc": null,
+    "source_archive": null,
+    "reference_archive": null
+  },
+  "stable_id": {
+    "translation_blocks": "scenario.rpa::<script>::tid::<renpy_translation_id>",
+    "menu_strings": "scenario.rpa::<script>::menu::<menu ordinal>:<role>:<direct item ordinal>:<source sha256 prefix>",
+    "renpy_id_algorithm": "md5(concat(AST.get_code UTF-8 + CRLF))[:8], prefixed by label with dots replaced by underscores, duplicate suffix _N"
+  },
+  "reference_index": {
+    "translation_ids": 1064,
+    "old_string_keys": 5,
+    "duplicate_translation_ids": [],
+    "duplicate_old_strings_sha256": []
+  },
+  "statistics": {
+    "records": 1067,
+    "lanes": {
+      "choice_prompt": 1,
+      "dialogue": 504,
+      "dialogue_choice_prompt": 1,
+      "narration": 557,
+      "narrative_choice": 4
+    },
+    "voiced_records": 505,
+    "translation_id_records": 1061,
+    "menu_key_records": 6,
+    "reference_present": 1066,
+    "reference_missing": 1,
+    "speakers": {
+      "<narrator>": 562,
+      "alan": 12,
+      "federico": 9,
+      "federico_num": 1,
+      "keiko": 2,
+      "lete": 3,
+      "mao": 7,
+      "miharu": 132,
+      "miharu_num": 3,
+      "naomi": 4,
+      "odette_num": 5,
+      "parca": 29,
+      "rinka": 130,
+      "rinka_num": 2,
+      "sonya": 162,
+      "sonya_unk1": 4
+    },
+    "labels": {
+      "f004": 74,
+      "f004.s1_1": 6,
+      "f004.s1_2": 7,
+      "f004.s1_end": 298,
+      "f004.s2_1": 9,
+      "f004.s2_2": 8,
+      "f004.s2_end": 462,
+      "sentei4": 203
+    },
+    "protected_token_kinds": {
+      "number": 103
+    },
+    "japanese_codepoints_in_source_text": 29183,
+    "untranslated": 1067
+  },
+  "diagnostics": {
+    "non_display_quoted_commands": [],
+    "orphan_voice_calls": [],
+    "reference_orphan_translation_ids": [
+      "f004_98d462da",
+      "f004_s1_end_08bf264a",
+      "f004_s2_end_0d7691d3"
+    ],
+    "source_translation_ids_missing_reference": [],
+    "reference_orphan_old_key_hashes": [],
+    "source_old_keys_missing_reference_stable_ids": [
+      "scenario.rpa::scenario/004.rpy::menu::001:spoken_prompt:01:f63e338a9fae446f"
+    ]
+  },
+  "catalog": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\catalog_design\\scenario_004.catalog.jsonl",
+    "size": 3632102,
+    "sha256": "c08d1a1b6acd81016287f47ef82eb679ae38b63e6104023ce55cdb16bae0eb7c"
+  }
+}

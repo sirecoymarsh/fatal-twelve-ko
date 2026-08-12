@@ -1,0 +1,3951 @@
+{
+  "schema_version": "fatal-twelve-master-build-report-v1",
+  "manifest": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\packet_manifest.json",
+    "sha256": "9f27e6180007b845fe605035fc036656726b745928c006e6c19a217154a29fdc"
+  },
+  "summary": {
+    "expected_catalog_files": 29,
+    "actual_catalog_files": 29,
+    "expected_catalog_records": 18184,
+    "actual_catalog_records": 18184,
+    "packet_occurrences": 18185,
+    "selected_unique_records": 18184,
+    "duplicate_extra_occurrences": 1,
+    "missing_records": 0,
+    "pending_packets": 0,
+    "hard_token_failed_records": 91,
+    "hard_token_findings": 115,
+    "resolved_conflicts": 1,
+    "unresolved_conflicts": 0,
+    "structural_errors": 115,
+    "structural_pass": false,
+    "coverage_complete": true,
+    "complete": true,
+    "translation_qa_performed": false,
+    "translation_text_modified": false
+  },
+  "scripts": [
+    {
+      "script_key": "001",
+      "source_file": "scenario/001.rpy",
+      "catalog_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_001.catalog.jsonl",
+      "catalog_sha256": "8b980c599493d1cd0355b525238a3867540fdac293246fed51dee0b5aa3196b3",
+      "master_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_001.master.json",
+      "master_sha256": "4fdebbdc7814689a10aa399ab98182841a69297792d724c920a3d11aead10b11",
+      "structural_pass": false,
+      "coverage_complete": true,
+      "complete": true,
+      "coverage": {
+        "catalog_records": 844,
+        "packet_occurrences": 845,
+        "selected_unique_records": 844,
+        "duplicate_extra_occurrences": 1,
+        "missing_records": 0,
+        "missing_sequences": [],
+        "missing_stable_ids": [],
+        "pending_explained_missing_records": 0,
+        "unexplained_missing_records": 0,
+        "translation_ids": 835,
+        "menu_keys": 9,
+        "hard_token_failed_records": 19
+      },
+      "ready_packets": [
+        {
+          "packet_id": "001_part001",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part001_aligned.json",
+          "sha256": "4dbdfa43ae676e95c91ce9017d461637af4a7ddfc216d6da33d509f6cbdf582e",
+          "schema": "fatal-twelve-aligned-draft-v1:entries",
+          "occurrences": 50,
+          "expected_occurrences": 50
+        },
+        {
+          "packet_id": "001_part002",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part002_aligned.json",
+          "sha256": "417112dcb00d4ca276ad53a800216a144f0c6b2492b309900f6c9aaae6a225a3",
+          "schema": "fatal-twelve-aligned-draft-v1:entries",
+          "occurrences": 50,
+          "expected_occurrences": 50
+        },
+        {
+          "packet_id": "001_part003",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part003_aligned.json",
+          "sha256": "7ddda907125cdd70d9ce65d1cf8ccf02ca52ec22a6fd2386c5534faf1bd063fe",
+          "schema": "fatal-twelve-aligned-draft-v1:entries",
+          "occurrences": 50,
+          "expected_occurrences": 50
+        },
+        {
+          "packet_id": "001_recovery_151_350",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\draft_001_151_350_aligned.json",
+          "sha256": "7e3d349e63038c28e66b5d77ec89f0e1b2dbd48978a58835c0246a91a61009fb",
+          "schema": "fatal-twelve-aligned-draft-v1:entries",
+          "occurrences": 200,
+          "expected_occurrences": 200
+        },
+        {
+          "packet_id": "001_sequence351_bridge",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_sequence351_bridge_aligned.json",
+          "sha256": "f09950a6d826ceceec07198c56849dbc4cdb89a9058673e73f00caa350781c72",
+          "schema": "fatal-twelve-aligned-draft-v1:entries",
+          "occurrences": 1,
+          "expected_occurrences": 1
+        },
+        {
+          "packet_id": "001_part004",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part004_aligned.json",
+          "sha256": "9e367a39e944c3089e2a771b27ecdd749adef54e618080b65da9fb77542c8ea9",
+          "schema": "fatal-twelve-aligned-draft-v1:entries",
+          "occurrences": 50,
+          "expected_occurrences": 50
+        },
+        {
+          "packet_id": "001_part005",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part005_aligned.json",
+          "sha256": "b32496d2f7e6b154d43b3516a9f870fea636f9a852a6331c521f86895ce1fb15",
+          "schema": "fatal-twelve-aligned-draft-v1:entries",
+          "occurrences": 50,
+          "expected_occurrences": 50
+        },
+        {
+          "packet_id": "001_part006",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part006_aligned.json",
+          "sha256": "7421d3af5467078b273826f1e7316256d64ee98b6c9f55b783193f70cff08ba6",
+          "schema": "fatal-twelve-aligned-draft-v1:entries",
+          "occurrences": 50,
+          "expected_occurrences": 50
+        },
+        {
+          "packet_id": "001_part007",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part007_aligned.json",
+          "sha256": "992974e49e421795e69bb35fbc819dbf9ed28726b48d4d08e78e923881fd682f",
+          "schema": "fatal-twelve-aligned-draft-v1:entries",
+          "occurrences": 50,
+          "expected_occurrences": 50
+        },
+        {
+          "packet_id": "001_part008",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part008_aligned.json",
+          "sha256": "a6f046e6291fef214ecb2962e06bb4ef390cecec67acc9d1743ffd24cc3e23a4",
+          "schema": "fatal-twelve-aligned-draft-v1:entries",
+          "occurrences": 50,
+          "expected_occurrences": 50
+        },
+        {
+          "packet_id": "001_part009",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part009_aligned.json",
+          "sha256": "18c3e366cd163ffea49035ba82182b4b7be9f82ac5600be686357ebbd014c261",
+          "schema": "fatal-twelve-aligned-draft-v1:entries",
+          "occurrences": 50,
+          "expected_occurrences": 50
+        },
+        {
+          "packet_id": "001_after_2922",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\translation_001_after_2922_aligned.json",
+          "sha256": "fb5c82599e1c9037bef576ed92e166a8a5eb6b2800273f78109218c163fd9706",
+          "schema": "fatal-twelve-aligned-draft-v1:entries",
+          "occurrences": 188,
+          "expected_occurrences": 188
+        },
+        {
+          "packet_id": "001_missing_menus",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_missing_menus_aligned.json",
+          "sha256": "67d1b9ed78f4e1eabe5989c4532d4fb37e5296011d23f022dbca2b1bff84f89c",
+          "schema": "fatal-twelve-aligned-draft-v1:entries",
+          "occurrences": 6,
+          "expected_occurrences": 6
+        }
+      ],
+      "pending_packets": [],
+      "conflict_count": 1,
+      "errors": [
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "001",
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_8024772c",
+          "sequence": 9,
+          "packet_id": "001_part001",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part001_aligned.json",
+          "packet_entry_index": 8,
+          "message": "RenPy tag '{rb}': expected 2, got 0"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "001",
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_8024772c",
+          "sequence": 9,
+          "packet_id": "001_part001",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part001_aligned.json",
+          "packet_entry_index": 8,
+          "message": "RenPy tag '{/rb}': expected 2, got 0"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "001",
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_8024772c",
+          "sequence": 9,
+          "packet_id": "001_part001",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part001_aligned.json",
+          "packet_entry_index": 8,
+          "message": "RenPy tag '{rt}': expected 2, got 0"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "001",
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_8024772c",
+          "sequence": 9,
+          "packet_id": "001_part001",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part001_aligned.json",
+          "packet_entry_index": 8,
+          "message": "RenPy tag '{/rt}': expected 2, got 0"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "001",
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_bc643489",
+          "sequence": 10,
+          "packet_id": "001_part001",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part001_aligned.json",
+          "packet_entry_index": 9,
+          "message": "RenPy tag '{rb}': expected 1, got 0"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "001",
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_bc643489",
+          "sequence": 10,
+          "packet_id": "001_part001",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part001_aligned.json",
+          "packet_entry_index": 9,
+          "message": "RenPy tag '{/rb}': expected 1, got 0"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "001",
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_bc643489",
+          "sequence": 10,
+          "packet_id": "001_part001",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part001_aligned.json",
+          "packet_entry_index": 9,
+          "message": "RenPy tag '{rt}': expected 1, got 0"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "001",
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_bc643489",
+          "sequence": 10,
+          "packet_id": "001_part001",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part001_aligned.json",
+          "packet_entry_index": 9,
+          "message": "RenPy tag '{/rt}': expected 1, got 0"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "001",
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_b4fa6dee",
+          "sequence": 16,
+          "packet_id": "001_part001",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part001_aligned.json",
+          "packet_entry_index": 15,
+          "message": "Arabic numbers: expected {'3': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "001",
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_619b8ef6",
+          "sequence": 23,
+          "packet_id": "001_part001",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part001_aligned.json",
+          "packet_entry_index": 22,
+          "message": "RenPy tag '{rb}': expected 1, got 0"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "001",
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_619b8ef6",
+          "sequence": 23,
+          "packet_id": "001_part001",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part001_aligned.json",
+          "packet_entry_index": 22,
+          "message": "RenPy tag '{/rb}': expected 1, got 0"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "001",
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_619b8ef6",
+          "sequence": 23,
+          "packet_id": "001_part001",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part001_aligned.json",
+          "packet_entry_index": 22,
+          "message": "RenPy tag '{rt}': expected 1, got 0"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "001",
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_619b8ef6",
+          "sequence": 23,
+          "packet_id": "001_part001",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part001_aligned.json",
+          "packet_entry_index": 22,
+          "message": "RenPy tag '{/rt}': expected 1, got 0"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "001",
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_94682d80",
+          "sequence": 27,
+          "packet_id": "001_part001",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part001_aligned.json",
+          "packet_entry_index": 26,
+          "message": "RenPy tag '{rb}': expected 2, got 0"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "001",
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_94682d80",
+          "sequence": 27,
+          "packet_id": "001_part001",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part001_aligned.json",
+          "packet_entry_index": 26,
+          "message": "RenPy tag '{/rb}': expected 2, got 0"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "001",
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_94682d80",
+          "sequence": 27,
+          "packet_id": "001_part001",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part001_aligned.json",
+          "packet_entry_index": 26,
+          "message": "RenPy tag '{rt}': expected 2, got 0"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "001",
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_94682d80",
+          "sequence": 27,
+          "packet_id": "001_part001",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part001_aligned.json",
+          "packet_entry_index": 26,
+          "message": "RenPy tag '{/rt}': expected 2, got 0"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "001",
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_10e1937e",
+          "sequence": 103,
+          "packet_id": "001_part003",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part003_aligned.json",
+          "packet_entry_index": 2,
+          "message": "RenPy tag '{rb}': expected 2, got 0"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "001",
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_10e1937e",
+          "sequence": 103,
+          "packet_id": "001_part003",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part003_aligned.json",
+          "packet_entry_index": 2,
+          "message": "RenPy tag '{/rb}': expected 2, got 0"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "001",
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_10e1937e",
+          "sequence": 103,
+          "packet_id": "001_part003",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part003_aligned.json",
+          "packet_entry_index": 2,
+          "message": "RenPy tag '{rt}': expected 2, got 0"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "001",
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_10e1937e",
+          "sequence": 103,
+          "packet_id": "001_part003",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part003_aligned.json",
+          "packet_entry_index": 2,
+          "message": "RenPy tag '{/rt}': expected 2, got 0"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "001",
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_c1b0c312",
+          "sequence": 109,
+          "packet_id": "001_part003",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part003_aligned.json",
+          "packet_entry_index": 8,
+          "message": "RenPy tag '{rb}': expected 1, got 0"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "001",
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_c1b0c312",
+          "sequence": 109,
+          "packet_id": "001_part003",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part003_aligned.json",
+          "packet_entry_index": 8,
+          "message": "RenPy tag '{/rb}': expected 1, got 0"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "001",
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_c1b0c312",
+          "sequence": 109,
+          "packet_id": "001_part003",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part003_aligned.json",
+          "packet_entry_index": 8,
+          "message": "RenPy tag '{rt}': expected 1, got 0"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "001",
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_c1b0c312",
+          "sequence": 109,
+          "packet_id": "001_part003",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part003_aligned.json",
+          "packet_entry_index": 8,
+          "message": "RenPy tag '{/rt}': expected 1, got 0"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "001",
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_e21ae925",
+          "sequence": 110,
+          "packet_id": "001_part003",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part003_aligned.json",
+          "packet_entry_index": 9,
+          "message": "Arabic numbers: expected {'2': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "001",
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_57d238c9",
+          "sequence": 177,
+          "packet_id": "001_recovery_151_350",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\draft_001_151_350_aligned.json",
+          "packet_entry_index": 26,
+          "message": "RenPy tag '{rb}': expected 2, got 0"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "001",
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_57d238c9",
+          "sequence": 177,
+          "packet_id": "001_recovery_151_350",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\draft_001_151_350_aligned.json",
+          "packet_entry_index": 26,
+          "message": "RenPy tag '{/rb}': expected 2, got 0"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "001",
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_57d238c9",
+          "sequence": 177,
+          "packet_id": "001_recovery_151_350",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\draft_001_151_350_aligned.json",
+          "packet_entry_index": 26,
+          "message": "RenPy tag '{rt}': expected 2, got 0"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "001",
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_57d238c9",
+          "sequence": 177,
+          "packet_id": "001_recovery_151_350",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\draft_001_151_350_aligned.json",
+          "packet_entry_index": 26,
+          "message": "RenPy tag '{/rt}': expected 2, got 0"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "001",
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_192cb06e",
+          "sequence": 179,
+          "packet_id": "001_recovery_151_350",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\draft_001_151_350_aligned.json",
+          "packet_entry_index": 28,
+          "message": "Arabic numbers: expected {'3': 1, '1': 1, '2': 1}, got {'1': 1, '2': 1}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "001",
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_ac7093e8",
+          "sequence": 221,
+          "packet_id": "001_recovery_151_350",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\draft_001_151_350_aligned.json",
+          "packet_entry_index": 70,
+          "message": "RenPy tag '{rb}': expected 1, got 0"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "001",
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_ac7093e8",
+          "sequence": 221,
+          "packet_id": "001_recovery_151_350",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\draft_001_151_350_aligned.json",
+          "packet_entry_index": 70,
+          "message": "RenPy tag '{/rb}': expected 1, got 0"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "001",
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_ac7093e8",
+          "sequence": 221,
+          "packet_id": "001_recovery_151_350",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\draft_001_151_350_aligned.json",
+          "packet_entry_index": 70,
+          "message": "RenPy tag '{rt}': expected 1, got 0"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "001",
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_ac7093e8",
+          "sequence": 221,
+          "packet_id": "001_recovery_151_350",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\draft_001_151_350_aligned.json",
+          "packet_entry_index": 70,
+          "message": "RenPy tag '{/rt}': expected 1, got 0"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "001",
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_f27c770c",
+          "sequence": 259,
+          "packet_id": "001_recovery_151_350",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\draft_001_151_350_aligned.json",
+          "packet_entry_index": 108,
+          "message": "Arabic numbers: expected {'1': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "001",
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_6d3a20fb",
+          "sequence": 262,
+          "packet_id": "001_recovery_151_350",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\draft_001_151_350_aligned.json",
+          "packet_entry_index": 111,
+          "message": "Arabic numbers: expected {'3': 1, '1': 1}, got {'3': 1}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "001",
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_b24aadce",
+          "sequence": 268,
+          "packet_id": "001_recovery_151_350",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\draft_001_151_350_aligned.json",
+          "packet_entry_index": 117,
+          "message": "Arabic numbers: expected {'1': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "001",
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s1_end_63ead6ed",
+          "sequence": 489,
+          "packet_id": "001_part006",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part006_aligned.json",
+          "packet_entry_index": 36,
+          "message": "Arabic numbers: expected {'1': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "001",
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s1_end_5e573bb8",
+          "sequence": 492,
+          "packet_id": "001_part006",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part006_aligned.json",
+          "packet_entry_index": 39,
+          "message": "Arabic numbers: expected {'1': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "001",
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_349b4b50",
+          "sequence": 513,
+          "packet_id": "001_part007",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part007_aligned.json",
+          "packet_entry_index": 8,
+          "message": "Arabic numbers: expected {'4': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "001",
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_4f8382ef",
+          "sequence": 538,
+          "packet_id": "001_part007",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part007_aligned.json",
+          "packet_entry_index": 33,
+          "message": "Arabic numbers: expected {'1': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "001",
+          "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_ad6917a6",
+          "sequence": 539,
+          "packet_id": "001_part007",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part007_aligned.json",
+          "packet_entry_index": 34,
+          "message": "Arabic numbers: expected {'1': 2}, got {}"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "script_key": "002",
+      "source_file": "scenario/002.rpy",
+      "catalog_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_002.catalog.jsonl",
+      "catalog_sha256": "832387bcbf5b8b08abe8ae75873b6d0dc2b4c537c9a1ec4e152dcf55b6251f47",
+      "master_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_002.master.json",
+      "master_sha256": "e67a1f0695b56bca521c0ae681fc446283a84607e94a4e983dec6de692ece4c6",
+      "structural_pass": false,
+      "coverage_complete": true,
+      "complete": true,
+      "coverage": {
+        "catalog_records": 668,
+        "packet_occurrences": 668,
+        "selected_unique_records": 668,
+        "duplicate_extra_occurrences": 0,
+        "missing_records": 0,
+        "missing_sequences": [],
+        "missing_stable_ids": [],
+        "pending_explained_missing_records": 0,
+        "unexplained_missing_records": 0,
+        "translation_ids": 665,
+        "menu_keys": 3,
+        "hard_token_failed_records": 5
+      },
+      "ready_packets": [
+        {
+          "packet_id": "002_001_300",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_002_001_300.json",
+          "sha256": "6c0b6fe4283c4f121b7b88e415bd1dd6df5f4a2a6f21fe22427336f4db25b135",
+          "schema": "unversioned-object:entries",
+          "occurrences": 300,
+          "expected_occurrences": 300
+        },
+        {
+          "packet_id": "002_301_end",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_002_301_end.json",
+          "sha256": "d29c98c08d43460fb7fbd88ac2e5188e2742bb72143bc31cdff7463d0ac04755",
+          "schema": "fatal-twelve-ko-first-draft-v1:entries",
+          "occurrences": 368,
+          "expected_occurrences": 368
+        }
+      ],
+      "pending_packets": [],
+      "conflict_count": 0,
+      "errors": [
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "002",
+          "stable_id": "scenario.rpa::scenario/002.rpy::tid::f002_e9a7e479",
+          "sequence": 36,
+          "packet_id": "002_001_300",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_002_001_300.json",
+          "packet_entry_index": 35,
+          "message": "Arabic numbers: expected {'1': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "002",
+          "stable_id": "scenario.rpa::scenario/002.rpy::tid::f002_7b58bb48",
+          "sequence": 209,
+          "packet_id": "002_001_300",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_002_001_300.json",
+          "packet_entry_index": 208,
+          "message": "Arabic numbers: expected {'2': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "002",
+          "stable_id": "scenario.rpa::scenario/002.rpy::tid::f002_961fb560",
+          "sequence": 243,
+          "packet_id": "002_001_300",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_002_001_300.json",
+          "packet_entry_index": 242,
+          "message": "Arabic numbers: expected {'3': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "002",
+          "stable_id": "scenario.rpa::scenario/002.rpy::tid::f002_900e7419",
+          "sequence": 246,
+          "packet_id": "002_001_300",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_002_001_300.json",
+          "packet_entry_index": 245,
+          "message": "Arabic numbers: expected {'1': 1, '2': 1}, got {'2': 1}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "002",
+          "stable_id": "scenario.rpa::scenario/002.rpy::tid::f002_ea8bf169",
+          "sequence": 267,
+          "packet_id": "002_001_300",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_002_001_300.json",
+          "packet_entry_index": 266,
+          "message": "Arabic numbers: expected {'1': 1}, got {}"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "script_key": "003",
+      "source_file": "scenario/003.rpy",
+      "catalog_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_003.catalog.jsonl",
+      "catalog_sha256": "32d4d9a432f041be0b67646f3af4c29247165d100e5fb1a3b371a8bb0cf0e4c5",
+      "master_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_003.master.json",
+      "master_sha256": "efbf28251b8adae4816ddf0adeaf7a62810499d3a52a21559faf05c6d0455e11",
+      "structural_pass": false,
+      "coverage_complete": true,
+      "complete": true,
+      "coverage": {
+        "catalog_records": 1526,
+        "packet_occurrences": 1526,
+        "selected_unique_records": 1526,
+        "duplicate_extra_occurrences": 0,
+        "missing_records": 0,
+        "missing_sequences": [],
+        "missing_stable_ids": [],
+        "pending_explained_missing_records": 0,
+        "unexplained_missing_records": 0,
+        "translation_ids": 1523,
+        "menu_keys": 3,
+        "hard_token_failed_records": 1
+      },
+      "ready_packets": [
+        {
+          "packet_id": "003_001_400",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_003_001_400.json",
+          "sha256": "fe385804ea188d8f92ce60f8d083bf09c7f95511d8319bd60a922f37f47c79cc",
+          "schema": "unversioned-object:entries",
+          "occurrences": 400,
+          "expected_occurrences": 400
+        },
+        {
+          "packet_id": "003_401_1150",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_003_401_1150.json",
+          "sha256": "20c9e3ed8fd2fb3b1d8dcc3cef771107641f20bd9b4c88327924c5e5e5b9b197",
+          "schema": "fatal-twelve-japanese-first-draft-v1:entries",
+          "occurrences": 750,
+          "expected_occurrences": 750
+        },
+        {
+          "packet_id": "003_1151_end",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_003_1151_end.json",
+          "sha256": "5267a067e92dd3338ebb3e50c7c6a5b1ce5150e6f9bd7d72dac32e823dc1cd9e",
+          "schema": "fatal-twelve-ko-first-draft-v1:entries",
+          "occurrences": 376,
+          "expected_occurrences": 376
+        }
+      ],
+      "pending_packets": [],
+      "conflict_count": 0,
+      "errors": [
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "003",
+          "stable_id": "scenario.rpa::scenario/003.rpy::tid::f003_862ae915",
+          "sequence": 126,
+          "packet_id": "003_001_400",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_003_001_400.json",
+          "packet_entry_index": 125,
+          "message": "Arabic numbers: expected {'2': 1}, got {}"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "script_key": "004",
+      "source_file": "scenario/004.rpy",
+      "catalog_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_004.catalog.jsonl",
+      "catalog_sha256": "c08d1a1b6acd81016287f47ef82eb679ae38b63e6104023ce55cdb16bae0eb7c",
+      "master_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_004.master.json",
+      "master_sha256": "3aa02e473877c09fe4650f8c7fbfccfd17a54fee35320bb254271cc81e5b422d",
+      "structural_pass": false,
+      "coverage_complete": true,
+      "complete": true,
+      "coverage": {
+        "catalog_records": 1067,
+        "packet_occurrences": 1067,
+        "selected_unique_records": 1067,
+        "duplicate_extra_occurrences": 0,
+        "missing_records": 0,
+        "missing_sequences": [],
+        "missing_stable_ids": [],
+        "pending_explained_missing_records": 0,
+        "unexplained_missing_records": 0,
+        "translation_ids": 1061,
+        "menu_keys": 6,
+        "hard_token_failed_records": 10
+      },
+      "ready_packets": [
+        {
+          "packet_id": "004_001_400",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_004_001_400.json",
+          "sha256": "b01f2d3a5419b41e98908690fd9d578e79787ebaf1ec50b9b7d0921b3eccb634",
+          "schema": "unversioned-object:entries",
+          "occurrences": 400,
+          "expected_occurrences": 400
+        },
+        {
+          "packet_id": "004_401_800",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_004_401_800.json",
+          "sha256": "c00749cf03d2ca525b11f4c4a1f782272390846be2f3fbc2c459409449790d1c",
+          "schema": "unversioned-object:entries",
+          "occurrences": 400,
+          "expected_occurrences": 400
+        },
+        {
+          "packet_id": "004_801_end",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_004_801_end.json",
+          "sha256": "2227434aa1d7fe6e657c577b9ceddf0c17ecf8ca1f93b7d202a52c591fded710",
+          "schema": "fatal-twelve-ko-first-draft-v1:entries",
+          "occurrences": 267,
+          "expected_occurrences": 267
+        }
+      ],
+      "pending_packets": [],
+      "conflict_count": 0,
+      "errors": [
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "004",
+          "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s1_end_11446a0c",
+          "sequence": 90,
+          "packet_id": "004_001_400",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_004_001_400.json",
+          "packet_entry_index": 89,
+          "message": "Arabic numbers: expected {'3': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "004",
+          "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s1_end_a9681c4e",
+          "sequence": 281,
+          "packet_id": "004_001_400",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_004_001_400.json",
+          "packet_entry_index": 280,
+          "message": "Arabic numbers: expected {'2': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "004",
+          "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s1_end_bed8e84a",
+          "sequence": 286,
+          "packet_id": "004_001_400",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_004_001_400.json",
+          "packet_entry_index": 285,
+          "message": "Arabic numbers: expected {'2': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "004",
+          "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s1_end_00ec6cd0",
+          "sequence": 287,
+          "packet_id": "004_001_400",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_004_001_400.json",
+          "packet_entry_index": 286,
+          "message": "Arabic numbers: expected {'2': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "004",
+          "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s1_end_825e5dc4",
+          "sequence": 343,
+          "packet_id": "004_001_400",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_004_001_400.json",
+          "packet_entry_index": 342,
+          "message": "Arabic numbers: expected {'1': 1, '2': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "004",
+          "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s2_end_849bc0c7",
+          "sequence": 428,
+          "packet_id": "004_401_800",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_004_401_800.json",
+          "packet_entry_index": 27,
+          "message": "Arabic numbers: expected {'2': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "004",
+          "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s2_end_882082a0",
+          "sequence": 442,
+          "packet_id": "004_401_800",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_004_401_800.json",
+          "packet_entry_index": 41,
+          "message": "Arabic numbers: expected {'2': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "004",
+          "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s2_end_166d6a02",
+          "sequence": 454,
+          "packet_id": "004_401_800",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_004_401_800.json",
+          "packet_entry_index": 53,
+          "message": "Arabic numbers: expected {'3': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "004",
+          "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s2_end_e2c27dc8",
+          "sequence": 520,
+          "packet_id": "004_401_800",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_004_401_800.json",
+          "packet_entry_index": 119,
+          "message": "Arabic numbers: expected {'3': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "004",
+          "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s2_end_c95c09a3",
+          "sequence": 611,
+          "packet_id": "004_401_800",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_004_401_800.json",
+          "packet_entry_index": 210,
+          "message": "Arabic numbers: expected {'3': 1}, got {}"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "script_key": "005_1",
+      "source_file": "scenario/005_1.rpy",
+      "catalog_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_005_1.catalog.jsonl",
+      "catalog_sha256": "ea1b201a6a104bf1bf9f2383a878d918c0eec05c4d6d5abcf4ab349860f3a2df",
+      "master_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_005_1.master.json",
+      "master_sha256": "1612088a8ba3f209f6584f92af060933fbce5c1929c3f1160bb2a06287b0ff59",
+      "structural_pass": false,
+      "coverage_complete": true,
+      "complete": true,
+      "coverage": {
+        "catalog_records": 1657,
+        "packet_occurrences": 1657,
+        "selected_unique_records": 1657,
+        "duplicate_extra_occurrences": 0,
+        "missing_records": 0,
+        "missing_sequences": [],
+        "missing_stable_ids": [],
+        "pending_explained_missing_records": 0,
+        "unexplained_missing_records": 0,
+        "translation_ids": 1654,
+        "menu_keys": 3,
+        "hard_token_failed_records": 3
+      },
+      "ready_packets": [
+        {
+          "packet_id": "005_1_001_550",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_005_1_001_550.json",
+          "sha256": "c30c84a81bb5c0ff1da9914bef46fc2f66d113f695b92466ec9bb9349116b612",
+          "schema": "unversioned-object:entries",
+          "occurrences": 550,
+          "expected_occurrences": 550
+        },
+        {
+          "packet_id": "005_1_551_1100",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_005_1_551_1100.json",
+          "sha256": "c85bd9af7decc17f4e4a06560e8736e53c13586a9a15d5c36b30374f25ec7099",
+          "schema": "fatal-twelve-ko-first-draft-v1:entries",
+          "occurrences": 550,
+          "expected_occurrences": 550
+        },
+        {
+          "packet_id": "005_1_1101_end",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_005_1_1101_end.json",
+          "sha256": "4fd9309a938879c77826d0dbb79a31a4c31853d50fb5e263aa87785072121833",
+          "schema": "fatal-twelve-japanese-first-draft-v1:entries",
+          "occurrences": 557,
+          "expected_occurrences": 557
+        }
+      ],
+      "pending_packets": [],
+      "conflict_count": 0,
+      "errors": [
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "005_1",
+          "stable_id": "scenario.rpa::scenario/005_1.rpy::tid::f005_1_28faa61c",
+          "sequence": 195,
+          "packet_id": "005_1_001_550",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_005_1_001_550.json",
+          "packet_entry_index": 194,
+          "message": "Arabic numbers: expected {'2': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "005_1",
+          "stable_id": "scenario.rpa::scenario/005_1.rpy::tid::f005_1_f89c5cc4",
+          "sequence": 309,
+          "packet_id": "005_1_001_550",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_005_1_001_550.json",
+          "packet_entry_index": 308,
+          "message": "Arabic numbers: expected {'3': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "005_1",
+          "stable_id": "scenario.rpa::scenario/005_1.rpy::tid::f005_1_s1_end_438b2bc2",
+          "sequence": 494,
+          "packet_id": "005_1_001_550",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_005_1_001_550.json",
+          "packet_entry_index": 493,
+          "message": "Arabic numbers: expected {'3': 1, '2': 1}, got {}"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "script_key": "005_2",
+      "source_file": "scenario/005_2.rpy",
+      "catalog_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_005_2.catalog.jsonl",
+      "catalog_sha256": "543bbecd8522757dc40bc9a6051238e16282aaafe580c43d850474f762cf6e79",
+      "master_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_005_2.master.json",
+      "master_sha256": "9bd9b53edbed8760f230caac9df10c9395e6f736bb588267eba21aa740dbecf9",
+      "structural_pass": false,
+      "coverage_complete": true,
+      "complete": true,
+      "coverage": {
+        "catalog_records": 1042,
+        "packet_occurrences": 1042,
+        "selected_unique_records": 1042,
+        "duplicate_extra_occurrences": 0,
+        "missing_records": 0,
+        "missing_sequences": [],
+        "missing_stable_ids": [],
+        "pending_explained_missing_records": 0,
+        "unexplained_missing_records": 0,
+        "translation_ids": 1036,
+        "menu_keys": 6,
+        "hard_token_failed_records": 5
+      },
+      "ready_packets": [
+        {
+          "packet_id": "005_2_001_347",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_005_2_001_347.json",
+          "sha256": "9531f8a76bc03036ca0239977767b9db7ce6651b250b036e40e9acfa72c4e7d4",
+          "schema": "fatal-twelve-japanese-first-draft-v1:entries",
+          "occurrences": 347,
+          "expected_occurrences": 347
+        },
+        {
+          "packet_id": "005_2_348_694",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_005_2_348_694.json",
+          "sha256": "6511685d62497dd473fda3ee487a0389a2e58800bf7b57700fbabf8eef23f05d",
+          "schema": "unversioned-object:entries",
+          "occurrences": 347,
+          "expected_occurrences": 347
+        },
+        {
+          "packet_id": "005_2_695_end",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_005_2_695_end.json",
+          "sha256": "79a70b3ee9622cf0e2241f49a68b9ce36885ca0c063802b2838586c481e96cab",
+          "schema": "fatal-twelve-ko-first-draft-v1:entries",
+          "occurrences": 348,
+          "expected_occurrences": 348
+        }
+      ],
+      "pending_packets": [],
+      "conflict_count": 0,
+      "errors": [
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "005_2",
+          "stable_id": "scenario.rpa::scenario/005_2.rpy::tid::f005_2_s1_end_1a4a5fae",
+          "sequence": 362,
+          "packet_id": "005_2_348_694",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_005_2_348_694.json",
+          "packet_entry_index": 14,
+          "message": "Arabic numbers: expected {'3': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "005_2",
+          "stable_id": "scenario.rpa::scenario/005_2.rpy::tid::f005_2_s1_end_e469b4e5",
+          "sequence": 364,
+          "packet_id": "005_2_348_694",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_005_2_348_694.json",
+          "packet_entry_index": 16,
+          "message": "Arabic numbers: expected {'3': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "005_2",
+          "stable_id": "scenario.rpa::scenario/005_2.rpy::tid::f005_2_s1_end_7c11b21a",
+          "sequence": 411,
+          "packet_id": "005_2_348_694",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_005_2_348_694.json",
+          "packet_entry_index": 63,
+          "message": "Arabic numbers: expected {'2': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "005_2",
+          "stable_id": "scenario.rpa::scenario/005_2.rpy::tid::f005_2_s1_end_e92d1c97",
+          "sequence": 443,
+          "packet_id": "005_2_348_694",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_005_2_348_694.json",
+          "packet_entry_index": 95,
+          "message": "Arabic numbers: expected {'4': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "005_2",
+          "stable_id": "scenario.rpa::scenario/005_2.rpy::tid::f005_2_s1_end_26fd02ea",
+          "sequence": 658,
+          "packet_id": "005_2_348_694",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_005_2_348_694.json",
+          "packet_entry_index": 310,
+          "message": "Arabic numbers: expected {'3': 1}, got {}"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "script_key": "006",
+      "source_file": "scenario/006.rpy",
+      "catalog_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_006.catalog.jsonl",
+      "catalog_sha256": "78f944328e6c015c0e27c8e271d4a2a6390f440f755f04550268ef42381f7636",
+      "master_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_006.master.json",
+      "master_sha256": "aeef3280cb1a95332c172ed48ca99cdf24e99469006e8cbdf2d672fa730d55a2",
+      "structural_pass": true,
+      "coverage_complete": true,
+      "complete": true,
+      "coverage": {
+        "catalog_records": 755,
+        "packet_occurrences": 755,
+        "selected_unique_records": 755,
+        "duplicate_extra_occurrences": 0,
+        "missing_records": 0,
+        "missing_sequences": [],
+        "missing_stable_ids": [],
+        "pending_explained_missing_records": 0,
+        "unexplained_missing_records": 0,
+        "translation_ids": 755,
+        "menu_keys": 0,
+        "hard_token_failed_records": 0
+      },
+      "ready_packets": [
+        {
+          "packet_id": "006_001_252",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_006_001_252.json",
+          "sha256": "b6aece5dd00a4a227fafeaad2ffe02477be05c27a716c5aab1170e1d11b2f9d2",
+          "schema": "fatal-twelve-japanese-first-draft-v1:entries",
+          "occurrences": 252,
+          "expected_occurrences": 252
+        },
+        {
+          "packet_id": "006_253_503",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_006_253_503.json",
+          "sha256": "53cda99f7196ff9f0ebb0fb8abda3706c0871d62a8a31b0526002fcf74ccae3a",
+          "schema": "fatal-twelve-japanese-first-draft-v1:entries",
+          "occurrences": 251,
+          "expected_occurrences": 251
+        },
+        {
+          "packet_id": "006_504_end",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_006_504_end.json",
+          "sha256": "778eaa6aaf1d32c7f99d8f6f402e068bc4a3da04ae422710b2a1e01fbdc2d200",
+          "schema": "fatal-twelve-ko-first-draft-v1:entries",
+          "occurrences": 252,
+          "expected_occurrences": 252
+        }
+      ],
+      "pending_packets": [],
+      "conflict_count": 0,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "script_key": "007_1",
+      "source_file": "scenario/007_1.rpy",
+      "catalog_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_007_1.catalog.jsonl",
+      "catalog_sha256": "cffcbe4180aa6633e0725ffb829f7c96870cf39375134435e59439ed293c6ae5",
+      "master_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_007_1.master.json",
+      "master_sha256": "ed7665e80d7e30f1b02d2a8f59364d2589b38350183d6cee98c5e681eaad4400",
+      "structural_pass": false,
+      "coverage_complete": true,
+      "complete": true,
+      "coverage": {
+        "catalog_records": 1063,
+        "packet_occurrences": 1063,
+        "selected_unique_records": 1063,
+        "duplicate_extra_occurrences": 0,
+        "missing_records": 0,
+        "missing_sequences": [],
+        "missing_stable_ids": [],
+        "pending_explained_missing_records": 0,
+        "unexplained_missing_records": 0,
+        "translation_ids": 1060,
+        "menu_keys": 3,
+        "hard_token_failed_records": 12
+      },
+      "ready_packets": [
+        {
+          "packet_id": "007_1_001_350",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_007_1_001_350.json",
+          "sha256": "66e82a4255e75f448cae8fcc71d7c98c5fe35ed38e6430c665428cb795ebfa86",
+          "schema": "unversioned-object:entries",
+          "occurrences": 350,
+          "expected_occurrences": 350
+        },
+        {
+          "packet_id": "007_1_351_706",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_007_1_351_706.json",
+          "sha256": "32e0e288887730cd73c8fcb6ac407ea9b36e1bc69cc1951b7da2fdcea99a4918",
+          "schema": "fatal-twelve-japanese-first-draft-v1:entries",
+          "occurrences": 356,
+          "expected_occurrences": 356
+        },
+        {
+          "packet_id": "007_1_707_end",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_007_1_707_end.json",
+          "sha256": "d9cec4aa30d87a49c35bae03450b218f8d1f76024028aae3ea97dc0a2dcd486a",
+          "schema": "fatal-twelve-japanese-first-draft-v1:entries",
+          "occurrences": 357,
+          "expected_occurrences": 357
+        }
+      ],
+      "pending_packets": [],
+      "conflict_count": 0,
+      "errors": [
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "007_1",
+          "stable_id": "scenario.rpa::scenario/007_1.rpy::tid::f007_1_5b490b16",
+          "sequence": 39,
+          "packet_id": "007_1_001_350",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_007_1_001_350.json",
+          "packet_entry_index": 38,
+          "message": "Arabic numbers: expected {'2': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "007_1",
+          "stable_id": "scenario.rpa::scenario/007_1.rpy::tid::f007_1_a9224d63",
+          "sequence": 59,
+          "packet_id": "007_1_001_350",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_007_1_001_350.json",
+          "packet_entry_index": 58,
+          "message": "Arabic numbers: expected {'2': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "007_1",
+          "stable_id": "scenario.rpa::scenario/007_1.rpy::tid::f007_1_e6b0ec35",
+          "sequence": 104,
+          "packet_id": "007_1_001_350",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_007_1_001_350.json",
+          "packet_entry_index": 103,
+          "message": "Arabic numbers: expected {'6': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "007_1",
+          "stable_id": "scenario.rpa::scenario/007_1.rpy::tid::f007_1_525e03cd",
+          "sequence": 109,
+          "packet_id": "007_1_001_350",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_007_1_001_350.json",
+          "packet_entry_index": 108,
+          "message": "Arabic numbers: expected {'3': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "007_1",
+          "stable_id": "scenario.rpa::scenario/007_1.rpy::tid::f007_1_ea75e4cc",
+          "sequence": 152,
+          "packet_id": "007_1_001_350",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_007_1_001_350.json",
+          "packet_entry_index": 151,
+          "message": "Arabic numbers: expected {'3': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "007_1",
+          "stable_id": "scenario.rpa::scenario/007_1.rpy::tid::f007_1_183b4e6f",
+          "sequence": 185,
+          "packet_id": "007_1_001_350",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_007_1_001_350.json",
+          "packet_entry_index": 184,
+          "message": "Arabic numbers: expected {'3': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "007_1",
+          "stable_id": "scenario.rpa::scenario/007_1.rpy::tid::f007_1_7c80b8be",
+          "sequence": 189,
+          "packet_id": "007_1_001_350",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_007_1_001_350.json",
+          "packet_entry_index": 188,
+          "message": "Arabic numbers: expected {'4': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "007_1",
+          "stable_id": "scenario.rpa::scenario/007_1.rpy::tid::f007_1_20b016db",
+          "sequence": 191,
+          "packet_id": "007_1_001_350",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_007_1_001_350.json",
+          "packet_entry_index": 190,
+          "message": "Arabic numbers: expected {'3': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "007_1",
+          "stable_id": "scenario.rpa::scenario/007_1.rpy::tid::f007_1_807e07f1",
+          "sequence": 230,
+          "packet_id": "007_1_001_350",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_007_1_001_350.json",
+          "packet_entry_index": 229,
+          "message": "Arabic numbers: expected {'4': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "007_1",
+          "stable_id": "scenario.rpa::scenario/007_1.rpy::tid::f007_1_6eaf147b",
+          "sequence": 277,
+          "packet_id": "007_1_001_350",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_007_1_001_350.json",
+          "packet_entry_index": 276,
+          "message": "Arabic numbers: expected {'6': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "007_1",
+          "stable_id": "scenario.rpa::scenario/007_1.rpy::tid::f007_1_389760a2",
+          "sequence": 285,
+          "packet_id": "007_1_001_350",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_007_1_001_350.json",
+          "packet_entry_index": 284,
+          "message": "Arabic numbers: expected {'5': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "007_1",
+          "stable_id": "scenario.rpa::scenario/007_1.rpy::tid::f007_1_874d1f1e",
+          "sequence": 341,
+          "packet_id": "007_1_001_350",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_007_1_001_350.json",
+          "packet_entry_index": 340,
+          "message": "Arabic numbers: expected {'1': 1}, got {}"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "script_key": "007_2",
+      "source_file": "scenario/007_2.rpy",
+      "catalog_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_007_2.catalog.jsonl",
+      "catalog_sha256": "08345a226272a267ec7a2754b0106744fc04b8a25327db2b2868f47c2fc4d598",
+      "master_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_007_2.master.json",
+      "master_sha256": "3b0fc00333a10d37c3775c8295ac19fb1b2355f866a8080f40ea0fc23ba3cb6d",
+      "structural_pass": true,
+      "coverage_complete": true,
+      "complete": true,
+      "coverage": {
+        "catalog_records": 1471,
+        "packet_occurrences": 1471,
+        "selected_unique_records": 1471,
+        "duplicate_extra_occurrences": 0,
+        "missing_records": 0,
+        "missing_sequences": [],
+        "missing_stable_ids": [],
+        "pending_explained_missing_records": 0,
+        "unexplained_missing_records": 0,
+        "translation_ids": 1471,
+        "menu_keys": 0,
+        "hard_token_failed_records": 0
+      },
+      "ready_packets": [
+        {
+          "packet_id": "007_2_001_350",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_007_2_001_350.json",
+          "sha256": "6e4fa22f0915f5f18b5de6759ad123ee09df06644b2fcc769c9844c26c085404",
+          "schema": "fatal-twelve-ko-first-draft-v1:entries",
+          "occurrences": 350,
+          "expected_occurrences": 350
+        },
+        {
+          "packet_id": "007_2_351_800",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_007_2_351_800.json",
+          "sha256": "7ae4c989fb9454e7fd92561e4ff00e3bf31ef0d844412f3ca00055c693051f55",
+          "schema": "fatal-twelve-ko-first-draft-v1:entries",
+          "occurrences": 450,
+          "expected_occurrences": 450
+        },
+        {
+          "packet_id": "007_2_801_1150",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_007_2_801_1150.json",
+          "sha256": "6e4158b3ca67076cbc720e569241562241e12eb8014a93b38939ff615478eb88",
+          "schema": "fatal-twelve-japanese-first-draft-v1:entries",
+          "occurrences": 350,
+          "expected_occurrences": 350
+        },
+        {
+          "packet_id": "007_2_1151_end",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_007_2_1151_end.json",
+          "sha256": "5fd9f337c37f7ec90f8402379571c89ae7b27ef57de91600ba4c60e0388da4e9",
+          "schema": "fatal-twelve-japanese-first-draft-v1:entries",
+          "occurrences": 321,
+          "expected_occurrences": 321
+        }
+      ],
+      "pending_packets": [],
+      "conflict_count": 0,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "script_key": "008",
+      "source_file": "scenario/008.rpy",
+      "catalog_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_008.catalog.jsonl",
+      "catalog_sha256": "28b19aaa45a757d934c116cd8d287c4524bed6663343b103a6b882600a13aeb9",
+      "master_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_008.master.json",
+      "master_sha256": "a7ec09ab4a69e908b46a3f97a6a54d6f7f57c972ef9ab5625911c3ba873f46a2",
+      "structural_pass": false,
+      "coverage_complete": true,
+      "complete": true,
+      "coverage": {
+        "catalog_records": 1500,
+        "packet_occurrences": 1500,
+        "selected_unique_records": 1500,
+        "duplicate_extra_occurrences": 0,
+        "missing_records": 0,
+        "missing_sequences": [],
+        "missing_stable_ids": [],
+        "pending_explained_missing_records": 0,
+        "unexplained_missing_records": 0,
+        "translation_ids": 1496,
+        "menu_keys": 4,
+        "hard_token_failed_records": 18
+      },
+      "ready_packets": [
+        {
+          "packet_id": "008_001_400",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_008_001_400.json",
+          "sha256": "fa2aeffd0fec25663517702853561f8accdf0c6104d1fedf384ffc0b6e5ff741",
+          "schema": "unversioned-object:entries",
+          "occurrences": 400,
+          "expected_occurrences": 400
+        },
+        {
+          "packet_id": "008_401_800",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_008_401_800.json",
+          "sha256": "c08cd76d7a0d6a5483a13d4f3c0a9e37cf254292b1511507d6d5aee0c2fbd55c",
+          "schema": "unversioned-object:entries",
+          "occurrences": 400,
+          "expected_occurrences": 400
+        },
+        {
+          "packet_id": "008_801_1150",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_008_801_1150.json",
+          "sha256": "e7a84dbef821000101c61aa1737d0a8e03b0bfe9f6bc26372a4e76fb3b936153",
+          "schema": "fatal-twelve-ko-first-draft-v1:entries",
+          "occurrences": 350,
+          "expected_occurrences": 350
+        },
+        {
+          "packet_id": "008_1151_end",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_008_1151_end.json",
+          "sha256": "df68c958ae71f1e2e9b86c8499d153821988449227bd446db68aa802868e01ac",
+          "schema": "fatal-twelve-japanese-first-draft-v1:entries",
+          "occurrences": 350,
+          "expected_occurrences": 350
+        }
+      ],
+      "pending_packets": [],
+      "conflict_count": 0,
+      "errors": [
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "008",
+          "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_3b9de7fe",
+          "sequence": 39,
+          "packet_id": "008_001_400",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_008_001_400.json",
+          "packet_entry_index": 38,
+          "message": "Arabic numbers: expected {'1': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "008",
+          "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_e11bf2e3",
+          "sequence": 148,
+          "packet_id": "008_001_400",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_008_001_400.json",
+          "packet_entry_index": 147,
+          "message": "Arabic numbers: expected {'1': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "008",
+          "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_2503d4bb",
+          "sequence": 153,
+          "packet_id": "008_001_400",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_008_001_400.json",
+          "packet_entry_index": 152,
+          "message": "Arabic numbers: expected {'1': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "008",
+          "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_2b607cf8",
+          "sequence": 171,
+          "packet_id": "008_001_400",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_008_001_400.json",
+          "packet_entry_index": 170,
+          "message": "Arabic numbers: expected {'1': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "008",
+          "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_dd8f9cf8",
+          "sequence": 206,
+          "packet_id": "008_001_400",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_008_001_400.json",
+          "packet_entry_index": 205,
+          "message": "Arabic numbers: expected {'1': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "008",
+          "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_8a249351",
+          "sequence": 228,
+          "packet_id": "008_001_400",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_008_001_400.json",
+          "packet_entry_index": 227,
+          "message": "Arabic numbers: expected {'2': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "008",
+          "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_4641e4a9",
+          "sequence": 261,
+          "packet_id": "008_001_400",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_008_001_400.json",
+          "packet_entry_index": 260,
+          "message": "Arabic numbers: expected {'3': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "008",
+          "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_16fc20fe",
+          "sequence": 287,
+          "packet_id": "008_001_400",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_008_001_400.json",
+          "packet_entry_index": 286,
+          "message": "Arabic numbers: expected {'2': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "008",
+          "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_ad905753",
+          "sequence": 298,
+          "packet_id": "008_001_400",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_008_001_400.json",
+          "packet_entry_index": 297,
+          "message": "Arabic numbers: expected {'2': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "008",
+          "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_16bb4f13",
+          "sequence": 326,
+          "packet_id": "008_001_400",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_008_001_400.json",
+          "packet_entry_index": 325,
+          "message": "Arabic numbers: expected {'3': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "008",
+          "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_3e565f8d",
+          "sequence": 384,
+          "packet_id": "008_001_400",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_008_001_400.json",
+          "packet_entry_index": 383,
+          "message": "Arabic numbers: expected {'2': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "008",
+          "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_05b04bd2",
+          "sequence": 400,
+          "packet_id": "008_001_400",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_008_001_400.json",
+          "packet_entry_index": 399,
+          "message": "Arabic numbers: expected {'4': 1, '1': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "008",
+          "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_a61d2db5",
+          "sequence": 421,
+          "packet_id": "008_401_800",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_008_401_800.json",
+          "packet_entry_index": 20,
+          "message": "Arabic numbers: expected {'1': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "008",
+          "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_f3a4bc78",
+          "sequence": 424,
+          "packet_id": "008_401_800",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_008_401_800.json",
+          "packet_entry_index": 23,
+          "message": "Arabic numbers: expected {'2': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "008",
+          "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_9f27bd2f",
+          "sequence": 680,
+          "packet_id": "008_401_800",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_008_401_800.json",
+          "packet_entry_index": 279,
+          "message": "Arabic numbers: expected {'8': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "008",
+          "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_dd9ea826",
+          "sequence": 702,
+          "packet_id": "008_401_800",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_008_401_800.json",
+          "packet_entry_index": 301,
+          "message": "Arabic numbers: expected {'4': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "008",
+          "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_bb7be56c",
+          "sequence": 740,
+          "packet_id": "008_401_800",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_008_401_800.json",
+          "packet_entry_index": 339,
+          "message": "Arabic numbers: expected {'12': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "008",
+          "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_1b017695",
+          "sequence": 764,
+          "packet_id": "008_401_800",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_008_401_800.json",
+          "packet_entry_index": 363,
+          "message": "Arabic numbers: expected {'1': 1, '3': 1}, got {'1': 1}"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "script_key": "009",
+      "source_file": "scenario/009.rpy",
+      "catalog_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_009.catalog.jsonl",
+      "catalog_sha256": "acba3c94ebbf88c9d06790bd5ae9902901cabe2dfaafe97437da53b73641b20e",
+      "master_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_009.master.json",
+      "master_sha256": "de7771674e6e4a77df70194b7aff9ee7662da7993ec0ec0db476911020816911",
+      "structural_pass": true,
+      "coverage_complete": true,
+      "complete": true,
+      "coverage": {
+        "catalog_records": 1588,
+        "packet_occurrences": 1588,
+        "selected_unique_records": 1588,
+        "duplicate_extra_occurrences": 0,
+        "missing_records": 0,
+        "missing_sequences": [],
+        "missing_stable_ids": [],
+        "pending_explained_missing_records": 0,
+        "unexplained_missing_records": 0,
+        "translation_ids": 1579,
+        "menu_keys": 9,
+        "hard_token_failed_records": 0
+      },
+      "ready_packets": [
+        {
+          "packet_id": "009_001_400",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\catalog_design\\draft_009_001_400.json",
+          "sha256": "cf55499026eb45ce68c59f53bc5debecb9916225b8b248fccd02b905ceca94e9",
+          "schema": "fatal-twelve-japanese-first-draft-v1:entries",
+          "occurrences": 400,
+          "expected_occurrences": 400
+        },
+        {
+          "packet_id": "009_401_800",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\catalog_design\\draft_009_401_800.json",
+          "sha256": "b597d89433d021c124f6fb2f6444746dbf4d05f35d05d3b6e93cfcec7e330af9",
+          "schema": "fatal-twelve-japanese-first-draft-v1:entries",
+          "occurrences": 400,
+          "expected_occurrences": 400
+        },
+        {
+          "packet_id": "009_801_1200",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_009_801_1200.json",
+          "sha256": "91c5e1564acad700c14079fd57bb3293f955b994450ce7bb313904a272532fc8",
+          "schema": "fatal-twelve-ko-first-draft-v1:entries",
+          "occurrences": 400,
+          "expected_occurrences": 400
+        },
+        {
+          "packet_id": "009_1201_end",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_009_1201_1588.json",
+          "sha256": "7954c2426302249fba1c914e47ee9aa924c159901681488334edbb88889d2d16",
+          "schema": "unversioned-object:entries",
+          "occurrences": 388,
+          "expected_occurrences": 388
+        }
+      ],
+      "pending_packets": [],
+      "conflict_count": 0,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "script_key": "010",
+      "source_file": "scenario/010.rpy",
+      "catalog_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_010.catalog.jsonl",
+      "catalog_sha256": "f1500846293bad74929731dfee3eada08323e8bd2bc774ffad3e3b1ba0b4c588",
+      "master_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_010.master.json",
+      "master_sha256": "c0d0ac82b27f2a3ba9190a865d3250da9d7d74eea3092ada54c7dc3f2bc62631",
+      "structural_pass": true,
+      "coverage_complete": true,
+      "complete": true,
+      "coverage": {
+        "catalog_records": 1337,
+        "packet_occurrences": 1337,
+        "selected_unique_records": 1337,
+        "duplicate_extra_occurrences": 0,
+        "missing_records": 0,
+        "missing_sequences": [],
+        "missing_stable_ids": [],
+        "pending_explained_missing_records": 0,
+        "unexplained_missing_records": 0,
+        "translation_ids": 1337,
+        "menu_keys": 0,
+        "hard_token_failed_records": 0
+      },
+      "ready_packets": [
+        {
+          "packet_id": "010_001_300",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\root_drafts\\draft_010_001_300.json",
+          "sha256": "2355cb58626b75f6e6515910d0329aecbe304e68c0a2c9b4d2219a8b20051b3c",
+          "schema": "fatal-twelve-japanese-first-draft-v1:entries",
+          "occurrences": 300,
+          "expected_occurrences": 300
+        },
+        {
+          "packet_id": "010_301_600",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\root_drafts\\draft_010_301_600.json",
+          "sha256": "9aebb6e2555a87fdd53da63eccb16ef9da2e35e4f545ab2ee9171c1179704165",
+          "schema": "fatal-twelve-japanese-first-draft-v1:entries",
+          "occurrences": 300,
+          "expected_occurrences": 300
+        },
+        {
+          "packet_id": "010_601_900",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\catalog_design\\draft_010_601_900.json",
+          "sha256": "b519673175bc0f5bc54dc8298c7531d4540cb20f631d3b4ec86a4f154ae8a398",
+          "schema": "fatal-twelve-japanese-first-draft-v1:entries",
+          "occurrences": 300,
+          "expected_occurrences": 300
+        },
+        {
+          "packet_id": "010_901_1100",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\root_drafts\\draft_010_901_1100.json",
+          "sha256": "579385669a43ebbf95a1795f563d9b9ed693097b47a20018616add0c67cde4c3",
+          "schema": "fatal-twelve-japanese-first-draft-v1:entries",
+          "occurrences": 200,
+          "expected_occurrences": 200
+        },
+        {
+          "packet_id": "010_1101_end",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\root_drafts\\draft_010_1101_end.json",
+          "sha256": "cbfb778b9796aaace8181042d61c62f16544e7b62820a529a4f2721a554c0e5f",
+          "schema": "fatal-twelve-japanese-first-draft-v1:entries",
+          "occurrences": 237,
+          "expected_occurrences": 237
+        }
+      ],
+      "pending_packets": [],
+      "conflict_count": 0,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "script_key": "011_01",
+      "source_file": "scenario/011_01.rpy",
+      "catalog_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_011_01.catalog.jsonl",
+      "catalog_sha256": "0a157f415b28f4760ba2c09e889092016a87951cb6db2b1ab41b73e88395e829",
+      "master_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_011_01.master.json",
+      "master_sha256": "2fdc8632b63e73b5df4b9ad57d0d41b3684934968728c46689f96ed7a9917567",
+      "structural_pass": true,
+      "coverage_complete": true,
+      "complete": true,
+      "coverage": {
+        "catalog_records": 408,
+        "packet_occurrences": 408,
+        "selected_unique_records": 408,
+        "duplicate_extra_occurrences": 0,
+        "missing_records": 0,
+        "missing_sequences": [],
+        "missing_stable_ids": [],
+        "pending_explained_missing_records": 0,
+        "unexplained_missing_records": 0,
+        "translation_ids": 402,
+        "menu_keys": 6,
+        "hard_token_failed_records": 0
+      },
+      "ready_packets": [
+        {
+          "packet_id": "011_01_full",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\011_01_exact_first_draft.json",
+          "sha256": "d8be0e5ece58f73e7c7cafbc84359d9971dbdb5ae1059e1e51a57dd93cdd9637",
+          "schema": "unversioned-object:entries",
+          "occurrences": 408,
+          "expected_occurrences": 408
+        }
+      ],
+      "pending_packets": [],
+      "conflict_count": 0,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "script_key": "011_01F",
+      "source_file": "scenario/011_01F.rpy",
+      "catalog_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_011_01F.catalog.jsonl",
+      "catalog_sha256": "acbc59ac236d343ae0026fac6b585f02c3e1474ab4bbecffbb96e53c9b5c65a5",
+      "master_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_011_01F.master.json",
+      "master_sha256": "99e894449ed17ec84ebed2cdc0337c1520003de6dcc395c61b40c017dd5deaf2",
+      "structural_pass": true,
+      "coverage_complete": true,
+      "complete": true,
+      "coverage": {
+        "catalog_records": 210,
+        "packet_occurrences": 210,
+        "selected_unique_records": 210,
+        "duplicate_extra_occurrences": 0,
+        "missing_records": 0,
+        "missing_sequences": [],
+        "missing_stable_ids": [],
+        "pending_explained_missing_records": 0,
+        "unexplained_missing_records": 0,
+        "translation_ids": 210,
+        "menu_keys": 0,
+        "hard_token_failed_records": 0
+      },
+      "ready_packets": [
+        {
+          "packet_id": "011_01F_full",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\011_01F_exact_first_draft.json",
+          "sha256": "50c447ba9e041ea3300890a15756f2aa253d950a6ffc6140a6b7c88da31c4e5f",
+          "schema": "unversioned-object:entries",
+          "occurrences": 210,
+          "expected_occurrences": 210
+        }
+      ],
+      "pending_packets": [],
+      "conflict_count": 0,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "script_key": "011_01G",
+      "source_file": "scenario/011_01G.rpy",
+      "catalog_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_011_01G.catalog.jsonl",
+      "catalog_sha256": "584d89324a478f17563f1b0a66304991fd9fb76f99c2119a47c1898675a5c25e",
+      "master_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_011_01G.master.json",
+      "master_sha256": "baa9771051c79a07c5ed0b23a5dc8063b92c33a409c07c2091f282c532e883f9",
+      "structural_pass": true,
+      "coverage_complete": true,
+      "complete": true,
+      "coverage": {
+        "catalog_records": 192,
+        "packet_occurrences": 192,
+        "selected_unique_records": 192,
+        "duplicate_extra_occurrences": 0,
+        "missing_records": 0,
+        "missing_sequences": [],
+        "missing_stable_ids": [],
+        "pending_explained_missing_records": 0,
+        "unexplained_missing_records": 0,
+        "translation_ids": 192,
+        "menu_keys": 0,
+        "hard_token_failed_records": 0
+      },
+      "ready_packets": [
+        {
+          "packet_id": "011_01G_full",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\011_01G_exact_first_draft.json",
+          "sha256": "3137fee847d72e7d0a2feeaf9c74cc77239c7b218661f83c097bb9ae2e123670",
+          "schema": "unversioned-object:entries",
+          "occurrences": 192,
+          "expected_occurrences": 192
+        }
+      ],
+      "pending_packets": [],
+      "conflict_count": 0,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "script_key": "011_01H",
+      "source_file": "scenario/011_01H.rpy",
+      "catalog_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_011_01H.catalog.jsonl",
+      "catalog_sha256": "ac0083e6309836dc1ee2e2bd0ce4f9603603725711769528038fbc33380989da",
+      "master_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_011_01H.master.json",
+      "master_sha256": "f7fbcf20f0b86ff137374784062bdd5d250c2d22c620d3e4814c423b4862a3dd",
+      "structural_pass": false,
+      "coverage_complete": true,
+      "complete": true,
+      "coverage": {
+        "catalog_records": 63,
+        "packet_occurrences": 63,
+        "selected_unique_records": 63,
+        "duplicate_extra_occurrences": 0,
+        "missing_records": 0,
+        "missing_sequences": [],
+        "missing_stable_ids": [],
+        "pending_explained_missing_records": 0,
+        "unexplained_missing_records": 0,
+        "translation_ids": 63,
+        "menu_keys": 0,
+        "hard_token_failed_records": 1
+      },
+      "ready_packets": [
+        {
+          "packet_id": "011_01H_full",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\011_01H_aligned.json",
+          "sha256": "fbd688beae8f743407627c15024608d000d95df0f612dcd759e43737d8c41426",
+          "schema": "fatal-twelve-aligned-draft-v1:entries",
+          "occurrences": 63,
+          "expected_occurrences": 63
+        }
+      ],
+      "pending_packets": [],
+      "conflict_count": 0,
+      "errors": [
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "011_01H",
+          "stable_id": "scenario.rpa::scenario/011_01H.rpy::tid::f011_01H_089ad802",
+          "sequence": 46,
+          "packet_id": "011_01H_full",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\011_01H_aligned.json",
+          "packet_entry_index": 45,
+          "message": "Arabic numbers: expected {'11': 1}, got {}"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "script_key": "011_02",
+      "source_file": "scenario/011_02.rpy",
+      "catalog_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_011_02.catalog.jsonl",
+      "catalog_sha256": "4648909f62f7de516cefb69f1c760440ebe62f2ecbe28d3119cd4056ffd89111",
+      "master_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_011_02.master.json",
+      "master_sha256": "6fe2cf3d00249edaae358d58018dd10a9e72bbadd25b8bb3a6c69a4a1bcd0538",
+      "structural_pass": false,
+      "coverage_complete": true,
+      "complete": true,
+      "coverage": {
+        "catalog_records": 131,
+        "packet_occurrences": 131,
+        "selected_unique_records": 131,
+        "duplicate_extra_occurrences": 0,
+        "missing_records": 0,
+        "missing_sequences": [],
+        "missing_stable_ids": [],
+        "pending_explained_missing_records": 0,
+        "unexplained_missing_records": 0,
+        "translation_ids": 131,
+        "menu_keys": 0,
+        "hard_token_failed_records": 9
+      },
+      "ready_packets": [
+        {
+          "packet_id": "011_02_full",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\011_02_aligned.json",
+          "sha256": "2c5482443076e5298972e82c455f23986c7300e2ae74c45a74c7a3c3989cc4ad",
+          "schema": "fatal-twelve-aligned-draft-v1:entries",
+          "occurrences": 131,
+          "expected_occurrences": 131
+        }
+      ],
+      "pending_packets": [],
+      "conflict_count": 0,
+      "errors": [
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "011_02",
+          "stable_id": "scenario.rpa::scenario/011_02.rpy::tid::sentei11_53e6f637",
+          "sequence": 1,
+          "packet_id": "011_02_full",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\011_02_aligned.json",
+          "packet_entry_index": 0,
+          "message": "Arabic numbers: expected {'12': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "011_02",
+          "stable_id": "scenario.rpa::scenario/011_02.rpy::tid::sentei11_fb727df2",
+          "sequence": 7,
+          "packet_id": "011_02_full",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\011_02_aligned.json",
+          "packet_entry_index": 6,
+          "message": "Arabic numbers: expected {'11': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "011_02",
+          "stable_id": "scenario.rpa::scenario/011_02.rpy::tid::sentei11_3ac1a7c8",
+          "sequence": 13,
+          "packet_id": "011_02_full",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\011_02_aligned.json",
+          "packet_entry_index": 12,
+          "message": "Arabic numbers: expected {'12': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "011_02",
+          "stable_id": "scenario.rpa::scenario/011_02.rpy::tid::sentei11_b9491b89",
+          "sequence": 16,
+          "packet_id": "011_02_full",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\011_02_aligned.json",
+          "packet_entry_index": 15,
+          "message": "Arabic numbers: expected {'12': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "011_02",
+          "stable_id": "scenario.rpa::scenario/011_02.rpy::tid::sentei11_aecdd8bd",
+          "sequence": 19,
+          "packet_id": "011_02_full",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\011_02_aligned.json",
+          "packet_entry_index": 18,
+          "message": "Arabic numbers: expected {'12': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "011_02",
+          "stable_id": "scenario.rpa::scenario/011_02.rpy::tid::sentei11_cee92cf3",
+          "sequence": 20,
+          "packet_id": "011_02_full",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\011_02_aligned.json",
+          "packet_entry_index": 19,
+          "message": "Arabic numbers: expected {'1': 1, '12': 1}, got {'1': 1}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "011_02",
+          "stable_id": "scenario.rpa::scenario/011_02.rpy::tid::sentei11_45ece4ae",
+          "sequence": 93,
+          "packet_id": "011_02_full",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\011_02_aligned.json",
+          "packet_entry_index": 92,
+          "message": "Arabic numbers: expected {'12': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "011_02",
+          "stable_id": "scenario.rpa::scenario/011_02.rpy::tid::sentei11_d17fdf3b",
+          "sequence": 121,
+          "packet_id": "011_02_full",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\011_02_aligned.json",
+          "packet_entry_index": 120,
+          "message": "Arabic numbers: expected {'12': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "011_02",
+          "stable_id": "scenario.rpa::scenario/011_02.rpy::tid::sentei11_4d222207",
+          "sequence": 131,
+          "packet_id": "011_02_full",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\011_02_aligned.json",
+          "packet_entry_index": 130,
+          "message": "Arabic numbers: expected {'1': 1}, got {}"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "script_key": "011_02GH",
+      "source_file": "scenario/011_02GH.rpy",
+      "catalog_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_011_02GH.catalog.jsonl",
+      "catalog_sha256": "60b1e50e33bf70e4246cf8743305670aff0c0e3b75f6f879e80406e3767d9511",
+      "master_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_011_02GH.master.json",
+      "master_sha256": "bebe77e1833c99bd283fa04ad0efcb5e0992c42914710ae356b0b42d6a5a094c",
+      "structural_pass": true,
+      "coverage_complete": true,
+      "complete": true,
+      "coverage": {
+        "catalog_records": 325,
+        "packet_occurrences": 325,
+        "selected_unique_records": 325,
+        "duplicate_extra_occurrences": 0,
+        "missing_records": 0,
+        "missing_sequences": [],
+        "missing_stable_ids": [],
+        "pending_explained_missing_records": 0,
+        "unexplained_missing_records": 0,
+        "translation_ids": 325,
+        "menu_keys": 0,
+        "hard_token_failed_records": 0
+      },
+      "ready_packets": [
+        {
+          "packet_id": "011_02GH_full",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\011_02GH_exact_first_draft.json",
+          "sha256": "ba72239c36f1230a52e4af0f05b83e8b61c931e7f74f250b0b8795fddb398ffa",
+          "schema": "unversioned-object:entries",
+          "occurrences": 325,
+          "expected_occurrences": 325
+        }
+      ],
+      "pending_packets": [],
+      "conflict_count": 0,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "script_key": "012_01F",
+      "source_file": "scenario/012_01F.rpy",
+      "catalog_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_012_01F.catalog.jsonl",
+      "catalog_sha256": "e12aaebc37d01c94f726fb4262addadec22d3f9d0720ea2f58cc4299f5146236",
+      "master_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_012_01F.master.json",
+      "master_sha256": "03ca810fbd92741b4ddc824aad7bc3154b0dc89d78b64d7b1fcddc043d784214",
+      "structural_pass": true,
+      "coverage_complete": true,
+      "complete": true,
+      "coverage": {
+        "catalog_records": 1190,
+        "packet_occurrences": 1190,
+        "selected_unique_records": 1190,
+        "duplicate_extra_occurrences": 0,
+        "missing_records": 0,
+        "missing_sequences": [],
+        "missing_stable_ids": [],
+        "pending_explained_missing_records": 0,
+        "unexplained_missing_records": 0,
+        "translation_ids": 1190,
+        "menu_keys": 0,
+        "hard_token_failed_records": 0
+      },
+      "ready_packets": [
+        {
+          "packet_id": "012_01F_001_300",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_012_01F_001_300.json",
+          "sha256": "f97a25c3444f82a3ae1924da1314224f7c1b79f47d94d0c622d1361b30017d1d",
+          "schema": "fatal-twelve-japanese-first-draft-v1:entries",
+          "occurrences": 300,
+          "expected_occurrences": 300
+        },
+        {
+          "packet_id": "012_01F_301_600",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_012_01F_301_600.json",
+          "sha256": "42a935cd7c4dcf0f86377f60bfb544cbfcd6adddc53241fd7e3a3ac2beb98c6b",
+          "schema": "fatal-twelve-japanese-first-draft-v1:entries",
+          "occurrences": 300,
+          "expected_occurrences": 300
+        },
+        {
+          "packet_id": "012_01F_601_900",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\patch_architecture\\draft_012_01F_601_900.json",
+          "sha256": "0780ba1ef01f5b22c0e7fce91a4e82f423d9956169d59d9ec62fd038ae663ef0",
+          "schema": "fatal-twelve-ko-first-draft-v1:entries",
+          "occurrences": 300,
+          "expected_occurrences": 300
+        },
+        {
+          "packet_id": "012_01F_901_end",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\jp_recovery\\draft_012_01F_901_1190.json",
+          "sha256": "f85510d7881ee5eac566f413cf80530e19c1f9d9bf520cd79562ab37bb4b6126",
+          "schema": "unversioned-object:entries",
+          "occurrences": 290,
+          "expected_occurrences": 290
+        }
+      ],
+      "pending_packets": [],
+      "conflict_count": 0,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "script_key": "012_01GH",
+      "source_file": "scenario/012_01GH.rpy",
+      "catalog_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_012_01GH.catalog.jsonl",
+      "catalog_sha256": "2ac8f9a8509dfb3a0c7c2b55d328cd0a508fb8fd7f2e4284cf7acf5a97aa172b",
+      "master_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_012_01GH.master.json",
+      "master_sha256": "41e4baab3dcbfe987942d15a197cbaca061817b963af8d8a92a19b5dd60d3946",
+      "structural_pass": true,
+      "coverage_complete": true,
+      "complete": true,
+      "coverage": {
+        "catalog_records": 313,
+        "packet_occurrences": 313,
+        "selected_unique_records": 313,
+        "duplicate_extra_occurrences": 0,
+        "missing_records": 0,
+        "missing_sequences": [],
+        "missing_stable_ids": [],
+        "pending_explained_missing_records": 0,
+        "unexplained_missing_records": 0,
+        "translation_ids": 307,
+        "menu_keys": 6,
+        "hard_token_failed_records": 0
+      },
+      "ready_packets": [
+        {
+          "packet_id": "012_01GH_full",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\012_01GH_exact_first_draft.json",
+          "sha256": "fb80b5fac0eb70259c79982781d450ce725bfe9c4fc5597c65e9d135bfa3d164",
+          "schema": "unversioned-object:entries",
+          "occurrences": 313,
+          "expected_occurrences": 313
+        }
+      ],
+      "pending_packets": [],
+      "conflict_count": 0,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "script_key": "012_02",
+      "source_file": "scenario/012_02.rpy",
+      "catalog_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_012_02.catalog.jsonl",
+      "catalog_sha256": "9f7d339469e305528f102d03a1fcdab9c7765a0cc64db69f6699d5698fcc51b6",
+      "master_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_012_02.master.json",
+      "master_sha256": "f94a6d209e47fbfb9cecc78fdca754a0adc9928f8b50e6c3f436741403aacd4e",
+      "structural_pass": true,
+      "coverage_complete": true,
+      "complete": true,
+      "coverage": {
+        "catalog_records": 209,
+        "packet_occurrences": 209,
+        "selected_unique_records": 209,
+        "duplicate_extra_occurrences": 0,
+        "missing_records": 0,
+        "missing_sequences": [],
+        "missing_stable_ids": [],
+        "pending_explained_missing_records": 0,
+        "unexplained_missing_records": 0,
+        "translation_ids": 209,
+        "menu_keys": 0,
+        "hard_token_failed_records": 0
+      },
+      "ready_packets": [
+        {
+          "packet_id": "012_02_full",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\012_02_exact_first_draft.json",
+          "sha256": "96a5eb5b63f186b9c331cfbec48102e6af68e233663586fcd276ee2f1efffe19",
+          "schema": "unversioned-object:entries",
+          "occurrences": 209,
+          "expected_occurrences": 209
+        }
+      ],
+      "pending_packets": [],
+      "conflict_count": 0,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "script_key": "BAD_END_01",
+      "source_file": "scenario/BAD_END_01.rpy",
+      "catalog_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_BAD_END_01.catalog.jsonl",
+      "catalog_sha256": "4eb49274a5a760e0053611fac859545fe56ced6eb230e3907fcfee3cbb61cb60",
+      "master_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_BAD_END_01.master.json",
+      "master_sha256": "b5e027eb04766570d6862fdb7b2d562c2fea8b82e7490ba90022ee2b6da4ca21",
+      "structural_pass": false,
+      "coverage_complete": true,
+      "complete": true,
+      "coverage": {
+        "catalog_records": 58,
+        "packet_occurrences": 58,
+        "selected_unique_records": 58,
+        "duplicate_extra_occurrences": 0,
+        "missing_records": 0,
+        "missing_sequences": [],
+        "missing_stable_ids": [],
+        "pending_explained_missing_records": 0,
+        "unexplained_missing_records": 0,
+        "translation_ids": 58,
+        "menu_keys": 0,
+        "hard_token_failed_records": 2
+      },
+      "ready_packets": [
+        {
+          "packet_id": "BAD_END_01_full",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_01_aligned.json",
+          "sha256": "0ddf59e0d7a1ca3f40725d2f97efcf711d71e941b102d2d69f5ad315afe25dcf",
+          "schema": "fatal-twelve-aligned-draft-v1:entries",
+          "occurrences": 58,
+          "expected_occurrences": 58
+        }
+      ],
+      "pending_packets": [],
+      "conflict_count": 0,
+      "errors": [
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "BAD_END_01",
+          "stable_id": "scenario.rpa::scenario/BAD_END_01.rpy::tid::fBAD_01_d132aa03",
+          "sequence": 25,
+          "packet_id": "BAD_END_01_full",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_01_aligned.json",
+          "packet_entry_index": 24,
+          "message": "Arabic numbers: expected {'2': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "BAD_END_01",
+          "stable_id": "scenario.rpa::scenario/BAD_END_01.rpy::tid::fBAD_01_6a058e20",
+          "sequence": 42,
+          "packet_id": "BAD_END_01_full",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_01_aligned.json",
+          "packet_entry_index": 41,
+          "message": "Arabic numbers: expected {'3': 1}, got {}"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "script_key": "BAD_END_02",
+      "source_file": "scenario/BAD_END_02.rpy",
+      "catalog_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_BAD_END_02.catalog.jsonl",
+      "catalog_sha256": "c31af6f5be65991c798a9e3cc5f0d83a17bc773150d3fa4b8601d960d19558c5",
+      "master_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_BAD_END_02.master.json",
+      "master_sha256": "d74f378bc5a52f8ee727d55b5a44950ab86bca80a5ef6b12d5c6b6f1beb93809",
+      "structural_pass": false,
+      "coverage_complete": true,
+      "complete": true,
+      "coverage": {
+        "catalog_records": 80,
+        "packet_occurrences": 80,
+        "selected_unique_records": 80,
+        "duplicate_extra_occurrences": 0,
+        "missing_records": 0,
+        "missing_sequences": [],
+        "missing_stable_ids": [],
+        "pending_explained_missing_records": 0,
+        "unexplained_missing_records": 0,
+        "translation_ids": 80,
+        "menu_keys": 0,
+        "hard_token_failed_records": 1
+      },
+      "ready_packets": [
+        {
+          "packet_id": "BAD_END_02_full",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+          "sha256": "715a6ea8b48d826cfde42e9b5cda8eb0e56698e9ba4c348afb80ab2cccd0b220",
+          "schema": "fatal-twelve-aligned-draft-v1:entries",
+          "occurrences": 80,
+          "expected_occurrences": 80
+        }
+      ],
+      "pending_packets": [],
+      "conflict_count": 0,
+      "errors": [
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "BAD_END_02",
+          "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_ba8b287a",
+          "sequence": 1,
+          "packet_id": "BAD_END_02_full",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+          "packet_entry_index": 0,
+          "message": "Arabic numbers: expected {'2': 1}, got {}"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "script_key": "BAD_END_03",
+      "source_file": "scenario/BAD_END_03.rpy",
+      "catalog_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_BAD_END_03.catalog.jsonl",
+      "catalog_sha256": "39295dfc437439ce00926f1583a6c773d0f917d709b118c7f301fa3bbd7d4e7c",
+      "master_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_BAD_END_03.master.json",
+      "master_sha256": "2e002066815a41f88fcdb5c08acd329954f47545a088c7a43f378304a43c7c53",
+      "structural_pass": true,
+      "coverage_complete": true,
+      "complete": true,
+      "coverage": {
+        "catalog_records": 21,
+        "packet_occurrences": 21,
+        "selected_unique_records": 21,
+        "duplicate_extra_occurrences": 0,
+        "missing_records": 0,
+        "missing_sequences": [],
+        "missing_stable_ids": [],
+        "pending_explained_missing_records": 0,
+        "unexplained_missing_records": 0,
+        "translation_ids": 21,
+        "menu_keys": 0,
+        "hard_token_failed_records": 0
+      },
+      "ready_packets": [
+        {
+          "packet_id": "BAD_END_03_full",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_03_aligned.json",
+          "sha256": "7f6df9542796e31895ba422a55f0b2638ce2557afbeab69cddfe80061a0f6060",
+          "schema": "fatal-twelve-aligned-draft-v1:entries",
+          "occurrences": 21,
+          "expected_occurrences": 21
+        }
+      ],
+      "pending_packets": [],
+      "conflict_count": 0,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "script_key": "BAD_END_04",
+      "source_file": "scenario/BAD_END_04.rpy",
+      "catalog_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_BAD_END_04.catalog.jsonl",
+      "catalog_sha256": "aa225d6427edbf145c084bff8d0a2a019e90eed1bab4b659c488feec8571083d",
+      "master_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_BAD_END_04.master.json",
+      "master_sha256": "4cfc371be6372580eddc4afad4ed7e8462597b3d9450e7d9ef761e13713ffb57",
+      "structural_pass": false,
+      "coverage_complete": true,
+      "complete": true,
+      "coverage": {
+        "catalog_records": 43,
+        "packet_occurrences": 43,
+        "selected_unique_records": 43,
+        "duplicate_extra_occurrences": 0,
+        "missing_records": 0,
+        "missing_sequences": [],
+        "missing_stable_ids": [],
+        "pending_explained_missing_records": 0,
+        "unexplained_missing_records": 0,
+        "translation_ids": 43,
+        "menu_keys": 0,
+        "hard_token_failed_records": 2
+      },
+      "ready_packets": [
+        {
+          "packet_id": "BAD_END_04_full",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_04_aligned.json",
+          "sha256": "160bf54181c2c25e1273db3584a1a074febe6e6fddb13504b1b6f15d011fd63e",
+          "schema": "fatal-twelve-aligned-draft-v1:entries",
+          "occurrences": 43,
+          "expected_occurrences": 43
+        }
+      ],
+      "pending_packets": [],
+      "conflict_count": 0,
+      "errors": [
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "BAD_END_04",
+          "stable_id": "scenario.rpa::scenario/BAD_END_04.rpy::tid::fBAD_04_444cd946",
+          "sequence": 25,
+          "packet_id": "BAD_END_04_full",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_04_aligned.json",
+          "packet_entry_index": 24,
+          "message": "Arabic numbers: expected {'17': 1}, got {}"
+        },
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "BAD_END_04",
+          "stable_id": "scenario.rpa::scenario/BAD_END_04.rpy::tid::fBAD_04_62ecfe41",
+          "sequence": 35,
+          "packet_id": "BAD_END_04_full",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_04_aligned.json",
+          "packet_entry_index": 34,
+          "message": "Arabic numbers: expected {'17': 1}, got {}"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "script_key": "MIHARU_END",
+      "source_file": "scenario/MIHARU_END.rpy",
+      "catalog_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_MIHARU_END.catalog.jsonl",
+      "catalog_sha256": "18462dbb996f7bf58c2e28044e8d1f5118b90e1183f2bbc0e05627d0c6b720a6",
+      "master_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_MIHARU_END.master.json",
+      "master_sha256": "4a92769aab61ed330586c5847f0ac24f11fc8594ba26fce49134e7b3bdc1c276",
+      "structural_pass": false,
+      "coverage_complete": true,
+      "complete": true,
+      "coverage": {
+        "catalog_records": 26,
+        "packet_occurrences": 26,
+        "selected_unique_records": 26,
+        "duplicate_extra_occurrences": 0,
+        "missing_records": 0,
+        "missing_sequences": [],
+        "missing_stable_ids": [],
+        "pending_explained_missing_records": 0,
+        "unexplained_missing_records": 0,
+        "translation_ids": 26,
+        "menu_keys": 0,
+        "hard_token_failed_records": 1
+      },
+      "ready_packets": [
+        {
+          "packet_id": "MIHARU_END_full",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\MIHARU_END_aligned.json",
+          "sha256": "f78d9284698a397ba84de7bbc1047cc84a79bf2ed924bf306089ff16eca396fe",
+          "schema": "fatal-twelve-aligned-draft-v1:entries",
+          "occurrences": 26,
+          "expected_occurrences": 26
+        }
+      ],
+      "pending_packets": [],
+      "conflict_count": 0,
+      "errors": [
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "MIHARU_END",
+          "stable_id": "scenario.rpa::scenario/MIHARU_END.rpy::tid::fMIHARU_c9522701",
+          "sequence": 14,
+          "packet_id": "MIHARU_END_full",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\MIHARU_END_aligned.json",
+          "packet_entry_index": 13,
+          "message": "Arabic numbers: expected {'12': 1}, got {}"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "script_key": "NG_plus",
+      "source_file": "scenario/NG_plus.rpy",
+      "catalog_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_NG_plus.catalog.jsonl",
+      "catalog_sha256": "c5eae2c4513c537d28bce89003a486749bdbdcdac396ef49c247b388f02fc0ee",
+      "master_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_NG_plus.master.json",
+      "master_sha256": "2c137ca61b7d052065f6e50748f38dae7b6a06bdc695fe469f63c28fb30c0b50",
+      "structural_pass": true,
+      "coverage_complete": true,
+      "complete": true,
+      "coverage": {
+        "catalog_records": 185,
+        "packet_occurrences": 185,
+        "selected_unique_records": 185,
+        "duplicate_extra_occurrences": 0,
+        "missing_records": 0,
+        "missing_sequences": [],
+        "missing_stable_ids": [],
+        "pending_explained_missing_records": 0,
+        "unexplained_missing_records": 0,
+        "translation_ids": 185,
+        "menu_keys": 0,
+        "hard_token_failed_records": 0
+      },
+      "ready_packets": [
+        {
+          "packet_id": "NG_plus_full",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\NG_plus_exact_first_draft.json",
+          "sha256": "d03d744497098347cbc396c3236f7c8be4189247f469064e36e265793ff5a2cf",
+          "schema": "unversioned-object:entries",
+          "occurrences": 185,
+          "expected_occurrences": 185
+        }
+      ],
+      "pending_packets": [],
+      "conflict_count": 0,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "script_key": "TRUE_END",
+      "source_file": "scenario/TRUE_END.rpy",
+      "catalog_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_TRUE_END.catalog.jsonl",
+      "catalog_sha256": "603d2e6c39b812905fb0c0b2f4efa8929f59139941d3244b62cbedac5604da8b",
+      "master_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_TRUE_END.master.json",
+      "master_sha256": "3ccf081b268f01c5c147af158855b9a1c69511a84dd43bf3d6e1724b486f35cf",
+      "structural_pass": false,
+      "coverage_complete": true,
+      "complete": true,
+      "coverage": {
+        "catalog_records": 125,
+        "packet_occurrences": 125,
+        "selected_unique_records": 125,
+        "duplicate_extra_occurrences": 0,
+        "missing_records": 0,
+        "missing_sequences": [],
+        "missing_stable_ids": [],
+        "pending_explained_missing_records": 0,
+        "unexplained_missing_records": 0,
+        "translation_ids": 125,
+        "menu_keys": 0,
+        "hard_token_failed_records": 1
+      },
+      "ready_packets": [
+        {
+          "packet_id": "TRUE_END_full",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\TRUE_END_aligned.json",
+          "sha256": "a60da637f772d71afdfb9285cb6f40192120503f7af989dda4e6bd86c2825d3f",
+          "schema": "fatal-twelve-aligned-draft-v1:entries",
+          "occurrences": 125,
+          "expected_occurrences": 125
+        }
+      ],
+      "pending_packets": [],
+      "conflict_count": 0,
+      "errors": [
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "TRUE_END",
+          "stable_id": "scenario.rpa::scenario/TRUE_END.rpy::tid::fTRUE_ebf20dfa",
+          "sequence": 18,
+          "packet_id": "TRUE_END_full",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\TRUE_END_aligned.json",
+          "packet_entry_index": 17,
+          "message": "Arabic numbers: expected {'3': 1}, got {}"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "script_key": "UNHAPPY_END",
+      "source_file": "scenario/UNHAPPY_END.rpy",
+      "catalog_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\catalog\\scenario_UNHAPPY_END.catalog.jsonl",
+      "catalog_sha256": "c1496aae936f489e55293c1934ab7931ee0e519753f7add5e3ce41a1a81b6b44",
+      "master_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\scenario_UNHAPPY_END.master.json",
+      "master_sha256": "851c809d36b6efd089f2eac5e82df84c00ff225345f95c77d9c670c46e4e0a73",
+      "structural_pass": false,
+      "coverage_complete": true,
+      "complete": true,
+      "coverage": {
+        "catalog_records": 87,
+        "packet_occurrences": 87,
+        "selected_unique_records": 87,
+        "duplicate_extra_occurrences": 0,
+        "missing_records": 0,
+        "missing_sequences": [],
+        "missing_stable_ids": [],
+        "pending_explained_missing_records": 0,
+        "unexplained_missing_records": 0,
+        "translation_ids": 87,
+        "menu_keys": 0,
+        "hard_token_failed_records": 1
+      },
+      "ready_packets": [
+        {
+          "packet_id": "UNHAPPY_END_full",
+          "manifest_status": "ready",
+          "effective_status": "ready",
+          "path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+          "sha256": "6f006c06837901bcb5e8ccad93dc542039c6184f15718ee8a3d977787ce147b3",
+          "schema": "fatal-twelve-aligned-draft-v1:entries",
+          "occurrences": 87,
+          "expected_occurrences": 87
+        }
+      ],
+      "pending_packets": [],
+      "conflict_count": 0,
+      "errors": [
+        {
+          "kind": "hard_token_mismatch",
+          "script_key": "UNHAPPY_END",
+          "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_c7022cf4",
+          "sequence": 64,
+          "packet_id": "UNHAPPY_END_full",
+          "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+          "packet_entry_index": 63,
+          "message": "Arabic numbers: expected {'3': 1}, got {}"
+        }
+      ],
+      "warnings": []
+    }
+  ],
+  "conflict_report": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\conflict_report.json",
+    "sha256": "f279a87828891d9b33e502093d9cebfff77b1fe05c752f15130e7d6b58203c9e"
+  },
+  "errors": [
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "001",
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_8024772c",
+      "sequence": 9,
+      "packet_id": "001_part001",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part001_aligned.json",
+      "packet_entry_index": 8,
+      "message": "RenPy tag '{rb}': expected 2, got 0"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "001",
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_8024772c",
+      "sequence": 9,
+      "packet_id": "001_part001",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part001_aligned.json",
+      "packet_entry_index": 8,
+      "message": "RenPy tag '{/rb}': expected 2, got 0"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "001",
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_8024772c",
+      "sequence": 9,
+      "packet_id": "001_part001",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part001_aligned.json",
+      "packet_entry_index": 8,
+      "message": "RenPy tag '{rt}': expected 2, got 0"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "001",
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_8024772c",
+      "sequence": 9,
+      "packet_id": "001_part001",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part001_aligned.json",
+      "packet_entry_index": 8,
+      "message": "RenPy tag '{/rt}': expected 2, got 0"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "001",
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_bc643489",
+      "sequence": 10,
+      "packet_id": "001_part001",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part001_aligned.json",
+      "packet_entry_index": 9,
+      "message": "RenPy tag '{rb}': expected 1, got 0"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "001",
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_bc643489",
+      "sequence": 10,
+      "packet_id": "001_part001",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part001_aligned.json",
+      "packet_entry_index": 9,
+      "message": "RenPy tag '{/rb}': expected 1, got 0"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "001",
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_bc643489",
+      "sequence": 10,
+      "packet_id": "001_part001",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part001_aligned.json",
+      "packet_entry_index": 9,
+      "message": "RenPy tag '{rt}': expected 1, got 0"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "001",
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_bc643489",
+      "sequence": 10,
+      "packet_id": "001_part001",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part001_aligned.json",
+      "packet_entry_index": 9,
+      "message": "RenPy tag '{/rt}': expected 1, got 0"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "001",
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_b4fa6dee",
+      "sequence": 16,
+      "packet_id": "001_part001",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part001_aligned.json",
+      "packet_entry_index": 15,
+      "message": "Arabic numbers: expected {'3': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "001",
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_619b8ef6",
+      "sequence": 23,
+      "packet_id": "001_part001",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part001_aligned.json",
+      "packet_entry_index": 22,
+      "message": "RenPy tag '{rb}': expected 1, got 0"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "001",
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_619b8ef6",
+      "sequence": 23,
+      "packet_id": "001_part001",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part001_aligned.json",
+      "packet_entry_index": 22,
+      "message": "RenPy tag '{/rb}': expected 1, got 0"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "001",
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_619b8ef6",
+      "sequence": 23,
+      "packet_id": "001_part001",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part001_aligned.json",
+      "packet_entry_index": 22,
+      "message": "RenPy tag '{rt}': expected 1, got 0"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "001",
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_619b8ef6",
+      "sequence": 23,
+      "packet_id": "001_part001",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part001_aligned.json",
+      "packet_entry_index": 22,
+      "message": "RenPy tag '{/rt}': expected 1, got 0"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "001",
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_94682d80",
+      "sequence": 27,
+      "packet_id": "001_part001",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part001_aligned.json",
+      "packet_entry_index": 26,
+      "message": "RenPy tag '{rb}': expected 2, got 0"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "001",
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_94682d80",
+      "sequence": 27,
+      "packet_id": "001_part001",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part001_aligned.json",
+      "packet_entry_index": 26,
+      "message": "RenPy tag '{/rb}': expected 2, got 0"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "001",
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_94682d80",
+      "sequence": 27,
+      "packet_id": "001_part001",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part001_aligned.json",
+      "packet_entry_index": 26,
+      "message": "RenPy tag '{rt}': expected 2, got 0"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "001",
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_94682d80",
+      "sequence": 27,
+      "packet_id": "001_part001",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part001_aligned.json",
+      "packet_entry_index": 26,
+      "message": "RenPy tag '{/rt}': expected 2, got 0"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "001",
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_10e1937e",
+      "sequence": 103,
+      "packet_id": "001_part003",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part003_aligned.json",
+      "packet_entry_index": 2,
+      "message": "RenPy tag '{rb}': expected 2, got 0"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "001",
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_10e1937e",
+      "sequence": 103,
+      "packet_id": "001_part003",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part003_aligned.json",
+      "packet_entry_index": 2,
+      "message": "RenPy tag '{/rb}': expected 2, got 0"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "001",
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_10e1937e",
+      "sequence": 103,
+      "packet_id": "001_part003",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part003_aligned.json",
+      "packet_entry_index": 2,
+      "message": "RenPy tag '{rt}': expected 2, got 0"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "001",
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_10e1937e",
+      "sequence": 103,
+      "packet_id": "001_part003",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part003_aligned.json",
+      "packet_entry_index": 2,
+      "message": "RenPy tag '{/rt}': expected 2, got 0"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "001",
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_c1b0c312",
+      "sequence": 109,
+      "packet_id": "001_part003",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part003_aligned.json",
+      "packet_entry_index": 8,
+      "message": "RenPy tag '{rb}': expected 1, got 0"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "001",
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_c1b0c312",
+      "sequence": 109,
+      "packet_id": "001_part003",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part003_aligned.json",
+      "packet_entry_index": 8,
+      "message": "RenPy tag '{/rb}': expected 1, got 0"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "001",
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_c1b0c312",
+      "sequence": 109,
+      "packet_id": "001_part003",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part003_aligned.json",
+      "packet_entry_index": 8,
+      "message": "RenPy tag '{rt}': expected 1, got 0"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "001",
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_c1b0c312",
+      "sequence": 109,
+      "packet_id": "001_part003",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part003_aligned.json",
+      "packet_entry_index": 8,
+      "message": "RenPy tag '{/rt}': expected 1, got 0"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "001",
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_e21ae925",
+      "sequence": 110,
+      "packet_id": "001_part003",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part003_aligned.json",
+      "packet_entry_index": 9,
+      "message": "Arabic numbers: expected {'2': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "001",
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_57d238c9",
+      "sequence": 177,
+      "packet_id": "001_recovery_151_350",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\draft_001_151_350_aligned.json",
+      "packet_entry_index": 26,
+      "message": "RenPy tag '{rb}': expected 2, got 0"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "001",
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_57d238c9",
+      "sequence": 177,
+      "packet_id": "001_recovery_151_350",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\draft_001_151_350_aligned.json",
+      "packet_entry_index": 26,
+      "message": "RenPy tag '{/rb}': expected 2, got 0"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "001",
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_57d238c9",
+      "sequence": 177,
+      "packet_id": "001_recovery_151_350",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\draft_001_151_350_aligned.json",
+      "packet_entry_index": 26,
+      "message": "RenPy tag '{rt}': expected 2, got 0"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "001",
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_57d238c9",
+      "sequence": 177,
+      "packet_id": "001_recovery_151_350",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\draft_001_151_350_aligned.json",
+      "packet_entry_index": 26,
+      "message": "RenPy tag '{/rt}': expected 2, got 0"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "001",
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_192cb06e",
+      "sequence": 179,
+      "packet_id": "001_recovery_151_350",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\draft_001_151_350_aligned.json",
+      "packet_entry_index": 28,
+      "message": "Arabic numbers: expected {'3': 1, '1': 1, '2': 1}, got {'1': 1, '2': 1}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "001",
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_ac7093e8",
+      "sequence": 221,
+      "packet_id": "001_recovery_151_350",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\draft_001_151_350_aligned.json",
+      "packet_entry_index": 70,
+      "message": "RenPy tag '{rb}': expected 1, got 0"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "001",
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_ac7093e8",
+      "sequence": 221,
+      "packet_id": "001_recovery_151_350",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\draft_001_151_350_aligned.json",
+      "packet_entry_index": 70,
+      "message": "RenPy tag '{/rb}': expected 1, got 0"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "001",
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_ac7093e8",
+      "sequence": 221,
+      "packet_id": "001_recovery_151_350",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\draft_001_151_350_aligned.json",
+      "packet_entry_index": 70,
+      "message": "RenPy tag '{rt}': expected 1, got 0"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "001",
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_ac7093e8",
+      "sequence": 221,
+      "packet_id": "001_recovery_151_350",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\draft_001_151_350_aligned.json",
+      "packet_entry_index": 70,
+      "message": "RenPy tag '{/rt}': expected 1, got 0"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "001",
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_f27c770c",
+      "sequence": 259,
+      "packet_id": "001_recovery_151_350",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\draft_001_151_350_aligned.json",
+      "packet_entry_index": 108,
+      "message": "Arabic numbers: expected {'1': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "001",
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_6d3a20fb",
+      "sequence": 262,
+      "packet_id": "001_recovery_151_350",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\draft_001_151_350_aligned.json",
+      "packet_entry_index": 111,
+      "message": "Arabic numbers: expected {'3': 1, '1': 1}, got {'3': 1}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "001",
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_b24aadce",
+      "sequence": 268,
+      "packet_id": "001_recovery_151_350",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\draft_001_151_350_aligned.json",
+      "packet_entry_index": 117,
+      "message": "Arabic numbers: expected {'1': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "001",
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s1_end_63ead6ed",
+      "sequence": 489,
+      "packet_id": "001_part006",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part006_aligned.json",
+      "packet_entry_index": 36,
+      "message": "Arabic numbers: expected {'1': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "001",
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s1_end_5e573bb8",
+      "sequence": 492,
+      "packet_id": "001_part006",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part006_aligned.json",
+      "packet_entry_index": 39,
+      "message": "Arabic numbers: expected {'1': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "001",
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_349b4b50",
+      "sequence": 513,
+      "packet_id": "001_part007",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part007_aligned.json",
+      "packet_entry_index": 8,
+      "message": "Arabic numbers: expected {'4': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "001",
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_4f8382ef",
+      "sequence": 538,
+      "packet_id": "001_part007",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part007_aligned.json",
+      "packet_entry_index": 33,
+      "message": "Arabic numbers: expected {'1': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "001",
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s2_end_ad6917a6",
+      "sequence": 539,
+      "packet_id": "001_part007",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\001_part007_aligned.json",
+      "packet_entry_index": 34,
+      "message": "Arabic numbers: expected {'1': 2}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "002",
+      "stable_id": "scenario.rpa::scenario/002.rpy::tid::f002_e9a7e479",
+      "sequence": 36,
+      "packet_id": "002_001_300",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_002_001_300.json",
+      "packet_entry_index": 35,
+      "message": "Arabic numbers: expected {'1': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "002",
+      "stable_id": "scenario.rpa::scenario/002.rpy::tid::f002_7b58bb48",
+      "sequence": 209,
+      "packet_id": "002_001_300",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_002_001_300.json",
+      "packet_entry_index": 208,
+      "message": "Arabic numbers: expected {'2': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "002",
+      "stable_id": "scenario.rpa::scenario/002.rpy::tid::f002_961fb560",
+      "sequence": 243,
+      "packet_id": "002_001_300",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_002_001_300.json",
+      "packet_entry_index": 242,
+      "message": "Arabic numbers: expected {'3': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "002",
+      "stable_id": "scenario.rpa::scenario/002.rpy::tid::f002_900e7419",
+      "sequence": 246,
+      "packet_id": "002_001_300",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_002_001_300.json",
+      "packet_entry_index": 245,
+      "message": "Arabic numbers: expected {'1': 1, '2': 1}, got {'2': 1}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "002",
+      "stable_id": "scenario.rpa::scenario/002.rpy::tid::f002_ea8bf169",
+      "sequence": 267,
+      "packet_id": "002_001_300",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_002_001_300.json",
+      "packet_entry_index": 266,
+      "message": "Arabic numbers: expected {'1': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "003",
+      "stable_id": "scenario.rpa::scenario/003.rpy::tid::f003_862ae915",
+      "sequence": 126,
+      "packet_id": "003_001_400",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_003_001_400.json",
+      "packet_entry_index": 125,
+      "message": "Arabic numbers: expected {'2': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "004",
+      "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s1_end_11446a0c",
+      "sequence": 90,
+      "packet_id": "004_001_400",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_004_001_400.json",
+      "packet_entry_index": 89,
+      "message": "Arabic numbers: expected {'3': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "004",
+      "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s1_end_a9681c4e",
+      "sequence": 281,
+      "packet_id": "004_001_400",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_004_001_400.json",
+      "packet_entry_index": 280,
+      "message": "Arabic numbers: expected {'2': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "004",
+      "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s1_end_bed8e84a",
+      "sequence": 286,
+      "packet_id": "004_001_400",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_004_001_400.json",
+      "packet_entry_index": 285,
+      "message": "Arabic numbers: expected {'2': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "004",
+      "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s1_end_00ec6cd0",
+      "sequence": 287,
+      "packet_id": "004_001_400",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_004_001_400.json",
+      "packet_entry_index": 286,
+      "message": "Arabic numbers: expected {'2': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "004",
+      "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s1_end_825e5dc4",
+      "sequence": 343,
+      "packet_id": "004_001_400",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_004_001_400.json",
+      "packet_entry_index": 342,
+      "message": "Arabic numbers: expected {'1': 1, '2': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "004",
+      "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s2_end_849bc0c7",
+      "sequence": 428,
+      "packet_id": "004_401_800",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_004_401_800.json",
+      "packet_entry_index": 27,
+      "message": "Arabic numbers: expected {'2': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "004",
+      "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s2_end_882082a0",
+      "sequence": 442,
+      "packet_id": "004_401_800",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_004_401_800.json",
+      "packet_entry_index": 41,
+      "message": "Arabic numbers: expected {'2': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "004",
+      "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s2_end_166d6a02",
+      "sequence": 454,
+      "packet_id": "004_401_800",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_004_401_800.json",
+      "packet_entry_index": 53,
+      "message": "Arabic numbers: expected {'3': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "004",
+      "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s2_end_e2c27dc8",
+      "sequence": 520,
+      "packet_id": "004_401_800",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_004_401_800.json",
+      "packet_entry_index": 119,
+      "message": "Arabic numbers: expected {'3': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "004",
+      "stable_id": "scenario.rpa::scenario/004.rpy::tid::f004_s2_end_c95c09a3",
+      "sequence": 611,
+      "packet_id": "004_401_800",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_004_401_800.json",
+      "packet_entry_index": 210,
+      "message": "Arabic numbers: expected {'3': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "005_1",
+      "stable_id": "scenario.rpa::scenario/005_1.rpy::tid::f005_1_28faa61c",
+      "sequence": 195,
+      "packet_id": "005_1_001_550",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_005_1_001_550.json",
+      "packet_entry_index": 194,
+      "message": "Arabic numbers: expected {'2': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "005_1",
+      "stable_id": "scenario.rpa::scenario/005_1.rpy::tid::f005_1_f89c5cc4",
+      "sequence": 309,
+      "packet_id": "005_1_001_550",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_005_1_001_550.json",
+      "packet_entry_index": 308,
+      "message": "Arabic numbers: expected {'3': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "005_1",
+      "stable_id": "scenario.rpa::scenario/005_1.rpy::tid::f005_1_s1_end_438b2bc2",
+      "sequence": 494,
+      "packet_id": "005_1_001_550",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_005_1_001_550.json",
+      "packet_entry_index": 493,
+      "message": "Arabic numbers: expected {'3': 1, '2': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "005_2",
+      "stable_id": "scenario.rpa::scenario/005_2.rpy::tid::f005_2_s1_end_1a4a5fae",
+      "sequence": 362,
+      "packet_id": "005_2_348_694",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_005_2_348_694.json",
+      "packet_entry_index": 14,
+      "message": "Arabic numbers: expected {'3': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "005_2",
+      "stable_id": "scenario.rpa::scenario/005_2.rpy::tid::f005_2_s1_end_e469b4e5",
+      "sequence": 364,
+      "packet_id": "005_2_348_694",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_005_2_348_694.json",
+      "packet_entry_index": 16,
+      "message": "Arabic numbers: expected {'3': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "005_2",
+      "stable_id": "scenario.rpa::scenario/005_2.rpy::tid::f005_2_s1_end_7c11b21a",
+      "sequence": 411,
+      "packet_id": "005_2_348_694",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_005_2_348_694.json",
+      "packet_entry_index": 63,
+      "message": "Arabic numbers: expected {'2': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "005_2",
+      "stable_id": "scenario.rpa::scenario/005_2.rpy::tid::f005_2_s1_end_e92d1c97",
+      "sequence": 443,
+      "packet_id": "005_2_348_694",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_005_2_348_694.json",
+      "packet_entry_index": 95,
+      "message": "Arabic numbers: expected {'4': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "005_2",
+      "stable_id": "scenario.rpa::scenario/005_2.rpy::tid::f005_2_s1_end_26fd02ea",
+      "sequence": 658,
+      "packet_id": "005_2_348_694",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_005_2_348_694.json",
+      "packet_entry_index": 310,
+      "message": "Arabic numbers: expected {'3': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "007_1",
+      "stable_id": "scenario.rpa::scenario/007_1.rpy::tid::f007_1_5b490b16",
+      "sequence": 39,
+      "packet_id": "007_1_001_350",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_007_1_001_350.json",
+      "packet_entry_index": 38,
+      "message": "Arabic numbers: expected {'2': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "007_1",
+      "stable_id": "scenario.rpa::scenario/007_1.rpy::tid::f007_1_a9224d63",
+      "sequence": 59,
+      "packet_id": "007_1_001_350",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_007_1_001_350.json",
+      "packet_entry_index": 58,
+      "message": "Arabic numbers: expected {'2': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "007_1",
+      "stable_id": "scenario.rpa::scenario/007_1.rpy::tid::f007_1_e6b0ec35",
+      "sequence": 104,
+      "packet_id": "007_1_001_350",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_007_1_001_350.json",
+      "packet_entry_index": 103,
+      "message": "Arabic numbers: expected {'6': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "007_1",
+      "stable_id": "scenario.rpa::scenario/007_1.rpy::tid::f007_1_525e03cd",
+      "sequence": 109,
+      "packet_id": "007_1_001_350",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_007_1_001_350.json",
+      "packet_entry_index": 108,
+      "message": "Arabic numbers: expected {'3': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "007_1",
+      "stable_id": "scenario.rpa::scenario/007_1.rpy::tid::f007_1_ea75e4cc",
+      "sequence": 152,
+      "packet_id": "007_1_001_350",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_007_1_001_350.json",
+      "packet_entry_index": 151,
+      "message": "Arabic numbers: expected {'3': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "007_1",
+      "stable_id": "scenario.rpa::scenario/007_1.rpy::tid::f007_1_183b4e6f",
+      "sequence": 185,
+      "packet_id": "007_1_001_350",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_007_1_001_350.json",
+      "packet_entry_index": 184,
+      "message": "Arabic numbers: expected {'3': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "007_1",
+      "stable_id": "scenario.rpa::scenario/007_1.rpy::tid::f007_1_7c80b8be",
+      "sequence": 189,
+      "packet_id": "007_1_001_350",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_007_1_001_350.json",
+      "packet_entry_index": 188,
+      "message": "Arabic numbers: expected {'4': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "007_1",
+      "stable_id": "scenario.rpa::scenario/007_1.rpy::tid::f007_1_20b016db",
+      "sequence": 191,
+      "packet_id": "007_1_001_350",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_007_1_001_350.json",
+      "packet_entry_index": 190,
+      "message": "Arabic numbers: expected {'3': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "007_1",
+      "stable_id": "scenario.rpa::scenario/007_1.rpy::tid::f007_1_807e07f1",
+      "sequence": 230,
+      "packet_id": "007_1_001_350",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_007_1_001_350.json",
+      "packet_entry_index": 229,
+      "message": "Arabic numbers: expected {'4': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "007_1",
+      "stable_id": "scenario.rpa::scenario/007_1.rpy::tid::f007_1_6eaf147b",
+      "sequence": 277,
+      "packet_id": "007_1_001_350",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_007_1_001_350.json",
+      "packet_entry_index": 276,
+      "message": "Arabic numbers: expected {'6': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "007_1",
+      "stable_id": "scenario.rpa::scenario/007_1.rpy::tid::f007_1_389760a2",
+      "sequence": 285,
+      "packet_id": "007_1_001_350",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_007_1_001_350.json",
+      "packet_entry_index": 284,
+      "message": "Arabic numbers: expected {'5': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "007_1",
+      "stable_id": "scenario.rpa::scenario/007_1.rpy::tid::f007_1_874d1f1e",
+      "sequence": 341,
+      "packet_id": "007_1_001_350",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_007_1_001_350.json",
+      "packet_entry_index": 340,
+      "message": "Arabic numbers: expected {'1': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "008",
+      "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_3b9de7fe",
+      "sequence": 39,
+      "packet_id": "008_001_400",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_008_001_400.json",
+      "packet_entry_index": 38,
+      "message": "Arabic numbers: expected {'1': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "008",
+      "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_e11bf2e3",
+      "sequence": 148,
+      "packet_id": "008_001_400",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_008_001_400.json",
+      "packet_entry_index": 147,
+      "message": "Arabic numbers: expected {'1': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "008",
+      "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_2503d4bb",
+      "sequence": 153,
+      "packet_id": "008_001_400",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_008_001_400.json",
+      "packet_entry_index": 152,
+      "message": "Arabic numbers: expected {'1': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "008",
+      "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_2b607cf8",
+      "sequence": 171,
+      "packet_id": "008_001_400",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_008_001_400.json",
+      "packet_entry_index": 170,
+      "message": "Arabic numbers: expected {'1': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "008",
+      "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_dd8f9cf8",
+      "sequence": 206,
+      "packet_id": "008_001_400",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_008_001_400.json",
+      "packet_entry_index": 205,
+      "message": "Arabic numbers: expected {'1': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "008",
+      "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_8a249351",
+      "sequence": 228,
+      "packet_id": "008_001_400",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_008_001_400.json",
+      "packet_entry_index": 227,
+      "message": "Arabic numbers: expected {'2': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "008",
+      "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_4641e4a9",
+      "sequence": 261,
+      "packet_id": "008_001_400",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_008_001_400.json",
+      "packet_entry_index": 260,
+      "message": "Arabic numbers: expected {'3': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "008",
+      "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_16fc20fe",
+      "sequence": 287,
+      "packet_id": "008_001_400",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_008_001_400.json",
+      "packet_entry_index": 286,
+      "message": "Arabic numbers: expected {'2': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "008",
+      "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_ad905753",
+      "sequence": 298,
+      "packet_id": "008_001_400",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_008_001_400.json",
+      "packet_entry_index": 297,
+      "message": "Arabic numbers: expected {'2': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "008",
+      "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_16bb4f13",
+      "sequence": 326,
+      "packet_id": "008_001_400",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_008_001_400.json",
+      "packet_entry_index": 325,
+      "message": "Arabic numbers: expected {'3': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "008",
+      "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_3e565f8d",
+      "sequence": 384,
+      "packet_id": "008_001_400",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_008_001_400.json",
+      "packet_entry_index": 383,
+      "message": "Arabic numbers: expected {'2': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "008",
+      "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_05b04bd2",
+      "sequence": 400,
+      "packet_id": "008_001_400",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_008_001_400.json",
+      "packet_entry_index": 399,
+      "message": "Arabic numbers: expected {'4': 1, '1': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "008",
+      "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_a61d2db5",
+      "sequence": 421,
+      "packet_id": "008_401_800",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_008_401_800.json",
+      "packet_entry_index": 20,
+      "message": "Arabic numbers: expected {'1': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "008",
+      "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_f3a4bc78",
+      "sequence": 424,
+      "packet_id": "008_401_800",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_008_401_800.json",
+      "packet_entry_index": 23,
+      "message": "Arabic numbers: expected {'2': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "008",
+      "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_9f27bd2f",
+      "sequence": 680,
+      "packet_id": "008_401_800",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_008_401_800.json",
+      "packet_entry_index": 279,
+      "message": "Arabic numbers: expected {'8': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "008",
+      "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_dd9ea826",
+      "sequence": 702,
+      "packet_id": "008_401_800",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_008_401_800.json",
+      "packet_entry_index": 301,
+      "message": "Arabic numbers: expected {'4': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "008",
+      "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_bb7be56c",
+      "sequence": 740,
+      "packet_id": "008_401_800",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_008_401_800.json",
+      "packet_entry_index": 339,
+      "message": "Arabic numbers: expected {'12': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "008",
+      "stable_id": "scenario.rpa::scenario/008.rpy::tid::f008_s1_end_1b017695",
+      "sequence": 764,
+      "packet_id": "008_401_800",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\agent_packets\\draft_008_401_800.json",
+      "packet_entry_index": 363,
+      "message": "Arabic numbers: expected {'1': 1, '3': 1}, got {'1': 1}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "011_01H",
+      "stable_id": "scenario.rpa::scenario/011_01H.rpy::tid::f011_01H_089ad802",
+      "sequence": 46,
+      "packet_id": "011_01H_full",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\011_01H_aligned.json",
+      "packet_entry_index": 45,
+      "message": "Arabic numbers: expected {'11': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "011_02",
+      "stable_id": "scenario.rpa::scenario/011_02.rpy::tid::sentei11_53e6f637",
+      "sequence": 1,
+      "packet_id": "011_02_full",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\011_02_aligned.json",
+      "packet_entry_index": 0,
+      "message": "Arabic numbers: expected {'12': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "011_02",
+      "stable_id": "scenario.rpa::scenario/011_02.rpy::tid::sentei11_fb727df2",
+      "sequence": 7,
+      "packet_id": "011_02_full",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\011_02_aligned.json",
+      "packet_entry_index": 6,
+      "message": "Arabic numbers: expected {'11': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "011_02",
+      "stable_id": "scenario.rpa::scenario/011_02.rpy::tid::sentei11_3ac1a7c8",
+      "sequence": 13,
+      "packet_id": "011_02_full",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\011_02_aligned.json",
+      "packet_entry_index": 12,
+      "message": "Arabic numbers: expected {'12': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "011_02",
+      "stable_id": "scenario.rpa::scenario/011_02.rpy::tid::sentei11_b9491b89",
+      "sequence": 16,
+      "packet_id": "011_02_full",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\011_02_aligned.json",
+      "packet_entry_index": 15,
+      "message": "Arabic numbers: expected {'12': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "011_02",
+      "stable_id": "scenario.rpa::scenario/011_02.rpy::tid::sentei11_aecdd8bd",
+      "sequence": 19,
+      "packet_id": "011_02_full",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\011_02_aligned.json",
+      "packet_entry_index": 18,
+      "message": "Arabic numbers: expected {'12': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "011_02",
+      "stable_id": "scenario.rpa::scenario/011_02.rpy::tid::sentei11_cee92cf3",
+      "sequence": 20,
+      "packet_id": "011_02_full",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\011_02_aligned.json",
+      "packet_entry_index": 19,
+      "message": "Arabic numbers: expected {'1': 1, '12': 1}, got {'1': 1}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "011_02",
+      "stable_id": "scenario.rpa::scenario/011_02.rpy::tid::sentei11_45ece4ae",
+      "sequence": 93,
+      "packet_id": "011_02_full",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\011_02_aligned.json",
+      "packet_entry_index": 92,
+      "message": "Arabic numbers: expected {'12': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "011_02",
+      "stable_id": "scenario.rpa::scenario/011_02.rpy::tid::sentei11_d17fdf3b",
+      "sequence": 121,
+      "packet_id": "011_02_full",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\011_02_aligned.json",
+      "packet_entry_index": 120,
+      "message": "Arabic numbers: expected {'12': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "011_02",
+      "stable_id": "scenario.rpa::scenario/011_02.rpy::tid::sentei11_4d222207",
+      "sequence": 131,
+      "packet_id": "011_02_full",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\011_02_aligned.json",
+      "packet_entry_index": 130,
+      "message": "Arabic numbers: expected {'1': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "BAD_END_01",
+      "stable_id": "scenario.rpa::scenario/BAD_END_01.rpy::tid::fBAD_01_d132aa03",
+      "sequence": 25,
+      "packet_id": "BAD_END_01_full",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_01_aligned.json",
+      "packet_entry_index": 24,
+      "message": "Arabic numbers: expected {'2': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "BAD_END_01",
+      "stable_id": "scenario.rpa::scenario/BAD_END_01.rpy::tid::fBAD_01_6a058e20",
+      "sequence": 42,
+      "packet_id": "BAD_END_01_full",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_01_aligned.json",
+      "packet_entry_index": 41,
+      "message": "Arabic numbers: expected {'3': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "BAD_END_02",
+      "stable_id": "scenario.rpa::scenario/BAD_END_02.rpy::tid::fBAD_02_ba8b287a",
+      "sequence": 1,
+      "packet_id": "BAD_END_02_full",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_02_aligned.json",
+      "packet_entry_index": 0,
+      "message": "Arabic numbers: expected {'2': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "BAD_END_04",
+      "stable_id": "scenario.rpa::scenario/BAD_END_04.rpy::tid::fBAD_04_444cd946",
+      "sequence": 25,
+      "packet_id": "BAD_END_04_full",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_04_aligned.json",
+      "packet_entry_index": 24,
+      "message": "Arabic numbers: expected {'17': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "BAD_END_04",
+      "stable_id": "scenario.rpa::scenario/BAD_END_04.rpy::tid::fBAD_04_62ecfe41",
+      "sequence": 35,
+      "packet_id": "BAD_END_04_full",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\BAD_END_04_aligned.json",
+      "packet_entry_index": 34,
+      "message": "Arabic numbers: expected {'17': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "MIHARU_END",
+      "stable_id": "scenario.rpa::scenario/MIHARU_END.rpy::tid::fMIHARU_c9522701",
+      "sequence": 14,
+      "packet_id": "MIHARU_END_full",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\MIHARU_END_aligned.json",
+      "packet_entry_index": 13,
+      "message": "Arabic numbers: expected {'12': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "TRUE_END",
+      "stable_id": "scenario.rpa::scenario/TRUE_END.rpy::tid::fTRUE_ebf20dfa",
+      "sequence": 18,
+      "packet_id": "TRUE_END_full",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\TRUE_END_aligned.json",
+      "packet_entry_index": 17,
+      "message": "Arabic numbers: expected {'3': 1}, got {}"
+    },
+    {
+      "kind": "hard_token_mismatch",
+      "script_key": "UNHAPPY_END",
+      "stable_id": "scenario.rpa::scenario/UNHAPPY_END.rpy::tid::fUNHAPPY_c7022cf4",
+      "sequence": 64,
+      "packet_id": "UNHAPPY_END_full",
+      "packet_path": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\translations\\draft\\scenario\\aligned\\UNHAPPY_END_aligned.json",
+      "packet_entry_index": 63,
+      "message": "Arabic numbers: expected {'3': 1}, got {}"
+    }
+  ]
+}

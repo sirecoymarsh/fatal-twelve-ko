@@ -1,0 +1,25 @@
+226	L0941	narration	narrator	そういえば私が脱落してしまったら、直未と過ごした事実もなかったことになってしまうのだろうか。
+227	L0943	narration	narrator	きっとそうだ。だって『私が生きた時間』そのものがなかったことになってしまうのだから。
+228	L0945	narration	narrator	だとすれば、この行動に意味はあるのだろうか――。
+229	L0950	dialogue	naomi	「先輩、どうしました？」
+230	L0955	dialogue	rinka	「ごめん、何でもない」
+231	L0957	narration	narrator	このままじゃいけない。
+232	L0959	narration	narrator	真央からもさっき同じことを聞かれたばかりなのだ。
+233	L0964	dialogue	rinka	「お待たせ、もう行けるよ」
+234	L0969	dialogue	miharu	「凛火……」
+235	L0971	narration	narrator	立ち上がったところで、海晴が私を呼び止めた。
+236	L0976	dialogue	rinka	「あれ？　どうしたの？」
+237	L0981	dialogue	miharu	「日辻さんと帰りかい？」
+238	L0992	dialogue_choice_prompt	rinka	「今日もうちでコーヒー淹れる練習するからさ」
+239	L0993	spoken_choice	narrator	「海晴も来る？」
+240	L1000	spoken_choice	narrator	「海晴はバイト？」
+241	L1012	dialogue	rinka	「もし暇なら、海晴も来る？」
+242	L1014	narration	narrator	どうせお客さんは少ないのだし、たまにはうちで話すのもいいだろう。
+243	L1016	narration	narrator	海晴は少し嬉しそうな顔をしたが、すぐに残念そうな顔に変わった。
+244	L1021	dialogue	miharu	「せっかくのお誘いなんだけれど、今日もバイトがあるんだ」
+245	L1026	dialogue	miharu	「……いや、代わりを見つければ間に合うかな……」
+246	L1028	narration	narrator	海晴は顎を引いてスマホの電話帳を確認し始めた。
+247	L1033	dialogue	rinka	「い、いやバイトなら仕方ないよ。うちに来ても話すだけだし。また今度だね」
+248	L1038	dialogue	miharu	「うん、また今度。必ずだ」
+249	L1040	narration	narrator	海晴は切実そうな声で言った。
+250	L1042	narration	narrator	無理もない。次の選定の時にどちらかが脱落する可能性だってあるのだ。

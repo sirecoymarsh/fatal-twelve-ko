@@ -1,0 +1,1471 @@
+{
+  "schema_version": "fatal-twelve-system-ui-manual-review-v1",
+  "generated_at_utc": "2026-08-11T07:12:48.233638+00:00",
+  "reviewer": "A",
+  "scope": {
+    "script": "system_ui",
+    "sequences": [
+      1,
+      732
+    ],
+    "entries_reviewed": 732,
+    "contexts_reviewed": 739,
+    "unique_stable_ids": 732,
+    "unique_runtime_old_keys": 732,
+    "source_authority_counts": {
+      "Japanese only": 732
+    },
+    "context_lane_counts": {
+      "base_none_strings": 8,
+      "bgm_title": 44,
+      "bgm_title_legacy": 35,
+      "card_description": 27,
+      "card_type": 3,
+      "character_display_name": 61,
+      "character_profile_name": 14,
+      "direct_literal": 5,
+      "location_name": 41,
+      "location_tip": 40,
+      "plot_label": 23,
+      "plot_summary": 109,
+      "plot_title": 23,
+      "scene_title": 204,
+      "strings": 96,
+      "time_label": 6
+    }
+  },
+  "source_contract": {
+    "semantic_authority": "Japanese source or actual Ren'Py base old key",
+    "official_english_new_prose_used": false,
+    "external_translation_api_used": false,
+    "game_executed": false,
+    "master_modified": false,
+    "all_master_english_reference_used_false": true,
+    "all_master_external_translation_api_used_false": true
+  },
+  "input": {
+    "master": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\masters\\system_ui.master.json",
+    "sha256": "f1b514e5da065b38883f7e3b2489999127b108d4e12728acac4d6f05359e9726"
+  },
+  "corrections": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\reviews\\A.manual.system_ui.corrections.jsonl",
+    "sha256": "b50acda02042e218d6a59c0568d90a119663cc438fd7a82492e968fc96b2206e",
+    "records": 167,
+    "width_normalized_entries": 145,
+    "semantic_or_language_review_entries": 53,
+    "category_counts": {
+      "naturalness": 5,
+      "meaning+linebreak": 2,
+      "terminology": 1,
+      "meaning": 9,
+      "grammar": 1,
+      "width_style": 114,
+      "width_style+meaning": 8,
+      "width_style+referent": 2,
+      "width_style+quote_repair": 1,
+      "width_style+subject": 4,
+      "width_style+naturalness": 9,
+      "width_style+fidelity": 1,
+      "width_style+grammar": 3,
+      "width_style+specificity": 1,
+      "width_style+source_anomaly_repair": 1,
+      "width_style+source_anomaly_repair+meaning": 1,
+      "ui_clarity": 1,
+      "tense": 1,
+      "voice": 1,
+      "layout_fit": 1
+    },
+    "stable_id_unique": true,
+    "old_guard_exact": true,
+    "summaries": [
+      {
+        "sequence": 14,
+        "stable_id": "system-ui::85c8fc941dceb19c44da88cd",
+        "category": "naturalness",
+        "reason": "交わらなかった心을 자연스러운 한국어 제목으로 교정"
+      },
+      {
+        "sequence": 33,
+        "stable_id": "system-ui::d35d0871431c0acd4a81fb86",
+        "category": "meaning+linebreak",
+        "reason": "내장 개행을 보존하고 저장되지 않은 진행 손실 경고를 복원"
+      },
+      {
+        "sequence": 52,
+        "stable_id": "system-ui::8ebd259c874e6dfdbfacd555",
+        "category": "meaning+linebreak",
+        "reason": "내장 개행을 보존하고 불러오기 시 미저장 진행 손실과 확인 질문을 복원"
+      },
+      {
+        "sequence": 90,
+        "stable_id": "system-ui::c5566bdcafb33505eaa9421d",
+        "category": "layout_fit",
+        "reason": "User-visible isolated runtime review found a two-line overflow in the 130x30 first reset button; shortened the label while preserving the semantics of the Japanese confirmation source."
+      },
+      {
+        "sequence": 110,
+        "stable_id": "system-ui::c142e9a14a6a09b50c9f460b",
+        "category": "terminology",
+        "reason": "대만 식당의 중국어 고유명을 한국어 음역하고 비승인 한자를 제거"
+      },
+      {
+        "sequence": 147,
+        "stable_id": "system-ui::12f4859d1d2f1de6524b56be",
+        "category": "meaning",
+        "reason": "ひととき의 짧은 시간 의미를 복원"
+      },
+      {
+        "sequence": 163,
+        "stable_id": "system-ui::130f5a9fc62a56d29ab88af1",
+        "category": "meaning",
+        "reason": "音声を待つ의 실제 자동 진행 대기 동작을 명확히 복원"
+      },
+      {
+        "sequence": 199,
+        "stable_id": "system-ui::ccb4a33c41ef0fad1db9e62b",
+        "category": "grammar",
+        "reason": "한국어 연결 어미를 자연스럽게 교정"
+      },
+      {
+        "sequence": 246,
+        "stable_id": "system-ui::006e034b45f1c9f0cdb9e4db",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 247,
+        "stable_id": "system-ui::b898650feec42bc82aadea8e",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 248,
+        "stable_id": "system-ui::7d25666c0034304b6e5fa4b9",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 249,
+        "stable_id": "system-ui::72350698dad0fc5052eea8c6",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 250,
+        "stable_id": "system-ui::791a019316d7e80bc40c10b5",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 251,
+        "stable_id": "system-ui::3911c50362803c407487cb74",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 252,
+        "stable_id": "system-ui::6c1639f7f433bf999ec18f03",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 253,
+        "stable_id": "system-ui::262d5112cab1c77217ed9100",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 254,
+        "stable_id": "system-ui::76e5982da8367d5fcf110ebe",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 255,
+        "stable_id": "system-ui::575dde2c4affa6eefc13fd6a",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 256,
+        "stable_id": "system-ui::b77c08baee7293a64c816aa6",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 257,
+        "stable_id": "system-ui::acc7c0b92a1ef51e7b23bf7c",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 258,
+        "stable_id": "system-ui::f85dfdb013f73f0aab7b8771",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 259,
+        "stable_id": "system-ui::220facd0c15f4b35c28c3662",
+        "category": "width_style+meaning",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화; 潔さ의 결연하고 미련 없는 태도를 복원"
+      },
+      {
+        "sequence": 260,
+        "stable_id": "system-ui::352102b88f38ead97f550844",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 261,
+        "stable_id": "system-ui::efa514a23aa2188a5cfcffdd",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 262,
+        "stable_id": "system-ui::f5f6fdc7bf2e0c8bb82ab2b9",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 263,
+        "stable_id": "system-ui::33ba3c0d9a937531955d833a",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 264,
+        "stable_id": "system-ui::13681775cf3f287ce7793dd8",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 265,
+        "stable_id": "system-ui::3d9dd2080b4b56a81a09a211",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 266,
+        "stable_id": "system-ui::12f02f9e96cf3ca16e38025f",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 267,
+        "stable_id": "system-ui::e9bc0ff129b0580047c9f320",
+        "category": "width_style+referent",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화; 自分が生きること의 대상이 린카임을 명시"
+      },
+      {
+        "sequence": 268,
+        "stable_id": "system-ui::7733a94effb721488b14626a",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 269,
+        "stable_id": "system-ui::359b0e75e7fc00d67064397a",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 270,
+        "stable_id": "system-ui::5be41c041cd47f75a53ada56",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 271,
+        "stable_id": "system-ui::b15729049938902edc025459",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 272,
+        "stable_id": "system-ui::b175bcc2a09ed2b21f77613f",
+        "category": "width_style+quote_repair",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화; 원문 데이터의 누락된 닫는 낫표를 한국어 표시문에서 복구하되 내장 개행 수는 유지"
+      },
+      {
+        "sequence": 273,
+        "stable_id": "system-ui::2978cb94977850abfbae948c",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 274,
+        "stable_id": "system-ui::572e1e83429ca5b884116f4a",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 275,
+        "stable_id": "system-ui::add9b45a65eecb9c4d0e76cf",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 276,
+        "stable_id": "system-ui::548877ef620390c15c2cbd02",
+        "category": "width_style+meaning",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화; 校舎를 교사(teacher)가 아닌 학교 건물로 명확화"
+      },
+      {
+        "sequence": 277,
+        "stable_id": "system-ui::498d2f03163c8b405659466a",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 278,
+        "stable_id": "system-ui::e8fe120f6e3814317c9e68d0",
+        "category": "width_style+meaning",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화; 鍵が開いている의 잠금 해제 상태를 정확히 복원"
+      },
+      {
+        "sequence": 279,
+        "stable_id": "system-ui::89b9344233c99ff3bb094433",
+        "category": "width_style+meaning",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화; 思いを聞き出した의 속마음을 말하게 한 의미를 복원"
+      },
+      {
+        "sequence": 280,
+        "stable_id": "system-ui::5da8c780972c331c45072c02",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 281,
+        "stable_id": "system-ui::3197cb5ae6e41dc4d0901926",
+        "category": "width_style+subject",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화; 念を押してくる의 행위 주체를 미하루로 복원"
+      },
+      {
+        "sequence": 282,
+        "stable_id": "system-ui::919776ac6b57de60c5d546b0",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 283,
+        "stable_id": "system-ui::ec48a530fd17450ba2fef6b7",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 284,
+        "stable_id": "system-ui::e5d5c4a148ee82d1a06de4a5",
+        "category": "width_style+naturalness",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화; 死に場所を同じくした를 자연스럽고 정확하게 교정"
+      },
+      {
+        "sequence": 285,
+        "stable_id": "system-ui::1f07152f7752d599ae971490",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 286,
+        "stable_id": "system-ui::941e5dbb5b8bc606c9e2db29",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 287,
+        "stable_id": "system-ui::7ea11804b8509444307abc2d",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 288,
+        "stable_id": "system-ui::2ce9cca1d05d82350cc4d1c8",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 289,
+        "stable_id": "system-ui::f0a361ff55c3123d5ed1ee22",
+        "category": "width_style+meaning",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화; バー를 부사 바로가 아닌 술집 바(bar)로 복원"
+      },
+      {
+        "sequence": 290,
+        "stable_id": "system-ui::b4ecf9fbad6bca356b7b505d",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 291,
+        "stable_id": "system-ui::c12680e416b2046fed2658fb",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 292,
+        "stable_id": "system-ui::4ac5084faa7713e51bba3d36",
+        "category": "width_style+naturalness",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화; 動き出すテロ를 자연스러운 한국어로 교정"
+      },
+      {
+        "sequence": 293,
+        "stable_id": "system-ui::66838cf4b06e2ed26cd3820d",
+        "category": "width_style+subject",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화; 念を押した의 행위 주체를 오데트로 복원"
+      },
+      {
+        "sequence": 294,
+        "stable_id": "system-ui::6af5950662b93e630c15f48f",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 295,
+        "stable_id": "system-ui::ce55aa76fd92cf354e8a93e0",
+        "category": "width_style+meaning",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화; バー를 부사 바로가 아닌 술집 바(bar)로 복원"
+      },
+      {
+        "sequence": 296,
+        "stable_id": "system-ui::704ca5e05fbbfcaf33b7cfaf",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 297,
+        "stable_id": "system-ui::65154e937721620844415345",
+        "category": "width_style+meaning",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화; 世間話의 잡담 의미를 복원"
+      },
+      {
+        "sequence": 298,
+        "stable_id": "system-ui::baa6cb78fc833ac7411abb41",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 299,
+        "stable_id": "system-ui::4ba525071e007f0074535c05",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 300,
+        "stable_id": "system-ui::764911fadbb663c6d5b95bda",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 301,
+        "stable_id": "system-ui::e5af27b956bc03713c7cf56b",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 302,
+        "stable_id": "system-ui::c57c49c9fa2491ee84e92b60",
+        "category": "width_style+fidelity",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화; 瞳に想いを馳せる에 없는 마음을 창작하지 않고 원문 의미로 교정"
+      },
+      {
+        "sequence": 303,
+        "stable_id": "system-ui::e4dda2830f4de6204a68ea57",
+        "category": "width_style+subject",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화; 恩返しのために行動하는 주체가 미하루임을 복원"
+      },
+      {
+        "sequence": 304,
+        "stable_id": "system-ui::9a78e292b0400464608b22df",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 305,
+        "stable_id": "system-ui::ee4cecfb11f62bca320cd9ad",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 306,
+        "stable_id": "system-ui::3dce7008504b5787b6d27298",
+        "category": "width_style+subject",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화; 念を押した의 행위 주체를 마오로 복원"
+      },
+      {
+        "sequence": 307,
+        "stable_id": "system-ui::0615fc374b29775ccc8a3154",
+        "category": "width_style+meaning",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화; バー의 장소 의미와 조사를 복원"
+      },
+      {
+        "sequence": 308,
+        "stable_id": "system-ui::b9a8723fa9dae25363ca00ae",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 309,
+        "stable_id": "system-ui::ac5a0766b2f2000d3d9e1dbd",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 310,
+        "stable_id": "system-ui::e552fb49b274f48899a46b70",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 311,
+        "stable_id": "system-ui::d183fbe8823e81f0c30b42b6",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 312,
+        "stable_id": "system-ui::d7cfea88f0079ef125c154ed",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 313,
+        "stable_id": "system-ui::731c100240ec91e6bb835a30",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 314,
+        "stable_id": "system-ui::06eb05f42acdcd0bbeb3ab3a",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 315,
+        "stable_id": "system-ui::fb6009958c88d49bfa370f0e",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 316,
+        "stable_id": "system-ui::267f3ce7825083c57bd10817",
+        "category": "width_style+naturalness",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화; 早口で의 말하기 방식을 자연스럽게 교정"
+      },
+      {
+        "sequence": 317,
+        "stable_id": "system-ui::823646c771f26721fe4cf866",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 318,
+        "stable_id": "system-ui::75b9c1152b8e8d96f4a32bbe",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 319,
+        "stable_id": "system-ui::d935a2b40df072ccca85ddb8",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 320,
+        "stable_id": "system-ui::eee84cc4dad9424c38ce5697",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 321,
+        "stable_id": "system-ui::3a03939df3578411f411b187",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 322,
+        "stable_id": "system-ui::4d9380ae7837cc590d321061",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 323,
+        "stable_id": "system-ui::5aa605876eac602b6859754f",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 324,
+        "stable_id": "system-ui::7144a60b3a19775e88407bfd",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 325,
+        "stable_id": "system-ui::06921792e2b9d458475e68e8",
+        "category": "width_style+naturalness",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화; 중복되는 거리 직역을 자연스럽게 교정"
+      },
+      {
+        "sequence": 326,
+        "stable_id": "system-ui::4e05883c457dd678e7a540de",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 327,
+        "stable_id": "system-ui::4904e8202630d40812cf9a72",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 328,
+        "stable_id": "system-ui::5abc59f8bf5ea0cea97b117e",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 329,
+        "stable_id": "system-ui::bf2daeaeba18c0c5d7b0eeb3",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 330,
+        "stable_id": "system-ui::9871c7292be54daa6490d46c",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 331,
+        "stable_id": "system-ui::5c01acbdb2a91a7c83618ada",
+        "category": "width_style+grammar",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화; 안도하다의 필수 조사를 교정"
+      },
+      {
+        "sequence": 332,
+        "stable_id": "system-ui::154c992ffad0284457c490d4",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 333,
+        "stable_id": "system-ui::ffc28f86bf54a904795db6a0",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 334,
+        "stable_id": "system-ui::5ed7a147ce70d87fec4d6d4a",
+        "category": "width_style+grammar",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화; 恋をした의 목적격과 한국어 호응을 교정"
+      },
+      {
+        "sequence": 335,
+        "stable_id": "system-ui::fe71e592afd8ac10606d0d4f",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 336,
+        "stable_id": "system-ui::b582bc127cfeed80d101ef0a",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 337,
+        "stable_id": "system-ui::7d107e306046e151fd9a884f",
+        "category": "width_style+specificity",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화; 직전 목적지 新宿御苑을 일반 공원으로 축약하지 않고 복원"
+      },
+      {
+        "sequence": 338,
+        "stable_id": "system-ui::ad479865612037a8126b34be",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 339,
+        "stable_id": "system-ui::9058589c15f49c2822fbf402",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 340,
+        "stable_id": "system-ui::7f061445764e965020ff856a",
+        "category": "width_style+source_anomaly_repair",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화; 원문 날짜의 누락된 日을 주변 동일 날짜 문맥에 따라 복구"
+      },
+      {
+        "sequence": 341,
+        "stable_id": "system-ui::feda60aea1f541bd8949af13",
+        "category": "width_style+source_anomaly_repair+meaning",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화; 원문 날짜의 누락된 日을 주변 동일 날짜 문맥에 따라 복구; ふらりとの 별다른 목적 없이 문득 찾아간 의미를 복원"
+      },
+      {
+        "sequence": 342,
+        "stable_id": "system-ui::7a72f9b4e4e0a4616c6e8795",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 343,
+        "stable_id": "system-ui::b728e8762a211a4ee60192b6",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 344,
+        "stable_id": "system-ui::d3bb75e2bf0071392721a3a5",
+        "category": "width_style+naturalness",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화; 要領を得ない를 자연스러운 한국어로 교정"
+      },
+      {
+        "sequence": 345,
+        "stable_id": "system-ui::a26bb9f31d213f0da62087f5",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 346,
+        "stable_id": "system-ui::ca1abf1428ccf8f8cdae01ac",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 347,
+        "stable_id": "system-ui::dd4702fd6c5623e91fc89c00",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 348,
+        "stable_id": "system-ui::6093cecd779be9d9b339cbdc",
+        "category": "width_style+referent",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화; 앞발의 상처가 린다가 아니라 린다가 키운 고양이의 특징임을 명시"
+      },
+      {
+        "sequence": 349,
+        "stable_id": "system-ui::8b5fa7b254b46832261a2825",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 350,
+        "stable_id": "system-ui::5db22fdc453d305f9574dcd8",
+        "category": "width_style+naturalness",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화; 自分のことを話した를 자연스럽게 교정; 優しさを持っていた의 인물 평가를 자연스럽게 교정"
+      },
+      {
+        "sequence": 351,
+        "stable_id": "system-ui::4a68385f1251c493ce330946",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 352,
+        "stable_id": "system-ui::8a4d0d5ea3af9bbb1ca8af88",
+        "category": "width_style+naturalness",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화; 문맥상 만나지 못했다는 결과를 부자연스러운 운 좋게에서 교정"
+      },
+      {
+        "sequence": 353,
+        "stable_id": "system-ui::b0628f3896cf7bcf83f0f99d",
+        "category": "width_style+naturalness",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화; 시험을 넘긴다는 직역을 자연스럽게 교정"
+      },
+      {
+        "sequence": 354,
+        "stable_id": "system-ui::2ea7b325f38ad7cee7a309bb",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 358,
+        "stable_id": "system-ui::d76da17506f75f60adbf409f",
+        "category": "width_style+naturalness",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화; 好調과 기획 회의 중이라는 정보를 자연스럽게 연결"
+      },
+      {
+        "sequence": 366,
+        "stable_id": "system-ui::0f4e9c38448d4948a94d2b88",
+        "category": "meaning",
+        "reason": "ワイルドな味付け를 부자연스러운 거친 간 대신 과감한 양념으로 교정"
+      },
+      {
+        "sequence": 375,
+        "stable_id": "system-ui::bd73bfabfb398b54420db07c",
+        "category": "naturalness",
+        "reason": "交差しなかった運命을 자연스러운 한국어 제목으로 교정"
+      },
+      {
+        "sequence": 409,
+        "stable_id": "system-ui::209cd96585cedb31a279e5ac",
+        "category": "meaning",
+        "reason": "校舎를 교사(teacher)가 아닌 학교 건물로 명확화"
+      },
+      {
+        "sequence": 418,
+        "stable_id": "system-ui::3d0d008b930cdcacc78abbd9",
+        "category": "meaning",
+        "reason": "特別なお湯의 온천 효능 문맥을 복원"
+      },
+      {
+        "sequence": 428,
+        "stable_id": "system-ui::32c65e3570b39a0b9a922f77",
+        "category": "naturalness",
+        "reason": "夜を噛み締める의 시간을 만끽하는 의미를 자연스럽게 교정"
+      },
+      {
+        "sequence": 435,
+        "stable_id": "system-ui::4a3f4df8fc9f89ad95f7c9e6",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 442,
+        "stable_id": "system-ui::24b576945b3da892a866e9a1",
+        "category": "naturalness",
+        "reason": "看護は多様であり의 돌봄 항목이 많다는 의미를 자연스럽게 교정"
+      },
+      {
+        "sequence": 515,
+        "stable_id": "system-ui::6007547cdd811fbd917061f2",
+        "category": "ui_clarity",
+        "reason": "既読のみ가 메시지 표시 조건임을 명확화"
+      },
+      {
+        "sequence": 537,
+        "stable_id": "system-ui::bcd6f904d1ef575b03fadf06",
+        "category": "meaning",
+        "reason": "枯れて果てて의 완전히 시든 상태를 복원"
+      },
+      {
+        "sequence": 562,
+        "stable_id": "system-ui::200fc724a4e58f87398703c8",
+        "category": "meaning",
+        "reason": "予定를 장면 제목 문맥의 계획으로 교정"
+      },
+      {
+        "sequence": 567,
+        "stable_id": "system-ui::aaf387d21495209621915d00",
+        "category": "meaning",
+        "reason": "激闘의 치열한 싸움 의미를 복원"
+      },
+      {
+        "sequence": 594,
+        "stable_id": "system-ui::a36a83fe7efde81a35e174af",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 651,
+        "stable_id": "system-ui::a124204ce6ac9383ce87f074",
+        "category": "tense",
+        "reason": "覚悟、してる의 진행 상태와 말투를 복원"
+      },
+      {
+        "sequence": 656,
+        "stable_id": "system-ui::883e965a32cbad981c48d530",
+        "category": "voice",
+        "reason": "託す想い의 능동 의미를 복원"
+      },
+      {
+        "sequence": 688,
+        "stable_id": "system-ui::687b6260775e4f572918467a",
+        "category": "naturalness",
+        "reason": "계속된다의 중복감을 줄이고 제목을 자연스럽게 교정"
+      },
+      {
+        "sequence": 692,
+        "stable_id": "system-ui::4e46ca2c4edacc502267c9a8",
+        "category": "meaning",
+        "reason": "校舎를 교사(teacher)가 아닌 학교 건물로 명확화"
+      },
+      {
+        "sequence": 699,
+        "stable_id": "system-ui::c4610316b4f9b0adefade8f6",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 700,
+        "stable_id": "system-ui::bc0fbcec1733b9a7651fe470",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 701,
+        "stable_id": "system-ui::094f44268fd37c72baa898b7",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 702,
+        "stable_id": "system-ui::fae230870340e242113f69fe",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 703,
+        "stable_id": "system-ui::e82627ebe524819d265f4688",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 704,
+        "stable_id": "system-ui::b734aeec298beac2bbbc81f2",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 705,
+        "stable_id": "system-ui::a2a3b8b7eb25e6c05e33e561",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 706,
+        "stable_id": "system-ui::54c0acac844fa62f0f2314ab",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 707,
+        "stable_id": "system-ui::9c39d22ec310270028577876",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 708,
+        "stable_id": "system-ui::872c15602900089c448718f5",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 709,
+        "stable_id": "system-ui::a3939abe475ec0ea2e213355",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 710,
+        "stable_id": "system-ui::8d48bb9fdbb69ad3d6e3dc6a",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 711,
+        "stable_id": "system-ui::91415f6f379ea1edab7b2f23",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 712,
+        "stable_id": "system-ui::a55ef15a66b47e1e5e085143",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 713,
+        "stable_id": "system-ui::7989502ac69ace0452bf69b0",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 714,
+        "stable_id": "system-ui::f9e36751f80cc9ea3699d75f",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 715,
+        "stable_id": "system-ui::d0b51c330eb9e4aa7228f0d4",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 716,
+        "stable_id": "system-ui::1fadca351140483e078e49d2",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 717,
+        "stable_id": "system-ui::867fa345e0036ed6e0719768",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 718,
+        "stable_id": "system-ui::9100a68a33aa113778410d4a",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 719,
+        "stable_id": "system-ui::25d152c2752b98f62b5b2b05",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 720,
+        "stable_id": "system-ui::4be923523bb8e25a3495d6ff",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 721,
+        "stable_id": "system-ui::b6cd69be65ec3c83eded8408",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 722,
+        "stable_id": "system-ui::f7961c72ceeeac7c33c301db",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 723,
+        "stable_id": "system-ui::d9feca9c43f41482b3d5b87a",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 724,
+        "stable_id": "system-ui::befd4443c4a4d4d89c245d90",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 725,
+        "stable_id": "system-ui::fc44797534f73c833c44820f",
+        "category": "width_style+grammar",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화; 조사 의 연쇄를 없애고 자연스러운 제목으로 교정"
+      },
+      {
+        "sequence": 726,
+        "stable_id": "system-ui::d9ace3a4b659da659012d86a",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 727,
+        "stable_id": "system-ui::84823fb4d01825694e04a3e1",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 728,
+        "stable_id": "system-ui::101097a381cf464697b80138",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 729,
+        "stable_id": "system-ui::9c6dabdab1f288ab80abe68d",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 730,
+        "stable_id": "system-ui::6daa33f69a580ed205d59e06",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      },
+      {
+        "sequence": 731,
+        "stable_id": "system-ui::379c3b25fab74bcfdd6d3556",
+        "category": "width_style",
+        "reason": "한국어 target의 전각 숫자를 반각 숫자로, U+3000을 일반 공백으로 정규화"
+      }
+    ]
+  },
+  "structural_validation": {
+    "sequence_contiguous_1_732": true,
+    "fullwidth_digits_remaining": 0,
+    "u3000_remaining": 0,
+    "embedded_newline_counts_exact": true,
+    "tab_counts_exact": true,
+    "interpolation_multisets_exact": true,
+    "printf_percent_multisets_exact": true,
+    "renpy_tag_multisets_exact": true,
+    "roman_numeral_multisets_exact": true,
+    "nfkc_arabic_number_multisets_exact": true,
+    "same_old_key_target_conflicts": 0
+  },
+  "numeral_composed_supplement": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\system_ui\\runtime_application\\numeral_composed_string_keys.ko.rpy",
+    "sha256": "b8b8bd0fb905f3346811fa36356f144874f2bf874cf92bdca2e0185da488f6dc",
+    "prefix_pair": [
+      "Numeral ",
+      "번호 "
+    ],
+    "supplemental_pairs": 12,
+    "expected_pairs_exact": true,
+    "old_key_conflicts_with_master": 0
+  },
+  "manual_review_approvals": [
+    {
+      "sequence": 49,
+      "stable_id": "system-ui::3456a48299cee975d9b500fc",
+      "rule_id": "INTERPOLATION_REORDER",
+      "finding_id": "aabf7bdc25acb8f4342ce60e067e42443014058ca17b22790f858f9965fd5962",
+      "verdict": "approved",
+      "reason": "[count]개 중 [index]번 이미지라는 한국어 어순을 위해 두 named interpolation의 순서만 바꿨으며 토큰 다중집합은 정확히 보존됨"
+    },
+    {
+      "sequence": 272,
+      "stable_id": "system-ui::b175bcc2a09ed2b21f77613f",
+      "rule_id": "JP_QUOTE_STYLE",
+      "finding_id": "fc9b8e07f79f9db9676a9ed6d7952af9c82e331df888abed16437bed4f67af80",
+      "verdict": "approved_source_anomaly_repair",
+      "reason": "일본어 원본 데이터에 닫는 낫표가 빠져 있어 한국어 표시문에서 이를 복구하라는 명시적 검수 요구를 적용했으며, 나머지 낫표와 내장 개행은 보존됨"
+    },
+    {
+      "sequences": [
+        259,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294,
+        295,
+        296,
+        297,
+        298,
+        299,
+        300,
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+        320,
+        321,
+        322,
+        323,
+        324,
+        325,
+        326,
+        327,
+        328,
+        329,
+        330,
+        331,
+        332,
+        333,
+        334,
+        335,
+        336,
+        337,
+        338,
+        339,
+        340,
+        341,
+        342,
+        343,
+        344,
+        345,
+        346,
+        347,
+        348,
+        349,
+        350,
+        351,
+        352,
+        353,
+        354,
+        358,
+        435,
+        594,
+        699,
+        700,
+        701,
+        702,
+        703,
+        704,
+        705,
+        706,
+        707,
+        708,
+        709,
+        710,
+        711,
+        712,
+        713,
+        714,
+        715,
+        716,
+        717,
+        718,
+        719,
+        720,
+        721,
+        722,
+        723,
+        724,
+        725,
+        726,
+        727,
+        728,
+        729,
+        730,
+        731
+      ],
+      "rule_id": "PROTECTED_TOKEN_MISMATCH",
+      "finding_ids": [
+        "56cd0979ddfd6f219092d51f8dd790cc9d7cda2c04bfa4f4b97a664a3a26eb10",
+        "22555ff2f801b419812334f85697944079f978b4bcacbe48651cdd5e89a23a8a",
+        "f4488c1a5d80a8bbee0c765ffebf189d07465d650abe32e011c08eb956ce403a",
+        "e75cb35f441cf20b80fbb0708c0ce8430999d4a459a17e7da347ccb85adc0e18",
+        "4b1b6379f2f7f058afae26451d35a8536dc548c805f2f271bfe188068d5985da",
+        "419ba52b3004fe8937d8aac2b7e0b8031345fc21b910e03d732af6ef30e56175",
+        "09c331030fc2b320dfedda5428250589b81e1056fd72ea300613aa951d2045b8",
+        "84223bec0b703e1e09829f1ad036803e1f4b38c264c9958e8ef04623f9faede6",
+        "fde50f2dff5f960bcb5eca1921001080d8b6d53911a2c759bb167057c8c7e94b",
+        "badee7e343b5c28c827eecd7575f314c6837e4a31d890a8a42e436c79021a229",
+        "4c9259204b96d8f34f4ea5547c52ab34122896d063626ee293547cee7fa30db0",
+        "1eb5f5a91a8c8ef07dd354df42401578baf0a941dbd1e11be9f8ed188d059229",
+        "fb16f8bf87a9adb2063d1d52798164a311019c2bd7f0edc6a5acdd16b04f1c68",
+        "cb0e0eef242133896f67d35c3353ac86a790ada68c250725827593efdfeda08b",
+        "fdd875ccd0a48eb419d0bc9244699c75fa738925620bbe501820bd0736afb42b",
+        "619d1fb209344fc919070f5257428edd2dd476114dcb70fac74bbbc28746df77",
+        "8a98e3b8c303c733b24ea97ee7ba4c2b371385d17370c2fe969d3ae50a077452",
+        "30af54f93e282a72db2499e140ae08d10d9d8a087f9d16d93f3621ec9420d679",
+        "d0daa12f9e83a82e1eabd98f8de20d1b15bc62893f47d2c65a8f0f138e03ffbe",
+        "2cec4acce514398fc26140738bad9a5c2edc244851e465c625cc636b51adbdc7",
+        "89b4be64f8e6dc7d09cd089e65ac024696af926cca1e87b254e934b6f56b2fac",
+        "105a6c8a74d48da37ded20fbec40a84ccd4d51aad5b029e1541bb7525b432585",
+        "d04ac575dfb5ad7f2898963ae31179dd6d3f5e04535b3e89cb0b6e022ce663ca",
+        "b183394688f81d2ca217850afbd4b1d1373ae0d052017d35b2ee34fb1a646a62",
+        "aac07e5ea20f7d12277b7d438367208a1ea3befe0c7b82d184a840198a25113c",
+        "98d7bc585284c4c308d7a81dc9998fa690d0e009b674f368693712386bd04f3a",
+        "bc923d53e469f1b0215bb1685d35b0f1474f03b4b64dfb0cf7529218f4031b7f",
+        "897f45fb51f616d497723658f8dc36c79ec767a1aca062be1d7ef778744e0145",
+        "69e8fc40906191f5512fee66d7169f73901c3c2d78ece9002cd6c47c09676c05",
+        "05ffe5f7c88e805cc069e5f26edb718d3473f15b80605a5009d5878e1e645751",
+        "e6409cdd93cdc2ede3bd74a918842d0a6fc0f30439e9e5cc18309af2e7a0d40f",
+        "f010e461a0f547db4394d1a6f9707ff4afe0af2ac9d37909a9d316ba9ba42989",
+        "44d2dee4b812ebb4cb54f2ade337f8ea6a61a30d51e63c0526e70d534c54478a",
+        "bfb9192906d1569a212db62f90919a59805fb9025788721ee00b82aa6ff7baed",
+        "21f1137ec9b67fff84f8ebb342a5e55584452bcf01e0823f9cf6971159866b3d",
+        "2feb1fdf35935e8e8bf423d173f6f2b7b776e694f1c9485aad5556ac966c4989",
+        "25a2491ba0b2929d7adafab9ef81a37f67c8ca4f82b7bbd8276fdeb7cc099943",
+        "b119cc8a00c7969dff6074db7994714df39da62b419199b6fafa692322594dc2",
+        "bdf141f985a477b5e332855d16717c1d3fe7d00419d1fce1b36f6769b18bf8ca",
+        "328248fc41c7c50bc5c4a2e1e8d7e81cb23ad680054bdbbbac378d8c0011afce",
+        "be6ebd8281211214b2c445c6d8497b86c2c2ba9b3c0a84346ad2dc830bfe05d9",
+        "daea41a3ff69186edb36fb7ce4b5d22262f9a3dd9e51b0c4a95a1bc293020a3e",
+        "7fe009b3cf57d3944415b1ce7b9c1d520c5a246d6932d40696cabd27bcd2a056",
+        "1eb39f9e0cf75be610c2a77c6079a9358b198a64a08245e9cfd182ade9fe0103",
+        "d4faa6da054e39018625f57e13ce9e3c15b5568d85cf61d2f30c494686e0c538",
+        "d3e7dbf45d80b25260963f8a0a0770409ca220ab00a94fbe8264d26087d36291",
+        "30e8f87b588c79b5b71e0c65de8f2adbe093fc80d2c4ce561dc512d8382ed9cb",
+        "01788bed5db6634eb2ba02481ef0654b3a1e828891ccb3c090319a19365a95ce",
+        "37c7080f017bd04dda4f8afcd13aeb0849933e18f1aaf67e249a989b407181f9",
+        "7fee02ef50cc8f67030c5e1c9e3b09c0a28d0d1b97b9071994981e27aa7f9c03",
+        "7a8c8aaa3ffb90f6219a62a3aecbb80581b20c2aab33b61c7b2ae406eb9398b3",
+        "03ed2a9382ab72d1d1977be4f84c5324b766a0f2fdadd262943533cf58a97ac1",
+        "46aef25e9e6907c703a8fb7e085de9816b908951766055b45dea7fc9f993c544",
+        "4033e7e32f5edaee9521666620e36563b450906f29c87416db1a19658342cd52",
+        "c3d98f496ad8861d5c58b53b60a3999f4322cdf69ef1d6cf0a4862e7e26991f4",
+        "9bbba384d715ee588b63e6560f0a8fa8cad6425a5ddb56d6f297aa7d4e0c8ae5",
+        "07d3a7f6006688919f9f94803284c1a66a3e4719667bc030ac99dac928631a6f",
+        "4f63ecf233235cfcd4d181aa367aeb752af5eb834b692b835eda5bac3dd74694",
+        "cb07d81c425248afa192a06b82ca686586e9df7a3a0ca48a183a3c2685d7bed0",
+        "937b1aaca5b8d6bc11a4ef0a43198c4e3440ddf89c0b99c171543e239aee6bc2",
+        "99145166bce6b3755a7c0a2e9be1d49a0be1b632fbe29ede0daf13443e94bd63",
+        "bbc09d64faa7dfa5467aea8caa92e52826d7fb5e78a71b91ad77f4a85ba07344",
+        "4f6770610e3f00a812bba16695b6adc9ba1e6d25958dd9e33b960c5591956777",
+        "469aed0926b606f659864b46180961d32f00de1e1023efe20701910add652fd3",
+        "db2c1c641d3b8470cb11dc517967646810ec95b6d9d897807873862a43998d0f",
+        "0d8378f3252c4789373b4ade081c7af9cacd60fbd286cd7920b7c828aab6f097",
+        "306200e852bd4273b4122a92e982fa2a14792593fbb9193540a97d7741f3e5ba",
+        "865deefd90a2b72c0ab797cdc31cac3137101f3590e03975bac8c02f0195b38b",
+        "55389bbf16173c6bd43ee1991c41cdb82cb6a2d13a6b492b3922558a1ca4cbdf",
+        "fc83a2607f58ec6b1715f2787d3e518157457566c00bf177184e612f2714c383",
+        "845211cb4eb2bf997beadeb989fccadaed9aefd7ceb80f026e91597ef8ab52f8",
+        "fa356283d543acf1427dae5ca0f7c5b477f8e324b8835f32ef4923e824f8f38e",
+        "ff0c24f077dcee38ad4b892195f1cd1a9a4cfa05928a2320afea6736679b4b19",
+        "4eed73f304b631a038ff37dd7f3d3f6500335f92c4efaad972e336908896be3d",
+        "9d96624901e0efa8cfab1800c49d9a7193bbd2868e5310066561b92b141300a2",
+        "0a207804bbc5528acac4239a3201993920b83b39881f6be38f4882f6ff72960a",
+        "0eb823101779c6e8da2ba18643de9bae2769089bd4794d52039723dfa1eae166",
+        "13dfe124bce392b1fd4ae28586ba21b4be88b79488c077fb4b60040dd0b7bbac",
+        "2ed55950b80a86960bf2a91c5b71862d198e2664a4a59bb4ede5cb6773d4bbbf",
+        "a48e44ba8537d35acb3272c86bfeab209934fdafc82f01279c184864f8227aad",
+        "7c6d4e341fdd74271a5669da7531de7f1b775c99aba5e3f156c28d34a4d4aab9",
+        "677708f987082dced5b4ca22dbeda648fdacf0ac202f8100ac481498580b7ba6",
+        "b60564b21a7af4ea9f15bb3d037295f9b5c7c7bcd6bbd62cd0253da5e7d12dc4",
+        "00cd5ad418eeaa587b1acf5021fb680f48cd901739e289643cbabfde0510cc0c",
+        "519e67c1bc6a8ab98eb8fa7b7c10fd1931290ccaef580f16de3e224765a1faa8",
+        "14f6282ffa6c0440e70bce4e7f8dcb15291fd39eec2c04e0789d4a66d939fe72",
+        "0ddc36a56bc31b6cea45088ebc383ce53310805ef12d47e55e01a508771785d6",
+        "0491e59c3a141e40fafc4c4d7b3bbd2e673dc365355bfc0947f49a414563b0a6",
+        "673b7838f6b9dba1301f00633ce3ffe59e589b765123703c27b895d14eacd981",
+        "e79d48b2412c609b6c0081377b83307d3e2c9ec28b3ca5a97513a3f082b7299d",
+        "e2c5f6321fd69a8336c6b93be23b98a6e4ff3b9e94b455d77167df1717ac493d",
+        "ab97faa612880ba06ede0e337667c3d2dbc0dd2fef8c3de753ea4a49a4c406fe",
+        "335b7ba8af96ff06e8dc32f031842298eab0e75e991f26277ad7bfd905396390",
+        "b3661383a2721fbbc22cb3fd05f85858a6c2761ebc4d392702c981d236126ffd",
+        "88487ee1a5ed13d4da89515d605ddc66e2121b02d5d65c155e40679092e71a71",
+        "d398e6b558cb5b6b8f606256654b915beb5be6f3c27bc0d4c6ac39ba855986ac",
+        "bb45e26411f75508b9f70cbb5b25369ed3842dafa56bee4d9bf84dd6f6634852",
+        "af7eb3eb0a6a06720ff479300dc3a970815201536f89705bd97238134dc96548",
+        "e96907d80742a3dcb3010eaead3f87f74076fdcfd289488c9cb163891b659fa1",
+        "f858e011860fad8530cba9e154e49835e0622ddcc0cd11e408278ec3af0452a2",
+        "9f148274f0f1f11d1c212cbc1754604f55b8c24b2d7793f926c2bfcb749d441f",
+        "16137bc3f4b2022977891e0ccb1c6f2b3a2f831b0ce1fe9078d77307b88f6adf",
+        "a20b90f24e3691bb9d944d57a61b1793f86c25c10daa820bb9537e18c6e621fc",
+        "e1cfcf5e2c1390cb0fa03946d3e60f80fe1bf376e582b06e11c63da2394bad04",
+        "8c22a80a693fd8ead24e56c17bfedace4d7d2da3281cbaabb0eeaa9769dbe355",
+        "d3d7569d383e9a1c7c6c1ef26fa21d7fd185b19e11d0637fd390f5964a5bb03c",
+        "622dea92aeaecd452026ada5ddc6aefc96c6da1c630ae12266d3dc61194484bf",
+        "120f79c6ad9b866caa4a595a028a8c50258993517edce761ba704f0eee010951",
+        "9f14849abb092ce1b61640b2b6db964eace40eb672033d5cb8d69e5917d4017b",
+        "e0eae9ff6539e5d9c020c96a6d86df1aef9ff1b01551ef2dab0f051793875c55",
+        "686bf6c6a7bf40d05be3e0f9bb07e56779d086fabe49577ff34d019dbdd7640e",
+        "0acb6118dfbba9f0a466662df5caaf535ee5f5358937fd713c63d8b4cc28349d",
+        "f4fe540e8b9592ee6a1f8ccc03ba2c6e4191680bf435a074be25b2b33a14e9e0",
+        "e22248a30d2dd7469aba79372ab16b8f8d2fe8a9632b07f9dcb3651ecc6e041a",
+        "2d26fb4167ab14f81d4effe55ad5fc0ba6af23da60becf6a5632f99b010631da",
+        "cfba88edb66e0226628b0c9fd4ff56377eb9cb7b6d1e4897fd16b2d1e94a4301",
+        "c24a610d59575273705da017ae790fe6d557973cc780116cc21c6f1c907ce32b",
+        "2f92ebc1388b167d4e03320e99649669b8a063336c5126491104513c2d45993c",
+        "65efb1b9052eb7e15676d1656e28d20e102f7a15b08316b52e7473ab3a490739",
+        "77ebf3ee1d2d48d2eb762db8fd7b15e6979bbb62f6c1e630ebaebcdd346806ea",
+        "2a399494a9f4c1c5b3f095ab4c4bcb79ec881bb9967893eb35681da1d0c09f5a",
+        "050ce2a2104384db029f0fdca76860aeb0368685eac76ad5d0c5ecd09ef409c9",
+        "34619dad9e921f9d57d7d7ba83c1edad99ed68adf9dfb2379934ae382e6f879e",
+        "183c1f5f221832568d47b5d895f544f90419fada3aecc7c98c83374951d74252",
+        "5a96bbf8c03a760cef9e889350fb51068f2757fc9ef1dfd453b7ef7150d9c59c",
+        "a8f25b5980dfda58f3f8184df28b29fd79f0ba96727b4da6270e5a57bbf0325d",
+        "f22cbe7417319a22ae25b6826c907186e9ac6e15d9e984e1a04ccc4aa4906f53",
+        "160531ecf172cefb2dc4bc0d22c9f4743e0c179a7c18f969e6378ef5f4c83829",
+        "a3618208129806cf0a2866b853d97cad90d769e232b35d93f2355cc26c47149d",
+        "450610d75466654ca7d8f9534cbc0fab5555b9cf7188597e8e559fa0bd14da76",
+        "e9936ae6ee2fb49ce68e961efaaa71361da9699c42bca3b8caa0e78ce2ba946b",
+        "7ab9fcbd882e4afa5273116faf3732f21bd95dc4bfaa99377f8ecd41c65fc1f4",
+        "246abca319d7cf31bd806b5adc0ce4954c1ad391e9971fe1226e18950fe9b52d",
+        "8f5ace01c8de52291d8be320da536077a9eb359fa4add32486e810661c5096ad",
+        "6ee1eb3bc3e68f99bddf375d0b6d4739cb5b7f92b80b809d6509851fbe0c1466",
+        "32c533140558a4d61827b4a237ef676025309b1ef9b6da84b3a5baa4d453fc69",
+        "ac7a60f552a8bc29e97f5d7e9bb5a3cd5cb502767f5065e06d0fb86941576721",
+        "11ab8b3e651d9c1e0097b823e93da3307fae74607e9e4342c758d41b41848e7a",
+        "8b43b05cf5bca4567070870e1ab9b172dca3a6d419eeda891393dad620c5efd3",
+        "21f37d6fcf2a3b9eba46c7c4a3cd2a2c9a77d38c0a5e77e1ed82de163301c9a5",
+        "4a37cdda0c5d75a4f381b95037b4d8e4a7683e2af6d108eb4fbae6b3ca09237f",
+        "c0d2f8b2a5f360bffca3b7d203fdc2401d9983d0e44363392d9b84de49fdeb5e",
+        "91bb8d2850a84f32339e14ae28df8be5f0374768e927c17250d0f813032fed1b",
+        "7435207e89488e5cdcb30d7797ef5eca1326c4424067934a73d0854c2c036696",
+        "3a9ca0baf40d23a8e16568823f6a9a46d3376d66d7e4830c750d2483697d8ef9",
+        "690501485358dd0c2fbe7c6b2d8e5381713534c77ebf3e6e742ff9f14f979efa",
+        "f5631982564112dac93844c4b19f985242771c885dd61614fc5ace70f4d877d2",
+        "c833d33f2dea0c9c09c61a50e363d2aba1349767cd53a8ae4570363d94170027",
+        "41df4c1cbe7eba42e3c21e8731651ddbe48fa317d3f5ba39267fe86cc4582281",
+        "22d868c43a5e6adfc2356bef01b33b96469fce1a4e5fa6aa8b809afba52196aa",
+        "181a1857b14c60338f0d872e0541621980c8d6b21e677ee06fcc4144e5edee0c",
+        "73ac9a7807b1b422f6983f422cd00f1168b57e2cd345a8a0e89d39da807c451d",
+        "80667c8b8bfebf3823be93197bdd1f9a9bbd368d0e8d4dc6c4c13fb642cc2901",
+        "3c3f82db91d873744751f0eab0e45ccac9cb2f59375abf7aabd6582f7fcdb3a6",
+        "f3b42a8b159d59fc059fd1d3ac287f4dccffdb7de32a75c051a3236dca2a4834",
+        "6a806c50b31050b49c770ee585352fa232f833a9324e42338831d145f63591e0",
+        "1636392c71f7d3082b64cb21de31999ae63165038b80d56f33ef028846b3aecd",
+        "2b01f41e715bf0b7f04fad2cf7413657012e541cfa4c8fcf4b47a225253d94ca",
+        "15a40e8d8bef237950fd66b1c6918418fd9fa3e54837e62a24d1dbf0c0154708",
+        "aa2c0aa7ee3769b5054105ef9b1b8c65538178e0d968ffb96c97511aee4cd9e0",
+        "27aa0fe1ddb9ff9aef96239961b51de94650c22982e11b6759b43708e32d85dd",
+        "b0e05ee26e14a106dc6b88bc2ebb3f942776151ea8e7a5f9b90436f88e62d63f",
+        "1e9e934d3cb875b27e47f5cb85bf20b9ec1f95e071d5f53de4895909acc50121"
+      ],
+      "findings": 163,
+      "verdict": "approved_legacy_string_token_policy_override",
+      "reason": "system_ui legacy protected_tokens 문자열 배열의 전각 숫자 exact-glyph 검사는 명시된 반각화 정책과 충돌한다. 모든 승인 항목은 별도 NFKC Arabic-number 다중집합 검사를 통과해 숫자 의미와 개수가 보존됨"
+    }
+  ],
+  "common_auditor": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\system_ui_review_audit.json",
+    "sha256": "7295aecf74a35c46125cddedce82224e0db9acffc9bbed5bee88c8bf194a8e9c",
+    "preview_master": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\output\\system_ui_review_preview\\system_ui.master.json",
+    "preview_master_sha256": "a8dc1909be7284a9eba987a34423a1ae9f5e41da890419f64f43d39bb0654f3a",
+    "hard_open_before_recorded_policy_approvals": 164,
+    "hard_policy_approved_width_token_findings": 163,
+    "hard_policy_approved_source_quote_repairs": 1,
+    "hard_open_after_recorded_policy_approvals": 0,
+    "review_open_before_manual_approval": 1,
+    "review_open_after_manual_approval": 0,
+    "gate_pass_after_recorded_manual_approval": true
+  },
+  "notable_repairs": {
+    "sequence_33_unsaved_progress_and_newline_restored": true,
+    "sequence_52_unsaved_progress_and_newline_restored": true,
+    "sequence_272_unbalanced_sophia_quote_repaired": true,
+    "sequence_49_interpolation_reorder_individually_approved": true,
+    "sequence_90_reset_page_single_line_layout_feedback": true
+  },
+  "verdict": "PASS",
+  "user_visible_runtime_feedback": {
+    "status": "MATERIALIZED_IN_CORRECTION_ARTIFACT",
+    "session_evidence": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\technical_qa\\visible_user_review.session.json",
+    "session_evidence_sha256": "af51e8edd70f3a1cbc01c3a566d877112488aa8086f2081619db4dd4b2673e1d",
+    "isolated_review_root": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\runtime_review",
+    "running_review_copy_modified": false,
+    "live_original_modified": false,
+    "exact_old_key": "reset page",
+    "stable_id": "system-ui::c5566bdcafb33505eaa9421d",
+    "sequence": 90,
+    "old_ko": "이 페이지 초기화",
+    "new_ko": "페이지 초기화",
+    "source_confirmation_jp": "このページの環境設定を初期化しますか？",
+    "layout_contract": {
+      "button_xsize": 130,
+      "button_ysize": 30,
+      "text_size": 16
+    },
+    "user_observation": "first reset button label wrapped to two lines"
+  }
+}

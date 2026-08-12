@@ -1,0 +1,31 @@
+{
+  "schema_version": "fatal-twelve-range-assembly-result-v1",
+  "generated_at_utc": "2026-08-10T11:03:39.299777+00:00",
+  "output_json": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\catalog_design\\draft_006_253_503.json",
+    "size": 395759,
+    "sha256": "53cda99f7196ff9f0ebb0fb8abda3706c0871d62a8a31b0526002fcf74ccae3a"
+  },
+  "output_rpy": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\catalog_design\\draft_006_253_503.rpy",
+    "size": 35443,
+    "sha256": "6654bdf63bf3b712b773f2b77b7508b4b1406816c1a75dfb6eab8fe1ab575a25"
+  },
+  "entries": 251,
+  "range": [
+    253,
+    503
+  ],
+  "translation_ids": 251,
+  "menu_keys": 0,
+  "rpy_structure": {
+    "translate_blocks": 251,
+    "strings_entries": 0,
+    "unique_translate_ids": 251,
+    "menu_lane_separate": true
+  },
+  "hard_token_check": "passed",
+  "source_authority": "Japanese only",
+  "English_prose_used": false,
+  "translation_QA_performed": false
+}

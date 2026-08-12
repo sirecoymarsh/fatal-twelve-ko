@@ -1,0 +1,141 @@
+{
+  "schema_version": "fatal-twelve-c-008-consolidated-review-v1",
+  "source_authority": "Japanese source_jp only",
+  "english_reference_used": false,
+  "external_translation_api_used": false,
+  "game_executed": false,
+  "script": "008",
+  "master_entries": 1500,
+  "exhaustive_checked": 1500,
+  "review_coverage": [
+    {
+      "range": [
+        1,
+        188
+      ],
+      "reviewer": "C",
+      "evidence": "C.resume.corrections.jsonl and resume_corrections_report.json"
+    },
+    {
+      "range": [
+        189,
+        450
+      ],
+      "reviewer": "C",
+      "evidence": "C.manual.008_0189_0450.report.json"
+    },
+    {
+      "range": [
+        451,
+        600
+      ],
+      "reviewer": "C",
+      "evidence": "C.manual.008_0451_0600.report.json"
+    },
+    {
+      "range": [
+        601,
+        750
+      ],
+      "reviewer": "C",
+      "evidence": "C.manual.008_0601_0750.report.json"
+    },
+    {
+      "range": [
+        751,
+        900
+      ],
+      "reviewer": "C",
+      "evidence": "C.manual.008_0751_0900.report.json"
+    },
+    {
+      "range": [
+        901,
+        1050
+      ],
+      "reviewer": "C",
+      "evidence": "C.manual.008_0901_1050.report.json"
+    },
+    {
+      "range": [
+        1051,
+        1200
+      ],
+      "reviewer": "C",
+      "evidence": "C.manual.008_1051_1200.report.json"
+    },
+    {
+      "range": [
+        1201,
+        1350
+      ],
+      "reviewer": "C",
+      "evidence": "C.manual.008_1201_1350.report.json"
+    },
+    {
+      "range": [
+        1351,
+        1500
+      ],
+      "reviewer": "C",
+      "evidence": "C.manual.008_1351_1500.report.json"
+    }
+  ],
+  "corrections": 219,
+  "unchanged_approved": 1281,
+  "stable_id_unique": 219,
+  "sequence_unique": 219,
+  "old_ko_guard_failures": [],
+  "post_correction_audit_issues": 0,
+  "master_sha256": "a7ec09ab4a69e908b46a3f97a6a54d6f7f57c972ef9ab5625911c3ba873f46a2",
+  "input_files": [
+    {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\reviews\\C.resume.corrections.jsonl",
+      "sha256": "1021c8ba9d9a92d4dd1a65f82ebe855e8010ee4199f0cb7b77b836ff4883da99",
+      "selected_records": 15
+    },
+    {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\reviews\\C.manual.008_0189_0450.corrections.jsonl",
+      "sha256": "05060d4014e32b535c33c0dacef96a6b24541c4ce74297f129e7c05cba5952aa",
+      "selected_records": 26
+    },
+    {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\reviews\\C.manual.008_0451_0600.corrections.jsonl",
+      "sha256": "22c895226a0728932c6a7aeebd7c3dae20c5dff38457242545e887db46d5da3a",
+      "selected_records": 31
+    },
+    {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\reviews\\C.manual.008_0601_0750.corrections.jsonl",
+      "sha256": "7cd963cffb3fa9f41791ee893abe00714a9982849cc3463720b0c9f83e3a4243",
+      "selected_records": 20
+    },
+    {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\reviews\\C.manual.008_0751_0900.corrections.jsonl",
+      "sha256": "b591db8471ca84df1cb1b7caaa2d4ad27684b53ee23ff3d9e550708d23e2df4d",
+      "selected_records": 23
+    },
+    {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\reviews\\C.manual.008_0901_1050.corrections.jsonl",
+      "sha256": "72d3aebe19de1bc2ed822bf8d1ed61c32b7b0d3c0ead899220862016c31535db",
+      "selected_records": 20
+    },
+    {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\reviews\\C.manual.008_1051_1200.corrections.jsonl",
+      "sha256": "e19cc7efe8846984f8b85e7bdbd21e2d2a8bae3821d7df42e81463f0eb0421e5",
+      "selected_records": 25
+    },
+    {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\reviews\\C.manual.008_1201_1350.corrections.jsonl",
+      "sha256": "9c79f6477927f8890046cc8ca06a4ed554f5692e73ac43a22ffb9b1d4f1157b7",
+      "selected_records": 31
+    },
+    {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\reviews\\C.manual.008_1351_1500.corrections.jsonl",
+      "sha256": "fc34a9fb43420641eb4e55d2b628b008078737cd6f4deb18ac16bbca2f84c122",
+      "selected_records": 28
+    }
+  ],
+  "output_sha256": "73f771a5bb9a9153d8894a0de30e2831b98db06705a03690a0227204126837f6",
+  "corrected_projection_sha256": "7367785aebb36eb99af3fd1852de0beaaba5a8b0b822fa375dc60a2a6fdef720",
+  "verdict": "PASS"
+}

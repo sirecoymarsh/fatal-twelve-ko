@@ -1,0 +1,18 @@
+* text=auto
+*.py text eol=lf
+*.rpy text eol=lf
+*.ps1 text eol=crlf
+*.psm1 text eol=crlf
+*.md text eol=lf
+*.json text eol=lf
+*.jsonl text eol=lf
+*.tsv text eol=lf
+*.zip binary
+*.otf binary
+*.ttf binary
+
+# Imported/generated archives preserve their source formatting.
+catalog/** -whitespace
+translations/** -whitespace
+reports/** -whitespace
+work/** -whitespace

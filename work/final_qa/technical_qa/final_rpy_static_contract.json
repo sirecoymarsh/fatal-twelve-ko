@@ -1,0 +1,481 @@
+{
+  "schema_version": "fatal-twelve-final-rpy-static-runtime-contract-v1",
+  "generated_at_utc": "2026-08-11T07:18:24.717744+00:00",
+  "inputs": {
+    "pipeline_result": {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\final_text_pipeline_result.json",
+      "sha256": "f463f7a0088016fe5a120a67db29e71bb6405f0cbb5616138bf452e9304f3df1"
+    },
+    "render_manifest": {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\final_rpy\\render_manifest.json",
+      "sha256": "ae58dba67939a80744c44520546816edfc5c88663d2a455229ddecc7f33401c2"
+    },
+    "corrected_master_index": {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\corrected\\corrected_master_index.json",
+      "sha256": "21e0ce2421d67a8582f9ce4180f88b09de43eb9d777ba7febeb73b1c82a6280e"
+    },
+    "bootstrap": {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\patch_architecture\\skeleton\\game\\f12_korean_bootstrap.rpy",
+      "sha256": "2236231a92b718114f5247e146418503a98b082ce51eedcaa8d314271781cf59",
+      "bytes": 3056
+    },
+    "korean_slot": {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\patch_architecture\\skeleton\\game\\tl\\korean\\f12_slot.rpy",
+      "sha256": "df3086751c40ddae7d201190f70f4146ee5e24909d16f2a6b80c6985db02dd4e",
+      "bytes": 1063
+    },
+    "numeral_supplement": {
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\system_ui\\runtime_application\\numeral_composed_string_keys.ko.rpy",
+      "sha256": "b8b8bd0fb905f3346811fa36356f144874f2bf874cf92bdca2e0185da488f6dc",
+      "pairs": 12
+    }
+  },
+  "rpy_validation": {
+    "scenario_files": 29,
+    "strict_utf8_files": 32,
+    "lf_only_generated_files": 30,
+    "translate_blocks": 18126,
+    "globally_unique_translate_ids": 18126,
+    "parsed_scenario_literal_tokens": 25473,
+    "global_string_literal_tokens": 1594,
+    "menu_occurrences": 790,
+    "unique_master_old_keys": 785,
+    "supplemental_old_keys": 12,
+    "total_unique_global_old_keys": 797,
+    "duplicate_global_old_keys": 0,
+    "global_target_conflicts": 0,
+    "exact_master_and_source_group_match": true,
+    "verdict": "PASS"
+  },
+  "language_selector_contract": {
+    "bootstrap_init_priority": -999,
+    "default_marker": "korean",
+    "marker_domain": [
+      "japanese",
+      "english",
+      "korean"
+    ],
+    "japanese_runtime_language": null,
+    "english_runtime_language": "english",
+    "korean_runtime_language": "korean",
+    "init_matrix": [
+      {
+        "input_marker": null,
+        "output_marker": "korean",
+        "output_language": "korean"
+      },
+      {
+        "input_marker": "invalid",
+        "output_marker": "korean",
+        "output_language": "korean"
+      },
+      {
+        "input_marker": "japanese",
+        "output_marker": "japanese",
+        "output_language": null
+      },
+      {
+        "input_marker": "english",
+        "output_marker": "english",
+        "output_language": "english"
+      },
+      {
+        "input_marker": "korean",
+        "output_marker": "korean",
+        "output_language": "korean"
+      }
+    ],
+    "action_restart_transitions": [
+      {
+        "marker": "japanese",
+        "language_argument": null,
+        "language_after_simulated_restart": null
+      },
+      {
+        "marker": "english",
+        "language_argument": "english",
+        "language_after_simulated_restart": "english"
+      },
+      {
+        "marker": "korean",
+        "language_argument": "korean",
+        "language_after_simulated_restart": "korean"
+      }
+    ],
+    "selector_visibility_callback": "PASS",
+    "korean_font_overrides_scoped_to_translate_korean_python": true,
+    "english_japanese_translation_blocks_added": false,
+    "verdict": "PASS"
+  },
+  "approved_static_gates": {
+    "all_master_gate": {
+      "hard_total": 8,
+      "review_total": 2,
+      "info_total": 0,
+      "hard_open": 0,
+      "review_open": 0,
+      "info_open": 0,
+      "pass": true
+    },
+    "scenario_gate": {
+      "hard_total": 7,
+      "review_total": 1,
+      "info_total": 0,
+      "hard_open": 0,
+      "review_open": 0,
+      "info_open": 0,
+      "pass": true
+    },
+    "system_ui_gate": {
+      "hard_total": 1,
+      "review_total": 1,
+      "info_total": 0,
+      "hard_open": 0,
+      "review_open": 0,
+      "info_open": 0,
+      "pass": true
+    },
+    "record_bound_approvals": 10,
+    "verdict": "PASS"
+  },
+  "scenario_files": [
+    {
+      "script_key": "001",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\final_rpy\\scenario\\scenario_001.rpy",
+      "sha256": "bb32dca15d5b59c1ae519dc5695121750715d88a209d0143ac4178e0ff9e6dcf",
+      "bytes": 128421,
+      "strict_utf8": true,
+      "lf_only": true,
+      "translate_blocks": 835,
+      "literal_round_trip": "PASS",
+      "exact_source_group_reconstruction": "PASS"
+    },
+    {
+      "script_key": "002",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\final_rpy\\scenario\\scenario_002.rpy",
+      "sha256": "177d4a7bfbf23aa27ffaaa5baeb861c4ab5aac417f7732b166ad4560671ff71e",
+      "bytes": 101365,
+      "strict_utf8": true,
+      "lf_only": true,
+      "translate_blocks": 665,
+      "literal_round_trip": "PASS",
+      "exact_source_group_reconstruction": "PASS"
+    },
+    {
+      "script_key": "003",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\final_rpy\\scenario\\scenario_003.rpy",
+      "sha256": "55d8350a17d553cf43e576db20182fc4aa3461404c6c6ee058cc5dc549a6d00b",
+      "bytes": 220700,
+      "strict_utf8": true,
+      "lf_only": true,
+      "translate_blocks": 1523,
+      "literal_round_trip": "PASS",
+      "exact_source_group_reconstruction": "PASS"
+    },
+    {
+      "script_key": "004",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\final_rpy\\scenario\\scenario_004.rpy",
+      "sha256": "69b4c10b5bc7460b62813b72f7944bdcfc13c3a3042eef1ef2648a3dca73eb32",
+      "bytes": 161068,
+      "strict_utf8": true,
+      "lf_only": true,
+      "translate_blocks": 1061,
+      "literal_round_trip": "PASS",
+      "exact_source_group_reconstruction": "PASS"
+    },
+    {
+      "script_key": "005_1",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\final_rpy\\scenario\\scenario_005_1.rpy",
+      "sha256": "ba73fc9ba490c7976a1c5617753a65f0e10f308a76f3e57d992997602282a5a5",
+      "bytes": 238907,
+      "strict_utf8": true,
+      "lf_only": true,
+      "translate_blocks": 1654,
+      "literal_round_trip": "PASS",
+      "exact_source_group_reconstruction": "PASS"
+    },
+    {
+      "script_key": "005_2",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\final_rpy\\scenario\\scenario_005_2.rpy",
+      "sha256": "0a858368254bcf27f76a6a05186dfc12f347065d31880a40036e30e6d4690854",
+      "bytes": 154094,
+      "strict_utf8": true,
+      "lf_only": true,
+      "translate_blocks": 1036,
+      "literal_round_trip": "PASS",
+      "exact_source_group_reconstruction": "PASS"
+    },
+    {
+      "script_key": "006",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\final_rpy\\scenario\\scenario_006.rpy",
+      "sha256": "1b29ddebc58b288c4a73469fc895d0cf1b35b2ce545d7c3a32dfeb50a377dd21",
+      "bytes": 99515,
+      "strict_utf8": true,
+      "lf_only": true,
+      "translate_blocks": 755,
+      "literal_round_trip": "PASS",
+      "exact_source_group_reconstruction": "PASS"
+    },
+    {
+      "script_key": "007_1",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\final_rpy\\scenario\\scenario_007_1.rpy",
+      "sha256": "a62c50bc39fa91f8eb1da2186801516bb74f60f460e82667e0130b6142e44c1c",
+      "bytes": 158695,
+      "strict_utf8": true,
+      "lf_only": true,
+      "translate_blocks": 1060,
+      "literal_round_trip": "PASS",
+      "exact_source_group_reconstruction": "PASS"
+    },
+    {
+      "script_key": "007_2",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\final_rpy\\scenario\\scenario_007_2.rpy",
+      "sha256": "aa83f57a9822d512afd85c39a043e3375d50c0f449b5bd14107f4b5ce5d1c1dc",
+      "bytes": 189894,
+      "strict_utf8": true,
+      "lf_only": true,
+      "translate_blocks": 1471,
+      "literal_round_trip": "PASS",
+      "exact_source_group_reconstruction": "PASS"
+    },
+    {
+      "script_key": "008",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\final_rpy\\scenario\\scenario_008.rpy",
+      "sha256": "c88ed3f7d1ce37b2a657dca2a27530bcd84098491482419eb8eac60f1fea8344",
+      "bytes": 223957,
+      "strict_utf8": true,
+      "lf_only": true,
+      "translate_blocks": 1496,
+      "literal_round_trip": "PASS",
+      "exact_source_group_reconstruction": "PASS"
+    },
+    {
+      "script_key": "009",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\final_rpy\\scenario\\scenario_009.rpy",
+      "sha256": "4dbdcb48f2e34a925396aceb77841d1ee62c37572145da108e0733b178b6fcb4",
+      "bytes": 240782,
+      "strict_utf8": true,
+      "lf_only": true,
+      "translate_blocks": 1579,
+      "literal_round_trip": "PASS",
+      "exact_source_group_reconstruction": "PASS"
+    },
+    {
+      "script_key": "010",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\final_rpy\\scenario\\scenario_010.rpy",
+      "sha256": "7af9402ddbe15a2df43524a22a7cfd711347343c7ee2dccca46fa0c10fb68df0",
+      "bytes": 192131,
+      "strict_utf8": true,
+      "lf_only": true,
+      "translate_blocks": 1337,
+      "literal_round_trip": "PASS",
+      "exact_source_group_reconstruction": "PASS"
+    },
+    {
+      "script_key": "011_01",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\final_rpy\\scenario\\scenario_011_01.rpy",
+      "sha256": "9541e999077aff977d53c023c81b9835fe5370ea110bb9f480b47db525b2752d",
+      "bytes": 59499,
+      "strict_utf8": true,
+      "lf_only": true,
+      "translate_blocks": 402,
+      "literal_round_trip": "PASS",
+      "exact_source_group_reconstruction": "PASS"
+    },
+    {
+      "script_key": "011_01F",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\final_rpy\\scenario\\scenario_011_01F.rpy",
+      "sha256": "5d0647356714133c8f9fc5c71198df70f251191335dac2f847dd77d2831c674b",
+      "bytes": 30391,
+      "strict_utf8": true,
+      "lf_only": true,
+      "translate_blocks": 210,
+      "literal_round_trip": "PASS",
+      "exact_source_group_reconstruction": "PASS"
+    },
+    {
+      "script_key": "011_01G",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\final_rpy\\scenario\\scenario_011_01G.rpy",
+      "sha256": "e302d10862c5b14a36610e98b656f8d0348e439c3023a4501c521625ab7c8e5a",
+      "bytes": 27427,
+      "strict_utf8": true,
+      "lf_only": true,
+      "translate_blocks": 192,
+      "literal_round_trip": "PASS",
+      "exact_source_group_reconstruction": "PASS"
+    },
+    {
+      "script_key": "011_01H",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\final_rpy\\scenario\\scenario_011_01H.rpy",
+      "sha256": "60e061a7f98d88e5ea7bf17f438f31b58bfd7745480f298bb754d65fcbe3f002",
+      "bytes": 8772,
+      "strict_utf8": true,
+      "lf_only": true,
+      "translate_blocks": 63,
+      "literal_round_trip": "PASS",
+      "exact_source_group_reconstruction": "PASS"
+    },
+    {
+      "script_key": "011_02",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\final_rpy\\scenario\\scenario_011_02.rpy",
+      "sha256": "88dc0029824c64c2b4e2e23443de783ee109c3803e6741e215d4556c620e9e45",
+      "bytes": 21715,
+      "strict_utf8": true,
+      "lf_only": true,
+      "translate_blocks": 131,
+      "literal_round_trip": "PASS",
+      "exact_source_group_reconstruction": "PASS"
+    },
+    {
+      "script_key": "011_02GH",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\final_rpy\\scenario\\scenario_011_02GH.rpy",
+      "sha256": "3b8ef2b973bdbb2689ee19a94fffd7d5666707eed07914dbd6ae4f61cdb61b95",
+      "bytes": 46087,
+      "strict_utf8": true,
+      "lf_only": true,
+      "translate_blocks": 325,
+      "literal_round_trip": "PASS",
+      "exact_source_group_reconstruction": "PASS"
+    },
+    {
+      "script_key": "012_01F",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\final_rpy\\scenario\\scenario_012_01F.rpy",
+      "sha256": "39e3d9af72d7a1fea46548bd464a9dbf8c862d793574f43437f82e48faa09945",
+      "bytes": 169937,
+      "strict_utf8": true,
+      "lf_only": true,
+      "translate_blocks": 1190,
+      "literal_round_trip": "PASS",
+      "exact_source_group_reconstruction": "PASS"
+    },
+    {
+      "script_key": "012_01GH",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\final_rpy\\scenario\\scenario_012_01GH.rpy",
+      "sha256": "5c884f5b787911311902c8ac443169435e8fc77734823757adfbc185bc5a0710",
+      "bytes": 42123,
+      "strict_utf8": true,
+      "lf_only": true,
+      "translate_blocks": 307,
+      "literal_round_trip": "PASS",
+      "exact_source_group_reconstruction": "PASS"
+    },
+    {
+      "script_key": "012_02",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\final_rpy\\scenario\\scenario_012_02.rpy",
+      "sha256": "97ce090ced2bcd57e21e4ab7da841949b74b54e9b9ace35b1cdfbc182eb693e3",
+      "bytes": 25851,
+      "strict_utf8": true,
+      "lf_only": true,
+      "translate_blocks": 209,
+      "literal_round_trip": "PASS",
+      "exact_source_group_reconstruction": "PASS"
+    },
+    {
+      "script_key": "BAD_END_01",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\final_rpy\\scenario\\scenario_BAD_END_01.rpy",
+      "sha256": "64a4cca6de670261cd34a7fafb2939a5376e74a4b3d6b569a97b185a78c576c0",
+      "bytes": 6990,
+      "strict_utf8": true,
+      "lf_only": true,
+      "translate_blocks": 58,
+      "literal_round_trip": "PASS",
+      "exact_source_group_reconstruction": "PASS"
+    },
+    {
+      "script_key": "BAD_END_02",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\final_rpy\\scenario\\scenario_BAD_END_02.rpy",
+      "sha256": "26651727285f0a133ce0625e3fb122b5b93730a70859522e4352acd7c1379329",
+      "bytes": 11072,
+      "strict_utf8": true,
+      "lf_only": true,
+      "translate_blocks": 80,
+      "literal_round_trip": "PASS",
+      "exact_source_group_reconstruction": "PASS"
+    },
+    {
+      "script_key": "BAD_END_03",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\final_rpy\\scenario\\scenario_BAD_END_03.rpy",
+      "sha256": "4e16ca82bd1effbd97dd8a3c48f8700ad94d06ce91d8bf59300639ad9036dc11",
+      "bytes": 3181,
+      "strict_utf8": true,
+      "lf_only": true,
+      "translate_blocks": 21,
+      "literal_round_trip": "PASS",
+      "exact_source_group_reconstruction": "PASS"
+    },
+    {
+      "script_key": "BAD_END_04",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\final_rpy\\scenario\\scenario_BAD_END_04.rpy",
+      "sha256": "8678c1fade13f5b89d7af379aa0e5114374704a646e133c18f4f7a82f954b1f3",
+      "bytes": 5069,
+      "strict_utf8": true,
+      "lf_only": true,
+      "translate_blocks": 43,
+      "literal_round_trip": "PASS",
+      "exact_source_group_reconstruction": "PASS"
+    },
+    {
+      "script_key": "MIHARU_END",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\final_rpy\\scenario\\scenario_MIHARU_END.rpy",
+      "sha256": "544276f8c33edb32a6d1c8837f16b6c3d390dcdf15f51db9b85b8a2d1c356698",
+      "bytes": 2793,
+      "strict_utf8": true,
+      "lf_only": true,
+      "translate_blocks": 26,
+      "literal_round_trip": "PASS",
+      "exact_source_group_reconstruction": "PASS"
+    },
+    {
+      "script_key": "NG_plus",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\final_rpy\\scenario\\scenario_NG_plus.rpy",
+      "sha256": "78d47afe8c7d850aa8db4ba292bb4f956cb527865488116cdd5f584d7566f7a9",
+      "bytes": 24168,
+      "strict_utf8": true,
+      "lf_only": true,
+      "translate_blocks": 185,
+      "literal_round_trip": "PASS",
+      "exact_source_group_reconstruction": "PASS"
+    },
+    {
+      "script_key": "TRUE_END",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\final_rpy\\scenario\\scenario_TRUE_END.rpy",
+      "sha256": "f1b516d9312da2c6db37efa26f7fb109482159c8c302eec40eb59737155c657a",
+      "bytes": 16572,
+      "strict_utf8": true,
+      "lf_only": true,
+      "translate_blocks": 125,
+      "literal_round_trip": "PASS",
+      "exact_source_group_reconstruction": "PASS"
+    },
+    {
+      "script_key": "UNHAPPY_END",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\final_rpy\\scenario\\scenario_UNHAPPY_END.rpy",
+      "sha256": "6d7828ea33a18b9124a8d4f9cc68c716cf3a842f528c9b84296cb0bfb9c895fa",
+      "bytes": 11821,
+      "strict_utf8": true,
+      "lf_only": true,
+      "translate_blocks": 87,
+      "literal_round_trip": "PASS",
+      "exact_source_group_reconstruction": "PASS"
+    }
+  ],
+  "global_strings": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\final_qa\\final_text_build_ui_feedback_v2\\final_rpy\\strings\\scenario_strings.rpy",
+    "sha256": "10238bccafb8528011be71c7b0f2b486b042f45991b19d04571584aaa36d5cdb",
+    "pairs": 797,
+    "unique_old_keys": 797,
+    "exact_corrected_master_plus_supplement_match": true
+  },
+  "source_contract": {
+    "semantic_authority": "Japanese only",
+    "generated_translation_namespaces": [
+      "korean"
+    ],
+    "japanese_slot_mapping": null,
+    "english_slot_mapping": "english",
+    "korean_slot_mapping": "korean",
+    "english_japanese_translation_payloads_modified": false,
+    "game_executed": false
+  },
+  "verdict": "PASS"
+}

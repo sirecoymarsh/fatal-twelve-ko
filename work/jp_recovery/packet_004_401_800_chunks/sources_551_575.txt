@@ -1,0 +1,25 @@
+551	L2348	dialogue	sonya	「でもそのおかげで、一杯楽しいところに行けたであります！」
+552	L2353	dialogue	miharu	「明日も観光するのだろう？　ぼくもついて行く。明日も泊まらせてもらう。心配しなくても、観光している間は純粋に楽しめるように努力するよ……いいね？」
+553	L2358	dialogue	rinka	「私はいいけど……海晴の家の人、大丈夫なの？」
+554	L2362	narration	narrator	海晴は少し躊躇ってから、頷いた。
+555	L2364	narration	narrator	その後、私たちは翌日どこへ行こうかなど話しながら帰宅をした。
+556	L2366	narration	narrator	帰路についている間、海晴はソーニャに敵意を向けこそしなかったが、どこか微妙な空気が流れていた。
+557	L2389	dialogue	sonya	「ミハルのハンバーグ、とっても美味しかったであります！」
+558	L2391	narration	narrator	自室に上がって来て、ソーニャはあらためてそう言った。
+559	L2393	narration	narrator	ライオン館へ戻る前に、海晴はご飯を作ると提案してくれたのだ。
+560	L2398	dialogue	rinka	「うん。とっても美味しかった。話には聞いてたけど、予想以上に料理上手って感じだったな。ごちそうさま」
+561	L2403	dialogue	miharu	「大したことはないさ。毎日料理をしていると、それなりにうまくなるものさ」
+562	L2408	dialogue	miharu	「凛火はぼくの手料理を食べたことがなかっただろう？　いい機会だと思ってね。明日は君の手料理を食べたいな」
+563	L2413	dialogue	rinka	「いいけど……あんまり期待しないでね」
+564	L2415	narration	narrator	一応、私も毎日料理はしているのだけど。
+565	L2417	narration	narrator	もっともお惣菜を買ってきて付け合わせだけ作るという日も多いし、そもそも簡単なメニューしか作らないのであまり上達しないのかもしれない。
+566	L2419	narration	narrator	店で出す軽食は、おばあちゃんのレシピがあるから作れるのだし。
+567	L2421	narration	narrator	その後、順番にお風呂に入り、テレビを見たりおしゃべりしたりと、夜のまったりとした時間を過ごした。
+568	L2435	dialogue	rinka	「んん……」
+569	L2437	narration	narrator	今は、何時だろうか。
+570	L2439	narration	narrator	少なくともまだ朝ではないことは分かるが、目が覚めてしまった。
+571	L2448	dialogue	rinka	「あれ……？」
+572	L2450	narration	narrator	違和感があった。
+573	L2452	narration	narrator	その正体にすぐに気が付く。
+574	L2454	narration	narrator	隣に寝ていた海晴も、ベッドで寝ていたソーニャもいない。
+575	L2456	narration	narrator	疑問に思っていると、下からかすかに声が聞こえてきた。

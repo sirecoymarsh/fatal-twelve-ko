@@ -1,0 +1,33 @@
+{
+  "schema_version": "fatal-twelve-duplicate-draft-sources-v1",
+  "definition": "Exact Japanese source identity appears in more than one draft packet; no prose was selected or reviewed.",
+  "duplicates": [
+    {
+      "stable_id": "scenario.rpa::scenario/001.rpy::tid::f001_s1_end_4f5fe164",
+      "catalog_sequence": 351,
+      "source_file": "scenario/001.rpy",
+      "source_line": 1604,
+      "source_jp_sha256": "f1933974745934ffd19190d0ea1295ef4534b08e70776688b793fb0a72543a07",
+      "occurrences": [
+        {
+          "packet": "draft_001_151_350_aligned.json",
+          "source_file": "scenario/001.rpy",
+          "source_line": 1604,
+          "source_packet_sequence": 349,
+          "draft_status": "first_draft_unreviewed",
+          "draft_ko_sha256": "7fec7749f3440a5c3fdb4ac7b1f5e733a7e47e71cbd4b2a8e6a00d3e5b1e0748"
+        },
+        {
+          "packet": "001_sequence351_bridge_aligned.json",
+          "source_file": "scenario/001.rpy",
+          "source_line": 1604,
+          "source_packet_sequence": 351,
+          "draft_status": "first_draft_unreviewed",
+          "draft_ko_sha256": "e7065a3171496a423d50ac7516622b8bf0152585fa29f432c75653f6159b161b"
+        }
+      ],
+      "different_draft_values": true,
+      "resolution": "not_selected; translation review deferred"
+    }
+  ]
+}

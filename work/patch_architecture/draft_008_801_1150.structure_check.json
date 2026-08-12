@@ -1,0 +1,103 @@
+{
+  "schema_version": "fatal-twelve-ko-structure-check-v1",
+  "subject": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-10\\f-down-fatal-twelve-incl-dlc\\work\\patch_architecture\\draft_008_801_1150.json",
+  "validation_scope": "structure_only",
+  "translation_qa_performed": false,
+  "translation_qa": "deferred_until_full_first_draft",
+  "passed": true,
+  "summary": {
+    "catalog_total_records": 1500,
+    "draft_entries": 350,
+    "command_index_start": 801,
+    "command_index_end": 1150,
+    "first_source_line": 3254,
+    "last_source_line": 4567,
+    "lanes": {
+      "dialogue": 116,
+      "narration": 234
+    },
+    "translate_blocks": 350,
+    "voice_lines": 116,
+    "menu_entries": 0,
+    "unique_translation_ids": 350
+  },
+  "hashes": {
+    "japanese_source_sha256": "4953cea6a6f8f2c31206717a1942ff2bcfc8f14d96c06ace49ad38678eb008e9",
+    "catalog_sha256": "28b19aaa45a757d934c116cd8d287c4524bed6663343b103a6b882600a13aeb9",
+    "catalog_meta_sha256": "adb4621f5a4ad9fda70b11cde676c84473ca8b4829478d4fa8a3511c7735b4d9",
+    "catalog_validation_sha256": "fc27b193263721517a96980d314141da2cb9b8c2fb0417698b6f3a10858e87ea",
+    "draft_json_sha256": "e7a84dbef821000101c61aa1737d0a8e03b0bfe9f6bc26372a4e76fb3b936153",
+    "draft_rpy_sha256": "5c578fb0ecd220a6bf2ae4f6a6716bca7a9c98138c0a7e8066108fdf93c4b0e8"
+  },
+  "checks": {
+    "exact_range": {
+      "passed": true,
+      "detail": {
+        "expected_count": 350,
+        "catalog_count": 350,
+        "draft_count": 350
+      }
+    },
+    "packet_metadata": {
+      "passed": true
+    },
+    "packet_flags": {
+      "passed": true
+    },
+    "exact_catalog_identity": {
+      "passed": true,
+      "detail": {
+        "mismatch_count": 0,
+        "mismatches": []
+      }
+    },
+    "entry_flags_and_nonempty": {
+      "passed": true,
+      "detail": {
+        "bad_commands": []
+      }
+    },
+    "protected_token_multisets": {
+      "passed": true,
+      "detail": {
+        "mismatch_count": 0,
+        "mismatches": []
+      }
+    },
+    "translate_blocks": {
+      "passed": true,
+      "detail": {
+        "blocks": 350,
+        "unique_ids": 350
+      }
+    },
+    "translate_id_order": {
+      "passed": true
+    },
+    "menu_lane_absent": {
+      "passed": true
+    },
+    "control_voice_display_tail": {
+      "passed": true,
+      "detail": {
+        "mismatch_count": 0,
+        "mismatches": []
+      }
+    },
+    "voice_count": {
+      "passed": true,
+      "detail": {
+        "expected": 116,
+        "actual": 116
+      }
+    },
+    "catalog_source_rebuild_validation": {
+      "passed": true,
+      "detail": {
+        "records": 1500,
+        "errors": 0,
+        "warnings": 0
+      }
+    }
+  }
+}

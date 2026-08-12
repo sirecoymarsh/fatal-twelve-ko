@@ -1,0 +1,25 @@
+176	L0732	narration	narrator	中等部は利用禁止だが、高等部になると使用が許可される。
+177	L0734	narration	narrator	だが、大学生が和気あいあいとしている中で利用するのは気が引けるから、大体は購買で昼食を買って持ち帰るだけというのが多い。
+178	L0736	narration	narrator	特に私たちは目立つので、居心地があまりよくないのだ。
+179	L0738	narration	narrator	そんな事情があり、私たちは食堂に隣接している購買へ行って、屋上へ戻って来ていた。
+180	L0743	dialogue	mao	「うーん、貸し切りだ」
+181	L0745	narration	narrator	幸いにも、今日は私たち以外には誰もいなかった。屋上は開放されていて、晴れであれば昼食をここでとる生徒も多いのだが、珍しい。
+182	L0750	dialogue	mao	「そういえばさ、二人は何を買ったのぉ？」
+183	L0755	dialogue	miharu	「ぼくはハムサンドだよ。シンプルで外れがないし、何より安いからね」
+184	L0760	dialogue	mao	「えー、それで足りるー？」
+185	L0765	dialogue	miharu	「真央こそ、焼きそばパンとあんパンだろう？　量で言えばそんなに変わらないよ」
+186	L0770	dialogue	mao	「いやいや、うちはコーヒー牛乳を買ってるからカロリーは圧勝だねぇ」
+187	L0772	narration	narrator	真央は勝ち誇った顔で言うと、紙パックにストローを差した。
+188	L0774	narration	narrator	500ミリリットルの紙パックだ。昼休みで飲み切るには少し多い気もする。
+189	L0779	dialogue	rinka	「カロリーで勝負してどうすんの？」
+190	L0784	dialogue	mao	「うーん、太る？」
+191	L0789	dialogue	rinka	「駄目だろそれ……」
+192	L0794	dialogue	mao	「りーたんはもう少し太った方がいいと思うけどねぇ」
+193	L0799	dialogue	rinka	「……胸見ながら言わないでくれる？」
+194	L0804	dialogue	mao	「おーこわ」
+195	L0806	narration	narrator	私は呆れてため息をついた。自覚はあるから、こんな時にわざわざ言わないで欲しい。
+196	L0808	narration	narrator	特に、海晴が隣にいると顕著だ。
+197	L0813	dialogue	miharu	「それで、凛火は何を買ったのかな？」
+198	L0818	dialogue	rinka	「……カツサンド」
+199	L0823	dialogue	mao	「はい、りーたんの優勝。やっぱりカロリー摂取する気あるんだねぇ」
+200	L0828	dialogue	rinka	「競ってないから」
