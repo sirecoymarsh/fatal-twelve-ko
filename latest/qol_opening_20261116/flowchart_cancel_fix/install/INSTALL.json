@@ -1,0 +1,76 @@
+{
+  "status": "INSTALLED",
+  "installed_at": "2026-11-16T20:39:48.146024+09:00",
+  "files": [
+    {
+      "path": "runtime_review\\game\\f12_flowchart.rpy",
+      "before": "5f1d5776554f11ae1f29e07e9bd631eba24f9d3e11b7f53ace1c4bc4e66945b4",
+      "after": "b98d6ab6b5b41133c0512032a0c345e067743bd58257afdac8a4be4f46a92527"
+    },
+    {
+      "path": "qol_opening_20261116\\delivery\\f12_flowchart.rpy",
+      "before": "5f1d5776554f11ae1f29e07e9bd631eba24f9d3e11b7f53ace1c4bc4e66945b4",
+      "after": "b98d6ab6b5b41133c0512032a0c345e067743bd58257afdac8a4be4f46a92527"
+    },
+    {
+      "path": "runtime_review\\game\\f12_flowchart.rpyc",
+      "before": "d50fa52852532fcc4ebb60799ed0443827c6d5e93247cebf861671d1e3923180",
+      "after": "3f522f16d07f2c3eb574ebc5b958f7b663f4bec5d87e2585c286049bd43882e3"
+    },
+    {
+      "path": "qol_opening_20261116\\delivery\\f12_flowchart.rpyc",
+      "before": "d50fa52852532fcc4ebb60799ed0443827c6d5e93247cebf861671d1e3923180",
+      "after": "3f522f16d07f2c3eb574ebc5b958f7b663f4bec5d87e2585c286049bd43882e3"
+    },
+    {
+      "path": "runtime_review\\game\\f12_bonus_access.rpy",
+      "before": "0d4b76f0fa96fdef2cb329ad05ff22cc68925a615f48b58814acf5f4581df219",
+      "after": "8c5117653d051fd5006a3d521e4783f4fe5d2329adb0fc624908c0902acaa39d"
+    },
+    {
+      "path": "qol_opening_20261116\\delivery\\f12_bonus_access.rpy",
+      "before": "0d4b76f0fa96fdef2cb329ad05ff22cc68925a615f48b58814acf5f4581df219",
+      "after": "8c5117653d051fd5006a3d521e4783f4fe5d2329adb0fc624908c0902acaa39d"
+    },
+    {
+      "path": "runtime_review\\game\\f12_bonus_access.rpyc",
+      "before": "db02d84a085de183eb3a3c7cc1cf99b587eab5f5f1d7f4f517274220a4b499fc",
+      "after": "096afd570b423bd96a7555954a888f413964b81ad88c45a28018ba4ecdc5eb19"
+    },
+    {
+      "path": "qol_opening_20261116\\delivery\\f12_bonus_access.rpyc",
+      "before": "db02d84a085de183eb3a3c7cc1cf99b587eab5f5f1d7f4f517274220a4b499fc",
+      "after": "096afd570b423bd96a7555954a888f413964b81ad88c45a28018ba4ecdc5eb19"
+    },
+    {
+      "path": "qol_opening_20261116\\bonus_functions.txt",
+      "before": "5208ea713b7a2c671acf282f194e49845f23d3ec94e52241a9da57ca5fe745ef",
+      "after": "9084378ff0c2e290c5e50620e318a528ff6eb9566707ec86ee841bcb0611e45b"
+    },
+    {
+      "path": "qol_opening_20261116\\build_bonus.py",
+      "before": "954fe22db5cd46a78448fca8e5118108f81118b431aa3af96f9a39ec45242fac",
+      "after": "8b236440dec40069ffd37991a1620894b01ce75758705389b28c7daee2e0997b"
+    },
+    {
+      "path": "qol_opening_20261116\\install\\INSTALL.json",
+      "before": "f4d5e752ef760e02b9c02ec5b973a86ec7eb022bf0591a956d71841112e35063",
+      "after": "8cfb193d789aa873b943df76c7ab82a7c7f6d9b10a39d6702e127cd9f5e18fb8"
+    },
+    {
+      "path": "qol_opening_20261116\\PROGRESS.json",
+      "before": "a089af6ddbec64fa705b380e60ca7514cb8ecde6bbe6a68dd50735b93a4e10ab",
+      "after": "a308476dbae11654b29a3750c9efc5a5b9282e496186dff2cd41a610615450c5"
+    }
+  ],
+  "checks": [
+    "old_setup",
+    "old_reopen",
+    "old_save_fixed",
+    "cancel_after_reopen",
+    "verify_reclosed"
+  ],
+  "official_reference": "https://www.renpy.org/doc/html/persistent.html",
+  "engine": "Ren'Py 6.99.14.3.3347",
+  "player_save_files_written": []
+}

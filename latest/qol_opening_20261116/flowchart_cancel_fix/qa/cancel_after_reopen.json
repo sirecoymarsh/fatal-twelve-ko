@@ -1,0 +1,53 @@
+{
+  "engine": "6.99.14.3.3347", 
+  "ingame": {
+    "before": {
+      "open_columns": 24, 
+      "selected": 0, 
+      "open_weeks": 13, 
+      "view": true, 
+      "selected_key": "1주차"
+    }, 
+    "after_cancel": {
+      "open_columns": 1, 
+      "selected": 0, 
+      "open_weeks": 1, 
+      "view": false, 
+      "selected_key": "1주차"
+    }
+  }, 
+  "extra": {
+    "before": {
+      "open_columns": 24, 
+      "selected": 0, 
+      "open_weeks": 13, 
+      "view": true, 
+      "selected_key": "1주차"
+    }, 
+    "after_cancel": {
+      "open_columns": 1, 
+      "selected": 0, 
+      "open_weeks": 1, 
+      "view": false, 
+      "selected_key": "1주차"
+    }
+  }, 
+  "replay": {
+    "before": {
+      "open_columns": 24, 
+      "selected": 0, 
+      "open_weeks": 13, 
+      "view": true, 
+      "selected_key": "1주차"
+    }, 
+    "after_cancel": {
+      "open_columns": 1, 
+      "selected": 0, 
+      "open_weeks": 1, 
+      "view": false, 
+      "selected_key": "1주차"
+    }
+  }, 
+  "status": "PASS", 
+  "phase": "cancel_after_reopen"
+}

@@ -1,0 +1,13 @@
+    def f12_fc_revealed():
+        # Existing saves may have an explicit chart choice, including False.
+        choice = renpy.game.persistent.f12_fc_reveal
+        if choice is None:
+            return f12_bonus_enabled()
+        return bool(choice)
+
+    def f12_fc_set_revealed(reveal):
+        renpy.game.persistent.f12_fc_reveal = bool(reveal)
+        renpy.save_persistent()
+
+    def f12_fc_bonus_preview():
+        return f12_bonus_enabled() and f12_fc_revealed()

@@ -1,0 +1,58 @@
+﻿[Script Info]
+Title: Fatal Twelve bilingual lyrics — 48px readability revision v62
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+ScaledBorderAndShadow: yes
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Original,Noto Serif KR,48,&H00FFFFFF,&H000000FF,&H00101010,&H80101010,-1,0,0,0,100,100,0,0,1,2.6,1.0,2,40,40,73,1
+Style: Korean,Noto Serif KR,48,&H00E8E8E8,&H000000FF,&H00101010,&H80101010,0,0,0,0,100,100,0,0,1,2.6,1.0,2,40,40,12,1
+Style: Pending,Noto Sans KR,21,&H007BD5FF,&H000000FF,&H00101018,&H80101018,0,0,0,0,100,100,0,0,1,1.3,0,2,40,40,12,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:16.00,0:00:17.60,Original,,0,0,0,,記憶が見せる夢
+Dialogue: 1,0:00:16.00,0:00:17.60,Korean,,0,0,0,,기억이 보여 주는 꿈
+Dialogue: 1,0:00:17.60,0:00:20.06,Original,,0,0,0,,ぼやけたその景色に
+Dialogue: 1,0:00:17.60,0:00:20.06,Korean,,0,0,0,,희미한 그 풍경 속에서
+Dialogue: 1,0:00:20.06,0:00:21.70,Original,,0,0,0,,交わる運命が
+Dialogue: 1,0:00:20.06,0:00:21.70,Korean,,0,0,0,,서로 얽힌 운명이
+Dialogue: 1,0:00:21.70,0:00:23.76,Original,,0,0,0,,私を引き寄せた
+Dialogue: 1,0:00:21.70,0:00:23.76,Korean,,0,0,0,,나를 끌어당겼어
+Dialogue: 1,0:00:23.76,0:00:25.76,Original,,0,0,0,,{\an2\pos(640,399)}想いが渦巻いた
+Dialogue: 1,0:00:23.76,0:00:25.76,Korean,,0,0,0,,{\an2\pos(640,460)}마음이 소용돌이치던
+Dialogue: 1,0:00:25.76,0:00:27.60,Original,,0,0,0,,{\an2\pos(640,399)}表裏の無い世界
+Dialogue: 1,0:00:25.76,0:00:27.60,Korean,,0,0,0,,{\an2\pos(640,460)}겉과 속이 따로 없는 세상
+Dialogue: 1,0:00:27.60,0:00:31.08,Original,,0,0,0,,{\an2\pos(640,399)}君との約束を見つけるため
+Dialogue: 1,0:00:27.60,0:00:31.08,Korean,,0,0,0,,{\an2\pos(640,460)}너와의 약속을 찾기 위해
+Dialogue: 1,0:00:32.00,0:00:35.68,Original,,0,0,0,,あの日から止まっていた
+Dialogue: 1,0:00:32.00,0:00:35.68,Korean,,0,0,0,,그날부터 멈춰 있던
+Dialogue: 1,0:00:35.68,0:00:39.82,Original,,0,0,0,,時が今
+Dialogue: 1,0:00:35.68,0:00:39.82,Korean,,0,0,0,,시간이 이제
+Dialogue: 1,0:00:40.02,0:00:43.40,Original,,0,0,0,,そんな未来へ
+Dialogue: 1,0:00:40.02,0:00:43.40,Korean,,0,0,0,,그런 미래를 향해
+Dialogue: 1,0:00:43.40,0:00:46.28,Original,,0,0,0,,動き始めた
+Dialogue: 1,0:00:43.40,0:00:46.28,Korean,,0,0,0,,움직이기 시작했어
+Dialogue: 1,0:00:46.36,0:00:51.66,Original,,0,0,0,,I won’t to live, In a limited time.
+Dialogue: 1,0:00:46.36,0:00:51.66,Korean,,0,0,0,,남이 정한 시간 속에선 살고 싶지 않아
+Dialogue: 1,0:00:51.66,0:00:55.32,Original,,0,0,0,,絶望に抗え
+Dialogue: 1,0:00:51.66,0:00:55.32,Korean,,0,0,0,,절망에 맞서
+Dialogue: 1,0:00:55.32,0:00:59.66,Original,,0,0,0,,Resolution of the heart and soul.
+Dialogue: 1,0:00:55.32,0:00:59.66,Korean,,0,0,0,,마음과 영혼의 결의
+Dialogue: 1,0:00:59.66,0:01:03.36,Original,,0,0,0,,この手で この声で
+Dialogue: 1,0:00:59.66,0:01:03.36,Korean,,0,0,0,,이 손으로, 이 목소리로
+Dialogue: 1,0:01:03.40,0:01:10.90,Original,,0,0,0,,{\an2\pos(560,647)}彼方で揺らめくあの光が
+Dialogue: 1,0:01:03.40,0:01:10.90,Korean,,0,0,0,,{\an2\pos(560,708)}아득히 일렁이는 저 빛이
+Dialogue: 1,0:01:11.96,0:01:16.15,Original,,0,0,0,,未来へと続いていく
+Dialogue: 1,0:01:11.96,0:01:16.15,Korean,,0,0,0,,미래로 이어져 가
+Dialogue: 1,0:01:19.94,0:01:23.86,Original,,0,0,0,,Still I am in this world.
+Dialogue: 1,0:01:19.94,0:01:23.86,Korean,,0,0,0,,난 아직 이 세상에 있어
+Dialogue: 1,0:01:24.04,0:01:27.42,Original,,0,0,0,,I won't to giving up.
+Dialogue: 1,0:01:24.04,0:01:27.42,Korean,,0,0,0,,포기하지 않을 거야
+Dialogue: 1,0:01:27.50,0:01:31.76,Original,,0,0,0,,Fate and hate, endless sorrow.
+Dialogue: 1,0:01:27.50,0:01:31.76,Korean,,0,0,0,,운명과 증오, 끝없는 슬픔
+Dialogue: 1,0:01:31.84,0:01:36.20,Original,,0,0,0,,crave on fate, the meaning of my life.
+Dialogue: 1,0:01:31.84,0:01:36.20,Korean,,0,0,0,,운명 속에서 갈망해, 내 삶의 의미를

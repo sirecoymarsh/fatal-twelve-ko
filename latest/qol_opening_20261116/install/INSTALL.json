@@ -1,0 +1,51 @@
+{
+  "status": "INSTALLED",
+  "files": [
+    {
+      "path": "tl/korean/movies/OP.mkv",
+      "before": "0d5eae4f3a49fa2b98cd16eb0b2066b09153b63a0c33bed3ec877923d7d3e10c",
+      "after": "4c8ed0e374e20d065a2d14062b64a3660c19d85262114aa45c7263f771853492",
+      "backup": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\qol_opening_20261116\\install\\before\\tl\\korean\\movies\\OP.mkv"
+    },
+    {
+      "path": "tl/korean/movies/ED_MHR_UNH.mkv",
+      "before": "f9892e9fd4e658b0d48f3c03bb15e75426f18e29bd37a3f0c2bdb925f7811e79",
+      "after": "2e5d497e2a4cf1cf22e157ed8d623e7ebd4259ee4a16103dfc2b143e9265c5ad",
+      "backup": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\qol_opening_20261116\\install\\before\\tl\\korean\\movies\\ED_MHR_UNH.mkv"
+    },
+    {
+      "path": "f12_bonus_access.rpy",
+      "before": null,
+      "after": "8c5117653d051fd5006a3d521e4783f4fe5d2329adb0fc624908c0902acaa39d",
+      "backup": null
+    },
+    {
+      "path": "f12_bonus_access.rpyc",
+      "before": null,
+      "after": "096afd570b423bd96a7555954a888f413964b81ad88c45a28018ba4ecdc5eb19",
+      "backup": null
+    },
+    {
+      "path": "f12_flowchart.rpy",
+      "before": "5923f30f02053a470ef6b7e85f9e709ec734f693d38c4a2f36074870eb7c4e27",
+      "after": "b98d6ab6b5b41133c0512032a0c345e067743bd58257afdac8a4be4f46a92527",
+      "backup": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\qol_opening_20261116\\install\\before\\f12_flowchart.rpy"
+    },
+    {
+      "path": "f12_flowchart.rpyc",
+      "before": "cdd17ebf6d9c80b97d65d9f69e8b60113ae381743d0bff4dcece6fbc9aead2bf",
+      "after": "3f522f16d07f2c3eb574ebc5b958f7b663f4bec5d87e2585c286049bd43882e3",
+      "backup": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\qol_opening_20261116\\install\\before\\f12_flowchart.rpyc"
+    }
+  ],
+  "updated": "2026-11-16T20:18:32.050296+09:00",
+  "wording": "남이 정한 시간 속에선 살고 싶지 않아",
+  "feature_test": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\qol_opening_20261116\\game_qa\\functional.json",
+  "video_validation": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\qol_opening_20261116\\movie_validation.json",
+  "playback": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\qol_opening_20261116\\game_qa\\movie.json",
+  "subtitle_sources": [
+    "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\qol_opening_20261116\\delivery\\OP.ass",
+    "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\qol_opening_20261116\\delivery\\ED_MHR_UNH.ass"
+  ],
+  "flowchart_cancel_fix": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\qol_opening_20261116\\flowchart_cancel_fix\\install\\INSTALL.json"
+}

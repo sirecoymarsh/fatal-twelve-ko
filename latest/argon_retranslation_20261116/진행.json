@@ -1,0 +1,36 @@
+{
+  "stage": "completed",
+  "updated": "2026-11-15T23:10:24.067860+00:00",
+  "model": "gemini-4-argon",
+  "total_rows": 18184,
+  "queued_for_argon": 16919,
+  "carbon_rows": 1265,
+  "argon_rows": 16919,
+  "verified_rows": 18184,
+  "remaining_rows": 0,
+  "unique_rows_sent": 16919,
+  "not_yet_sent": 0,
+  "http_responses": 213,
+  "http_status_counts": {
+    "200": 213
+  },
+  "provider_tokens": {
+    "promptTokenCount": 4223046,
+    "candidatesTokenCount": 657751,
+    "thoughtsTokenCount": 0,
+    "cachedContentTokenCount": 56160
+  },
+  "last_chunk": "C201",
+  "last_http": 200,
+  "last_finish": "STOP",
+  "last_returned_model": "gemini-4-argon",
+  "last_success": "2026-11-15T23:10:20.536721+00:00",
+  "rows_needing_review": 0,
+  "source_guide_model": "gemini-4-carbon",
+  "guide_sha256": "ca0bd90a4ba2a3c054821e3e0b557dc92ecf1cfe5ffc5014e22a8ac5a55231c2",
+  "native_implementation": "AItranslator v1.11",
+  "worker_pid": 22708,
+  "merged": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\argon_20261116\\Fatal_Twelve_한국어.jsonl",
+  "packet_zip": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\argon_20261116\\Fatal_Twelve_한국어_29패킷.zip",
+  "message": "모든 행의 원문 연결과 패킷 순서를 확인했습니다."
+}

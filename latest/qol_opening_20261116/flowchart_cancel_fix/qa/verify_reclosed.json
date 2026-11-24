@@ -1,0 +1,19 @@
+{
+  "phase": "verify_reclosed", 
+  "engine": "6.99.14.3.3347", 
+  "system_cancel_after_local_open": {
+    "open_columns": 1, 
+    "selected": 0, 
+    "open_weeks": 1, 
+    "view": false, 
+    "selected_key": "1주차"
+  }, 
+  "status": "PASS", 
+  "after_second_restart": {
+    "open_columns": 1, 
+    "selected": 0, 
+    "open_weeks": 1, 
+    "view": false, 
+    "selected_key": "1주차"
+  }
+}

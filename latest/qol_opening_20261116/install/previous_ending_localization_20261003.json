@@ -1,0 +1,52 @@
+{
+  "version": "v3",
+  "record": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\ending_localization_20261003\\installation_v3\\20261004_014659\\INSTALL_RECORD.json",
+  "status": "INSTALLED_VERIFIED_NOT_RUNTIME_PLAYED",
+  "assets": [
+    {
+      "asset": "ED_BAD",
+      "target": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\runtime_review\\game\\tl\\korean\\movies\\ED_BAD.mkv",
+      "stage": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\ending_localization_20261003\\installation_v2\\20261003_235516\\staging\\ED_BAD.mkv",
+      "sha256": "4829a292a38a9f33b8e8f1441bd082d99517133d86aefde00316072f460d980b",
+      "bytes": 25433279,
+      "baseline": "absent localized file; fallback to unchanged movies.rpa",
+      "source_movie_sha256": "697c8e3fda8ce55b4b9977f29a07049638404e353013abfdb99f73f375ac8637",
+      "preview_sha256": "4ae7195d256dd77962f8d37fd488899d7c92bf8f9017c160bf79103386181ffa",
+      "original_backup": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\ending_localization_20261003\\installation_v2\\20261003_235516\\recovery\\ED_BAD.original.mkv",
+      "patched_backup": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\ending_localization_20261003\\installation_v2\\20261003_235516\\recovery\\ED_BAD.patched.mkv",
+      "packet_data_and_timing_equal_to_review_preview": true,
+      "full_decode_errors": 0
+    },
+    {
+      "asset": "ED_MHR_UNH",
+      "target": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\runtime_review\\game\\tl\\korean\\movies\\ED_MHR_UNH.mkv",
+      "stage": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\ending_localization_20261003\\installation_v2\\20261003_235516\\staging\\ED_MHR_UNH.mkv",
+      "sha256": "f9892e9fd4e658b0d48f3c03bb15e75426f18e29bd37a3f0c2bdb925f7811e79",
+      "bytes": 110159265,
+      "baseline": "absent localized file; fallback to unchanged movies.rpa",
+      "source_movie_sha256": "a13658c4fdcfa5403090d9776b043cba406be4139f318d52b0b26fb3bd20474a",
+      "preview_sha256": "71f692f8f2edb28eca3dcb1665e1571b62538d9b088f4f7a41fd2e9206d314b2",
+      "original_backup": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\ending_localization_20261003\\installation_v2\\20261003_235516\\recovery\\ED_MHR_UNH.original.mkv",
+      "patched_backup": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\ending_localization_20261003\\installation_v2\\20261003_235516\\recovery\\ED_MHR_UNH.patched.mkv",
+      "packet_data_and_timing_equal_to_review_preview": true,
+      "full_decode_errors": 0
+    },
+    {
+      "asset": "ED_TRUE",
+      "target": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\runtime_review\\game\\tl\\korean\\movies\\ED_TRUE.mkv",
+      "stage": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\ending_localization_20261003\\delivery_v3\\ED_TRUE.mkv",
+      "sha256": "cce10656feceaed3c76f410c039a07b9c929fc2e862da81ff0b5d2600701b585",
+      "bytes": 113528881,
+      "baseline": "verified installed v2 ending",
+      "source_movie_sha256": "0c07a72cbe84010506eb3a6359db0e06372171fdc87c4763aa9a7d72231b3c71",
+      "preview_sha256": "ef04103c9cbba154a6c1798266dcba131f33165fd6964ad5bac1c630df3f3ac2",
+      "original_backup": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\ending_localization_20261003\\installation_v2\\20261003_235516\\recovery\\ED_TRUE.original.mkv",
+      "patched_backup": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\ending_localization_20261003\\installation_v3\\20261004_014659\\recovery\\ED_TRUE.patched_v3.mkv",
+      "packet_data_and_timing_equal_to_review_preview": true,
+      "full_decode_errors": 0,
+      "previous_version_backup": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\ending_localization_20261003\\installation_v3\\20261004_014659\\recovery\\ED_TRUE.previous_v2.mkv"
+    }
+  ],
+  "backup": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\ending_localization_20261003\\installation_v3\\20261004_014659\\recovery",
+  "runtime_playback_verified": false
+}

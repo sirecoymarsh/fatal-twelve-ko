@@ -1,0 +1,19 @@
+    frame:
+        style "preferences_options_frame"
+        xpos 40
+        ypos 548
+        xsize 1200
+
+        label f12_bonus_label(u"특전", u"Extras", u"特典"):
+            style "preferences_options_label"
+
+        hbox:
+            style "preferences_options_hbox"
+
+            textbutton f12_bonus_label(u"특전 개방", u"Unlock extras", u"特典を開放"):
+                style "preferences_options_button"
+                action F12BonusSetting(True)
+
+            textbutton f12_bonus_label(u"개방 취소", u"Cancel unlock", u"開放を取り消す"):
+                style "preferences_options_button"
+                action F12BonusSetting(False)

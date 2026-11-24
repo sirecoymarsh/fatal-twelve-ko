@@ -1,0 +1,32 @@
+{
+  "engine": "6.99.14.3.3347", 
+  "status": "PASS", 
+  "first_cancel": [
+    {
+      "open_columns": 24, 
+      "selected": 0, 
+      "open_weeks": 13, 
+      "view": true, 
+      "selected_key": "1주차"
+    }, 
+    true
+  ], 
+  "phase": "old_reopen", 
+  "second_click": [
+    {
+      "open_columns": 24, 
+      "selected": 0, 
+      "open_weeks": 13, 
+      "view": true, 
+      "selected_key": "1주차"
+    }, 
+    false
+  ], 
+  "before": {
+    "open_columns": 24, 
+    "selected": 0, 
+    "open_weeks": 13, 
+    "view": true, 
+    "selected_key": "1주차"
+  }
+}

@@ -1,0 +1,409 @@
+[Script Info]
+Title: Fatal Twelve ending localization — REVIEW CANDIDATE
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+ScaledBorderAndShadow: yes
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Credit,Noto Serif KR,29,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,8,20,20,0,1
+Style: CreditEN,Noto Serif KR,18,&H00D0D0D0,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,8,20,20,0,1
+Style: Original,Noto Serif KR,48,&H00FFFFFF,&H000000FF,&H00101010,&H80101010,-1,0,0,0,100,100,0,0,1,2.6,1.0,2,40,40,73,1
+Style: Korean,Noto Serif KR,48,&H00E8E8E8,&H000000FF,&H00101010,&H80101010,0,0,0,0,100,100,0,0,1,2.6,1.0,2,40,40,12,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.00,0:00:14.22,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs24\fscx100.00}출연
+Dialogue: 0,0:00:01.00,0:00:14.22,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Cast
+Dialogue: 0,0:00:02.43,0:00:15.65,Credit,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,568,616,-80.000)\fs29\fscx100.00}시시마이 린카
+Dialogue: 0,0:00:02.43,0:00:15.65,CreditEN,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,603,616,-45.000)\fscx100.00}Rinka Shishimai
+Dialogue: 0,0:00:02.43,0:00:15.65,Credit,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,568,652,-80.000)\fs29\fscx100.00}마쓰이 에리코
+Dialogue: 0,0:00:02.43,0:00:15.65,CreditEN,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,603,652,-45.000)\fscx100.00}Eriko Matsui
+Dialogue: 0,0:00:03.82,0:00:17.04,Credit,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,568,616,-80.000)\fs29\fscx100.00}히츠지 나오미
+Dialogue: 0,0:00:03.82,0:00:17.04,CreditEN,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,603,616,-45.000)\fscx100.00}Naomi Hitsuji
+Dialogue: 0,0:00:03.82,0:00:17.04,Credit,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,568,652,-80.000)\fs29\fscx100.00}가쿠모토 아스카
+Dialogue: 0,0:00:03.82,0:00:17.04,CreditEN,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,603,652,-45.000)\fscx100.00}Asuka Kakumoto
+Dialogue: 0,0:00:05.20,0:00:18.43,Credit,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,568,616,-80.000)\fs29\fscx100.00}미시마 미하루
+Dialogue: 0,0:00:05.20,0:00:18.43,CreditEN,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,603,616,-45.000)\fscx100.00}Miharu Mishima
+Dialogue: 0,0:00:05.20,0:00:18.43,Credit,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,568,652,-80.000)\fs29\fscx100.00}고마가타 유리
+Dialogue: 0,0:00:05.20,0:00:18.43,CreditEN,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,603,652,-45.000)\fscx100.00}Yuri Komagata
+Dialogue: 0,0:00:06.59,0:00:19.82,Credit,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,568,616,-80.000)\fs29\fscx100.00}운명의 여신 파르카
+Dialogue: 0,0:00:06.59,0:00:19.82,CreditEN,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,603,616,-45.000)\fscx100.00}Parca, Goddess of Destiny
+Dialogue: 0,0:00:06.59,0:00:19.82,Credit,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,568,652,-80.000)\fs29\fscx100.00}노무라 가나코
+Dialogue: 0,0:00:06.59,0:00:19.82,CreditEN,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,603,652,-45.000)\fscx100.00}Kanako Nomura
+Dialogue: 0,0:00:07.98,0:00:21.20,Credit,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,568,616,-80.000)\fs29\fscx100.00}페데리코 카르미나티
+Dialogue: 0,0:00:07.98,0:00:21.20,CreditEN,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,603,616,-45.000)\fscx100.00}Federico Carminati
+Dialogue: 0,0:00:07.98,0:00:21.20,Credit,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,568,652,-80.000)\fs29\fscx100.00}고이데 히로시
+Dialogue: 0,0:00:07.98,0:00:21.20,CreditEN,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,603,652,-45.000)\fscx100.00}Hiroshi Koide
+Dialogue: 0,0:00:09.37,0:00:22.59,Credit,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,568,616,-80.000)\fs29\fscx100.00}오데트 말랑송
+Dialogue: 0,0:00:09.37,0:00:22.59,CreditEN,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,603,616,-45.000)\fscx100.00}Odette Malencon
+Dialogue: 0,0:00:09.37,0:00:22.59,Credit,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,568,652,-80.000)\fs29\fscx100.00}오카무라 미나미
+Dialogue: 0,0:00:09.37,0:00:22.59,CreditEN,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,603,652,-45.000)\fscx100.00}Minami Okamura
+Dialogue: 0,0:00:10.75,0:00:23.98,Credit,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,568,616,-80.000)\fs29\fscx100.00}앨런 스콜피언
+Dialogue: 0,0:00:10.75,0:00:23.98,CreditEN,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,603,616,-45.000)\fscx100.00}Alan Scorpion
+Dialogue: 0,0:00:10.75,0:00:23.98,Credit,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,568,652,-80.000)\fs29\fscx100.00}마에다 구니히로
+Dialogue: 0,0:00:10.75,0:00:23.98,CreditEN,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,603,652,-45.000)\fscx100.00}Kunihiro Maeda
+Dialogue: 0,0:00:12.14,0:00:25.37,Credit,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,568,616,-80.000)\fs29\fscx100.00}유우
+Dialogue: 0,0:00:12.14,0:00:25.37,CreditEN,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,603,616,-45.000)\fscx100.00}Yuu
+Dialogue: 0,0:00:12.14,0:00:25.37,Credit,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,568,652,-80.000)\fs29\fscx100.00}사이토 미호
+Dialogue: 0,0:00:12.14,0:00:25.37,CreditEN,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,603,652,-45.000)\fscx100.00}Miho Saito
+Dialogue: 0,0:00:13.53,0:00:26.75,Credit,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,568,616,-80.000)\fs29\fscx100.00}오구마 마오
+Dialogue: 0,0:00:13.53,0:00:26.75,CreditEN,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,603,616,-45.000)\fscx100.00}Mao Oguma
+Dialogue: 0,0:00:13.53,0:00:26.75,Credit,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,568,652,-80.000)\fs29\fscx100.00}나나세 메구미
+Dialogue: 0,0:00:13.53,0:00:26.75,CreditEN,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,603,652,-45.000)\fscx100.00}Megumi Nanase
+Dialogue: 0,0:00:14.92,0:00:28.14,Credit,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,568,616,-80.000)\fs29\fscx100.00}스케일 존스
+Dialogue: 0,0:00:14.92,0:00:28.14,CreditEN,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,603,616,-45.000)\fscx100.00}Scale Jones
+Dialogue: 0,0:00:14.92,0:00:28.14,Credit,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,568,652,-80.000)\fs29\fscx100.00}다케다 나오토
+Dialogue: 0,0:00:14.92,0:00:28.14,CreditEN,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,603,652,-45.000)\fscx100.00}Naoto Takeda
+Dialogue: 0,0:00:16.31,0:00:29.53,Credit,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,568,616,-80.000)\fs29\fscx100.00}우시즈카 시게쓰구
+Dialogue: 0,0:00:16.31,0:00:29.53,CreditEN,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,603,616,-45.000)\fscx100.00}Shigetsugu Ushizuka
+Dialogue: 0,0:00:16.31,0:00:29.53,Credit,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,568,652,-80.000)\fs29\fscx100.00}무라오 쇼헤이
+Dialogue: 0,0:00:16.31,0:00:29.53,CreditEN,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,603,652,-45.000)\fscx100.00}Shouhei Murao
+Dialogue: 0,0:00:17.69,0:00:30.92,Credit,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,568,616,-80.000)\fs29\fscx100.00}소피아 프리즈녜치 알렉세예브나
+Dialogue: 0,0:00:17.69,0:00:30.92,CreditEN,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,603,616,-45.000)\fscx100.00}Sofiya Priessnitz Alexeievna
+Dialogue: 0,0:00:17.69,0:00:30.92,Credit,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,568,652,-80.000)\fs29\fscx100.00}린네
+Dialogue: 0,0:00:17.69,0:00:30.92,CreditEN,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,603,652,-45.000)\fscx100.00}Rinne
+Dialogue: 0,0:00:19.08,0:00:32.31,Credit,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,568,616,-80.000)\fs29\fscx100.00}카메부치 게이코
+Dialogue: 0,0:00:19.08,0:00:32.31,CreditEN,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,603,616,-45.000)\fscx100.00}Keiko Kamebuchi
+Dialogue: 0,0:00:19.08,0:00:32.31,Credit,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,568,652,-80.000)\fs29\fscx100.00}모리나카 아오이
+Dialogue: 0,0:00:19.08,0:00:32.31,CreditEN,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,603,652,-45.000)\fscx100.00}Aoi Morinaka
+Dialogue: 0,0:00:20.47,0:00:33.69,Credit,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,568,616,-80.000)\fs29\fscx100.00}장 장
+Dialogue: 0,0:00:20.47,0:00:33.69,CreditEN,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,603,616,-45.000)\fscx100.00}Chan Chan
+Dialogue: 0,0:00:20.47,0:00:33.69,Credit,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,568,652,-80.000)\fs29\fscx100.00}이마이즈미 유마
+Dialogue: 0,0:00:20.47,0:00:33.69,CreditEN,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,603,652,-45.000)\fscx100.00}Yuma Imaizumi
+Dialogue: 0,0:00:21.86,0:00:35.08,Credit,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,568,616,-80.000)\fs29\fscx100.00}로 창호
+Dialogue: 0,0:00:21.86,0:00:35.08,CreditEN,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,603,616,-45.000)\fscx100.00}Ro Chanho
+Dialogue: 0,0:00:21.86,0:00:35.08,Credit,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,568,652,-80.000)\fs29\fscx100.00}고바 요시유키
+Dialogue: 0,0:00:21.86,0:00:35.08,CreditEN,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,603,652,-45.000)\fscx100.00}Yoshiyuki Koba
+Dialogue: 0,0:00:23.24,0:00:36.47,Credit,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,568,616,-80.000)\fs29\fscx100.00}린다 해리슨
+Dialogue: 0,0:00:23.24,0:00:36.47,CreditEN,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,603,616,-45.000)\fscx100.00}Linda Harrison
+Dialogue: 0,0:00:23.24,0:00:36.47,Credit,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,568,652,-80.000)\fs29\fscx100.00}도야마 하즈미
+Dialogue: 0,0:00:23.24,0:00:36.47,CreditEN,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,603,652,-45.000)\fscx100.00}Hazumi Toyama
+Dialogue: 0,0:00:24.63,0:00:37.86,Credit,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,568,616,-80.000)\fs29\fscx100.00}다이아나 해리슨
+Dialogue: 0,0:00:24.63,0:00:37.86,CreditEN,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,603,616,-45.000)\fscx100.00}Diana Harrison
+Dialogue: 0,0:00:24.63,0:00:37.86,Credit,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,568,652,-80.000)\fs29\fscx100.00}노무라 가나코
+Dialogue: 0,0:00:24.63,0:00:37.86,CreditEN,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,603,652,-45.000)\fscx100.00}Kanako Nomura
+Dialogue: 0,0:00:26.02,0:00:39.24,Credit,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,568,616,-80.000)\fs29\fscx100.00}레테
+Dialogue: 0,0:00:26.02,0:00:39.24,CreditEN,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,603,616,-45.000)\fscx100.00}Lethe
+Dialogue: 0,0:00:26.02,0:00:39.24,Credit,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,568,652,-80.000)\fs29\fscx100.00}나가쓰카 고토
+Dialogue: 0,0:00:26.02,0:00:39.24,CreditEN,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,603,652,-45.000)\fscx100.00}Koto Nagatsuka
+Dialogue: 0,0:00:27.41,0:00:40.63,Credit,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,568,616,-80.000)\fs29\fscx100.00}이웃 주부
+Dialogue: 0,0:00:27.41,0:00:40.63,CreditEN,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,603,616,-45.000)\fscx100.00}Neighborhood Housewife
+Dialogue: 0,0:00:27.41,0:00:40.63,Credit,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,568,652,-80.000)\fs29\fscx100.00}도야마 하즈미
+Dialogue: 0,0:00:27.41,0:00:40.63,CreditEN,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,603,652,-45.000)\fscx100.00}Hazumi Toyama
+Dialogue: 0,0:00:30.75,0:00:43.98,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs24\fscx100.00}시나리오
+Dialogue: 0,0:00:30.75,0:00:43.98,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Story
+Dialogue: 0,0:00:32.22,0:00:45.45,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs29\fscx100.00}아케오
+Dialogue: 0,0:00:32.22,0:00:45.45,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Akeo
+Dialogue: 0,0:00:35.57,0:00:48.79,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs24\fscx100.00}캐릭터 디자인
+Dialogue: 0,0:00:35.57,0:00:48.79,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Character Design
+Dialogue: 0,0:00:37.04,0:00:50.26,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs29\fscx100.00}시오코지
+Dialogue: 0,0:00:37.04,0:00:50.26,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Shio-kozi
+Dialogue: 0,0:00:40.39,0:00:53.61,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs24\fscx100.00}원화·채색
+Dialogue: 0,0:00:40.39,0:00:53.61,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Original Drawings/Coloring
+Dialogue: 0,0:00:41.86,0:00:55.08,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs29\fscx100.00}시오코지
+Dialogue: 0,0:00:41.86,0:00:55.08,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Shio-kozi
+Dialogue: 0,0:00:45.20,0:00:58.43,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs24\fscx100.00}아트 디렉터
+Dialogue: 0,0:00:45.20,0:00:58.43,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Art Director
+Dialogue: 0,0:00:46.67,0:00:59.90,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs29\fscx100.00}시오코지
+Dialogue: 0,0:00:46.67,0:00:59.90,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Shio-kozi
+Dialogue: 0,0:00:50.02,0:01:03.24,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs24\fscx100.00}이벤트 CG 배경
+Dialogue: 0,0:00:50.02,0:01:03.24,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}EventCG Background Graphics
+Dialogue: 0,0:00:51.49,0:01:04.71,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(462,568,462,-80.000)\fs29\fscx100.00}시오코지
+Dialogue: 0,0:00:51.49,0:01:04.71,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(462,603,462,-45.000)\fscx100.00}Shio-kozi
+Dialogue: 0,0:00:51.49,0:01:04.71,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(842,568,842,-80.000)\fs29\fscx100.00}주식회사 큔 플랜트
+Dialogue: 0,0:00:51.49,0:01:04.71,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(842,603,842,-45.000)\fscx100.00}Qunplant
+Dialogue: 0,0:00:52.88,0:01:06.10,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(462,568,462,-80.000)\fs29\fscx100.00}VISMODEL
+Dialogue: 0,0:00:52.88,0:01:06.10,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(462,603,462,-45.000)\fscx100.00}VISMODEL
+Dialogue: 0,0:00:52.88,0:01:06.10,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(842,568,842,-80.000)\fs29\fscx100.00}하세가와 히로유키
+Dialogue: 0,0:00:52.88,0:01:06.10,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(842,603,842,-45.000)\fscx100.00}Hiroyuki Hasegawa
+Dialogue: 0,0:00:56.22,0:01:09.45,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs24\fscx100.00}마무리 작업
+Dialogue: 0,0:00:56.22,0:01:09.45,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Finisher
+Dialogue: 0,0:00:57.69,0:01:10.92,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs29\fscx100.00}시오코지
+Dialogue: 0,0:00:57.69,0:01:10.92,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Shio-kozi
+Dialogue: 0,0:01:01.04,0:01:14.26,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs24\fscx100.00}배경
+Dialogue: 0,0:01:01.04,0:01:14.26,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Background Graphics
+Dialogue: 0,0:01:02.51,0:01:15.73,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(462,568,462,-80.000)\fs29\fscx100.00}게이마루
+Dialogue: 0,0:01:02.51,0:01:15.73,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(462,603,462,-45.000)\fscx100.00}Keimaru
+Dialogue: 0,0:01:02.51,0:01:15.73,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(842,568,842,-80.000)\fs29\fscx100.00}주식회사 큔 플랜트
+Dialogue: 0,0:01:02.51,0:01:15.73,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(842,603,842,-45.000)\fscx100.00}Qunplant
+Dialogue: 0,0:01:03.90,0:01:17.12,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(462,568,462,-80.000)\fs29\fscx100.00}VISMODEL
+Dialogue: 0,0:01:03.90,0:01:17.12,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(462,603,462,-45.000)\fscx100.00}VISMODEL
+Dialogue: 0,0:01:03.90,0:01:17.12,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(842,568,842,-80.000)\fs29\fscx100.00}주식회사 센주공방
+Dialogue: 0,0:01:03.90,0:01:17.12,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(842,603,842,-45.000)\fscx100.00}SenjuKobo
+Dialogue: 0,0:01:07.24,0:01:20.47,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs24\fscx100.00}사운드 디렉터
+Dialogue: 0,0:01:07.24,0:01:20.47,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Sound Director
+Dialogue: 0,0:01:08.71,0:01:21.94,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs29\fscx100.00}Low
+Dialogue: 0,0:01:08.71,0:01:21.94,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Low
+Dialogue: 0,0:01:12.06,0:01:25.28,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs24\fscx100.00}음악
+Dialogue: 0,0:01:12.06,0:01:25.28,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Music
+Dialogue: 0,0:01:13.53,0:01:26.75,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs29\fscx100.00}Low
+Dialogue: 0,0:01:13.53,0:01:26.75,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Low
+Dialogue: 0,0:01:16.88,0:01:30.10,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs24\fscx100.00}연출·스크립트
+Dialogue: 0,0:01:16.88,0:01:30.10,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Presentation/Script
+Dialogue: 0,0:01:18.34,0:01:31.57,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs29\fscx100.00}다니엘레P
+Dialogue: 0,0:01:18.34,0:01:31.57,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}DanieleP
+Dialogue: 0,0:01:21.69,0:01:34.92,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs24\fscx100.00}연출 보조
+Dialogue: 0,0:01:21.69,0:01:34.92,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Presentation Assistant
+Dialogue: 0,0:01:23.16,0:01:36.39,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs29\fscx100.00}아케오
+Dialogue: 0,0:01:23.16,0:01:36.39,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Akeo
+Dialogue: 0,0:01:26.51,0:01:39.73,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs24\fscx100.00}게임 디자인
+Dialogue: 0,0:01:26.51,0:01:39.73,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Game Design
+Dialogue: 0,0:01:27.98,0:01:41.20,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs29\fscx100.00}다니엘레P
+Dialogue: 0,0:01:27.98,0:01:41.20,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}DanieleP
+Dialogue: 0,0:01:31.32,0:01:44.55,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs24\fscx100.00}음향 감독
+Dialogue: 0,0:01:31.32,0:01:44.55,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Recording Director
+Dialogue: 0,0:01:32.79,0:01:46.02,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs29\fscx100.00}모리 유스케 (주식회사 Giraffe)
+Dialogue: 0,0:01:32.79,0:01:46.02,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Yusuke Mori
+Dialogue: 0,0:01:36.14,0:01:49.36,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs24\fscx100.00}음성 편집
+Dialogue: 0,0:01:36.14,0:01:49.36,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Recording Director
+Dialogue: 0,0:01:37.61,0:01:50.83,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs29\fscx100.00}오키 시게코 (주식회사 Giraffe)
+Dialogue: 0,0:01:37.61,0:01:50.83,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Shigeko Oki
+Dialogue: 0,0:01:40.96,0:01:54.18,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs24\fscx100.00}캐스팅 협력
+Dialogue: 0,0:01:40.96,0:01:54.18,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Casting Assistant
+Dialogue: 0,0:01:42.43,0:01:55.65,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs29\fscx100.00}주식회사 Giraffe
+Dialogue: 0,0:01:42.43,0:01:55.65,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Giraffe
+Dialogue: 0,0:01:45.77,0:01:59.00,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs24\fscx100.00}소재
+Dialogue: 0,0:01:45.77,0:01:59.00,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Assets
+Dialogue: 0,0:01:47.24,0:02:00.47,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(462,568,462,-80.000)\fs29\fscx100.00}freeSFX
+Dialogue: 0,0:01:47.24,0:02:00.47,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(462,603,462,-45.000)\fscx100.00}freeSFX
+Dialogue: 0,0:01:47.24,0:02:00.47,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(842,568,842,-80.000)\fs29\fscx100.00}무료 효과음으로 놀자!
+Dialogue: 0,0:01:47.24,0:02:00.47,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(842,603,842,-45.000)\fscx100.00}Muryokoukaondeasobou!
+Dialogue: 0,0:01:48.63,0:02:01.85,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(462,568,462,-80.000)\fs29\fscx100.00}SensesCircuil
+Dialogue: 0,0:01:48.63,0:02:01.85,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(462,603,462,-45.000)\fscx100.00}SensesCircuil
+Dialogue: 0,0:01:48.63,0:02:01.85,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(842,568,842,-80.000)\fs29\fscx100.00}온진
+Dialogue: 0,0:01:48.63,0:02:01.85,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(842,603,842,-45.000)\fscx100.00}On-Jin
+Dialogue: 0,0:01:50.02,0:02:03.24,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(462,568,462,-80.000)\fs29\fscx100.00}SoundBible.com
+Dialogue: 0,0:01:50.02,0:02:03.24,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(462,603,462,-45.000)\fscx100.00}SoundBible.com
+Dialogue: 0,0:01:50.02,0:02:03.24,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(842,568,842,-80.000)\fs29\fscx100.00}freesound
+Dialogue: 0,0:01:50.02,0:02:03.24,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(842,603,842,-45.000)\fscx100.00}freesound
+Dialogue: 0,0:01:53.36,0:02:06.59,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs24\fscx100.00}UI 디자인
+Dialogue: 0,0:01:53.36,0:02:06.59,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}UI Design
+Dialogue: 0,0:01:54.83,0:02:08.06,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(462,568,462,-80.000)\fs29\fscx100.00}하세가와 히로유키
+Dialogue: 0,0:01:54.83,0:02:08.06,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(462,603,462,-45.000)\fscx100.00}Hiroyuki Hasegawa
+Dialogue: 0,0:01:54.83,0:02:08.06,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(842,568,842,-80.000)\fs29\fscx100.00}아케오
+Dialogue: 0,0:01:54.83,0:02:08.06,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(842,603,842,-45.000)\fscx100.00}Akeo
+Dialogue: 0,0:01:58.18,0:02:11.40,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs24\fscx100.00}UI 문구
+Dialogue: 0,0:01:58.18,0:02:11.40,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}UI Text
+Dialogue: 0,0:01:59.65,0:02:12.87,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs29\fscx100.00}아케오
+Dialogue: 0,0:01:59.65,0:02:12.87,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Akeo
+Dialogue: 0,0:02:03.00,0:02:16.22,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs24\fscx100.00}일본어 문장 교정
+Dialogue: 0,0:02:03.00,0:02:16.22,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Japanese Text Proofreading
+Dialogue: 0,0:02:04.47,0:02:17.69,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs29\fscx100.00}구사나기 요스가
+Dialogue: 0,0:02:04.47,0:02:17.69,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Yosuga Kusanagi
+Dialogue: 0,0:02:07.81,0:02:21.04,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs24\fscx100.00}오프닝 테마
+Dialogue: 0,0:02:07.81,0:02:21.04,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Opening Theme
+Dialogue: 0,0:02:09.32,0:02:22.55,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs29\fscx100.00}「Unveil」
+Dialogue: 0,0:02:09.32,0:02:22.55,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}“Unveil”
+Dialogue: 0,0:02:11.04,0:02:24.26,Credit,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,568,616,-80.000)\fs29\fscx100.00}노래
+Dialogue: 0,0:02:11.04,0:02:24.26,CreditEN,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,603,616,-45.000)\fscx100.00}Vocals
+Dialogue: 0,0:02:11.04,0:02:24.26,Credit,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,568,652,-80.000)\fs29\fscx100.00}쿠유리
+Dialogue: 0,0:02:11.04,0:02:24.26,CreditEN,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,603,652,-45.000)\fscx100.00}Kuyuri
+Dialogue: 0,0:02:12.43,0:02:25.65,Credit,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,568,616,-80.000)\fs29\fscx100.00}기타 솔로
+Dialogue: 0,0:02:12.43,0:02:25.65,CreditEN,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,603,616,-45.000)\fscx100.00}Guitar Solo
+Dialogue: 0,0:02:12.43,0:02:25.65,Credit,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,568,652,-80.000)\fs29\fscx100.00}겟시
+Dialogue: 0,0:02:12.43,0:02:25.65,CreditEN,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,603,652,-45.000)\fscx100.00}Gesshi
+Dialogue: 0,0:02:13.81,0:02:27.04,Credit,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,568,616,-80.000)\fs29\fscx100.00}작사
+Dialogue: 0,0:02:13.81,0:02:27.04,CreditEN,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,603,616,-45.000)\fscx100.00}Lyrics
+Dialogue: 0,0:02:13.81,0:02:27.04,Credit,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,568,652,-80.000)\fs29\fscx100.00}TOSHIKI (from DAIZY BLUE)
+Dialogue: 0,0:02:13.81,0:02:27.04,CreditEN,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,603,652,-45.000)\fscx100.00}TOSHIKI (from DAIZY BLUE)
+Dialogue: 0,0:02:15.20,0:02:28.42,Credit,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,568,616,-80.000)\fs29\fscx100.00}작곡·편곡
+Dialogue: 0,0:02:15.20,0:02:28.42,CreditEN,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,603,616,-45.000)\fscx100.00}Composition/Arrangement
+Dialogue: 0,0:02:15.20,0:02:28.42,Credit,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,568,652,-80.000)\fs29\fscx100.00}Low
+Dialogue: 0,0:02:15.20,0:02:28.42,CreditEN,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,603,652,-45.000)\fscx100.00}Low
+Dialogue: 0,0:02:18.55,0:02:31.77,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs24\fscx100.00}오프닝 영상 제작
+Dialogue: 0,0:02:18.55,0:02:31.77,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Opening Video
+Dialogue: 0,0:02:20.02,0:02:33.24,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(462,568,462,-80.000)\fs29\fscx100.00}Ami Nakazawa
+Dialogue: 0,0:02:20.02,0:02:33.24,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(462,603,462,-45.000)\fscx100.00}Ami Nakazawa
+Dialogue: 0,0:02:20.02,0:02:33.24,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(842,568,842,-80.000)\fs29\fscx100.00}VISMODEL
+Dialogue: 0,0:02:20.02,0:02:33.24,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(842,603,842,-45.000)\fscx100.00}VISMODEL
+Dialogue: 0,0:02:23.36,0:02:36.59,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs24\fscx100.00}엔딩 테마
+Dialogue: 0,0:02:23.36,0:02:36.59,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Ending Theme
+Dialogue: 0,0:02:24.87,0:02:38.10,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs29\fscx100.00}「유리의 실」
+Dialogue: 0,0:02:24.87,0:02:38.10,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}“Garasu no Ito”
+Dialogue: 0,0:02:26.59,0:02:39.81,Credit,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,568,616,-80.000)\fs29\fscx100.00}노래
+Dialogue: 0,0:02:26.59,0:02:39.81,CreditEN,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,603,616,-45.000)\fscx100.00}Vocals
+Dialogue: 0,0:02:26.59,0:02:39.81,Credit,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,568,652,-80.000)\fs29\fscx100.00}쿠유리
+Dialogue: 0,0:02:26.59,0:02:39.81,CreditEN,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,603,652,-45.000)\fscx100.00}Kuyuri
+Dialogue: 0,0:02:27.98,0:02:41.20,Credit,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,568,616,-80.000)\fs29\fscx100.00}기타 솔로
+Dialogue: 0,0:02:27.98,0:02:41.20,CreditEN,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,603,616,-45.000)\fscx100.00}Guitar Solo
+Dialogue: 0,0:02:27.98,0:02:41.20,Credit,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,568,652,-80.000)\fs29\fscx100.00}겟시
+Dialogue: 0,0:02:27.98,0:02:41.20,CreditEN,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,603,652,-45.000)\fscx100.00}Gesshi
+Dialogue: 0,0:02:29.36,0:02:42.59,Credit,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,568,616,-80.000)\fs29\fscx100.00}작사
+Dialogue: 0,0:02:29.36,0:02:42.59,CreditEN,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,603,616,-45.000)\fscx100.00}Lyrics
+Dialogue: 0,0:02:29.36,0:02:42.59,Credit,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,568,652,-80.000)\fs29\fscx100.00}아케오
+Dialogue: 0,0:02:29.36,0:02:42.59,CreditEN,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,603,652,-45.000)\fscx100.00}Akeo
+Dialogue: 0,0:02:30.75,0:02:43.98,Credit,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,568,616,-80.000)\fs29\fscx100.00}작곡·편곡
+Dialogue: 0,0:02:30.75,0:02:43.98,CreditEN,,0,0,0,,{\an9\clip(0,0,1280,568)\move(616,603,616,-45.000)\fscx100.00}Composition/Arrangement
+Dialogue: 0,0:02:30.75,0:02:43.98,Credit,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,568,652,-80.000)\fs29\fscx100.00}Low
+Dialogue: 0,0:02:30.75,0:02:43.98,CreditEN,,0,0,0,,{\an7\clip(0,0,1280,568)\move(652,603,652,-45.000)\fscx100.00}Low
+Dialogue: 0,0:02:34.10,0:02:47.32,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs24\fscx100.00}프로모션 매니저
+Dialogue: 0,0:02:34.10,0:02:47.32,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Promotion Manager
+Dialogue: 0,0:02:35.57,0:02:48.79,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(462,568,462,-80.000)\fs29\fscx100.00}이이다 야스타카
+Dialogue: 0,0:02:35.57,0:02:48.79,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(462,603,462,-45.000)\fscx100.00}Yasutaka Iida
+Dialogue: 0,0:02:35.57,0:02:48.79,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(842,568,842,-80.000)\fs29\fscx100.00}하세가와 히로유키
+Dialogue: 0,0:02:35.57,0:02:48.79,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(842,603,842,-45.000)\fscx100.00}Hiroyuki Hasegawa
+Dialogue: 0,0:02:38.91,0:02:52.14,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs24\fscx100.00}프로모션 영상 제작
+Dialogue: 0,0:02:38.91,0:02:52.14,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Promotion Video
+Dialogue: 0,0:02:40.38,0:02:53.61,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(462,568,462,-80.000)\fs29\fscx100.00}케어프리
+Dialogue: 0,0:02:40.38,0:02:53.61,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(462,603,462,-45.000)\fscx100.00}Carefree
+Dialogue: 0,0:02:40.38,0:02:53.61,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(842,568,842,-80.000)\fs29\fscx100.00}VISMODEL
+Dialogue: 0,0:02:40.38,0:02:53.61,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(842,603,842,-45.000)\fscx100.00}VISMODEL
+Dialogue: 0,0:02:41.77,0:02:55.00,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs29\fscx100.00}Ami Nakazawa
+Dialogue: 0,0:02:41.77,0:02:55.00,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Ami Nakazawa
+Dialogue: 0,0:02:45.12,0:02:58.34,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs24\fscx100.00}패키지 디자인
+Dialogue: 0,0:02:45.12,0:02:58.34,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Package Design
+Dialogue: 0,0:02:46.59,0:02:59.81,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(462,568,462,-80.000)\fs29\fscx100.00}하세가와 히로유키
+Dialogue: 0,0:02:46.59,0:02:59.81,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(462,603,462,-45.000)\fscx100.00}Hiroyuki Hasegawa
+Dialogue: 0,0:02:46.59,0:02:59.81,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(842,568,842,-80.000)\fs29\fscx100.00}아케오
+Dialogue: 0,0:02:46.59,0:02:59.81,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(842,603,842,-45.000)\fscx100.00}Akeo
+Dialogue: 0,0:02:49.93,0:03:03.16,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs24\fscx100.00}공식 사이트 제작
+Dialogue: 0,0:02:49.93,0:03:03.16,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Official Website
+Dialogue: 0,0:02:51.40,0:03:04.63,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs29\fscx100.00}하세가와 히로유키
+Dialogue: 0,0:02:51.40,0:03:04.63,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Hiroyuki Hasegawa
+Dialogue: 0,0:02:54.75,0:03:07.97,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs24\fscx100.00}현지화 (영어)
+Dialogue: 0,0:02:54.75,0:03:07.97,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Fatal Twelve English Localization Staff
+Dialogue: 0,0:02:56.22,0:03:09.44,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs29\fscx100.00}Sekai Project
+Dialogue: 0,0:02:56.22,0:03:09.44,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Sekai Project
+Dialogue: 0,0:02:59.57,0:03:12.79,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs24\fscx100.00}현지화 프로듀서
+Dialogue: 0,0:02:59.57,0:03:12.79,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Localization Producer
+Dialogue: 0,0:03:01.04,0:03:14.26,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs29\fscx100.00}Christopher Ling
+Dialogue: 0,0:03:01.04,0:03:14.26,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Christopher Ling
+Dialogue: 0,0:03:04.38,0:03:17.61,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs24\fscx100.00}마케팅
+Dialogue: 0,0:03:04.38,0:03:17.61,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Marketing
+Dialogue: 0,0:03:05.85,0:03:19.08,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(462,568,462,-80.000)\fs29\fscx100.00}Frances Delgado
+Dialogue: 0,0:03:05.85,0:03:19.08,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(462,603,462,-45.000)\fscx100.00}Frances Delgado
+Dialogue: 0,0:03:05.85,0:03:19.08,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(842,568,842,-80.000)\fs29\fscx100.00}Stephanie Hii
+Dialogue: 0,0:03:05.85,0:03:19.08,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(842,603,842,-45.000)\fscx100.00}Stephanie Hii
+Dialogue: 0,0:03:09.20,0:03:22.42,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs24\fscx100.00}번역
+Dialogue: 0,0:03:09.20,0:03:22.42,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Translator
+Dialogue: 0,0:03:10.67,0:03:23.89,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs29\fscx100.00}Ryan Thomson
+Dialogue: 0,0:03:10.67,0:03:23.89,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Ryan Thomson
+Dialogue: 0,0:03:14.02,0:03:27.24,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs24\fscx100.00}편집
+Dialogue: 0,0:03:14.02,0:03:27.24,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Editor
+Dialogue: 0,0:03:15.48,0:03:28.71,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs29\fscx100.00}Nick Doerr
+Dialogue: 0,0:03:15.48,0:03:28.71,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Nick Doerr
+Dialogue: 0,0:03:18.83,0:03:32.06,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs24\fscx100.00}QA 책임자
+Dialogue: 0,0:03:18.83,0:03:32.06,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}QA Lead
+Dialogue: 0,0:03:20.30,0:03:33.53,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs29\fscx100.00}Maria Kamille Chavez
+Dialogue: 0,0:03:20.30,0:03:33.53,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Maria Kamille Chavez
+Dialogue: 0,0:03:23.65,0:03:36.87,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs24\fscx100.00}QA 테스트
+Dialogue: 0,0:03:23.65,0:03:36.87,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}QA Testing
+Dialogue: 0,0:03:25.12,0:03:38.34,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(462,568,462,-80.000)\fs29\fscx100.00}Stephanie Fox-Daniel
+Dialogue: 0,0:03:25.12,0:03:38.34,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(462,603,462,-45.000)\fscx100.00}Stephanie Fox-Daniel
+Dialogue: 0,0:03:25.12,0:03:38.34,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(842,568,842,-80.000)\fs29\fscx100.00}Mashiro
+Dialogue: 0,0:03:25.12,0:03:38.34,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(842,603,842,-45.000)\fscx100.00}Mashiro
+Dialogue: 0,0:03:26.51,0:03:39.73,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(462,568,462,-80.000)\fs29\fscx100.00}Nerem
+Dialogue: 0,0:03:26.51,0:03:39.73,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(462,603,462,-45.000)\fscx100.00}Nerem
+Dialogue: 0,0:03:26.51,0:03:39.73,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(842,568,842,-80.000)\fs29\fscx100.00}Luke Renaud
+Dialogue: 0,0:03:26.51,0:03:39.73,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(842,603,842,-45.000)\fscx100.00}Luke Renaud
+Dialogue: 0,0:03:29.85,0:03:43.08,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs24\fscx100.00}Special Thanks
+Dialogue: 0,0:03:29.85,0:03:43.08,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Special Thanks
+Dialogue: 0,0:03:31.32,0:03:44.55,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(462,568,462,-80.000)\fs29\fscx100.00}다카시
+Dialogue: 0,0:03:31.32,0:03:44.55,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(462,603,462,-45.000)\fscx100.00}Takashi
+Dialogue: 0,0:03:31.32,0:03:44.55,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(842,568,842,-80.000)\fs29\fscx100.00}포테오
+Dialogue: 0,0:03:31.32,0:03:44.55,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(842,603,842,-45.000)\fscx100.00}Poteo
+Dialogue: 0,0:03:32.71,0:03:45.93,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(462,568,462,-80.000)\fs29\fscx100.00}Renpy SDK
+Dialogue: 0,0:03:32.71,0:03:45.93,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(462,603,462,-45.000)\fscx100.00}Renpy SDK
+Dialogue: 0,0:03:32.71,0:03:45.93,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(842,568,842,-80.000)\fs29\fscx100.00}REV (REV Music Production)
+Dialogue: 0,0:03:32.71,0:03:45.93,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(842,603,842,-45.000)\fscx100.00}REV (REV Music Production)
+Dialogue: 0,0:03:34.10,0:03:47.32,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs29\fscx100.00}All Kickstarter Backers
+Dialogue: 0,0:03:34.10,0:03:47.32,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}All Kickstarter Backers
+Dialogue: 0,0:03:37.44,0:03:50.67,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs24\fscx100.00}개발 디렉터
+Dialogue: 0,0:03:37.44,0:03:50.67,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Development Director
+Dialogue: 0,0:03:38.91,0:03:52.14,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(462,568,462,-80.000)\fs29\fscx100.00}다니엘레P
+Dialogue: 0,0:03:38.91,0:03:52.14,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(462,603,462,-45.000)\fscx100.00}DanieleP
+Dialogue: 0,0:03:38.91,0:03:52.14,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(842,568,842,-80.000)\fs29\fscx100.00}아케오
+Dialogue: 0,0:03:38.91,0:03:52.14,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(842,603,842,-45.000)\fscx100.00}Akeo
+Dialogue: 0,0:03:42.26,0:03:55.48,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs24\fscx100.00}제작 관리
+Dialogue: 0,0:03:42.26,0:03:55.48,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Development Manager
+Dialogue: 0,0:03:43.73,0:03:56.95,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs29\fscx100.00}이이다 야스타카
+Dialogue: 0,0:03:43.73,0:03:56.95,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Yasutaka Iida
+Dialogue: 0,0:03:47.08,0:04:00.30,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs24\fscx100.00}제작 진행
+Dialogue: 0,0:03:47.08,0:04:00.30,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Production Assistant
+Dialogue: 0,0:03:48.55,0:04:01.77,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(462,568,462,-80.000)\fs29\fscx100.00}아케오
+Dialogue: 0,0:03:48.55,0:04:01.77,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(462,603,462,-45.000)\fscx100.00}Akeo
+Dialogue: 0,0:03:48.55,0:04:01.77,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(842,568,842,-80.000)\fs29\fscx100.00}케어프리
+Dialogue: 0,0:03:48.55,0:04:01.77,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(842,603,842,-45.000)\fscx100.00}Carefree
+Dialogue: 0,0:03:51.89,0:04:05.12,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs24\fscx100.00}프로듀서
+Dialogue: 0,0:03:51.89,0:04:05.12,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Producer
+Dialogue: 0,0:03:53.36,0:04:06.59,Credit,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,568,640,-80.000)\fs29\fscx100.00}이이다 야스타카
+Dialogue: 0,0:03:53.36,0:04:06.59,CreditEN,,0,0,0,,{\an8\clip(0,0,1280,568)\move(640,603,640,-45.000)\fscx100.00}Yasutaka Iida
+Dialogue: 0,0:04:09.06,0:04:15.56,Credit,,0,0,0,,{\pos(640,270)\fs24\fad(350,900)}제작
+Dialogue: 0,0:04:09.06,0:04:15.56,CreditEN,,0,0,0,,{\pos(640,307)\fad(350,900)}Produced by
+Dialogue: 0,0:04:09.06,0:04:15.56,Credit,,0,0,0,,{\pos(640,332)\fs31\fad(350,900)}아이우에오 컴퍼니
+Dialogue: 0,0:04:09.06,0:04:15.56,CreditEN,,0,0,0,,{\pos(640,369)\fad(350,900)}aiueoKompany
+Dialogue: 1,0:00:24.06,0:00:28.78,Original,,0,0,0,,木漏れ日の公園で
+Dialogue: 1,0:00:24.06,0:00:28.78,Korean,,0,0,0,,나뭇잎 사이로 햇살이 드는 공원에서
+Dialogue: 1,0:00:28.78,0:00:32.94,Original,,0,0,0,,あなたのことを見つけた
+Dialogue: 1,0:00:28.78,0:00:32.94,Korean,,0,0,0,,너를 발견했어
+Dialogue: 1,0:00:32.94,0:00:38.22,Original,,0,0,0,,高い空見上げて
+Dialogue: 1,0:00:32.94,0:00:38.22,Korean,,0,0,0,,높은 하늘을 올려다보며
+Dialogue: 1,0:00:38.22,0:00:42.50,Original,,0,0,0,,太陽と手を繋いでいた
+Dialogue: 1,0:00:38.22,0:00:42.50,Korean,,0,0,0,,태양과 손을 맞잡고 있었지
+Dialogue: 1,0:00:43.56,0:00:47.70,Original,,0,0,0,,あれからずっと 二人の距離は
+Dialogue: 1,0:00:43.56,0:00:47.70,Korean,,0,0,0,,그때부터 줄곧 우리 사이는
+Dialogue: 1,0:00:47.70,0:00:52.70,Original,,0,0,0,,触れ合うことない指先のまま
+Dialogue: 1,0:00:47.70,0:00:52.70,Korean,,0,0,0,,닿지 않는 손끝처럼 떨어져 있었어
+Dialogue: 1,0:00:53.24,0:00:55.60,Original,,0,0,0,,ガラスの糸で 紡がれた
+Dialogue: 1,0:00:53.24,0:00:55.60,Korean,,0,0,0,,유리의 실로 자아낸
+Dialogue: 1,0:00:55.60,0:01:00.40,Original,,0,0,0,,時計仕掛けの運命が
+Dialogue: 1,0:00:55.60,0:01:00.40,Korean,,0,0,0,,시계장치 같은 운명이
+Dialogue: 1,0:01:00.40,0:01:06.18,Original,,0,0,0,,たとえ砕けそうなほど儚くても
+Dialogue: 1,0:01:00.40,0:01:06.18,Korean,,0,0,0,,금방이라도 부서질 만큼 덧없다 해도
+Dialogue: 1,0:01:06.18,0:01:10.88,Original,,0,0,0,,幼い日 願った想い 叶えたい
+Dialogue: 1,0:01:06.18,0:01:10.88,Korean,,0,0,0,,어린 날 품었던 소원을 이루고 싶어
+Dialogue: 1,0:01:10.88,0:01:14.92,Original,,0,0,0,,透明に消えてしまわないように
+Dialogue: 1,0:01:10.88,0:01:14.92,Korean,,0,0,0,,투명하게 사라져 버리지 않도록
+Dialogue: 1,0:01:14.92,0:01:18.58,Original,,0,0,0,,私がその手を握るよ
+Dialogue: 1,0:01:14.92,0:01:18.58,Korean,,0,0,0,,내가 그 손을 잡을게
+Dialogue: 1,0:01:18.58,0:01:21.30,Original,,0,0,0,,どうか壊れないで
+Dialogue: 1,0:01:18.58,0:01:21.30,Korean,,0,0,0,,부디 부서지지 마
+Dialogue: 1,0:01:21.30,0:01:25.80,Original,,0,0,0,,長く伸びたあなたの
+Dialogue: 1,0:01:21.30,0:01:25.80,Korean,,0,0,0,,길게 드리워진 네
+Dialogue: 1,0:01:25.80,0:01:30.60,Original,,0,0,0,,影を確かに見つけた
+Dialogue: 1,0:01:25.80,0:01:30.60,Korean,,0,0,0,,그림자를 분명히 보았어
+Dialogue: 1,0:01:31.48,0:01:35.70,Original,,0,0,0,,もう春が終わるねと
+Dialogue: 1,0:01:31.48,0:01:35.70,Korean,,0,0,0,,이제 봄도 끝나 가네, 라며
+Dialogue: 1,0:01:35.70,0:01:40.30,Original,,0,0,0,,夕焼けにはにかんでいた
+Dialogue: 1,0:01:35.70,0:01:40.30,Korean,,0,0,0,,노을 속에서 수줍게 웃었지
+Dialogue: 1,0:01:41.20,0:01:45.40,Original,,0,0,0,,寂しい風を抱きしめたとき
+Dialogue: 1,0:01:41.20,0:01:45.40,Korean,,0,0,0,,쓸쓸한 바람을 끌어안았을 때
+Dialogue: 1,0:01:45.96,0:01:50.40,Original,,0,0,0,,触れ合う心が寄り添い出した
+Dialogue: 1,0:01:45.96,0:01:50.40,Korean,,0,0,0,,맞닿은 마음이 서로에게 기대기 시작했어
+Dialogue: 1,0:01:51.20,0:01:53.40,Original,,0,0,0,,ガラスの糸は 掛け違え
+Dialogue: 1,0:01:51.20,0:01:53.40,Korean,,0,0,0,,유리의 실은 어긋나고
+Dialogue: 1,0:01:53.40,0:01:58.04,Original,,0,0,0,,時計仕掛けの運命が
+Dialogue: 1,0:01:53.40,0:01:58.04,Korean,,0,0,0,,시계장치 같은 운명이
+Dialogue: 1,0:01:58.04,0:02:03.68,Original,,0,0,0,,例えば女神の悪戯だとしても
+Dialogue: 1,0:01:58.04,0:02:03.68,Korean,,0,0,0,,설령 여신의 장난이라 해도
+Dialogue: 1,0:02:03.68,0:02:08.52,Original,,0,0,0,,愛しい日 誓った想い 叶えたい
+Dialogue: 1,0:02:03.68,0:02:08.52,Korean,,0,0,0,,소중한 날 맹세한 마음을 이루고 싶어
+Dialogue: 1,0:02:08.52,0:02:12.54,Original,,0,0,0,,解れそうになってしまわないように
+Dialogue: 1,0:02:08.52,0:02:12.54,Korean,,0,0,0,,올올이 풀려 버리지 않도록
+Dialogue: 1,0:02:12.54,0:02:16.20,Original,,0,0,0,,赤い糸 紡ぎ直すよ
+Dialogue: 1,0:02:12.54,0:02:16.20,Korean,,0,0,0,,붉은 실을 다시 자아낼게
+Dialogue: 1,0:02:16.20,0:02:19.30,Original,,0,0,0,,どうか離れないで
+Dialogue: 1,0:02:16.20,0:02:19.30,Korean,,0,0,0,,부디 떨어지지 마
+Dialogue: 1,0:02:38.16,0:02:43.14,Original,,0,0,0,,ここじゃない世界にあなたがいても
+Dialogue: 1,0:02:38.16,0:02:43.14,Korean,,0,0,0,,네가 이곳 아닌 다른 세상에 있더라도
+Dialogue: 1,0:02:43.14,0:02:47.40,Original,,0,0,0,,必ず探し出すよ
+Dialogue: 1,0:02:43.14,0:02:47.40,Korean,,0,0,0,,반드시 찾아낼게
+Dialogue: 1,0:02:47.82,0:02:52.64,Original,,0,0,0,,一つじゃない世界で 私は目指す
+Dialogue: 1,0:02:47.82,0:02:52.64,Korean,,0,0,0,,여러 세상 속에서 널 향해 가
+Dialogue: 1,0:02:52.64,0:02:57.40,Original,,0,0,0,,どこでも見つけ出すよ
+Dialogue: 1,0:02:52.64,0:02:57.40,Korean,,0,0,0,,어디에 있든 찾아낼게
+Dialogue: 1,0:03:00.08,0:03:05.78,Original,,0,0,0,,もしも私の夢だとしたなら
+Dialogue: 1,0:03:00.08,0:03:05.78,Korean,,0,0,0,,만약 이 모든 게 나의 꿈이라면
+Dialogue: 1,0:03:05.78,0:03:07.78,Original,,0,0,0,,尊い日
+Dialogue: 1,0:03:05.78,0:03:07.78,Korean,,0,0,0,,소중했던 날들도
+Dialogue: 1,0:03:07.78,0:03:10.86,Original,,0,0,0,,その温もりは偽物ですか
+Dialogue: 1,0:03:07.78,0:03:10.86,Korean,,0,0,0,,그 온기마저 거짓인가요
+Dialogue: 1,0:03:10.86,0:03:15.16,Original,,0,0,0,,決して切れない透明な糸を
+Dialogue: 1,0:03:10.86,0:03:15.16,Korean,,0,0,0,,결코 끊어지지 않는 투명한 실을
+Dialogue: 1,0:03:15.16,0:03:18.34,Original,,0,0,0,,一緒に染めていこう
+Dialogue: 1,0:03:15.16,0:03:18.34,Korean,,0,0,0,,함께 물들여 가자
+Dialogue: 1,0:03:18.34,0:03:23.00,Original,,0,0,0,,どうかずっときっと…
+Dialogue: 1,0:03:18.34,0:03:23.00,Korean,,0,0,0,,부디, 언제까지나, 꼭…

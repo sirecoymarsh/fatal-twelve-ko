@@ -1,0 +1,158 @@
+{
+  "files": [
+    {
+      "file": "packets/scenario/scenario_001.jsonl",
+      "rows": 844,
+      "sha256": "9f059f78eee175558a376837e53158dc29dcc4872a12ac64e529c6853730fc42"
+    },
+    {
+      "file": "packets/scenario/scenario_002.jsonl",
+      "rows": 668,
+      "sha256": "4c17a8169cb7d3741a8c7d7dc0a6028a531c8c78833706f29e464ceec7cdf059"
+    },
+    {
+      "file": "packets/scenario/scenario_003.jsonl",
+      "rows": 1526,
+      "sha256": "3d487e56dcd7e0c9b13ff7583a8d0c4ef9ff769e26874ee4cf3aa12726cf27eb"
+    },
+    {
+      "file": "packets/scenario/scenario_004.jsonl",
+      "rows": 1067,
+      "sha256": "67aa0444a203cd23a3efa119ff79719b776044b112883ff93e80f84bd5989ee8"
+    },
+    {
+      "file": "packets/scenario/scenario_005_1.jsonl",
+      "rows": 1657,
+      "sha256": "54cc2071f051ad041084daf6f97403763ad590e8f93903d0b995777d6f31bf43"
+    },
+    {
+      "file": "packets/scenario/scenario_005_2.jsonl",
+      "rows": 1042,
+      "sha256": "974e5ce34c94cc495aa959a7a6231236c7d7ecb6da2fe9b922c479e6807ca473"
+    },
+    {
+      "file": "packets/scenario/scenario_006.jsonl",
+      "rows": 755,
+      "sha256": "dfdca9de754a5f7fdc6a0da2d6dfa78f5c4f834bd6532ecae1241ef638f79e3d"
+    },
+    {
+      "file": "packets/scenario/scenario_007_1.jsonl",
+      "rows": 1063,
+      "sha256": "158b2315eaa49c61fad621f92f39acf20af52fbb610d3a2abd50fe31d9e9d6c6"
+    },
+    {
+      "file": "packets/scenario/scenario_007_2.jsonl",
+      "rows": 1471,
+      "sha256": "a1f9388e7f575503d591029108baf2a0c0d8bdcfd171ad43e13d9a745c05d3e6"
+    },
+    {
+      "file": "packets/scenario/scenario_008.jsonl",
+      "rows": 1500,
+      "sha256": "08320d3e48598f8d249f1312305ff691041b04afb589f7f5f6a5acd18e3b41e3"
+    },
+    {
+      "file": "packets/scenario/scenario_009.jsonl",
+      "rows": 1588,
+      "sha256": "d15c8c85a36d447fc9d69e043ca9188f620def97722befff092b724835b5254b"
+    },
+    {
+      "file": "packets/scenario/scenario_010.jsonl",
+      "rows": 1337,
+      "sha256": "bfa9f3350500aabcb9f8b9e6e9091c4f0ed0556ef116fc0acbad023ee298a364"
+    },
+    {
+      "file": "packets/scenario/scenario_011_01.jsonl",
+      "rows": 408,
+      "sha256": "3cc70c4d113bf1f9d4752d01c7b000462545ee033256b5eb49ed02be5e5a4326"
+    },
+    {
+      "file": "packets/scenario/scenario_011_01F.jsonl",
+      "rows": 210,
+      "sha256": "cfe1f169ae0afe82b92e8a4c121523f4ccb9ee5e7d4e1a293c6c17904abf9566"
+    },
+    {
+      "file": "packets/scenario/scenario_011_01G.jsonl",
+      "rows": 192,
+      "sha256": "9e12f2f04c1e90b92eaa910938ef19df3d2fce4f94b09e18074e2a6809382041"
+    },
+    {
+      "file": "packets/scenario/scenario_011_01H.jsonl",
+      "rows": 63,
+      "sha256": "2bdc489f57ef36fd9395c1419d1d7dedcecb3ddabb0ca051f698b6c097d00e1b"
+    },
+    {
+      "file": "packets/scenario/scenario_011_02.jsonl",
+      "rows": 131,
+      "sha256": "6da2f6d622f8ad0d2f30face82471e746a952676f3f9df9b9cac41bf825a6a3e"
+    },
+    {
+      "file": "packets/scenario/scenario_011_02GH.jsonl",
+      "rows": 325,
+      "sha256": "6b5cbf1fe492b6f13ab01d8a14f230e90a41264a22ef37a9e4343e290cccb35a"
+    },
+    {
+      "file": "packets/scenario/scenario_012_01F.jsonl",
+      "rows": 1190,
+      "sha256": "9c7751f89f81bd7a741a698b24856b15eddabed8c1d0c7101ad3d0e1464c2418"
+    },
+    {
+      "file": "packets/scenario/scenario_012_01GH.jsonl",
+      "rows": 313,
+      "sha256": "62641a438867d49a5191de0622f16318f723c926ad6a0e57180178fd0f8d37b0"
+    },
+    {
+      "file": "packets/scenario/scenario_012_02.jsonl",
+      "rows": 209,
+      "sha256": "d37e3391faf3febfdf427342c1d0010b96d4db00325ac0b7f2be579377f7fab6"
+    },
+    {
+      "file": "packets/scenario/scenario_BAD_END_01.jsonl",
+      "rows": 58,
+      "sha256": "493bf87bf2bc661d3221e7436138ed344b416f7f0c75472c72211ec8211d1fc0"
+    },
+    {
+      "file": "packets/scenario/scenario_BAD_END_02.jsonl",
+      "rows": 80,
+      "sha256": "5587e52724088ac5dae1fb6a68f37e59bc6105add003344d5c488f2958e34678"
+    },
+    {
+      "file": "packets/scenario/scenario_BAD_END_03.jsonl",
+      "rows": 21,
+      "sha256": "12fdef1bcabbdd85257424877558bed8b0be5908003ef63b628b239476c9d0b5"
+    },
+    {
+      "file": "packets/scenario/scenario_BAD_END_04.jsonl",
+      "rows": 43,
+      "sha256": "2581cdfe8b6064f4f32fd4aee2bf1c6582a6a1ae1b9c052e6e5c13af7b34413c"
+    },
+    {
+      "file": "packets/scenario/scenario_MIHARU_END.jsonl",
+      "rows": 26,
+      "sha256": "d20054d0d03c0c2aeefad85491b775b8b51e9a57232f90848774453b7301056b"
+    },
+    {
+      "file": "packets/scenario/scenario_NG_plus.jsonl",
+      "rows": 185,
+      "sha256": "f1ae8469671dddd01ec66c1fdfddabe9da2f71fe351d465c84160b70303f487d"
+    },
+    {
+      "file": "packets/scenario/scenario_TRUE_END.jsonl",
+      "rows": 125,
+      "sha256": "4b2c5265f339141408c9e9821bb7a0091ae83fb77e392f72e7294c88ffdfa985"
+    },
+    {
+      "file": "packets/scenario/scenario_UNHAPPY_END.jsonl",
+      "rows": 87,
+      "sha256": "9085dd4390b2f2ae1845d18326fe7ec34b02aadb8a202936e684c9ef2c14ec3d"
+    }
+  ],
+  "rows": 18184,
+  "rows_by_model": {
+    "gemini-4-carbon": 1265,
+    "gemini-4-argon": 16919
+  },
+  "source_guide_model": "gemini-4-carbon",
+  "guide_sha256": "ca0bd90a4ba2a3c054821e3e0b557dc92ecf1cfe5ffc5014e22a8ac5a55231c2",
+  "merged_sha256": "5c527e90da1dfe4f102e49e5a34c0b5de68f9cf5af63740ed88cd62c49f45ead",
+  "zip_sha256": "11f9064643dddf50813da5557389db52be976a5dfaf10750dbe3f73768d1b799"
+}

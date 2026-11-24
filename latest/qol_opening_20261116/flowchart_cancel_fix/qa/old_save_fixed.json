@@ -1,0 +1,12 @@
+{
+  "phase": "old_save_fixed", 
+  "engine": "6.99.14.3.3347", 
+  "status": "PASS", 
+  "old_cancel_applied_on_first_start": {
+    "open_columns": 1, 
+    "selected": 0, 
+    "open_weeks": 1, 
+    "view": false, 
+    "selected_key": "1주차"
+  }
+}

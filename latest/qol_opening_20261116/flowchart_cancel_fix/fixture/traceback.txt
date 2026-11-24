@@ -1,0 +1,54 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 198, in script call
+    call _gl_test
+  File "renpy/common/00gltest.rpy", line 441, in script
+    $ __gl_test()
+  File "renpy/common/00gltest.rpy", line 441, in <module>
+    $ __gl_test()
+  File "renpy/common/00gltest.rpy", line 359, in _m1_00gltest__gl_test
+    _gl_performance_test()
+  File "renpy/common/00gltest.rpy", line 384, in _gl_performance_test
+    ui.interact(suppress_underlay=True, suppress_overlay=True)
+Exception: Could not set video mode.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "P:\AI\Codex\projects\fatal-twelve-ko\qol_opening_20261116\fixture\renpy\bootstrap.py", line 306, in bootstrap
+    renpy.main.main()
+  File "P:\AI\Codex\projects\fatal-twelve-ko\qol_opening_20261116\fixture\renpy\main.py", line 513, in main
+    run(restart)
+  File "P:\AI\Codex\projects\fatal-twelve-ko\qol_opening_20261116\fixture\renpy\main.py", line 139, in run
+    renpy.execution.run_context(True)
+  File "P:\AI\Codex\projects\fatal-twelve-ko\qol_opening_20261116\fixture\renpy\execution.py", line 846, in run_context
+    context.run()
+  File "renpy/common/00start.rpy", line 198, in script call
+    call _gl_test
+  File "renpy/common/00gltest.rpy", line 441, in script
+    $ __gl_test()
+  File "P:\AI\Codex\projects\fatal-twelve-ko\qol_opening_20261116\fixture\renpy\ast.py", line 862, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "P:\AI\Codex\projects\fatal-twelve-ko\qol_opening_20261116\fixture\renpy\python.py", line 1888, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "renpy/common/00gltest.rpy", line 441, in <module>
+    $ __gl_test()
+  File "renpy/common/00gltest.rpy", line 359, in _m1_00gltest__gl_test
+    _gl_performance_test()
+  File "renpy/common/00gltest.rpy", line 384, in _gl_performance_test
+    ui.interact(suppress_underlay=True, suppress_overlay=True)
+  File "P:\AI\Codex\projects\fatal-twelve-ko\qol_opening_20261116\fixture\renpy\ui.py", line 287, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "P:\AI\Codex\projects\fatal-twelve-ko\qol_opening_20261116\fixture\renpy\display\core.py", line 2603, in interact
+    self.start()
+  File "P:\AI\Codex\projects\fatal-twelve-ko\qol_opening_20261116\fixture\renpy\display\core.py", line 1760, in start
+    self.set_mode()
+  File "P:\AI\Codex\projects\fatal-twelve-ko\qol_opening_20261116\fixture\renpy\display\core.py", line 2002, in set_mode
+    raise Exception("Could not set video mode.")
+Exception: Could not set video mode.
+
+Windows-8-6.2.9200
+Ren'Py 6.99.14.3.3347
+FATAL TWELVE 180420
+Mon Nov 16 20:35:37 2026

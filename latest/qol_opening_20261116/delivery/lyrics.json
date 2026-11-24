@@ -1,0 +1,39 @@
+{
+  "korean": "남이 정한 시간 속에선 살고 싶지 않아",
+  "wording_source": "user-supplied verbatim",
+  "translator_model": "Codex internal",
+  "cues": [
+    {
+      "movie": "OP",
+      "source_subtitle": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\opening_localization_20261002\\delivery_v62\\reference\\OP_large.ass",
+      "source_sha256": "503230f9953d078e65ef63c2b87b7219ce70af21e5d835d63b26cf8036d045c9",
+      "result_sha256": "6c66fd8f50fb68f56890dbc0a49113072416968da9cf6c8ef3f20f50ffc02c7b",
+      "times": [
+        [
+          "0:00:46.36",
+          "0:00:51.66"
+        ]
+      ]
+    },
+    {
+      "movie": "ED_MHR_UNH",
+      "source_subtitle": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\ending_localization_20261003\\subtitles_v2\\ED_MHR_UNH.ass",
+      "source_sha256": "a9475d453e81c980a6d836021351808cae2b9b2b6e9a94ea7a97e34c2d178329",
+      "result_sha256": "2222a66741f1a3c9219d0539928872d32a6d21eae05f143b93263b0eab51a9f5",
+      "times": [
+        [
+          "0:00:50.23",
+          "0:00:55.53"
+        ],
+        [
+          "0:02:02.18",
+          "0:02:07.38"
+        ],
+        [
+          "0:03:06.14",
+          "0:03:13.38"
+        ]
+      ]
+    }
+  ]
+}

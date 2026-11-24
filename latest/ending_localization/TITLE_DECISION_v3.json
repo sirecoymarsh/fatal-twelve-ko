@@ -1,0 +1,28 @@
+{
+  "created_at": "2026-10-04T01:43:59.920062+09:00",
+  "user_instruction": "유리실이라 하니까 유리방같은데 유리의 실이라고 해라",
+  "source_title": "硝子の糸",
+  "canonical_korean_title": "유리의 실",
+  "translator_model": "Codex internal",
+  "changes": [
+    {
+      "id": "ending_theme_title",
+      "before": "「유리실」",
+      "after": "「유리의 실」"
+    },
+    {
+      "id": "G07",
+      "before": "유리실로 자아낸",
+      "after": "유리의 실로 자아낸"
+    },
+    {
+      "id": "G20",
+      "before": "유리실은 어긋나고",
+      "after": "유리의 실은 어긋나고"
+    }
+  ],
+  "baseline_ass_sha256": "87ff63815fe5e55dd4543c1713ac276491168fa0f8bf251b998a854c847d2c8e",
+  "revised_ass_sha256": "272677eeaeeb517d5a9d6cdece50b6b61843e16c2bd0457bfb8a9edb07bc22f8",
+  "source_uncertainty_not_changed": true,
+  "old_v2_media_and_provenance_preserved": true
+}

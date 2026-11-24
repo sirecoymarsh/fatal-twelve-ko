@@ -1,0 +1,19 @@
+{
+  "status": "installed_verified",
+  "project": "P:/AI/Codex/projects/fatal-twelve-ko",
+  "existing_opening": "decoded v63 in runtime; lossless v68 patch history retained as the base",
+  "opening": "17 credit groups evaluated, 8 source plates rebuilt; 813 frames changed before subtitles; 3057 frames total",
+  "feature": "game_qa/functional.json and reopen.json both PASS; 56 gallery groups / 138 variants / 23 replay buttons / 228 flowchart entries; real player storage untouched in tests",
+  "lyric": "User-supplied wording in delivery/OP.ass (1) and delivery/ED_MHR_UNH.ass (3). Rendered all four cues. See movie_validation.json.",
+  "cg": "Native Korean gallery read and rendered the accepted carton at game_qa/milk_gallery.png. White label and blue side localized; original lower fine print remains.",
+  "sources": [
+    "https://www.renpy.org/doc/html/rooms.html",
+    "https://github.com/sczhou/ProPainter",
+    "https://ffmpeg.org/ffmpeg-filters.html#ass"
+  ],
+  "flowchart_cancel_fix": {
+    "record": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\qol_opening_20261116\\flowchart_cancel_fix\\install\\INSTALL.json",
+    "qa": "P:\\AI\\Codex\\projects\\fatal-twelve-ko\\qol_opening_20261116\\flowchart_cancel_fix\\qa",
+    "status": "PASS"
+  }
+}

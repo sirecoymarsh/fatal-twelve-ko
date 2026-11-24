@@ -1,0 +1,81 @@
+# FATAL TWELVE bonus access. A single patch preference controls preview availability.
+init 8 python:
+    import copy as _f12_bonus_copy
+    import renpy.persistent as _f12_persistence
+
+    def f12_bonus_enabled():
+        return bool(getattr(renpy.game.persistent, "f12_bonus_open", False))
+
+    class F12BonusSetting(Action, DictEquality):
+        def __init__(self, enabled):
+            self.enabled = bool(enabled)
+
+        def __call__(self):
+            renpy.game.persistent.f12_bonus_open = self.enabled
+            f12_fc_set_revealed(self.enabled)
+            renpy.restart_interaction()
+
+        def get_selected(self):
+            return f12_bonus_enabled() == self.enabled
+
+    def f12_bonus_label(ko, en, ja):
+        return {"korean": ko, "english": en}.get(_preferences.language, ja)
+
+    def f12_bonus_gallery_for_view():
+        return _f12_preview_gallery if f12_bonus_enabled() else gallery
+
+    def _f12_build_preview_gallery(source):
+        duplicate = Gallery()
+        for key in ("transition", "unlocked_advance", "navigation", "span_buttons", "slideshow_delay"):
+            setattr(duplicate, key, getattr(source, key))
+        for name, group in sorted(source.buttons.items(), key=lambda pair: pair[1].index):
+            duplicate.button(name)
+            for image in group.images:
+                duplicate.image(*image.displayables)
+                duplicate.transform(*image.transforms)
+        return duplicate
+
+    _f12_preview_gallery = _f12_build_preview_gallery(gallery)
+
+    def _f12_bonus_progress_key(key):
+        return (key.startswith("_seen") or key.startswith("_chosen") or
+                key.endswith("_clear") or key.endswith("_seen"))
+
+    def f12_bonus_run_preview(action):
+        if not f12_bonus_enabled() or store._in_replay:
+            return action()
+        # Replay executes actual script statements. Retain reading, images, and
+        # routes from ordinary play, including play while bonus access is on.
+        renpy.save_persistent()
+        owner = renpy.game.persistent
+        snap = {k: _f12_bonus_copy.deepcopy(v) for k, v in vars(owner).items() if _f12_bonus_progress_key(k)}
+        seen = renpy.game.seen_session.copy()
+        count = renpy.game.seen_translates_count
+        saving = _f12_persistence.should_save_persistent
+        _f12_persistence.should_save_persistent = False
+        try:
+            return action()
+        finally:
+            values = vars(owner)
+            for key in list(values):
+                if _f12_bonus_progress_key(key) and key not in snap:
+                    del values[key]
+            values.update(snap)
+            renpy.game.seen_session.clear()
+            renpy.game.seen_session.update(seen)
+            renpy.game.seen_translates_count = count
+            _f12_persistence.should_save_persistent = saving
+            renpy.save_persistent()
+
+    class F12BonusReplay(Replay):
+        def __call__(self):
+            return f12_bonus_run_preview(super(F12BonusReplay, self).__call__)
+
+    def f12_bonus_replay(label, earned, scope=None):
+        if f12_bonus_enabled():
+            return F12BonusReplay(label, scope or {}, locked=False)
+        return [Replay(label, scope or {}), SensitiveIf(earned)]
+
+    def f12_bonus_gallery_achievement(key):
+        if not f12_bonus_enabled():
+            grant_achievement(key)
